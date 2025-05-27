@@ -1,0 +1,26 @@
+id: empty
+title: "Experimental Measurements Purposes and Treatments ontologY"
+github_org: andreagaede
+git_main_branch: main
+repo: empty-ontology
+release_artefacts:
+  - base
+  - full
+  - simple
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+import_group:
+  products:
+    - id: ro
+    - id: pato
+    - id: omo
+robot_java_args: "-Xmx8G"
+robot_report:
+  use_labels: TRUE
+  fail_on: ERROR
+  custom_profile: TRUE
+  report_on:
+    - edit
