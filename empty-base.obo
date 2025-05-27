@@ -1,0 +1,15 @@
+format-version: 1.2
+data-version: empty/releases/2025-05-27/empty-base.owl
+idspace: dce http://purl.org/dc/elements/1.1/ 
+idspace: dcterms http://purl.org/dc/terms/ 
+ontology: empty/empty-base
+property_value: dce:type IAO:8000001
+property_value: dcterms:description "None" xsd:string
+property_value: dcterms:license https://creativecommons.org/licenses/unspecified
+property_value: dcterms:title "Experimental Measurements Purposes and Treatments ontologY" xsd:string
+property_value: owl:versionInfo "2025-05-27" xsd:string
+
+[Term]
+id: EMPTY:0000000
+name: root node
+

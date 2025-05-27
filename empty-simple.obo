@@ -1,0 +1,14 @@
+format-version: 1.2
+data-version: empty/releases/2025-05-27/empty-simple.owl
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: terms http://purl.org/dc/terms/ 
+ontology: empty/empty-simple
+property_value: owl:versionInfo "2025-05-27" xsd:string
+property_value: terms:description "None" xsd:string
+property_value: terms:license https://creativecommons.org/licenses/unspecified
+property_value: terms:title "Experimental Measurements Purposes and Treatments ontologY" xsd:string
+
+[Term]
+id: EMPTY:0000000
+name: root node
+
