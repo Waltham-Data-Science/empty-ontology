@@ -18,6 +18,8 @@ Annotation(dcterms:title "Experimental Measurements Purposes and Treatments onto
 
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000090>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000091>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000092>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -45,7 +47,6 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000001> (empty)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000001> "empty ontology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000001> "empty"@en)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000090> (Behavioral measurement)
@@ -53,6 +54,18 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000001> "
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000090> "A type of scientific measurement that quantifies an observable action, reaction, or pattern of conduct exhibited by an organism. Behavioral measurements are typically used in biological, psychological, and ethological studies to assess an organism's response to internal states, external stimuli, or experimental manipulations. These can range from simple reflexes to complex social interactions and are obtained through methods including direct observation, video tracking, or specialized automated apparatuses.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000090> "Behavioral measurement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000090> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000091> (Elevated plus maze measurement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000091> "A specific category of behavioral measurement obtained from the Elevated Plus Maze (EPM) apparatus, an assay widely used in neuroscience and pharmacology to study anxiety-like behavior and the effects of anxiolytic or anxiogenic compounds in laboratory animals, typically rodents. These measurements quantify various aspects of the animal's exploratory activity, spatial preference (e.g., for open vs. enclosed arms), and specific behaviors (e.g., entries, time spent in zones, freezing) within the maze, providing insights into its emotional state and response to perceived risk.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000091> "Elevated plus maze measurement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000091> <http://purl.obolibrary.org/obo/EMPTY_00000090>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000092> (Acoustic Startle Response measurement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000092> "A type of behavioral measurement that quantifies the reflexive motor response (startle reflex) of an organism to a sudden, intense stimulus, typically acoustic. These measurements are often used to study sensory processing, sensorimotor gating (e.g., prepulse inhibition), and emotional modulation of reflexes (e.g., fear-potentiated startle).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000092> "Acoustic Startle Response measurement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000092> <http://purl.obolibrary.org/obo/EMPTY_00000090>)
 
 
 )
