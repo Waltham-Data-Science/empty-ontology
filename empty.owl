@@ -18,11 +18,11 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/empty.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-05-27/empty.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-05-31/empty.owl"/>
         <dcterms:description>None</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <dcterms:title>Experimental Measurements Purposes and Treatments ontologY</dcterms:title>
-        <owl:versionInfo>2025-05-27</owl:versionInfo>
+        <owl:versionInfo>2025-05-31</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -64,7 +64,35 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: &apos;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&apos;  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&apos;t be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; or &apos;property&apos;. For &apos;reference&apos; in the intended sense I think we use the term &apos;denotation&apos;. For &apos;expression&apos;, I think we you mean symbol, or identifier. For &apos;meaning&apos; it differs for class and property. For class we want documentation that let&apos;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&apos;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &apos;intended reader&apos; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -2428,10 +2456,41 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EMPTY_0000000 -->
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000000">
-        <rdfs:label xml:lang="en">root node</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000001">
+        <obo:IAO_0000115>Experimental Measurements Purposes and Treatments ontologY</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">empty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
+        <obo:IAO_0000115>A type of scientific measurement that quantifies an observable action, reaction, or pattern of conduct exhibited by an organism. Behavioral measurements are typically used in biological, psychological, and ethological studies to assess an organism&apos;s response to internal states, external stimuli, or experimental manipulations. These can range from simple reflexes to complex social interactions and are obtained through methods including direct observation, video tracking, or specialized automated apparatuses.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Behavioral measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000090"/>
+        <obo:IAO_0000115>A specific category of behavioral measurement obtained from the Elevated Plus Maze (EPM) apparatus, an assay widely used in neuroscience and pharmacology to study anxiety-like behavior and the effects of anxiolytic or anxiogenic compounds in laboratory animals, typically rodents. These measurements quantify various aspects of the animal&apos;s exploratory activity, spatial preference (e.g., for open vs. enclosed arms), and specific behaviors (e.g., entries, time spent in zones, freezing) within the maze, providing insights into its emotional state and response to perceived risk.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Elevated plus maze measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000090"/>
+        <obo:IAO_0000115>A type of behavioral measurement that quantifies the reflexive motor response (startle reflex) of an organism to a sudden, intense stimulus, typically acoustic. These measurements are often used to study sensory processing, sensorimotor gating (e.g., prepulse inhibition), and emotional modulation of reflexes (e.g., fear-potentiated startle).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Acoustic Startle Response measurement</rdfs:label>
     </owl:Class>
     
 

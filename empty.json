@@ -13,9 +13,9 @@
         "val" : "Experimental Measurements Purposes and Treatments ontologY"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-05-27"
+        "val" : "2025-05-31"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/empty/releases/2025-05-27/empty.json"
+      "version" : "http://purl.obolibrary.org/obo/empty/releases/2025-05-31/empty.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000002",
@@ -109,9 +109,41 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000000",
-      "lbl" : "root node",
-      "type" : "CLASS"
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000001",
+      "lbl" : "empty",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Experimental Measurements Purposes and Treatments ontologY"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000090",
+      "lbl" : "Behavioral measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A type of scientific measurement that quantifies an observable action, reaction, or pattern of conduct exhibited by an organism. Behavioral measurements are typically used in biological, psychological, and ethological studies to assess an organism's response to internal states, external stimuli, or experimental manipulations. These can range from simple reflexes to complex social interactions and are obtained through methods including direct observation, video tracking, or specialized automated apparatuses."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000091",
+      "lbl" : "Elevated plus maze measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A specific category of behavioral measurement obtained from the Elevated Plus Maze (EPM) apparatus, an assay widely used in neuroscience and pharmacology to study anxiety-like behavior and the effects of anxiolytic or anxiogenic compounds in laboratory animals, typically rodents. These measurements quantify various aspects of the animal's exploratory activity, spatial preference (e.g., for open vs. enclosed arms), and specific behaviors (e.g., entries, time spent in zones, freezing) within the maze, providing insights into its emotional state and response to perceived risk."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000092",
+      "lbl" : "Acoustic Startle Response measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A type of behavioral measurement that quantifies the reflexive motor response (startle reflex) of an organism to a sudden, intense stimulus, typically acoustic. These measurements are often used to study sensory processing, sensorimotor gating (e.g., prepulse inhibition), and emotional modulation of reflexes (e.g., fear-potentiated startle)."
+        }
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0003674",
       "lbl" : "molecular_function",
@@ -2788,8 +2820,30 @@
       "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "lbl" : "definition",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "definition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "2012-04-05: \nBarry Smith\n\nThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.\n\nCan you fix to something like:\n\nA statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.\n\nAlan Ruttenberg\n\nYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. \n\nOn the specifics of the proposed definition:\n\nWe don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. \n\nPersonally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. \n\nWe also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        } ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000116",
       "type" : "PROPERTY",
@@ -3046,6 +3100,18 @@
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000040",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000090",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000091",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000090"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000092",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000090"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0003674",
       "pred" : "is_a",

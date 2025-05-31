@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/empty/empty-base.owl#"
      xml:base="http://purl.obolibrary.org/obo/empty/empty-base.owl"
      xmlns:dce="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -9,12 +10,12 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/empty/empty-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-05-27/empty-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-05-31/empty-base.owl"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:description>None</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <dcterms:title>Experimental Measurements Purposes and Treatments ontologY</dcterms:title>
-        <owl:versionInfo>2025-05-27</owl:versionInfo>
+        <owl:versionInfo>2025-05-31</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -27,6 +28,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     
 
 
@@ -65,10 +72,41 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EMPTY_0000000 -->
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000000">
-        <rdfs:label xml:lang="en">root node</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000001">
+        <obo:IAO_0000115>Experimental Measurements Purposes and Treatments ontologY</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">empty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
+        <obo:IAO_0000115>A type of scientific measurement that quantifies an observable action, reaction, or pattern of conduct exhibited by an organism. Behavioral measurements are typically used in biological, psychological, and ethological studies to assess an organism&apos;s response to internal states, external stimuli, or experimental manipulations. These can range from simple reflexes to complex social interactions and are obtained through methods including direct observation, video tracking, or specialized automated apparatuses.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Behavioral measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000090"/>
+        <obo:IAO_0000115>A specific category of behavioral measurement obtained from the Elevated Plus Maze (EPM) apparatus, an assay widely used in neuroscience and pharmacology to study anxiety-like behavior and the effects of anxiolytic or anxiogenic compounds in laboratory animals, typically rodents. These measurements quantify various aspects of the animal&apos;s exploratory activity, spatial preference (e.g., for open vs. enclosed arms), and specific behaviors (e.g., entries, time spent in zones, freezing) within the maze, providing insights into its emotional state and response to perceived risk.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Elevated plus maze measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000090"/>
+        <obo:IAO_0000115>A type of behavioral measurement that quantifies the reflexive motor response (startle reflex) of an organism to a sudden, intense stimulus, typically acoustic. These measurements are often used to study sensory processing, sensorimotor gating (e.g., prepulse inhibition), and emotional modulation of reflexes (e.g., fear-potentiated startle).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Acoustic Startle Response measurement</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

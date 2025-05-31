@@ -1,14 +1,33 @@
 format-version: 1.2
-data-version: empty/releases/2025-05-27/empty-simple.owl
+data-version: empty/releases/2025-05-31/empty-simple.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: empty/empty-simple
-property_value: owl:versionInfo "2025-05-27" xsd:string
+property_value: owl:versionInfo "2025-05-31" xsd:string
 property_value: terms:description "None" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/unspecified
 property_value: terms:title "Experimental Measurements Purposes and Treatments ontologY" xsd:string
 
 [Term]
-id: EMPTY:0000000
-name: root node
+id: EMPTY:00000001
+name: empty
+def: "Experimental Measurements Purposes and Treatments ontologY" []
+
+[Term]
+id: EMPTY:00000090
+name: Behavioral measurement
+def: "A type of scientific measurement that quantifies an observable action, reaction, or pattern of conduct exhibited by an organism. Behavioral measurements are typically used in biological, psychological, and ethological studies to assess an organism's response to internal states, external stimuli, or experimental manipulations. These can range from simple reflexes to complex social interactions and are obtained through methods including direct observation, video tracking, or specialized automated apparatuses." []
+is_a: EMPTY:00000001 ! empty
+
+[Term]
+id: EMPTY:00000091
+name: Elevated plus maze measurement
+def: "A specific category of behavioral measurement obtained from the Elevated Plus Maze (EPM) apparatus, an assay widely used in neuroscience and pharmacology to study anxiety-like behavior and the effects of anxiolytic or anxiogenic compounds in laboratory animals, typically rodents. These measurements quantify various aspects of the animal's exploratory activity, spatial preference (e.g., for open vs. enclosed arms), and specific behaviors (e.g., entries, time spent in zones, freezing) within the maze, providing insights into its emotional state and response to perceived risk." []
+is_a: EMPTY:00000090 ! Behavioral measurement
+
+[Term]
+id: EMPTY:00000092
+name: Acoustic Startle Response measurement
+def: "A type of behavioral measurement that quantifies the reflexive motor response (startle reflex) of an organism to a sudden, intense stimulus, typically acoustic. These measurements are often used to study sensory processing, sensorimotor gating (e.g., prepulse inhibition), and emotional modulation of reflexes (e.g., fear-potentiated startle)." []
+is_a: EMPTY:00000090 ! Behavioral measurement
 
