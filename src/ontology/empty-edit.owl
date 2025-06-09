@@ -69,4 +69,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000092> "
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000092> <http://purl.obolibrary.org/obo/EMPTY_00000090>)
 
 
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000093> (Fear Conditioning measurement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000093> "A type of behavioral measurement derived from fear conditioning paradigms, where an initially neutral conditioned stimulus (CS) is paired with an aversive unconditioned stimulus (US), leading to the CS eliciting conditioned fear responses. These measurements quantify aspects of fear acquisition, memory consolidation, recall, extinction, and the emotional state associated with conditioned fear, such as freezing, startle potentiation, or avoidance.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000093> "Fear Conditioning measurement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000093> <http://purl.obolibrary.org/obo/EMPTY_00000090>)
+
 )
