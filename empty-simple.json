@@ -13,9 +13,9 @@
         "val" : "Experimental Measurements Purposes and Treatments ontologY"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-05-31"
+        "val" : "2025-06-09"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/empty/releases/2025-05-31/empty-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/empty/releases/2025-06-09/empty-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000001",
@@ -51,6 +51,555 @@
       "meta" : {
         "definition" : {
           "val" : "A type of behavioral measurement that quantifies the reflexive motor response (startle reflex) of an organism to a sudden, intense stimulus, typically acoustic. These measurements are often used to study sensory processing, sensorimotor gating (e.g., prepulse inhibition), and emotional modulation of reflexes (e.g., fear-potentiated startle)."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000093",
+      "lbl" : "Fear Conditioning measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A type of behavioral measurement derived from fear conditioning paradigms, where an initially neutral conditioned stimulus (CS) is paired with an aversive unconditioned stimulus (US), leading to the CS eliciting conditioned fear responses. These measurements quantify aspects of fear acquisition, memory consolidation, recall, extinction, and the emotional state associated with conditioned fear, such as freezing, startle potentiation, or avoidance."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000094",
+      "lbl" : "Acoustic Startle Response derived measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A type of behavioral measurement that is not a direct reading of a startle reflex, but is instead a value calculated, inferred, or derived from one or more primary Acoustic Startle Response (ASR) data points. Examples include percentage changes in ASR, ratios, or rates of change over time."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000100",
+      "lbl" : "Elevated Plus Maze: open arm (north) - entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (North)'. The 'Open Arm (North)' is one of the two open arms, distinguished by its assigned 'north' orientation or designation in the experimental setup. Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000101",
+      "lbl" : "Elevated Plus Maze: open arm (south) - entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (South)'. The 'Open Arm (South)' is one of the two open arms, distinguished by its assigned 'south' orientation or designation in the experimental setup. Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000102",
+      "lbl" : "Elevated Plus Maze: open arm total entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this represents the total number of times the animal's body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). It is a common measure of exploration and anxiety. Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000103",
+      "lbl" : "Elevated Plus Maze: open arm (north) - head entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (North)' zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as 'north'. Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000104",
+      "lbl" : "Elevated Plus Maze: open arm (south) - head entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (South)' zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as 'south'. Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000105",
+      "lbl" : "Elevated Plus Maze: open arm total head entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's head (specifically tracked by the software) enters any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'), considered an indicator of risk-assessment behavior. Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000106",
+      "lbl" : "Elevated Plus Maze: open arm (north) - time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (North)' zone. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000107",
+      "lbl" : "Elevated Plus Maze: open arm (south) - time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000108",
+      "lbl" : "Elevated Plus Maze: open arm total time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Less time is generally indicative of higher anxiety. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000109",
+      "lbl" : "Elevated Plus Maze: open arm total - percent time in 5 minutes",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000110",
+      "lbl" : "Elevated Plus Maze: open arm (north) - latency to first entry",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (North)' zone. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000111",
+      "lbl" : "Elevated Plus Maze: open arm (south) - latency to first entry",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (South)' zone. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000112",
+      "lbl" : "Elevated Plus Maze: open arm total latency to first entry",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'). Longer latencies often suggest higher anxiety. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000113",
+      "lbl" : "Elevated Plus Maze: open arm (north) - time moving towards",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (North)' zone, as detected by the tracking software. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000114",
+      "lbl" : "Elevated Plus Maze: open arm (south) - time moving towards",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (South)' zone, as detected by the tracking software. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000115",
+      "lbl" : "Elevated Plus Maze: open arm total time moving towards",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), reflecting approach motivation. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000116",
+      "lbl" : "Elevated Plus Maze: open arm (north) - time freezing",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined 'Open Arm (North)' zone. Freezing is a common fear response. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000117",
+      "lbl" : "Elevated Plus Maze: open arm (south) - time freezing",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000118",
+      "lbl" : "Elevated Plus Maze: open arm total time freezing",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), indicating fear or anxiety. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000119",
+      "lbl" : "Elevated Plus Maze: closed arm (west) - entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (West)' zone, representing the enclosed arm designated as 'west'. Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000120",
+      "lbl" : "Elevated Plus Maze: closed arm (east) - entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (East)' zone, representing the enclosed arm designated as 'east'. Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000121",
+      "lbl" : "Elevated Plus Maze: closed arm total entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's body fully enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). It is often used as an indicator of general locomotor activity. Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000122",
+      "lbl" : "Elevated Plus Maze: closed arm (west) - head entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (West)' zone. Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000123",
+      "lbl" : "Elevated Plus Maze: closed arm (east) - head entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (East)' zone. Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000124",
+      "lbl" : "Elevated Plus Maze: closed arm total head entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's head enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000125",
+      "lbl" : "Elevated Plus Maze: closed arm (west) - time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000126",
+      "lbl" : "Elevated Plus Maze: closed arm (east) - time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000127",
+      "lbl" : "Elevated Plus Maze: closed arm total time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000128",
+      "lbl" : "Elevated Plus Maze: closed arm total - percent time in 5 minutes",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: %"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000129",
+      "lbl" : "Elevated Plus Maze: closed arm (west) - latency to first entry",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000130",
+      "lbl" : "Elevated Plus Maze: closed arm (east) - latency to first entry",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000131",
+      "lbl" : "Elevated Plus Maze: closed arm total latency to first entry",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000132",
+      "lbl" : "Elevated Plus Maze: closed arm (west) - time moving towards",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000133",
+      "lbl" : "Elevated Plus Maze: closed arm (east) - time moving towards",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000134",
+      "lbl" : "Elevated Plus Maze: closed arm total time moving towards",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000135",
+      "lbl" : "Elevated Plus Maze: closed arm (west) - time freezing",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000136",
+      "lbl" : "Elevated Plus Maze: closed arm (east) - time freezing",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000137",
+      "lbl" : "Elevated Plus Maze: closed arm total time freezing",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000138",
+      "lbl" : "Elevated Plus Maze: center - entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Center' zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000139",
+      "lbl" : "Elevated Plus Maze: center - head entries",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Center' zone of the maze. Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000140",
+      "lbl" : "Elevated Plus Maze: center - time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Center' zone. Time in the center can indicate decision-making or risk assessment. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000141",
+      "lbl" : "Elevated Plus Maze: center - percent time in 5 minutes",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000142",
+      "lbl" : "Elevated Plus Maze: center - latency to first entry",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Center' zone. If the animal starts in the center, this value may be zero or not applicable. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000143",
+      "lbl" : "Elevated Plus Maze: center - time moving towards",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Center' zone of the maze (e.g., from an arm). Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000144",
+      "lbl" : "Elevated Plus Maze: center - time freezing",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Center' zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000145",
+      "lbl" : "Elevated Plus Maze: test identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "For an Elevated Plus Maze experiment, this is a unique code or descriptive name assigned to identify a specific experimental session, trial, or a particular set of recorded data. It helps in organizing and referencing data from distinct observations."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000146",
+      "lbl" : "Elevated Plus Maze: animal identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "For an Elevated Plus Maze experiment, this is a unique code or label assigned to an individual animal subject. This allows for tracking and associating behavioral data with specific animals, along with their characteristics like strain, sex, or age."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000147",
+      "lbl" : "Elevated Plus Maze: treatment group",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "For an Elevated Plus Maze experiment, this describes the experimental condition or group to which an animal belongs (e.g., control, specific drug administration, genetic modification). It is used to compare behavioral outcomes between different experimental manipulations."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000148",
+      "lbl" : "Fear-Potentiated Startle: baseline acoustic startle response amplitude",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-shock test phases. Unit of measure: mV"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000149",
+      "lbl" : "Fear-Potentiated Startle: foot-shock reactivity",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Fear-Potentiated Startle paradigm, this is the average amplitude of the movement response (termed startle amplitude by the authors of the source manuscript) elicited directly by the foot-shock presentations during the fear conditioning phase (no white noise burst present). This measurement reflects the animal's unconditioned reflexive motor response to the aversive stimulus and is a key observation within the conditioning procedure. Unit of measure: mV"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000150",
+      "lbl" : "Fear-Potentiated Startle: acoustic startle response amplitude in noise-only trials (Context B, cued fear baseline)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured during noise-only trials presented in a novel context (Context B) after fear conditioning, interspersed with cued trials. This serves as the immediate baseline for calculating cued fear. Unit of measure: mV"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000151",
+      "lbl" : "Fear-Potentiated Startle: acoustic startle response amplitude in light+noise trials (Context B, cued fear test)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured during trials where the startle-eliciting noise is presented concurrently with the conditioned stimulus (CS, e.g., a light) in a novel context (Context B) after fear conditioning. This is the primary measure used to assess fear conditioned to the cue. Unit of measure: mV"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000152",
+      "lbl" : "Fear-Potentiated Startle: acoustic startle response amplitude in post-shock trials (Context B, non-cued fear baseline)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured during initial noise-only trials in a novel context (Context B) after fear conditioning, before the presentation of cued (light+noise) trials. This serves as the baseline for calculating non-cued fear/anxious arousal. Unit of measure: mV"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000153",
+      "lbl" : "Fear-Potentiated Startle: acoustic startle response amplitude in pre-shock period (Context A, contextual fear baseline)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in the conditioning context (Context A) during a baseline period before any foot-shocks are delivered on the conditioning day, or on a subsequent day before assessing contextual fear recall. Unit of measure: mV"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000154",
+      "lbl" : "Fear-Potentiated Startle: acoustic startle response amplitude in post-shock period (Context A, contextual fear assessment)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in the original conditioning context (Context A) on a subsequent day, in the absence of the specific cue (light), to assess fear conditioned to the context. Unit of measure: mV"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000155",
+      "lbl" : "Fear-Potentiated Startle: percentage change of ASR for cued fear",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Fear-Potentiated Startle paradigm, this is a calculated measure of cued fear, determined by the formula: ((ASR during Light+Noise trials - ASR during Noise-Only trials) / ASR during Noise-Only trials) x 100%, conducted in Context B. Unit of measure: %"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000156",
+      "lbl" : "Fear-Potentiated Startle: percentage change of ASR for non-cued fear (anxious arousal)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Fear-Potentiated Startle paradigm, this is a calculated measure of non-cued fear or anxious arousal, determined by the formula: ((ASR during interspersed Noise-Only trials in recall - ASR during initial Post-Shock trials in recall) / ASR during initial Post-Shock trials in recall) x 100%, conducted in Context B. It reflects heightened startle occurring between cue presentations. Unit of measure: %"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000157",
+      "lbl" : "Fear-Potentiated Startle: percentage change of ASR for contextual fear",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Fear-Potentiated Startle paradigm, this is a calculated measure of contextual fear, determined by the formula: ((ASR during Post-Shock period in Context A - ASR during Pre-Shock period in Context A) / ASR during Pre-Shock period in Context A) x 100%. Unit of measure: %"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000158",
+      "lbl" : "Fear-Potentiated Startle: rate of fear extinction",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Fear-Potentiated Startle paradigm, this refers to the progressive reduction in conditioned fear responses (cued, non-cued, or contextual) observed over repeated testing sessions in the absence of the unconditioned stimulus (foot-shock). It is typically assessed by tracking changes in ASR-based fear measures (which themselves may be direct ASRs or derived measures) across multiple days or trials. Unit of measure: N/A (descriptive, based on change over time/sessions)"
         }
       }
     }, {
@@ -131,6 +680,270 @@
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000092",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000090"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000093",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000090"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000094",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000090"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000100",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000101",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000102",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000103",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000104",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000105",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000106",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000107",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000108",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000109",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000110",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000111",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000112",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000113",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000114",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000115",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000116",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000117",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000118",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000119",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000120",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000121",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000122",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000123",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000124",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000125",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000126",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000127",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000128",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000129",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000130",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000131",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000132",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000133",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000134",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000135",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000136",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000137",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000138",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000139",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000140",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000141",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000142",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000143",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000144",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000145",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000146",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000147",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000148",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000149",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000149",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000093"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000150",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000151",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000152",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000153",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000154",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000155",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000093"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000155",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000156",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000093"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000156",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000157",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000093"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000157",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000158",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000093"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000158",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000094"
     } ]
   } ]
 }
