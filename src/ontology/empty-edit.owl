@@ -440,6 +440,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000157> "
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000157> <http://purl.obolibrary.org/obo/EMPTY_00000093>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000157> <http://purl.obolibrary.org/obo/EMPTY_00000094>)
 
-
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000158> (Fear-Potentiated Startle: rate of fear extinction)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000158> "In the Fear-Potentiated Startle paradigm, this refers to the progressive reduction in conditioned fear responses (cued, non-cued, or contextual) observed over repeated testing sessions in the absence of the unconditioned stimulus (foot-shock). It is typically assessed by tracking changes in ASR-based fear measures (which themselves may be direct ASRs or derived measures) across multiple days or trials. Unit of measure: N/A (descriptive, based on change over time/sessions)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000158> "Fear-Potentiated Startle: rate of fear extinction"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000158> <http://purl.obolibrary.org/obo/EMPTY_00000093>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000158> <http://purl.obolibrary.org/obo/EMPTY_00000094>)
 
 )
