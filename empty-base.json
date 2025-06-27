@@ -489,7 +489,63 @@
         }
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000168",
+      "lbl" : "Investigator-defined cell type",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A cell type proposed by an investigator on the basis of electrophysiological or anatomical criteria."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "investigatorDefinedCellType"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000169",
+      "lbl" : "Type I BNST neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that fires regularly, displays moderate spike frequency adaptation, and exhibits a voltage sag indicating the presence of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]"
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "BNSTNeuronTypeI"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000170",
+      "lbl" : "Type III BNST neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) characterized by a high rheobase, absence of voltage sag under negative current steps, prominent inward rectification due to the activation of the inward rectifying K+ current (IKIR) at membrane potentials more negative than approximately -50 mV, and firing onset after a characteristic slow voltage ramp mediated by the K+ delayed current (ID). [Source: https://doi.org/10.1016/j.celrep.2025.115768]"
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "BNSTNeuronTypeIII"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000171",
+      "lbl" : "Optogenetic Tetanus Stimulation Target Location",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The specific anatomical region where tetanic light stimulation (TLS) is applied in optogenetic experiments to evoke neuronal activity. The value should be defined by the ONTOLOGY_NAME:ONTOLOGY_NODE (e.g. 'UBERON:0000123')."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "optogeneticTetanusStimulationTargetLocation"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000118",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
@@ -713,6 +769,22 @@
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000145",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000168",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000169",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000168"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000170",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000168"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000171",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
     } ]
   } ]
 }

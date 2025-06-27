@@ -408,6 +408,34 @@ def: "For an Elevated Plus Maze experiment, this is a unique code or descriptive
 is_a: EMPTY:00000091 ! Elevated plus maze measurement
 
 [Term]
+id: EMPTY:00000168
+name: Investigator-defined cell type
+def: "A cell type proposed by an investigator on the basis of electrophysiological or anatomical criteria." []
+is_a: EMPTY:00000001 ! empty
+property_value: IAO:0000118 "investigatorDefinedCellType" xsd:string
+
+[Term]
+id: EMPTY:00000169
+name: Type I BNST neuron
+def: "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that fires regularly, displays moderate spike frequency adaptation, and exhibits a voltage sag indicating the presence of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]" []
+is_a: EMPTY:00000168 ! Investigator-defined cell type
+property_value: IAO:0000118 "BNSTNeuronTypeI" xsd:string
+
+[Term]
+id: EMPTY:00000170
+name: Type III BNST neuron
+def: "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) characterized by a high rheobase, absence of voltage sag under negative current steps, prominent inward rectification due to the activation of the inward rectifying K+ current (IKIR) at membrane potentials more negative than approximately -50 mV, and firing onset after a characteristic slow voltage ramp mediated by the K+ delayed current (ID). [Source: https://doi.org/10.1016/j.celrep.2025.115768]" []
+is_a: EMPTY:00000168 ! Investigator-defined cell type
+property_value: IAO:0000118 "BNSTNeuronTypeIII" xsd:string
+
+[Term]
+id: EMPTY:00000171
+name: Optogenetic Tetanus Stimulation Target Location
+def: "The specific anatomical region where tetanic light stimulation (TLS) is applied in optogenetic experiments to evoke neuronal activity. The value should be defined by the ONTOLOGY_NAME:ONTOLOGY_NODE (e.g. 'UBERON:0000123')." []
+is_a: EMPTY:00000001 ! empty
+property_value: IAO:0000118 "optogeneticTetanusStimulationTargetLocation" xsd:string
+
+[Term]
 id: GO:0003674
 name: gene product or complex activity
 name: molecular_function
