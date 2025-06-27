@@ -33,10 +33,10 @@ AnnotationProperty: allocatedto:
 Datatype: idrange:1
 
     Annotations: 
-        allocatedto: "ONTOLOGY-CREATOR"
+        allocatedto: "dre"
     
     EquivalentTo: 
-        xsd:integer[>= 0 , <= 999999]
+        xsd:integer[>= 0 , <= 99999999]
 
     
 Datatype: idrange:2
@@ -45,7 +45,15 @@ Datatype: idrange:2
         allocatedto: "ADDITIONAL EDITOR"
     
     EquivalentTo: 
-        xsd:integer[>= 1000000 , <= 1999999]
+        xsd:integer[>= 100000000 , <= 199999999]
+
+Datatype: idrange:3
+
+    Annotations: 
+        allocatedto: "steve"
+    
+    EquivalentTo: 
+        xsd:integer[>= 200000000 , <= 299999999]
     
     
 Datatype: xsd:integer
