@@ -364,18 +364,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000145> "
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000145> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000146> (Elevated Plus Maze: animal identifier)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000146> "For an Elevated Plus Maze experiment, this is a unique code or label assigned to an individual animal subject. This allows for tracking and associating behavioral data with specific animals, along with their characteristics like strain, sex, or age.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000146> "Elevated Plus Maze: animal identifier"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000146> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
-
-
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000147> (Elevated Plus Maze: treatment group)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000147> "For an Elevated Plus Maze experiment, this describes the experimental condition or group to which an animal belongs (e.g., control, specific drug administration, genetic modification). It is used to compare behavioral outcomes between different experimental manipulations.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000147> "Elevated Plus Maze: treatment group"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000147> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
-
-
 
 
 
