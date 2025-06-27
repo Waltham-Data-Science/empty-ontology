@@ -37,6 +37,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/type -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
@@ -587,6 +593,50 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>For an Elevated Plus Maze experiment, this is a unique code or descriptive name assigned to identify a specific experimental session, trial, or a particular set of recorded data. It helps in organizing and referencing data from distinct observations.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Elevated Plus Maze: test identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
+        <obo:IAO_0000115>A cell type proposed by an investigator on the basis of electrophysiological or anatomical criteria.</obo:IAO_0000115>
+        <obo:IAO_0000118>investigatorDefinedCellType</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Investigator-defined cell type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000168"/>
+        <obo:IAO_0000115>A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that fires regularly, displays moderate spike frequency adaptation, and exhibits a voltage sag indicating the presence of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]</obo:IAO_0000115>
+        <obo:IAO_0000118>BNSTNeuronTypeI</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Type I BNST neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000168"/>
+        <obo:IAO_0000115>A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) characterized by a high rheobase, absence of voltage sag under negative current steps, prominent inward rectification due to the activation of the inward rectifying K+ current (IKIR) at membrane potentials more negative than approximately -50 mV, and firing onset after a characteristic slow voltage ramp mediated by the K+ delayed current (ID). [Source: https://doi.org/10.1016/j.celrep.2025.115768]</obo:IAO_0000115>
+        <obo:IAO_0000118>BNSTNeuronTypeIII</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Type III BNST neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
+        <obo:IAO_0000115>The specific anatomical region where tetanic light stimulation (TLS) is applied in optogenetic experiments to evoke neuronal activity. The value should be defined by the ONTOLOGY_NAME:ONTOLOGY_NODE (e.g. &apos;UBERON:0000123&apos;).</obo:IAO_0000115>
+        <obo:IAO_0000118>optogeneticTetanusStimulationTargetLocation</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Optogenetic Tetanus Stimulation Target Location</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

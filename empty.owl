@@ -110,7 +110,16 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <obo:IAO_0000111 xml:lang="en">alternative label</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like.</obo:IAO_0000115>
+        <obo:IAO_0000117>OBO Operations committee</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:comment>Consider re-defing to: An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related).</rdfs:comment>
+        <rdfs:label xml:lang="en">alternative label</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -2971,6 +2980,50 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>For an Elevated Plus Maze experiment, this is a unique code or descriptive name assigned to identify a specific experimental session, trial, or a particular set of recorded data. It helps in organizing and referencing data from distinct observations.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Elevated Plus Maze: test identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
+        <obo:IAO_0000115>A cell type proposed by an investigator on the basis of electrophysiological or anatomical criteria.</obo:IAO_0000115>
+        <obo:IAO_0000118>investigatorDefinedCellType</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Investigator-defined cell type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000168"/>
+        <obo:IAO_0000115>A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that fires regularly, displays moderate spike frequency adaptation, and exhibits a voltage sag indicating the presence of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]</obo:IAO_0000115>
+        <obo:IAO_0000118>BNSTNeuronTypeI</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Type I BNST neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000168"/>
+        <obo:IAO_0000115>A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) characterized by a high rheobase, absence of voltage sag under negative current steps, prominent inward rectification due to the activation of the inward rectifying K+ current (IKIR) at membrane potentials more negative than approximately -50 mV, and firing onset after a characteristic slow voltage ramp mediated by the K+ delayed current (ID). [Source: https://doi.org/10.1016/j.celrep.2025.115768]</obo:IAO_0000115>
+        <obo:IAO_0000118>BNSTNeuronTypeIII</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Type III BNST neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
+        <obo:IAO_0000115>The specific anatomical region where tetanic light stimulation (TLS) is applied in optogenetic experiments to evoke neuronal activity. The value should be defined by the ONTOLOGY_NAME:ONTOLOGY_NODE (e.g. &apos;UBERON:0000123&apos;).</obo:IAO_0000115>
+        <obo:IAO_0000118>optogeneticTetanusStimulationTargetLocation</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Optogenetic Tetanus Stimulation Target Location</rdfs:label>
     </owl:Class>
     
 
