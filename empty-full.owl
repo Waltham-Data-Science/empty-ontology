@@ -18,11 +18,11 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/empty/empty-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-06-09/empty-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-06-27/empty-full.owl"/>
         <dcterms:description>None</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <dcterms:title>Experimental Measurements Purposes and Treatments ontologY</dcterms:title>
-        <owl:versionInfo>2025-06-09</owl:versionInfo>
+        <owl:versionInfo>2025-06-27</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2975,141 +2975,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000146 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
-        <obo:IAO_0000115>For an Elevated Plus Maze experiment, this is a unique code or label assigned to an individual animal subject. This allows for tracking and associating behavioral data with specific animals, along with their characteristics like strain, sex, or age.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: animal identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000147 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000147">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
-        <obo:IAO_0000115>For an Elevated Plus Maze experiment, this describes the experimental condition or group to which an animal belongs (e.g., control, specific drug administration, genetic modification). It is used to compare behavioral outcomes between different experimental manipulations.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: treatment group</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000148 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000148">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-shock test phases. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: baseline acoustic startle response amplitude</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000149 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000149">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000093"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the average amplitude of the movement response (termed startle amplitude by the authors of the source manuscript) elicited directly by the foot-shock presentations during the fear conditioning phase (no white noise burst present). This measurement reflects the animal&apos;s unconditioned reflexive motor response to the aversive stimulus and is a key observation within the conditioning procedure. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: foot-shock reactivity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000150 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured during noise-only trials presented in a novel context (Context B) after fear conditioning, interspersed with cued trials. This serves as the immediate baseline for calculating cued fear. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: acoustic startle response amplitude in noise-only trials (Context B, cued fear baseline)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000151 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000151">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured during trials where the startle-eliciting noise is presented concurrently with the conditioned stimulus (CS, e.g., a light) in a novel context (Context B) after fear conditioning. This is the primary measure used to assess fear conditioned to the cue. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: acoustic startle response amplitude in light+noise trials (Context B, cued fear test)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000152 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000152">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured during initial noise-only trials in a novel context (Context B) after fear conditioning, before the presentation of cued (light+noise) trials. This serves as the baseline for calculating non-cued fear/anxious arousal. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: acoustic startle response amplitude in post-shock trials (Context B, non-cued fear baseline)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000153 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000153">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in the conditioning context (Context A) during a baseline period before any foot-shocks are delivered on the conditioning day, or on a subsequent day before assessing contextual fear recall. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: acoustic startle response amplitude in pre-shock period (Context A, contextual fear baseline)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000154 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000154">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in the original conditioning context (Context A) on a subsequent day, in the absence of the specific cue (light), to assess fear conditioned to the context. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: acoustic startle response amplitude in post-shock period (Context A, contextual fear assessment)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000155 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000155">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000093"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000094"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is a calculated measure of cued fear, determined by the formula: ((ASR during Light+Noise trials - ASR during Noise-Only trials) / ASR during Noise-Only trials) x 100%, conducted in Context B. Unit of measure: %</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: percentage change of ASR for cued fear</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000156 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000156">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000093"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000094"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is a calculated measure of non-cued fear or anxious arousal, determined by the formula: ((ASR during interspersed Noise-Only trials in recall - ASR during initial Post-Shock trials in recall) / ASR during initial Post-Shock trials in recall) x 100%, conducted in Context B. It reflects heightened startle occurring between cue presentations. Unit of measure: %</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: percentage change of ASR for non-cued fear (anxious arousal)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000157 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000157">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000093"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000094"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is a calculated measure of contextual fear, determined by the formula: ((ASR during Post-Shock period in Context A - ASR during Pre-Shock period in Context A) / ASR during Pre-Shock period in Context A) x 100%. Unit of measure: %</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: percentage change of ASR for contextual fear</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000158 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000158">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000093"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000094"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this refers to the progressive reduction in conditioned fear responses (cued, non-cued, or contextual) observed over repeated testing sessions in the absence of the unconditioned stimulus (foot-shock). It is typically assessed by tracking changes in ASR-based fear measures (which themselves may be direct ASRs or derived measures) across multiple days or trials. Unit of measure: N/A (descriptive, based on change over time/sessions)</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: rate of fear extinction</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0003674 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003674">
@@ -3351,8 +3216,11 @@ For example, A and B may be gene products and binding of B by A positively regul
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000103">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">failed exploratory term</obo:IAO_0000111>
-        <obo:IAO_0000115 xml:lang="en">The term was used in an attempt to structure part of the ontology but in retrospect failed to do a good job</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The term was initially used in an attempt to structure part of the ontology, but in retrospect failed to do a good job.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Terms created as placeholders with the expectation of being permanent should instead be deprecated using the &quot;placeholder removed&quot; (obo:IAO_0000226) justification.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <dce:contributor rdf:resource="https://orcid.org/0000-0001-6875-5360"/>
+        <dce:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
         <rdfs:label xml:lang="en">failed exploratory term</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3375,6 +3243,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
         <obo:IAO_0000111 xml:lang="en">organizational term</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Term created to ease viewing/sort terms for development purpose, and will not be included in a release</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The term was created to ease viewing/sorting terms for development purposes, but will not be included in a release.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">organizational term</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3431,6 +3300,10 @@ For example, A and B may be gene products and binding of B by A positively regul
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000226">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">placeholder removed</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">The term was created to temporarily stand in for a semantic purpose, but is no longer needed, typically due to another permanent term being defined.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This reason is appropriate for a temporary term even if no permanent term is defined; for example if the need for the term no longer exists. If a permanent (replacement) term is defined, the deprecated term should reference the replacement with IAO:0100001. If no replacement is defined, it may be appropriate to reference alternative terms with oboInOwl:consider.</obo:IAO_0000116>
+        <dce:contributor rdf:resource="https://orcid.org/0000-0001-6875-5360"/>
+        <dce:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
         <rdfs:label xml:lang="en">placeholder removed</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3441,7 +3314,10 @@ For example, A and B may be gene products and binding of B by A positively regul
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000227">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">terms merged</obo:IAO_0000111>
-        <obo:IAO_0000116 xml:lang="en">An editor note should explain what were the merged terms and the reason for the merge.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">The term has been combined with one or more other terms to create a more encompassing (merged) term.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">The deprecated term should reference the merged term with obo:IAO_0100001. The replacement term should reference the original terms as sources using obo:RO_0001000 (derives_from). An editor note should explain what were the merged terms and the reason for the merge.</obo:IAO_0000116>
+        <dce:contributor rdf:resource="https://orcid.org/0000-0001-6875-5360"/>
+        <dce:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
         <rdfs:label xml:lang="en">terms merged</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3452,7 +3328,10 @@ For example, A and B may be gene products and binding of B by A positively regul
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000228">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">term imported</obo:IAO_0000111>
-        <obo:IAO_0000116 xml:lang="en">This is to be used when the original term has been replaced by a term imported from an other ontology. An editor note should indicate what is the URI of the new term to use.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">The term has been replaced by a term imported from another ontology.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This is to be used when the original term has been replaced by a term imported from an other ontology. The deprecated term should reference the imported term with obo:IAO_0100001.</obo:IAO_0000116>
+        <dce:contributor rdf:resource="https://orcid.org/0000-0001-6875-5360"/>
+        <dce:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
         <rdfs:label xml:lang="en">term imported</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3463,7 +3342,10 @@ For example, A and B may be gene products and binding of B by A positively regul
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000229">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000111 xml:lang="en">term split</obo:IAO_0000111>
-        <obo:IAO_0000116 xml:lang="en">This is to be used when a term has been split in two or more new terms. An editor note should indicate the reason for the split and indicate the URIs of the new terms created.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">The term has been split into two or more new terms.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This is to be used when a term has been split in two or more new terms. An editor note should indicate the reason for the split. The deprecated term should reference the replacement terms with obo:IAO_0100001.</obo:IAO_0000116>
+        <dce:contributor rdf:resource="https://orcid.org/0000-0001-6875-5360"/>
+        <dce:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
         <rdfs:label xml:lang="en">term split</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3540,10 +3422,12 @@ For example, A and B may be gene products and binding of B by A positively regul
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OMO_0001000">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
         <obo:IAO_0000115 xml:lang="en">The term was added to the ontology on the assumption it was in scope, but it turned out later that it was not.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">This obsolesence reason should be used conservatively. Typical valid examples are: un-necessary grouping classes in disease ontologies, a phenotype term added on the assumption it was a disease.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">This obsolesence reason should be used conservatively. Typical valid examples in disease ontologies are: unnecessary class grouping; mistaked creation of a disease associated to a phenotype.</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/77</obo:IAO_0000233>
         <obo:IAO_0000234>https://orcid.org/0000-0001-5208-3432</obo:IAO_0000234>
+        <dce:contributor rdf:resource="https://orcid.org/0000-0001-6875-5360"/>
+        <dce:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
         <rdfs:label>out of scope</rdfs:label>
     </owl:NamedIndividual>
     

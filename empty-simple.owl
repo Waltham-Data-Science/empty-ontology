@@ -10,11 +10,11 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/empty/empty-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-06-09/empty-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-06-27/empty-simple.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Experimental Measurements Purposes and Treatments ontologY</terms:title>
-        <owl:versionInfo>2025-06-09</owl:versionInfo>
+        <owl:versionInfo>2025-06-27</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -650,141 +650,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>For an Elevated Plus Maze experiment, this is a unique code or descriptive name assigned to identify a specific experimental session, trial, or a particular set of recorded data. It helps in organizing and referencing data from distinct observations.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Elevated Plus Maze: test identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000146 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
-        <obo:IAO_0000115>For an Elevated Plus Maze experiment, this is a unique code or label assigned to an individual animal subject. This allows for tracking and associating behavioral data with specific animals, along with their characteristics like strain, sex, or age.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: animal identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000147 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000147">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
-        <obo:IAO_0000115>For an Elevated Plus Maze experiment, this describes the experimental condition or group to which an animal belongs (e.g., control, specific drug administration, genetic modification). It is used to compare behavioral outcomes between different experimental manipulations.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: treatment group</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000148 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000148">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-shock test phases. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: baseline acoustic startle response amplitude</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000149 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000149">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000093"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the average amplitude of the movement response (termed startle amplitude by the authors of the source manuscript) elicited directly by the foot-shock presentations during the fear conditioning phase (no white noise burst present). This measurement reflects the animal&apos;s unconditioned reflexive motor response to the aversive stimulus and is a key observation within the conditioning procedure. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: foot-shock reactivity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000150 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured during noise-only trials presented in a novel context (Context B) after fear conditioning, interspersed with cued trials. This serves as the immediate baseline for calculating cued fear. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: acoustic startle response amplitude in noise-only trials (Context B, cued fear baseline)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000151 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000151">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured during trials where the startle-eliciting noise is presented concurrently with the conditioned stimulus (CS, e.g., a light) in a novel context (Context B) after fear conditioning. This is the primary measure used to assess fear conditioned to the cue. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: acoustic startle response amplitude in light+noise trials (Context B, cued fear test)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000152 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000152">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured during initial noise-only trials in a novel context (Context B) after fear conditioning, before the presentation of cued (light+noise) trials. This serves as the baseline for calculating non-cued fear/anxious arousal. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: acoustic startle response amplitude in post-shock trials (Context B, non-cued fear baseline)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000153 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000153">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in the conditioning context (Context A) during a baseline period before any foot-shocks are delivered on the conditioning day, or on a subsequent day before assessing contextual fear recall. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: acoustic startle response amplitude in pre-shock period (Context A, contextual fear baseline)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000154 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000154">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in the original conditioning context (Context A) on a subsequent day, in the absence of the specific cue (light), to assess fear conditioned to the context. Unit of measure: mV</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: acoustic startle response amplitude in post-shock period (Context A, contextual fear assessment)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000155 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000155">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000093"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000094"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is a calculated measure of cued fear, determined by the formula: ((ASR during Light+Noise trials - ASR during Noise-Only trials) / ASR during Noise-Only trials) x 100%, conducted in Context B. Unit of measure: %</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: percentage change of ASR for cued fear</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000156 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000156">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000093"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000094"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is a calculated measure of non-cued fear or anxious arousal, determined by the formula: ((ASR during interspersed Noise-Only trials in recall - ASR during initial Post-Shock trials in recall) / ASR during initial Post-Shock trials in recall) x 100%, conducted in Context B. It reflects heightened startle occurring between cue presentations. Unit of measure: %</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: percentage change of ASR for non-cued fear (anxious arousal)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000157 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000157">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000093"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000094"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is a calculated measure of contextual fear, determined by the formula: ((ASR during Post-Shock period in Context A - ASR during Pre-Shock period in Context A) / ASR during Pre-Shock period in Context A) x 100%. Unit of measure: %</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: percentage change of ASR for contextual fear</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000158 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000158">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000093"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000094"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this refers to the progressive reduction in conditioned fear responses (cued, non-cued, or contextual) observed over repeated testing sessions in the absence of the unconditioned stimulus (foot-shock). It is typically assessed by tracking changes in ASR-based fear measures (which themselves may be direct ASRs or derived measures) across multiple days or trials. Unit of measure: N/A (descriptive, based on change over time/sessions)</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: rate of fear extinction</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
