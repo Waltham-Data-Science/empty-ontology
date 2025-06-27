@@ -1,5 +1,5 @@
 
-![Build Status](https://github.com/andreagaede/empty-ontology/actions/workflows/qc.yml/badge.svg)
+![Build Status](https://github.com/Waltham-Data-Science/empty-ontology/actions/workflows/qc.yml/badge.svg)
 # Experimental Measurements Purposes and Treatments ontologY
 
 Description: None
