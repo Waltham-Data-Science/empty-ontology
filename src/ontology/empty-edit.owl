@@ -373,10 +373,34 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000145> "Elevated Plus Maze: test identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000145> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
+# Class: <http://purl.obolibrary.org/obo/EMPTY_0000146> (Subject local identifier)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_0000146> "For an experiment, this is a unique code or label assigned to an individual animal subject. This allows for tracking and associating behavioral data with specific animals, along with their characteristics like strain, sex, or age.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_0000146> "Subject local identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_0000146> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000148> (Fear-Potentiated Startle: baseline acoustic startle response amplitude)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000148> "In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000148> "Fear-Potentiated Startle: baseline acoustic startle response amplitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000148> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_0000149> (Session Timeline)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_0000149> "A relative experimental session timeline; major stimulation events are, by default, considered numerically from 1 to N")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_0000149> "Session Timeline"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_0000149> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_0000150> (Postnatal day)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_0000150> "Postnatal day' is a specific unit to measure the age of an organism that is born live (viviparous animals), starting with the day of birth (postnatal day 0). Often abbreviated in written documents with a capital P (as in P0, P10, etc).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_0000150> "Postnatal day"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_0000150> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_0000151> (Microelectrode voltage offset)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_0000151> "A voltage offset measured at the end of a voltage record, in V")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_0000151> "Microelectrode voltage offset"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_0000151> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000153> (Fear-Potentiated Startle: trial type identifier)
