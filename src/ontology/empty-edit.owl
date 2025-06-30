@@ -17,6 +17,7 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Experimental Measurements Purposes and Treatments ontologY")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000085>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000090>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000092>))
@@ -51,11 +52,15 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000001> "Experimental Measurements Purposes and Treatments ontologY")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000001> "empty"@en)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000090> (Behavioral measurement)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000085> (Measurement)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000085> "A quantitative or qualitative observation, recording, or assessment of a property, phenomenon, or system, obtained through standardized procedures, instruments, or methods. Measurements provide empirical data that can be used for scientific analysis, comparison, and interpretation, forming the foundation for hypothesis testing and knowledge advancement across disciplines.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000085> "Measurement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000085> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
 
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000090> (Behavioral measurement)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000090> "A type of scientific measurement that quantifies an observable action, reaction, or pattern of conduct exhibited by an organism. Behavioral measurements are typically used in biological, psychological, and ethological studies to assess an organism's response to internal states, external stimuli, or experimental manipulations. These can range from simple reflexes to complex social interactions and are obtained through methods including direct observation, video tracking, or specialized automated apparatuses.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000090> "Behavioral measurement"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000090> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000090> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000091> (Elevated plus maze measurement)
 
