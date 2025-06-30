@@ -364,9 +364,88 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000145> "Elevated Plus Maze: test identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000145> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000148> (Fear-Potentiated Startle: baseline acoustic startle response amplitude)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000148> "In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000148> "Fear-Potentiated Startle: baseline acoustic startle response amplitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000148> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000153> (Fear-Potentiated Startle: trial type identifier)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000153> "A descriptive string identifying the specific type or condition of a trial in a Fear-Potentiated Startle (FPS) experiment. Examples from the manuscript include 'pre-shock' (baseline startle), 'post-shock' (startle in conditioning context after shocks), 'noise-only' (startle to acoustic stimulus alone during recall tests), or 'light+noise' (startle to acoustic stimulus in presence of conditioned cue during recall tests). The raw data might contain labels like 'Startle 95 dB Trial'.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000153> "Fear-Potentiated Startle: trial type identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000153> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000154> (Fear-Potentiated Startle: apparatus chamber identifier)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000154> "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit of measure: count or identifier string")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000154> "Fear-Potentiated Startle: apparatus chamber identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000154> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000155> (Experimental group code)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000155> "A numerical code that assigns a subject to a specific experimental group within the study design. For example, this could numerically represent treatment groups such as 'saline' or 'CNO' as described in the manuscript, or other study-specific groupings.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000155> "Experimental group code"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000155> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000156> (Acoustic Startle Response: number of samples)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000156> "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit of measure: count")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000156> "Acoustic Startle Response: number of samples"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000156> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000157> (Acoustic Startle Response: sampling rate)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000157> "The rate at which the analog startle response signal was digitized during data acquisition. Unit of measure: Hertz (Hz)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000157> "Acoustic Startle Response: sampling rate"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000157> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000158> (Acoustic Startle Response: startle window onset amplitude)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000158> "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit of measure: millivolts (mV) or arbitrary units based on transducer calibration.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000158> "Acoustic Startle Response: startle window onset amplitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000158> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000159> (Acoustic Startle Response: maximum amplitude)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000159> "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit of measure: millivolts (mV) or arbitrary units.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000159> "Acoustic Startle Response: maximum amplitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000159> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000160> (Acoustic Startle Response: time to maximum amplitude)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000160> "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit of measure: milliseconds (ms)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000160> "Acoustic Startle Response: time to maximum amplitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000160> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000161> (Acoustic Startle Response: average amplitude)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000161> "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit of measure: millivolts (mV) or arbitrary units.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000161> "Acoustic Startle Response: average amplitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000161> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000162> (Experiment trial execution timestamp)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000162> "The specific date and time indicating when an individual experimental trial was conducted or its data recorded.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000162> "Experiment trial execution timestamp"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000162> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000163> (Fear-Potentiated Startle: experimental phase or test name)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000163> "A string identifier indicating the specific experimental phase, session, or test condition of the Fear-Potentiated Startle (FPS) paradigm to which the data belongs. Examples derived from the manuscript's protocol include 'chamber and startle habituation', 'baseline pre-shock test', 'fear conditioning', 'cued fear recall in context B', 'contextual fear recall in context A', or specific extinction test sessions. This often corresponds to the name of the source data sheet (e.g., 'Pre-test 1', 'Cue test 3').")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000163> "Fear-Potentiated Startle: experimental phase or test name"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000163> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000164> (Elevated Plus Maze: test duration)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000164> "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit of measure: seconds")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000164> "Elevated Plus Maze: test duration"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000164> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000165> (Data exclusion flag)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000165> "A boolean flag indicating whether the data from a specific subject or experimental replicate should be excluded from subsequent analysis due to due to predefined quality control issues or experimental failure.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000165> "Data exclusion flag"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000165> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000168> (Investigator-defined cell type)
-
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000168> "A cell type proposed by an investigator on the basis of electrophysiological or anatomical criteria.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000168> "investigatorDefinedCellType"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000168> "Investigator-defined cell type"@en)
