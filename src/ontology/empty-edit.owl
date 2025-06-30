@@ -544,6 +544,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000010> "Treatment: Grating direction-of-motion visual stimulation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000010> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
 
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000011> (Treatment: CNO or saline administration)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000011> "Specifies the pharmacological treatment assigned to a subject. This assignment dictates the experimental group, with possible values being 'CNO' for Clozapine-N-oxide administration (2 mg/kg, i.p.) or 'Saline' for vehicle control administration (i.p.). These treatments were administered 45 minutes before fear conditioning and before EPM testing.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000147> "Treatment: CNO or saline administration"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000011> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+
+
 ############################
 #   Purpose Classes
 ############################
