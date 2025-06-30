@@ -335,9 +335,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000140> "
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000140> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000141> (Elevated Plus Maze: center - percent time in 5 minutes)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000141> "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000141> "Elevated Plus Maze: center - percent time in 5 minutes"@en)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000141> (Elevated Plus Maze: center - percent time during test duration)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000141> "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000141> "Elevated Plus Maze: center - percent time during test duration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000141> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
 
