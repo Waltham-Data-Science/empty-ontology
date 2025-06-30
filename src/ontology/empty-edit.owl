@@ -140,9 +140,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000108> "
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000108> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000109> (Elevated Plus Maze: open arm total - percent time in 5 minutes)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000109> "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000109> "Elevated Plus Maze: open arm total - percent time in 5 minutes"@en)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000109> (Elevated Plus Maze: open arm total - percent time during test duration)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000109> "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000109> "Elevated Plus Maze: open arm total - percent time during test duration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000109> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
 
