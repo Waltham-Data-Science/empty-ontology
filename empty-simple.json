@@ -13,9 +13,9 @@
         "val" : "Experimental Measurements Purposes and Treatments ontologY"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-06-27"
+        "val" : "2025-07-01"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/empty/releases/2025-06-27/empty-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/empty/releases/2025-07-01/empty-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000001",
@@ -24,6 +24,15 @@
       "meta" : {
         "definition" : {
           "val" : "Experimental Measurements Purposes and Treatments ontologY"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000085",
+      "lbl" : "Measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A quantitative or qualitative observation, recording, or assessment of a property, phenomenon, or system, obtained through standardized procedures, instruments, or methods. Measurements provide empirical data that can be used for scientific analysis, comparison, and interpretation, forming the foundation for hypothesis testing and knowledge advancement across disciplines."
         }
       }
     }, {
@@ -154,11 +163,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000109",
-      "lbl" : "Elevated Plus Maze: open arm total - percent time in 5 minutes",
+      "lbl" : "Elevated Plus Maze: open arm total - percent time during test duration",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %"
+          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %"
         }
       }
     }, {
@@ -325,11 +334,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000128",
-      "lbl" : "Elevated Plus Maze: closed arm total - percent time in 5 minutes",
+      "lbl" : "Elevated Plus Maze: closed arm total - percent time during test duration",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: %"
+          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: %"
         }
       }
     }, {
@@ -442,11 +451,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000141",
-      "lbl" : "Elevated Plus Maze: center - percent time in 5 minutes",
+      "lbl" : "Elevated Plus Maze: center - percent time during test duration",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %"
+          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %"
         }
       }
     }, {
@@ -483,6 +492,132 @@
       "meta" : {
         "definition" : {
           "val" : "For an Elevated Plus Maze experiment, this is a unique code or descriptive name assigned to identify a specific experimental session, trial, or a particular set of recorded data. It helps in organizing and referencing data from distinct observations."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000148",
+      "lbl" : "Fear-Potentiated Startle: baseline acoustic startle response amplitude",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000153",
+      "lbl" : "Fear-Potentiated Startle: trial type identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A descriptive string identifying the specific type or condition of a trial in a Fear-Potentiated Startle (FPS) experiment. Examples from the manuscript include 'pre-shock' (baseline startle), 'post-shock' (startle in conditioning context after shocks), 'noise-only' (startle to acoustic stimulus alone during recall tests), or 'light+noise' (startle to acoustic stimulus in presence of conditioned cue during recall tests). The raw data might contain labels like 'Startle 95 dB Trial'."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000154",
+      "lbl" : "Fear-Potentiated Startle: apparatus chamber identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit of measure: count or identifier string"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000155",
+      "lbl" : "Experimental group code",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A numerical code that assigns a subject to a specific experimental group within the study design. For example, this could numerically represent treatment groups such as 'saline' or 'CNO' as described in the manuscript, or other study-specific groupings."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000156",
+      "lbl" : "Acoustic Startle Response: number of samples",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit of measure: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000157",
+      "lbl" : "Acoustic Startle Response: sampling rate",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The rate at which the analog startle response signal was digitized during data acquisition. Unit of measure: Hertz (Hz)"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000158",
+      "lbl" : "Acoustic Startle Response: startle window onset amplitude",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit of measure: millivolts (mV) or arbitrary units based on transducer calibration."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000159",
+      "lbl" : "Acoustic Startle Response: maximum amplitude",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit of measure: millivolts (mV) or arbitrary units."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000160",
+      "lbl" : "Acoustic Startle Response: time to maximum amplitude",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit of measure: milliseconds (ms)"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000161",
+      "lbl" : "Acoustic Startle Response: average amplitude",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit of measure: millivolts (mV) or arbitrary units."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000162",
+      "lbl" : "Experiment trial execution timestamp",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The specific date and time indicating when an individual experimental trial was conducted or its data recorded."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000163",
+      "lbl" : "Fear-Potentiated Startle: experimental phase or test name",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A string identifier indicating the specific experimental phase, session, or test condition of the Fear-Potentiated Startle (FPS) paradigm to which the data belongs. Examples derived from the manuscript's protocol include 'chamber and startle habituation', 'baseline pre-shock test', 'fear conditioning', 'cued fear recall in context B', 'contextual fear recall in context A', or specific extinction test sessions. This often corresponds to the name of the source data sheet (e.g., 'Pre-test 1', 'Cue test 3')."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000164",
+      "lbl" : "Elevated Plus Maze: test duration",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit of measure: seconds"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000165",
+      "lbl" : "Data exclusion flag",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A boolean flag indicating whether the data from a specific subject or experimental replicate should be excluded from subsequent analysis due to due to predefined quality control issues or experimental failure."
         }
       }
     }, {
@@ -536,6 +671,321 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "optogeneticTetanusStimulationTargetLocation"
         } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000146",
+      "lbl" : "Subject local identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "For an experiment, this is a unique code or label assigned to an individual animal subject. This allows for tracking and associating behavioral data with specific animals, along with their characteristics like strain, sex, or age."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000149",
+      "lbl" : "Session Timeline",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A relative experimental session timeline; major stimulation events are, by default, considered numerically from 1 to N"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000150",
+      "lbl" : "Postnatal day",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal day' is a specific unit to measure the age of an organism that is born live (viviparous animals), starting with the day of birth (postnatal day 0). Often abbreviated in written documents with a capital P (as in P0, P10, etc)."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000151",
+      "lbl" : "Microelectrode voltage offset",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A voltage offset measured at the end of a voltage record, in V"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000000",
+      "lbl" : "Treatment",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A treatment applied to a subject that is not associated with any particular data epoch. Treatments can include pharmacological interventions, surgical procedures, environmental manipulations, or any other controlled alteration of a subject's state that is intended to produce a specific effect or response."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000001",
+      "lbl" : "Treatment: Experienced cricket hunting",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Indicates that the animal has had experience with hunting for crickets in some capacity"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000002",
+      "lbl" : "Treatment: Has not experienced cricket hunting",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Indicates that the animal has not had experience with hunting for crickets"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000003",
+      "lbl" : "Treatment: Acclimation onset time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The subject was acclimated to a temperature at a particular onset time."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000004",
+      "lbl" : "Treatment: Acclimation temperature",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The temperature (in degrees C) at which the subject was acclimated."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000005",
+      "lbl" : "Treatment: Non-survival experiment time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The subject was used in a non-survival experiment."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000006",
+      "lbl" : "Treatment: Left eye premature eye opening",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The subject's left eye was opened prematurely, before natural eye opening."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000007",
+      "lbl" : "Treatment: Right eye premature eye opening",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The subject's right eye was opened prematurely, before natural eye opening."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000008",
+      "lbl" : "Treatment: Natural left eye opening",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The subject's left eye was allowed to open naturally."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000009",
+      "lbl" : "Treatment: Natural right eye opening",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The subject's right eye was allowed to open naturally."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000010",
+      "lbl" : "Treatment: Grating direction-of-motion visual stimulation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Training was provided for several hours with drifting sinusoidal gratings (provided in hours)"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000011",
+      "lbl" : "Treatment: CNO or saline administration",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Specifies the pharmacological treatment assigned to a subject. This assignment dictates the experimental group, with possible values being 'CNO' for Clozapine-N-oxide administration (2 mg/kg, i.p.) or 'Saline' for vehicle control administration (i.p.). These treatments were administered 45 minutes before fear conditioning and before EPM testing."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_20000000",
+      "lbl" : "Purpose",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The purpose of a measurement, stimulus, or experiment. This describes the intended goal or objective of the scientific investigation or a specific component of it."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_20000001",
+      "lbl" : "Purpose: Assessing spatial frequency tuning",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "States that the purpose of the stimulus is to assess spatial frequency tuning"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_20000002",
+      "lbl" : "Purpose: Assessing temporal frequency tuning",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "States that the purpose of the stimulus is to assess temporal frequency tuning"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_20000003",
+      "lbl" : "Purpose: Assessing direction of motion tuning",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "States that the purpose of the stimulus is to assess direction of motion tuning"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_20000004",
+      "lbl" : "Purpose: Assessing contrast tuning",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "States that the purpose of the stimulus is to assess contrast tuning"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_20000005",
+      "lbl" : "Purpose: Assessing ocular dominance or binocular matching",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "States that the purpose of the stimulus is to assess ocular dominance or binocular matching"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_20000006",
+      "lbl" : "Purpose: Assessing the pyloric rhythm",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "States that the purpose of the measurement is to observe the pyloric rhythm"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_20000007",
+      "lbl" : "Purpose: Assessing the gastric mill rhythm",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "States that the purpose of the measurement is to observe the gastric mill rhythm"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_20000008",
+      "lbl" : "Purpose: Assessing activity with temperature manipulation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "States that the purpose of the stimulus is to assess the activity of probed subjects at a particular temperature."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_30000000",
+      "lbl" : "Approach",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An approach to stimulation that is associated with an epoch of data but that is not already coded in stimulator metadata. This represents a specific methodology, technique, or procedural aspect applied during data collection that provides important context for interpreting the data."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_30000001",
+      "lbl" : "Approach: Left eye view blocked",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Indicates that the view through the left eye was blocked during presentation of this stimulus"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_30000002",
+      "lbl" : "Approach: Right eye view blocked",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Indicates that the view through the right eye was blocked during presentation of this stimulus"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_30000003",
+      "lbl" : "Approach: Command temperature constant",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The temperature of an experimental object has been commanded to be a certain value"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_30000004",
+      "lbl" : "Approach: Command temperature start",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The temperature of an experimental object has been commanded to be a certain value at the beginning of the recording epoch"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_30000005",
+      "lbl" : "Approach: Command temperature end",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The temperature of an experimental object has been commanded to be a certain value at the end of the recording epoch"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_30000006",
+      "lbl" : "Approach: Before optogenetic tetanus",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The measurement is performed before an optogenetic tetanus stimulus."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_30000007",
+      "lbl" : "Approach: After optogenetic tetanus",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The measurement is performed after an optogenetic tetanus stimulus."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_30000008",
+      "lbl" : "Approach: Before artificial visual stimulation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The measurement is performed before a long bout of artificial visual stimulation"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_30000009",
+      "lbl" : "Approach: After artificial visual stimulation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The measurement is performed after a long bout of artificial visual stimulation"
+        }
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000111",
@@ -631,9 +1081,13 @@
       "propertyType" : "ANNOTATION"
     } ],
     "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000090",
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000085",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000090",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000085"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000091",
       "pred" : "is_a",
@@ -835,6 +1289,62 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000148",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000153",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000154",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000155",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000156",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000157",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000158",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000159",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000160",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000161",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000162",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000163",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000164",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000165",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000168",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
@@ -850,6 +1360,146 @@
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000171",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000146",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000149",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000150",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000151",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000011",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_20000000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_20000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_20000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_20000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_20000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_20000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_20000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_20000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_20000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_20000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_20000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_20000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_20000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_20000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_20000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_20000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_20000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_30000000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_30000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_30000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_30000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_30000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_30000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_30000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_30000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_30000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_30000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_30000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_30000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_30000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_30000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_30000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_30000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_30000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_30000009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_30000000"
     } ]
   } ]
 }
