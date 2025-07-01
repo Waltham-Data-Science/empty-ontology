@@ -17,9 +17,15 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Experimental Measurements Purposes and Treatments ontologY")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000085>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000090>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000092>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000168>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_20000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_30000000>))
+
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -50,11 +56,15 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000001> "Experimental Measurements Purposes and Treatments ontologY")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000001> "empty"@en)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000090> (Behavioral measurement)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000085> (Measurement)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000085> "A quantitative or qualitative observation, recording, or assessment of a property, phenomenon, or system, obtained through standardized procedures, instruments, or methods. Measurements provide empirical data that can be used for scientific analysis, comparison, and interpretation, forming the foundation for hypothesis testing and knowledge advancement across disciplines.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000085> "Measurement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000085> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
 
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000090> (Behavioral measurement)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000090> "A type of scientific measurement that quantifies an observable action, reaction, or pattern of conduct exhibited by an organism. Behavioral measurements are typically used in biological, psychological, and ethological studies to assess an organism's response to internal states, external stimuli, or experimental manipulations. These can range from simple reflexes to complex social interactions and are obtained through methods including direct observation, video tracking, or specialized automated apparatuses.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000090> "Behavioral measurement"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000090> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000090> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000091> (Elevated plus maze measurement)
 
@@ -139,9 +149,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000108> "
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000108> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000109> (Elevated Plus Maze: open arm total - percent time in 5 minutes)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000109> "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000109> "Elevated Plus Maze: open arm total - percent time in 5 minutes"@en)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000109> (Elevated Plus Maze: open arm total - percent time during test duration)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000109> "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000109> "Elevated Plus Maze: open arm total - percent time during test duration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000109> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
 
@@ -253,9 +263,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000127> "
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000127> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000128> (Elevated Plus Maze: closed arm total - percent time in 5 minutes)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000128> "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: %")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000128> "Elevated Plus Maze: closed arm total - percent time in 5 minutes"@en)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000128> (Elevated Plus Maze: closed arm total - percent time during test duration)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000128> "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: %")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000128> "Elevated Plus Maze: closed arm total - percent time during test duration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000128> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
 
@@ -334,9 +344,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000140> "
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000140> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000141> (Elevated Plus Maze: center - percent time in 5 minutes)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000141> "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000141> "Elevated Plus Maze: center - percent time in 5 minutes"@en)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000141> (Elevated Plus Maze: center - percent time during test duration)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000141> "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000141> "Elevated Plus Maze: center - percent time during test duration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000141> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
 
@@ -363,9 +373,112 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000145> "Elevated Plus Maze: test identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000145> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
+# Class: <http://purl.obolibrary.org/obo/EMPTY_0000146> (Subject local identifier)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_0000146> "For an experiment, this is a unique code or label assigned to an individual animal subject. This allows for tracking and associating behavioral data with specific animals, along with their characteristics like strain, sex, or age.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_0000146> "Subject local identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_0000146> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000148> (Fear-Potentiated Startle: baseline acoustic startle response amplitude)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000148> "In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000148> "Fear-Potentiated Startle: baseline acoustic startle response amplitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000148> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_0000149> (Session Timeline)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_0000149> "A relative experimental session timeline; major stimulation events are, by default, considered numerically from 1 to N")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_0000149> "Session Timeline"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_0000149> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_0000150> (Postnatal day)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_0000150> "Postnatal day' is a specific unit to measure the age of an organism that is born live (viviparous animals), starting with the day of birth (postnatal day 0). Often abbreviated in written documents with a capital P (as in P0, P10, etc).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_0000150> "Postnatal day"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_0000150> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_0000151> (Microelectrode voltage offset)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_0000151> "A voltage offset measured at the end of a voltage record, in V")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_0000151> "Microelectrode voltage offset"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_0000151> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000153> (Fear-Potentiated Startle: trial type identifier)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000153> "A descriptive string identifying the specific type or condition of a trial in a Fear-Potentiated Startle (FPS) experiment. Examples from the manuscript include 'pre-shock' (baseline startle), 'post-shock' (startle in conditioning context after shocks), 'noise-only' (startle to acoustic stimulus alone during recall tests), or 'light+noise' (startle to acoustic stimulus in presence of conditioned cue during recall tests). The raw data might contain labels like 'Startle 95 dB Trial'.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000153> "Fear-Potentiated Startle: trial type identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000153> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000154> (Fear-Potentiated Startle: apparatus chamber identifier)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000154> "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit of measure: count or identifier string")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000154> "Fear-Potentiated Startle: apparatus chamber identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000154> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000155> (Experimental group code)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000155> "A numerical code that assigns a subject to a specific experimental group within the study design. For example, this could numerically represent treatment groups such as 'saline' or 'CNO' as described in the manuscript, or other study-specific groupings.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000155> "Experimental group code"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000155> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000156> (Acoustic Startle Response: number of samples)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000156> "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit of measure: count")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000156> "Acoustic Startle Response: number of samples"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000156> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000157> (Acoustic Startle Response: sampling rate)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000157> "The rate at which the analog startle response signal was digitized during data acquisition. Unit of measure: Hertz (Hz)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000157> "Acoustic Startle Response: sampling rate"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000157> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000158> (Acoustic Startle Response: startle window onset amplitude)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000158> "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit of measure: millivolts (mV) or arbitrary units based on transducer calibration.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000158> "Acoustic Startle Response: startle window onset amplitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000158> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000159> (Acoustic Startle Response: maximum amplitude)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000159> "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit of measure: millivolts (mV) or arbitrary units.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000159> "Acoustic Startle Response: maximum amplitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000159> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000160> (Acoustic Startle Response: time to maximum amplitude)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000160> "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit of measure: milliseconds (ms)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000160> "Acoustic Startle Response: time to maximum amplitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000160> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000161> (Acoustic Startle Response: average amplitude)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000161> "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit of measure: millivolts (mV) or arbitrary units.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000161> "Acoustic Startle Response: average amplitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000161> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000162> (Experiment trial execution timestamp)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000162> "The specific date and time indicating when an individual experimental trial was conducted or its data recorded.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000162> "Experiment trial execution timestamp"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000162> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000163> (Fear-Potentiated Startle: experimental phase or test name)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000163> "A string identifier indicating the specific experimental phase, session, or test condition of the Fear-Potentiated Startle (FPS) paradigm to which the data belongs. Examples derived from the manuscript's protocol include 'chamber and startle habituation', 'baseline pre-shock test', 'fear conditioning', 'cued fear recall in context B', 'contextual fear recall in context A', or specific extinction test sessions. This often corresponds to the name of the source data sheet (e.g., 'Pre-test 1', 'Cue test 3').")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000163> "Fear-Potentiated Startle: experimental phase or test name"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000163> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000164> (Elevated Plus Maze: test duration)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000164> "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit of measure: seconds")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000164> "Elevated Plus Maze: test duration"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000164> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000165> (Data exclusion flag)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000165> "A boolean flag indicating whether the data from a specific subject or experimental replicate should be excluded from subsequent analysis due to due to predefined quality control issues or experimental failure.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000165> "Data exclusion flag"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000165> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000168> (Investigator-defined cell type)
-
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000168> "A cell type proposed by an investigator on the basis of electrophysiological or anatomical criteria.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000168> "investigatorDefinedCellType"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000168> "Investigator-defined cell type"@en)
@@ -394,6 +507,179 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000171> "optogeneticTetanusStimulationTargetLocation"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000171> "Optogenetic Tetanus Stimulation Target Location"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000171> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+
+############################
+#   Treatment Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000000> (Treatment)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000000> "A treatment applied to a subject that is not associated with any particular data epoch. Treatments can include pharmacological interventions, surgical procedures, environmental manipulations, or any other controlled alteration of a subject's state that is intended to produce a specific effect or response.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000000> "Treatment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000000> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000001> (Treatment: Experienced cricket hunting)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000001> "Indicates that the animal has had experience with hunting for crickets in some capacity")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000001> "Treatment: Experienced cricket hunting"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000001> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000002> (Treatment: Has not experienced cricket hunting)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000002> "Indicates that the animal has not had experience with hunting for crickets")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000002> "Treatment: Has not experienced cricket hunting"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000002> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000003> (Treatment: Acclimation onset time)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000003> "The subject was acclimated to a temperature at a particular onset time.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000003> "Treatment: Acclimation onset time"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000003> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000004> (Treatment: Acclimation temperature)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000004> "The temperature (in degrees C) at which the subject was acclimated.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000004> "Treatment: Acclimation temperature"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000004> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000005> (Treatment: Non-survival experiment time)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000005> "The subject was used in a non-survival experiment.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000005> "Treatment: Non-survival experiment time"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000005> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000006> (Treatment: Left eye premature eye opening)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000006> "The subject's left eye was opened prematurely, before natural eye opening.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000006> "Treatment: Left eye premature eye opening"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000006> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000007> (Treatment: Right eye premature eye opening)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000007> "The subject's right eye was opened prematurely, before natural eye opening.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000007> "Treatment: Right eye premature eye opening"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000007> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000008> (Treatment: Natural left eye opening)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000008> "The subject's left eye was allowed to open naturally.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000008> "Treatment: Natural left eye opening"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000008> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000009> (Treatment: Natural right eye opening)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000009> "The subject's right eye was allowed to open naturally.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000009> "Treatment: Natural right eye opening"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000009> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000010> (Treatment: Grating direction-of-motion visual stimulation)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000010> "Training was provided for several hours with drifting sinusoidal gratings (provided in hours)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000010> "Treatment: Grating direction-of-motion visual stimulation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000010> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000011> (Treatment: CNO or saline administration)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000011> "Specifies the pharmacological treatment assigned to a subject. This assignment dictates the experimental group, with possible values being 'CNO' for Clozapine-N-oxide administration (2 mg/kg, i.p.) or 'Saline' for vehicle control administration (i.p.). These treatments were administered 45 minutes before fear conditioning and before EPM testing.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000011> "Treatment: CNO or saline administration"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000011> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+
+
+############################
+#   Purpose Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_20000000> (Purpose)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_20000000> "The purpose of a measurement, stimulus, or experiment. This describes the intended goal or objective of the scientific investigation or a specific component of it.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_20000000> "Purpose"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_20000000> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_20000001> (Purpose: Assessing spatial frequency tuning)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_20000001> "States that the purpose of the stimulus is to assess spatial frequency tuning")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_20000001> "Purpose: Assessing spatial frequency tuning"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_20000001> <http://purl.obolibrary.org/obo/EMPTY_20000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_20000002> (Purpose: Assessing temporal frequency tuning)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_20000002> "States that the purpose of the stimulus is to assess temporal frequency tuning")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_20000002> "Purpose: Assessing temporal frequency tuning"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_20000002> <http://purl.obolibrary.org/obo/EMPTY_20000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_20000003> (Purpose: Assessing direction of motion tuning)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_20000003> "States that the purpose of the stimulus is to assess direction of motion tuning")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_20000003> "Purpose: Assessing direction of motion tuning"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_20000003> <http://purl.obolibrary.org/obo/EMPTY_20000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_20000004> (Purpose: Assessing contrast tuning)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_20000004> "States that the purpose of the stimulus is to assess contrast tuning")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_20000004> "Purpose: Assessing contrast tuning"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_20000004> <http://purl.obolibrary.org/obo/EMPTY_20000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_20000005> (Purpose: Assessing ocular dominance or binocular matching)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_20000005> "States that the purpose of the stimulus is to assess ocular dominance or binocular matching")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_20000005> "Purpose: Assessing ocular dominance or binocular matching"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_20000005> <http://purl.obolibrary.org/obo/EMPTY_20000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_20000006> (Purpose: Assessing the pyloric rhythm)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_20000006> "States that the purpose of the measurement is to observe the pyloric rhythm")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_20000006> "Purpose: Assessing the pyloric rhythm"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_20000006> <http://purl.obolibrary.org/obo/EMPTY_20000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_20000007> (Purpose: Assessing the gastric mill rhythm)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_20000007> "States that the purpose of the measurement is to observe the gastric mill rhythm")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_20000007> "Purpose: Assessing the gastric mill rhythm"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_20000007> <http://purl.obolibrary.org/obo/EMPTY_20000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_20000008> (Purpose: Assessing activity with temperature manipulation)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_20000008> "States that the purpose of the stimulus is to assess the activity of probed subjects at a particular temperature.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_20000008> "Purpose: Assessing activity with temperature manipulation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_20000008> <http://purl.obolibrary.org/obo/EMPTY_20000000>)
+
+############################
+#   Approach Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_30000000> (Approach)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_30000000> "An approach to stimulation that is associated with an epoch of data but that is not already coded in stimulator metadata. This represents a specific methodology, technique, or procedural aspect applied during data collection that provides important context for interpreting the data.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_30000000> "Approach"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_30000000> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_30000001> (Approach: Left eye view blocked)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_30000001> "Indicates that the view through the left eye was blocked during presentation of this stimulus")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_30000001> "Approach: Left eye view blocked"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_30000001> <http://purl.obolibrary.org/obo/EMPTY_30000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_30000002> (Approach: Right eye view blocked)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_30000002> "Indicates that the view through the right eye was blocked during presentation of this stimulus")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_30000002> "Approach: Right eye view blocked"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_30000002> <http://purl.obolibrary.org/obo/EMPTY_30000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_30000003> (Approach: Command temperature constant)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_30000003> "The temperature of an experimental object has been commanded to be a certain value")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_30000003> "Approach: Command temperature constant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_30000003> <http://purl.obolibrary.org/obo/EMPTY_30000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_30000004> (Approach: Command temperature start)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_30000004> "The temperature of an experimental object has been commanded to be a certain value at the beginning of the recording epoch")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_30000004> "Approach: Command temperature start"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_30000004> <http://purl.obolibrary.org/obo/EMPTY_30000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_30000005> (Approach: Command temperature end)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_30000005> "The temperature of an experimental object has been commanded to be a certain value at the end of the recording epoch")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_30000005> "Approach: Command temperature end"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_30000005> <http://purl.obolibrary.org/obo/EMPTY_30000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_30000006> (Approach: Before optogenetic tetanus)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_30000006> "The measurement is performed before an optogenetic tetanus stimulus.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_30000006> "Approach: Before optogenetic tetanus"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_30000006> <http://purl.obolibrary.org/obo/EMPTY_30000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_30000007> (Approach: After optogenetic tetanus)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_30000007> "The measurement is performed after an optogenetic tetanus stimulus.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_30000007> "Approach: After optogenetic tetanus"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_30000007> <http://purl.obolibrary.org/obo/EMPTY_30000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_30000008> (Approach: Before artificial visual stimulation)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_30000008> "The measurement is performed before a long bout of artificial visual stimulation")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_30000008> "Approach: Before artificial visual stimulation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_30000008> <http://purl.obolibrary.org/obo/EMPTY_30000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_30000009> (Approach: After artificial visual stimulation)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_30000009> "The measurement is performed after a long bout of artificial visual stimulation")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_30000009> "Approach: After artificial visual stimulation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_30000009> <http://purl.obolibrary.org/obo/EMPTY_30000000>)
+
+
+
+
 
 
 )
