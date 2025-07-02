@@ -508,6 +508,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000171> "Optogenetic Tetanus Stimulation Target Location"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000171> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
 
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000172> (Experimental trial number)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000172> "The index of individual experimental trial within a set.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000172> "Experimental trial number"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000172> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+
+
 
 ############################
 #   Treatment Classes
@@ -573,6 +580,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000011> "Treatment: CNO or saline administration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000011> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
 
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000012> (Treatment: date of birth)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000012> "Specifies the date of birth in YYYY-MM-DD format")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000012> "Treatment: date of birth"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000012> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
 
 ############################
 #   Purpose Classes
