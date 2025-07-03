@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2025-06-27
+data-version: releases/2025-07-01
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
@@ -19,7 +19,7 @@ ontology: empty
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Experimental Measurements Purposes and Treatments ontologY" xsd:string
-property_value: owl:versionInfo "2025-06-27" xsd:string
+property_value: owl:versionInfo "2025-07-01" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -102,10 +102,16 @@ name: empty
 def: "Experimental Measurements Purposes and Treatments ontologY" []
 
 [Term]
+id: EMPTY:00000085
+name: Measurement
+def: "A quantitative or qualitative observation, recording, or assessment of a property, phenomenon, or system, obtained through standardized procedures, instruments, or methods. Measurements provide empirical data that can be used for scientific analysis, comparison, and interpretation, forming the foundation for hypothesis testing and knowledge advancement across disciplines." []
+is_a: EMPTY:00000001 ! empty
+
+[Term]
 id: EMPTY:00000090
 name: Behavioral measurement
 def: "A type of scientific measurement that quantifies an observable action, reaction, or pattern of conduct exhibited by an organism. Behavioral measurements are typically used in biological, psychological, and ethological studies to assess an organism's response to internal states, external stimuli, or experimental manipulations. These can range from simple reflexes to complex social interactions and are obtained through methods including direct observation, video tracking, or specialized automated apparatuses." []
-is_a: EMPTY:00000001 ! empty
+is_a: EMPTY:00000085 ! Measurement
 
 [Term]
 id: EMPTY:00000091
@@ -187,8 +193,8 @@ is_a: EMPTY:00000091 ! Elevated plus maze measurement
 
 [Term]
 id: EMPTY:00000109
-name: Elevated Plus Maze: open arm total - percent time in 5 minutes
-def: "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %" []
+name: Elevated Plus Maze: open arm total - percent time during test duration
+def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %" []
 is_a: EMPTY:00000091 ! Elevated plus maze measurement
 
 [Term]
@@ -301,8 +307,8 @@ is_a: EMPTY:00000091 ! Elevated plus maze measurement
 
 [Term]
 id: EMPTY:00000128
-name: Elevated Plus Maze: closed arm total - percent time in 5 minutes
-def: "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: %" []
+name: Elevated Plus Maze: closed arm total - percent time during test duration
+def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: %" []
 is_a: EMPTY:00000091 ! Elevated plus maze measurement
 
 [Term]
@@ -379,8 +385,8 @@ is_a: EMPTY:00000091 ! Elevated plus maze measurement
 
 [Term]
 id: EMPTY:00000141
-name: Elevated Plus Maze: center - percent time in 5 minutes
-def: "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %" []
+name: Elevated Plus Maze: center - percent time during test duration
+def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %" []
 is_a: EMPTY:00000091 ! Elevated plus maze measurement
 
 [Term]
@@ -406,6 +412,90 @@ id: EMPTY:00000145
 name: Elevated Plus Maze: test identifier
 def: "For an Elevated Plus Maze experiment, this is a unique code or descriptive name assigned to identify a specific experimental session, trial, or a particular set of recorded data. It helps in organizing and referencing data from distinct observations." []
 is_a: EMPTY:00000091 ! Elevated plus maze measurement
+
+[Term]
+id: EMPTY:00000148
+name: Fear-Potentiated Startle: baseline acoustic startle response amplitude
+def: "In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score." []
+is_a: EMPTY:00000092 ! Acoustic Startle Response measurement
+
+[Term]
+id: EMPTY:00000153
+name: Fear-Potentiated Startle: trial type identifier
+def: "A descriptive string identifying the specific type or condition of a trial in a Fear-Potentiated Startle (FPS) experiment. Examples from the manuscript include 'pre-shock' (baseline startle), 'post-shock' (startle in conditioning context after shocks), 'noise-only' (startle to acoustic stimulus alone during recall tests), or 'light+noise' (startle to acoustic stimulus in presence of conditioned cue during recall tests). The raw data might contain labels like 'Startle 95 dB Trial'." []
+is_a: EMPTY:00000092 ! Acoustic Startle Response measurement
+
+[Term]
+id: EMPTY:00000154
+name: Fear-Potentiated Startle: apparatus chamber identifier
+def: "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit of measure: count or identifier string" []
+is_a: EMPTY:00000092 ! Acoustic Startle Response measurement
+
+[Term]
+id: EMPTY:00000155
+name: Experimental group code
+def: "A numerical code that assigns a subject to a specific experimental group within the study design. For example, this could numerically represent treatment groups such as 'saline' or 'CNO' as described in the manuscript, or other study-specific groupings." []
+is_a: EMPTY:00000001 ! empty
+
+[Term]
+id: EMPTY:00000156
+name: Acoustic Startle Response: number of samples
+def: "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit of measure: count" []
+is_a: EMPTY:00000092 ! Acoustic Startle Response measurement
+
+[Term]
+id: EMPTY:00000157
+name: Acoustic Startle Response: sampling rate
+def: "The rate at which the analog startle response signal was digitized during data acquisition. Unit of measure: Hertz (Hz)" []
+is_a: EMPTY:00000092 ! Acoustic Startle Response measurement
+
+[Term]
+id: EMPTY:00000158
+name: Acoustic Startle Response: startle window onset amplitude
+def: "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit of measure: millivolts (mV) or arbitrary units based on transducer calibration." []
+is_a: EMPTY:00000092 ! Acoustic Startle Response measurement
+
+[Term]
+id: EMPTY:00000159
+name: Acoustic Startle Response: maximum amplitude
+def: "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit of measure: millivolts (mV) or arbitrary units." []
+is_a: EMPTY:00000092 ! Acoustic Startle Response measurement
+
+[Term]
+id: EMPTY:00000160
+name: Acoustic Startle Response: time to maximum amplitude
+def: "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit of measure: milliseconds (ms)" []
+is_a: EMPTY:00000092 ! Acoustic Startle Response measurement
+
+[Term]
+id: EMPTY:00000161
+name: Acoustic Startle Response: average amplitude
+def: "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit of measure: millivolts (mV) or arbitrary units." []
+is_a: EMPTY:00000092 ! Acoustic Startle Response measurement
+
+[Term]
+id: EMPTY:00000162
+name: Experiment trial execution timestamp
+def: "The specific date and time indicating when an individual experimental trial was conducted or its data recorded." []
+is_a: EMPTY:00000001 ! empty
+
+[Term]
+id: EMPTY:00000163
+name: Fear-Potentiated Startle: experimental phase or test name
+def: "A string identifier indicating the specific experimental phase, session, or test condition of the Fear-Potentiated Startle (FPS) paradigm to which the data belongs. Examples derived from the manuscript's protocol include 'chamber and startle habituation', 'baseline pre-shock test', 'fear conditioning', 'cued fear recall in context B', 'contextual fear recall in context A', or specific extinction test sessions. This often corresponds to the name of the source data sheet (e.g., 'Pre-test 1', 'Cue test 3')." []
+is_a: EMPTY:00000001 ! empty
+
+[Term]
+id: EMPTY:00000164
+name: Elevated Plus Maze: test duration
+def: "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit of measure: seconds" []
+is_a: EMPTY:00000091 ! Elevated plus maze measurement
+
+[Term]
+id: EMPTY:00000165
+name: Data exclusion flag
+def: "A boolean flag indicating whether the data from a specific subject or experimental replicate should be excluded from subsequent analysis due to due to predefined quality control issues or experimental failure." []
+is_a: EMPTY:00000001 ! empty
 
 [Term]
 id: EMPTY:00000168
@@ -434,6 +524,216 @@ name: Optogenetic Tetanus Stimulation Target Location
 def: "The specific anatomical region where tetanic light stimulation (TLS) is applied in optogenetic experiments to evoke neuronal activity. The value should be defined by the ONTOLOGY_NAME:ONTOLOGY_NODE (e.g. 'UBERON:0000123')." []
 is_a: EMPTY:00000001 ! empty
 property_value: IAO:0000118 "optogeneticTetanusStimulationTargetLocation" xsd:string
+
+[Term]
+id: EMPTY:0000146
+name: Subject local identifier
+def: "For an experiment, this is a unique code or label assigned to an individual animal subject. This allows for tracking and associating behavioral data with specific animals, along with their characteristics like strain, sex, or age." []
+is_a: EMPTY:00000001 ! empty
+
+[Term]
+id: EMPTY:0000149
+name: Session Timeline
+def: "A relative experimental session timeline; major stimulation events are, by default, considered numerically from 1 to N" []
+is_a: EMPTY:00000001 ! empty
+
+[Term]
+id: EMPTY:0000150
+name: Postnatal day
+def: "Postnatal day' is a specific unit to measure the age of an organism that is born live (viviparous animals), starting with the day of birth (postnatal day 0). Often abbreviated in written documents with a capital P (as in P0, P10, etc)." []
+is_a: EMPTY:00000001 ! empty
+
+[Term]
+id: EMPTY:0000151
+name: Microelectrode voltage offset
+def: "A voltage offset measured at the end of a voltage record, in V" []
+is_a: EMPTY:00000085 ! Measurement
+
+[Term]
+id: EMPTY:10000000
+name: Treatment
+def: "A treatment applied to a subject that is not associated with any particular data epoch. Treatments can include pharmacological interventions, surgical procedures, environmental manipulations, or any other controlled alteration of a subject's state that is intended to produce a specific effect or response." []
+is_a: EMPTY:00000001 ! empty
+
+[Term]
+id: EMPTY:10000001
+name: Treatment: Experienced cricket hunting
+def: "Indicates that the animal has had experience with hunting for crickets in some capacity" []
+is_a: EMPTY:10000000 ! Treatment
+
+[Term]
+id: EMPTY:10000002
+name: Treatment: Has not experienced cricket hunting
+def: "Indicates that the animal has not had experience with hunting for crickets" []
+is_a: EMPTY:10000000 ! Treatment
+
+[Term]
+id: EMPTY:10000003
+name: Treatment: Acclimation onset time
+def: "The subject was acclimated to a temperature at a particular onset time." []
+is_a: EMPTY:10000000 ! Treatment
+
+[Term]
+id: EMPTY:10000004
+name: Treatment: Acclimation temperature
+def: "The temperature (in degrees C) at which the subject was acclimated." []
+is_a: EMPTY:10000000 ! Treatment
+
+[Term]
+id: EMPTY:10000005
+name: Treatment: Non-survival experiment time
+def: "The subject was used in a non-survival experiment." []
+is_a: EMPTY:10000000 ! Treatment
+
+[Term]
+id: EMPTY:10000006
+name: Treatment: Left eye premature eye opening
+def: "The subject's left eye was opened prematurely, before natural eye opening." []
+is_a: EMPTY:10000000 ! Treatment
+
+[Term]
+id: EMPTY:10000007
+name: Treatment: Right eye premature eye opening
+def: "The subject's right eye was opened prematurely, before natural eye opening." []
+is_a: EMPTY:10000000 ! Treatment
+
+[Term]
+id: EMPTY:10000008
+name: Treatment: Natural left eye opening
+def: "The subject's left eye was allowed to open naturally." []
+is_a: EMPTY:10000000 ! Treatment
+
+[Term]
+id: EMPTY:10000009
+name: Treatment: Natural right eye opening
+def: "The subject's right eye was allowed to open naturally." []
+is_a: EMPTY:10000000 ! Treatment
+
+[Term]
+id: EMPTY:10000010
+name: Treatment: Grating direction-of-motion visual stimulation
+def: "Training was provided for several hours with drifting sinusoidal gratings (provided in hours)" []
+is_a: EMPTY:10000000 ! Treatment
+
+[Term]
+id: EMPTY:10000011
+name: Treatment: CNO or saline administration
+def: "Specifies the pharmacological treatment assigned to a subject. This assignment dictates the experimental group, with possible values being 'CNO' for Clozapine-N-oxide administration (2 mg/kg, i.p.) or 'Saline' for vehicle control administration (i.p.). These treatments were administered 45 minutes before fear conditioning and before EPM testing." []
+is_a: EMPTY:10000000 ! Treatment
+
+[Term]
+id: EMPTY:20000000
+name: Purpose
+def: "The purpose of a measurement, stimulus, or experiment. This describes the intended goal or objective of the scientific investigation or a specific component of it." []
+is_a: EMPTY:00000001 ! empty
+
+[Term]
+id: EMPTY:20000001
+name: Purpose: Assessing spatial frequency tuning
+def: "States that the purpose of the stimulus is to assess spatial frequency tuning" []
+is_a: EMPTY:20000000 ! Purpose
+
+[Term]
+id: EMPTY:20000002
+name: Purpose: Assessing temporal frequency tuning
+def: "States that the purpose of the stimulus is to assess temporal frequency tuning" []
+is_a: EMPTY:20000000 ! Purpose
+
+[Term]
+id: EMPTY:20000003
+name: Purpose: Assessing direction of motion tuning
+def: "States that the purpose of the stimulus is to assess direction of motion tuning" []
+is_a: EMPTY:20000000 ! Purpose
+
+[Term]
+id: EMPTY:20000004
+name: Purpose: Assessing contrast tuning
+def: "States that the purpose of the stimulus is to assess contrast tuning" []
+is_a: EMPTY:20000000 ! Purpose
+
+[Term]
+id: EMPTY:20000005
+name: Purpose: Assessing ocular dominance or binocular matching
+def: "States that the purpose of the stimulus is to assess ocular dominance or binocular matching" []
+is_a: EMPTY:20000000 ! Purpose
+
+[Term]
+id: EMPTY:20000006
+name: Purpose: Assessing the pyloric rhythm
+def: "States that the purpose of the measurement is to observe the pyloric rhythm" []
+is_a: EMPTY:20000000 ! Purpose
+
+[Term]
+id: EMPTY:20000007
+name: Purpose: Assessing the gastric mill rhythm
+def: "States that the purpose of the measurement is to observe the gastric mill rhythm" []
+is_a: EMPTY:20000000 ! Purpose
+
+[Term]
+id: EMPTY:20000008
+name: Purpose: Assessing activity with temperature manipulation
+def: "States that the purpose of the stimulus is to assess the activity of probed subjects at a particular temperature." []
+is_a: EMPTY:20000000 ! Purpose
+
+[Term]
+id: EMPTY:30000000
+name: Approach
+def: "An approach to stimulation that is associated with an epoch of data but that is not already coded in stimulator metadata. This represents a specific methodology, technique, or procedural aspect applied during data collection that provides important context for interpreting the data." []
+is_a: EMPTY:00000001 ! empty
+
+[Term]
+id: EMPTY:30000001
+name: Approach: Left eye view blocked
+def: "Indicates that the view through the left eye was blocked during presentation of this stimulus" []
+is_a: EMPTY:30000000 ! Approach
+
+[Term]
+id: EMPTY:30000002
+name: Approach: Right eye view blocked
+def: "Indicates that the view through the right eye was blocked during presentation of this stimulus" []
+is_a: EMPTY:30000000 ! Approach
+
+[Term]
+id: EMPTY:30000003
+name: Approach: Command temperature constant
+def: "The temperature of an experimental object has been commanded to be a certain value" []
+is_a: EMPTY:30000000 ! Approach
+
+[Term]
+id: EMPTY:30000004
+name: Approach: Command temperature start
+def: "The temperature of an experimental object has been commanded to be a certain value at the beginning of the recording epoch" []
+is_a: EMPTY:30000000 ! Approach
+
+[Term]
+id: EMPTY:30000005
+name: Approach: Command temperature end
+def: "The temperature of an experimental object has been commanded to be a certain value at the end of the recording epoch" []
+is_a: EMPTY:30000000 ! Approach
+
+[Term]
+id: EMPTY:30000006
+name: Approach: Before optogenetic tetanus
+def: "The measurement is performed before an optogenetic tetanus stimulus." []
+is_a: EMPTY:30000000 ! Approach
+
+[Term]
+id: EMPTY:30000007
+name: Approach: After optogenetic tetanus
+def: "The measurement is performed after an optogenetic tetanus stimulus." []
+is_a: EMPTY:30000000 ! Approach
+
+[Term]
+id: EMPTY:30000008
+name: Approach: Before artificial visual stimulation
+def: "The measurement is performed before a long bout of artificial visual stimulation" []
+is_a: EMPTY:30000000 ! Approach
+
+[Term]
+id: EMPTY:30000009
+name: Approach: After artificial visual stimulation
+def: "The measurement is performed after a long bout of artificial visual stimulation" []
+is_a: EMPTY:30000000 ! Approach
 
 [Term]
 id: GO:0003674
