@@ -12,8 +12,7 @@ Ontology(<http://purl.obolibrary.org/obo/empty.owl>
 Import(<http://purl.obolibrary.org/obo/empty/imports/omo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/empty/imports/pato_import.owl>)
 Import(<http://purl.obolibrary.org/obo/empty/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/empty/imports/uberon.owl>)
-
+Import(<http://purl.obolibrary.org/obo/uberon/releases/2025-05-28/uberon.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Experimental Measurements Purposes and Treatments ontologY")
@@ -22,6 +21,58 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000090>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000092>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000093>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000103>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000104>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000105>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000106>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000107>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000108>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000109>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000110>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000111>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000112>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000113>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000114>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000115>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000116>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000117>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000118>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000119>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000120>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000121>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000122>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000123>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000124>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000125>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000126>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000127>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000128>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000129>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000130>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000131>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000132>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000133>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000134>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000135>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000136>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000137>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000138>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000139>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000140>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000142>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000143>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000144>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000145>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000168>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000169>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000170>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000171>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -70,13 +121,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000092> "Acoustic Startle Response measurement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000092> <http://purl.obolibrary.org/obo/EMPTY_00000090>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000093> (Fear Conditioning measurement)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000093> "A type of behavioral measurement derived from fear conditioning paradigms, where an initially neutral conditioned stimulus (CS) is paired with an aversive unconditioned stimulus (US), leading to the CS eliciting conditioned fear responses. These measurements quantify aspects of fear acquisition, memory consolidation, recall, extinction, and the emotional state associated with conditioned fear, such as freezing, startle potentiation, or avoidance.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000093> "Fear Conditioning measurement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000093> <http://purl.obolibrary.org/obo/EMPTY_00000090>)
-
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000094> (Acoustic Startle Response derived measurement)
 
@@ -84,13 +133,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000094> "Acoustic Startle Response derived measurement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000094> <http://purl.obolibrary.org/obo/EMPTY_00000090>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000100> (Elevated Plus Maze: open arm (north) - entries)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000100> "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (North)'. The 'Open Arm (North)' is one of the two open arms, distinguished by its assigned 'north' orientation or designation in the experimental setup. Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000100> "Elevated Plus Maze: open arm (north) - entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000100> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
-
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000101> (Elevated Plus Maze: open arm (south) - entries)
 
@@ -98,174 +145,173 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000101> "Elevated Plus Maze: open arm (south) - entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000101> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000102> (Elevated Plus Maze: open arm total entries)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000102> "In the Elevated Plus Maze task, this represents the total number of times the animal's body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). It is a common measure of exploration and anxiety. Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000102> "Elevated Plus Maze: open arm total entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000102> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000103> (Elevated Plus Maze: open arm (north) - head entries)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000103> "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (North)' zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as 'north'. Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000103> "Elevated Plus Maze: open arm (north) - head entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000103> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000104> (Elevated Plus Maze: open arm (south) - head entries)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000104> "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (South)' zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as 'south'. Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000104> "Elevated Plus Maze: open arm (south) - head entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000104> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000105> (Elevated Plus Maze: open arm total head entries)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000105> "In the Elevated Plus Maze task, this is the total number of times the animal's head (specifically tracked by the software) enters any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'), considered an indicator of risk-assessment behavior. Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000105> "Elevated Plus Maze: open arm total head entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000105> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000106> (Elevated Plus Maze: open arm (north) - time)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000106> "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (North)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000106> "Elevated Plus Maze: open arm (north) - time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000106> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000107> (Elevated Plus Maze: open arm (south) - time)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000107> "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000107> "Elevated Plus Maze: open arm (south) - time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000107> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000108> (Elevated Plus Maze: open arm total time)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000108> "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Less time is generally indicative of higher anxiety. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000108> "Elevated Plus Maze: open arm total time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000108> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000109> (Elevated Plus Maze: open arm total - percent time in 5 minutes)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000109> "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000109> "Elevated Plus Maze: open arm total - percent time in 5 minutes"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000109> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000110> (Elevated Plus Maze: open arm (north) - latency to first entry)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000110> "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (North)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000110> "Elevated Plus Maze: open arm (north) - latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000110> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000111> (Elevated Plus Maze: open arm (south) - latency to first entry)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000111> "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (South)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000111> "Elevated Plus Maze: open arm (south) - latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000111> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000112> (Elevated Plus Maze: open arm total latency to first entry)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000112> "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'). Longer latencies often suggest higher anxiety. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000112> "Elevated Plus Maze: open arm total latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000112> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000113> (Elevated Plus Maze: open arm (north) - time moving towards)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000113> "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (North)' zone, as detected by the tracking software. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000113> "Elevated Plus Maze: open arm (north) - time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000113> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000114> (Elevated Plus Maze: open arm (south) - time moving towards)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000114> "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (South)' zone, as detected by the tracking software. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000114> "Elevated Plus Maze: open arm (south) - time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000114> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000115> (Elevated Plus Maze: open arm total time moving towards)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000115> "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), reflecting approach motivation. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000115> "Elevated Plus Maze: open arm total time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000115> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000116> (Elevated Plus Maze: open arm (north) - time freezing)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000116> "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined 'Open Arm (North)' zone. Freezing is a common fear response. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000116> "Elevated Plus Maze: open arm (north) - time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000116> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000117> (Elevated Plus Maze: open arm (south) - time freezing)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000117> "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000117> "Elevated Plus Maze: open arm (south) - time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000117> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000118> (Elevated Plus Maze: open arm total time freezing)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000118> "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), indicating fear or anxiety. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000118> "Elevated Plus Maze: open arm total time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000118> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000119> (Elevated Plus Maze: closed arm (west) - entries)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000119> "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (West)' zone, representing the enclosed arm designated as 'west'. Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000119> "Elevated Plus Maze: closed arm (west) - entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000119> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000120> (Elevated Plus Maze: closed arm (east) - entries)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000120> "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (East)' zone, representing the enclosed arm designated as 'east'. Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000120> "Elevated Plus Maze: closed arm (east) - entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000120> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000121> (Elevated Plus Maze: closed arm total entries)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000121> "In the Elevated Plus Maze task, this is the total number of times the animal's body fully enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). It is often used as an indicator of general locomotor activity. Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000121> "Elevated Plus Maze: closed arm total entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000121> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000122> (Elevated Plus Maze: closed arm (west) - head entries)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000122> "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (West)' zone. Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000122> "Elevated Plus Maze: closed arm (west) - head entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000122> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000123> (Elevated Plus Maze: closed arm (east) - head entries)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000123> "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (East)' zone. Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000123> "Elevated Plus Maze: closed arm (east) - head entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000123> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000124> (Elevated Plus Maze: closed arm total head entries)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000124> "In the Elevated Plus Maze task, this is the total number of times the animal's head enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000124> "Elevated Plus Maze: closed arm total head entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000124> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000125> (Elevated Plus Maze: closed arm (west) - time)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000125> "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000125> "Elevated Plus Maze: closed arm (west) - time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000125> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000126> (Elevated Plus Maze: closed arm (east) - time)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000126> "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000126> "Elevated Plus Maze: closed arm (east) - time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000126> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000127> (Elevated Plus Maze: closed arm total time)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000127> "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000127> "Elevated Plus Maze: closed arm total time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000127> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000128> (Elevated Plus Maze: closed arm total - percent time in 5 minutes)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000128> "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: %")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000128> "Elevated Plus Maze: closed arm total - percent time in 5 minutes"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000128> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000129> (Elevated Plus Maze: closed arm (west) - latency to first entry)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000129> "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000129> "Elevated Plus Maze: closed arm (west) - latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000129> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
-
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000130> (Elevated Plus Maze: closed arm (east) - latency to first entry)
 
@@ -273,13 +319,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000130> "Elevated Plus Maze: closed arm (east) - latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000130> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000131> (Elevated Plus Maze: closed arm total latency to first entry)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000131> "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000131> "Elevated Plus Maze: closed arm total latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000131> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
-
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000132> (Elevated Plus Maze: closed arm (west) - time moving towards)
 
@@ -287,113 +331,109 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000132> "Elevated Plus Maze: closed arm (west) - time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000132> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000133> (Elevated Plus Maze: closed arm (east) - time moving towards)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000133> "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000133> "Elevated Plus Maze: closed arm (east) - time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000133> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000134> (Elevated Plus Maze: closed arm total time moving towards)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000134> "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000134> "Elevated Plus Maze: closed arm total time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000134> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000135> (Elevated Plus Maze: closed arm (west) - time freezing)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000135> "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000135> "Elevated Plus Maze: closed arm (west) - time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000135> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000136> (Elevated Plus Maze: closed arm (east) - time freezing)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000136> "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000136> "Elevated Plus Maze: closed arm (east) - time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000136> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000137> (Elevated Plus Maze: closed arm total time freezing)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000137> "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000137> "Elevated Plus Maze: closed arm total time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000137> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000138> (Elevated Plus Maze: center - entries)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000138> "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Center' zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000138> "Elevated Plus Maze: center - entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000138> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000139> (Elevated Plus Maze: center - head entries)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000139> "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Center' zone of the maze. Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000139> "Elevated Plus Maze: center - head entries"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000139> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000140> (Elevated Plus Maze: center - time)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000140> "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Center' zone. Time in the center can indicate decision-making or risk assessment. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000140> "Elevated Plus Maze: center - time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000140> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000141> (Elevated Plus Maze: center - percent time in 5 minutes)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000141> "In the Elevated Plus Maze task, this represents the percentage of the standard 300-second (5 minute) total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000141> "Elevated Plus Maze: center - percent time in 5 minutes"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000141> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000142> (Elevated Plus Maze: center - latency to first entry)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000142> "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Center' zone. If the animal starts in the center, this value may be zero or not applicable. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000142> "Elevated Plus Maze: center - latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000142> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000143> (Elevated Plus Maze: center - time moving towards)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000143> "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Center' zone of the maze (e.g., from an arm). Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000143> "Elevated Plus Maze: center - time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000143> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000144> (Elevated Plus Maze: center - time freezing)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000144> "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Center' zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000144> "Elevated Plus Maze: center - time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000144> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000145> (Elevated Plus Maze: test identifier)
+
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000145> "For an Elevated Plus Maze experiment, this is a unique code or descriptive name assigned to identify a specific experimental session, trial, or a particular set of recorded data. It helps in organizing and referencing data from distinct observations.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000145> "Elevated Plus Maze: test identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000145> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
 
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000168> (Investigator-defined cell type)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000168> "A cell type proposed by an investigator on the basis of electrophysiological or anatomical criteria.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000168> "investigatorDefinedCellType"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000168> "investigatorDefinedCellType")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000168> "Investigator-defined cell type"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000168> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
-
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000169> (Type I BNST neuron)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000169> "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that fires regularly, displays moderate spike frequency adaptation, and exhibits a voltage sag indicating the presence of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000169> "BNSTNeuronTypeI"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000169> "BNSTNeuronTypeI")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000169> "Type I BNST neuron"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000169> <http://purl.obolibrary.org/obo/EMPTY_00000168>)
-
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000170> (Type III BNST neuron)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000170> "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) characterized by a high rheobase, absence of voltage sag under negative current steps, prominent inward rectification due to the activation of the inward rectifying K+ current (IKIR) at membrane potentials more negative than approximately -50 mV, and firing onset after a characteristic slow voltage ramp mediated by the K+ delayed current (ID). [Source: https://doi.org/10.1016/j.celrep.2025.115768]")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000170> "BNSTNeuronTypeIII"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000170> "BNSTNeuronTypeIII")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000170> "Type III BNST neuron"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000170> <http://purl.obolibrary.org/obo/EMPTY_00000168>)
-
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000171> (Optogenetic Tetanus Stimulation Target Location)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000171> "The specific anatomical region where tetanic light stimulation (TLS) is applied in optogenetic experiments to evoke neuronal activity. The value should be defined by the ONTOLOGY_NAME:ONTOLOGY_NODE (e.g. 'UBERON:0000123').")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000171> "optogeneticTetanusStimulationTargetLocation"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000171> "optogeneticTetanusStimulationTargetLocation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000171> "Optogenetic Tetanus Stimulation Target Location"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000171> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
 

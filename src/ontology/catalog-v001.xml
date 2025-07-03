@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
-
-  
-  
-  <uri name="http://purl.obolibrary.org/obo/empty/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/empty/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/empty/imports/omo_import.owl" uri="imports/omo_import.owl"/>
-  
-  
-
-
-  
-
-</group>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/uberon/releases/2025-05-28/uberon.owl" uri="http://purl.obolibrary.org/obo/uberon.owl"/>
+    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+        <uri name="http://purl.obolibrary.org/obo/empty/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/empty/imports/pato_import.owl" uri="imports/pato_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/empty/imports/omo_import.owl" uri="imports/omo_import.owl"/>
+    </group>
 </catalog>
