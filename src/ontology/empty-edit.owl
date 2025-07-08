@@ -534,28 +534,28 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000165> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000168> (Investigator-defined cell type)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000168> "A cell type proposed by an investigator on the basis of electrophysiological or anatomical criteria.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000168> "investigatorDefinedCellType")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000168> "investigatorDefinedCellType"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000168> "Investigator-defined cell type"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000168> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000169> (Type I BNST neuron)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000169> "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that fires regularly, displays moderate spike frequency adaptation, and exhibits a voltage sag indicating the presence of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000169> "BNSTNeuronTypeI")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000169> "BNSTNeuronTypeI"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000169> "Type I BNST neuron"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000169> <http://purl.obolibrary.org/obo/EMPTY_00000168>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000170> (Type III BNST neuron)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000170> "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) characterized by a high rheobase, absence of voltage sag under negative current steps, prominent inward rectification due to the activation of the inward rectifying K+ current (IKIR) at membrane potentials more negative than approximately -50 mV, and firing onset after a characteristic slow voltage ramp mediated by the K+ delayed current (ID). [Source: https://doi.org/10.1016/j.celrep.2025.115768]")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000170> "BNSTNeuronTypeIII")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000170> "BNSTNeuronTypeIII"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000170> "Type III BNST neuron"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000170> <http://purl.obolibrary.org/obo/EMPTY_00000168>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000171> (Optogenetic Tetanus Stimulation Target Location)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000171> "The specific anatomical region where tetanic light stimulation (TLS) is applied in optogenetic experiments to evoke neuronal activity. The value should be defined by the ONTOLOGY_NAME:ONTOLOGY_NODE (e.g. 'UBERON:0000123').")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000171> "optogeneticTetanusStimulationTargetLocation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000171> "optogeneticTetanusStimulationTargetLocation"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000171> "Optogenetic Tetanus Stimulation Target Location"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000171> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
 
