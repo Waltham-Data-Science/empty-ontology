@@ -7,15 +7,18 @@
         "val" : "None"
       }, {
         "pred" : "http://purl.org/dc/terms/license",
-        "val" : "https://creativecommons.org/licenses/unspecified"
+        "val" : "http://creativecommons.org/licenses/by/4.0/"
       }, {
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "Experimental Measurements Purposes and Treatments ontologY"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-07-01"
+        "val" : "2025-07-08"
+      }, {
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "Release 2025-07-08"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/empty/releases/2025-07-01/empty-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/empty/releases/2025-07-08/empty-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000001",
@@ -1069,7 +1072,22 @@
       "id" : "http://purl.org/dc/terms/license",
       "lbl" : "license",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "http://purl.org/dc/terms/license"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "dcterms-license"
+        } ]
+      }
     }, {
       "id" : "http://purl.org/dc/terms/title",
       "lbl" : "title",
@@ -1077,6 +1095,32 @@
       "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
+      "lbl" : "subset_property",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty",
+      "lbl" : "synonym_type_property",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     } ],

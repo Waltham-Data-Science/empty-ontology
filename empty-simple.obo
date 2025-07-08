@@ -1,11 +1,12 @@
 format-version: 1.2
-data-version: empty/releases/2025-07-01/empty-simple.owl
+data-version: empty/releases/2025-07-08/empty-simple.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: empty/empty-simple
-property_value: owl:versionInfo "2025-07-01" xsd:string
+property_value: dcterms-license http://creativecommons.org/licenses/by/4.0/
+property_value: owl:versionInfo "2025-07-08" xsd:string
+property_value: owl:versionInfo "Release 2025-07-08" xsd:string
 property_value: terms:description "None" xsd:string
-property_value: terms:license https://creativecommons.org/licenses/unspecified
 property_value: terms:title "Experimental Measurements Purposes and Treatments ontologY" xsd:string
 
 [Term]
@@ -646,4 +647,11 @@ id: EMPTY:30000009
 name: Approach: After artificial visual stimulation
 def: "The measurement is performed after a long bout of artificial visual stimulation" []
 is_a: EMPTY:30000000 ! Approach
+
+[Typedef]
+id: dcterms-license
+name: license
+namespace: uberon
+xref: http://purl.org/dc/terms/license
+is_metadata_tag: true
 
