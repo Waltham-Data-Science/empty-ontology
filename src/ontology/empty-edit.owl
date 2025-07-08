@@ -9,6 +9,7 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/empty.owl>
+<http://purl.obolibrary.org/obo/empty/releases/2025-07-09/empty.owl>
 Import(<http://purl.obolibrary.org/obo/empty/imports/omo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/empty/imports/pato_import.owl>)
 Import(<http://purl.obolibrary.org/obo/empty/imports/ro_import.owl>)
@@ -16,6 +17,7 @@ Import(<http://purl.obolibrary.org/obo/uberon/releases/2025-05-28/uberon.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Experimental Measurements Purposes and Treatments ontologY")
+Annotation(owl:versionInfo "Release 2025-07-09")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000090>))
@@ -439,6 +441,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000171> "optogeneticTetanusStimulationTargetLocation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000171> "Optogenetic Tetanus Stimulation Target Location"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000171> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000000> (Treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000000> "A treatment applied to a subject that is not associated with any particular data epoch. Treatments can include pharmacological interventions, surgical procedures, environmental manipulations, or any other controlled alteration of a subject's state that is intended to produce a specific effect or response.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000000> "Treatment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000000> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
 
 
 )
