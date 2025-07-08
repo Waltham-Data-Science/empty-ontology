@@ -15,7 +15,7 @@ Import(<http://purl.obolibrary.org/obo/empty/imports/pato_import.owl>)
 Import(<http://purl.obolibrary.org/obo/empty/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/uberon/releases/2025-05-28/uberon.owl>)
 Annotation(dcterms:description "None")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
+Annotation(dcterms:license <http://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Experimental Measurements Purposes and Treatments ontologY")
 Annotation(owl:versionInfo "Release 2025-07-09")
 
