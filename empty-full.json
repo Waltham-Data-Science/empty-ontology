@@ -12,6 +12,9 @@
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "Experimental Measurements Purposes and Treatments ontologY"
       }, {
+        "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+        "val" : "EMPTY by NDI is licensed\nunder CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+      }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
         "val" : "2025-07-10"
       }, {

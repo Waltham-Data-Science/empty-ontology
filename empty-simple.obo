@@ -2,6 +2,7 @@ format-version: 1.2
 data-version: empty/releases/2025-07-10/empty-simple.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
+remark: EMPTY by NDI is licensed\nunder CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ontology: empty/empty-simple
 property_value: owl:versionInfo "2025-07-10" xsd:string
 property_value: owl:versionInfo "Release 2025-07-10" xsd:string

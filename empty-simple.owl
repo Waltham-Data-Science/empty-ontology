@@ -14,6 +14,8 @@
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Experimental Measurements Purposes and Treatments ontologY</terms:title>
+        <rdfs:comment>EMPTY by NDI is licensed
+under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)</rdfs:comment>
         <owl:versionInfo>2025-07-10</owl:versionInfo>
         <owl:versionInfo>Release 2025-07-10</owl:versionInfo>
     </owl:Ontology>

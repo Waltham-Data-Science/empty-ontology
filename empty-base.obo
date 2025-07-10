@@ -2,6 +2,7 @@ format-version: 1.2
 data-version: empty/releases/2025-07-10/empty-base.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
+remark: EMPTY by NDI is licensed\nunder CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ontology: empty/empty-base
 property_value: dce:type IAO:8000001
 property_value: dcterms:description "None" xsd:string
