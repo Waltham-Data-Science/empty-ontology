@@ -10,12 +10,13 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/empty/empty-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-07-01/empty-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-07-10/empty-base.owl"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:description>None</dcterms:description>
-        <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Experimental Measurements Purposes and Treatments ontologY</dcterms:title>
-        <owl:versionInfo>2025-07-01</owl:versionInfo>
+        <owl:versionInfo>Release 2025-07-10</owl:versionInfo>
+        <owl:versionInfo>2025-07-10</owl:versionInfo>
     </owl:Ontology>
     
 

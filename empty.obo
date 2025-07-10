@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2025-07-01
+data-version: releases/2025-07-10
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
@@ -17,9 +17,10 @@ idspace: swrla http://swrl.stanford.edu/ontologies/3.3/swrla.owl#
 idspace: swrlb http://www.w3.org/2003/11/swrlb# 
 ontology: empty
 property_value: dcterms:description "None" xsd:string
-property_value: dcterms:license https://creativecommons.org/licenses/unspecified
+property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Experimental Measurements Purposes and Treatments ontologY" xsd:string
-property_value: owl:versionInfo "2025-07-01" xsd:string
+property_value: owl:versionInfo "2025-07-10" xsd:string
+property_value: owl:versionInfo "Release 2025-07-10" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -1139,7 +1140,7 @@ id: RO:0002086
 name: ends after
 comment: X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)
 subset: ro-eco
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 is_transitive: true
 is_a: RO:0002222 ! temporally related to
 
@@ -1147,7 +1148,7 @@ is_a: RO:0002222 ! temporally related to
 id: RO:0002087
 name: immediately preceded by
 comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "starts_at_end_of" xsd:string
 is_a: BFO:0000062 ! preceded by
 inverse_of: RO:0002090 ! immediately precedes
@@ -1157,7 +1158,6 @@ id: RO:0002090
 name: immediately precedes
 comment: X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)
 subset: ro-eco
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "ends_at_start_of" xsd:string
 property_value: IAO:0000118 "meets" xsd:string
