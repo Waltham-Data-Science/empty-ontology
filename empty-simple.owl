@@ -11,11 +11,10 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/empty/empty-simple.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-07-10/empty-simple.owl"/>
-        <terms:description>None</terms:description>
+        <terms:description>An ontology of experimental measurements in the sciences, the purposes for which experimental measurements were made, and experimental treatments, with a focus on life sciences.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Experimental Measurements Purposes and Treatments ontologY</terms:title>
-        <rdfs:comment>EMPTY by NDI is licensed
-under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
+        <rdfs:comment>EMPTY by NDI is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
         <owl:versionInfo>2025-07-10</owl:versionInfo>
         <owl:versionInfo>Release 2025-07-10</owl:versionInfo>
     </owl:Ontology>
