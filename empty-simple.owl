@@ -10,11 +10,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/empty/empty-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-07-01/empty-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-07-10/empty-simple.owl"/>
         <terms:description>None</terms:description>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Experimental Measurements Purposes and Treatments ontologY</terms:title>
-        <owl:versionInfo>2025-07-01</owl:versionInfo>
+        <owl:versionInfo>2025-07-10</owl:versionInfo>
+        <owl:versionInfo>Release 2025-07-10</owl:versionInfo>
     </owl:Ontology>
     
 
