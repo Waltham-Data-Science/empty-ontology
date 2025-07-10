@@ -16,7 +16,7 @@ Import(<http://purl.obolibrary.org/obo/empty/imports/ro_import.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Experimental Measurements Purposes and Treatments ontologY")
-Annotation(owl:versionInfo <Release 2025-07-10>)
+Annotation(owl:versionInfo "Release 2025-07-10")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000085>))
