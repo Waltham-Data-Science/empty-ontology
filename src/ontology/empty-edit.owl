@@ -715,7 +715,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000157> "Acoustic startle response: sampling rate"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000157> <http://purl.obolibrary.org/obo/EMPTY_00000172>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000178> (C. elegans behavioral assay parameter)
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000158> (Acoustic startle response: startle window onset amplitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000158> "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit of measure: millivolts (mV) or arbitrary units based on transducer calibration.")
