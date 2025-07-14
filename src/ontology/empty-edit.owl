@@ -129,7 +129,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000189>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000190>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000191>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000192>))
-Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000193>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000194>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000195>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000196>))
@@ -937,12 +936,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000192> "C. elegans assay: experiment plate identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000192> <http://purl.obolibrary.org/obo/EMPTY_00000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000192> <http://purl.obolibrary.org/obo/EMPTY_00000174>)
-
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000193> (Data exclusion flag)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000193> "A boolean flag indicating whether the data from a specific subject or experimental replicate should be excluded from subsequent analysis due to predefined quality control issues or experimental failure. True: exclude.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000193> "Data exclusion flag"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000193> <http://purl.obolibrary.org/obo/EMPTY_00000015>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000194> (Treatment: food restriction onset time)
 
