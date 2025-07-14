@@ -892,10 +892,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000186> <http://purl.obolibra
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000186> <http://purl.obolibrary.org/obo/EMPTY_00000175>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000186> <http://purl.obolibrary.org/obo/EMPTY_00000179>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000187> (C. elegans cultivation: bacterial plate room temperature acclimation timestamp)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000187> (C. elegans cultivation: bacterial plate room temperature timestamp)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000187> "The date and time when C. elegans cultivation plates were moved from cold storage to room temperature to allow them to acclimate before picking worms onto them to avoid temperature affecting the animals. Unit: datetime.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000187> "C. elegans cultivation: bacterial plate room temperature acclimation timestamp"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000187> "C. elegans cultivation: bacterial plate room temperature timestamp"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000187> <http://purl.obolibrary.org/obo/EMPTY_00000087>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000187> <http://purl.obolibrary.org/obo/EMPTY_00000175>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000187> <http://purl.obolibrary.org/obo/EMPTY_00000179>)
@@ -1010,10 +1010,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000203> <http://purl.obolibra
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000203> <http://purl.obolibrary.org/obo/EMPTY_00000175>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000203> <http://purl.obolibrary.org/obo/EMPTY_00000178>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000204> (C. elegans behavioral assay: bacterial plate room temperature acclimation timestamp)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000204> (C. elegans behavioral assay: bacterial plate room temperature timestamp)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000204> "The date and time when C. elegans assay plates were moved from cold storage to room temperature to allow them to acclimate before before picking worms onto them to avoid temperature affecting the animals. Unit: datetime.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000204> "C. elegans behavioral assay: bacterial plate room temperature acclimation timestamp"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000204> "C. elegans behavioral assay: bacterial plate room temperature timestamp"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000204> <http://purl.obolibrary.org/obo/EMPTY_00000087>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000204> <http://purl.obolibrary.org/obo/EMPTY_00000175>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000204> <http://purl.obolibrary.org/obo/EMPTY_00000178>)
@@ -1302,16 +1302,16 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000262> "
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000262> <http://purl.obolibrary.org/obo/EMPTY_00000177>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000262> <http://purl.obolibrary.org/obo/NCIT_C54154>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000263> (C. elegans behavioral assay: relative density of the encountered bacterial patch)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000263> (C. elegans behavioral assay: relative density of encountered bacteria
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000263> "A normalized, quantitative measure of the bacterial density of a specific bacterial food patch that a C. elegans worm encounters during an assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000263> "C. elegans behavioral assay: relative density of the encountered bacterial patch"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000263> "C. elegans behavioral assay: relative density of encountered bacteria"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000263> <http://purl.obolibrary.org/obo/EMPTY_00000178>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000264> (C. elegans behavioral assay: relative density of the cultivation bacterial patch)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000264> (C. elegans behavioral assay: relative density of cultivation bacteria)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000264> "A normalized, quantitative measure of the bacterial density on the agar plates where C. elegans were cultivated prior to the behavioral assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000264> "C. elegans behavioral assay: relative density of the cultivation bacterial patch"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000264> "C. elegans behavioral assay: relative density of cultivation bacteria"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000264> <http://purl.obolibrary.org/obo/EMPTY_00000179>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000000> (Treatment)
