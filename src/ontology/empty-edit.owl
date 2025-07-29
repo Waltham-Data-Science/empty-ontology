@@ -94,6 +94,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000168>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000169>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000170>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000171>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000172>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000173>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000174>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000175>))
@@ -191,6 +192,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000012>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_20000000>))
@@ -688,6 +690,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000171> "optogeneticTetanusStimulationTargetLocation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000171> "optogenetic tetanus stimulation target location"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000171> <http://purl.obolibrary.org/obo/EMPTY_00000183>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000172> (experimental trial number)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000172> "The index of individual experimental trial within a set.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000172> "experimental trial number"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000172> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000173> (descriptor)
 
@@ -1340,6 +1348,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000010> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000011> "Specifies the pharmacological treatment assigned to a subject. This assignment dictates the experimental group, with possible values being 'CNO' for Clozapine-N-oxide administration (2 mg/kg, i.p.) or 'Saline' for vehicle control administration (i.p.). These treatments were administered 45 minutes before fear conditioning and before EPM testing.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000011> "treatment: CNO or saline administration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000011> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000012> (treatment: date of birth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000012> "Specifies the date of birth in YYYY-MM-DD format")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000012> "treatment: date of birth"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000012> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000013> (treatment: food restriction onset time)
 
