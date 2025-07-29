@@ -693,13 +693,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000171> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000173> "A term that describes, characterizes, or quantifies an aspect of an experimental entity, process, or system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000173> "descriptor"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000173> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000174> (manipulation)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000174> "An intentional action, intervention, or condition applied during an experiment to observe its effect on a subject or system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000174> "manipulation"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000174> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000175> (epoch-related manipulation)
 
