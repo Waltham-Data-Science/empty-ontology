@@ -214,11 +214,37 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_30000006>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_30000007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_30000008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_30000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C179817>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C201530>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25167>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25285>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25335>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25364>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25365>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C32221>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C43578>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C44477>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C44478>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C48179>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C54086>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C54100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C54154>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C63921>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C85776>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C85845>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C88206>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C90380>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C93399>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SNOMED_91723000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001880>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002415>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
 ############################
-#    Annotation Properties
+#   Annotation Properties
 ############################
 
 # Annotation Property: dcterms:description (description)
@@ -236,7 +262,7 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 
 ############################
-#    Classes
+#   Classes
 ############################
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000001> (empty)
@@ -569,13 +595,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000148> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000149> (session timeline)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000149> "A relative experimental session timeline; major stimulation events are, by default, considered numerically from 1 to N")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000149> "A relative experimental session timeline; major stimulation events are, by default, considered numerically from 1 to N.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000149> "session timeline"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000149> <http://purl.obolibrary.org/obo/EMPTY_00000180>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000150> (postnatal day)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000150> "Postnatal day' is a specific unit to measure the age of an organism that is born live (viviparous animals), starting with the day of birth (postnatal day 0). Often abbreviated in written documents with a capital P (as in P0, P10, etc).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000150> "Postnatal day is a specific unit to measure the age of an organism that is born live (viviparous animals), starting with the day of birth (postnatal day 0). Often abbreviated in written documents with a capital P (as in P0, P10, etc).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000150> "postnatal day"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000150> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
 
@@ -601,7 +627,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000154> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000155> "A numerical code that assigns a subject to a specific experimental group within the study design. For example, this could numerically represent treatment groups such as 'saline' or 'CNO' as described in the manuscript, or other study-specific groupings.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000155> "experimental group code"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000155> <http://purl.obolibrary.org/obo/EMPTY_00000182>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000155> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000156> (acoustic startle response: number of samples)
 
@@ -647,9 +673,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000162> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000163> (fear-potentiated startle: experimental phase or test name)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000163> "A string identifier indicating the specific experimental phase, session, or test condition of the Fear-Potentiated Startle (FPS) paradigm to which the data belongs. Examples derived from the manuscript's protocol include 'chamber and startle habituation', 'baseline pre-shock test', 'fear conditioning', 'cued fear recall in context B', 'contextual fear recall in context A', or specific extinction test sessions. This often corresponds to the name of the source data sheet (e.g., 'Pre-test 1', 'Cue test 3').")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000163> "A string identifier indicating the specific experimental phase, session, or test condition of the Fear-Potentiated Startle (FPS) paradigm to which the data belongs. Examples include 'chamber and startle habituation', 'baseline pre-shock test', 'fear conditioning', 'cued fear recall in context B', 'contextual fear recall in context A', or specific extinction test sessions. [Source: https://doi.org/10.1016/j.celrep.2025.115768]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000163> "fear-potentiated startle: experimental phase or test name"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000163> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000163> <http://purl.obolibrary.org/obo/EMPTY_00000190>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000164> (elevated plus maze: test duration)
 
@@ -659,7 +686,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000164> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000165> (data exclusion flag)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000165> "A boolean flag indicating whether the data from a specific subject or experimental replicate should be excluded from subsequent analysis due to due to predefined quality control issues or experimental failure.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000165> "A boolean flag indicating whether the data from a specific subject or experimental replicate should be excluded from subsequent analysis due to predefined quality control issues or experimental failure.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000165> "data exclusion flag"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000165> <http://purl.obolibrary.org/obo/EMPTY_00000182>)
 
@@ -676,6 +703,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000169> "BNSTNeuronTypeI")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000169> "type I BNST neuron"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000169> <http://purl.obolibrary.org/obo/EMPTY_00000168>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000169> <http://purl.obolibrary.org/obo/UBERON_0001880>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000170> (type III BNST neuron)
 
@@ -683,6 +711,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000170> "BNSTNeuronTypeIII")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000170> "type III BNST neuron"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000170> <http://purl.obolibrary.org/obo/EMPTY_00000168>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000170> <http://purl.obolibrary.org/obo/UBERON_0001880>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000171> (optogenetic tetanus stimulation target location)
 
@@ -690,12 +719,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000171> "optogeneticTetanusStimulationTargetLocation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000171> "optogenetic tetanus stimulation target location"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000171> <http://purl.obolibrary.org/obo/EMPTY_00000183>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000171> <http://purl.obolibrary.org/obo/SNOMED_91723000>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000172> (experimental trial number)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000172> "The index of individual experimental trial within a set.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000172> "The index of an individual experimental trial within a set.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000172> "experimental trial number"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000172> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000172> <http://purl.obolibrary.org/obo/EMPTY_00000180>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000173> (descriptor)
 
@@ -735,8 +765,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000178> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000179> (universally unique identifier)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000179> "A standardized number used to uniquely identify information in computer systems, ensuring that no two identifiers are the same across different systems or contexts.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000179> "universally unique identifier"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/EMPTY_00000179> "UUID"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000179> "universally unique identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000179> <http://purl.obolibrary.org/obo/EMPTY_00000178>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000179> <http://purl.obolibrary.org/obo/NCIT_C54100>)
 
@@ -873,11 +903,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000200> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000201> (bacterial strain document identifier)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000201> "Unique alphanumeric identifier that links to an OpenMINDs document describing the strain of bacteria used as the food source on the cultivation plates for C. elegans.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000201> "Unique alphanumeric identifier that links to an OpenMINDs document describing the strain of bacteria used in an experiment.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000201> "bacterial strain document identifier"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000201> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000201> <http://purl.obolibrary.org/obo/EMPTY_00000199>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000201> <http://purl.obolibrary.org/obo/EMPTY_00000184>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000201> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000202> (bacterial OD600 (target) at seeding)
 
@@ -889,7 +918,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000202> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000203> (bacterial plate seeding timestamp)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000203> "The date and time when a large bacterial food patch was seeded onto the NGM agar plates used for the cultivation and growth of C. elegans prior to an experiment. Unit: datetime.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000203> "The date and time when a liquid culture of bacteria was seeded (pipetted) onto an agar plate. Unit: datetime.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000203> "bacterial plate seeding timestamp"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000203> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000203> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
@@ -897,7 +926,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000203> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000204> (bacterial plate cold storage timestamp)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000204> "The date and time when NGM plates seeded for C. elegans cultivation were transferred to cold storage (at approximately 4 degrees Celsisus) to arrest or slow bacterial growth, if part of the protocol. Unit: datetime.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000204> "The date and time when an agar plate seeded with bacteria was transferred to cold storage (at approximately 4 degrees Celsius) to arrest or slow bacterial growth, if part of the protocol. Unit: datetime.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000204> "bacterial plate cold storage timestamp"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000204> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000204> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
@@ -905,7 +934,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000204> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000205> (bacterial plate room temperature timestamp)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000205> "The date and time when C. elegans cultivation plates were moved from cold storage to room temperature to allow them to acclimate before picking worms onto them to avoid temperature affecting the animals. Unit: datetime.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000205> "The date and time when an agar plate seeded with bacteria was moved from cold storage to room temperature to continue bacterial growth, if part of the protocol. Unit: datetime.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000205> "bacterial plate room temperature timestamp"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000205> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000205> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
@@ -913,14 +942,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000205> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000206> (C. elegans developmental stage)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000206> "The date and time when L4 larval stage C. elegans were picked from cultivation plates to be used in an experiment. Unit: datetime.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000206> "The developmental stage (e.g. 'L4' or '1DOA') at the time in which C. elegans were picked to the agar plate. Unit: datetime.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000206> "C. elegans developmental stage"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000206> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000206> <http://purl.obolibrary.org/obo/EMPTY_00000199>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000207> (bacterial OD600 measurement)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000207> "The measured optical density at 600 nm (OD600) of the prepared bacterial solution immediately before it was pipetted to create food patches on C. elegans assay plates. This provides a precise measure of initial bacterial concentration. Unit: dimensionless.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000207> "The measured optical density at 600 nm (OD600) of a reference liquid culture of bacteria. Unit: dimensionless.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000207> "bacterial OD600 measurement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000207> <http://purl.obolibrary.org/obo/EMPTY_00000194>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000207> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
@@ -928,7 +957,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000207> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000208> (bacterial colony forming units (CFU) measurement)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000208> "The concentration of viable bacterial cells in the food source solution for C. elegans assays, quantified as Colony Forming Units per milliliter (CFU/mL), estimated for the prepared bacterial stock. Unit: CFU/mL.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000208> "The concentration of viable bacterial cells quantified as Colony Forming Units per milliliter (CFU/mL), estimated for the reference liquid culture of bacteria. Unit: CFU/mL.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000208> "bacterial colony forming units (CFU) measurement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000208> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000208> <http://purl.obolibrary.org/obo/EMPTY_00000194>)
@@ -936,56 +965,56 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000208> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000209> (bacterial plate identifier)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000209> "A unique alphanumeric identifier assigned to an NDI ontologyTableRow document that contains the set of parameters and conditions for a specific C. elegans behavioral assay experiment.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000209> "A unique numerical identifier assigned to the physical plate (e.g., NGM agar plate) on which bacterial patch(s) were seeded.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000209> "bacterial plate identifier"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000209> <http://purl.obolibrary.org/obo/EMPTY_00000184>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000209> <http://purl.obolibrary.org/obo/EMPTY_00000194>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000209> <http://purl.obolibrary.org/obo/EMPTY_00000180>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000209> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000210> (bacterial plate document identifier)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000210> "A unique numerical identifier assigned to the physical plate (e.g., NGM agar plate) on which a C. elegans experimental trial or a set of trials was conducted.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000210> "A unique alphanumeric identifier assigned to an NDI ontologyTableRow document that contains the set of parameters and conditions for a specific agar plate containing bacterial patch(s).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000210> "bacterial plate document identifier"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000210> <http://purl.obolibrary.org/obo/EMPTY_00000178>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000210> <http://purl.obolibrary.org/obo/EMPTY_00000194>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000210> <http://purl.obolibrary.org/obo/EMPTY_00000184>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000210> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000211> (C. elegans picked timestamp)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000211> "A unique alphanumeric identifier assigned to an NDI document that details the specific parameters of the plate used in a C. elegans behavioral assay.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000211> "The date and time when C. elegans were picked to an agar plate. Unit: datetime.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000211> "C. elegans picked timestamp"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000211> <http://purl.obolibrary.org/obo/EMPTY_00000184>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000211> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000211> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000211> <http://purl.obolibrary.org/obo/EMPTY_00000194>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000212> (C. elegans behavioral assay label)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000212> "A string label of the layout of food patches (i.e., 'grid', 'single') for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000212> "A string label referring to the layout of food patches (i.e., 'SingleDensityMultiPatch', 'MultiDensityMultiPatch','LargeSinglePatch','SmallSinglePatch') for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000212> "C. elegans behavioral assay label"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000212> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000212> <http://purl.obolibrary.org/obo/NCIT_C25365>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000213> (bacterial OD600 label)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000213> "A string label used to categorize or identify the nominal OD600 condition of the food patches in a C. elegans experiment (e.g., '1.0', '0.5', '10.0') corresponding to the relative density conditions for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000213> "A string label used to categorize or identify the nominal OD600 condition of bacterial patches in an experiment (e.g., '1.0', '0.5', '10.0') corresponding to the relative density conditions for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000213> "bacterial OD600 label"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000213> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000213> <http://purl.obolibrary.org/obo/NCIT_C25365>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000214> (bacterial plate growth duration label)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000214> "A string label (e.g. '1','12','48') indicating the approximate duration of bacterial growth at room temperature (in hours) for C. elegans assay plates for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000214> "A string label (e.g. '1','12','48') indicating the approximate duration of bacterial growth at room temperature (in hours) for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000214> "bacterial plate growth duration label"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000214> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000214> <http://purl.obolibrary.org/obo/NCIT_C25365>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000215> (bacterial plate peptone inclusion flag)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000215> "A boolean flag indicating whether peptone was included in the Nematode Growth Medium (NGM) agar for the assay plates. Peptone presence supports bacterial growth. True: peptone included.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000215> "A boolean flag indicating whether peptone was included in the agar assay plates. Peptone presence supports bacterial growth. True: peptone included.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000215> "bacterial plate peptone inclusion flag"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000215> <http://purl.obolibrary.org/obo/EMPTY_00000182>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000215> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000215> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000216> (bacteria growth duration after seeding)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000216> "The total duration for which the bacteria food patch(s) on the C. elegans assay plates were allowed to grow at room temperature starting at the time seeded and ending at the beginning of the behavioral assay video recording. Unit: duration.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000216> "The total duration for which bacterial patch(s) on agar plates were allowed to grow at room temperature starting at the time seeded and ending at the beginning of the assay. Unit: duration.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000216> "bacteria growth duration after seeding"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000216> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000216> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
@@ -993,7 +1022,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000216> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000217> (bacterial patch volume)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000217> "The volume of bacterial solution pipetted to create each individual food patch on the C. elegans assay plate. Note: Volumes under 1 µL are approximate due to the difficulty of pipetting liquids at this scale. Unit: microliters (µL).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000217> "The volume of bacterial solution pipetted to create an individual patch on an agar plate. Note: Volumes under 1 µL are approximate due to the difficulty of pipetting liquids at this scale. Unit: microliters (µL).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000217> "bacterial patch volume"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000217> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000217> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
@@ -1001,45 +1030,45 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000217> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000218> (bacterial patch spacing (target))
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000218> "The intended center-to-center distance between adjacent bacterial food patches when arranged in a grid on the C. elegans assay plate. Unit: millimeters (mm).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000218> "The intended center-to-center distance between adjacent bacterial food patches when arranged in a grid on an agar plate. Unit: millimeters (mm).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000218> "bacterial patch spacing (target)"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000218> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000218> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000218> <http://purl.obolibrary.org/obo/NCIT_C25167>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000219> (arena diameter)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000219> (C. elegans behavioral assay: plate or arena diameter)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000219> "The diameter of the experimental arena used to corral animals in a C. elegans behavioral assays. The arena can be used to compute the spatial scale of the video recording. For example, if the arena is known to be 30 mm in diameter and measures 300 pixels, the spatial scale must be 10 pixels per millimiter. Unit: millimeters (mm).")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000219> "arena diameter"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000219> "The diameter of the experimental plate or arena used to corral animals in a C. elegans behavioral assay. A typical 9 cm agar plate will by 90 mm. Unit: millimeters (mm).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000219> "C. elegans behavioral assay: plate or arena diameter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000219> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000219> <http://purl.obolibrary.org/obo/NCIT_C25285>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000220> (bacterial patch identifier)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000220> "A unique numerical identifier assigned to a bacterial patch on a C. elegans assay plate.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000220> "A unique numerical identifier assigned to a patch of bacteria growing on an agar assay plate.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000220> "bacterial patch identifier"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000220> <http://purl.obolibrary.org/obo/EMPTY_00000178>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000220> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000220> <http://purl.obolibrary.org/obo/EMPTY_00000180>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000220> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000221> (X coordinate of bacterial patch center)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000221> (bacterial patch center: X coordinate)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000221> "The X pixel coordinate representing the geometric center of an individual detected bacterial food patch within the C. elegans assay arena. Unit: pixels.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000221> "X coordinate of bacterial patch center"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000221> "bacterial patch center: X coordinate"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000221> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000221> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000221> <http://purl.obolibrary.org/obo/NCIT_C44477>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000222> (Y coordinate of bacterial patch center)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000222> (bacterial patch center: Y coordinate)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000222> "The Y pixel coordinate representing the geometric center of an individual detected bacterial food patch within the C. elegans assay arena. Unit: pixels.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000222> "Y coordinate of bacterial patch center"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000222> "bacterial patch center: Y coordinate"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000222> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000222> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000222> <http://purl.obolibrary.org/obo/NCIT_C44478>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000223> (bacterial patch radius)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000223> "The radius of an individual detected bacterial food patch in a C. elegans assay, assuming patches are circular or near-circular. Unit: pixels.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000223> "The radius of an individual detected bacterial patch on an agar plate, assuming patches are circular or near-circular. Unit: pixels.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000223> "bacterial patch radius"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000223> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000223> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
@@ -1047,59 +1076,59 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000223> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000224> (bacterial patch circularity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000224> "A quantitative measure assessing how closely the shape of an individual detected bacterial food patch in a C. elegans assay conforms to a perfect circle. 1 is a perfect circle. [Source: https://www.mathworks.com/help/images/ref/regionprops.html]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000224> "A quantitative measure assessing how closely the shape of an individual detected bacterial  patch conforms to a perfect circle. 1 is a perfect circle. [Source: https://www.mathworks.com/help/images/ref/regionprops.html]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000224> "bacterial patch circularity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000224> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000224> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000225> (subject identifier)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000225> "A unique numerical identifier assigned to an animal on a C. elegans assay plate.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000225> "A unique numerical identifier assigned to a subject in an experiment.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000225> "subject identifier"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000225> <http://purl.obolibrary.org/obo/EMPTY_00000178>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000225> <http://purl.obolibrary.org/obo/EMPTY_00000194>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000225> <http://purl.obolibrary.org/obo/EMPTY_00000180>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000226> (first frame image)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000226> (C. elegans behavioral assay: first frame image)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000226> "An image corresponding to the first frame of the C. elegans behavioral video recording.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000226> "first frame image"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000226> "C. elegans behavioral assay: first frame image"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000226> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000226> <http://purl.obolibrary.org/obo/NCIT_C85845>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000226> <http://purl.obolibrary.org/obo/NCIT_C69244>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000227> (arena mask)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000227> (C. elegans behavioral assay: arena mask)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000227> "A binary image (logical matrix) where pixels within the experimental arena for C. elegans are marked (true) and pixels outside are unmarked (false). This mask defines the region of interest for worm tracking and behavioral analysis.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000227> "arena mask"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000227> "C. elegans behavioral assay: arena mask"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000227> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000227> <http://purl.obolibrary.org/obo/NCIT_C201530>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000228> (bacteria mask)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000228> (C. elegans behavioral assay: bacteria mask)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000228> "A binary image mask representing the union of all individually detected bacterial food patch areas on the C. elegans assay plate. This mask defines all food-containing regions.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000228> "bacteria mask"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000228> "C. elegans behavioral assay: bacteria mask"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000228> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000228> <http://purl.obolibrary.org/obo/NCIT_C201530>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000229> (closest patch identifier map)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000229> (C. elegans behavioral assay: closest patch identifier map)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000229> "An image or map where each pixel's value is the identifier of the bacterial food patch closest to that pixel's location.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000229> "closest patch identifier map"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000229> "C. elegans behavioral assay: closest patch identifier map"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000229> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000229> <http://purl.obolibrary.org/obo/NCIT_C48179>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000230> (closest patch OD600 map)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000230> (C. elegans behavioral assay: closest patch OD600 map)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000230> "An image or map where each pixel's value corresponds to the nominal OD600 or relative density of the bacterial food patch closest to that pixel's location.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000230> "closest patch OD600 map"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000230> "C. elegans behavioral assay: closest patch OD600 map"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000230> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000230> <http://purl.obolibrary.org/obo/NCIT_C48179>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000231> (patch parameter document identifier)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000231> (bacterial patch document identifier)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000231> "A unique alphanumeric identifier assigned to an NDI ontologyTableRow document that details the specific parameters of the bacterial food patches used in a C. elegans assay, including their location, size, and density.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000231> "patch parameter document identifier"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000231> "A unique alphanumeric identifier assigned to an NDI ontologyTableRow document that details the specific parameters of a bacterial food patch such as its location, size, and density.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000231> "bacterial patch document identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000231> <http://purl.obolibrary.org/obo/EMPTY_00000184>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000231> <http://purl.obolibrary.org/obo/EMPTY_00000194>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000231> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000232> (C. elegans body part)
 
@@ -1129,78 +1158,77 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000235> "
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000235> <http://purl.obolibrary.org/obo/EMPTY_00000232>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000235> <http://purl.obolibrary.org/obo/UBERON_0002415>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000236> (encounter identifier)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000236> (C. elegans behavioral assay: encounter identifier)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000236> "A unique numerical identifier assigned to a specific patch encounter event for a given worm within a video. This distinguishes individual encounters for detailed analysis.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000236> "encounter identifier"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000236> "A unique numerical identifier assigned to a specific encounter event for a given animal. This distinguishes individual encounters for detailed analysis.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000236> "C. elegans behavioral assay: encounter identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000236> <http://purl.obolibrary.org/obo/EMPTY_00000180>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000236> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000237> (encounter onset time)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000237> (C. elegans behavioral assay: encounter onset time)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000237> "The time, in seconds, corresponding to the frame at which the C. elegans worm enters a bacterial food patch. This is the precise start time of an encounter.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000237> "encounter onset time"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000237> "C. elegans behavioral assay: encounter onset time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000237> <http://purl.obolibrary.org/obo/EMPTY_00000188>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000237> <http://purl.obolibrary.org/obo/EMPTY_00000197>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000238> (encounter offset time)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000238> (C. elegans behavioral assay: encounter offset time)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000238> "The time, in seconds, corresponding to the frame at which the C. elegans worm exits a bacterial food patch. This is the precise end time of an encounter.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000238> "encounter offset time"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000238> "C. elegans behavioral assay: encounter offset time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000238> <http://purl.obolibrary.org/obo/EMPTY_00000188>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000238> <http://purl.obolibrary.org/obo/EMPTY_00000197>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000239> (deceleration upon encounter)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000239> (C. elegans behavioral assay: deceleration upon encounter)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000239> "The rate of change in the C. elegans worm's velocity, measured as the slope of the velocity curve during a defined time window surrounding its encounter with a bacterial patch. A negative value indicates a slowdown upon encounter. Unit: µm/s².")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000239> "deceleration upon encounter"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000239> "C. elegans behavioral assay: deceleration upon encounter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000239> <http://purl.obolibrary.org/obo/EMPTY_00000197>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000240> (minimum velocity during encounter)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000240> (C. elegans behavioral assay: minimum velocity during encounter)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000240> "The minimum instantaneous velocity recorded for the C. elegans worm while it is located on a bacterial food patch during an encounter. Unit: µm/s.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000240> "minimum velocity during encounter"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000240> "C. elegans behavioral assay: minimum velocity during encounter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000240> <http://purl.obolibrary.org/obo/EMPTY_00000197>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000240> <http://purl.obolibrary.org/obo/NCIT_C179817>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000241> (peak velocity before encounter onset)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000241> (C. elegans behavioral assay: peak velocity before encounter onset)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000241> "The peak instantaneous velocity of the C. elegans worm observed within 10 seconds before its entry into a bacterial food patch. Unit: µm/s.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000241> "peak velocity before encounter onset"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000241> "C. elegans behavioral assay: peak velocity before encounter onset"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000241> <http://purl.obolibrary.org/obo/EMPTY_00000197>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000241> <http://purl.obolibrary.org/obo/NCIT_C179817>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000242> (minimum velocity after encounter offset)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000242> (C. elegans behavioral assay: minimum velocity after encounter offset)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000242> "The minimum instantaneous velocity of the C. elegans worm observed within 10 seconds after its entry into a bacterial food patch. Unit: µm/s.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000242> "minimum velocity after encounter offset"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000242> "C. elegans behavioral assay: minimum velocity after encounter offset"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000242> <http://purl.obolibrary.org/obo/EMPTY_00000197>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000242> <http://purl.obolibrary.org/obo/NCIT_C179817>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000243> (posterior probability of exploitation)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000243> (C. elegans behavioral assay: posterior probability of exploitation)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000243> "The posterior probability, derived from a Gaussian Mixture Model (GMM) Classification, that a given patch encounter represents an 'exploitation' event (i.e., the worm has accepted the patch and is consuming bacteria). This value ranges from 0 to 1. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000243> "posterior probability of exploitation"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000243> "C. elegans behavioral assay: posterior probability of exploitation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000243> <http://purl.obolibrary.org/obo/EMPTY_00000197>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000243> <http://purl.obolibrary.org/obo/NCIT_C54154>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000244> (posterior probability of sensing)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000244> (C. elegans behavioral assay: posterior probability of sensing)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000244> "The posterior probability, derived from a semi-supervised Quadratic Discriminant Analysis (QDA), that a given patch encounter was 'sensed' by the C. elegans worm (i.e., the animal detected the presence of bacteria, typically indicated by a slowdown). This value ranges from 0 to 1. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000244> "posterior probability of sensing"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000244> "C. elegans behavioral assay: posterior probability of sensing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000244> <http://purl.obolibrary.org/obo/EMPTY_00000197>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000244> <http://purl.obolibrary.org/obo/NCIT_C54154>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000245> (relative density of encountered bacteria)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000245> (C. elegans behavioral assay: relative density of encountered bacteria)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000245> "A normalized, quantitative measure of the bacterial density of a specific bacterial food patch that a C. elegans worm encounters during an assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000245> "relative density of encountered bacteria"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000245> "C. elegans behavioral assay: relative density of encountered bacteria"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000245> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000246> (relative density of cultivation bacteria)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000246> (C. elegans behavioral assay: relative density of cultivation bacteria)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000246> "A normalized, quantitative measure of the bacterial density on the agar plates where C. elegans were cultivated prior to the behavioral assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000246> "relative density of cultivation bacteria"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000246> "C. elegans behavioral assay: relative density of cultivation bacteria"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000246> <http://purl.obolibrary.org/obo/EMPTY_00000199>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000247> (bacterial fluorescence assay parameter)
@@ -1213,21 +1241,21 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000247> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000248> "The date and time when an agar plate was poured.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000248> "agar plate pouring timestamp"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000248> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000248> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000248> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000249> (agar plate cold storage timestamp)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000249> "The date and time when an agar plate was transferred to cold storage to retain moisture during long-term storage.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000249> "agar plate cold storage timestamp"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000249> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000249> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000249> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000250> (microscopy image identifier)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000250> "A unique identifier for a microscopy image.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000250> "A unique numerical identifier for a microscopy image.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000250> "microscopy image identifier"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000250> <http://purl.obolibrary.org/obo/EMPTY_00000178>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000250> <http://purl.obolibrary.org/obo/EMPTY_00000180>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000251> (microscopy image exposure time)
 
@@ -1239,43 +1267,43 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000251> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000252> "The maximum pixel intensity detected along the radial profile of a fluorescent bacterial patch, typically found at the patch edge where bacteria are actively proliferating. [Source: analyzeLawnProfiles.m]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000252> "bacterial patch border peak fluorescence intensity"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000252> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000252> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000252> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000253> (bacterial patch border edge fluorescence intensity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000253> "The pixel intensity measured at the detected border of a fluorescent bacterial patch. [Source: analyzeLawnProfiles.m]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000253> "bacterial patch border edge fluorescence intensity"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000253> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000253> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000253> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000254> (bacterial patch border fluorescence amplitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000254> "A measure of bacterial density defined as the difference between the peak pixel intensity and the border pixel intensity of a fluorescent patch. [Source: analyzeLawnProfiles.m]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000254> "bacterial patch border fluorescence amplitude"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000254> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000254> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000254> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000255> (bacterial patch mean fluorescence amplitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000255> "The average pixel intensity computed from the edge mask of a fluorescent bacterial patch applied to the normalized image. [Source: analyzeLawnProfiles.m]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000255> "bacterial patch mean fluorescence amplitude"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000255> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000255> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000255> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000256> (bacterial patch center fluorescence amplitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000256> "The average pixel intensity of the middle 50% of a fluorescent bacterial patch. [Source: analyzeLawnProfiles.m]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000256> "bacterial patch center fluorescence amplitude"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000256> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000256> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000256> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000257> (bacterial patch border-to-center fluorescence ratio)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000257> "The ratio of the patch border amplitude to the patch center amplitude, used as a measure of bacterial distribution within the patch. [Source: analyzeLawnProfiles.m]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000257> "bacterial patch border-to-center fluorescence ratio"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000257> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000257> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000257> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000000> (treatment)
 
@@ -1482,5 +1510,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_30000008> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_30000009> "The measurement is performed after a long bout of artificial visual stimulation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_30000009> "approach: after artificial visual stimulation"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_30000009> <http://purl.obolibrary.org/obo/EMPTY_30000000>)
+
 
 )
