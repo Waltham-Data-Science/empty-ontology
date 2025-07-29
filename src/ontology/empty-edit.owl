@@ -180,6 +180,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000254>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000255>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000256>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000257>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000258>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000259>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000002>))
@@ -230,6 +232,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C54086>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C54100>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C54154>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C63921>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C69244>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C85776>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C85845>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C88206>))
@@ -346,18 +349,21 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000105> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000106> "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (North)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000106> "elevated plus maze: open arm (north) - time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000106> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000106> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000107> (elevated plus maze: open arm (south) - time)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000107> "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000107> "elevated plus maze: open arm (south) - time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000107> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000107> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000108> (elevated plus maze: open arm total time)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000108> "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Less time is generally indicative of higher anxiety. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000108> "elevated plus maze: open arm total time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000108> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000108> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000109> (elevated plus maze: open arm total - percent time during test duration)
 
@@ -370,54 +376,63 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000109> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000110> "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (North)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000110> "elevated plus maze: open arm (north) - latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000110> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000110> <http://purl.obolibrary.org/obo/EMPTY_00000188>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000111> (elevated plus maze: open arm (south) - latency to first entry)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000111> "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (South)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000111> "elevated plus maze: open arm (south) - latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000111> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000111> <http://purl.obolibrary.org/obo/EMPTY_00000188>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000112> (elevated plus maze: open arm total latency to first entry)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000112> "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'). Longer latencies often suggest higher anxiety. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000112> "elevated plus maze: open arm total latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000112> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000112> <http://purl.obolibrary.org/obo/EMPTY_00000188>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000113> (elevated plus maze: open arm (north) - time moving towards)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000113> "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (North)' zone, as detected by the tracking software. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000113> "elevated plus maze: open arm (north) - time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000113> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000113> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000114> (elevated plus maze: open arm (south) - time moving towards)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000114> "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (South)' zone, as detected by the tracking software. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000114> "elevated plus maze: open arm (south) - time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000114> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000114> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000115> (elevated plus maze: open arm total time moving towards)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000115> "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), reflecting approach motivation. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000115> "elevated plus maze: open arm total time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000115> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000115> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000116> (elevated plus maze: open arm (north) - time freezing)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000116> "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined 'Open Arm (North)' zone. Freezing is a common fear response. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000116> "elevated plus maze: open arm (north) - time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000116> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000116> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000117> (elevated plus maze: open arm (south) - time freezing)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000117> "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000117> "elevated plus maze: open arm (south) - time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000117> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000117> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000118> (elevated plus maze: open arm total time freezing)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000118> "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), indicating fear or anxiety. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000118> "elevated plus maze: open arm total time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000118> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000118> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000119> (elevated plus maze: closed arm (west) - entries)
 
@@ -460,18 +475,21 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000124> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000125> "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000125> "elevated plus maze: closed arm (west) - time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000125> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000125> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000126> (elevated plus maze: closed arm (east) - time)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000126> "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000126> "elevated plus maze: closed arm (east) - time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000126> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000126> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000127> (elevated plus maze: closed arm total time)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000127> "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000127> "elevated plus maze: closed arm total time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000127> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000127> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000128> (elevated plus maze: closed arm total - percent time during test duration)
 
@@ -484,54 +502,63 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000128> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000129> "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000129> "elevated plus maze: closed arm (west) - latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000129> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000129> <http://purl.obolibrary.org/obo/EMPTY_00000188>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000130> (elevated plus maze: closed arm (east) - latency to first entry)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000130> "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000130> "elevated plus maze: closed arm (east) - latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000130> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000130> <http://purl.obolibrary.org/obo/EMPTY_00000188>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000131> (elevated plus maze: closed arm total latency to first entry)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000131> "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000131> "elevated plus maze: closed arm total latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000131> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000131> <http://purl.obolibrary.org/obo/EMPTY_00000188>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000132> (elevated plus maze: closed arm (west) - time moving towards)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000132> "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000132> "elevated plus maze: closed arm (west) - time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000132> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000132> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000133> (elevated plus maze: closed arm (east) - time moving towards)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000133> "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000133> "elevated plus maze: closed arm (east) - time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000133> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000133> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000134> (elevated plus maze: closed arm total time moving towards)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000134> "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000134> "elevated plus maze: closed arm total time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000134> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000134> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000135> (elevated plus maze: closed arm (west) - time freezing)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000135> "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000135> "elevated plus maze: closed arm (west) - time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000135> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000135> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000136> (elevated plus maze: closed arm (east) - time freezing)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000136> "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000136> "elevated plus maze: closed arm (east) - time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000136> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000136> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000137> (elevated plus maze: closed arm total time freezing)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000137> "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000137> "elevated plus maze: closed arm total time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000137> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000137> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000138> (elevated plus maze: center - entries)
 
@@ -550,6 +577,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000139> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000140> "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Center' zone. Time in the center can indicate decision-making or risk assessment. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000140> "elevated plus maze: center - time"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000140> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000140> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000141> (elevated plus maze: center - percent time during test duration)
 
@@ -562,24 +590,27 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000141> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000142> "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Center' zone. If the animal starts in the center, this value may be zero or not applicable. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000142> "elevated plus maze: center - latency to first entry"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000142> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000142> <http://purl.obolibrary.org/obo/EMPTY_00000188>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000143> (elevated plus maze: center - time moving towards)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000143> "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Center' zone of the maze (e.g., from an arm). Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000143> "elevated plus maze: center - time moving towards"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000143> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000143> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000144> (elevated plus maze: center - time freezing)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000144> "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Center' zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000144> "elevated plus maze: center - time freezing"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000144> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000144> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000145> (elevated plus maze: test identifier)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000145> "For an Elevated Plus Maze experiment, this is a unique code or descriptive name assigned to identify a specific experimental session, trial, or a particular set of recorded data. It helps in organizing and referencing data from distinct observations.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000145> "elevated plus maze: test identifier"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000145> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000145> <http://purl.obolibrary.org/obo/EMPTY_00000189>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000146> (subject local identifier)
 
@@ -592,6 +623,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000146> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000148> "In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000148> "fear-potentiated startle: baseline acoustic startle response amplitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000148> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000148> <http://purl.obolibrary.org/obo/EMPTY_00000259>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000149> (session timeline)
 
@@ -615,13 +647,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000151> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000153> "A descriptive string identifying the specific type or condition of a trial in a Fear-Potentiated Startle (FPS) experiment. Examples from the manuscript include 'pre-shock' (baseline startle), 'post-shock' (startle in conditioning context after shocks), 'noise-only' (startle to acoustic stimulus alone during recall tests), or 'light+noise' (startle to acoustic stimulus in presence of conditioned cue during recall tests). The raw data might contain labels like 'Startle 95 dB Trial'.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000153> "fear-potentiated startle: trial type identifier"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000153> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000153> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000153> <http://purl.obolibrary.org/obo/EMPTY_00000190>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000154> (fear-potentiated startle: apparatus chamber identifier)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000154> "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit of measure: count or identifier string")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000154> "fear-potentiated startle: apparatus chamber identifier"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000154> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000154> <http://purl.obolibrary.org/obo/EMPTY_00000190>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000155> (experimental group code)
 
@@ -633,37 +666,41 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000155> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000156> "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit of measure: count")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000156> "acoustic startle response: number of samples"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000156> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000156> <http://purl.obolibrary.org/obo/EMPTY_00000190>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000157> (acoustic startle response: sampling rate)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000157> "The rate at which the analog startle response signal was digitized during data acquisition. Unit of measure: Hertz (Hz)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000157> "acoustic startle response: sampling rate"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000157> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000157> <http://purl.obolibrary.org/obo/EMPTY_00000190>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000158> (acoustic startle response: startle window onset amplitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000158> "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit of measure: millivolts (mV) or arbitrary units based on transducer calibration.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000158> "acoustic startle response: startle window onset amplitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000158> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000158> <http://purl.obolibrary.org/obo/EMPTY_00000259>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000159> (acoustic startle response: maximum amplitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000159> "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit of measure: millivolts (mV) or arbitrary units.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000159> "acoustic startle response: maximum amplitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000159> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000159> <http://purl.obolibrary.org/obo/EMPTY_00000259>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000160> (acoustic startle response: time to maximum amplitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000160> "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit of measure: milliseconds (ms)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000160> "acoustic startle response: time to maximum amplitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000160> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000160> <http://purl.obolibrary.org/obo/EMPTY_00000188>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000161> (acoustic startle response: average amplitude)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000161> "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit of measure: millivolts (mV) or arbitrary units.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000161> "acoustic startle response: average amplitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000161> <http://purl.obolibrary.org/obo/EMPTY_00000092>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000161> <http://purl.obolibrary.org/obo/EMPTY_00000259>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000162> (experiment trial execution timestamp)
 
@@ -683,6 +720,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000163> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000164> "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000164> "elevated plus maze: test duration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000164> <http://purl.obolibrary.org/obo/EMPTY_00000091>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000164> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000164> <http://purl.obolibrary.org/obo/EMPTY_00000189>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000165> (data exclusion flag)
 
@@ -873,9 +912,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000195> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000196> (C. elegans assay phase)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000196> "A specific parameter describing the technical specifications or settings of a video recording, such as frame rate, resolution, or duration.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000196> "A string identifier indicating the specific phase of a C. elegans experiment (e.g. 'cultivation' or 'behavior').")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000196> "C. elegans assay phase"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000196> <http://purl.obolibrary.org/obo/EMPTY_00000177>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000196> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000196> <http://purl.obolibrary.org/obo/EMPTY_00000194>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000197> (C. elegans behavioral assay measurement)
 
@@ -910,10 +950,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000201> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000202> (bacterial OD600 (target) at seeding)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000202> "The intended or nominal optical density at 600 nm (OD 600) to which the bacterial solution was diluted for creating food patches on C. elegans cultivation plates. Unit: dimensionless.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000202> "The intended or nominal optical density at 600 nm (OD 600) to which the bacterial solution was diluted for creating bacterial patches on agar plates. Unit: dimensionless.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000202> "bacterial OD600 (target) at seeding"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000202> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000202> <http://purl.obolibrary.org/obo/EMPTY_00000199>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000202> <http://purl.obolibrary.org/obo/NCIT_C85776>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000203> (bacterial plate seeding timestamp)
@@ -921,47 +960,41 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000202> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000203> "The date and time when a liquid culture of bacteria was seeded (pipetted) onto an agar plate. Unit: datetime.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000203> "bacterial plate seeding timestamp"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000203> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000203> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000203> <http://purl.obolibrary.org/obo/EMPTY_00000199>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000203> <http://purl.obolibrary.org/obo/EMPTY_00000258>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000204> (bacterial plate cold storage timestamp)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000204> "The date and time when an agar plate seeded with bacteria was transferred to cold storage (at approximately 4 degrees Celsius) to arrest or slow bacterial growth, if part of the protocol. Unit: datetime.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000204> "bacterial plate cold storage timestamp"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000204> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000204> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000204> <http://purl.obolibrary.org/obo/EMPTY_00000199>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000204> <http://purl.obolibrary.org/obo/EMPTY_00000258>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000205> (bacterial plate room temperature timestamp)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000205> "The date and time when an agar plate seeded with bacteria was moved from cold storage to room temperature to continue bacterial growth, if part of the protocol. Unit: datetime.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000205> "The date and time when an agar plate seeded with bacteria was moved from cold storage to room temperature (at approximately 25 degrees Celsius) to continue bacterial growth, if part of the protocol. Unit: datetime.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000205> "bacterial plate room temperature timestamp"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000205> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000205> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000205> <http://purl.obolibrary.org/obo/EMPTY_00000199>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000205> <http://purl.obolibrary.org/obo/EMPTY_00000258>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000206> (C. elegans developmental stage)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000206> "The developmental stage (e.g. 'L4' or '1DOA') at the time in which C. elegans were picked to the agar plate. Unit: datetime.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000206> "C. elegans developmental stage"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000206> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000206> <http://purl.obolibrary.org/obo/EMPTY_00000199>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000206> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000206> <http://purl.obolibrary.org/obo/EMPTY_00000194>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000207> (bacterial OD600 measurement)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000207> "The measured optical density at 600 nm (OD600) of a reference liquid culture of bacteria. Unit: dimensionless.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000207> "bacterial OD600 measurement"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000207> <http://purl.obolibrary.org/obo/EMPTY_00000194>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000207> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000207> <http://purl.obolibrary.org/obo/EMPTY_00000258>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000207> <http://purl.obolibrary.org/obo/NCIT_C85776>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000208> (bacterial colony forming units (CFU) measurement)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000208> "The concentration of viable bacterial cells quantified as Colony Forming Units per milliliter (CFU/mL), estimated for the reference liquid culture of bacteria. Unit: CFU/mL.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000208> "bacterial colony forming units (CFU) measurement"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000208> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000208> <http://purl.obolibrary.org/obo/EMPTY_00000194>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000208> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000208> <http://purl.obolibrary.org/obo/EMPTY_00000258>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000209> (bacterial plate identifier)
 
@@ -988,22 +1021,22 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000211> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000212> "A string label referring to the layout of food patches (i.e., 'SingleDensityMultiPatch', 'MultiDensityMultiPatch','LargeSinglePatch','SmallSinglePatch') for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000212> "C. elegans behavioral assay label"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000212> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000212> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000212> <http://purl.obolibrary.org/obo/NCIT_C25365>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000213> (bacterial OD600 label)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000213> "A string label used to categorize or identify the nominal OD600 condition of bacterial patches in an experiment (e.g., '1.0', '0.5', '10.0') corresponding to the relative density conditions for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000213> "bacterial OD600 label"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000213> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000213> <http://purl.obolibrary.org/obo/NCIT_C25365>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000213> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000213> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000214> (bacterial plate growth duration label)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000214> "A string label (e.g. '1','12','48') indicating the approximate duration of bacterial growth at room temperature (in hours) for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000214> "bacterial plate growth duration label"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000214> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000214> <http://purl.obolibrary.org/obo/NCIT_C25365>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000214> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000214> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000215> (bacterial plate peptone inclusion flag)
 
@@ -1014,18 +1047,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000215> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000216> (bacteria growth duration after seeding)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000216> "The total duration for which bacterial patch(s) on agar plates were allowed to grow at room temperature starting at the time seeded and ending at the beginning of the assay. Unit: duration.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000216> "The total duration for which bacterial patch(s) on agar plates were allowed to grow at room temperature starting at the time seeded and ending at the beginning of the assay. Unit: hours.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000216> "bacteria growth duration after seeding"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000216> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000216> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000216> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000216> <http://purl.obolibrary.org/obo/EMPTY_00000258>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000217> (bacterial patch volume)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000217> "The volume of bacterial solution pipetted to create an individual patch on an agar plate. Note: Volumes under 1 µL are approximate due to the difficulty of pipetting liquids at this scale. Unit: microliters (µL).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000217> "bacterial patch volume"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000217> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000217> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000217> <http://purl.obolibrary.org/obo/NCIT_C25335>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000218> (bacterial patch spacing (target))
@@ -1033,7 +1064,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000217> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000218> "The intended center-to-center distance between adjacent bacterial food patches when arranged in a grid on an agar plate. Unit: millimeters (mm).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000218> "bacterial patch spacing (target)"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000218> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000218> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000218> <http://purl.obolibrary.org/obo/NCIT_C25167>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000219> (C. elegans behavioral assay: plate or arena diameter)
@@ -1052,34 +1082,30 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000220> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000221> (bacterial patch center: X coordinate)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000221> "The X pixel coordinate representing the geometric center of an individual detected bacterial food patch within the C. elegans assay arena. Unit: pixels.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000221> "The X pixel coordinate representing the geometric center of an individual detected bacterial food patch within an assay arena. Unit: pixels.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000221> "bacterial patch center: X coordinate"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000221> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000221> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000221> <http://purl.obolibrary.org/obo/EMPTY_00000258>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000221> <http://purl.obolibrary.org/obo/NCIT_C44477>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000222> (bacterial patch center: Y coordinate)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000222> "The Y pixel coordinate representing the geometric center of an individual detected bacterial food patch within the C. elegans assay arena. Unit: pixels.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000222> "The Y pixel coordinate representing the geometric center of an individual detected bacterial food patch within an assay arena. Unit: pixels.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000222> "bacterial patch center: Y coordinate"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000222> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000222> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000222> <http://purl.obolibrary.org/obo/EMPTY_00000258>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000222> <http://purl.obolibrary.org/obo/NCIT_C44478>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000223> (bacterial patch radius)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000223> "The radius of an individual detected bacterial patch on an agar plate, assuming patches are circular or near-circular. Unit: pixels.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000223> "bacterial patch radius"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000223> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000223> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000223> <http://purl.obolibrary.org/obo/EMPTY_00000258>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000223> <http://purl.obolibrary.org/obo/NCIT_C63921>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000224> (bacterial patch circularity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000224> "A quantitative measure assessing how closely the shape of an individual detected bacterial  patch conforms to a perfect circle. 1 is a perfect circle. [Source: https://www.mathworks.com/help/images/ref/regionprops.html]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000224> "A quantitative measure assessing how closely the shape of an individual detected bacterial patch conforms to a perfect circle. 1 is a perfect circle. [Source: https://www.mathworks.com/help/images/ref/regionprops.html]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000224> "bacterial patch circularity"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000224> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000224> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000224> <http://purl.obolibrary.org/obo/EMPTY_00000258>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000225> (subject identifier)
 
@@ -1092,8 +1118,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000225> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000226> "An image corresponding to the first frame of the C. elegans behavioral video recording.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000226> "C. elegans behavioral assay: first frame image"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000226> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000226> <http://purl.obolibrary.org/obo/NCIT_C85845>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000226> <http://purl.obolibrary.org/obo/NCIT_C69244>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000226> <http://purl.obolibrary.org/obo/NCIT_C85845>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000227> (C. elegans behavioral assay: arena mask)
 
@@ -1229,27 +1255,27 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000245> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000246> "A normalized, quantitative measure of the bacterial density on the agar plates where C. elegans were cultivated prior to the behavioral assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000246> "C. elegans behavioral assay: relative density of cultivation bacteria"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000246> <http://purl.obolibrary.org/obo/EMPTY_00000199>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000246> <http://purl.obolibrary.org/obo/EMPTY_00000198>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000247> (bacterial fluorescence assay parameter)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000247> (bacterial fluorescence assay measurement)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000247> "A parameter related to the setup, execution, or measurement of a bacterial fluorescence assay used to estimate the relative density of bacterial patches.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000247> "bacterial fluorescence assay parameter"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000247> <http://purl.obolibrary.org/obo/EMPTY_00000195>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000247> "A measurement in a bacterial fluorescence assay used to estimate the relative density of bacterial patches.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000247> "bacterial fluorescence assay measurement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000247> <http://purl.obolibrary.org/obo/EMPTY_00000258>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000248> (agar plate pouring timestamp)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000248> "The date and time when an agar plate was poured.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000248> "The date and time when an agar plate was poured. Unit: datetime.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000248> "agar plate pouring timestamp"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000248> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000248> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000248> <http://purl.obolibrary.org/obo/EMPTY_00000258>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000249> (agar plate cold storage timestamp)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000249> "The date and time when an agar plate was transferred to cold storage to retain moisture during long-term storage.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000249> "The date and time when an agar plate was transferred to cold storage (at approximately 4 degrees Celsius) to retain moisture for long-term storage. Unit: datetime.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000249> "agar plate cold storage timestamp"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000249> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000249> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000249> <http://purl.obolibrary.org/obo/EMPTY_00000258>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000250> (microscopy image identifier)
 
@@ -1265,45 +1291,54 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000251> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000252> (bacterial patch border peak fluorescence intensity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000252> "The maximum pixel intensity detected along the radial profile of a fluorescent bacterial patch, typically found at the patch edge where bacteria are actively proliferating. [Source: analyzeLawnProfiles.m]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000252> "The maximum pixel intensity detected along the radial profile of a fluorescent bacterial patch, typically found at the patch edge where bacteria are actively proliferating. [Source: https://doi.org/10.7554/eLife.103191.3]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000252> "bacterial patch border peak fluorescence intensity"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000252> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000252> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000253> (bacterial patch border edge fluorescence intensity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000253> "The pixel intensity measured at the detected border of a fluorescent bacterial patch. [Source: analyzeLawnProfiles.m]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000253> "The pixel intensity measured at the detected border of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000253> "bacterial patch border edge fluorescence intensity"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000253> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000253> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000254> (bacterial patch border fluorescence amplitude)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000254> "A measure of bacterial density defined as the difference between the peak pixel intensity and the border pixel intensity of a fluorescent patch. [Source: analyzeLawnProfiles.m]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000254> "A measure of bacterial density defined as the difference between the peak pixel intensity and the border pixel intensity of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000254> "bacterial patch border fluorescence amplitude"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000254> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000254> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000254> <http://purl.obolibrary.org/obo/EMPTY_00000259>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000255> (bacterial patch mean fluorescence amplitude)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000255> "The average pixel intensity computed from the edge mask of a fluorescent bacterial patch applied to the normalized image. [Source: analyzeLawnProfiles.m]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000255> "The average pixel intensity computed across every pixel of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000255> "bacterial patch mean fluorescence amplitude"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000255> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000255> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000255> <http://purl.obolibrary.org/obo/EMPTY_00000259>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000256> (bacterial patch center fluorescence amplitude)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000256> "The average pixel intensity of the middle 50% of a fluorescent bacterial patch. [Source: analyzeLawnProfiles.m]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000256> "The average pixel intensity of the middle 50% of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000256> "bacterial patch center fluorescence amplitude"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000256> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000256> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000256> <http://purl.obolibrary.org/obo/EMPTY_00000259>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000257> (bacterial patch border-to-center fluorescence ratio)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000257> "The ratio of the patch border amplitude to the patch center amplitude, used as a measure of bacterial distribution within the patch. [Source: analyzeLawnProfiles.m]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000257> "The ratio of the patch border amplitude to the patch center amplitude, used as a measure of bacterial distribution within the patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000257> "bacterial patch border-to-center fluorescence ratio"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000257> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000257> <http://purl.obolibrary.org/obo/EMPTY_00000247>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000258> (bacterial measurement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000258> "A measurement of bacteria.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000258> "bacterial measurement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000258> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000259> (amplitude)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000259> "The amplitude of a periodic variable is a measure of its change in a single period (such as time or spatial period). The amplitude of a non-periodic signal is its magnitude compared with a reference value.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000259> "amplitude"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000259> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000000> (treatment)
 
@@ -1327,12 +1362,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000002> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000003> "The subject was acclimated to a temperature at a particular onset time.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000003> "treatment: acclimation onset time"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000003> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000003> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000004> (treatment: acclimation temperature)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000004> "The temperature (in degrees C) at which the subject was acclimated.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000004> "treatment: acclimation temperature"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000004> <http://purl.obolibrary.org/obo/EMPTY_00000191>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000004> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000005> (treatment: non-survival experiment time)
@@ -1381,6 +1418,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000011> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000012> "Specifies the date of birth in YYYY-MM-DD format")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000012> "treatment: date of birth"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000012> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000012> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000013> (treatment: food restriction onset time)
