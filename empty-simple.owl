@@ -10,12 +10,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/empty/empty-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-07-10/empty-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-08-03/empty-simple.owl"/>
         <terms:description>An ontology of experimental measurements in the sciences, the purposes for which experimental measurements were made, and experimental treatments, with a focus on life sciences.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Experimental Measurements Purposes and Treatments ontologY</terms:title>
         <rdfs:comment>EMPTY by NDI is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
-        <owl:versionInfo>2025-07-10</owl:versionInfo>
+        <owl:versionInfo>2025-08-03</owl:versionInfo>
         <owl:versionInfo>Release 2025-07-10</owl:versionInfo>
     </owl:Ontology>
     
@@ -111,6 +111,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
     <!-- http://purl.org/dc/terms/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
@@ -141,6 +147,19 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>An alternative label for a class or property which has the exact same meaning than the preferred name/primary label.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/20</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">has exact synonym</rdfs:label>
+        <rdfs:label>has_exact_synonym</rdfs:label>
+        <rdfs:seeAlso>https://github.com/information-artifact-ontology/ontology-metadata/issues/20</rdfs:seeAlso>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -152,21 +171,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EMPTY_00000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000001">
-        <obo:IAO_0000115>Experimental Measurements Purposes and Treatments ontologY</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">empty</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000085">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
         <obo:IAO_0000115>A quantitative or qualitative observation, recording, or assessment of a property, phenomenon, or system, obtained through standardized procedures, instruments, or methods. Measurements provide empirical data that can be used for scientific analysis, comparison, and interpretation, forming the foundation for hypothesis testing and knowledge advancement across disciplines.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Measurement</rdfs:label>
+        <rdfs:label xml:lang="en">measurement</rdfs:label>
     </owl:Class>
     
 
@@ -176,7 +185,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000085"/>
         <obo:IAO_0000115>A type of scientific measurement that quantifies an observable action, reaction, or pattern of conduct exhibited by an organism. Behavioral measurements are typically used in biological, psychological, and ethological studies to assess an organism&apos;s response to internal states, external stimuli, or experimental manipulations. These can range from simple reflexes to complex social interactions and are obtained through methods including direct observation, video tracking, or specialized automated apparatuses.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Behavioral measurement</rdfs:label>
+        <rdfs:label xml:lang="en">behavioral measurement</rdfs:label>
     </owl:Class>
     
 
@@ -186,7 +195,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000090"/>
         <obo:IAO_0000115>A specific category of behavioral measurement obtained from the Elevated Plus Maze (EPM) apparatus, an assay widely used in neuroscience and pharmacology to study anxiety-like behavior and the effects of anxiolytic or anxiogenic compounds in laboratory animals, typically rodents. These measurements quantify various aspects of the animal&apos;s exploratory activity, spatial preference (e.g., for open vs. enclosed arms), and specific behaviors (e.g., entries, time spent in zones, freezing) within the maze, providing insights into its emotional state and response to perceived risk.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated plus maze measurement</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze measurement</rdfs:label>
     </owl:Class>
     
 
@@ -196,7 +205,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000090"/>
         <obo:IAO_0000115>A type of behavioral measurement that quantifies the reflexive motor response (startle reflex) of an organism to a sudden, intense stimulus, typically acoustic. These measurements are often used to study sensory processing, sensorimotor gating (e.g., prepulse inhibition), and emotional modulation of reflexes (e.g., fear-potentiated startle).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Acoustic Startle Response measurement</rdfs:label>
+        <rdfs:label xml:lang="en">acoustic startle response measurement</rdfs:label>
     </owl:Class>
     
 
@@ -206,7 +215,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000090"/>
         <obo:IAO_0000115>A type of behavioral measurement derived from fear conditioning paradigms, where an initially neutral conditioned stimulus (CS) is paired with an aversive unconditioned stimulus (US), leading to the CS eliciting conditioned fear responses. These measurements quantify aspects of fear acquisition, memory consolidation, recall, extinction, and the emotional state associated with conditioned fear, such as freezing, startle potentiation, or avoidance.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear Conditioning measurement</rdfs:label>
+        <rdfs:label xml:lang="en">fear conditioning measurement</rdfs:label>
     </owl:Class>
     
 
@@ -216,7 +225,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000090"/>
         <obo:IAO_0000115>A type of behavioral measurement that is not a direct reading of a startle reflex, but is instead a value calculated, inferred, or derived from one or more primary Acoustic Startle Response (ASR) data points. Examples include percentage changes in ASR, ratios, or rates of change over time.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Acoustic Startle Response derived measurement</rdfs:label>
+        <rdfs:label xml:lang="en">acoustic startle response derived measurement</rdfs:label>
     </owl:Class>
     
 
@@ -226,7 +235,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as &apos;Open Arm (North)&apos;. The &apos;Open Arm (North)&apos; is one of the two open arms, distinguished by its assigned &apos;north&apos; orientation or designation in the experimental setup. Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm (north) - entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm (north) - entries</rdfs:label>
     </owl:Class>
     
 
@@ -236,7 +245,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as &apos;Open Arm (South)&apos;. The &apos;Open Arm (South)&apos; is one of the two open arms, distinguished by its assigned &apos;south&apos; orientation or designation in the experimental setup. Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm (south) - entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm (south) - entries</rdfs:label>
     </owl:Class>
     
 
@@ -246,7 +255,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this represents the total number of times the animal&apos;s body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., &apos;Open Arm (North)&apos; and &apos;Open Arm (South)&apos;). It is a common measure of exploration and anxiety. Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm total entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm total entries</rdfs:label>
     </owl:Class>
     
 
@@ -256,7 +265,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head (specifically tracked by the software) enters the user-defined &apos;Open Arm (North)&apos; zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as &apos;north&apos;. Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm (north) - head entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm (north) - head entries</rdfs:label>
     </owl:Class>
     
 
@@ -266,7 +275,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head (specifically tracked by the software) enters the user-defined &apos;Open Arm (South)&apos; zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as &apos;south&apos;. Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm (south) - head entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm (south) - head entries</rdfs:label>
     </owl:Class>
     
 
@@ -276,7 +285,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this is the total number of times the animal&apos;s head (specifically tracked by the software) enters any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; and &apos;Open Arm (South)&apos;), considered an indicator of risk-assessment behavior. Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm total head entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm total head entries</rdfs:label>
     </owl:Class>
     
 
@@ -285,8 +294,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Open Arm (North)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm (north) - time</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm (north) - time</rdfs:label>
     </owl:Class>
     
 
@@ -295,8 +305,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Open Arm (South)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm (south) - time</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm (south) - time</rdfs:label>
     </owl:Class>
     
 
@@ -305,8 +316,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative total duration the animal&apos;s body spends within any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; and &apos;Open Arm (South)&apos;). Less time is generally indicative of higher anxiety. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm total time</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm total time</rdfs:label>
     </owl:Class>
     
 
@@ -316,7 +328,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; and &apos;Open Arm (South)&apos;). Unit of measure: %</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm total - percent time during test duration</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm total - percent time during test duration</rdfs:label>
     </owl:Class>
     
 
@@ -325,8 +337,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000188"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Open Arm (North)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm (north) - latency to first entry</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm (north) - latency to first entry</rdfs:label>
     </owl:Class>
     
 
@@ -335,8 +348,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000188"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Open Arm (South)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm (south) - latency to first entry</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm (south) - latency to first entry</rdfs:label>
     </owl:Class>
     
 
@@ -345,8 +359,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000188"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; or &apos;Open Arm (South)&apos;). Longer latencies often suggest higher anxiety. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm total latency to first entry</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm total latency to first entry</rdfs:label>
     </owl:Class>
     
 
@@ -355,8 +370,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Open Arm (North)&apos; zone, as detected by the tracking software. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm (north) - time moving towards</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm (north) - time moving towards</rdfs:label>
     </owl:Class>
     
 
@@ -365,8 +381,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000114">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Open Arm (South)&apos; zone, as detected by the tracking software. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm (south) - time moving towards</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm (south) - time moving towards</rdfs:label>
     </owl:Class>
     
 
@@ -375,8 +392,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; or &apos;Open Arm (South)&apos;), reflecting approach motivation. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm total time moving towards</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm total time moving towards</rdfs:label>
     </owl:Class>
     
 
@@ -385,8 +403,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined &apos;Open Arm (North)&apos; zone. Freezing is a common fear response. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm (north) - time freezing</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm (north) - time freezing</rdfs:label>
     </owl:Class>
     
 
@@ -395,8 +414,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined &apos;Open Arm (South)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm (south) - time freezing</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm (south) - time freezing</rdfs:label>
     </owl:Class>
     
 
@@ -405,8 +425,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000118">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; or &apos;Open Arm (South)&apos;), indicating fear or anxiety. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: open arm total time freezing</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: open arm total time freezing</rdfs:label>
     </owl:Class>
     
 
@@ -416,7 +437,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body fully enters the user-defined &apos;Closed Arm (West)&apos; zone, representing the enclosed arm designated as &apos;west&apos;. Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm (west) - entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm (west) - entries</rdfs:label>
     </owl:Class>
     
 
@@ -426,7 +447,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000120">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body fully enters the user-defined &apos;Closed Arm (East)&apos; zone, representing the enclosed arm designated as &apos;east&apos;. Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm (east) - entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm (east) - entries</rdfs:label>
     </owl:Class>
     
 
@@ -436,7 +457,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000121">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this is the total number of times the animal&apos;s body fully enters any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; and &apos;Closed Arm (East)&apos;). It is often used as an indicator of general locomotor activity. Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm total entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm total entries</rdfs:label>
     </owl:Class>
     
 
@@ -446,7 +467,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000122">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head enters the user-defined &apos;Closed Arm (West)&apos; zone. Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm (west) - head entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm (west) - head entries</rdfs:label>
     </owl:Class>
     
 
@@ -456,7 +477,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000123">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head enters the user-defined &apos;Closed Arm (East)&apos; zone. Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm (east) - head entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm (east) - head entries</rdfs:label>
     </owl:Class>
     
 
@@ -466,7 +487,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this is the total number of times the animal&apos;s head enters any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; and &apos;Closed Arm (East)&apos;). Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm total head entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm total head entries</rdfs:label>
     </owl:Class>
     
 
@@ -475,8 +496,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000125">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Closed Arm (West)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm (west) - time</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm (west) - time</rdfs:label>
     </owl:Class>
     
 
@@ -485,8 +507,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Closed Arm (East)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm (east) - time</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm (east) - time</rdfs:label>
     </owl:Class>
     
 
@@ -495,8 +518,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative total duration the animal&apos;s body spends within any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; and &apos;Closed Arm (East)&apos;). Animals typically spend more time in these &apos;safer&apos; areas. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm total time</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm total time</rdfs:label>
     </owl:Class>
     
 
@@ -506,7 +530,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; and &apos;Closed Arm (East)&apos;). Unit of measure: %</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm total - percent time during test duration</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm total - percent time during test duration</rdfs:label>
     </owl:Class>
     
 
@@ -515,8 +539,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000188"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Closed Arm (West)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm (west) - latency to first entry</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm (west) - latency to first entry</rdfs:label>
     </owl:Class>
     
 
@@ -525,8 +550,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000188"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Closed Arm (East)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm (east) - latency to first entry</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm (east) - latency to first entry</rdfs:label>
     </owl:Class>
     
 
@@ -535,8 +561,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000188"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; or &apos;Closed Arm (East)&apos;). Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm total latency to first entry</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm total latency to first entry</rdfs:label>
     </owl:Class>
     
 
@@ -545,8 +572,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Closed Arm (West)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm (west) - time moving towards</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm (west) - time moving towards</rdfs:label>
     </owl:Class>
     
 
@@ -555,8 +583,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Closed Arm (East)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm (east) - time moving towards</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm (east) - time moving towards</rdfs:label>
     </owl:Class>
     
 
@@ -565,8 +594,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000134">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; or &apos;Closed Arm (East)&apos;). Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm total time moving towards</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm total time moving towards</rdfs:label>
     </owl:Class>
     
 
@@ -575,8 +605,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000135">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined &apos;Closed Arm (West)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm (west) - time freezing</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm (west) - time freezing</rdfs:label>
     </owl:Class>
     
 
@@ -585,8 +616,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000136">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined &apos;Closed Arm (East)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm (east) - time freezing</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm (east) - time freezing</rdfs:label>
     </owl:Class>
     
 
@@ -595,8 +627,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000137">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; or &apos;Closed Arm (East)&apos;). Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: closed arm total time freezing</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: closed arm total time freezing</rdfs:label>
     </owl:Class>
     
 
@@ -606,7 +639,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body fully enters the user-defined &apos;Center&apos; zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: center - entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: center - entries</rdfs:label>
     </owl:Class>
     
 
@@ -616,7 +649,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000139">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head enters the user-defined &apos;Center&apos; zone of the maze. Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: center - head entries</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: center - head entries</rdfs:label>
     </owl:Class>
     
 
@@ -625,8 +658,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Center&apos; zone. Time in the center can indicate decision-making or risk assessment. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: center - time</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: center - time</rdfs:label>
     </owl:Class>
     
 
@@ -636,7 +670,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined &apos;Center&apos; zone of the maze. Unit of measure: %</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: center - percent time during test duration</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: center - percent time during test duration</rdfs:label>
     </owl:Class>
     
 
@@ -645,8 +679,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000188"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Center&apos; zone. If the animal starts in the center, this value may be zero or not applicable. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: center - latency to first entry</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: center - latency to first entry</rdfs:label>
     </owl:Class>
     
 
@@ -655,8 +690,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000143">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Center&apos; zone of the maze (e.g., from an arm). Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: center - time moving towards</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: center - time moving towards</rdfs:label>
     </owl:Class>
     
 
@@ -665,8 +701,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000144">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined &apos;Center&apos; zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: center - time freezing</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: center - time freezing</rdfs:label>
     </owl:Class>
     
 
@@ -674,9 +711,19 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000145 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000145">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000189"/>
         <obo:IAO_0000115>For an Elevated Plus Maze experiment, this is a unique code or descriptive name assigned to identify a specific experimental session, trial, or a particular set of recorded data. It helps in organizing and referencing data from distinct observations.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: test identifier</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: test identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000181"/>
+        <obo:IAO_0000115>For an experiment, this is a unique code or label assigned to an individual animal subject. This allows for tracking and associating behavioral data with specific animals, along with their characteristics like strain, sex, or age.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">subject local identifier</rdfs:label>
     </owl:Class>
     
 
@@ -685,8 +732,39 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000148">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
-        <obo:IAO_0000115>In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: baseline acoustic startle response amplitude</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000259"/>
+        <obo:IAO_0000115>In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fear-potentiated startle: baseline acoustic startle response amplitude</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000180"/>
+        <obo:IAO_0000115>A relative experimental session timeline; major stimulation events are, by default, considered numerically from 1 to N.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">session timeline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000181"/>
+        <obo:IAO_0000115>Postnatal day is a specific unit to measure the age of an organism that is born live (viviparous animals), starting with the day of birth (postnatal day 0). Often abbreviated in written documents with a capital P (as in P0, P10, etc).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">postnatal day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000085"/>
+        <obo:IAO_0000115>A voltage offset measured at the end of a voltage record, in V</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">microelectrode voltage offset</rdfs:label>
     </owl:Class>
     
 
@@ -694,9 +772,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000153 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000153">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000190"/>
         <obo:IAO_0000115>A descriptive string identifying the specific type or condition of a trial in a Fear-Potentiated Startle (FPS) experiment. Examples from the manuscript include &apos;pre-shock&apos; (baseline startle), &apos;post-shock&apos; (startle in conditioning context after shocks), &apos;noise-only&apos; (startle to acoustic stimulus alone during recall tests), or &apos;light+noise&apos; (startle to acoustic stimulus in presence of conditioned cue during recall tests). The raw data might contain labels like &apos;Startle 95 dB Trial&apos;.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: trial type identifier</rdfs:label>
+        <rdfs:label xml:lang="en">fear-potentiated startle: trial type identifier</rdfs:label>
     </owl:Class>
     
 
@@ -704,9 +783,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000154 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000154">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000190"/>
         <obo:IAO_0000115>Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit of measure: count or identifier string</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: apparatus chamber identifier</rdfs:label>
+        <rdfs:label xml:lang="en">fear-potentiated startle: apparatus chamber identifier</rdfs:label>
     </owl:Class>
     
 
@@ -714,9 +793,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000155 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000155">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000181"/>
         <obo:IAO_0000115>A numerical code that assigns a subject to a specific experimental group within the study design. For example, this could numerically represent treatment groups such as &apos;saline&apos; or &apos;CNO&apos; as described in the manuscript, or other study-specific groupings.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Experimental group code</rdfs:label>
+        <rdfs:label xml:lang="en">experimental group code</rdfs:label>
     </owl:Class>
     
 
@@ -724,9 +803,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000156">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000190"/>
         <obo:IAO_0000115>The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit of measure: count</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Acoustic Startle Response: number of samples</rdfs:label>
+        <rdfs:label xml:lang="en">acoustic startle response: number of samples</rdfs:label>
     </owl:Class>
     
 
@@ -734,9 +813,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000157 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000157">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000190"/>
         <obo:IAO_0000115>The rate at which the analog startle response signal was digitized during data acquisition. Unit of measure: Hertz (Hz)</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Acoustic Startle Response: sampling rate</rdfs:label>
+        <rdfs:label xml:lang="en">acoustic startle response: sampling rate</rdfs:label>
     </owl:Class>
     
 
@@ -745,8 +824,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000158">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000259"/>
         <obo:IAO_0000115>The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit of measure: millivolts (mV) or arbitrary units based on transducer calibration.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Acoustic Startle Response: startle window onset amplitude</rdfs:label>
+        <rdfs:label xml:lang="en">acoustic startle response: startle window onset amplitude</rdfs:label>
     </owl:Class>
     
 
@@ -755,8 +835,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000259"/>
         <obo:IAO_0000115>The peak amplitude of the acoustic startle response (e.g., &apos;jump amplitude&apos;) detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit of measure: millivolts (mV) or arbitrary units.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Acoustic Startle Response: maximum amplitude</rdfs:label>
+        <rdfs:label xml:lang="en">acoustic startle response: maximum amplitude</rdfs:label>
     </owl:Class>
     
 
@@ -765,8 +846,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000188"/>
         <obo:IAO_0000115>The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit of measure: milliseconds (ms)</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Acoustic Startle Response: time to maximum amplitude</rdfs:label>
+        <rdfs:label xml:lang="en">acoustic startle response: time to maximum amplitude</rdfs:label>
     </owl:Class>
     
 
@@ -775,8 +857,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000259"/>
         <obo:IAO_0000115>The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit of measure: millivolts (mV) or arbitrary units.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Acoustic Startle Response: average amplitude</rdfs:label>
+        <rdfs:label xml:lang="en">acoustic startle response: average amplitude</rdfs:label>
     </owl:Class>
     
 
@@ -784,9 +867,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000162">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000186"/>
         <obo:IAO_0000115>The specific date and time indicating when an individual experimental trial was conducted or its data recorded.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Experiment trial execution timestamp</rdfs:label>
+        <rdfs:label xml:lang="en">experiment trial execution timestamp</rdfs:label>
     </owl:Class>
     
 
@@ -794,9 +877,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000163 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000163">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
-        <obo:IAO_0000115>A string identifier indicating the specific experimental phase, session, or test condition of the Fear-Potentiated Startle (FPS) paradigm to which the data belongs. Examples derived from the manuscript&apos;s protocol include &apos;chamber and startle habituation&apos;, &apos;baseline pre-shock test&apos;, &apos;fear conditioning&apos;, &apos;cued fear recall in context B&apos;, &apos;contextual fear recall in context A&apos;, or specific extinction test sessions. This often corresponds to the name of the source data sheet (e.g., &apos;Pre-test 1&apos;, &apos;Cue test 3&apos;).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Fear-Potentiated Startle: experimental phase or test name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000190"/>
+        <obo:IAO_0000115>A string identifier indicating the specific experimental phase, session, or test condition of the Fear-Potentiated Startle (FPS) paradigm to which the data belongs. Examples include &apos;chamber and startle habituation&apos;, &apos;baseline pre-shock test&apos;, &apos;fear conditioning&apos;, &apos;cued fear recall in context B&apos;, &apos;contextual fear recall in context A&apos;, or specific extinction test sessions. [Source: https://doi.org/10.1016/j.celrep.2025.115768]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fear-potentiated startle: experimental phase or test name</rdfs:label>
     </owl:Class>
     
 
@@ -805,8 +889,10 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000189"/>
         <obo:IAO_0000115>In the Elevated Plus Maze task, this is the time of the total test duration in seconds&apos;). Unit of measure: seconds</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Elevated Plus Maze: test duration</rdfs:label>
+        <rdfs:label xml:lang="en">elevated plus maze: test duration</rdfs:label>
     </owl:Class>
     
 
@@ -814,9 +900,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000165">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
-        <obo:IAO_0000115>A boolean flag indicating whether the data from a specific subject or experimental replicate should be excluded from subsequent analysis due to due to predefined quality control issues or experimental failure.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Data exclusion flag</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000182"/>
+        <obo:IAO_0000115>A boolean flag indicating whether the data from a specific subject or experimental replicate should be excluded from subsequent analysis due to predefined quality control issues or experimental failure.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">data exclusion flag</rdfs:label>
     </owl:Class>
     
 
@@ -824,10 +910,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000168">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000173"/>
         <obo:IAO_0000115>A cell type proposed by an investigator on the basis of electrophysiological or anatomical criteria.</obo:IAO_0000115>
         <obo:IAO_0000118>investigatorDefinedCellType</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Investigator-defined cell type</rdfs:label>
+        <rdfs:label xml:lang="en">investigator-defined cell type</rdfs:label>
     </owl:Class>
     
 
@@ -838,7 +924,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000168"/>
         <obo:IAO_0000115>A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that fires regularly, displays moderate spike frequency adaptation, and exhibits a voltage sag indicating the presence of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]</obo:IAO_0000115>
         <obo:IAO_0000118>BNSTNeuronTypeI</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Type I BNST neuron</rdfs:label>
+        <rdfs:label xml:lang="en">type I BNST neuron</rdfs:label>
     </owl:Class>
     
 
@@ -849,7 +935,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000168"/>
         <obo:IAO_0000115>A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) characterized by a high rheobase, absence of voltage sag under negative current steps, prominent inward rectification due to the activation of the inward rectifying K+ current (IKIR) at membrane potentials more negative than approximately -50 mV, and firing onset after a characteristic slow voltage ramp mediated by the K+ delayed current (ID). [Source: https://doi.org/10.1016/j.celrep.2025.115768]</obo:IAO_0000115>
         <obo:IAO_0000118>BNSTNeuronTypeIII</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Type III BNST neuron</rdfs:label>
+        <rdfs:label xml:lang="en">type III BNST neuron</rdfs:label>
     </owl:Class>
     
 
@@ -857,50 +943,912 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000171 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000171">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000183"/>
         <obo:IAO_0000115>The specific anatomical region where tetanic light stimulation (TLS) is applied in optogenetic experiments to evoke neuronal activity. The value should be defined by the ONTOLOGY_NAME:ONTOLOGY_NODE (e.g. &apos;UBERON:0000123&apos;).</obo:IAO_0000115>
         <obo:IAO_0000118>optogeneticTetanusStimulationTargetLocation</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Optogenetic Tetanus Stimulation Target Location</rdfs:label>
+        <rdfs:label xml:lang="en">optogenetic tetanus stimulation target location</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EMPTY_0000146 -->
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000172 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
-        <obo:IAO_0000115>For an experiment, this is a unique code or label assigned to an individual animal subject. This allows for tracking and associating behavioral data with specific animals, along with their characteristics like strain, sex, or age.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Subject local identifier</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000180"/>
+        <obo:IAO_0000115>The index of an individual experimental trial within a set.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">experimental trial number</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EMPTY_0000149 -->
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000173 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000149">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
-        <obo:IAO_0000115>A relative experimental session timeline; major stimulation events are, by default, considered numerically from 1 to N</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Session Timeline</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000173">
+        <obo:IAO_0000115>A term that describes, characterizes, or quantifies an aspect of an experimental entity, process, or system.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">descriptor</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EMPTY_0000150 -->
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000174 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
-        <obo:IAO_0000115>Postnatal day&apos; is a specific unit to measure the age of an organism that is born live (viviparous animals), starting with the day of birth (postnatal day 0). Often abbreviated in written documents with a capital P (as in P0, P10, etc).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Postnatal day</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000174">
+        <obo:IAO_0000115>An intentional action, intervention, or condition applied during an experiment to observe its effect on a subject or system.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">manipulation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EMPTY_0000151 -->
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000175 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000151">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000174"/>
+        <obo:IAO_0000115>A manipulation that is applied or relevant to a specific, defined segment of time (an epoch) within an experiment, often coinciding with data recording.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">epoch-related manipulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000174"/>
+        <obo:IAO_0000115>A manipulation applied to an experimental subject that alters its overall state, which is not necessarily linked to a specific data collection epoch. This often includes long-term interventions like pharmacological treatments or surgical procedures.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">subject-related manipulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000173"/>
+        <obo:IAO_0000115>A variable, characteristic, or measurable factor that helps define a particular system, experiment, or process. Parameters are often controlled or measured to understand their effect on the outcome.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000173"/>
+        <obo:IAO_0000115>One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000178"/>
+        <obo:IAO_0000115>A standardized number used to uniquely identify information in computer systems, ensuring that no two identifiers are the same across different systems or contexts.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">UUID</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">universally unique identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000178"/>
+        <obo:IAO_0000115>An identifier assigned sequentially from a numbered list, typically as an integer (e.g., 1, 2, 3), to distinguish between individual items.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">enumerated identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000178"/>
+        <obo:IAO_0000115>An identifier that assigns an item to a specific, predefined category or Class, often represented by a string or label.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">categorical identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000178"/>
+        <obo:IAO_0000115>A binary variable, typically boolean (true/false), used to indicate the presence or absence of a specific condition, state, or attribute.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">flag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000178"/>
+        <obo:IAO_0000115>An identifier that specifies a term within a formal ontology, which should be represented as a combination of the ontology&apos;s name and the term&apos;s unique ID (e.g., ontologyName:ontologyID).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">ontology node</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000179"/>
+        <obo:IAO_0000115>A unique identifier assigned to a document within the Neuroscience Data Interface (NDI) framework, used to link experimental data to its corresponding metadata and parameters.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">NDI document identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000085"/>
-        <obo:IAO_0000115>A voltage offset measured at the end of a voltage record, in V</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Microelectrode voltage offset</rdfs:label>
+        <obo:IAO_0000115>A measurement that quantifies a property related to time, such as a specific moment, an interval, or a rate of occurrence.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">time-related measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000185"/>
+        <obo:IAO_0000115>A sequence of characters or encoded information identifying when a certain event occurred, usually giving the date and time of day, sometimes to a small fraction of a second.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">timestamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000185"/>
+        <obo:IAO_0000115>A measurement of the total amount of time that an event or process continues from its start to its end.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000185"/>
+        <obo:IAO_0000115>A measurement representing a single, specific moment in time at which an event occurs or an observation is made. Typically reported in seconds.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">timepoint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000177"/>
+        <obo:IAO_0000115>A parameter that specifies the settings or technical details of an Elevated Plus Maze experiment.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">elevated plus maze parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000177"/>
+        <obo:IAO_0000115>A parameter that specifies the settings or technical details of a Fear-potentiated startle experiment.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fear-potentiated startle parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000085"/>
+        <obo:IAO_0000115>The ambient room temperature recorded during an experiment. Unit: degrees Celsius.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">ambient temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000085"/>
+        <obo:IAO_0000115>The ambient room humidity recorded during an experiment. Unit: percentage (%).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">ambient humidity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000184"/>
+        <obo:IAO_0000115>A unique alphanumeric identifier assigned to an NDI subject document.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">subject document identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000177"/>
+        <obo:IAO_0000115>A specific parameter related to the experimental setup or conditions of an assay involving the nematode Caenorhabditis elegans.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans assay parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000177"/>
+        <obo:IAO_0000115>A specific parameter describing the properties or conditions of bacteria in an experiment.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000194"/>
+        <obo:IAO_0000115>A string identifier indicating the specific phase of a C. elegans experiment (e.g. &apos;cultivation&apos; or &apos;behavior&apos;).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans assay phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000090"/>
+        <obo:IAO_0000115>A quantitative or qualitative value obtained from a C. elegans behavioral assay, used to describe an aspect of the animal&apos;s movement, position, or interaction with its environment.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000194"/>
+        <obo:IAO_0000115>A controlled or measured variable specifically related to the design and execution of a C. elegans behavioral assay.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000194"/>
+        <obo:IAO_0000115>A parameter related to the conditions under which C. elegans were grown and maintained before being used in an experiment, such as the food source or temperature.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans cultivation parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000180"/>
+        <obo:IAO_0000115>A unique numerical identifier for a distinct experimental session.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">experiment session identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000195"/>
+        <obo:IAO_0000115>Unique alphanumeric identifier that links to an OpenMINDs document describing the strain of bacteria used in an experiment.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial strain document identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000195"/>
+        <obo:IAO_0000115>The intended or nominal optical density at 600 nm (OD 600) to which the bacterial solution was diluted for creating bacterial patches on agar plates. Unit: dimensionless.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial OD600 (target) at seeding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000186"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
+        <obo:IAO_0000115>The date and time when a liquid culture of bacteria was seeded (pipetted) onto an agar plate. Unit: datetime.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial plate seeding timestamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000186"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
+        <obo:IAO_0000115>The date and time when an agar plate seeded with bacteria was transferred to cold storage (at approximately 4 degrees Celsius) to arrest or slow bacterial growth, if part of the protocol. Unit: datetime.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial plate cold storage timestamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000186"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
+        <obo:IAO_0000115>The date and time when an agar plate seeded with bacteria was moved from cold storage to room temperature (at approximately 25 degrees Celsius) to continue bacterial growth, if part of the protocol. Unit: datetime.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial plate room temperature timestamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000194"/>
+        <obo:IAO_0000115>The developmental stage (e.g. &apos;L4&apos; or &apos;1DOA&apos;) at the time in which C. elegans were picked to the agar plate. Unit: datetime.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans developmental stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
+        <obo:IAO_0000115>The measured optical density at 600 nm (OD600) of a reference liquid culture of bacteria. Unit: dimensionless.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial OD600 measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
+        <obo:IAO_0000115>The concentration of viable bacterial cells quantified as Colony Forming Units per milliliter (CFU/mL), estimated for the reference liquid culture of bacteria. Unit: CFU/mL.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial colony forming units (CFU) measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000180"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000195"/>
+        <obo:IAO_0000115>A unique numerical identifier assigned to the physical plate (e.g., NGM agar plate) on which bacterial patch(s) were seeded.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial plate identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000195"/>
+        <obo:IAO_0000115>A unique alphanumeric identifier assigned to an NDI ontologyTableRow document that contains the set of parameters and conditions for a specific agar plate containing bacterial patch(s).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial plate document identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000186"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000194"/>
+        <obo:IAO_0000115>The date and time when C. elegans were picked to an agar plate. Unit: datetime.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans picked timestamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000198"/>
+        <obo:IAO_0000115>A string label referring to the layout of food patches (i.e., &apos;SingleDensityMultiPatch&apos;, &apos;MultiDensityMultiPatch&apos;,&apos;LargeSinglePatch&apos;,&apos;SmallSinglePatch&apos;) for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay label</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000195"/>
+        <obo:IAO_0000115>A string label used to categorize or identify the nominal OD600 condition of bacterial patches in an experiment (e.g., &apos;1.0&apos;, &apos;0.5&apos;, &apos;10.0&apos;) corresponding to the relative density conditions for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial OD600 label</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000195"/>
+        <obo:IAO_0000115>A string label (e.g. &apos;1&apos;,&apos;12&apos;,&apos;48&apos;) indicating the approximate duration of bacterial growth at room temperature (in hours) for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial plate growth duration label</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000182"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000195"/>
+        <obo:IAO_0000115>A boolean flag indicating whether peptone was included in the agar assay plates. Peptone presence supports bacterial growth. True: peptone included.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial plate peptone inclusion flag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000187"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
+        <obo:IAO_0000115>The total duration for which bacterial patch(s) on agar plates were allowed to grow at room temperature starting at the time seeded and ending at the beginning of the assay. Unit: hours.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacteria growth duration after seeding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000195"/>
+        <obo:IAO_0000115>The volume of bacterial solution pipetted to create an individual patch on an agar plate. Note: Volumes under 1 µL are approximate due to the difficulty of pipetting liquids at this scale. Unit: microliters (µL).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000195"/>
+        <obo:IAO_0000115>The intended center-to-center distance between adjacent bacterial food patches when arranged in a grid on an agar plate. Unit: millimeters (mm).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch spacing (target)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000198"/>
+        <obo:IAO_0000115>The diameter of the experimental plate or arena used to corral animals in a C. elegans behavioral assay. A typical 9 cm agar plate will by 90 mm. Unit: millimeters (mm).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: plate or arena diameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000180"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000195"/>
+        <obo:IAO_0000115>A unique numerical identifier assigned to a patch of bacteria growing on an agar assay plate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
+        <obo:IAO_0000115>The X pixel coordinate representing the geometric center of an individual detected bacterial food patch within an assay arena. Unit: pixels.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch center: X coordinate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
+        <obo:IAO_0000115>The Y pixel coordinate representing the geometric center of an individual detected bacterial food patch within an assay arena. Unit: pixels.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch center: Y coordinate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
+        <obo:IAO_0000115>The radius of an individual detected bacterial patch on an agar plate, assuming patches are circular or near-circular. Unit: pixels.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch radius</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
+        <obo:IAO_0000115>A quantitative measure assessing how closely the shape of an individual detected bacterial patch conforms to a perfect circle. 1 is a perfect circle. [Source: https://www.mathworks.com/help/images/ref/regionprops.html]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch circularity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000180"/>
+        <obo:IAO_0000115>A unique numerical identifier assigned to a subject in an experiment.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">subject identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000198"/>
+        <obo:IAO_0000115>An image corresponding to the first frame of the C. elegans behavioral video recording.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: first frame image</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000198"/>
+        <obo:IAO_0000115>A binary image (logical matrix) where pixels within the experimental arena for C. elegans are marked (true) and pixels outside are unmarked (false). This mask defines the region of interest for worm tracking and behavioral analysis.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: arena mask</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000228">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000198"/>
+        <obo:IAO_0000115>A binary image mask representing the union of all individually detected bacterial food patch areas on the C. elegans assay plate. This mask defines all food-containing regions.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: bacteria mask</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000198"/>
+        <obo:IAO_0000115>An image or map where each pixel&apos;s value is the identifier of the bacterial food patch closest to that pixel&apos;s location.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: closest patch identifier map</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000198"/>
+        <obo:IAO_0000115>An image or map where each pixel&apos;s value corresponds to the nominal OD600 or relative density of the bacterial food patch closest to that pixel&apos;s location.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: closest patch OD600 map</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000195"/>
+        <obo:IAO_0000115>A unique alphanumeric identifier assigned to an NDI ontologyTableRow document that details the specific parameters of a bacterial food patch such as its location, size, and density.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch document identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000173"/>
+        <obo:IAO_0000115>A distinct anatomical region of the C. elegans worm, such as the head, midpoint, or tail, which can be tracked to quantify behavior.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans body part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000232"/>
+        <obo:IAO_0000115>The anterior-most part of the C. elegans body.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans head</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000232"/>
+        <obo:IAO_0000115>The center point of the C. elegans body.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans midpoint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000232"/>
+        <obo:IAO_0000115>The posterior-most part of the C. elegans body.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans tail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000180"/>
+        <obo:IAO_0000115>A unique numerical identifier assigned to a specific encounter event for a given animal. This distinguishes individual encounters for detailed analysis.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: encounter identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000188"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000197"/>
+        <obo:IAO_0000115>The time, in seconds, corresponding to the frame at which the C. elegans worm enters a bacterial food patch. This is the precise start time of an encounter.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: encounter onset time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000188"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000197"/>
+        <obo:IAO_0000115>The time, in seconds, corresponding to the frame at which the C. elegans worm exits a bacterial food patch. This is the precise end time of an encounter.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: encounter offset time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000197"/>
+        <obo:IAO_0000115>The rate of change in the C. elegans worm&apos;s velocity, measured as the slope of the velocity curve during a defined time window surrounding its encounter with a bacterial patch. A negative value indicates a slowdown upon encounter. Unit: µm/s².</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: deceleration upon encounter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000197"/>
+        <obo:IAO_0000115>The minimum instantaneous velocity recorded for the C. elegans worm while it is located on a bacterial food patch during an encounter. Unit: µm/s.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: minimum velocity during encounter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000197"/>
+        <obo:IAO_0000115>The peak instantaneous velocity of the C. elegans worm observed within 10 seconds before its entry into a bacterial food patch. Unit: µm/s.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: peak velocity before encounter onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000197"/>
+        <obo:IAO_0000115>The minimum instantaneous velocity of the C. elegans worm observed within 10 seconds after its entry into a bacterial food patch. Unit: µm/s.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: minimum velocity after encounter offset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000197"/>
+        <obo:IAO_0000115>The posterior probability, derived from a Gaussian Mixture Model (GMM) Classification, that a given patch encounter represents an &apos;exploitation&apos; event (i.e., the worm has accepted the patch and is consuming bacteria). This value ranges from 0 to 1. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: posterior probability of exploitation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000197"/>
+        <obo:IAO_0000115>The posterior probability, derived from a semi-supervised Quadratic Discriminant Analysis (QDA), that a given patch encounter was &apos;sensed&apos; by the C. elegans worm (i.e., the animal detected the presence of bacteria, typically indicated by a slowdown). This value ranges from 0 to 1. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: posterior probability of sensing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000198"/>
+        <obo:IAO_0000115>A normalized, quantitative measure of the bacterial density of a specific bacterial food patch that a C. elegans worm encounters during an assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: relative density of encountered bacteria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000198"/>
+        <obo:IAO_0000115>A normalized, quantitative measure of the bacterial density on the agar plates where C. elegans were cultivated prior to the behavioral assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: relative density of cultivation bacteria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
+        <obo:IAO_0000115>A measurement in a bacterial fluorescence assay used to estimate the relative density of bacterial patches.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial fluorescence assay measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000186"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
+        <obo:IAO_0000115>The date and time when an agar plate was poured. Unit: datetime.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">agar plate pouring timestamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000186"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
+        <obo:IAO_0000115>The date and time when an agar plate was transferred to cold storage (at approximately 4 degrees Celsius) to retain moisture for long-term storage. Unit: datetime.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">agar plate cold storage timestamp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000180"/>
+        <obo:IAO_0000115>A unique numerical identifier for a microscopy image.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">microscopy image identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000177"/>
+        <obo:IAO_0000115>The duration the microscope&apos;s camera or sensor is exposed to light. Unit: milliseconds.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">microscopy image exposure time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000247"/>
+        <obo:IAO_0000115>The maximum pixel intensity detected along the radial profile of a fluorescent bacterial patch, typically found at the patch edge where bacteria are actively proliferating. [Source: https://doi.org/10.7554/eLife.103191.3]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch border peak fluorescence intensity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000247"/>
+        <obo:IAO_0000115>The pixel intensity measured at the detected border of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch border edge fluorescence intensity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000247"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000259"/>
+        <obo:IAO_0000115>A measure of bacterial density defined as the difference between the peak pixel intensity and the border pixel intensity of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch border fluorescence amplitude</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000247"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000259"/>
+        <obo:IAO_0000115>The average pixel intensity computed across every pixel of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch mean fluorescence amplitude</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000247"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000259"/>
+        <obo:IAO_0000115>The average pixel intensity of the middle 50% of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch center fluorescence amplitude</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000247"/>
+        <obo:IAO_0000115>The ratio of the patch border amplitude to the patch center amplitude, used as a measure of bacterial distribution within the patch. [Source: https://doi.org/10.7554/eLife.103191.3]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch border-to-center fluorescence ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000085"/>
+        <obo:IAO_0000115>A measurement of bacteria.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000085"/>
+        <obo:IAO_0000115>The amplitude of a periodic variable is a measure of its change in a single period (such as time or spatial period). The amplitude of a non-periodic signal is its magnitude compared with a reference value.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">amplitude</rdfs:label>
     </owl:Class>
     
 
@@ -908,9 +1856,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_10000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000175"/>
         <obo:IAO_0000115>A treatment applied to a subject that is not associated with any particular data epoch. Treatments can include pharmacological interventions, surgical procedures, environmental manipulations, or any other controlled alteration of a subject&apos;s state that is intended to produce a specific effect or response.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Treatment</rdfs:label>
+        <rdfs:label xml:lang="en">treatment</rdfs:label>
     </owl:Class>
     
 
@@ -920,7 +1868,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
         <obo:IAO_0000115>Indicates that the animal has had experience with hunting for crickets in some capacity</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Treatment: Experienced cricket hunting</rdfs:label>
+        <rdfs:label xml:lang="en">treatment: experienced cricket hunting</rdfs:label>
     </owl:Class>
     
 
@@ -930,7 +1878,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
         <obo:IAO_0000115>Indicates that the animal has not had experience with hunting for crickets</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Treatment: Has not experienced cricket hunting</rdfs:label>
+        <rdfs:label xml:lang="en">treatment: has not experienced cricket hunting</rdfs:label>
     </owl:Class>
     
 
@@ -938,9 +1886,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_10000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
         <obo:IAO_0000115>The subject was acclimated to a temperature at a particular onset time.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Treatment: Acclimation onset time</rdfs:label>
+        <rdfs:label xml:lang="en">treatment: acclimation onset time</rdfs:label>
     </owl:Class>
     
 
@@ -948,9 +1897,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_10000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000191"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
         <obo:IAO_0000115>The temperature (in degrees C) at which the subject was acclimated.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Treatment: Acclimation temperature</rdfs:label>
+        <rdfs:label xml:lang="en">treatment: acclimation temperature</rdfs:label>
     </owl:Class>
     
 
@@ -960,7 +1910,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
         <obo:IAO_0000115>The subject was used in a non-survival experiment.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Treatment: Non-survival experiment time</rdfs:label>
+        <rdfs:label xml:lang="en">treatment: non-survival experiment time</rdfs:label>
     </owl:Class>
     
 
@@ -970,7 +1920,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
         <obo:IAO_0000115>The subject&apos;s left eye was opened prematurely, before natural eye opening.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Treatment: Left eye premature eye opening</rdfs:label>
+        <rdfs:label xml:lang="en">treatment: left eye premature eye opening</rdfs:label>
     </owl:Class>
     
 
@@ -980,7 +1930,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
         <obo:IAO_0000115>The subject&apos;s right eye was opened prematurely, before natural eye opening.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Treatment: Right eye premature eye opening</rdfs:label>
+        <rdfs:label xml:lang="en">treatment: right eye premature eye opening</rdfs:label>
     </owl:Class>
     
 
@@ -990,7 +1940,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
         <obo:IAO_0000115>The subject&apos;s left eye was allowed to open naturally.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Treatment: Natural left eye opening</rdfs:label>
+        <rdfs:label xml:lang="en">treatment: natural left eye opening</rdfs:label>
     </owl:Class>
     
 
@@ -1000,7 +1950,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
         <obo:IAO_0000115>The subject&apos;s right eye was allowed to open naturally.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Treatment: Natural right eye opening</rdfs:label>
+        <rdfs:label xml:lang="en">treatment: natural right eye opening</rdfs:label>
     </owl:Class>
     
 
@@ -1010,7 +1960,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
         <obo:IAO_0000115>Training was provided for several hours with drifting sinusoidal gratings (provided in hours)</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Treatment: Grating direction-of-motion visual stimulation</rdfs:label>
+        <rdfs:label xml:lang="en">treatment: grating direction-of-motion visual stimulation</rdfs:label>
     </owl:Class>
     
 
@@ -1020,7 +1970,40 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
         <obo:IAO_0000115>Specifies the pharmacological treatment assigned to a subject. This assignment dictates the experimental group, with possible values being &apos;CNO&apos; for Clozapine-N-oxide administration (2 mg/kg, i.p.) or &apos;Saline&apos; for vehicle control administration (i.p.). These treatments were administered 45 minutes before fear conditioning and before EPM testing.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Treatment: CNO or saline administration</rdfs:label>
+        <rdfs:label xml:lang="en">treatment: CNO or saline administration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_10000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000186"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
+        <obo:IAO_0000115>Specifies the date of birth in YYYY-MM-DD format</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">treatment: date of birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_10000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000186"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
+        <obo:IAO_0000115>The date and time when a period of food restriction begins for a subject. Unit: datetime.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">treatment: food restriction onset time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_10000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000186"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
+        <obo:IAO_0000115>The date and time when a period of food restriction ends for a subject. Unit: datetime.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">treatment: food restriction offset time</rdfs:label>
     </owl:Class>
     
 
@@ -1028,9 +2011,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_20000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_20000000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000173"/>
         <obo:IAO_0000115>The purpose of a measurement, stimulus, or experiment. This describes the intended goal or objective of the scientific investigation or a specific component of it.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Purpose</rdfs:label>
+        <rdfs:label xml:lang="en">purpose</rdfs:label>
     </owl:Class>
     
 
@@ -1040,7 +2023,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_20000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_20000000"/>
         <obo:IAO_0000115>States that the purpose of the stimulus is to assess spatial frequency tuning</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Purpose: Assessing spatial frequency tuning</rdfs:label>
+        <rdfs:label xml:lang="en">purpose: assessing spatial frequency tuning</rdfs:label>
     </owl:Class>
     
 
@@ -1050,7 +2033,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_20000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_20000000"/>
         <obo:IAO_0000115>States that the purpose of the stimulus is to assess temporal frequency tuning</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Purpose: Assessing temporal frequency tuning</rdfs:label>
+        <rdfs:label xml:lang="en">purpose: assessing temporal frequency tuning</rdfs:label>
     </owl:Class>
     
 
@@ -1060,7 +2043,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_20000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_20000000"/>
         <obo:IAO_0000115>States that the purpose of the stimulus is to assess direction of motion tuning</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Purpose: Assessing direction of motion tuning</rdfs:label>
+        <rdfs:label xml:lang="en">purpose: assessing direction of motion tuning</rdfs:label>
     </owl:Class>
     
 
@@ -1070,7 +2053,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_20000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_20000000"/>
         <obo:IAO_0000115>States that the purpose of the stimulus is to assess contrast tuning</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Purpose: Assessing contrast tuning</rdfs:label>
+        <rdfs:label xml:lang="en">purpose: assessing contrast tuning</rdfs:label>
     </owl:Class>
     
 
@@ -1080,7 +2063,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_20000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_20000000"/>
         <obo:IAO_0000115>States that the purpose of the stimulus is to assess ocular dominance or binocular matching</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Purpose: Assessing ocular dominance or binocular matching</rdfs:label>
+        <rdfs:label xml:lang="en">purpose: assessing ocular dominance or binocular matching</rdfs:label>
     </owl:Class>
     
 
@@ -1090,7 +2073,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_20000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_20000000"/>
         <obo:IAO_0000115>States that the purpose of the measurement is to observe the pyloric rhythm</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Purpose: Assessing the pyloric rhythm</rdfs:label>
+        <rdfs:label xml:lang="en">purpose: assessing the pyloric rhythm</rdfs:label>
     </owl:Class>
     
 
@@ -1100,7 +2083,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_20000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_20000000"/>
         <obo:IAO_0000115>States that the purpose of the measurement is to observe the gastric mill rhythm</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Purpose: Assessing the gastric mill rhythm</rdfs:label>
+        <rdfs:label xml:lang="en">purpose: assessing the gastric mill rhythm</rdfs:label>
     </owl:Class>
     
 
@@ -1110,7 +2093,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_20000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_20000000"/>
         <obo:IAO_0000115>States that the purpose of the stimulus is to assess the activity of probed subjects at a particular temperature.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Purpose: Assessing activity with temperature manipulation</rdfs:label>
+        <rdfs:label xml:lang="en">purpose: assessing activity with temperature manipulation</rdfs:label>
     </owl:Class>
     
 
@@ -1118,9 +2101,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/EMPTY_30000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_30000000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000176"/>
         <obo:IAO_0000115>An approach to stimulation that is associated with an epoch of data but that is not already coded in stimulator metadata. This represents a specific methodology, technique, or procedural aspect applied during data collection that provides important context for interpreting the data.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Approach</rdfs:label>
+        <rdfs:label xml:lang="en">approach</rdfs:label>
     </owl:Class>
     
 
@@ -1130,7 +2113,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_30000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_30000000"/>
         <obo:IAO_0000115>Indicates that the view through the left eye was blocked during presentation of this stimulus</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Approach: Left eye view blocked</rdfs:label>
+        <rdfs:label xml:lang="en">approach: left eye view blocked</rdfs:label>
     </owl:Class>
     
 
@@ -1140,7 +2123,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_30000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_30000000"/>
         <obo:IAO_0000115>Indicates that the view through the right eye was blocked during presentation of this stimulus</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Approach: Right eye view blocked</rdfs:label>
+        <rdfs:label xml:lang="en">approach: right eye view blocked</rdfs:label>
     </owl:Class>
     
 
@@ -1150,7 +2133,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_30000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_30000000"/>
         <obo:IAO_0000115>The temperature of an experimental object has been commanded to be a certain value</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Approach: Command temperature constant</rdfs:label>
+        <rdfs:label xml:lang="en">approach: command temperature constant</rdfs:label>
     </owl:Class>
     
 
@@ -1160,7 +2143,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_30000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_30000000"/>
         <obo:IAO_0000115>The temperature of an experimental object has been commanded to be a certain value at the beginning of the recording epoch</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Approach: Command temperature start</rdfs:label>
+        <rdfs:label xml:lang="en">approach: command temperature start</rdfs:label>
     </owl:Class>
     
 
@@ -1170,7 +2153,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_30000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_30000000"/>
         <obo:IAO_0000115>The temperature of an experimental object has been commanded to be a certain value at the end of the recording epoch</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Approach: Command temperature end</rdfs:label>
+        <rdfs:label xml:lang="en">approach: command temperature end</rdfs:label>
     </owl:Class>
     
 
@@ -1180,7 +2163,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_30000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_30000000"/>
         <obo:IAO_0000115>The measurement is performed before an optogenetic tetanus stimulus.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Approach: Before optogenetic tetanus</rdfs:label>
+        <rdfs:label xml:lang="en">approach: before optogenetic tetanus</rdfs:label>
     </owl:Class>
     
 
@@ -1190,7 +2173,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_30000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_30000000"/>
         <obo:IAO_0000115>The measurement is performed after an optogenetic tetanus stimulus.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Approach: After optogenetic tetanus</rdfs:label>
+        <rdfs:label xml:lang="en">approach: after optogenetic tetanus</rdfs:label>
     </owl:Class>
     
 
@@ -1200,7 +2183,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_30000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_30000000"/>
         <obo:IAO_0000115>The measurement is performed before a long bout of artificial visual stimulation</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Approach: Before artificial visual stimulation</rdfs:label>
+        <rdfs:label xml:lang="en">approach: before artificial visual stimulation</rdfs:label>
     </owl:Class>
     
 
@@ -1210,7 +2193,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_30000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_30000000"/>
         <obo:IAO_0000115>The measurement is performed after a long bout of artificial visual stimulation</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Approach: After artificial visual stimulation</rdfs:label>
+        <rdfs:label xml:lang="en">approach: after artificial visual stimulation</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

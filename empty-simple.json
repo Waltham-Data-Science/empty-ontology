@@ -16,25 +16,16 @@
         "val" : "EMPTY by NDI is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-07-10"
+        "val" : "2025-08-03"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
         "val" : "Release 2025-07-10"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/empty/releases/2025-07-10/empty-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/empty/releases/2025-08-03/empty-simple.json"
     },
     "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000001",
-      "lbl" : "empty",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "Experimental Measurements Purposes and Treatments ontologY"
-        }
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000085",
-      "lbl" : "Measurement",
+      "lbl" : "measurement",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -43,7 +34,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000090",
-      "lbl" : "Behavioral measurement",
+      "lbl" : "behavioral measurement",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -52,7 +43,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000091",
-      "lbl" : "Elevated plus maze measurement",
+      "lbl" : "elevated plus maze measurement",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -61,7 +52,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000092",
-      "lbl" : "Acoustic Startle Response measurement",
+      "lbl" : "acoustic startle response measurement",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -70,7 +61,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000093",
-      "lbl" : "Fear Conditioning measurement",
+      "lbl" : "fear conditioning measurement",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -79,7 +70,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000094",
-      "lbl" : "Acoustic Startle Response derived measurement",
+      "lbl" : "acoustic startle response derived measurement",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -88,7 +79,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000100",
-      "lbl" : "Elevated Plus Maze: open arm (north) - entries",
+      "lbl" : "elevated plus maze: open arm (north) - entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -97,7 +88,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000101",
-      "lbl" : "Elevated Plus Maze: open arm (south) - entries",
+      "lbl" : "elevated plus maze: open arm (south) - entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -106,7 +97,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000102",
-      "lbl" : "Elevated Plus Maze: open arm total entries",
+      "lbl" : "elevated plus maze: open arm total entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -115,7 +106,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000103",
-      "lbl" : "Elevated Plus Maze: open arm (north) - head entries",
+      "lbl" : "elevated plus maze: open arm (north) - head entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -124,7 +115,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000104",
-      "lbl" : "Elevated Plus Maze: open arm (south) - head entries",
+      "lbl" : "elevated plus maze: open arm (south) - head entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -133,7 +124,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000105",
-      "lbl" : "Elevated Plus Maze: open arm total head entries",
+      "lbl" : "elevated plus maze: open arm total head entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -142,7 +133,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000106",
-      "lbl" : "Elevated Plus Maze: open arm (north) - time",
+      "lbl" : "elevated plus maze: open arm (north) - time",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -151,7 +142,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000107",
-      "lbl" : "Elevated Plus Maze: open arm (south) - time",
+      "lbl" : "elevated plus maze: open arm (south) - time",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -160,7 +151,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000108",
-      "lbl" : "Elevated Plus Maze: open arm total time",
+      "lbl" : "elevated plus maze: open arm total time",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -169,7 +160,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000109",
-      "lbl" : "Elevated Plus Maze: open arm total - percent time during test duration",
+      "lbl" : "elevated plus maze: open arm total - percent time during test duration",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -178,7 +169,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000110",
-      "lbl" : "Elevated Plus Maze: open arm (north) - latency to first entry",
+      "lbl" : "elevated plus maze: open arm (north) - latency to first entry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -187,7 +178,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000111",
-      "lbl" : "Elevated Plus Maze: open arm (south) - latency to first entry",
+      "lbl" : "elevated plus maze: open arm (south) - latency to first entry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -196,7 +187,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000112",
-      "lbl" : "Elevated Plus Maze: open arm total latency to first entry",
+      "lbl" : "elevated plus maze: open arm total latency to first entry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -205,7 +196,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000113",
-      "lbl" : "Elevated Plus Maze: open arm (north) - time moving towards",
+      "lbl" : "elevated plus maze: open arm (north) - time moving towards",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -214,7 +205,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000114",
-      "lbl" : "Elevated Plus Maze: open arm (south) - time moving towards",
+      "lbl" : "elevated plus maze: open arm (south) - time moving towards",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -223,7 +214,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000115",
-      "lbl" : "Elevated Plus Maze: open arm total time moving towards",
+      "lbl" : "elevated plus maze: open arm total time moving towards",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -232,7 +223,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000116",
-      "lbl" : "Elevated Plus Maze: open arm (north) - time freezing",
+      "lbl" : "elevated plus maze: open arm (north) - time freezing",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -241,7 +232,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000117",
-      "lbl" : "Elevated Plus Maze: open arm (south) - time freezing",
+      "lbl" : "elevated plus maze: open arm (south) - time freezing",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -250,7 +241,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000118",
-      "lbl" : "Elevated Plus Maze: open arm total time freezing",
+      "lbl" : "elevated plus maze: open arm total time freezing",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -259,7 +250,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000119",
-      "lbl" : "Elevated Plus Maze: closed arm (west) - entries",
+      "lbl" : "elevated plus maze: closed arm (west) - entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -268,7 +259,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000120",
-      "lbl" : "Elevated Plus Maze: closed arm (east) - entries",
+      "lbl" : "elevated plus maze: closed arm (east) - entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -277,7 +268,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000121",
-      "lbl" : "Elevated Plus Maze: closed arm total entries",
+      "lbl" : "elevated plus maze: closed arm total entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -286,7 +277,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000122",
-      "lbl" : "Elevated Plus Maze: closed arm (west) - head entries",
+      "lbl" : "elevated plus maze: closed arm (west) - head entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -295,7 +286,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000123",
-      "lbl" : "Elevated Plus Maze: closed arm (east) - head entries",
+      "lbl" : "elevated plus maze: closed arm (east) - head entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -304,7 +295,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000124",
-      "lbl" : "Elevated Plus Maze: closed arm total head entries",
+      "lbl" : "elevated plus maze: closed arm total head entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -313,7 +304,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000125",
-      "lbl" : "Elevated Plus Maze: closed arm (west) - time",
+      "lbl" : "elevated plus maze: closed arm (west) - time",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -322,7 +313,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000126",
-      "lbl" : "Elevated Plus Maze: closed arm (east) - time",
+      "lbl" : "elevated plus maze: closed arm (east) - time",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -331,7 +322,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000127",
-      "lbl" : "Elevated Plus Maze: closed arm total time",
+      "lbl" : "elevated plus maze: closed arm total time",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -340,7 +331,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000128",
-      "lbl" : "Elevated Plus Maze: closed arm total - percent time during test duration",
+      "lbl" : "elevated plus maze: closed arm total - percent time during test duration",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -349,7 +340,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000129",
-      "lbl" : "Elevated Plus Maze: closed arm (west) - latency to first entry",
+      "lbl" : "elevated plus maze: closed arm (west) - latency to first entry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -358,7 +349,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000130",
-      "lbl" : "Elevated Plus Maze: closed arm (east) - latency to first entry",
+      "lbl" : "elevated plus maze: closed arm (east) - latency to first entry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -367,7 +358,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000131",
-      "lbl" : "Elevated Plus Maze: closed arm total latency to first entry",
+      "lbl" : "elevated plus maze: closed arm total latency to first entry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -376,7 +367,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000132",
-      "lbl" : "Elevated Plus Maze: closed arm (west) - time moving towards",
+      "lbl" : "elevated plus maze: closed arm (west) - time moving towards",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -385,7 +376,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000133",
-      "lbl" : "Elevated Plus Maze: closed arm (east) - time moving towards",
+      "lbl" : "elevated plus maze: closed arm (east) - time moving towards",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -394,7 +385,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000134",
-      "lbl" : "Elevated Plus Maze: closed arm total time moving towards",
+      "lbl" : "elevated plus maze: closed arm total time moving towards",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -403,7 +394,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000135",
-      "lbl" : "Elevated Plus Maze: closed arm (west) - time freezing",
+      "lbl" : "elevated plus maze: closed arm (west) - time freezing",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -412,7 +403,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000136",
-      "lbl" : "Elevated Plus Maze: closed arm (east) - time freezing",
+      "lbl" : "elevated plus maze: closed arm (east) - time freezing",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -421,7 +412,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000137",
-      "lbl" : "Elevated Plus Maze: closed arm total time freezing",
+      "lbl" : "elevated plus maze: closed arm total time freezing",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -430,7 +421,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000138",
-      "lbl" : "Elevated Plus Maze: center - entries",
+      "lbl" : "elevated plus maze: center - entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -439,7 +430,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000139",
-      "lbl" : "Elevated Plus Maze: center - head entries",
+      "lbl" : "elevated plus maze: center - head entries",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -448,7 +439,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000140",
-      "lbl" : "Elevated Plus Maze: center - time",
+      "lbl" : "elevated plus maze: center - time",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -457,7 +448,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000141",
-      "lbl" : "Elevated Plus Maze: center - percent time during test duration",
+      "lbl" : "elevated plus maze: center - percent time during test duration",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -466,7 +457,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000142",
-      "lbl" : "Elevated Plus Maze: center - latency to first entry",
+      "lbl" : "elevated plus maze: center - latency to first entry",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -475,7 +466,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000143",
-      "lbl" : "Elevated Plus Maze: center - time moving towards",
+      "lbl" : "elevated plus maze: center - time moving towards",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -484,7 +475,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000144",
-      "lbl" : "Elevated Plus Maze: center - time freezing",
+      "lbl" : "elevated plus maze: center - time freezing",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -493,7 +484,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000145",
-      "lbl" : "Elevated Plus Maze: test identifier",
+      "lbl" : "elevated plus maze: test identifier",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -501,17 +492,53 @@
         }
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000148",
-      "lbl" : "Fear-Potentiated Startle: baseline acoustic startle response amplitude",
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000146",
+      "lbl" : "subject local identifier",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Fear-Potentiated Startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score."
+          "val" : "For an experiment, this is a unique code or label assigned to an individual animal subject. This allows for tracking and associating behavioral data with specific animals, along with their characteristics like strain, sex, or age."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000148",
+      "lbl" : "fear-potentiated startle: baseline acoustic startle response amplitude",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000149",
+      "lbl" : "session timeline",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A relative experimental session timeline; major stimulation events are, by default, considered numerically from 1 to N."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000150",
+      "lbl" : "postnatal day",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Postnatal day is a specific unit to measure the age of an organism that is born live (viviparous animals), starting with the day of birth (postnatal day 0). Often abbreviated in written documents with a capital P (as in P0, P10, etc)."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000151",
+      "lbl" : "microelectrode voltage offset",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A voltage offset measured at the end of a voltage record, in V"
         }
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000153",
-      "lbl" : "Fear-Potentiated Startle: trial type identifier",
+      "lbl" : "fear-potentiated startle: trial type identifier",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -520,7 +547,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000154",
-      "lbl" : "Fear-Potentiated Startle: apparatus chamber identifier",
+      "lbl" : "fear-potentiated startle: apparatus chamber identifier",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -529,7 +556,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000155",
-      "lbl" : "Experimental group code",
+      "lbl" : "experimental group code",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -538,7 +565,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000156",
-      "lbl" : "Acoustic Startle Response: number of samples",
+      "lbl" : "acoustic startle response: number of samples",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -547,7 +574,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000157",
-      "lbl" : "Acoustic Startle Response: sampling rate",
+      "lbl" : "acoustic startle response: sampling rate",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -556,7 +583,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000158",
-      "lbl" : "Acoustic Startle Response: startle window onset amplitude",
+      "lbl" : "acoustic startle response: startle window onset amplitude",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -565,7 +592,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000159",
-      "lbl" : "Acoustic Startle Response: maximum amplitude",
+      "lbl" : "acoustic startle response: maximum amplitude",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -574,7 +601,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000160",
-      "lbl" : "Acoustic Startle Response: time to maximum amplitude",
+      "lbl" : "acoustic startle response: time to maximum amplitude",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -583,7 +610,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000161",
-      "lbl" : "Acoustic Startle Response: average amplitude",
+      "lbl" : "acoustic startle response: average amplitude",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -592,7 +619,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000162",
-      "lbl" : "Experiment trial execution timestamp",
+      "lbl" : "experiment trial execution timestamp",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -601,16 +628,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000163",
-      "lbl" : "Fear-Potentiated Startle: experimental phase or test name",
+      "lbl" : "fear-potentiated startle: experimental phase or test name",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A string identifier indicating the specific experimental phase, session, or test condition of the Fear-Potentiated Startle (FPS) paradigm to which the data belongs. Examples derived from the manuscript's protocol include 'chamber and startle habituation', 'baseline pre-shock test', 'fear conditioning', 'cued fear recall in context B', 'contextual fear recall in context A', or specific extinction test sessions. This often corresponds to the name of the source data sheet (e.g., 'Pre-test 1', 'Cue test 3')."
+          "val" : "A string identifier indicating the specific experimental phase, session, or test condition of the Fear-Potentiated Startle (FPS) paradigm to which the data belongs. Examples include 'chamber and startle habituation', 'baseline pre-shock test', 'fear conditioning', 'cued fear recall in context B', 'contextual fear recall in context A', or specific extinction test sessions. [Source: https://doi.org/10.1016/j.celrep.2025.115768]"
         }
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000164",
-      "lbl" : "Elevated Plus Maze: test duration",
+      "lbl" : "elevated plus maze: test duration",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -619,16 +646,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000165",
-      "lbl" : "Data exclusion flag",
+      "lbl" : "data exclusion flag",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A boolean flag indicating whether the data from a specific subject or experimental replicate should be excluded from subsequent analysis due to due to predefined quality control issues or experimental failure."
+          "val" : "A boolean flag indicating whether the data from a specific subject or experimental replicate should be excluded from subsequent analysis due to predefined quality control issues or experimental failure."
         }
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000168",
-      "lbl" : "Investigator-defined cell type",
+      "lbl" : "investigator-defined cell type",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -641,7 +668,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000169",
-      "lbl" : "Type I BNST neuron",
+      "lbl" : "type I BNST neuron",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -654,7 +681,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000170",
-      "lbl" : "Type III BNST neuron",
+      "lbl" : "type III BNST neuron",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -667,7 +694,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000171",
-      "lbl" : "Optogenetic Tetanus Stimulation Target Location",
+      "lbl" : "optogenetic tetanus stimulation target location",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -679,44 +706,804 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000146",
-      "lbl" : "Subject local identifier",
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000172",
+      "lbl" : "experimental trial number",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "For an experiment, this is a unique code or label assigned to an individual animal subject. This allows for tracking and associating behavioral data with specific animals, along with their characteristics like strain, sex, or age."
+          "val" : "The index of an individual experimental trial within a set."
         }
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000149",
-      "lbl" : "Session Timeline",
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000173",
+      "lbl" : "descriptor",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A relative experimental session timeline; major stimulation events are, by default, considered numerically from 1 to N"
+          "val" : "A term that describes, characterizes, or quantifies an aspect of an experimental entity, process, or system."
         }
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000150",
-      "lbl" : "Postnatal day",
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000174",
+      "lbl" : "manipulation",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Postnatal day' is a specific unit to measure the age of an organism that is born live (viviparous animals), starting with the day of birth (postnatal day 0). Often abbreviated in written documents with a capital P (as in P0, P10, etc)."
+          "val" : "An intentional action, intervention, or condition applied during an experiment to observe its effect on a subject or system."
         }
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000151",
-      "lbl" : "Microelectrode voltage offset",
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000175",
+      "lbl" : "epoch-related manipulation",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A voltage offset measured at the end of a voltage record, in V"
+          "val" : "A manipulation that is applied or relevant to a specific, defined segment of time (an epoch) within an experiment, often coinciding with data recording."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000176",
+      "lbl" : "subject-related manipulation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A manipulation applied to an experimental subject that alters its overall state, which is not necessarily linked to a specific data collection epoch. This often includes long-term interventions like pharmacological treatments or surgical procedures."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000177",
+      "lbl" : "parameter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A variable, characteristic, or measurable factor that helps define a particular system, experiment, or process. Parameters are often controlled or measured to understand their effect on the outcome."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000178",
+      "lbl" : "identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000179",
+      "lbl" : "universally unique identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A standardized number used to uniquely identify information in computer systems, ensuring that no two identifiers are the same across different systems or contexts."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "UUID"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000180",
+      "lbl" : "enumerated identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An identifier assigned sequentially from a numbered list, typically as an integer (e.g., 1, 2, 3), to distinguish between individual items."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000181",
+      "lbl" : "categorical identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An identifier that assigns an item to a specific, predefined category or Class, often represented by a string or label."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000182",
+      "lbl" : "flag",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A binary variable, typically boolean (true/false), used to indicate the presence or absence of a specific condition, state, or attribute."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000183",
+      "lbl" : "ontology node",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An identifier that specifies a term within a formal ontology, which should be represented as a combination of the ontology's name and the term's unique ID (e.g., ontologyName:ontologyID)."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000184",
+      "lbl" : "NDI document identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A unique identifier assigned to a document within the Neuroscience Data Interface (NDI) framework, used to link experimental data to its corresponding metadata and parameters."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000185",
+      "lbl" : "time-related measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A measurement that quantifies a property related to time, such as a specific moment, an interval, or a rate of occurrence."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000186",
+      "lbl" : "timestamp",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A sequence of characters or encoded information identifying when a certain event occurred, usually giving the date and time of day, sometimes to a small fraction of a second."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000187",
+      "lbl" : "duration",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A measurement of the total amount of time that an event or process continues from its start to its end."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000188",
+      "lbl" : "timepoint",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A measurement representing a single, specific moment in time at which an event occurs or an observation is made. Typically reported in seconds."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000189",
+      "lbl" : "elevated plus maze parameter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A parameter that specifies the settings or technical details of an Elevated Plus Maze experiment."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000190",
+      "lbl" : "fear-potentiated startle parameter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A parameter that specifies the settings or technical details of a Fear-potentiated startle experiment."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000191",
+      "lbl" : "ambient temperature",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The ambient room temperature recorded during an experiment. Unit: degrees Celsius."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000192",
+      "lbl" : "ambient humidity",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The ambient room humidity recorded during an experiment. Unit: percentage (%)."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000193",
+      "lbl" : "subject document identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A unique alphanumeric identifier assigned to an NDI subject document."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000194",
+      "lbl" : "C. elegans assay parameter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A specific parameter related to the experimental setup or conditions of an assay involving the nematode Caenorhabditis elegans."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000195",
+      "lbl" : "bacterial parameter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A specific parameter describing the properties or conditions of bacteria in an experiment."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000196",
+      "lbl" : "C. elegans assay phase",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A string identifier indicating the specific phase of a C. elegans experiment (e.g. 'cultivation' or 'behavior')."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000197",
+      "lbl" : "C. elegans behavioral assay measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A quantitative or qualitative value obtained from a C. elegans behavioral assay, used to describe an aspect of the animal's movement, position, or interaction with its environment."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000198",
+      "lbl" : "C. elegans behavioral assay parameter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A controlled or measured variable specifically related to the design and execution of a C. elegans behavioral assay."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000199",
+      "lbl" : "C. elegans cultivation parameter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A parameter related to the conditions under which C. elegans were grown and maintained before being used in an experiment, such as the food source or temperature."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000200",
+      "lbl" : "experiment session identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A unique numerical identifier for a distinct experimental session."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000201",
+      "lbl" : "bacterial strain document identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Unique alphanumeric identifier that links to an OpenMINDs document describing the strain of bacteria used in an experiment."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000202",
+      "lbl" : "bacterial OD600 (target) at seeding",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The intended or nominal optical density at 600 nm (OD 600) to which the bacterial solution was diluted for creating bacterial patches on agar plates. Unit: dimensionless."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000203",
+      "lbl" : "bacterial plate seeding timestamp",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The date and time when a liquid culture of bacteria was seeded (pipetted) onto an agar plate. Unit: datetime."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000204",
+      "lbl" : "bacterial plate cold storage timestamp",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The date and time when an agar plate seeded with bacteria was transferred to cold storage (at approximately 4 degrees Celsius) to arrest or slow bacterial growth, if part of the protocol. Unit: datetime."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000205",
+      "lbl" : "bacterial plate room temperature timestamp",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The date and time when an agar plate seeded with bacteria was moved from cold storage to room temperature (at approximately 25 degrees Celsius) to continue bacterial growth, if part of the protocol. Unit: datetime."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000206",
+      "lbl" : "C. elegans developmental stage",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The developmental stage (e.g. 'L4' or '1DOA') at the time in which C. elegans were picked to the agar plate. Unit: datetime."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000207",
+      "lbl" : "bacterial OD600 measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The measured optical density at 600 nm (OD600) of a reference liquid culture of bacteria. Unit: dimensionless."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000208",
+      "lbl" : "bacterial colony forming units (CFU) measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The concentration of viable bacterial cells quantified as Colony Forming Units per milliliter (CFU/mL), estimated for the reference liquid culture of bacteria. Unit: CFU/mL."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000209",
+      "lbl" : "bacterial plate identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A unique numerical identifier assigned to the physical plate (e.g., NGM agar plate) on which bacterial patch(s) were seeded."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000210",
+      "lbl" : "bacterial plate document identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A unique alphanumeric identifier assigned to an NDI ontologyTableRow document that contains the set of parameters and conditions for a specific agar plate containing bacterial patch(s)."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000211",
+      "lbl" : "C. elegans picked timestamp",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The date and time when C. elegans were picked to an agar plate. Unit: datetime."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000212",
+      "lbl" : "C. elegans behavioral assay label",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A string label referring to the layout of food patches (i.e., 'SingleDensityMultiPatch', 'MultiDensityMultiPatch','LargeSinglePatch','SmallSinglePatch') for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000213",
+      "lbl" : "bacterial OD600 label",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A string label used to categorize or identify the nominal OD600 condition of bacterial patches in an experiment (e.g., '1.0', '0.5', '10.0') corresponding to the relative density conditions for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000214",
+      "lbl" : "bacterial plate growth duration label",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A string label (e.g. '1','12','48') indicating the approximate duration of bacterial growth at room temperature (in hours) for experiments in Haley et al. (2025). [Source: https://doi.org/10.7554/eLife.103191.2.sa4]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000215",
+      "lbl" : "bacterial plate peptone inclusion flag",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A boolean flag indicating whether peptone was included in the agar assay plates. Peptone presence supports bacterial growth. True: peptone included."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000216",
+      "lbl" : "bacteria growth duration after seeding",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The total duration for which bacterial patch(s) on agar plates were allowed to grow at room temperature starting at the time seeded and ending at the beginning of the assay. Unit: hours."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000217",
+      "lbl" : "bacterial patch volume",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The volume of bacterial solution pipetted to create an individual patch on an agar plate. Note: Volumes under 1 µL are approximate due to the difficulty of pipetting liquids at this scale. Unit: microliters (µL)."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000218",
+      "lbl" : "bacterial patch spacing (target)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The intended center-to-center distance between adjacent bacterial food patches when arranged in a grid on an agar plate. Unit: millimeters (mm)."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000219",
+      "lbl" : "C. elegans behavioral assay: plate or arena diameter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The diameter of the experimental plate or arena used to corral animals in a C. elegans behavioral assay. A typical 9 cm agar plate will by 90 mm. Unit: millimeters (mm)."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000220",
+      "lbl" : "bacterial patch identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A unique numerical identifier assigned to a patch of bacteria growing on an agar assay plate."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000221",
+      "lbl" : "bacterial patch center: X coordinate",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The X pixel coordinate representing the geometric center of an individual detected bacterial food patch within an assay arena. Unit: pixels."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000222",
+      "lbl" : "bacterial patch center: Y coordinate",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The Y pixel coordinate representing the geometric center of an individual detected bacterial food patch within an assay arena. Unit: pixels."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000223",
+      "lbl" : "bacterial patch radius",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The radius of an individual detected bacterial patch on an agar plate, assuming patches are circular or near-circular. Unit: pixels."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000224",
+      "lbl" : "bacterial patch circularity",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A quantitative measure assessing how closely the shape of an individual detected bacterial patch conforms to a perfect circle. 1 is a perfect circle. [Source: https://www.mathworks.com/help/images/ref/regionprops.html]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000225",
+      "lbl" : "subject identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A unique numerical identifier assigned to a subject in an experiment."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000226",
+      "lbl" : "C. elegans behavioral assay: first frame image",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An image corresponding to the first frame of the C. elegans behavioral video recording."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000227",
+      "lbl" : "C. elegans behavioral assay: arena mask",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A binary image (logical matrix) where pixels within the experimental arena for C. elegans are marked (true) and pixels outside are unmarked (false). This mask defines the region of interest for worm tracking and behavioral analysis."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000228",
+      "lbl" : "C. elegans behavioral assay: bacteria mask",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A binary image mask representing the union of all individually detected bacterial food patch areas on the C. elegans assay plate. This mask defines all food-containing regions."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000229",
+      "lbl" : "C. elegans behavioral assay: closest patch identifier map",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An image or map where each pixel's value is the identifier of the bacterial food patch closest to that pixel's location."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000230",
+      "lbl" : "C. elegans behavioral assay: closest patch OD600 map",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An image or map where each pixel's value corresponds to the nominal OD600 or relative density of the bacterial food patch closest to that pixel's location."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000231",
+      "lbl" : "bacterial patch document identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A unique alphanumeric identifier assigned to an NDI ontologyTableRow document that details the specific parameters of a bacterial food patch such as its location, size, and density."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000232",
+      "lbl" : "C. elegans body part",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A distinct anatomical region of the C. elegans worm, such as the head, midpoint, or tail, which can be tracked to quantify behavior."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000233",
+      "lbl" : "C. elegans head",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The anterior-most part of the C. elegans body."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000234",
+      "lbl" : "C. elegans midpoint",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The center point of the C. elegans body."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000235",
+      "lbl" : "C. elegans tail",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The posterior-most part of the C. elegans body."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000236",
+      "lbl" : "C. elegans behavioral assay: encounter identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A unique numerical identifier assigned to a specific encounter event for a given animal. This distinguishes individual encounters for detailed analysis."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000237",
+      "lbl" : "C. elegans behavioral assay: encounter onset time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The time, in seconds, corresponding to the frame at which the C. elegans worm enters a bacterial food patch. This is the precise start time of an encounter."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000238",
+      "lbl" : "C. elegans behavioral assay: encounter offset time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The time, in seconds, corresponding to the frame at which the C. elegans worm exits a bacterial food patch. This is the precise end time of an encounter."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000239",
+      "lbl" : "C. elegans behavioral assay: deceleration upon encounter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The rate of change in the C. elegans worm's velocity, measured as the slope of the velocity curve during a defined time window surrounding its encounter with a bacterial patch. A negative value indicates a slowdown upon encounter. Unit: µm/s²."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000240",
+      "lbl" : "C. elegans behavioral assay: minimum velocity during encounter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The minimum instantaneous velocity recorded for the C. elegans worm while it is located on a bacterial food patch during an encounter. Unit: µm/s."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000241",
+      "lbl" : "C. elegans behavioral assay: peak velocity before encounter onset",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The peak instantaneous velocity of the C. elegans worm observed within 10 seconds before its entry into a bacterial food patch. Unit: µm/s."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000242",
+      "lbl" : "C. elegans behavioral assay: minimum velocity after encounter offset",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The minimum instantaneous velocity of the C. elegans worm observed within 10 seconds after its entry into a bacterial food patch. Unit: µm/s."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000243",
+      "lbl" : "C. elegans behavioral assay: posterior probability of exploitation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The posterior probability, derived from a Gaussian Mixture Model (GMM) Classification, that a given patch encounter represents an 'exploitation' event (i.e., the worm has accepted the patch and is consuming bacteria). This value ranges from 0 to 1. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000244",
+      "lbl" : "C. elegans behavioral assay: posterior probability of sensing",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The posterior probability, derived from a semi-supervised Quadratic Discriminant Analysis (QDA), that a given patch encounter was 'sensed' by the C. elegans worm (i.e., the animal detected the presence of bacteria, typically indicated by a slowdown). This value ranges from 0 to 1. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000245",
+      "lbl" : "C. elegans behavioral assay: relative density of encountered bacteria",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A normalized, quantitative measure of the bacterial density of a specific bacterial food patch that a C. elegans worm encounters during an assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000246",
+      "lbl" : "C. elegans behavioral assay: relative density of cultivation bacteria",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A normalized, quantitative measure of the bacterial density on the agar plates where C. elegans were cultivated prior to the behavioral assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000247",
+      "lbl" : "bacterial fluorescence assay measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A measurement in a bacterial fluorescence assay used to estimate the relative density of bacterial patches."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000248",
+      "lbl" : "agar plate pouring timestamp",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The date and time when an agar plate was poured. Unit: datetime."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000249",
+      "lbl" : "agar plate cold storage timestamp",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The date and time when an agar plate was transferred to cold storage (at approximately 4 degrees Celsius) to retain moisture for long-term storage. Unit: datetime."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000250",
+      "lbl" : "microscopy image identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A unique numerical identifier for a microscopy image."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000251",
+      "lbl" : "microscopy image exposure time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The duration the microscope's camera or sensor is exposed to light. Unit: milliseconds."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000252",
+      "lbl" : "bacterial patch border peak fluorescence intensity",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The maximum pixel intensity detected along the radial profile of a fluorescent bacterial patch, typically found at the patch edge where bacteria are actively proliferating. [Source: https://doi.org/10.7554/eLife.103191.3]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000253",
+      "lbl" : "bacterial patch border edge fluorescence intensity",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The pixel intensity measured at the detected border of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000254",
+      "lbl" : "bacterial patch border fluorescence amplitude",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A measure of bacterial density defined as the difference between the peak pixel intensity and the border pixel intensity of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000255",
+      "lbl" : "bacterial patch mean fluorescence amplitude",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The average pixel intensity computed across every pixel of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000256",
+      "lbl" : "bacterial patch center fluorescence amplitude",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The average pixel intensity of the middle 50% of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000257",
+      "lbl" : "bacterial patch border-to-center fluorescence ratio",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The ratio of the patch border amplitude to the patch center amplitude, used as a measure of bacterial distribution within the patch. [Source: https://doi.org/10.7554/eLife.103191.3]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000258",
+      "lbl" : "bacterial measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A measurement of bacteria."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000259",
+      "lbl" : "amplitude",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The amplitude of a periodic variable is a measure of its change in a single period (such as time or spatial period). The amplitude of a non-periodic signal is its magnitude compared with a reference value."
         }
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_10000000",
-      "lbl" : "Treatment",
+      "lbl" : "treatment",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -725,7 +1512,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_10000001",
-      "lbl" : "Treatment: Experienced cricket hunting",
+      "lbl" : "treatment: experienced cricket hunting",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -734,7 +1521,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_10000002",
-      "lbl" : "Treatment: Has not experienced cricket hunting",
+      "lbl" : "treatment: has not experienced cricket hunting",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -743,7 +1530,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_10000003",
-      "lbl" : "Treatment: Acclimation onset time",
+      "lbl" : "treatment: acclimation onset time",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -752,7 +1539,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_10000004",
-      "lbl" : "Treatment: Acclimation temperature",
+      "lbl" : "treatment: acclimation temperature",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -761,7 +1548,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_10000005",
-      "lbl" : "Treatment: Non-survival experiment time",
+      "lbl" : "treatment: non-survival experiment time",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -770,7 +1557,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_10000006",
-      "lbl" : "Treatment: Left eye premature eye opening",
+      "lbl" : "treatment: left eye premature eye opening",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -779,7 +1566,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_10000007",
-      "lbl" : "Treatment: Right eye premature eye opening",
+      "lbl" : "treatment: right eye premature eye opening",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -788,7 +1575,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_10000008",
-      "lbl" : "Treatment: Natural left eye opening",
+      "lbl" : "treatment: natural left eye opening",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -797,7 +1584,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_10000009",
-      "lbl" : "Treatment: Natural right eye opening",
+      "lbl" : "treatment: natural right eye opening",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -806,7 +1593,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_10000010",
-      "lbl" : "Treatment: Grating direction-of-motion visual stimulation",
+      "lbl" : "treatment: grating direction-of-motion visual stimulation",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -815,7 +1602,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_10000011",
-      "lbl" : "Treatment: CNO or saline administration",
+      "lbl" : "treatment: CNO or saline administration",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -823,8 +1610,35 @@
         }
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000012",
+      "lbl" : "treatment: date of birth",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Specifies the date of birth in YYYY-MM-DD format"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000013",
+      "lbl" : "treatment: food restriction onset time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The date and time when a period of food restriction begins for a subject. Unit: datetime."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000014",
+      "lbl" : "treatment: food restriction offset time",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The date and time when a period of food restriction ends for a subject. Unit: datetime."
+        }
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_20000000",
-      "lbl" : "Purpose",
+      "lbl" : "purpose",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -833,7 +1647,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_20000001",
-      "lbl" : "Purpose: Assessing spatial frequency tuning",
+      "lbl" : "purpose: assessing spatial frequency tuning",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -842,7 +1656,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_20000002",
-      "lbl" : "Purpose: Assessing temporal frequency tuning",
+      "lbl" : "purpose: assessing temporal frequency tuning",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -851,7 +1665,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_20000003",
-      "lbl" : "Purpose: Assessing direction of motion tuning",
+      "lbl" : "purpose: assessing direction of motion tuning",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -860,7 +1674,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_20000004",
-      "lbl" : "Purpose: Assessing contrast tuning",
+      "lbl" : "purpose: assessing contrast tuning",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -869,7 +1683,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_20000005",
-      "lbl" : "Purpose: Assessing ocular dominance or binocular matching",
+      "lbl" : "purpose: assessing ocular dominance or binocular matching",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -878,7 +1692,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_20000006",
-      "lbl" : "Purpose: Assessing the pyloric rhythm",
+      "lbl" : "purpose: assessing the pyloric rhythm",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -887,7 +1701,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_20000007",
-      "lbl" : "Purpose: Assessing the gastric mill rhythm",
+      "lbl" : "purpose: assessing the gastric mill rhythm",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -896,7 +1710,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_20000008",
-      "lbl" : "Purpose: Assessing activity with temperature manipulation",
+      "lbl" : "purpose: assessing activity with temperature manipulation",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -905,7 +1719,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_30000000",
-      "lbl" : "Approach",
+      "lbl" : "approach",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -914,7 +1728,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_30000001",
-      "lbl" : "Approach: Left eye view blocked",
+      "lbl" : "approach: left eye view blocked",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -923,7 +1737,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_30000002",
-      "lbl" : "Approach: Right eye view blocked",
+      "lbl" : "approach: right eye view blocked",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -932,7 +1746,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_30000003",
-      "lbl" : "Approach: Command temperature constant",
+      "lbl" : "approach: command temperature constant",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -941,7 +1755,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_30000004",
-      "lbl" : "Approach: Command temperature start",
+      "lbl" : "approach: command temperature start",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -950,7 +1764,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_30000005",
-      "lbl" : "Approach: Command temperature end",
+      "lbl" : "approach: command temperature end",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -959,7 +1773,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_30000006",
-      "lbl" : "Approach: Before optogenetic tetanus",
+      "lbl" : "approach: before optogenetic tetanus",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -968,7 +1782,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_30000007",
-      "lbl" : "Approach: After optogenetic tetanus",
+      "lbl" : "approach: after optogenetic tetanus",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -977,7 +1791,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_30000008",
-      "lbl" : "Approach: Before artificial visual stimulation",
+      "lbl" : "approach: before artificial visual stimulation",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -986,7 +1800,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_30000009",
-      "lbl" : "Approach: After artificial visual stimulation",
+      "lbl" : "approach: after artificial visual stimulation",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -1067,6 +1881,10 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000233",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
       "id" : "http://purl.org/dc/terms/description",
       "lbl" : "description",
       "type" : "PROPERTY",
@@ -1085,12 +1903,28 @@
       "id" : "http://www.geneontology.org/formats/oboInOwl#SubsetProperty",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "lbl" : "has_exact_synonym",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "An alternative label for a class or property which has the exact same meaning than the preferred name/primary label."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0001-5208-3432"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/20"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/20"
+        } ]
+      }
     } ],
     "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000085",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000090",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000085"
@@ -1139,13 +1973,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000106",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000107",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000107",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000108",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000108",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000109",
       "pred" : "is_a",
@@ -1155,37 +2001,73 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000110",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000188"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000111",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000111",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000188"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000112",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000112",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000188"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000113",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000113",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000114",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000114",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000115",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000115",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000116",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000116",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000117",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000117",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000118",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000118",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000119",
       "pred" : "is_a",
@@ -1215,13 +2097,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000125",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000126",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000126",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000127",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000127",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000128",
       "pred" : "is_a",
@@ -1231,37 +2125,73 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000129",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000188"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000130",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000130",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000188"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000131",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000131",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000188"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000132",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000132",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000133",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000133",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000134",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000134",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000135",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000135",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000136",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000136",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000137",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000137",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000138",
       "pred" : "is_a",
@@ -1275,6 +2205,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000140",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000141",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
@@ -1283,77 +2217,141 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000142",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000188"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000143",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000143",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000144",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000144",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000145",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000189"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000146",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000181"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000148",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000148",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000259"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000149",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000180"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000150",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000181"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000151",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000085"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000153",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000181"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000153",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000190"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000154",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000190"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000155",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000181"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000156",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000190"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000157",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000190"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000158",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000158",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000259"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000159",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000159",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000259"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000160",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000160",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000188"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000161",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000092"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000161",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000259"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000162",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000186"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000163",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000181"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000163",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000190"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000164",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000164",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000164",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000189"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000165",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000182"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000168",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000173"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000169",
       "pred" : "is_a",
@@ -1365,27 +2363,447 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000171",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000183"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000146",
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000172",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000180"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000149",
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000175",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000174"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000150",
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000176",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000174"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000151",
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000177",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000173"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000178",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000173"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000179",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000178"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000180",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000178"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000181",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000178"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000182",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000178"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000183",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000178"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000184",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000179"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000185",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000186",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000185"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000187",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000185"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000188",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000185"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000189",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000177"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000190",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000177"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000191",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000192",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000193",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000184"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000194",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000177"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000195",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000177"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000196",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000181"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000196",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000194"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000197",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000090"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000198",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000194"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000199",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000194"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000200",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000180"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000201",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000184"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000201",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000195"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000202",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000195"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000203",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000186"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000203",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000204",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000186"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000204",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000205",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000186"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000205",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000206",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000181"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000206",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000194"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000207",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000208",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000209",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000180"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000209",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000195"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000210",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000184"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000210",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000195"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000211",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000186"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000211",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000194"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000212",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000181"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000212",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000198"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000213",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000181"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000213",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000195"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000214",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000181"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000214",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000195"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000215",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000182"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000215",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000195"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000216",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000187"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000216",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000217",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000195"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000218",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000195"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000219",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000198"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000220",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000180"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000220",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000195"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000221",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000222",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000223",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000224",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000225",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000180"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000226",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000198"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000227",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000198"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000228",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000198"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000229",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000198"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000230",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000198"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000231",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000184"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000231",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000195"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000232",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000173"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000233",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000232"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000234",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000232"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000235",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000232"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000236",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000180"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000237",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000188"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000237",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000197"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000238",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000188"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000238",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000197"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000239",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000197"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000240",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000197"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000241",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000197"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000242",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000197"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000243",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000197"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000244",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000197"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000245",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000198"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000246",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000198"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000247",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000248",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000186"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000248",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000249",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000186"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000249",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000250",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000180"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000251",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000177"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000252",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000253",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000254",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000254",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000259"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000255",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000255",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000259"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000256",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000256",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000259"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000257",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000258",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000259",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000085"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000000",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000175"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000001",
       "pred" : "is_a",
@@ -1397,7 +2815,15 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000003",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000186"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000003",
+      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000191"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000004",
       "pred" : "is_a",
@@ -1431,9 +2857,33 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000186"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000186"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000186"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_20000000",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000173"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_20000001",
       "pred" : "is_a",
@@ -1469,7 +2919,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_30000000",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000001"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000176"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_30000001",
       "pred" : "is_a",
