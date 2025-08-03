@@ -19,7 +19,6 @@ Annotation(dcterms:title "Experimental Measurements Purposes and Treatments onto
 Annotation(rdfs:comment "EMPTY by NDI is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.")
 Annotation(owl:versionInfo "Release 2025-07-10")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000085>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000090>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000091>))
@@ -268,16 +267,10 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000001> (empty)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000001> "Experimental Measurements Purposes and Treatments ontologY")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000001> "empty"@en)
-
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000085> (measurement)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000085> "A quantitative or qualitative observation, recording, or assessment of a property, phenomenon, or system, obtained through standardized procedures, instruments, or methods. Measurements provide empirical data that can be used for scientific analysis, comparison, and interpretation, forming the foundation for hypothesis testing and knowledge advancement across disciplines.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000085> "measurement"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000085> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000090> (behavioral measurement)
 
@@ -771,13 +764,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000172> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000173> "A term that describes, characterizes, or quantifies an aspect of an experimental entity, process, or system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000173> "descriptor"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000173> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000174> (manipulation)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000174> "An intentional action, intervention, or condition applied during an experiment to observe its effect on a subject or system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000174> "manipulation"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000174> <http://purl.obolibrary.org/obo/EMPTY_00000001>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000175> (epoch-related manipulation)
 
