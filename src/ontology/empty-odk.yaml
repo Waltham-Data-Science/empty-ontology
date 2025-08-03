@@ -14,6 +14,7 @@ export_formats:
   - json
 import_group:
   products:
+    - id: uberon
     - id: ro
     - id: pato
     - id: omo
