@@ -1,0 +1,323 @@
+Prefix(:=<http://purl.obolibrary.org/obo/empty/imports/ncit_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/empty/imports/ncit_import.owl>
+<http://purl.obolibrary.org/obo/empty/releases/2025-08-04/imports/ncit_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncit/releases/2024-05-07/ncit.owl>)
+Annotation(owl:versionInfo "2025-08-04")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C12219>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C142485>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C16847>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C17187>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C179817>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C18141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C18912>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C19160>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C19236>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C19477>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C19498>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C201530>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C20181>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C20189>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C20368>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25167>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25180>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25198>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25206>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25285>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25335>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25364>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25365>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25447>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C32221>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C42645>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C43431>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C43578>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C44465>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C44477>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C44478>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C47925>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C48179>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C54086>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C54100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C54154>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C63921>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C69244>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C70663>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C70766>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C85776>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C85845>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C88206>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C90380>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C92722>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C93399>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C97331>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has exact synonym)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has exact synonym")
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C12219> (Anatomic Structure, System, or Substance)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C12219> "Anatomic Structure, System, or Substance")
+DisjointClasses(<http://purl.obolibrary.org/obo/NCIT_C12219> <http://purl.obolibrary.org/obo/NCIT_C20181>)
+DisjointClasses(<http://purl.obolibrary.org/obo/NCIT_C12219> <http://purl.obolibrary.org/obo/NCIT_C20189>)
+DisjointClasses(<http://purl.obolibrary.org/obo/NCIT_C12219> <http://purl.obolibrary.org/obo/NCIT_C43431>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C142485> (Data Mapping)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C142485> "Data Mapping")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C142485> <http://purl.obolibrary.org/obo/NCIT_C47925>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C16847> (Technique)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C16847> "Technique")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C16847> <http://purl.obolibrary.org/obo/NCIT_C43431>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C17187> (Technology)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C17187> "Technology")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C17187> <http://purl.obolibrary.org/obo/NCIT_C19160>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C179817> (Velocity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C179817> "Velocity")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C179817> <http://purl.obolibrary.org/obo/NCIT_C25447>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C18141> (Computer Sciences)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C18141> "Computer Sciences")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C18141> <http://purl.obolibrary.org/obo/NCIT_C17187>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C18912> (Optical Methods)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C18912> "Optical Methods")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C18912> <http://purl.obolibrary.org/obo/NCIT_C19236>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C19160> (Occupation or Discipline)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C19160> "Occupation or Discipline")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C19160> <http://purl.obolibrary.org/obo/NCIT_C20181>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C19236> (Physical Chemical Technique)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C19236> "Physical Chemical Technique")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C19236> <http://purl.obolibrary.org/obo/NCIT_C20368>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C19477> (Medical Image)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C19477> "Medical Image")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C19477> <http://purl.obolibrary.org/obo/NCIT_C48179>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C19498> (Document)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C19498> "Document")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C19498> <http://purl.obolibrary.org/obo/NCIT_C25198>)
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C19498> <http://purl.obolibrary.org/obo/NCIT_C97331>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C201530> (Binary Mask)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C201530> "Binary Mask")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C201530> <http://purl.obolibrary.org/obo/NCIT_C142485>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C20181> (Conceptual Entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C20181> "Conceptual Entity")
+DisjointClasses(<http://purl.obolibrary.org/obo/NCIT_C20181> <http://purl.obolibrary.org/obo/NCIT_C20189>)
+DisjointClasses(<http://purl.obolibrary.org/obo/NCIT_C20181> <http://purl.obolibrary.org/obo/NCIT_C43431>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C20189> (Property or Attribute)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C20189> "Property or Attribute")
+DisjointClasses(<http://purl.obolibrary.org/obo/NCIT_C20189> <http://purl.obolibrary.org/obo/NCIT_C43431>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C20368> (Research Technique)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C20368> "Research Technique")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C20368> <http://purl.obolibrary.org/obo/NCIT_C16847>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C25167> (Distance)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C25167> "Distance")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25167> <http://purl.obolibrary.org/obo/NCIT_C20189>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C25180> (Indicator)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C25180> "Indicator")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25180> <http://purl.obolibrary.org/obo/NCIT_C20181>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C25198> (Record)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C25198> "Record")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25198> <http://purl.obolibrary.org/obo/NCIT_C20181>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C25206> (Temperature)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C25206> "Temperature")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25206> <http://purl.obolibrary.org/obo/NCIT_C25447>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C25285> (Diameter)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C25285> "Diameter")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25285> <http://purl.obolibrary.org/obo/NCIT_C70766>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C25335> (Volume)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C25335> "Volume")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25335> <http://purl.obolibrary.org/obo/NCIT_C25447>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C25364> (Identifier)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C25364> "Identifier")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25364> <http://purl.obolibrary.org/obo/NCIT_C19498>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C25365> (Description)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C25365> "Description")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25365> <http://purl.obolibrary.org/obo/NCIT_C19498>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C25447> (Characteristic)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C25447> "Characteristic")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25447> <http://purl.obolibrary.org/obo/NCIT_C20189>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C32221> (Body Part)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C32221> "Body Part")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C32221> <http://purl.obolibrary.org/obo/NCIT_C12219>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C42645> (Data Type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C42645> "Data Type")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C42645> <http://purl.obolibrary.org/obo/NCIT_C92722>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C43431> (Activity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C43431> "Activity")
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C43578> (Flag)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C43578> "Flag")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C43578> <http://purl.obolibrary.org/obo/NCIT_C25180>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C44465> (Coordinate)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C44465> "Coordinate")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C44465> <http://purl.obolibrary.org/obo/NCIT_C20181>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C44477> (X-Coordinate)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C44477> "X-Coordinate")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C44477> <http://purl.obolibrary.org/obo/NCIT_C44465>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C44478> (Y-Coordinate)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C44478> "Y-Coordinate")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C44478> <http://purl.obolibrary.org/obo/NCIT_C44465>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C47925> (Data Processing)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C47925> "Data Processing")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C47925> <http://purl.obolibrary.org/obo/NCIT_C18141>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C48179> (Image)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C48179> "Image")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C48179> <http://purl.obolibrary.org/obo/NCIT_C19498>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C54086> (Timestamp Data Type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C54086> "Timestamp Data Type")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C54086> <http://purl.obolibrary.org/obo/NCIT_C42645>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C54100> (Universally Unique Identifier)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C54100> "Universally Unique Identifier")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C54100> <http://purl.obolibrary.org/obo/NCIT_C70663>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C54154> (Probability)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C54154> "Probability")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C54154> <http://purl.obolibrary.org/obo/NCIT_C20189>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C63921> (Radius)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C63921> "Radius")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C63921> <http://purl.obolibrary.org/obo/NCIT_C20189>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C69244> (Acquired Image)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C69244> "Acquired Image")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C69244> <http://purl.obolibrary.org/obo/NCIT_C19477>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C70663> (Unique Identifier)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C70663> "Unique Identifier")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C70663> <http://purl.obolibrary.org/obo/NCIT_C25364>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C70766> (Quantitative Concept)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C70766> "Quantitative Concept")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C70766> <http://purl.obolibrary.org/obo/NCIT_C20189>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C85776> (Optical Density Measurement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C85776> "Optical Density Measurement")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C85776> <http://purl.obolibrary.org/obo/NCIT_C18912>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C85845> (Grayscale Image)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C85845> "Grayscale Image")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C85845> <http://purl.obolibrary.org/obo/NCIT_C48179>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C88206> (Humidity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C88206> "Humidity")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C88206> <http://purl.obolibrary.org/obo/NCIT_C25447>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C90380> (Environmental Temperature)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C90380> "Environmental Temperature")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C90380> <http://purl.obolibrary.org/obo/NCIT_C25206>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C92722> (Qualitative Concept)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C92722> "Qualitative Concept")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C92722> <http://purl.obolibrary.org/obo/NCIT_C20189>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C93399> (Document Identifier)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C93399> "Document Identifier")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C93399> <http://purl.obolibrary.org/obo/NCIT_C25364>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C97331> (Intellectual Property)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C97331> "Intellectual Property")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C97331> <http://purl.obolibrary.org/obo/NCIT_C20181>)
+
+
+)

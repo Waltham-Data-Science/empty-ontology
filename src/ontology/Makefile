@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                28d5b947f67a7879e03c6197ed1fbf4194a4beecf2955cda35b5c3653d65023c
+CONFIG_HASH=                ed9a43847e8affad948d13046d2cfdebeb0e591a4e152256de56092ca885d2d4
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  uberon ro pato omo
+IMPORTS =  uberon ncit ro pato omo
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -461,6 +461,14 @@ ifeq ($(MIR),true)
 mirror-uberon: | $(TMPDIR)
 	curl -L $(OBOBASE)/uberon.owl --create-dirs -o $(TMPDIR)/uberon-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/uberon-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: ncit
+.PHONY: mirror-ncit
+.PRECIOUS: $(MIRRORDIR)/ncit.owl
+mirror-ncit: | $(TMPDIR)
+	curl -L $(OBOBASE)/ncit.owl --create-dirs -o $(TMPDIR)/ncit-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) convert -i $(TMPDIR)/ncit-download.owl -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: ro
