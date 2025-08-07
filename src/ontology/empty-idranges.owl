@@ -36,7 +36,7 @@ Datatype: idrange:1
         allocatedto: "dre"
     
     EquivalentTo: 
-        xsd:integer[>= 0 , <= 99999999]
+        xsd:integer[>= 00000000 , <= 99999999]
 
     
 Datatype: idrange:2
