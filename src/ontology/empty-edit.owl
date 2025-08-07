@@ -240,8 +240,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C85845>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C88206>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C90380>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C93399>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SNOMED_91723000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001880>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002100>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002415>))
@@ -755,7 +755,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000171> "optogeneticTetanusStimulationTargetLocation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000171> "optogenetic tetanus stimulation target location"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000171> <http://purl.obolibrary.org/obo/EMPTY_00000183>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000171> <http://purl.obolibrary.org/obo/SNOMED_91723000>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000171> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000172> (experimental trial number)
 
