@@ -17,6 +17,8 @@ import_group:
     - id: ro
     - id: pato
     - id: omo
+    - id: ncit
+    - id: uberon
 robot_java_args: "-Xmx8G"
 robot_report:
   use_labels: TRUE
