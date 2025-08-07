@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                ed9a43847e8affad948d13046d2cfdebeb0e591a4e152256de56092ca885d2d4
+CONFIG_HASH=                5c2a8487dfe447723e31080f6ff0d21206e451c0ac94389343b06551a9e0257a
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  uberon ncit ro pato omo
+IMPORTS =  uberon ncit ncbitaxon ro pato omo
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -469,6 +469,14 @@ mirror-uberon: | $(TMPDIR)
 mirror-ncit: | $(TMPDIR)
 	curl -L $(OBOBASE)/ncit.owl --create-dirs -o $(TMPDIR)/ncit-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/ncit-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: ncbitaxon
+.PHONY: mirror-ncbitaxon
+.PRECIOUS: $(MIRRORDIR)/ncbitaxon.owl
+mirror-ncbitaxon: | $(TMPDIR)
+	curl -L $(OBOBASE)/ncbitaxon.owl --create-dirs -o $(TMPDIR)/ncbitaxon-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) convert -i $(TMPDIR)/ncbitaxon-download.owl -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: ro

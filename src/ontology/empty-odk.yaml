@@ -16,6 +16,7 @@ import_group:
   products:
     - id: uberon
     - id: ncit
+    - id: ncbitaxon
     - id: ro
     - id: pato
     - id: omo
