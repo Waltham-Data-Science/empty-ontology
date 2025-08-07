@@ -17,6 +17,7 @@ import_group:
     - id: uberon
     - id: ncit
     - id: ncbitaxon
+    - id: snomed
     - id: ro
     - id: pato
     - id: omo

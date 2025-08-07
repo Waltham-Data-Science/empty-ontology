@@ -15,4 +15,3 @@ NCBITaxon:4895
 NCBITaxon:4896
 NCBITaxon:4932
 NCBITaxon:5782
-http://purl.obolibrary.org/obo/NCBITaxon_Union_0000030
