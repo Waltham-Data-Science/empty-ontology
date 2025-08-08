@@ -27,6 +27,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016301>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000465>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001062>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000062>))
@@ -131,6 +134,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0017001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0019002>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0020105>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001569>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001571>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/ENVO_01001572>))
@@ -970,6 +974,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0019002> "negatively regulates characteristic")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0019002> <http://purl.obolibrary.org/obo/RO_0019000>)
 
+# Object Property: <http://purl.obolibrary.org/obo/RO_0020105> (is anatomical entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0020105> "This property only applies to anatomical entities.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0020105> "is anatomical entity")
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0020105> <http://purl.obolibrary.org/obo/UBERON_0001062>)
+
 
 
 ############################
@@ -1081,6 +1091,24 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000001> "quality")
 SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000001> <http://purl.obolibrary.org/obo/BFO_0000020>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000061> (anatomical structure)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0000061> "biological structure")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000061> "anatomical structure")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/UBERON_0000465>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000465> (material anatomical entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000465> "material anatomical entity")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/UBERON_0001062>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001062> (anatomical entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001062> "anatomical entity")
+EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0001062> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0020105>))
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001062> <http://purl.obolibrary.org/obo/BFO_0000004>)
 
 
 ############################
