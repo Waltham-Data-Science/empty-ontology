@@ -1,19 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+  <group id="odk-managed-catalog" prefer="public">
+    <uri name="http://purl.obolibrary.org/obo/empty/imports/uberon_import.owl" uri="imports/uberon_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/empty/imports/ncit_import.owl" uri="imports/ncit_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/empty/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/empty/imports/ro_import.owl" uri="imports/ro_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/empty/imports/pato_import.owl" uri="imports/pato_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/empty/imports/omo_import.owl" uri="imports/omo_import.owl" />
+  </group>
+  <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public">
 
   
   
-  <uri name="http://purl.obolibrary.org/obo/empty/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/empty/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/empty/imports/omo_import.owl" uri="imports/omo_import.owl"/>
-  
-  
-
-
-  
-
-</group>
+  </group>
 </catalog>

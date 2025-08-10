@@ -17,7 +17,7 @@ Ontology: <http://purl.obolibrary.org/obo/empty/empty-idranges.owl>
 Annotations: 
     idsfor: "EMPTY",
     idprefix: "http://purl.obolibrary.org/obo/EMPTY_",
-    iddigits: 7
+    iddigits: 9
 
 AnnotationProperty: idprefix:
 
