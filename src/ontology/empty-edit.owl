@@ -92,6 +92,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000162>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000163>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000164>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000165>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000167>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000168>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000169>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000170>))
@@ -726,6 +727,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000164> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000165> "A boolean flag indicating whether the data from a specific subject or experimental replicate should be excluded from subsequent analysis due to predefined quality control issues or experimental failure.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000165> "data exclusion flag"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000165> <http://purl.obolibrary.org/obo/EMPTY_00000182>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000167> (type II BNST neuron)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000167> "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that produces post-inhibitory spikes in response to preceding negative current steps, which is related to the action of the low-threshold Ca2+ current. These neurons also display strong voltage sags under hyperpolarizing current pulses, indicating a high level of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000167> "BNSTNeuronTypeII")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000167> "type II BNST neuron"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000167> <http://purl.obolibrary.org/obo/EMPTY_00000168>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000167> <http://purl.obolibrary.org/obo/UBERON_0001880>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000168> (investigator-defined cell type)
 
