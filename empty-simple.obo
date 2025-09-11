@@ -1,10 +1,10 @@
 format-version: 1.2
-data-version: empty/releases/2025-08-10/empty-simple.owl
+data-version: empty/releases/2025-09-11/empty-simple.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 remark: EMPTY by NDI is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 ontology: empty/empty-simple
-property_value: owl:versionInfo "2025-08-10" xsd:string
+property_value: owl:versionInfo "2025-09-11" xsd:string
 property_value: owl:versionInfo "Release 2025-07-10" xsd:string
 property_value: terms:description "An ontology of experimental measurements in the sciences, the purposes for which experimental measurements were made, and experimental treatments, with a focus on life sciences." xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
@@ -467,6 +467,13 @@ def: "A boolean flag indicating whether the data from a specific subject or expe
 is_a: EMPTY:00000182 ! flag
 
 [Term]
+id: EMPTY:00000167
+name: type II BNST neuron
+def: "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that produces post-inhibitory spikes in response to preceding negative current steps, which is related to the action of the low-threshold Ca2+ current. These neurons also display strong voltage sags under hyperpolarizing current pulses, indicating a high level of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]" []
+is_a: EMPTY:00000168 ! investigator-defined cell type
+property_value: IAO:0000118 "BNSTNeuronTypeII" xsd:string
+
+[Term]
 id: EMPTY:00000168
 name: investigator-defined cell type
 def: "A cell type proposed by an investigator on the basis of electrophysiological or anatomical criteria." []
@@ -834,9 +841,9 @@ is_a: EMPTY:00000180 ! enumerated identifier
 
 [Term]
 id: EMPTY:00000226
-name: C. elegans behavioral assay: first frame image
-def: "An image corresponding to the first frame of the C. elegans behavioral video recording." []
-is_a: EMPTY:00000198 ! C. elegans behavioral assay parameter
+name: C. elegans behavioral assay: video recording
+def: "A video recording capturing the behavior of C. elegans during an experimental assay." []
+is_a: EMPTY:00000197 ! C. elegans behavioral assay measurement
 
 [Term]
 id: EMPTY:00000227
@@ -846,21 +853,21 @@ is_a: EMPTY:00000198 ! C. elegans behavioral assay parameter
 
 [Term]
 id: EMPTY:00000228
-name: C. elegans behavioral assay: bacteria mask
-def: "A binary image mask representing the union of all individually detected bacterial food patch areas on the C. elegans assay plate. This mask defines all food-containing regions." []
-is_a: EMPTY:00000198 ! C. elegans behavioral assay parameter
+name: bacterial patch mask
+def: "A binary image mask (logical matrix) representing the union of all individually detected bacterial patch areas on an assay plate. This mask defines all food-containing regions." []
+is_a: EMPTY:00000195 ! bacterial parameter
 
 [Term]
 id: EMPTY:00000229
-name: C. elegans behavioral assay: closest patch identifier map
-def: "An image or map where each pixel's value is the identifier of the bacterial food patch closest to that pixel's location." []
-is_a: EMPTY:00000198 ! C. elegans behavioral assay parameter
+name: bacterial patch closest identifier map
+def: "An image or map where each pixel's value is the identifier of the bacterial patch closest to that pixel's location." []
+is_a: EMPTY:00000195 ! bacterial parameter
 
 [Term]
 id: EMPTY:00000230
-name: C. elegans behavioral assay: closest patch OD600 map
-def: "An image or map where each pixel's value corresponds to the nominal OD600 or relative density of the bacterial food patch closest to that pixel's location." []
-is_a: EMPTY:00000198 ! C. elegans behavioral assay parameter
+name: bacterial patch fluorescence image (normalized)
+def: "An image of fluorescently labeled bacterial patches that has been processed to correct for uneven illumination. This is achieved by dividing the raw fluorescence image by a corresponding, smoothed background image (typically of an empty agar plate), thereby removing illumination-dependent spatial variance in the signal intensity. Unit: dimensionless." []
+is_a: EMPTY:00000258 ! bacterial measurement
 
 [Term]
 id: EMPTY:00000231
@@ -1137,6 +1144,12 @@ id: EMPTY:10000014
 name: treatment: food restriction offset time
 def: "The date and time when a period of food restriction ends for a subject. Unit: datetime." []
 is_a: EMPTY:00000186 ! timestamp
+is_a: EMPTY:10000000 ! treatment
+
+[Term]
+id: EMPTY:10000015
+name: treatment: culture from cell type
+def: "Indicates the experimental subject is a cell culture established from cells of a specific, known cell type." []
 is_a: EMPTY:10000000 ! treatment
 
 [Term]

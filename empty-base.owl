@@ -11,14 +11,14 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/empty/empty-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-08-10/empty-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2025-09-11/empty-base.owl"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:description>An ontology of experimental measurements in the sciences, the purposes for which experimental measurements were made, and experimental treatments, with a focus on life sciences.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Experimental Measurements Purposes and Treatments ontologY</dcterms:title>
         <rdfs:comment>EMPTY by NDI is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
         <owl:versionInfo>Release 2025-07-10</owl:versionInfo>
-        <owl:versionInfo>2025-08-10</owl:versionInfo>
+        <owl:versionInfo>2025-09-11</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -823,6 +823,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EMPTY_00000167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000168"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001880"/>
+        <obo:IAO_0000115>A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that produces post-inhibitory spikes in response to preceding negative current steps, which is related to the action of the low-threshold Ca2+ current. These neurons also display strong voltage sags under hyperpolarizing current pulses, indicating a high level of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]</obo:IAO_0000115>
+        <obo:IAO_0000118>BNSTNeuronTypeII</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">type II BNST neuron</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000168">
@@ -1442,11 +1454,10 @@
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000226 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000226">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000198"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69244"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85845"/>
-        <obo:IAO_0000115>An image corresponding to the first frame of the C. elegans behavioral video recording.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">C. elegans behavioral assay: first frame image</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C91063"/>
+        <obo:IAO_0000115>A video recording capturing the behavior of C. elegans during an experimental assay.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans behavioral assay: video recording</rdfs:label>
     </owl:Class>
     
 
@@ -1465,10 +1476,10 @@
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000228 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000228">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000198"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C201530"/>
-        <obo:IAO_0000115>A binary image mask representing the union of all individually detected bacterial food patch areas on the C. elegans assay plate. This mask defines all food-containing regions.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">C. elegans behavioral assay: bacteria mask</rdfs:label>
+        <obo:IAO_0000115>A binary image mask (logical matrix) representing the union of all individually detected bacterial patch areas on an assay plate. This mask defines all food-containing regions.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch mask</rdfs:label>
     </owl:Class>
     
 
@@ -1476,10 +1487,10 @@
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000229 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000229">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000198"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48179"/>
-        <obo:IAO_0000115>An image or map where each pixel&apos;s value is the identifier of the bacterial food patch closest to that pixel&apos;s location.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">C. elegans behavioral assay: closest patch identifier map</rdfs:label>
+        <obo:IAO_0000115>An image or map where each pixel&apos;s value is the identifier of the bacterial patch closest to that pixel&apos;s location.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch closest identifier map</rdfs:label>
     </owl:Class>
     
 
@@ -1487,10 +1498,10 @@
     <!-- http://purl.obolibrary.org/obo/EMPTY_00000230 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_00000230">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000198"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_00000258"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48179"/>
-        <obo:IAO_0000115>An image or map where each pixel&apos;s value corresponds to the nominal OD600 or relative density of the bacterial food patch closest to that pixel&apos;s location.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">C. elegans behavioral assay: closest patch OD600 map</rdfs:label>
+        <obo:IAO_0000115>An image of fluorescently labeled bacterial patches that has been processed to correct for uneven illumination. This is achieved by dividing the raw fluorescence image by a corresponding, smoothed background image (typically of an empty agar plate), thereby removing illumination-dependent spatial variance in the signal intensity. Unit: dimensionless.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bacterial patch fluorescence image (normalized)</rdfs:label>
     </owl:Class>
     
 
@@ -1957,6 +1968,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EMPTY_10000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_10000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_10000000"/>
+        <obo:IAO_0000115>Indicates the experimental subject is a cell culture established from cells of a specific, known cell type.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">treatment: culture from cell type</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EMPTY_20000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_20000000">
@@ -2237,21 +2258,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C69244 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C69244"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C85776 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85776"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C85845 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85845"/>
     
 
 
@@ -2264,6 +2273,12 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C90380 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C90380"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C91063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C91063"/>
     
 
 
