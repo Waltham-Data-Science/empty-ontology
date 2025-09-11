@@ -16,12 +16,12 @@
         "val" : "EMPTY by NDI is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-08-10"
+        "val" : "2025-09-11"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
         "val" : "Release 2025-07-10"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/empty/releases/2025-08-10/empty-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/empty/releases/2025-09-11/empty-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000085",
@@ -654,6 +654,19 @@
         }
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_00000167",
+      "lbl" : "type II BNST neuron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that produces post-inhibitory spikes in response to preceding negative current steps, which is related to the action of the low-threshold Ca2+ current. These neurons also display strong voltage sags under hyperpolarizing current pulses, indicating a high level of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]"
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "BNSTNeuronTypeII"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000168",
       "lbl" : "investigator-defined cell type",
       "type" : "CLASS",
@@ -1197,11 +1210,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000226",
-      "lbl" : "C. elegans behavioral assay: first frame image",
+      "lbl" : "C. elegans behavioral assay: video recording",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An image corresponding to the first frame of the C. elegans behavioral video recording."
+          "val" : "A video recording capturing the behavior of C. elegans during an experimental assay."
         }
       }
     }, {
@@ -1215,29 +1228,29 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000228",
-      "lbl" : "C. elegans behavioral assay: bacteria mask",
+      "lbl" : "bacterial patch mask",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A binary image mask representing the union of all individually detected bacterial food patch areas on the C. elegans assay plate. This mask defines all food-containing regions."
+          "val" : "A binary image mask (logical matrix) representing the union of all individually detected bacterial patch areas on an assay plate. This mask defines all food-containing regions."
         }
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000229",
-      "lbl" : "C. elegans behavioral assay: closest patch identifier map",
+      "lbl" : "bacterial patch closest identifier map",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An image or map where each pixel's value is the identifier of the bacterial food patch closest to that pixel's location."
+          "val" : "An image or map where each pixel's value is the identifier of the bacterial patch closest to that pixel's location."
         }
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_00000230",
-      "lbl" : "C. elegans behavioral assay: closest patch OD600 map",
+      "lbl" : "bacterial patch fluorescence image (normalized)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An image or map where each pixel's value corresponds to the nominal OD600 or relative density of the bacterial food patch closest to that pixel's location."
+          "val" : "An image of fluorescently labeled bacterial patches that has been processed to correct for uneven illumination. This is achieved by dividing the raw fluorescence image by a corresponding, smoothed background image (typically of an empty agar plate), thereby removing illumination-dependent spatial variance in the signal intensity. Unit: dimensionless."
         }
       }
     }, {
@@ -1634,6 +1647,15 @@
       "meta" : {
         "definition" : {
           "val" : "The date and time when a period of food restriction ends for a subject. Unit: datetime."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_10000015",
+      "lbl" : "treatment: culture from cell type",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Indicates the experimental subject is a cell culture established from cells of a specific, known cell type."
         }
       }
     }, {
@@ -2278,6 +2300,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000182"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000167",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000168"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000168",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000173"
@@ -2564,7 +2590,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000226",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000198"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000197"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000227",
       "pred" : "is_a",
@@ -2572,15 +2598,15 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000228",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000198"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000195"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000229",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000198"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000195"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000230",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000198"
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000258"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_00000231",
       "pred" : "is_a",
@@ -2807,6 +2833,10 @@
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_00000186"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_10000015",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_10000000"
     }, {

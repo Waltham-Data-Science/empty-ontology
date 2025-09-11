@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2025-08-10
+data-version: releases/2025-09-11
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -10,7 +10,7 @@ ontology: empty
 property_value: dcterms:description "An ontology of experimental measurements in the sciences, the purposes for which experimental measurements were made, and experimental treatments, with a focus on life sciences." xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Experimental Measurements Purposes and Treatments ontologY" xsd:string
-property_value: owl:versionInfo "2025-08-10" xsd:string
+property_value: owl:versionInfo "2025-09-11" xsd:string
 property_value: owl:versionInfo "Release 2025-07-10" xsd:string
 
 [Term]
@@ -112,6 +112,12 @@ def: "Elementary particle not affected by the strong force having a spin 1/2, a 
 is_a: CHEBI:36338 ! lepton
 
 [Term]
+id: CHEBI:131604
+name: Mycoplasma genitalium metabolite
+def: "Any bacterial metabolite produced during a metabolic reaction in Mycoplasma genitalium." []
+is_a: CHEBI:76969 ! bacterial metabolite
+
+[Term]
 id: CHEBI:131927
 name: dicarboxylic acids and O-substituted derivatives
 def: "A class of carbonyl compound encompassing dicarboxylic acids and any derivatives obtained by substitution of either one or both of the carboxy hydrogens." []
@@ -156,6 +162,13 @@ id: CHEBI:13941
 name: carbamate
 is_a: CHEBI:37022 ! amino-acid anion
 relationship: is_conjugate_base_of CHEBI:28616 ! carbamic acid
+
+[Term]
+id: CHEBI:140601
+name: fatty acid 4:0
+def: "Any saturated fatty acid containing 4 carbons." []
+is_a: CHEBI:26666 ! short-chain fatty acid
+relationship: is_conjugate_acid_of CHEBI:78115 ! fatty acid anion 4:0
 
 [Term]
 id: CHEBI:142163
@@ -316,6 +329,20 @@ relationship: RO:0000087 CHEBI:76924 ! has role plant metabolite
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
 
 [Term]
+id: CHEBI:16865
+name: gamma-aminobutyric acid
+def: "A gamma-amino acid that is butanoic acid with the amino substituent located at C-4." []
+is_a: CHEBI:25384 ! monocarboxylic acid
+is_a: CHEBI:33707 ! gamma-amino acid
+relationship: has_functional_parent CHEBI:30772 ! butyric acid
+relationship: is_conjugate_acid_of CHEBI:30566 ! gamma-aminobutyrate
+relationship: is_tautomer_of CHEBI:59888 ! gamma-aminobutyric acid zwitterion
+relationship: RO:0000087 CHEBI:25512 ! has role neurotransmitter
+relationship: RO:0000087 CHEBI:62488 ! has role signalling molecule
+relationship: RO:0000087 CHEBI:75772 ! has role Saccharomyces cerevisiae metabolite
+relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+
+[Term]
 id: CHEBI:16990
 name: bilirubin IXalpha
 def: "A member of the class of  biladienes that is a linear tetrapyrrole with the dipyrrole units being of both exovinyl and endovinyl type. A product of heme degradation, it is produced in the reticuloendothelial system by the reduction of biliverdin and transported to the liver as a complex with serum albumin." []
@@ -379,6 +406,15 @@ id: CHEBI:17891
 name: donor
 def: "A molecular entity that can transfer (\"donate\") an electron, a pair of electrons, an atom or a group to another molecular entity." []
 is_a: CHEBI:51086 ! chemical role
+
+[Term]
+id: CHEBI:17968
+name: butyrate
+def: "A short-chain fatty acid anion that is the conjugate base of butyric acid, obtained by deprotonation of the carboxy group." []
+is_a: CHEBI:78115 ! fatty acid anion 4:0
+relationship: is_conjugate_base_of CHEBI:30772 ! butyric acid
+relationship: RO:0000087 CHEBI:61115 ! has role EC 3.5.1.98 (histone deacetylase) inhibitor
+relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
 
 [Term]
 id: CHEBI:18059
@@ -783,6 +819,19 @@ is_a: CHEBI:16670 ! peptide
 relationship: RO:0000087 CHEBI:24621 ! has role hormone
 
 [Term]
+id: CHEBI:26607
+name: saturated fatty acid
+def: "Any fatty acid containing no carbon to carbon multiple bonds. Known to produce adverse biological effects when ingested to excess." []
+is_a: CHEBI:35366 ! fatty acid
+
+[Term]
+id: CHEBI:26666
+name: short-chain fatty acid
+def: "An aliphatic monocarboxylic acid with a chain length of less than C6. If any non-hydrocarbon substituent is present, the compound is not normally regarded as a short-chain fatty acid." []
+is_a: CHEBI:35366 ! fatty acid
+relationship: is_conjugate_acid_of CHEBI:58951 ! short-chain fatty acid anion
+
+[Term]
 id: CHEBI:26708
 name: sodium atom
 is_a: CHEBI:22314 ! alkali metal atom
@@ -922,6 +971,14 @@ relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
 
 [Term]
+id: CHEBI:28868
+name: fatty acid anion
+def: "The conjugate base of a fatty acid, arising from deprotonation of the carboxylic acid group of the corresponding fatty acid." []
+is_a: CHEBI:18059 ! lipid
+is_a: CHEBI:35757 ! monocarboxylic acid anion
+relationship: is_conjugate_base_of CHEBI:35366 ! fatty acid
+
+[Term]
 id: CHEBI:28938
 name: ammonium
 def: "An onium cation obtained by protonation of ammonia." []
@@ -1004,6 +1061,25 @@ id: CHEBI:30212
 name: photon
 def: "Particle of zero charge, zero rest mass, spin quantum number 1, energy hnu and momentum hnu/c (h is the Planck constant, nu the frequency of radiation and c the speed of light), carrier of electromagnetic force." []
 is_a: CHEBI:36341 ! boson
+
+[Term]
+id: CHEBI:30566
+name: gamma-aminobutyrate
+def: "An gamma-amino acid anion resulting from the deprotonation of the carboxy group of gamma-aminobutyric acid." []
+is_a: CHEBI:71666 ! gamma-amino acid anion
+relationship: has_functional_parent CHEBI:17968 ! butyrate
+relationship: is_conjugate_base_of CHEBI:16865 ! gamma-aminobutyric acid
+relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+
+[Term]
+id: CHEBI:30772
+name: butyric acid
+def: "A straight-chain saturated fatty acid that is butane in which one of the terminal methyl groups has been oxidised to a carboxy group." []
+is_a: CHEBI:140601 ! fatty acid 4:0
+is_a: CHEBI:39418 ! straight-chain saturated fatty acid
+relationship: is_conjugate_acid_of CHEBI:17968 ! butyrate
+relationship: RO:0000087 CHEBI:131604 ! has role Mycoplasma genitalium metabolite
+relationship: RO:0000087 CHEBI:84087 ! has role human urinary metabolite
 
 [Term]
 id: CHEBI:3098
@@ -1454,6 +1530,13 @@ relationship: is_conjugate_base_of CHEBI:33719 ! alpha-amino-acid cation
 relationship: is_tautomer_of CHEBI:78608 ! alpha-amino-acid zwitterion
 
 [Term]
+id: CHEBI:33707
+name: gamma-amino acid
+def: "A non-proteinogenic amino-acid in which the amino group is located on the carbon atom at the position gamma to the carboxy group." []
+is_a: CHEBI:83820 ! non-proteinogenic amino acid
+relationship: is_conjugate_acid_of CHEBI:71666 ! gamma-amino acid anion
+
+[Term]
 id: CHEBI:33708
 name: amino-acid residue
 def: "When two or more amino acids combine to form a peptide, the elements of water are removed, and what remains of each amino acid is called an amino-acid residue." []
@@ -1645,6 +1728,14 @@ name: organonitrogen compound
 def: "Any heteroorganic entity containing at least one carbon-nitrogen bond." []
 is_a: CHEBI:33285 ! heteroorganic entity
 is_a: CHEBI:51143 ! nitrogen molecular entity
+
+[Term]
+id: CHEBI:35366
+name: fatty acid
+def: "Any aliphatic monocarboxylic acid derived from or contained in esterified form in an animal or vegetable fat, oil or wax. Natural fatty acids commonly have a chain of 4 to 28 carbons (usually unbranched and even-numbered), which may be saturated or unsaturated. By extension, the term is sometimes used to embrace all acyclic aliphatic carboxylic acids." []
+is_a: CHEBI:18059 ! lipid
+is_a: CHEBI:25384 ! monocarboxylic acid
+relationship: is_conjugate_acid_of CHEBI:28868 ! fatty acid anion
 
 [Term]
 id: CHEBI:35381
@@ -2141,6 +2232,14 @@ is_a: CHEBI:17891 ! donor
 is_a: CHEBI:22695 ! base
 
 [Term]
+id: CHEBI:39418
+name: straight-chain saturated fatty acid
+def: "Any saturated fatty acid lacking a side-chain." []
+is_a: CHEBI:26607 ! saturated fatty acid
+is_a: CHEBI:59202 ! straight-chain fatty acid
+relationship: is_conjugate_acid_of CHEBI:58954 ! straight-chain saturated fatty acid anion
+
+[Term]
 id: CHEBI:41609
 name: carbonate
 is_a: CHEBI:35604 ! carbon oxoanion
@@ -2456,6 +2555,26 @@ is_a: CHEBI:64769 ! organic cationic group
 relationship: is_conjugate_acid_of CHEBI:33708 ! amino-acid residue
 
 [Term]
+id: CHEBI:58951
+name: short-chain fatty acid anion
+def: "Any fatty acid anion obtained by removal of a proton from the carboxy group of a short-chain fatty acid (chain length of less than C6)." []
+is_a: CHEBI:28868 ! fatty acid anion
+relationship: is_conjugate_base_of CHEBI:26666 ! short-chain fatty acid
+
+[Term]
+id: CHEBI:58953
+name: saturated fatty acid anion
+def: "Any fatty acid anion in which there is no C-C unsaturation." []
+is_a: CHEBI:28868 ! fatty acid anion
+
+[Term]
+id: CHEBI:58954
+name: straight-chain saturated fatty acid anion
+def: "Any saturated fatty acid anion lacking a carbon side-chain." []
+is_a: CHEBI:58953 ! saturated fatty acid anion
+relationship: is_conjugate_base_of CHEBI:39418 ! straight-chain saturated fatty acid
+
+[Term]
 id: CHEBI:58958
 name: organosulfate oxoanion
 def: "An organic anion of general formula RS(=O)2O(-) where R is an organyl group." []
@@ -2463,6 +2582,20 @@ is_a: CHEBI:25696 ! organic anion
 is_a: CHEBI:33482 ! sulfur oxoanion
 relationship: has_functional_parent CHEBI:16189 ! sulfate
 relationship: is_conjugate_base_of CHEBI:25704 ! organic sulfate
+
+[Term]
+id: CHEBI:59202
+name: straight-chain fatty acid
+def: "Any fatty acid whose skeletal carbon atoms form an unbranched open chain." []
+is_a: CHEBI:35366 ! fatty acid
+relationship: is_conjugate_acid_of CHEBI:59203 ! straight-chain fatty acid anion
+
+[Term]
+id: CHEBI:59203
+name: straight-chain fatty acid anion
+def: "A fatty acid anion formed by deprotonation of the carboxylic acid functional group of a straight-chain fatty acid." []
+is_a: CHEBI:28868 ! fatty acid anion
+relationship: is_conjugate_base_of CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
 id: CHEBI:59252
@@ -2476,6 +2609,13 @@ name: nucleophilic reagent
 def: "A reagent that forms a bond to its reaction partner (the electrophile) by donating both bonding electrons." []
 is_a: CHEBI:33893 ! reagent
 is_a: CHEBI:39144 ! Lewis base
+
+[Term]
+id: CHEBI:59888
+name: gamma-aminobutyric acid zwitterion
+def: "Zwitterionic form of gamma-aminobutyric acid having an anionic carboxy group and a protonated amino group." []
+is_a: CHEBI:35238 ! amino-acid zwitterion
+relationship: is_tautomer_of CHEBI:16865 ! gamma-aminobutyric acid
 
 [Term]
 id: CHEBI:59999
@@ -2517,6 +2657,12 @@ is_a: CHEBI:27369 ! zwitterion
 relationship: is_tautomer_of CHEBI:16670 ! peptide
 
 [Term]
+id: CHEBI:61115
+name: EC 3.5.1.98 (histone deacetylase) inhibitor
+def: "An EC 3.5.1.* (non-peptide linear amide C-N hydrolase) inhibitor that interferes with the function of histone deacetylase (EC 3.5.1.98)." []
+is_a: CHEBI:76807 ! EC 3.5.1.* (non-peptide linear amide C-N hydrolase) inhibitor
+
+[Term]
 id: CHEBI:61120
 name: nucleobase-containing molecular entity
 def: "Any compound that has a nucleobase as a part." []
@@ -2530,6 +2676,12 @@ name: polyanionic polymer
 def: "A polymer, composed of polyanion macromolecules." []
 is_a: CHEBI:60164 ! ionic polymer
 relationship: BFO:0000051 CHEBI:53309 ! has part polyanionic macromolecule
+
+[Term]
+id: CHEBI:62488
+name: signalling molecule
+def: "A molecular messenger in which the molecule is specifically involved in transmitting information between cells. Such molecules are released from the cell sending the signal, cross over the gap between cells by diffusion, and interact with specific receptors in another cell, triggering a response in that cell by activating a series of enzyme controlled reactions which lead to changes inside the cell." []
+is_a: CHEBI:33280 ! molecular messenger
 
 [Term]
 id: CHEBI:63248
@@ -2680,6 +2832,13 @@ def: "Any compound that has anti-inflammatory effects." []
 is_a: CHEBI:33232 ! application
 
 [Term]
+id: CHEBI:71666
+name: gamma-amino acid anion
+def: "An amino-acid anion in which the amino group is situated gamma- to the carboxylate group." []
+is_a: CHEBI:37022 ! amino-acid anion
+relationship: is_conjugate_base_of CHEBI:33707 ! gamma-amino acid
+
+[Term]
 id: CHEBI:72587
 name: (R)-noradrenaline(1+)
 def: "An organic cation that is the conjugate acid of (R)-noradrenaline, obtained by protonation of the priamry amino group; major species at pH 7.3." []
@@ -2822,6 +2981,14 @@ def: "A food additive that is a (generally inert) gas which is used to envelop f
 is_a: CHEBI:64047 ! food additive
 
 [Term]
+id: CHEBI:78115
+name: fatty acid anion 4:0
+def: "Any saturated fatty acid anion containing 4 carbons. Formed by deprotonation of the carboxylic acid moiety. Major species at pH 7.3." []
+is_a: CHEBI:58951 ! short-chain fatty acid anion
+is_a: CHEBI:58953 ! saturated fatty acid anion
+relationship: is_conjugate_base_of CHEBI:140601 ! fatty acid 4:0
+
+[Term]
 id: CHEBI:78295
 name: food component
 def: "A physiological role played by any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants." []
@@ -2881,6 +3048,18 @@ id: CHEBI:83057
 name: Daphnia metabolite
 def: "A crustacean metabolite produced by the genus of small planktonic arthropods, Daphnia" []
 is_a: CHEBI:83039 ! crustacean metabolite
+
+[Term]
+id: CHEBI:83820
+name: non-proteinogenic amino acid
+def: "Any amino-acid that is not naturally encoded in the genetic code of any organism." []
+is_a: CHEBI:33709 ! amino acid
+
+[Term]
+id: CHEBI:84087
+name: human urinary metabolite
+def: "Any metabolite (endogenous or exogenous) found in human urine samples." []
+is_a: CHEBI:77746 ! human metabolite
 
 [Term]
 id: CHEBI:84729
@@ -3004,8 +3183,7 @@ relationship: RO:0002202 CL:0002676 ! develops from neural crest derived neurobl
 [Term]
 id: CL:0000030
 name: glioblast
-is_a: CL:0000055 ! non-terminally differentiated cell
-is_a: CL:0000255 ! eukaryotic cell
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000133 ! develops from neurectodermal cell
 
 [Term]
@@ -3013,7 +3191,7 @@ id: CL:0000031
 name: neuroblast (sensu Vertebrata)
 synonym: "neuroblast" EXACT []
 is_a: CL:0000055 ! non-terminally differentiated cell
-is_a: CL:0000255 ! eukaryotic cell
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002162 NCBITaxon:7742 ! in taxon Vertebrata <vertebrates>
 
 [Term]
@@ -3043,6 +3221,9 @@ id: CL:0000036
 name: epithelial fate stem cell
 synonym: "epithelial stem cell" EXACT []
 is_a: CL:0000035 ! single fate stem cell
+intersection_of: CL:0000723 ! somatic stem cell
+intersection_of: RO:0002215 GO:0030855 ! capable of epithelial cell differentiation
+relationship: RO:0002215 GO:0030855 ! capable of epithelial cell differentiation
 
 [Term]
 id: CL:0000037
@@ -3094,6 +3275,13 @@ id: CL:0000039
 name: germ line cell
 is_a: CL:0000000 ! cell
 relationship: RO:0002215 GO:0022414 ! capable of reproductive process
+
+[Term]
+id: CL:0000047
+name: neural stem cell
+synonym: "NSC" EXACT []
+is_a: CL:0002319 ! neural cell
+relationship: RO:0002202 CL:0000133 ! develops from neurectodermal cell
 
 [Term]
 id: CL:0000048
@@ -3162,6 +3350,7 @@ name: chondroblast
 synonym: "chrondoplast" EXACT []
 is_a: CL:0000055 ! non-terminally differentiated cell
 is_a: CL:0002320 ! connective tissue cell
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0007009 ! develops from prechondroblast
 relationship: RO:0003000 UBERON:0002418 ! produces cartilage tissue
 
@@ -3290,6 +3479,7 @@ intersection_of: RO:0002215 GO:0050906 ! capable of detection of stimulus involv
 id: CL:0000099
 name: interneuron
 is_a: CL:2000029 ! central nervous system neuron
+relationship: RO:0002215 GO:0014051 ! capable of gamma-aminobutyric acid secretion
 
 [Term]
 id: CL:0000100
@@ -3344,7 +3534,6 @@ id: CL:0000123
 name: neuron associated cell (sensu Vertebrata)
 is_a: CL:0000095 ! neuron associated cell
 relationship: RO:0002162 NCBITaxon:7742 ! in taxon Vertebrata <vertebrates>
-relationship: RO:0002202 CL:0000333 ! develops from migratory neural crest cell
 
 [Term]
 id: CL:0000125
@@ -3868,7 +4057,6 @@ name: glioblast (sensu Vertebrata)
 synonym: "spongioblast" EXACT []
 is_a: CL:0000030 ! glioblast
 is_a: CL:0000123 ! neuron associated cell (sensu Vertebrata)
-is_a: CL:0011026 ! progenitor cell
 
 [Term]
 id: CL:0000347
@@ -4044,6 +4232,11 @@ intersection_of: RO:0002215 GO:0009584 ! capable of detection of visible light
 relationship: RO:0002215 GO:0009584 ! capable of detection of visible light
 
 [Term]
+id: CL:0000498
+name: inhibitory interneuron
+is_a: CL:0000099 ! interneuron
+
+[Term]
 id: CL:0000499
 name: stromal cell
 is_a: CL:0002320 ! connective tissue cell
@@ -4106,7 +4299,6 @@ id: CL:0000515
 name: skeletal muscle myoblast
 synonym: "skeletal myoblast" EXACT []
 is_a: CL:0000056 ! myoblast
-is_a: CL:0011026 ! progenitor cell
 intersection_of: CL:0000056 ! myoblast
 intersection_of: RO:0002203 CL:0008002 ! develops into skeletal muscle fiber
 relationship: RO:0002202 CL:0000355 ! develops from multi-potent skeletal muscle stem cell
@@ -4389,6 +4581,16 @@ is_a: CL:0010009 ! camera-type eye photoreceptor cell
 relationship: RO:0002202 CL:0002672 ! develops from retinal progenitor cell
 
 [Term]
+id: CL:0000617
+name: GABAergic neuron
+synonym: "GABA-ergic neuron" EXACT []
+is_a: CL:0000151 ! secretory cell
+is_a: CL:0000540 ! neuron
+intersection_of: CL:0000540 ! neuron
+intersection_of: RO:0002215 GO:0061534 ! capable of gamma-aminobutyric acid secretion, neurotransmission
+relationship: RO:0002215 GO:0061534 ! capable of gamma-aminobutyric acid secretion, neurotransmission
+
+[Term]
 id: CL:0000622
 name: acinar cell
 synonym: "acinic cell" EXACT []
@@ -4442,7 +4644,7 @@ is_a: CL:0000300 ! gamete
 id: CL:0000680
 name: muscle precursor cell
 is_a: CL:0000055 ! non-terminally differentiated cell
-is_a: CL:0000255 ! eukaryotic cell
+is_a: CL:0011026 ! progenitor cell
 intersection_of: CL:0011115 ! precursor cell
 intersection_of: RO:0002203 CL:0000187 ! develops into muscle cell
 relationship: RO:0002202 CL:0000222 ! develops from mesodermal cell
@@ -5263,8 +5465,11 @@ id: CL:0002453
 name: oligodendrocyte precursor cell
 is_a: CL:0000123 ! neuron associated cell (sensu Vertebrata)
 is_a: CL:0011026 ! progenitor cell
+relationship: BFO:0000050 CL:0000125 ! part of glial cell
 relationship: BFO:0000050 UBERON:0001017 ! part of central nervous system
+relationship: RO:0002202 CL:0000047 ! develops from neural stem cell
 relationship: RO:0002202 CL:0000339 ! develops from glioblast (sensu Vertebrata)
+relationship: RO:0002203 CL:4023059 ! develops into committed oligodendrocyte precursor
 
 [Term]
 id: CL:0002494
@@ -5594,7 +5799,6 @@ relationship: BFO:0000050 UBERON:0000378 ! part of tongue muscle
 id: CL:0002676
 name: neural crest derived neuroblast
 is_a: CL:0000031 ! neuroblast (sensu Vertebrata)
-is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! develops from migratory neural crest cell
 
 [Term]
@@ -5646,6 +5850,7 @@ relationship: RO:0002202 CL:0000133 ! develops from neurectodermal cell
 id: CL:0007009
 name: prechondroblast
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0011026 ! progenitor cell
 
 [Term]
 id: CL:0008000
@@ -5775,6 +5980,15 @@ is_a: CL:0002368 ! respiratory tract epithelial cell
 is_a: CL:1100001 ! secretory epithelial cell
 intersection_of: CL:1100001 ! secretory epithelial cell
 intersection_of: BFO:0000050 UBERON:0004802 ! part of respiratory tract epithelium
+
+[Term]
+id: CL:0008061
+name: GABA-Chol neuron
+is_a: CL:0000108 ! cholinergic neuron
+is_a: CL:0000617 ! GABAergic neuron
+intersection_of: CL:0000540 ! neuron
+intersection_of: RO:0002215 GO:0014055 ! capable of acetylcholine secretion, neurotransmission
+intersection_of: RO:0002215 GO:0061534 ! capable of gamma-aminobutyric acid secretion, neurotransmission
 
 [Term]
 id: CL:0009000
@@ -6043,6 +6257,15 @@ is_a: CL:2000029 ! central nervous system neuron
 intersection_of: CL:0000100 ! motor neuron
 intersection_of: RO:0002100 UBERON:0002240 ! has soma location spinal cord
 relationship: RO:0002100 UBERON:0002240 ! has soma location spinal cord
+
+[Term]
+id: CL:0011005
+name: GABAergic interneuron
+synonym: "GABAergic inhibitory interneuron" EXACT []
+is_a: CL:0000498 ! inhibitory interneuron
+is_a: CL:0000617 ! GABAergic neuron
+intersection_of: CL:0000099 ! interneuron
+intersection_of: RO:0002215 GO:0061534 ! capable of gamma-aminobutyric acid secretion, neurotransmission
 
 [Term]
 id: CL:0011007
@@ -6993,6 +7216,13 @@ intersection_of: CL:2000032 ! peripheral nervous system neuron
 intersection_of: RO:0002215 GO:0050906 ! capable of detection of stimulus involved in sensory perception
 
 [Term]
+id: CL:4023059
+name: committed oligodendrocyte precursor
+synonym: "differentiation-committed oligodendrocyte precursor" EXACT []
+is_a: CL:0000123 ! neuron associated cell (sensu Vertebrata)
+relationship: RO:0002202 CL:0002453 ! develops from oligodendrocyte precursor cell
+
+[Term]
 id: CL:4023072
 name: brain vascular cell
 is_a: CL:0002319 ! neural cell
@@ -7709,6 +7939,14 @@ def: "A boolean flag indicating whether the data from a specific subject or expe
 is_a: EMPTY:00000182 ! flag
 
 [Term]
+id: EMPTY:00000167
+name: type II BNST neuron
+def: "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that produces post-inhibitory spikes in response to preceding negative current steps, which is related to the action of the low-threshold Ca2+ current. These neurons also display strong voltage sags under hyperpolarizing current pulses, indicating a high level of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]" []
+is_a: EMPTY:00000168 ! investigator-defined cell type
+is_a: UBERON:0001880 ! bed nucleus of stria terminalis
+property_value: IAO:0000118 "BNSTNeuronTypeII" xsd:string
+
+[Term]
 id: EMPTY:00000168
 name: investigator-defined cell type
 def: "A cell type proposed by an investigator on the basis of electrophysiological or anatomical criteria." []
@@ -8094,11 +8332,10 @@ is_a: EMPTY:00000180 ! enumerated identifier
 
 [Term]
 id: EMPTY:00000226
-name: C. elegans behavioral assay: first frame image
-def: "An image corresponding to the first frame of the C. elegans behavioral video recording." []
-is_a: EMPTY:00000198 ! C. elegans behavioral assay parameter
-is_a: NCIT:C69244 ! Acquired Image
-is_a: NCIT:C85845 ! Grayscale Image
+name: C. elegans behavioral assay: video recording
+def: "A video recording capturing the behavior of C. elegans during an experimental assay." []
+is_a: EMPTY:00000197 ! C. elegans behavioral assay measurement
+is_a: NCIT:C91063 ! Video Recording
 
 [Term]
 id: EMPTY:00000227
@@ -8109,23 +8346,23 @@ is_a: NCIT:C201530 ! Binary Mask
 
 [Term]
 id: EMPTY:00000228
-name: C. elegans behavioral assay: bacteria mask
-def: "A binary image mask representing the union of all individually detected bacterial food patch areas on the C. elegans assay plate. This mask defines all food-containing regions." []
-is_a: EMPTY:00000198 ! C. elegans behavioral assay parameter
+name: bacterial patch mask
+def: "A binary image mask (logical matrix) representing the union of all individually detected bacterial patch areas on an assay plate. This mask defines all food-containing regions." []
+is_a: EMPTY:00000195 ! bacterial parameter
 is_a: NCIT:C201530 ! Binary Mask
 
 [Term]
 id: EMPTY:00000229
-name: C. elegans behavioral assay: closest patch identifier map
-def: "An image or map where each pixel's value is the identifier of the bacterial food patch closest to that pixel's location." []
-is_a: EMPTY:00000198 ! C. elegans behavioral assay parameter
+name: bacterial patch closest identifier map
+def: "An image or map where each pixel's value is the identifier of the bacterial patch closest to that pixel's location." []
+is_a: EMPTY:00000195 ! bacterial parameter
 is_a: NCIT:C48179 ! Image
 
 [Term]
 id: EMPTY:00000230
-name: C. elegans behavioral assay: closest patch OD600 map
-def: "An image or map where each pixel's value corresponds to the nominal OD600 or relative density of the bacterial food patch closest to that pixel's location." []
-is_a: EMPTY:00000198 ! C. elegans behavioral assay parameter
+name: bacterial patch fluorescence image (normalized)
+def: "An image of fluorescently labeled bacterial patches that has been processed to correct for uneven illumination. This is achieved by dividing the raw fluorescence image by a corresponding, smoothed background image (typically of an empty agar plate), thereby removing illumination-dependent spatial variance in the signal intensity. Unit: dimensionless." []
+is_a: EMPTY:00000258 ! bacterial measurement
 is_a: NCIT:C48179 ! Image
 
 [Term]
@@ -8412,6 +8649,12 @@ id: EMPTY:10000014
 name: treatment: food restriction offset time
 def: "The date and time when a period of food restriction ends for a subject. Unit: datetime." []
 is_a: EMPTY:00000186 ! timestamp
+is_a: EMPTY:10000000 ! treatment
+
+[Term]
+id: EMPTY:10000015
+name: treatment: culture from cell type
+def: "Indicates the experimental subject is a cell culture established from cells of a specific, known cell type." []
 is_a: EMPTY:10000000 ! treatment
 
 [Term]
@@ -11691,6 +11934,11 @@ synonym: "energy reserve metabolism" EXACT []
 is_a: GO:0015980 ! energy derivation by oxidation of organic compounds
 
 [Term]
+id: GO:0006113
+name: fermentation
+is_a: GO:0015980 ! energy derivation by oxidation of organic compounds
+
+[Term]
 id: GO:0006139
 name: nucleobase-containing compound metabolic process
 synonym: "cellular nucleobase, nucleoside, nucleotide and nucleic acid metabolic process" EXACT []
@@ -11958,6 +12206,30 @@ intersection_of: RO:0004007 CHEBI:18059 ! has primary input or output lipid
 relationship: RO:0004007 CHEBI:18059 ! has primary input or output lipid
 
 [Term]
+id: GO:0006631
+name: fatty acid metabolic process
+synonym: "fatty acid metabolism" EXACT []
+is_a: GO:0006629 ! lipid metabolic process
+is_a: GO:0032787 ! monocarboxylic acid metabolic process
+intersection_of: GO:0008152 ! metabolic process
+intersection_of: RO:0004007 CHEBI:28868 ! has primary input or output fatty acid anion
+relationship: RO:0004007 CHEBI:28868 ! has primary input or output fatty acid anion
+
+[Term]
+id: GO:0006633
+name: fatty acid biosynthetic process
+synonym: "fatty acid anabolism" EXACT []
+synonym: "fatty acid biosynthesis" EXACT []
+synonym: "fatty acid formation" EXACT []
+synonym: "fatty acid synthesis" EXACT []
+is_a: GO:0006631 ! fatty acid metabolic process
+is_a: GO:0008610 ! lipid biosynthetic process
+is_a: GO:0072330 ! monocarboxylic acid biosynthetic process
+intersection_of: GO:0009058 ! biosynthetic process
+intersection_of: RO:0004008 CHEBI:28868 ! has primary output fatty acid anion
+relationship: RO:0004008 CHEBI:28868 ! has primary output fatty acid anion
+
+[Term]
 id: GO:0006643
 name: membrane lipid metabolic process
 synonym: "membrane lipid metabolism" EXACT []
@@ -12145,9 +12417,11 @@ name: intracellular protein transport
 is_a: GO:0015031 ! protein transport
 is_a: GO:0046907 ! intracellular transport
 intersection_of: GO:0006810 ! transport
+intersection_of: GO:0046907 ! intracellular transport
 intersection_of: BFO:0000066 GO:0005622 ! occurs in intracellular anatomical structure
 intersection_of: RO:0004009 PR:000000001 ! has primary input protein
-relationship: BFO:0000050 GO:0008104 ! part of protein localization
+intersection_of: RO:0004009 PR:000000001 ! has primary input protein
+relationship: BFO:0000050 GO:0008104 ! part of intracellular protein localization
 
 [Term]
 id: GO:0006887
@@ -13047,7 +13321,7 @@ relationship: RO:0002338 GO:0098793 ! has target start location presynapse
 
 [Term]
 id: GO:0008104
-name: protein localization
+name: intracellular protein localization
 synonym: "cellular protein localization" EXACT []
 is_a: GO:0070727 ! cellular macromolecule localization
 intersection_of: GO:0051179 ! localization
@@ -13337,6 +13611,19 @@ intersection_of: RO:0004008 CHEBI:33694 ! has primary output biomacromolecule
 relationship: RO:0004008 CHEBI:33694 ! has primary output biomacromolecule
 
 [Term]
+id: GO:0009062
+name: fatty acid catabolic process
+synonym: "fatty acid breakdown" EXACT []
+synonym: "fatty acid catabolism" EXACT []
+synonym: "fatty acid degradation" EXACT []
+is_a: GO:0006631 ! fatty acid metabolic process
+is_a: GO:0016042 ! lipid catabolic process
+is_a: GO:0072329 ! monocarboxylic acid catabolic process
+intersection_of: GO:0009056 ! catabolic process
+intersection_of: RO:0004009 CHEBI:28868 ! has primary input fatty acid anion
+relationship: RO:0004009 CHEBI:28868 ! has primary input fatty acid anion
+
+[Term]
 id: GO:0009063
 name: amino acid catabolic process
 synonym: "amino acid breakdown" EXACT []
@@ -13465,6 +13752,61 @@ is_a: GO:0009314 ! response to radiation
 intersection_of: GO:0050896 ! response to stimulus
 intersection_of: RO:0004009 CHEBI:30212 ! has primary input photon
 relationship: RO:0004009 CHEBI:30212 ! has primary input photon
+
+[Term]
+id: GO:0009448
+name: gamma-aminobutyric acid metabolic process
+synonym: "4-aminobutanoate metabolic process" EXACT []
+synonym: "4-aminobutanoate metabolism" EXACT []
+synonym: "4-aminobutyrate metabolic process" EXACT []
+synonym: "4-aminobutyrate metabolism" EXACT []
+synonym: "GABA metabolic process" EXACT []
+synonym: "GABA metabolism" EXACT []
+synonym: "gamma-aminobutyric acid metabolism" EXACT []
+is_a: GO:0032787 ! monocarboxylic acid metabolic process
+is_a: GO:0170041 ! non-proteinogenic amino acid metabolic process
+intersection_of: GO:0008152 ! metabolic process
+intersection_of: RO:0004007 CHEBI:59888 ! has primary input or output gamma-aminobutyric acid zwitterion
+relationship: RO:0004007 CHEBI:59888 ! has primary input or output gamma-aminobutyric acid zwitterion
+
+[Term]
+id: GO:0009449
+name: gamma-aminobutyric acid biosynthetic process
+synonym: "4-aminobutanoate biosynthesis" EXACT []
+synonym: "4-aminobutanoate biosynthetic process" EXACT []
+synonym: "4-aminobutyrate biosynthesis" EXACT []
+synonym: "4-aminobutyrate biosynthetic process" EXACT []
+synonym: "GABA biosynthesis" EXACT []
+synonym: "GABA biosynthetic process" EXACT []
+synonym: "gamma-aminobutyric acid anabolism" EXACT []
+synonym: "gamma-aminobutyric acid biosynthesis" EXACT []
+synonym: "gamma-aminobutyric acid formation" EXACT []
+synonym: "gamma-aminobutyric acid synthesis" EXACT []
+is_a: GO:0008652 ! amino acid biosynthetic process
+is_a: GO:0009448 ! gamma-aminobutyric acid metabolic process
+is_a: GO:0170043 ! non-proteinogenic amino acid biosynthetic process
+intersection_of: GO:0009058 ! biosynthetic process
+intersection_of: RO:0004008 CHEBI:59888 ! has primary output gamma-aminobutyric acid zwitterion
+relationship: RO:0004008 CHEBI:59888 ! has primary output gamma-aminobutyric acid zwitterion
+
+[Term]
+id: GO:0009450
+name: gamma-aminobutyric acid catabolic process
+synonym: "4-aminobutanoate catabolic process" EXACT []
+synonym: "4-aminobutanoate catabolism" EXACT []
+synonym: "4-aminobutyrate catabolic process" EXACT []
+synonym: "4-aminobutyrate catabolism" EXACT []
+synonym: "GABA catabolic process" EXACT []
+synonym: "GABA catabolism" EXACT []
+synonym: "gamma-aminobutyric acid breakdown" EXACT []
+synonym: "gamma-aminobutyric acid catabolism" EXACT []
+synonym: "gamma-aminobutyric acid degradation" EXACT []
+is_a: GO:0009063 ! amino acid catabolic process
+is_a: GO:0009448 ! gamma-aminobutyric acid metabolic process
+is_a: GO:0170044 ! non-proteinogenic amino acid catabolic process
+intersection_of: GO:0009056 ! catabolic process
+intersection_of: RO:0004009 CHEBI:59888 ! has primary input gamma-aminobutyric acid zwitterion
+relationship: RO:0004009 CHEBI:59888 ! has primary input gamma-aminobutyric acid zwitterion
 
 [Term]
 id: GO:0009566
@@ -15192,6 +15534,56 @@ relationship: BFO:0000050 GO:0014037 ! part of Schwann cell differentiation
 relationship: RO:0002296 CL:0000218 ! results in development of myelinating Schwann cell
 
 [Term]
+id: GO:0014051
+name: gamma-aminobutyric acid secretion
+synonym: "GABA secretion" EXACT []
+is_a: GO:0015812 ! gamma-aminobutyric acid transport
+is_a: GO:0046717 ! acid secretion
+intersection_of: GO:0046903 ! secretion
+intersection_of: RO:0004009 CHEBI:59888 ! has primary input gamma-aminobutyric acid zwitterion
+
+[Term]
+id: GO:0014052
+name: regulation of gamma-aminobutyric acid secretion
+synonym: "regulation of GABA secretion" EXACT []
+is_a: GO:0032890 ! regulation of organic acid transport
+is_a: GO:0051046 ! regulation of secretion
+is_a: GO:0051955 ! regulation of amino acid transport
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002211 GO:0014051 ! regulates (processual) gamma-aminobutyric acid secretion
+relationship: RO:0002211 GO:0014051 ! regulates (processual) gamma-aminobutyric acid secretion
+
+[Term]
+id: GO:0014053
+name: negative regulation of gamma-aminobutyric acid secretion
+synonym: "down regulation of gamma-aminobutyric acid secretion" EXACT []
+synonym: "down-regulation of gamma-aminobutyric acid secretion" EXACT []
+synonym: "downregulation of gamma-aminobutyric acid secretion" EXACT []
+synonym: "negative regulation of GABA secretion" EXACT []
+is_a: GO:0014052 ! regulation of gamma-aminobutyric acid secretion
+is_a: GO:0032891 ! negative regulation of organic acid transport
+is_a: GO:0051048 ! negative regulation of secretion
+is_a: GO:0051956 ! negative regulation of amino acid transport
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002212 GO:0014051 ! negatively regulates gamma-aminobutyric acid secretion
+relationship: RO:0002212 GO:0014051 ! negatively regulates gamma-aminobutyric acid secretion
+
+[Term]
+id: GO:0014054
+name: positive regulation of gamma-aminobutyric acid secretion
+synonym: "positive regulation of GABA secretion" EXACT []
+synonym: "up regulation of gamma-aminobutyric acid secretion" EXACT []
+synonym: "up-regulation of gamma-aminobutyric acid secretion" EXACT []
+synonym: "upregulation of gamma-aminobutyric acid secretion" EXACT []
+is_a: GO:0014052 ! regulation of gamma-aminobutyric acid secretion
+is_a: GO:0032892 ! positive regulation of organic acid transport
+is_a: GO:0051047 ! positive regulation of secretion
+is_a: GO:0051957 ! positive regulation of amino acid transport
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002213 GO:0014051 ! positively regulates gamma-aminobutyric acid secretion
+relationship: RO:0002213 GO:0014051 ! positively regulates gamma-aminobutyric acid secretion
+
+[Term]
 id: GO:0014055
 name: acetylcholine secretion, neurotransmission
 is_a: GO:0007269 ! neurotransmitter secretion
@@ -15745,6 +16137,19 @@ relationship: BFO:0000050 GO:0003333 ! part of amino acid transmembrane transpor
 relationship: RO:0004009 CHEBI:35238 ! has primary input amino-acid zwitterion
 
 [Term]
+id: GO:0015185
+name: gamma-aminobutyric acid transmembrane transporter activity
+synonym: "4-aminobutanoate transporter activity" EXACT []
+synonym: "4-aminobutyrate transporter activity" EXACT []
+synonym: "GABA transporter activity" EXACT []
+is_a: GO:0008028 ! monocarboxylic acid transmembrane transporter activity
+is_a: GO:0015171 ! amino acid transmembrane transporter activity
+intersection_of: GO:0022857 ! transmembrane transporter activity
+intersection_of: RO:0004009 CHEBI:59888 ! has primary input gamma-aminobutyric acid zwitterion
+relationship: BFO:0000050 GO:0015812 ! part of gamma-aminobutyric acid transport
+relationship: RO:0004009 CHEBI:59888 ! has primary input gamma-aminobutyric acid zwitterion
+
+[Term]
 id: GO:0015205
 name: nucleobase transmembrane transporter activity
 is_a: GO:0022857 ! transmembrane transporter activity
@@ -15752,6 +16157,18 @@ intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: RO:0004009 CHEBI:18282 ! has primary input nucleobase
 relationship: BFO:0000050 GO:0015851 ! part of nucleobase transport
 relationship: RO:0004009 CHEBI:18282 ! has primary input nucleobase
+
+[Term]
+id: GO:0015245
+name: fatty acid transmembrane transporter activity
+synonym: "fatty acyl transporter activity" EXACT []
+is_a: GO:0008028 ! monocarboxylic acid transmembrane transporter activity
+is_a: GO:0170055 ! lipid transmembrane transporter activity
+intersection_of: GO:0005215 ! transporter activity
+intersection_of: RO:0002342 GO:0016020 ! results in transport across membrane
+intersection_of: RO:0004009 CHEBI:28868 ! has primary input fatty acid anion
+relationship: BFO:0000050 GO:0015908 ! part of fatty acid transport
+relationship: RO:0004009 CHEBI:28868 ! has primary input fatty acid anion
 
 [Term]
 id: GO:0015318
@@ -15772,6 +16189,16 @@ is_a: GO:0005856 ! cytoskeleton
 id: GO:0015630
 name: microtubule cytoskeleton
 is_a: GO:0005856 ! cytoskeleton
+
+[Term]
+id: GO:0015636
+name: short-chain fatty acid transmembrane transporter activity
+is_a: GO:0015245 ! fatty acid transmembrane transporter activity
+intersection_of: GO:0005215 ! transporter activity
+intersection_of: RO:0002342 GO:0016020 ! results in transport across membrane
+intersection_of: RO:0004009 CHEBI:58951 ! has primary input short-chain fatty acid anion
+relationship: BFO:0000050 GO:0015912 ! part of short-chain fatty acid transport
+relationship: RO:0004009 CHEBI:58951 ! has primary input short-chain fatty acid anion
 
 [Term]
 id: GO:0015669
@@ -15864,6 +16291,19 @@ relationship: BFO:0000050 GO:0033037 ! part of polysaccharide localization
 relationship: RO:0004009 CHEBI:18154 ! has primary input polysaccharide
 
 [Term]
+id: GO:0015812
+name: gamma-aminobutyric acid transport
+synonym: "4-aminobutanoate transport" EXACT []
+synonym: "4-aminobutyrate transport" EXACT []
+synonym: "GABA transport" EXACT []
+is_a: GO:0006865 ! amino acid transport
+is_a: GO:0046942 ! carboxylic acid transport
+is_a: GO:0071705 ! nitrogen compound transport
+intersection_of: GO:0006810 ! transport
+intersection_of: RO:0004009 CHEBI:59888 ! has primary input gamma-aminobutyric acid zwitterion
+relationship: RO:0004009 CHEBI:59888 ! has primary input gamma-aminobutyric acid zwitterion
+
+[Term]
 id: GO:0015833
 name: peptide transport
 is_a: GO:0042886 ! amide transport
@@ -15932,6 +16372,32 @@ is_a: GO:0051937 ! catecholamine transport
 intersection_of: GO:0006810 ! transport
 intersection_of: RO:0004009 CHEBI:72587 ! has primary input (R)-noradrenaline(1+)
 relationship: RO:0004009 CHEBI:72587 ! has primary input (R)-noradrenaline(1+)
+
+[Term]
+id: GO:0015908
+name: fatty acid transport
+is_a: GO:0006869 ! lipid transport
+is_a: GO:0015718 ! monocarboxylic acid transport
+intersection_of: GO:0006810 ! transport
+intersection_of: RO:0004009 CHEBI:28868 ! has primary input fatty acid anion
+relationship: RO:0004009 CHEBI:28868 ! has primary input fatty acid anion
+
+[Term]
+id: GO:0015912
+name: short-chain fatty acid transport
+is_a: GO:0015908 ! fatty acid transport
+intersection_of: GO:0006810 ! transport
+intersection_of: RO:0004009 CHEBI:58951 ! has primary input short-chain fatty acid anion
+relationship: RO:0004009 CHEBI:58951 ! has primary input short-chain fatty acid anion
+
+[Term]
+id: GO:0015913
+name: short-chain fatty acid transmembrane transport
+synonym: "short-chain fatty acid uptake" EXACT []
+is_a: GO:0015912 ! short-chain fatty acid transport
+is_a: GO:1902001 ! fatty acid transmembrane transport
+intersection_of: GO:0055085 ! transmembrane transport
+intersection_of: RO:0004009 CHEBI:58951 ! has primary input short-chain fatty acid anion
 
 [Term]
 id: GO:0015931
@@ -16244,6 +16710,17 @@ intersection_of: RO:0002211 GO:0006629 ! regulates (processual) lipid metabolic 
 relationship: RO:0002211 GO:0006629 ! regulates (processual) lipid metabolic process
 
 [Term]
+id: GO:0019217
+name: regulation of fatty acid metabolic process
+synonym: "regulation of fatty acid metabolism" EXACT []
+is_a: GO:0010565 ! regulation of ketone metabolic process
+is_a: GO:0019216 ! regulation of lipid metabolic process
+is_a: GO:0062012 ! regulation of small molecule metabolic process
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002211 GO:0006631 ! regulates (processual) fatty acid metabolic process
+relationship: RO:0002211 GO:0006631 ! regulates (processual) fatty acid metabolic process
+
+[Term]
 id: GO:0019218
 name: regulation of steroid metabolic process
 synonym: "regulation of steroid metabolism" EXACT []
@@ -16367,6 +16844,19 @@ intersection_of: RO:0004007 PR:000000001 ! has primary input or output protein
 relationship: RO:0004007 PR:000000001 ! has primary input or output protein
 
 [Term]
+id: GO:0019605
+name: butyrate metabolic process
+synonym: "butanoic acid metabolic process" EXACT []
+synonym: "butanoic acid metabolism" EXACT []
+synonym: "butyrate metabolism" EXACT []
+synonym: "butyric acid metabolic process" EXACT []
+synonym: "butyric acid metabolism" EXACT []
+is_a: GO:0046459 ! short-chain fatty acid metabolic process
+intersection_of: GO:0008152 ! metabolic process
+intersection_of: RO:0004007 CHEBI:17968 ! has primary input or output butyrate
+relationship: RO:0004007 CHEBI:17968 ! has primary input or output butyrate
+
+[Term]
 id: GO:0019614
 name: catechol-containing compound catabolic process
 is_a: GO:0009712 ! catechol-containing compound metabolic process
@@ -16374,6 +16864,27 @@ is_a: GO:0019336 ! phenol-containing compound catabolic process
 intersection_of: GO:0009056 ! catabolic process
 intersection_of: RO:0004009 CHEBI:33566 ! has primary input catechols
 relationship: RO:0004009 CHEBI:33566 ! has primary input catechols
+
+[Term]
+id: GO:0019626
+name: short-chain fatty acid catabolic process
+synonym: "short-chain fatty acid breakdown" EXACT []
+synonym: "short-chain fatty acid catabolism" EXACT []
+synonym: "short-chain fatty acid degradation" EXACT []
+is_a: GO:0009062 ! fatty acid catabolic process
+is_a: GO:0046459 ! short-chain fatty acid metabolic process
+intersection_of: GO:0009056 ! catabolic process
+intersection_of: RO:0004009 CHEBI:58951 ! has primary input short-chain fatty acid anion
+relationship: RO:0004009 CHEBI:58951 ! has primary input short-chain fatty acid anion
+
+[Term]
+id: GO:0019654
+name: acetate fermentation
+is_a: GO:0006083 ! acetate metabolic process
+is_a: GO:0006113 ! fermentation
+intersection_of: GO:0006113 ! fermentation
+intersection_of: RO:0004009 CHEBI:30089 ! has primary input acetate
+relationship: RO:0004009 CHEBI:30089 ! has primary input acetate
 
 [Term]
 id: GO:0019725
@@ -17610,9 +18121,9 @@ name: insulin secretion
 is_a: GO:0009306 ! protein secretion
 is_a: GO:0030072 ! peptide hormone secretion
 intersection_of: GO:0046903 ! secretion
-intersection_of: RO:0004009 PR:000009054 ! has primary input insulin gene translation product
+intersection_of: RO:0004009 PR:000009054 ! has primary input preproinsulin
 relationship: RO:0002162 NCBITaxon:6072 ! in taxon Eumetazoa
-relationship: RO:0004009 PR:000009054 ! has primary input insulin gene translation product
+relationship: RO:0004009 PR:000009054 ! has primary input preproinsulin
 
 [Term]
 id: GO:0030097
@@ -17996,6 +18507,19 @@ is_a: GO:0055063 ! sulfate ion homeostasis
 is_a: GO:0055082 ! intracellular chemical homeostasis
 intersection_of: GO:0055082 ! intracellular chemical homeostasis
 intersection_of: RO:0002332 CHEBI:16189 ! regulates levels of sulfate
+
+[Term]
+id: GO:0030645
+name: glucose catabolic process to butyrate
+synonym: "butyrate fermentation" EXACT []
+synonym: "glucose fermentation to butyrate" EXACT []
+is_a: GO:0006007 ! glucose catabolic process
+is_a: GO:0006113 ! fermentation
+is_a: GO:0019605 ! butyrate metabolic process
+intersection_of: GO:0009056 ! catabolic process
+intersection_of: RO:0004008 CHEBI:17968 ! has primary output butyrate
+intersection_of: RO:0004009 CHEBI:4167 ! has primary input D-glucopyranose
+relationship: RO:0004008 CHEBI:17968 ! has primary output butyrate
 
 [Term]
 id: GO:0030658
@@ -18513,8 +19037,10 @@ relationship: BFO:0000050 GO:0005737 ! part of cytoplasm
 id: GO:0031503
 name: protein-containing complex localization
 synonym: "establishment and maintenance of protein complex localization" EXACT []
-is_a: GO:0051179 ! localization
+is_a: GO:0033036 ! macromolecule localization
+intersection_of: GO:0033036 ! macromolecule localization
 intersection_of: GO:0051179 ! localization
+intersection_of: RO:0004009 GO:0032991 ! has primary input protein-containing complex
 intersection_of: RO:0004009 GO:0032991 ! has primary input protein-containing complex
 relationship: RO:0004009 GO:0032991 ! has primary input protein-containing complex
 
@@ -18793,6 +19319,38 @@ intersection_of: RO:0002213 GO:0007271 ! positively regulates synaptic transmiss
 relationship: RO:0002213 GO:0007271 ! positively regulates synaptic transmission, cholinergic
 
 [Term]
+id: GO:0032228
+name: regulation of synaptic transmission, GABAergic
+is_a: GO:0050804 ! modulation of chemical synaptic transmission
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002211 GO:0051932 ! regulates (processual) synaptic transmission, GABAergic
+relationship: RO:0002211 GO:0051932 ! regulates (processual) synaptic transmission, GABAergic
+
+[Term]
+id: GO:0032229
+name: negative regulation of synaptic transmission, GABAergic
+synonym: "down regulation of synaptic transmission, GABAergic" EXACT []
+synonym: "down-regulation of synaptic transmission, GABAergic" EXACT []
+synonym: "downregulation of synaptic transmission, GABAergic" EXACT []
+is_a: GO:0032228 ! regulation of synaptic transmission, GABAergic
+is_a: GO:0050805 ! negative regulation of synaptic transmission
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002212 GO:0051932 ! negatively regulates synaptic transmission, GABAergic
+relationship: RO:0002212 GO:0051932 ! negatively regulates synaptic transmission, GABAergic
+
+[Term]
+id: GO:0032230
+name: positive regulation of synaptic transmission, GABAergic
+synonym: "up regulation of synaptic transmission, GABAergic" EXACT []
+synonym: "up-regulation of synaptic transmission, GABAergic" EXACT []
+synonym: "upregulation of synaptic transmission, GABAergic" EXACT []
+is_a: GO:0032228 ! regulation of synaptic transmission, GABAergic
+is_a: GO:0050806 ! positive regulation of synaptic transmission
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002213 GO:0051932 ! positively regulates synaptic transmission, GABAergic
+relationship: RO:0002213 GO:0051932 ! positively regulates synaptic transmission, GABAergic
+
+[Term]
 id: GO:0032231
 name: regulation of actin filament bundle assembly
 is_a: GO:0044087 ! regulation of cellular component biogenesis
@@ -19008,7 +19566,9 @@ name: intracellular lipid transport
 is_a: GO:0006869 ! lipid transport
 is_a: GO:0046907 ! intracellular transport
 intersection_of: GO:0006810 ! transport
+intersection_of: GO:0046907 ! intracellular transport
 intersection_of: BFO:0000066 GO:0005622 ! occurs in intracellular anatomical structure
+intersection_of: RO:0004009 CHEBI:18059 ! has primary input lipid
 intersection_of: RO:0004009 CHEBI:18059 ! has primary input lipid
 
 [Term]
@@ -19308,8 +19868,8 @@ id: GO:0032868
 name: response to insulin
 is_a: GO:0043434 ! response to peptide hormone
 intersection_of: GO:0042221 ! response to chemical
-intersection_of: RO:0004009 PR:000009054 ! has primary input insulin gene translation product
-relationship: RO:0004009 PR:000009054 ! has primary input insulin gene translation product
+intersection_of: RO:0004009 PR:000009054 ! has primary input preproinsulin
+relationship: RO:0004009 PR:000009054 ! has primary input preproinsulin
 
 [Term]
 id: GO:0032869
@@ -19317,7 +19877,7 @@ name: cellular response to insulin stimulus
 is_a: GO:0032868 ! response to insulin
 is_a: GO:0071375 ! cellular response to peptide hormone stimulus
 intersection_of: GO:0070887 ! cellular response to chemical stimulus
-intersection_of: RO:0004009 PR:000009054 ! has primary input insulin gene translation product
+intersection_of: RO:0004009 PR:000009054 ! has primary input preproinsulin
 
 [Term]
 id: GO:0032870
@@ -19356,8 +19916,8 @@ name: regulation of protein localization
 synonym: "regulation of cellular protein localization" EXACT []
 is_a: GO:0060341 ! regulation of cellular localization
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002211 GO:0008104 ! regulates (processual) protein localization
-relationship: RO:0002211 GO:0008104 ! regulates (processual) protein localization
+intersection_of: RO:0002211 GO:0008104 ! regulates (processual) intracellular protein localization
+relationship: RO:0002211 GO:0008104 ! regulates (processual) intracellular protein localization
 
 [Term]
 id: GO:0032881
@@ -19884,8 +20444,8 @@ relationship: RO:0002592 GO:0030141 ! results in organization of secretory granu
 [Term]
 id: GO:0033365
 name: protein localization to organelle
-is_a: GO:0008104 ! protein localization
-intersection_of: GO:0008104 ! protein localization
+is_a: GO:0008104 ! intracellular protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0043226 ! has target end location organelle
 relationship: RO:0002339 GO:0043226 ! has target end location organelle
 
@@ -19894,7 +20454,7 @@ id: GO:0033366
 name: protein localization to secretory granule
 synonym: "protein localization in secretory granule" EXACT []
 is_a: GO:0033365 ! protein localization to organelle
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0030141 ! has target end location secretory granule
 relationship: RO:0002339 GO:0030141 ! has target end location secretory granule
 
@@ -19961,7 +20521,7 @@ id: GO:0034067
 name: protein localization to Golgi apparatus
 synonym: "protein localization in Golgi apparatus" EXACT []
 is_a: GO:0033365 ! protein localization to organelle
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005794 ! has target end location Golgi apparatus
 relationship: RO:0002339 GO:0005794 ! has target end location Golgi apparatus
 
@@ -20227,7 +20787,7 @@ relationship: RO:0002342 GO:0005774 ! results in transport across vacuolar membr
 id: GO:0034502
 name: protein localization to chromosome
 is_a: GO:0033365 ! protein localization to organelle
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005694 ! has target end location chromosome
 relationship: RO:0002339 GO:0005694 ! has target end location chromosome
 
@@ -20236,7 +20796,7 @@ id: GO:0034504
 name: protein localization to nucleus
 synonym: "protein localization in cell nucleus" EXACT []
 is_a: GO:0033365 ! protein localization to organelle
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005634 ! has target end location nucleus
 relationship: RO:0002339 GO:0005634 ! has target end location nucleus
 
@@ -20527,7 +21087,7 @@ relationship: RO:0002296 UBERON:0000025 ! results in development of tube
 id: GO:0035372
 name: protein localization to microtubule
 is_a: GO:0072698 ! protein localization to microtubule cytoskeleton
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005874 ! has target end location microtubule
 relationship: RO:0002339 GO:0005874 ! has target end location microtubule
 
@@ -20535,7 +21095,7 @@ relationship: RO:0002339 GO:0005874 ! has target end location microtubule
 id: GO:0035418
 name: protein localization to synapse
 is_a: GO:1902414 ! protein localization to cell junction
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0045202 ! has target end location synapse
 relationship: RO:0002339 GO:0045202 ! has target end location synapse
 
@@ -21242,6 +21802,19 @@ relationship: BFO:0000050 GO:0042254 ! part of ribosome biogenesis
 relationship: RO:0002588 GO:0005840 ! results in assembly of ribosome
 
 [Term]
+id: GO:0042304
+name: regulation of fatty acid biosynthetic process
+synonym: "regulation of fatty acid anabolism" EXACT []
+synonym: "regulation of fatty acid biosynthesis" EXACT []
+synonym: "regulation of fatty acid formation" EXACT []
+synonym: "regulation of fatty acid synthesis" EXACT []
+is_a: GO:0019217 ! regulation of fatty acid metabolic process
+is_a: GO:0046890 ! regulation of lipid biosynthetic process
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002211 GO:0006633 ! regulates (processual) fatty acid biosynthetic process
+relationship: RO:0002211 GO:0006633 ! regulates (processual) fatty acid biosynthetic process
+
+[Term]
 id: GO:0042306
 name: regulation of protein import into nucleus
 synonym: "regulation of protein import into cell nucleus" EXACT []
@@ -21834,8 +22407,8 @@ synonym: "establishment and maintenance of translational machinery localization"
 synonym: "establishment and maintenance of translational protein localization" EXACT []
 synonym: "translational protein localization" EXACT []
 is_a: GO:0006417 ! regulation of translation
-is_a: GO:0008104 ! protein localization
-intersection_of: GO:0008104 ! protein localization
+is_a: GO:0008104 ! intracellular protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: BFO:0000050 GO:0006412 ! part of translation
 relationship: BFO:0000050 GO:0006412 ! part of translation
 
@@ -22129,6 +22702,14 @@ is_a: GO:0019222 ! regulation of metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002211 GO:0019748 ! regulates (processual) secondary metabolic process
 relationship: RO:0002211 GO:0019748 ! regulates (processual) secondary metabolic process
+
+[Term]
+id: GO:0043465
+name: regulation of fermentation
+is_a: GO:0043467 ! regulation of generation of precursor metabolites and energy
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002211 GO:0006113 ! regulates (processual) fermentation
+relationship: RO:0002211 GO:0006113 ! regulates (processual) fermentation
 
 [Term]
 id: GO:0043467
@@ -22608,7 +23189,7 @@ relationship: BFO:0000066 CL:0000057 ! occurs in fibroblast
 id: GO:0044380
 name: protein localization to cytoskeleton
 is_a: GO:0033365 ! protein localization to organelle
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005856 ! has target end location cytoskeleton
 relationship: RO:0002339 GO:0005856 ! has target end location cytoskeleton
 
@@ -22649,9 +23230,9 @@ is_a: GO:0032501 ! multicellular organismal process
 [Term]
 id: GO:0044743
 name: protein transmembrane import into intracellular organelle
-is_a: GO:0071806 ! protein transmembrane transport
+is_a: GO:0065002 ! intracellular protein transmembrane transport
 is_a: GO:0072594 ! establishment of protein localization to organelle
-intersection_of: GO:0006810 ! transport
+intersection_of: GO:0046907 ! intracellular transport
 intersection_of: RO:0002338 GO:0005829 ! has target start location cytosol
 intersection_of: RO:0002339 GO:0043229 ! has target end location intracellular organelle
 intersection_of: RO:0002342 GO:0031090 ! results in transport across organelle membrane
@@ -22721,7 +23302,7 @@ id: GO:0045184
 name: establishment of protein localization
 synonym: "protein positioning" EXACT []
 synonym: "protein recruitment" EXACT []
-is_a: GO:0008104 ! protein localization
+is_a: GO:0008104 ! intracellular protein localization
 is_a: GO:0051234 ! establishment of localization
 intersection_of: GO:0051234 ! establishment of localization
 intersection_of: RO:0004009 CHEBI:36080 ! has primary input protein
@@ -22731,7 +23312,7 @@ relationship: RO:0004009 CHEBI:36080 ! has primary input protein
 id: GO:0045185
 name: maintenance of protein location
 is_a: GO:0051235 ! maintenance of location
-relationship: BFO:0000050 GO:0008104 ! part of protein localization
+relationship: BFO:0000050 GO:0008104 ! part of intracellular protein localization
 
 [Term]
 id: GO:0045196
@@ -23191,6 +23772,23 @@ intersection_of: RO:0002213 GO:0010001 ! positively regulates glial cell differe
 relationship: RO:0002213 GO:0010001 ! positively regulates glial cell differentiation
 
 [Term]
+id: GO:0045717
+name: negative regulation of fatty acid biosynthetic process
+synonym: "down regulation of fatty acid biosynthetic process" EXACT []
+synonym: "down-regulation of fatty acid biosynthetic process" EXACT []
+synonym: "downregulation of fatty acid biosynthetic process" EXACT []
+synonym: "negative regulation of fatty acid anabolism" EXACT []
+synonym: "negative regulation of fatty acid biosynthesis" EXACT []
+synonym: "negative regulation of fatty acid formation" EXACT []
+synonym: "negative regulation of fatty acid synthesis" EXACT []
+is_a: GO:0042304 ! regulation of fatty acid biosynthetic process
+is_a: GO:0045922 ! negative regulation of fatty acid metabolic process
+is_a: GO:0051055 ! negative regulation of lipid biosynthetic process
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002212 GO:0006633 ! negatively regulates fatty acid biosynthetic process
+relationship: RO:0002212 GO:0006633 ! negatively regulates fatty acid biosynthetic process
+
+[Term]
 id: GO:0045719
 name: negative regulation of glycogen biosynthetic process
 synonym: "down regulation of glycogen biosynthetic process" EXACT []
@@ -23233,6 +23831,23 @@ is_a: GO:0010907 ! positive regulation of glucose metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002213 GO:0006094 ! positively regulates gluconeogenesis
 relationship: RO:0002213 GO:0006094 ! positively regulates gluconeogenesis
+
+[Term]
+id: GO:0045723
+name: positive regulation of fatty acid biosynthetic process
+synonym: "positive regulation of fatty acid anabolism" EXACT []
+synonym: "positive regulation of fatty acid biosynthesis" EXACT []
+synonym: "positive regulation of fatty acid formation" EXACT []
+synonym: "positive regulation of fatty acid synthesis" EXACT []
+synonym: "up regulation of fatty acid biosynthetic process" EXACT []
+synonym: "up-regulation of fatty acid biosynthetic process" EXACT []
+synonym: "upregulation of fatty acid biosynthetic process" EXACT []
+is_a: GO:0042304 ! regulation of fatty acid biosynthetic process
+is_a: GO:0045923 ! positive regulation of fatty acid metabolic process
+is_a: GO:0046889 ! positive regulation of lipid biosynthetic process
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002213 GO:0006633 ! positively regulates fatty acid biosynthetic process
+relationship: RO:0002213 GO:0006633 ! positively regulates fatty acid biosynthetic process
 
 [Term]
 id: GO:0045724
@@ -23787,6 +24402,34 @@ intersection_of: RO:0002213 GO:0006887 ! positively regulates exocytosis
 relationship: RO:0002213 GO:0006887 ! positively regulates exocytosis
 
 [Term]
+id: GO:0045922
+name: negative regulation of fatty acid metabolic process
+synonym: "down regulation of fatty acid metabolic process" EXACT []
+synonym: "down-regulation of fatty acid metabolic process" EXACT []
+synonym: "downregulation of fatty acid metabolic process" EXACT []
+synonym: "negative regulation of fatty acid metabolism" EXACT []
+is_a: GO:0019217 ! regulation of fatty acid metabolic process
+is_a: GO:0045833 ! negative regulation of lipid metabolic process
+is_a: GO:0062014 ! negative regulation of small molecule metabolic process
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002212 GO:0006631 ! negatively regulates fatty acid metabolic process
+relationship: RO:0002212 GO:0006631 ! negatively regulates fatty acid metabolic process
+
+[Term]
+id: GO:0045923
+name: positive regulation of fatty acid metabolic process
+synonym: "positive regulation of fatty acid metabolism" EXACT []
+synonym: "up regulation of fatty acid metabolic process" EXACT []
+synonym: "up-regulation of fatty acid metabolic process" EXACT []
+synonym: "upregulation of fatty acid metabolic process" EXACT []
+is_a: GO:0019217 ! regulation of fatty acid metabolic process
+is_a: GO:0045834 ! positive regulation of lipid metabolic process
+is_a: GO:0062013 ! positive regulation of small molecule metabolic process
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002213 GO:0006631 ! positively regulates fatty acid metabolic process
+relationship: RO:0002213 GO:0006631 ! positively regulates fatty acid metabolic process
+
+[Term]
 id: GO:0045926
 name: negative regulation of growth
 synonym: "down regulation of growth" EXACT []
@@ -24058,6 +24701,40 @@ intersection_of: RO:0004008 CHEBI:38631 ! has primary output aminoalkylindole
 relationship: RO:0004008 CHEBI:38631 ! has primary output aminoalkylindole
 
 [Term]
+id: GO:0046358
+name: butyrate biosynthetic process
+synonym: "butanoic acid anabolism" EXACT []
+synonym: "butanoic acid biosynthesis" EXACT []
+synonym: "butanoic acid biosynthetic process" EXACT []
+synonym: "butanoic acid formation" EXACT []
+synonym: "butanoic acid synthesis" EXACT []
+synonym: "butyrate anabolism" EXACT []
+synonym: "butyrate biosynthesis" EXACT []
+synonym: "butyrate formation" EXACT []
+synonym: "butyrate synthesis" EXACT []
+is_a: GO:0019605 ! butyrate metabolic process
+is_a: GO:0051790 ! short-chain fatty acid biosynthetic process
+intersection_of: GO:0009058 ! biosynthetic process
+intersection_of: RO:0004008 CHEBI:17968 ! has primary output butyrate
+relationship: RO:0004008 CHEBI:17968 ! has primary output butyrate
+
+[Term]
+id: GO:0046359
+name: butyrate catabolic process
+synonym: "butanoic acid breakdown" EXACT []
+synonym: "butanoic acid catabolic process" EXACT []
+synonym: "butanoic acid catabolism" EXACT []
+synonym: "butanoic acid degradation" EXACT []
+synonym: "butyrate breakdown" EXACT []
+synonym: "butyrate catabolism" EXACT []
+synonym: "butyrate degradation" EXACT []
+is_a: GO:0019605 ! butyrate metabolic process
+is_a: GO:0019626 ! short-chain fatty acid catabolic process
+intersection_of: GO:0009056 ! catabolic process
+intersection_of: RO:0004009 CHEBI:17968 ! has primary input butyrate
+relationship: RO:0004009 CHEBI:17968 ! has primary input butyrate
+
+[Term]
 id: GO:0046364
 name: monosaccharide biosynthetic process
 synonym: "monosaccharide anabolism" EXACT []
@@ -24108,6 +24785,15 @@ is_a: GO:0019752 ! carboxylic acid metabolic process
 intersection_of: GO:0009056 ! catabolic process
 intersection_of: RO:0004009 CHEBI:29067 ! has primary input carboxylic acid anion
 relationship: RO:0004009 CHEBI:29067 ! has primary input carboxylic acid anion
+
+[Term]
+id: GO:0046459
+name: short-chain fatty acid metabolic process
+synonym: "short-chain fatty acid metabolism" EXACT []
+is_a: GO:0006631 ! fatty acid metabolic process
+intersection_of: GO:0008152 ! metabolic process
+intersection_of: RO:0004007 CHEBI:58951 ! has primary input or output short-chain fatty acid anion
+relationship: RO:0004007 CHEBI:58951 ! has primary input or output short-chain fatty acid anion
 
 [Term]
 id: GO:0046466
@@ -27089,7 +27775,9 @@ name: nuclear transport
 synonym: "nucleus transport" EXACT []
 is_a: GO:0046907 ! intracellular transport
 intersection_of: GO:0006810 ! transport
+intersection_of: GO:0046907 ! intracellular transport
 intersection_of: BFO:0000066 GO:0005622 ! occurs in intracellular anatomical structure
+intersection_of: RO:0002344 GO:0005634 ! results in transport to from or in nucleus
 intersection_of: RO:0002344 GO:0005634 ! results in transport to from or in nucleus
 relationship: RO:0002344 GO:0005634 ! results in transport to from or in nucleus
 
@@ -27746,14 +28434,6 @@ relationship: BFO:0000050 GO:0051641 ! part of cellular localization
 relationship: BFO:0000066 CL:0000000 ! occurs in cell
 
 [Term]
-id: GO:0051652
-name: maintenance of chromosome location
-is_a: GO:0050000 ! chromosome localization
-is_a: GO:0051657 ! maintenance of organelle location
-intersection_of: GO:0051651 ! maintenance of location in cell
-intersection_of: RO:0004009 GO:0005694 ! has primary input chromosome
-
-[Term]
 id: GO:0051655
 name: maintenance of vesicle location
 is_a: GO:0051648 ! vesicle localization
@@ -27914,6 +28594,21 @@ intersection_of: RO:0002213 GO:0000280 ! positively regulates nuclear division
 relationship: RO:0002213 GO:0000280 ! positively regulates nuclear division
 
 [Term]
+id: GO:0051790
+name: short-chain fatty acid biosynthetic process
+synonym: "short chain fatty acid biosynthesis" EXACT []
+synonym: "short chain fatty acid biosynthetic process" EXACT []
+synonym: "short-chain fatty acid anabolism" EXACT []
+synonym: "short-chain fatty acid biosynthesis" EXACT []
+synonym: "short-chain fatty acid formation" EXACT []
+synonym: "short-chain fatty acid synthesis" EXACT []
+is_a: GO:0006633 ! fatty acid biosynthetic process
+is_a: GO:0046459 ! short-chain fatty acid metabolic process
+intersection_of: GO:0009058 ! biosynthetic process
+intersection_of: RO:0004008 CHEBI:58951 ! has primary output short-chain fatty acid anion
+relationship: RO:0004008 CHEBI:58951 ! has primary output short-chain fatty acid anion
+
+[Term]
 id: GO:0051875
 name: pigment granule localization
 is_a: GO:0051648 ! vesicle localization
@@ -27988,6 +28683,17 @@ is_a: GO:0031644 ! regulation of nervous system process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002211 GO:0007600 ! regulates (processual) sensory perception
 relationship: RO:0002211 GO:0007600 ! regulates (processual) sensory perception
+
+[Term]
+id: GO:0051932
+name: synaptic transmission, GABAergic
+synonym: "GABAergic synaptic transmission" EXACT []
+synonym: "synaptic transmission, GABA mediated" EXACT []
+synonym: "synaptic transmission, gamma-aminobutyric acid mediated" EXACT []
+synonym: "synaptic transmission, gamma-aminobutyric acid-ergic" EXACT []
+is_a: GO:0007268 ! chemical synaptic transmission
+relationship: RO:0000057 CHEBI:59888 ! has participant gamma-aminobutyric acid zwitterion
+relationship: RO:0000057 CL:0000617 ! has participant GABAergic neuron
 
 [Term]
 id: GO:0051937
@@ -28514,12 +29220,23 @@ intersection_of: RO:0002332 CHEBI:18059 ! regulates levels of lipid
 relationship: RO:0002332 CHEBI:18059 ! regulates levels of lipid
 
 [Term]
+id: GO:0055089
+name: fatty acid homeostasis
+is_a: GO:0055088 ! lipid homeostasis
+intersection_of: GO:0048878 ! chemical homeostasis
+intersection_of: RO:0002332 CHEBI:28868 ! regulates levels of fatty acid anion
+relationship: RO:0002332 CHEBI:28868 ! regulates levels of fatty acid anion
+
+[Term]
 id: GO:0055107
 name: Golgi to secretory granule transport
 is_a: GO:0046907 ! intracellular transport
 intersection_of: GO:0006810 ! transport
+intersection_of: GO:0046907 ! intracellular transport
 intersection_of: BFO:0000066 GO:0005737 ! occurs in cytoplasm
 intersection_of: RO:0002338 GO:0005794 ! has target start location Golgi apparatus
+intersection_of: RO:0002338 GO:0005794 ! has target start location Golgi apparatus
+intersection_of: RO:0002339 GO:0030141 ! has target end location secretory granule
 intersection_of: RO:0002339 GO:0030141 ! has target end location secretory granule
 relationship: BFO:0000066 GO:0005737 ! occurs in cytoplasm
 relationship: RO:0002338 GO:0005794 ! has target start location Golgi apparatus
@@ -28530,8 +29247,11 @@ id: GO:0055108
 name: Golgi to transport vesicle transport
 is_a: GO:0046907 ! intracellular transport
 intersection_of: GO:0006810 ! transport
+intersection_of: GO:0046907 ! intracellular transport
 intersection_of: BFO:0000066 GO:0005737 ! occurs in cytoplasm
 intersection_of: RO:0002338 GO:0005794 ! has target start location Golgi apparatus
+intersection_of: RO:0002338 GO:0005794 ! has target start location Golgi apparatus
+intersection_of: RO:0002339 GO:0030133 ! has target end location transport vesicle
 intersection_of: RO:0002339 GO:0030133 ! has target end location transport vesicle
 relationship: BFO:0000050 GO:0048193 ! part of Golgi vesicle transport
 relationship: BFO:0000066 GO:0005737 ! occurs in cytoplasm
@@ -30892,7 +31612,7 @@ relationship: RO:0012003 CL:0000037 ! acts on population of hematopoietic stem c
 id: GO:0061512
 name: protein localization to cilium
 is_a: GO:0033365 ! protein localization to organelle
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005929 ! has target end location cilium
 relationship: RO:0002162 NCBITaxon:2759 ! in taxon Eukaryota
 relationship: RO:0002339 GO:0005929 ! has target end location cilium
@@ -30938,6 +31658,15 @@ is_a: GO:0048243 ! norepinephrine secretion
 is_a: GO:0160043 ! catecholamine secretion, neurotransmission
 intersection_of: GO:0007269 ! neurotransmitter secretion
 intersection_of: RO:0004009 CHEBI:72587 ! has primary input (R)-noradrenaline(1+)
+
+[Term]
+id: GO:0061534
+name: gamma-aminobutyric acid secretion, neurotransmission
+is_a: GO:0007269 ! neurotransmitter secretion
+is_a: GO:0014051 ! gamma-aminobutyric acid secretion
+intersection_of: GO:0007269 ! neurotransmitter secretion
+intersection_of: RO:0004009 CHEBI:59888 ! has primary input gamma-aminobutyric acid zwitterion
+relationship: BFO:0000050 GO:0051932 ! part of synaptic transmission, GABAergic
 
 [Term]
 id: GO:0061548
@@ -31161,8 +31890,8 @@ relationship: RO:0002212 GO:0097402 ! negatively regulates neuroblast migration
 id: GO:0061938
 name: protein localization to somatodendritic compartment
 synonym: "somatodendritic protein localization" EXACT []
-is_a: GO:0008104 ! protein localization
-intersection_of: GO:0008104 ! protein localization
+is_a: GO:0008104 ! intracellular protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0036477 ! has target end location somatodendritic compartment
 relationship: RO:0002339 GO:0036477 ! has target end location somatodendritic compartment
 
@@ -31266,7 +31995,7 @@ relationship: BFO:0000050 GO:0019233 ! part of sensory perception of pain
 id: GO:0062237
 name: protein localization to postsynapse
 is_a: GO:0035418 ! protein localization to synapse
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0098794 ! has target end location postsynapse
 relationship: RO:0002339 GO:0098794 ! has target end location postsynapse
 
@@ -31622,6 +32351,15 @@ intersection_of: RO:0002211 GO:0000226 ! regulates (processual) microtubule cyto
 relationship: RO:0002211 GO:0000226 ! regulates (processual) microtubule cytoskeleton organization
 
 [Term]
+id: GO:0070542
+name: response to fatty acid
+is_a: GO:0033993 ! response to lipid
+is_a: GO:1901700 ! response to oxygen-containing compound
+intersection_of: GO:0050896 ! response to stimulus
+intersection_of: RO:0004009 CHEBI:28868 ! has primary input fatty acid anion
+relationship: RO:0004009 CHEBI:28868 ! has primary input fatty acid anion
+
+[Term]
 id: GO:0070633
 name: transepithelial transport
 is_a: GO:0006810 ! transport
@@ -31775,7 +32513,7 @@ relationship: RO:0002299 UBERON:0001474 ! results in maturation of bone element
 id: GO:0071168
 name: protein localization to chromatin
 is_a: GO:0034502 ! protein localization to chromosome
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0000785 ! has target end location chromatin
 relationship: RO:0002339 GO:0000785 ! has target end location chromatin
 
@@ -31903,6 +32641,15 @@ intersection_of: GO:0070887 ! cellular response to chemical stimulus
 intersection_of: RO:0004009 CHEBI:18059 ! has primary input lipid
 
 [Term]
+id: GO:0071398
+name: cellular response to fatty acid
+is_a: GO:0070542 ! response to fatty acid
+is_a: GO:0071396 ! cellular response to lipid
+is_a: GO:1901701 ! cellular response to oxygen-containing compound
+intersection_of: GO:0070887 ! cellular response to chemical stimulus
+intersection_of: RO:0004009 CHEBI:28868 ! has primary input fatty acid anion
+
+[Term]
 id: GO:0071418
 name: cellular response to amine stimulus
 is_a: GO:0014075 ! response to amine
@@ -31934,9 +32681,12 @@ is_a: GO:0022600 ! digestive system process
 id: GO:0071692
 name: protein localization to extracellular region
 synonym: "protein localization in extracellular region" EXACT []
-is_a: GO:0008104 ! protein localization
-intersection_of: GO:0008104 ! protein localization
+is_a: GO:0008104 ! intracellular protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
+intersection_of: GO:0033036 ! macromolecule localization
 intersection_of: RO:0002339 GO:0005576 ! has target end location extracellular region
+intersection_of: RO:0002339 GO:0005576 ! has target end location extracellular region
+intersection_of: RO:0004009 PR:000000001 ! has primary input protein
 relationship: RO:0002339 GO:0005576 ! has target end location extracellular region
 
 [Term]
@@ -32291,9 +33041,9 @@ relationship: BFO:0000066 GO:0043226 ! occurs in organelle
 id: GO:0072657
 name: protein localization to membrane
 synonym: "protein localization in membrane" EXACT []
-is_a: GO:0008104 ! protein localization
+is_a: GO:0008104 ! intracellular protein localization
 is_a: GO:0051668 ! localization within membrane
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0016020 ! has target end location membrane
 
 [Term]
@@ -32301,7 +33051,7 @@ id: GO:0072659
 name: protein localization to plasma membrane
 is_a: GO:0072657 ! protein localization to membrane
 is_a: GO:1990778 ! protein localization to cell periphery
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002338 GO:0005622 ! has target start location intracellular anatomical structure
 intersection_of: RO:0002339 GO:0005886 ! has target end location plasma membrane
 relationship: RO:0002338 GO:0005622 ! has target start location intracellular anatomical structure
@@ -32311,7 +33061,7 @@ relationship: RO:0002339 GO:0005886 ! has target end location plasma membrane
 id: GO:0072665
 name: protein localization to vacuole
 is_a: GO:0033365 ! protein localization to organelle
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005773 ! has target end location vacuole
 relationship: RO:0002339 GO:0005773 ! has target end location vacuole
 
@@ -32336,7 +33086,7 @@ relationship: BFO:0000066 GO:0005773 ! occurs in vacuole
 id: GO:0072697
 name: protein localization to cell cortex
 is_a: GO:1990778 ! protein localization to cell periphery
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005938 ! has target end location cell cortex
 relationship: RO:0002339 GO:0005938 ! has target end location cell cortex
 
@@ -32344,7 +33094,7 @@ relationship: RO:0002339 GO:0005938 ! has target end location cell cortex
 id: GO:0072698
 name: protein localization to microtubule cytoskeleton
 is_a: GO:0044380 ! protein localization to cytoskeleton
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0015630 ! has target end location microtubule cytoskeleton
 relationship: RO:0002339 GO:0015630 ! has target end location microtubule cytoskeleton
 
@@ -32800,7 +33550,7 @@ id: GO:0090435
 name: protein localization to nuclear envelope
 synonym: "protein localization in nuclear envelope" EXACT []
 is_a: GO:0034504 ! protein localization to nucleus
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005635 ! has target end location nuclear envelope
 relationship: RO:0002339 GO:0005635 ! has target end location nuclear envelope
 
@@ -32922,6 +33672,14 @@ intersection_of: BFO:0000066 CL:0008019 ! occurs in mesenchymal cell
 relationship: BFO:0000066 CL:0008019 ! occurs in mesenchymal cell
 
 [Term]
+id: GO:0097154
+name: GABAergic neuron differentiation
+is_a: GO:0030182 ! neuron differentiation
+intersection_of: GO:0030154 ! cell differentiation
+intersection_of: RO:0002315 CL:0000617 ! results in acquisition of features of GABAergic neuron
+relationship: RO:0002315 CL:0000617 ! results in acquisition of features of GABAergic neuron
+
+[Term]
 id: GO:0097164
 name: ammonium ion metabolic process
 synonym: "ammonium ion metabolism" EXACT []
@@ -32996,7 +33754,7 @@ relationship: BFO:0000066 CL:0000182 ! occurs in hepatocyte
 id: GO:0097355
 name: protein localization to heterochromatin
 is_a: GO:0071168 ! protein localization to chromatin
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0000792 ! has target end location heterochromatin
 relationship: RO:0002339 GO:0000792 ! has target end location heterochromatin
 
@@ -33195,6 +33953,7 @@ relationship: BFO:0000050 GO:0098645 ! part of collagen network
 [Term]
 id: GO:0098643
 name: banded collagen fibril
+synonym: "banded collagen fibril" EXACT []
 is_a: GO:0098644 ! complex of collagen trimers
 is_a: GO:0099512 ! supramolecular fiber
 
@@ -33636,6 +34395,14 @@ is_a: GO:0045202 ! synapse
 intersection_of: GO:0045202 ! synapse
 intersection_of: RO:0002215 GO:0007271 ! capable of synaptic transmission, cholinergic
 relationship: RO:0002215 GO:0007271 ! capable of synaptic transmission, cholinergic
+
+[Term]
+id: GO:0098982
+name: GABA-ergic synapse
+is_a: GO:0045202 ! synapse
+intersection_of: GO:0045202 ! synapse
+intersection_of: RO:0002215 GO:0051932 ! capable of synaptic transmission, GABAergic
+relationship: RO:0002215 GO:0051932 ! capable of synaptic transmission, GABAergic
 
 [Term]
 id: GO:0098992
@@ -34166,8 +34933,8 @@ intersection_of: RO:0004009 CHEBI:36914 ! has primary input inorganic ion
 [Term]
 id: GO:0099612
 name: protein localization to axon
-is_a: GO:0008104 ! protein localization
-intersection_of: GO:0008104 ! protein localization
+is_a: GO:0008104 ! intracellular protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0030424 ! has target end location axon
 relationship: RO:0002339 GO:0030424 ! has target end location axon
 
@@ -34416,24 +35183,6 @@ intersection_of: RO:0002212 GO:0009887 ! negatively regulates animal organ morph
 relationship: RO:0002212 GO:0009887 ! negatively regulates animal organ morphogenesis
 
 [Term]
-id: GO:0110113
-name: positive regulation of lipid transporter activity
-is_a: GO:0032370 ! positive regulation of lipid transport
-is_a: GO:0032411 ! positive regulation of transporter activity
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002213 GO:0005319 ! positively regulates lipid transporter activity
-relationship: RO:0002213 GO:0005319 ! positively regulates lipid transporter activity
-
-[Term]
-id: GO:0110114
-name: negative regulation of lipid transporter activity
-is_a: GO:0032369 ! negative regulation of lipid transport
-is_a: GO:0032410 ! negative regulation of transporter activity
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002212 GO:0005319 ! negatively regulates lipid transporter activity
-relationship: RO:0002212 GO:0005319 ! negatively regulates lipid transporter activity
-
-[Term]
 id: GO:0110116
 name: regulation of compound eye photoreceptor cell differentiation
 is_a: GO:0046532 ! regulation of photoreceptor cell differentiation
@@ -34673,7 +35422,7 @@ relationship: RO:0002296 UBERON:0001737 ! results in development of larynx
 id: GO:0120229
 name: protein localization to motile cilium
 is_a: GO:0061512 ! protein localization to cilium
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0031514 ! has target end location motile cilium
 relationship: RO:0002339 GO:0031514 ! has target end location motile cilium
 
@@ -35132,7 +35881,7 @@ relationship: RO:0002232 CL:0000125 ! has end location glial cell
 id: GO:0150105
 name: protein localization to cell-cell junction
 is_a: GO:1902414 ! protein localization to cell junction
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005911 ! has target end location cell-cell junction
 relationship: RO:0002339 GO:0005911 ! has target end location cell-cell junction
 
@@ -35221,6 +35970,41 @@ is_a: GO:0060465 ! pharynx development
 intersection_of: GO:0048856 ! anatomical structure development
 intersection_of: RO:0002296 UBERON:0001042 ! results in development of chordate pharynx
 relationship: RO:0002296 UBERON:0001042 ! results in development of chordate pharynx
+
+[Term]
+id: GO:0170041
+name: non-proteinogenic amino acid metabolic process
+synonym: "non-proteinogenic amino acid metabolism" EXACT []
+is_a: GO:0006520 ! amino acid metabolic process
+is_a: GO:0019752 ! carboxylic acid metabolic process
+intersection_of: GO:0008152 ! metabolic process
+intersection_of: RO:0004007 CHEBI:83820 ! has primary input or output non-proteinogenic amino acid
+relationship: RO:0004007 CHEBI:83820 ! has primary input or output non-proteinogenic amino acid
+
+[Term]
+id: GO:0170043
+name: non-proteinogenic amino acid biosynthetic process
+synonym: "non-proteinogenic amino acid anabolism" EXACT []
+synonym: "non-proteinogenic amino acid formation" EXACT []
+synonym: "non-proteinogenic amino acid synthesis" EXACT []
+synonym: "non-proteinogenic biosynthesis" EXACT []
+is_a: GO:0046394 ! carboxylic acid biosynthetic process
+is_a: GO:0170041 ! non-proteinogenic amino acid metabolic process
+intersection_of: GO:0009058 ! biosynthetic process
+intersection_of: RO:0004008 CHEBI:83820 ! has primary output non-proteinogenic amino acid
+relationship: RO:0004008 CHEBI:83820 ! has primary output non-proteinogenic amino acid
+
+[Term]
+id: GO:0170044
+name: non-proteinogenic amino acid catabolic process
+synonym: "non-proteinogenic amino acid breakdown" EXACT []
+synonym: "non-proteinogenic amino acid catabolism" EXACT []
+synonym: "non-proteinogenic amino acid degradation" EXACT []
+is_a: GO:0046395 ! carboxylic acid catabolic process
+is_a: GO:0170041 ! non-proteinogenic amino acid metabolic process
+intersection_of: GO:0009056 ! catabolic process
+intersection_of: RO:0004009 CHEBI:83820 ! has primary input non-proteinogenic amino acid
+relationship: RO:0004009 CHEBI:83820 ! has primary input non-proteinogenic amino acid
 
 [Term]
 id: GO:0170055
@@ -35508,6 +36292,23 @@ intersection_of: RO:0004008 CHEBI:47622 ! has primary output acetate ester
 relationship: RO:0004008 CHEBI:47622 ! has primary output acetate ester
 
 [Term]
+id: GO:1901003
+name: negative regulation of fermentation
+is_a: GO:0009892 ! negative regulation of metabolic process
+is_a: GO:0043465 ! regulation of fermentation
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002212 GO:0006113 ! negatively regulates fermentation
+relationship: RO:0002212 GO:0006113 ! negatively regulates fermentation
+
+[Term]
+id: GO:1901089
+name: acetate ester metabolic process involved in fermentation
+is_a: GO:1900619 ! acetate ester metabolic process
+intersection_of: GO:1900619 ! acetate ester metabolic process
+intersection_of: BFO:0000050 GO:0006113 ! part of fermentation
+relationship: BFO:0000050 GO:0006113 ! part of fermentation
+
+[Term]
 id: GO:1901135
 name: carbohydrate derivative metabolic process
 is_a: GO:0008152 ! metabolic process
@@ -35538,8 +36339,8 @@ id: GO:1901142
 name: insulin metabolic process
 is_a: GO:0019538 ! protein metabolic process
 intersection_of: GO:0008152 ! metabolic process
-intersection_of: RO:0004007 PR:000009054 ! has primary input or output insulin gene translation product
-relationship: RO:0004007 PR:000009054 ! has primary input or output insulin gene translation product
+intersection_of: RO:0004007 PR:000009054 ! has primary input or output preproinsulin
+relationship: RO:0004007 PR:000009054 ! has primary input or output preproinsulin
 
 [Term]
 id: GO:1901143
@@ -35547,8 +36348,8 @@ name: insulin catabolic process
 is_a: GO:0030163 ! protein catabolic process
 is_a: GO:1901142 ! insulin metabolic process
 intersection_of: GO:0009056 ! catabolic process
-intersection_of: RO:0004009 PR:000009054 ! has primary input insulin gene translation product
-relationship: RO:0004009 PR:000009054 ! has primary input insulin gene translation product
+intersection_of: RO:0004009 PR:000009054 ! has primary input preproinsulin
+relationship: RO:0004009 PR:000009054 ! has primary input preproinsulin
 
 [Term]
 id: GO:1901148
@@ -36142,6 +36943,38 @@ intersection_of: BFO:0000050 GO:0060348 ! part of bone development
 relationship: BFO:0000050 GO:0060348 ! part of bone development
 
 [Term]
+id: GO:1901715
+name: regulation of gamma-aminobutyric acid catabolic process
+is_a: GO:0006521 ! regulation of amino acid metabolic process
+is_a: GO:0009894 ! regulation of catabolic process
+is_a: GO:0062012 ! regulation of small molecule metabolic process
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002211 GO:0009450 ! regulates (processual) gamma-aminobutyric acid catabolic process
+relationship: RO:0002211 GO:0009450 ! regulates (processual) gamma-aminobutyric acid catabolic process
+
+[Term]
+id: GO:1901716
+name: negative regulation of gamma-aminobutyric acid catabolic process
+is_a: GO:0009895 ! negative regulation of catabolic process
+is_a: GO:0045763 ! negative regulation of amino acid metabolic process
+is_a: GO:0062014 ! negative regulation of small molecule metabolic process
+is_a: GO:1901715 ! regulation of gamma-aminobutyric acid catabolic process
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002212 GO:0009450 ! negatively regulates gamma-aminobutyric acid catabolic process
+relationship: RO:0002212 GO:0009450 ! negatively regulates gamma-aminobutyric acid catabolic process
+
+[Term]
+id: GO:1901717
+name: positive regulation of gamma-aminobutyric acid catabolic process
+is_a: GO:0009896 ! positive regulation of catabolic process
+is_a: GO:0045764 ! positive regulation of amino acid metabolic process
+is_a: GO:0062013 ! positive regulation of small molecule metabolic process
+is_a: GO:1901715 ! regulation of gamma-aminobutyric acid catabolic process
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002213 GO:0009450 ! positively regulates gamma-aminobutyric acid catabolic process
+relationship: RO:0002213 GO:0009450 ! positively regulates gamma-aminobutyric acid catabolic process
+
+[Term]
 id: GO:1901861
 name: regulation of muscle tissue development
 is_a: GO:0050793 ! regulation of developmental process
@@ -36308,6 +37141,14 @@ is_a: GO:2000138 ! positive regulation of cell proliferation involved in heart m
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002213 GO:0061325 ! positively regulates cell proliferation involved in outflow tract morphogenesis
 relationship: RO:0002213 GO:0061325 ! positively regulates cell proliferation involved in outflow tract morphogenesis
+
+[Term]
+id: GO:1902001
+name: fatty acid transmembrane transport
+is_a: GO:0015908 ! fatty acid transport
+is_a: GO:1905039 ! carboxylic acid transmembrane transport
+intersection_of: GO:0055085 ! transmembrane transport
+intersection_of: RO:0004009 CHEBI:28868 ! has primary input fatty acid anion
 
 [Term]
 id: GO:1902017
@@ -36635,8 +37476,8 @@ relationship: RO:0002212 GO:0006401 ! negatively regulates RNA catabolic process
 [Term]
 id: GO:1902414
 name: protein localization to cell junction
-is_a: GO:0008104 ! protein localization
-intersection_of: GO:0008104 ! protein localization
+is_a: GO:0008104 ! intracellular protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0030054 ! has target end location cell junction
 relationship: RO:0002339 GO:0030054 ! has target end location cell junction
 
@@ -36656,8 +37497,8 @@ intersection_of: RO:0004009 CHEBI:16189 ! has primary input sulfate
 [Term]
 id: GO:1902463
 name: protein localization to cell leading edge
-is_a: GO:0008104 ! protein localization
-intersection_of: GO:0008104 ! protein localization
+is_a: GO:0008104 ! intracellular protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0031252 ! has target end location cell leading edge
 relationship: RO:0002339 GO:0031252 ! has target end location cell leading edge
 
@@ -36743,7 +37584,7 @@ relationship: RO:0002213 GO:0035556 ! positively regulates intracellular signal 
 id: GO:1902570
 name: protein localization to nucleolus
 is_a: GO:0034504 ! protein localization to nucleus
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005730 ! has target end location nucleolus
 relationship: RO:0002339 GO:0005730 ! has target end location nucleolus
 
@@ -37164,7 +38005,7 @@ relationship: RO:0002213 GO:0030048 ! positively regulates actin filament-based 
 id: GO:1903119
 name: protein localization to actin cytoskeleton
 is_a: GO:0044380 ! protein localization to cytoskeleton
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0015629 ! has target end location actin cytoskeleton
 relationship: RO:0002339 GO:0015629 ! has target end location actin cytoskeleton
 
@@ -37172,7 +38013,7 @@ relationship: RO:0002339 GO:0015629 ! has target end location actin cytoskeleton
 id: GO:1903120
 name: protein localization to actin filament bundle
 is_a: GO:1903119 ! protein localization to actin cytoskeleton
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0032432 ! has target end location actin filament bundle
 relationship: RO:0002339 GO:0032432 ! has target end location actin filament bundle
 
@@ -37244,7 +38085,7 @@ id: GO:1903292
 name: protein localization to Golgi membrane
 is_a: GO:0034067 ! protein localization to Golgi apparatus
 is_a: GO:0072657 ! protein localization to membrane
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0000139 ! has target end location Golgi membrane
 relationship: RO:0002339 GO:0000139 ! has target end location Golgi membrane
 
@@ -37359,7 +38200,7 @@ name: protein localization to ciliary membrane
 is_a: GO:0061512 ! protein localization to cilium
 is_a: GO:0072657 ! protein localization to membrane
 is_a: GO:1990778 ! protein localization to cell periphery
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0060170 ! has target end location ciliary membrane
 relationship: RO:0002339 GO:0060170 ! has target end location ciliary membrane
 
@@ -37461,6 +38302,22 @@ is_a: GO:1903541 ! regulation of exosomal secretion
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002213 GO:1990182 ! positively regulates exosomal secretion
 relationship: RO:0002213 GO:1990182 ! positively regulates exosomal secretion
+
+[Term]
+id: GO:1903544
+name: response to butyrate
+is_a: GO:0070542 ! response to fatty acid
+intersection_of: GO:0050896 ! response to stimulus
+intersection_of: RO:0004009 CHEBI:17968 ! has primary input butyrate
+relationship: RO:0004009 CHEBI:17968 ! has primary input butyrate
+
+[Term]
+id: GO:1903545
+name: cellular response to butyrate
+is_a: GO:0071398 ! cellular response to fatty acid
+is_a: GO:1903544 ! response to butyrate
+intersection_of: GO:0070887 ! cellular response to chemical stimulus
+intersection_of: RO:0004009 CHEBI:17968 ! has primary input butyrate
 
 [Term]
 id: GO:1903551
@@ -37633,7 +38490,7 @@ id: GO:1903778
 name: protein localization to vacuolar membrane
 is_a: GO:0072657 ! protein localization to membrane
 is_a: GO:0072665 ! protein localization to vacuole
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005774 ! has target end location vacuolar membrane
 relationship: RO:0002339 GO:0005774 ! has target end location vacuolar membrane
 
@@ -37739,8 +38596,8 @@ synonym: "negative regulation of cellular protein localization" EXACT []
 is_a: GO:0032880 ! regulation of protein localization
 is_a: GO:0048523 ! negative regulation of cellular process
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002212 GO:0008104 ! negatively regulates protein localization
-relationship: RO:0002212 GO:0008104 ! negatively regulates protein localization
+intersection_of: RO:0002212 GO:0008104 ! negatively regulates intracellular protein localization
+relationship: RO:0002212 GO:0008104 ! negatively regulates intracellular protein localization
 
 [Term]
 id: GO:1903829
@@ -37749,8 +38606,8 @@ synonym: "positive regulation of cellular protein localization" EXACT []
 is_a: GO:0032880 ! regulation of protein localization
 is_a: GO:0048522 ! positive regulation of cellular process
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002213 GO:0008104 ! positively regulates protein localization
-relationship: RO:0002213 GO:0008104 ! positively regulates protein localization
+intersection_of: RO:0002213 GO:0008104 ! positively regulates intracellular protein localization
+relationship: RO:0002213 GO:0008104 ! positively regulates intracellular protein localization
 
 [Term]
 id: GO:1903831
@@ -38073,8 +38930,8 @@ relationship: RO:0002213 GO:0001834 ! positively regulates trophectodermal cell 
 [Term]
 id: GO:1904106
 name: protein localization to microvillus
-is_a: GO:0008104 ! protein localization
-intersection_of: GO:0008104 ! protein localization
+is_a: GO:0008104 ! intracellular protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005902 ! has target end location microvillus
 relationship: RO:0002339 GO:0005902 ! has target end location microvillus
 
@@ -38522,7 +39379,7 @@ relationship: RO:0002296 UBERON:0012478 ! results in development of cloacal glan
 id: GO:1904491
 name: protein localization to ciliary transition zone
 is_a: GO:0061512 ! protein localization to cilium
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0035869 ! has target end location ciliary transition zone
 relationship: RO:0002339 GO:0035869 ! has target end location ciliary transition zone
 
@@ -39495,7 +40352,7 @@ relationship: RO:0002588 GO:0035869 ! results in assembly of ciliary transition 
 id: GO:1905383
 name: protein localization to presynapse
 is_a: GO:0035418 ! protein localization to synapse
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0098793 ! has target end location presynapse
 relationship: RO:0002339 GO:0098793 ! has target end location presynapse
 
@@ -39895,7 +40752,7 @@ relationship: BFO:0000050 GO:0005737 ! part of cytoplasm
 id: GO:1905755
 name: protein localization to cytoplasmic microtubule
 is_a: GO:0035372 ! protein localization to microtubule
-intersection_of: GO:0008104 ! protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005881 ! has target end location cytoplasmic microtubule
 relationship: RO:0002339 GO:0005881 ! has target end location cytoplasmic microtubule
 
@@ -40369,8 +41226,8 @@ relationship: RO:0002162 NCBITaxon:7742 ! in taxon Vertebrata <vertebrates>
 [Term]
 id: GO:1990778
 name: protein localization to cell periphery
-is_a: GO:0008104 ! protein localization
-intersection_of: GO:0008104 ! protein localization
+is_a: GO:0008104 ! intracellular protein localization
+intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0071944 ! has target end location cell periphery
 relationship: RO:0002339 GO:0071944 ! has target end location cell periphery
 
@@ -40626,6 +41483,35 @@ is_a: GO:1901343 ! negative regulation of vasculature development
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002212 GO:0048514 ! negatively regulates blood vessel morphogenesis
 relationship: RO:0002212 GO:0048514 ! negatively regulates blood vessel morphogenesis
+
+[Term]
+id: GO:2000191
+name: regulation of fatty acid transport
+is_a: GO:0032368 ! regulation of lipid transport
+is_a: GO:0032890 ! regulation of organic acid transport
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002211 GO:0015908 ! regulates (processual) fatty acid transport
+relationship: RO:0002211 GO:0015908 ! regulates (processual) fatty acid transport
+
+[Term]
+id: GO:2000192
+name: negative regulation of fatty acid transport
+is_a: GO:0032369 ! negative regulation of lipid transport
+is_a: GO:0032891 ! negative regulation of organic acid transport
+is_a: GO:2000191 ! regulation of fatty acid transport
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002212 GO:0015908 ! negatively regulates fatty acid transport
+relationship: RO:0002212 GO:0015908 ! negatively regulates fatty acid transport
+
+[Term]
+id: GO:2000193
+name: positive regulation of fatty acid transport
+is_a: GO:0032370 ! positive regulation of lipid transport
+is_a: GO:0032892 ! positive regulation of organic acid transport
+is_a: GO:2000191 ! regulation of fatty acid transport
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002213 GO:0015908 ! positively regulates fatty acid transport
+relationship: RO:0002213 GO:0015908 ! positively regulates fatty acid transport
 
 [Term]
 id: GO:2000194
@@ -41036,16 +41922,6 @@ is_a: GO:1902305 ! regulation of sodium ion transmembrane transport
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002211 GO:0015081 ! regulates (processual) sodium ion transmembrane transporter activity
 relationship: RO:0002211 GO:0015081 ! regulates (processual) sodium ion transmembrane transporter activity
-
-[Term]
-id: GO:2000650
-name: negative regulation of sodium ion transmembrane transporter activity
-is_a: GO:0032413 ! negative regulation of ion transmembrane transporter activity
-is_a: GO:1902306 ! negative regulation of sodium ion transmembrane transport
-is_a: GO:2000649 ! regulation of sodium ion transmembrane transporter activity
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002212 GO:0015081 ! negatively regulates sodium ion transmembrane transporter activity
-relationship: RO:0002212 GO:0015081 ! negatively regulates sodium ion transmembrane transporter activity
 
 [Term]
 id: GO:2000651
@@ -42866,6 +43742,11 @@ name: Description
 is_a: NCIT:C19498 ! Document
 
 [Term]
+id: NCIT:C25404
+name: Action
+is_a: NCIT:C43431 ! Activity
+
+[Term]
 id: NCIT:C25447
 name: Characteristic
 is_a: NCIT:C20189 ! Property or Attribute
@@ -42978,6 +43859,11 @@ is_a: NCIT:C25447 ! Characteristic
 id: NCIT:C90380
 name: Environmental Temperature
 is_a: NCIT:C25206 ! Temperature
+
+[Term]
+id: NCIT:C91063
+name: Video Recording
+is_a: NCIT:C25404 ! Action
 
 [Term]
 id: NCIT:C92722
@@ -43704,7 +44590,7 @@ is_a: PR:000000001 ! protein
 
 [Term]
 id: PR:000009054
-name: insulin gene translation product
+name: preproinsulin
 is_a: PR:000045358 ! insulin family protein
 
 [Term]
@@ -43731,6 +44617,7 @@ is_a: PR:000000001 ! protein
 id: PR:000018263
 name: amino acid chain
 is_a: CHEBI:50047 ! organic amino compound
+is_a: COB:0000013
 relationship: has_constituent_monomer CHEBI:33708 ! amino-acid residue
 relationship: has_constituent_monomer CHEBI:33708 {minCardinality="2"} ! amino-acid residue
 
@@ -43781,10 +44668,10 @@ relationship: BFO:0000051 PR:000000001 ! has part protein
 
 [Term]
 id: PR:P01308
-name: insulin gene translation product (human)
-is_a: PR:000009054 ! insulin gene translation product
+name: preproinsulin (human)
+is_a: PR:000009054 ! preproinsulin
 is_a: PR:000029067 ! Homo sapiens protein
-intersection_of: PR:000009054 ! insulin gene translation product
+intersection_of: PR:000009054 ! preproinsulin
 intersection_of: RO:0002160 NCBITaxon:9606 ! only in taxon Homo sapiens
 
 [Term]
@@ -48423,7 +49310,6 @@ intersection_of: UBERON:0001021 ! nerve
 intersection_of: extends_fibers_into UBERON:0020358 ! accessory XI nerve nucleus
 relationship: BFO:0000050 RO:0002577 ! part of system
 relationship: extends_fibers_into UBERON:0020358 ! accessory XI nerve nucleus
-relationship: RO:0002162 NCBITaxon:32523 ! in taxon Tetrapoda
 
 [Term]
 id: UBERON:0002020
@@ -51849,7 +52735,6 @@ name: recurrent laryngeal nerve
 synonym: "recurrent laryngeal nerve from vagus nerve" EXACT []
 is_a: UBERON:0011779 ! nerve of head region
 is_a: UBERON:0035642 ! laryngeal nerve
-relationship: RO:0002162 NCBITaxon:32523 ! in taxon Tetrapoda
 relationship: RO:0002202 UBERON:0003117 ! develops from pharyngeal arch 6
 relationship: RO:0002380 UBERON:0001759 ! branching part of vagus nerve
 
@@ -62385,6 +63270,7 @@ is_a: UBERON:0004573 ! systemic artery
 intersection_of: UBERON:0001637 ! artery
 intersection_of: RO:0020101 UBERON:0001043 ! vessel supplies blood to esophagus
 relationship: RO:0002170 UBERON:0002345 ! connected to descending thoracic aorta
+relationship: RO:0002252 UBERON:0001515 ! connecting branch of thoracic aorta
 relationship: RO:0002380 UBERON:0001515 ! branching part of thoracic aorta
 relationship: RO:0020101 UBERON:0001043 ! vessel supplies blood to esophagus
 
@@ -63728,6 +64614,7 @@ is_a: RO:0002323 ! mereotopologically related to
 [Typedef]
 id: RO:0002005
 name: innervated_by
+def: "relation between an anatomical structure and a neuron projection bundle that has synaptic terminals in the structure." []
 domain: UBERON:0000061 ! anatomical structure
 range: UBERON:0000122 ! neuron projection bundle
 inverse_of: RO:0002134 ! innervates
@@ -63908,22 +64795,19 @@ def: "x is in taxon y if an only if y is an organism, and the relationship betwe
 range: OBI:0100026
 holds_over_chain: BFO:0000050 RO:0002162
 holds_over_chain: BFO:0000051 RO:0002162
-holds_over_chain: extends_fibers_into RO:0002162
 holds_over_chain: RO:0002005 RO:0002162
 holds_over_chain: RO:0002131 RO:0002162
+holds_over_chain: RO:0002134 RO:0002162
 holds_over_chain: RO:0002150 RO:0002162
 holds_over_chain: RO:0002170 RO:0002162
 holds_over_chain: RO:0002176 RO:0002162
-holds_over_chain: RO:0002178 RO:0002162
 holds_over_chain: RO:0002211 RO:0002162
 holds_over_chain: RO:0002215 RO:0002162
 holds_over_chain: RO:0002254 RO:0002162
 holds_over_chain: RO:0002256 RO:0002162
 holds_over_chain: RO:0002295 RO:0002162
-holds_over_chain: RO:0002371 RO:0002162
 holds_over_chain: RO:0002387 RO:0002162
-holds_over_chain: RO:0002488 RO:0002162
-holds_over_chain: RO:0002492 RO:0002162
+holds_over_chain: RO:0002490 RO:0002162
 holds_over_chain: RO:0003000 RO:0002162
 holds_over_chain: RO:0003001 RO:0002162
 is_a: RO:0002320 ! evolutionarily related to
@@ -64642,6 +65526,23 @@ is_a: RO:0002090 ! immediately precedes
 is_a: RO:0002411 ! causally upstream of
 
 [Typedef]
+id: RO:0002413
+name: provides input for
+def: "p provides input for q iff p is immediately causally upstream of q, and there exists some c such that p has_output c and q has_input c." []
+holds_over_chain: RO:0002234 RO:0002233
+is_a: RO:0002412 ! immediately causally upstream of
+is_a: RO:0002414 ! transitively provides input for
+
+[Typedef]
+id: RO:0002414
+name: transitively provides input for
+def: "transitive form of directly_provides_input_for" []
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+is_transitive: true
+is_a: RO:0004047 ! causally upstream of or within, positive effect
+
+[Typedef]
 id: RO:0002418
 name: causally upstream of or within
 def: "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q." []
@@ -65243,6 +66144,12 @@ def: "x vessel drains blood from y if and only if x is a vessel that drains bloo
 domain: UBERON:0001981 ! blood vessel
 range: UBERON:0000061 ! anatomical structure
 is_a: RO:0002179 ! drains
+
+[Typedef]
+id: RO:0020104
+name: is neuron
+def: "This property only applies to neurons" []
+domain: CL:0000540 ! neuron
 
 [Typedef]
 id: RO:0020105
