@@ -185,6 +185,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000256>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000257>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000258>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000259>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000260>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000261>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000262>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000264>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000265>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000266>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000267>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000268>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000002>))
@@ -1345,6 +1353,52 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000258> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000259> "The amplitude of a periodic variable is a measure of its change in a single period (such as time or spatial period). The amplitude of a non-periodic signal is its magnitude compared with a reference value.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000259> "amplitude"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000259> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000260> (initial weight)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000260> "The initial weight (in grams) of the subject at the beginning of the experiment.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000260> "initial weight"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000260> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000261> (age-months)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000261> "Age of subject or entity in months.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000261> "age-months"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000261> <http://purl.obolibrary.org/obo/EMPTY_00000177>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000262> (contextual fear conditioning measurement)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000262> "contextual fear conditioning measurement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000262> <http://purl.obolibrary.org/obo/EMPTY_00000090>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000264> (contextual fear conditioning training: time freezing)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000264> "contextual fear conditioning training: time freezing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000264> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000264> <http://purl.obolibrary.org/obo/EMPTY_00000262>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000265> (contextual fear conditioning re-exposure: time freezing)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000265> "contextual fear conditioning re-exposure: time freezing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000265> <http://purl.obolibrary.org/obo/EMPTY_00000187>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000265> <http://purl.obolibrary.org/obo/EMPTY_00000262>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000266> (contextual fear conditioning: trial type identifier)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000266> "contextual fear conditioning: trial type identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000266> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000266> <http://purl.obolibrary.org/obo/EMPTY_00000267>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000267> (contextual fear conditioning parameter)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000267> "contextual fear conditioning parameter"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000267> <http://purl.obolibrary.org/obo/EMPTY_00000177>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000268> (initial weight: training)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000268> "Weight of subject at start of training session.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000268> "initial weight: training"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000268> <http://purl.obolibrary.org/obo/EMPTY_00000260>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000000> (treatment)
 
