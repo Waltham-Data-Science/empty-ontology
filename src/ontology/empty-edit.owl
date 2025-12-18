@@ -852,6 +852,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000182> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000183> "An identifier that specifies a term within a formal ontology, which should be represented as a combination of the ontology's name and the term's unique ID (e.g., ontologyName:ontologyID).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000183> "ontology node"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000183> <http://purl.obolibrary.org/obo/EMPTY_00000178>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000183> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000184> (NDI document identifier)
 
@@ -1409,7 +1410,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000268> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000269> "BrainRegionName")
 AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000269> "A specific anatomical region in the brain. For example where activity is measured, expression is visualized, or an injection is placed. The value should be a string defined by the term name associated with the ontology term for the brain region."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000269> "brain region name")
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000269> <http://purl.obolibrary.org/obo/EMPTY_00000183>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000269> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000270> (brain region ontology ID)
 
@@ -1421,9 +1422,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000270> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000271> (tag name)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000271> "TagName")
-AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000271> "Small molecules, peptides or full proteins that can be used as label as they confer some property that facilitates identification purification and monitoring to the labeled molecule. Values will be the name of the tag.")
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000271> "Small molecules, peptides or full proteins that can be used as label as they confer some property that facilitates identification purification and monitoring to the labeled molecule. Values will be the name of the tag that has a corresponding ontology ID.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000271> "tag name"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000271> <http://purl.obolibrary.org/obo/EMPTY_00000183>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000271> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000272> (tag ontology ID)
 
