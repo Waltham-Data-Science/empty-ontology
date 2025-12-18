@@ -197,6 +197,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000269>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000270>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000271>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000272>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000273>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000274>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000275>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000002>))
@@ -1432,6 +1435,26 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000272> "The ontology ID for a molecular tag (e.g., ONTOLOGYNAME:00000001)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000272> "tag ontology ID"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000272> <http://purl.obolibrary.org/obo/EMPTY_00000183>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000273> (cell count)
+
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000273> "Quantified cells. Cells may be labelled or otherwise identified. Value is a number that indicates how many cells of interest were counted.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000273> "cell count"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000273> <http://purl.obolibrary.org/obo/EMPTY_00000173>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000274> (eYFP average cell count)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000274> "eYFPAvg")
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000274> "Average number of eYFP labelled/tagged cells counted in a region or individual.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000274> "eYFP average cell count"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000274> <http://purl.obolibrary.org/obo/EMPTY_00000273>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000275> (c-fos average cell count)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000275> "cFosAvg")
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000275> "Average number of c-fos-positive cells counted in a region or individual.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000275> "c-fos average cell count"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000275> <http://purl.obolibrary.org/obo/EMPTY_00000273>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000000> (treatment)
 
