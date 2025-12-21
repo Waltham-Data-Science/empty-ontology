@@ -200,6 +200,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000272>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000273>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000274>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000275>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000276>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000277>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000278>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000279>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000280>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000281>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000282>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000283>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000002>))
@@ -1393,6 +1401,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000265> <http://purl.obolibra
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000266> (contextual fear conditioning: trial type identifier)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000266> "indicates the timeline or order in which treatments were given")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000266> "contextual fear conditioning: trial type identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000266> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000266> <http://purl.obolibrary.org/obo/EMPTY_00000267>)
@@ -1442,19 +1451,73 @@ AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000273> "cell count"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000273> <http://purl.obolibrary.org/obo/EMPTY_00000173>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000274> (eYFP average cell count)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000274> (EYFP average cell count)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000274> "eYFPAvg")
-AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000274> "Average number of eYFP labelled/tagged cells counted in a region or individual.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000274> "eYFP average cell count"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000274> "EYFPAvg")
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000274> "Average number of EYFP labelled/tagged cells counted in a region or individual.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000274> "EYFP average cell count"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000274> <http://purl.obolibrary.org/obo/EMPTY_00000273>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000275> (c-fos average cell count)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000275> (c-Fos average cell count)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000275> "cFosAvg")
 AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000275> "Average number of c-fos-positive cells counted in a region or individual.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000275> "c-fos average cell count"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000275> "c-Fos average cell count"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000275> <http://purl.obolibrary.org/obo/EMPTY_00000273>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000276> (EYFP engram average cell count)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000276> "EYFPEngramAvg")
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000276> "Average number of cells positive for both EYFP (EYFP+; encoding) and c-Fos (c-Fos+; retrieval) as a percentage compared to total number of EYFP+ cells in a region or individual. Overlapping cells positive for both EYFP and c-Fos are indicative of memory traces or engrams.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000276> "EYFP engram average cell count"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000276> <http://purl.obolibrary.org/obo/EMPTY_00000273>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000277> (c-Fos engram average cell count)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000277> "cFosEngramAvg")
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000277> "Average number of cells positive for both EYFP (EYFP+; encoding) and c-Fos (c-Fos+; retrieval) as a percentage compared to total number of c-Fos+ cells in a region or individual. Overlapping cells positive for both EYFP and c-Fos are indicative of memory traces or engrams.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000277> "c-Fos engram average cell count"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000277> <http://purl.obolibrary.org/obo/EMPTY_00000273>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000278> (experimental cage ID)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000278> "BoxNumber")
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000278> "cage ID indicating holding location during experiment")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000278> "experimental cage ID"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000278> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000279> (contextual fear conditioning: block type)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000279> "CFCBlockType")
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000279> "Identifier for the contextual fear conditioning block type: training or re-exposure")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000279> "contextual fear conditioning: block type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000279> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000280> (contextual fear conditioning: block minute)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000280> "CFCBlockMinute")
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000280> "Identifier for the contextual fear conditioning block minute. An integer will represent which minute of the block is being indicated.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000280> "contextual fear conditioning: block minute"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000280> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000281> (contextual fear conditioning: freezing behavior time)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000281> "CFCFreezingTime")
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000281> "The number of seconds the individual spent freezing during a given period of time")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000281> "contextual fear conditioning: freezing behavior time"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000281> <http://purl.obolibrary.org/obo/EMPTY_00000267>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000282> (contextual fear conditioning: control group)
+
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000282> "A group in which the animals receive a control treatment (e.g., saline).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000282> "contextual fear conditioning: control group"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000282> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000283> (contextual fear conditioning: treatment group)
+
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000283> "A group in which the animals receive a treatment (e.g., Alprazolam)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000283> "contextual fear conditioning: treatment group"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000283> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000000> (treatment)
 
