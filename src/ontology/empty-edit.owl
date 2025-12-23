@@ -208,6 +208,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000280>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000281>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000282>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000283>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000284>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000286>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000287>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000288>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000002>))
@@ -243,6 +247,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_30000006>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_30000007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_30000008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_30000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C14240>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C179817>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C201530>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25167>))
@@ -1518,6 +1523,33 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000282> <http://purl.obolibra
 AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000283> "A group in which the animals receive a treatment (e.g., Alprazolam)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000283> "contextual fear conditioning: treatment group"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000283> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000284> (ArcCreERT2 ( +) (129S6/SvEv))
+
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000284> "Transgenic mouse strain on 129S6/SvEv background")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000284> "ArcCreERT2 ( +) (129S6/SvEv)"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000284> <http://purl.obolibrary.org/obo/EMPTY_00000286>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000284> <http://purl.obolibrary.org/obo/NCIT_C14240>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000286> (transgenic mouse)
+
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000286> "A mouse whose genome has been altered by the inclusion of foreign genetic material. The technique involves microinjection of foreign DNA fragments into the nucleus of a fertilized egg. The inserted gene becomes integrated into every cell and tissue of the mouse.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000286> "transgenic mouse"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EMPTY_00000286> <http://purl.obolibrary.org/obo/NCIT_C14240>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000286> <http://purl.obolibrary.org/obo/EMPTY_00000173>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000287> (ROSA26-CAG-loxp-stop-loxp-EYFP-WPRE (-/-) (129S6/SvEv))
+
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/EMPTY_00000287> "Transgenic mouse on 129S6/SvEv background")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000287> "ROSA26-CAG-loxp-stop-loxp-EYFP-WPRE (-/-) (129S6/SvEv)"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000287> <http://purl.obolibrary.org/obo/EMPTY_00000286>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000287> <http://purl.obolibrary.org/obo/NCIT_C14240>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000288> (ArcCreERT2 x eYFP (129S/SvEv))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000288> "ArcCreERT2 x eYFP (129S/SvEv)"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000288> <http://purl.obolibrary.org/obo/EMPTY_00000286>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000288> <http://purl.obolibrary.org/obo/NCIT_C14240>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000000> (treatment)
 
