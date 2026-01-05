@@ -212,6 +212,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000284>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000286>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000287>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000288>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000289>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000290>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000291>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000292>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000293>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000294>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000002>))
@@ -273,8 +279,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C93399>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001880>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001885>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002100>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002415>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003881>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003883>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -1538,6 +1547,46 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000287> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000288> "ArcCreERT2 x eYFP (129S/SvEv)"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000288> <http://purl.obolibrary.org/obo/EMPTY_00000286>)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000288> <http://purl.obolibrary.org/obo/NCIT_C14240>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000289> (dorsal dentate gyrus of hippocampal formation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000289> "dDG")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000289> "dorsal dentate gyrus of hippocampal formation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000289> <http://purl.obolibrary.org/obo/EMPTY_00000168>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000289> <http://purl.obolibrary.org/obo/UBERON_0001885>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000290> (ventral dentate gyrus of hippocampal formation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000290> "vDG")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000290> "ventral dentate gyrus of hippocampal formation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000290> <http://purl.obolibrary.org/obo/EMPTY_00000168>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000290> <http://purl.obolibrary.org/obo/UBERON_0001885>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000291> (dorsal CA3)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000291> "dCA3")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000291> "dorsal CA3"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000291> <http://purl.obolibrary.org/obo/EMPTY_00000168>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000291> <http://purl.obolibrary.org/obo/UBERON_0003883>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000292> (ventral CA3)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/EMPTY_00000292> "vCA3")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000292> "ventral CA3"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000292> <http://purl.obolibrary.org/obo/EMPTY_00000168>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000292> <http://purl.obolibrary.org/obo/UBERON_0003883>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000293> (dorsal CA1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000293> "dorsal CA1"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000293> <http://purl.obolibrary.org/obo/EMPTY_00000168>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000293> <http://purl.obolibrary.org/obo/UBERON_0003881>)
+
+# Class: <http://purl.obolibrary.org/obo/EMPTY_00000294> (ventral CA1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000294> "ventral CA1"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000294> <http://purl.obolibrary.org/obo/EMPTY_00000168>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000294> <http://purl.obolibrary.org/obo/UBERON_0003881>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000000> (treatment)
 
