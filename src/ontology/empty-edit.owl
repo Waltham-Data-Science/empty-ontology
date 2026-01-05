@@ -1674,12 +1674,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000011> "treatment: CNO or saline administration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000011> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_10000012> (treatment: date of birth)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000012> (measurement: date of birth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000012> "Specifies the date of birth in YYYY-MM-DD format")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000012> "treatment: date of birth"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000012> "measurement: date of birth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000012> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000012> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000012> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000013> (treatment: food restriction onset time)
 
