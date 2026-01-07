@@ -26,7 +26,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000085>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000090>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000092>))
-Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000094>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000100>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000101>))
@@ -185,18 +184,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000256>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000257>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000258>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000259>))
-Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000260>))
-Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000261>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000262>))
-Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000264>))
-Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000265>))
-Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000266>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000267>))
-Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000268>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000269>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000270>))
-Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000271>))
-Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000272>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000273>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000274>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000275>))
@@ -218,6 +209,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000291>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000292>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000293>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000294>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_00000295>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/EMPTY_10000002>))
@@ -331,12 +323,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000091> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000092> "A type of behavioral measurement that quantifies the reflexive motor response (startle reflex) of an organism to a sudden, intense stimulus, typically acoustic. These measurements are often used to study sensory processing, sensorimotor gating (e.g., prepulse inhibition), and emotional modulation of reflexes (e.g., fear-potentiated startle).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000092> "acoustic startle response measurement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000092> <http://purl.obolibrary.org/obo/EMPTY_00000090>)
-
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000093> (fear conditioning measurement)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000093> "A type of behavioral measurement derived from fear conditioning paradigms, where an initially neutral conditioned stimulus (CS) is paired with an aversive unconditioned stimulus (US), leading to the CS eliciting conditioned fear responses. These measurements quantify aspects of fear acquisition, memory consolidation, recall, extinction, and the emotional state associated with conditioned fear, such as freezing, startle potentiation, or avoidance.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000093> "fear conditioning measurement"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000093> <http://purl.obolibrary.org/obo/EMPTY_00000090>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000094> (acoustic startle response derived measurement)
 
@@ -1447,27 +1433,33 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000278> <http://purl.obolibra
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000279> "Identifier for the contextual fear conditioning block type: training or re-exposure")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000279> "contextual fear conditioning: block type"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000279> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000279> <http://purl.obolibrary.org/obo/EMPTY_00000267>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000280> (contextual fear conditioning: block minute)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000280> "Identifier for the contextual fear conditioning block minute. An integer will represent which minute of the block is being indicated.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000280> "contextual fear conditioning: block minute"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000280> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000280> <http://purl.obolibrary.org/obo/EMPTY_00000180>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000280> <http://purl.obolibrary.org/obo/EMPTY_00000267>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000281> (contextual fear conditioning: time freezing)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000281> "The number of seconds the individual spent freezing during a given period of time. Unit of measure: seconds")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000281> "contextual fear conditioning: time freezing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000281> <http://purl.obolibrary.org/obo/EMPTY_00000262>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000282> (contextual fear conditioning: block duration)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000282> "In the contextual fear conditioning paradigm, this is the time of the block duration in seconds. Unit of measure: seconds")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000282> "contextual fear conditioning: test duration"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000282> "contextual fear conditioning: block duration"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000282> <http://purl.obolibrary.org/obo/EMPTY_00000262>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000282> <http://purl.obolibrary.org/obo/EMPTY_00000267>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000283> (contextual fear conditioning: percent time freezing)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000283> "In the contextual fear conditioning paradigm, this is the percentage of time that the animal spent freezing.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000283> "contextual fear conditioning: percent time freezing"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000283> <http://purl.obolibrary.org/obo/EMPTY_00000262>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_00000284> (ArcCreERT2 (+) (129S6/SvEv))
 
@@ -1540,12 +1532,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000294> <http://purl.obolibra
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000295> "Subject cage identifier indicating the housing location prior to an experiment.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000295> "subject cage identifier"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000295> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
-
-# Class: <http://purl.obolibrary.org/obo/EMPTY_00000296> (subject text identifier)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000296> "Subject text identifier.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000296> "subject text identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_00000295> <http://purl.obolibrary.org/obo/EMPTY_00000181>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000000> (treatment)
@@ -1622,12 +1608,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000011> "treatment: CNO or saline administration"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000011> <http://purl.obolibrary.org/obo/EMPTY_10000000>)
 
-# Class: <http://purl.obolibrary.org/obo/EMPTY_10000012> (measurement: date of birth)
+# Class: <http://purl.obolibrary.org/obo/EMPTY_10000012> (date of birth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_10000012> "Specifies the date of birth in YYYY-MM-DD format")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000012> "measurement: date of birth"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_10000012> "date of birth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000012> <http://purl.obolibrary.org/obo/EMPTY_00000186>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_10000012> <http://purl.obolibrary.org/obo/EMPTY_00000085>)
 
 # Class: <http://purl.obolibrary.org/obo/EMPTY_10000013> (treatment: food restriction onset time)
 
@@ -1764,4 +1749,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_30000009> "
 SubClassOf(<http://purl.obolibrary.org/obo/EMPTY_30000009> <http://purl.obolibrary.org/obo/EMPTY_30000000>)
 
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EMPTY_00000296> "Subject text identifier.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EMPTY_00000296> "subject text identifier"@en)
 )
