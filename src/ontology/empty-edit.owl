@@ -12,6 +12,7 @@ Ontology(<http://purl.obolibrary.org/obo/empty.owl>
 <http://purl.obolibrary.org/obo/empty/releases/2025-09-11/empty.owl>
 Import(<http://purl.obolibrary.org/obo/empty/imports/ncbitaxon_import.owl>)
 Import(<http://purl.obolibrary.org/obo/empty/imports/ncit_import.owl>)
+Import(<http://purl.obolibrary.org/obo/empty/imports/obi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/empty/imports/omo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/empty/imports/pato_import.owl>)
 Import(<http://purl.obolibrary.org/obo/empty/imports/ro_import.owl>)
