@@ -248,6 +248,8 @@ Declaration(Class(obo:EMPTY_0000220))
 Declaration(Class(obo:EMPTY_0000221))
 Declaration(Class(obo:EMPTY_0000222))
 Declaration(Class(obo:EMPTY_0000223))
+Declaration(Class(obo:EMPTY_0000224))
+Declaration(Class(obo:EMPTY_0000225))
 Declaration(Class(obo:NCIT_C14240))
 Declaration(Class(obo:NCIT_C179817))
 Declaration(Class(obo:NCIT_C201530))
@@ -1751,7 +1753,16 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000223 "The measurement is perfor
 AnnotationAssertion(rdfs:label obo:EMPTY_0000223 "approach: after artificial visual stimulation"@en)
 SubClassOf(obo:EMPTY_0000223 obo:EMPTY_0000214)
 
+# Class: obo:EMPTY_0000224 (subject text identifier)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_00000296 "Subject text identifier.")
-AnnotationAssertion(rdfs:label obo:EMPTY_00000296 "subject text identifier"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000224 "Subject text identifier.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000224 "subject text identifier"@en)
+SubClassOf(obo:EMPTY_0000224 obo:EMPTY_0000084)
+
+# Class: obo:EMPTY_0000225 (subject enumerated identifier)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000225 "Subject enumerated identifier.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000225 "subject enumerated identifier"@en)
+SubClassOf(obo:EMPTY_0000225 obo:EMPTY_0000083)
+
 )
