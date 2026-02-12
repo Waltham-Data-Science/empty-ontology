@@ -256,8 +256,8 @@ Declaration(Class(obo:EMPTY_0000228))
 Declaration(Class(obo:EMPTY_0000229))
 Declaration(Class(obo:EMPTY_0000230))
 Declaration(Class(obo:NCIT_C14240))
-Declaration(Class(obo:NCIT_C179817))
 Declaration(Class(obo:NCIT_C172272))
+Declaration(Class(obo:NCIT_C179817))
 Declaration(Class(obo:NCIT_C201530))
 Declaration(Class(obo:NCIT_C25167))
 Declaration(Class(obo:NCIT_C25285))
@@ -1761,44 +1761,45 @@ SubClassOf(obo:EMPTY_0000223 obo:EMPTY_0000214)
 
 # Class: obo:EMPTY_0000224 (subject text identifier)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000224 ".")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000224 "subject text identifier")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000224 "subject text identifier"@en)
 SubClassOf(obo:EMPTY_0000224 obo:EMPTY_0000084)
 
 # Class: obo:EMPTY_0000225 (subject enumerated identifier)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000225 ".")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000225 "subject enumerated identifer")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000225 "subject enumerated identifier"@en)
 SubClassOf(obo:EMPTY_0000225 obo:EMPTY_0000083)
 
 # Class: obo:EMPTY_0000226 (experiment metadata file)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000226 ".")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000226 "experiment metadata file")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000226 "experiment metadata file"@en)
 SubClassOf(obo:EMPTY_0000226 obo:NCIT_C172272)
 
 # Class: obo:EMPTY_0000227 (data-independent acquisition (DIA))
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000227 ".")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000227 "data-independent acquisition (DIA)")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000227 "data-independent acquisition (DIA)"@en)
 SubClassOf(obo:EMPTY_0000227 obo:NCIT_C172272)
 
 # Class: obo:EMPTY_0000228 (slide scanner image acquisition)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000228 ".")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000228 "slide scanner image acquisition")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000228 "slide scanner image acquisition"@en)
 SubClassOf(obo:EMPTY_0000228 obo:NCIT_C172272)
 
 # Class: obo:EMPTY_0000229 (echocardiogram acquisition)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000229 ".")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000229 "echocardiogram acquisition")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000229 "echocardiogram acquisition"@en)
 SubClassOf(obo:EMPTY_0000229 obo:NCIT_C172272)
 
 # Class: obo:EMPTY_0000230 (unknown electronic file type)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000230 ".")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000230 "unknown electronic file type")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000230 "unknown electronic file type"@en)
 SubClassOf(obo:EMPTY_0000230 obo:NCIT_C172272)
+
 
 )
