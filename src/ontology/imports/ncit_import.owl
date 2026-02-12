@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/empty/imports/ncit_import.owl>
-<http://purl.obolibrary.org/obo/empty/releases/2026-01-18/imports/ncit_import.owl>
+<http://purl.obolibrary.org/obo/empty/releases/2026-02-12/imports/ncit_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncit/releases/2025-08-06/ncit.owl>)
-Annotation(owl:versionInfo "2026-01-18")
+Annotation(owl:versionInfo "2026-02-12")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C12219>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C14183>))
@@ -21,6 +21,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C14354>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C14376>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C16847>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C17187>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C172272>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C179817>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C18141>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C18912>))
@@ -36,6 +37,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25167>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25180>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25198>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25206>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25284>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25285>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25335>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25364>))
@@ -146,6 +148,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C16847> <http://purl.obolibrary.
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C17187> "Technology")
 SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C17187> <http://purl.obolibrary.org/obo/NCIT_C19160>)
 
+# Class: <http://purl.obolibrary.org/obo/NCIT_C172272> (Electronic File Content Type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C172272> "Electronic File Content Type")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C172272> <http://purl.obolibrary.org/obo/NCIT_C25284>)
+
 # Class: <http://purl.obolibrary.org/obo/NCIT_C179817> (Velocity)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C179817> "Velocity")
@@ -223,6 +230,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25198> <http://purl.obolibrary.
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C25206> "Temperature")
 SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25206> <http://purl.obolibrary.org/obo/NCIT_C25447>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C25284> (Type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C25284> "Type")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25284> <http://purl.obolibrary.org/obo/NCIT_C20189>)
 
 # Class: <http://purl.obolibrary.org/obo/NCIT_C25285> (Diameter)
 
