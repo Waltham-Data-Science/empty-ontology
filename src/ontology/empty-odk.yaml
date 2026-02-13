@@ -20,6 +20,11 @@ import_group:
     - id: ro
     - id: pato
     - id: omo
+    - id: obi
+id_ranges:
+  - name: "Main Editor"
+    start: 1
+    end: 999999
 robot_java_args: "-Xmx8G"
 robot_report:
   use_labels: TRUE

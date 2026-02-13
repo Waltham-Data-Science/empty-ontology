@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/empty/imports/ncbitaxon_import.owl>
-<http://purl.obolibrary.org/obo/empty/releases/2025-09-11/imports/ncbitaxon_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncbitaxon/2025-03-13/ncbitaxon.owl>)
-Annotation(owl:versionInfo "2025-09-11")
+<http://purl.obolibrary.org/obo/empty/releases/2026-02-12/imports/ncbitaxon_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncbitaxon/2025-12-03/ncbitaxon.owl>)
+Annotation(owl:versionInfo "2026-02-12")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_131209>))
@@ -33,7 +33,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3176>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3193>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33083>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33090>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3312>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33154>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33630>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33682>))
@@ -193,11 +192,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33083> <http://purl.obolibr
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_33090> "Viridiplantae")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://purl.obolibrary.org/obo/NCBITaxon_2759>)
-
-# Class: <http://purl.obolibrary.org/obo/NCBITaxon_3312> (Coniferophyta)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_3312> "Coniferophyta")
-SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_3312> <http://purl.obolibrary.org/obo/NCBITaxon_1437180>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_33154> (Opisthokonta)
 
