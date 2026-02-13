@@ -1,0 +1,30 @@
+site_name: "EMPTY"
+site_description: "Experimental Measurements Purposes and Treatments ontologY"
+site_author: "Waltham Data Science"
+repo_url: https://github.com/Waltham-Data-Science/empty-ontology
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  palette:
+    # This sets a nice professional blue/indigo look
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs      # Top horizontal menu
+    - navigation.sections  # Groups links together nicely
+    - toc.integrate        # Puts the "On this page" menu on the left
+    nav:
+  - Home: index.md
+  - Guide:
+    - How to Edit: editors-guide.md
+    - Installing Tools: installation.md
+  - Workflows:
+    - ODK Overview: odk-workflows/index.md
+    - Running Builds: odk-workflows/DockerWorkflow.md
+    markdown_extensions:
+  - admonition        # For "Note" and "Warning" boxes
+  - attr_list          # For styling images
+  - pymdownx.details   # For collapsible content blocks
+  - pymdownx.superfences # For better code blocks
+  - toc:
+      permalink: true  # Adds a clickable link icon to every header
