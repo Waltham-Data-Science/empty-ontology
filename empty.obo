@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2026-02-12
+data-version: releases/2026-02-23
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -10,7 +10,7 @@ ontology: empty
 property_value: dcterms:description "An ontology of experimental measurements in the sciences, the purposes for which experimental measurements were made, and experimental treatments, with a focus on life sciences." xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Experimental Measurements Purposes and Treatments ontologY" xsd:string
-property_value: owl:versionInfo "2026-02-12" xsd:string
+property_value: owl:versionInfo "2026-02-23" xsd:string
 property_value: owl:versionInfo "Release 2025-07-10" xsd:string
 
 [Term]
@@ -10270,55 +10270,55 @@ is_a: EMPTY:0000214 ! approach
 [Term]
 id: EMPTY:0000222
 name: approach: before artificial visual stimulation
-def: "The measurement is performed before a long bout of artificial visual stimulation" []
+def: "The measurement is performed before a long bout of artificial visual stimulation." []
 is_a: EMPTY:0000214 ! approach
 
 [Term]
 id: EMPTY:0000223
 name: approach: after artificial visual stimulation
-def: "The measurement is performed after a long bout of artificial visual stimulation" []
+def: "The measurement is performed after a long bout of artificial visual stimulation." []
 is_a: EMPTY:0000214 ! approach
 
 [Term]
 id: EMPTY:0000224
 name: subject text identifier
-def: "subject text identifier" []
+def: "A categorical identifier consisting of a string of alphanumeric characters assigned by an investigator to uniquely label a subject. Unlike numerical codes, these often include descriptive prefixes related to the study or cohort." []
 is_a: EMPTY:0000084 ! categorical identifier
 
 [Term]
 id: EMPTY:0000225
 name: subject enumerated identifier
-def: "subject enumerated identifer" []
+def: "An enumerated identifier assigned to an experimental subject based on a sequential numbering system, used to distinguish individuals within a specific group or trial." []
 is_a: EMPTY:0000083 ! enumerated identifier
 
 [Term]
 id: EMPTY:0000226
 name: experiment metadata file
-def: "experiment metadata file" []
+def: "A digital document containing structured data that describes the context, parameters, and environmental conditions under which an experiment was performed. It serves to ensure the reproducibility and interpretability of the primary experimental data." []
 is_a: NCIT:C172272 ! Electronic File Content Type
 
 [Term]
 id: EMPTY:0000227
 name: data-independent acquisition (DIA)
-def: "data-independent acquisition (DIA)" []
+def: "A method of molecular analysis, typically in mass spectrometry, where all ions within a specified m/z range are fragmented and analyzed together. This approach provides a comprehensive and reproducible digital record of the sample without the stochastic sampling bias found in data-dependent acquisition." []
 is_a: NCIT:C172272 ! Electronic File Content Type
 
 [Term]
 id: EMPTY:0000228
 name: slide scanner image acquisition
-def: "slide scanner image acquisition" []
+def: "A process of generating high-resolution digital representations of whole histological sections mounted on glass slides using an automated microscopy system. This enables large-scale quantitative analysis of tissue morphology and marker expression." []
 is_a: NCIT:C172272 ! Electronic File Content Type
 
 [Term]
 id: EMPTY:0000229
 name: echocardiogram acquisition
-def: "echocardiogram acquisition" []
+def: "A non-invasive procedure that uses ultrasound waves to generate real-time images of the heart's structure and function. In an experimental context, it is used to measure parameters such as chamber dimensions, wall thickness, and blood flow velocity." []
 is_a: NCIT:C172272 ! Electronic File Content Type
 
 [Term]
 id: EMPTY:0000230
 name: unknown electronic file type
-def: "unknown electronic file type" []
+def: "A digital file for which the format, encoding, or origin cannot be definitively identified by the system or investigator, necessitating further manual review or specialized software for interpretation." []
 is_a: NCIT:C172272 ! Electronic File Content Type
 
 [Term]
