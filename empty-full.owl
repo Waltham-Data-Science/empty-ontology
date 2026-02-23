@@ -13,13 +13,13 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/empty/empty-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2026-02-12/empty-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2026-02-23/empty-full.owl"/>
         <dcterms:description>An ontology of experimental measurements in the sciences, the purposes for which experimental measurements were made, and experimental treatments, with a focus on life sciences.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Experimental Measurements Purposes and Treatments ontologY</dcterms:title>
         <rdfs:comment>EMPTY by NDI is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
         <owl:versionInfo>Release 2025-07-10</owl:versionInfo>
-        <owl:versionInfo>2026-02-12</owl:versionInfo>
+        <owl:versionInfo>2026-02-23</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -29796,7 +29796,7 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000222">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000214"/>
-        <obo:IAO_0000115>The measurement is performed before a long bout of artificial visual stimulation</obo:IAO_0000115>
+        <obo:IAO_0000115>The measurement is performed before a long bout of artificial visual stimulation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">approach: before artificial visual stimulation</rdfs:label>
     </owl:Class>
     
@@ -29806,7 +29806,7 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000223">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000214"/>
-        <obo:IAO_0000115>The measurement is performed after a long bout of artificial visual stimulation</obo:IAO_0000115>
+        <obo:IAO_0000115>The measurement is performed after a long bout of artificial visual stimulation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">approach: after artificial visual stimulation</rdfs:label>
     </owl:Class>
     
@@ -29816,7 +29816,7 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000224">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000084"/>
-        <obo:IAO_0000115>subject text identifier</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical identifier consisting of a string of alphanumeric characters assigned by an investigator to uniquely label a subject. Unlike numerical codes, these often include descriptive prefixes related to the study or cohort.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">subject text identifier</rdfs:label>
     </owl:Class>
     
@@ -29826,7 +29826,7 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000083"/>
-        <obo:IAO_0000115>subject enumerated identifer</obo:IAO_0000115>
+        <obo:IAO_0000115>An enumerated identifier assigned to an experimental subject based on a sequential numbering system, used to distinguish individuals within a specific group or trial.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">subject enumerated identifier</rdfs:label>
     </owl:Class>
     
@@ -29836,7 +29836,7 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000226">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C172272"/>
-        <obo:IAO_0000115>experiment metadata file</obo:IAO_0000115>
+        <obo:IAO_0000115>A digital document containing structured data that describes the context, parameters, and environmental conditions under which an experiment was performed. It serves to ensure the reproducibility and interpretability of the primary experimental data.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">experiment metadata file</rdfs:label>
     </owl:Class>
     
@@ -29846,7 +29846,7 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000227">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C172272"/>
-        <obo:IAO_0000115>data-independent acquisition (DIA)</obo:IAO_0000115>
+        <obo:IAO_0000115>A method of molecular analysis, typically in mass spectrometry, where all ions within a specified m/z range are fragmented and analyzed together. This approach provides a comprehensive and reproducible digital record of the sample without the stochastic sampling bias found in data-dependent acquisition.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">data-independent acquisition (DIA)</rdfs:label>
     </owl:Class>
     
@@ -29856,7 +29856,7 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000228">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C172272"/>
-        <obo:IAO_0000115>slide scanner image acquisition</obo:IAO_0000115>
+        <obo:IAO_0000115>A process of generating high-resolution digital representations of whole histological sections mounted on glass slides using an automated microscopy system. This enables large-scale quantitative analysis of tissue morphology and marker expression.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">slide scanner image acquisition</rdfs:label>
     </owl:Class>
     
@@ -29866,7 +29866,7 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C172272"/>
-        <obo:IAO_0000115>echocardiogram acquisition</obo:IAO_0000115>
+        <obo:IAO_0000115>A non-invasive procedure that uses ultrasound waves to generate real-time images of the heart&apos;s structure and function. In an experimental context, it is used to measure parameters such as chamber dimensions, wall thickness, and blood flow velocity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">echocardiogram acquisition</rdfs:label>
     </owl:Class>
     
@@ -29876,7 +29876,7 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000230">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C172272"/>
-        <obo:IAO_0000115>unknown electronic file type</obo:IAO_0000115>
+        <obo:IAO_0000115>A digital file for which the format, encoding, or origin cannot be definitively identified by the system or investigator, necessitating further manual review or specialized software for interpretation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">unknown electronic file type</rdfs:label>
     </owl:Class>
     
