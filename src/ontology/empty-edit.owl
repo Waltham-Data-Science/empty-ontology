@@ -278,6 +278,7 @@ Declaration(Class(obo:EMPTY_0000250))
 Declaration(Class(obo:EMPTY_0000251))
 Declaration(Class(obo:EMPTY_0000252))
 Declaration(Class(obo:EMPTY_0000253))
+Declaration(Class(obo:EMPTY_0000254))
 Declaration(Class(obo:NCIT_C14240))
 Declaration(Class(obo:NCIT_C172272))
 Declaration(Class(obo:NCIT_C179817))
@@ -1962,6 +1963,12 @@ SubClassOf(obo:EMPTY_0000252 obo:EMPTY_0000250)
 AnnotationAssertion(dcterms:description obo:EMPTY_0000253 "C. elegans cell type")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000253 "C. elegans cell type"@en)
 SubClassOf(obo:EMPTY_0000253 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000254 (treatment: ambient delivery of volatile odorant)
+
+AnnotationAssertion(dcterms:description obo:EMPTY_0000254 "Ambient delivery of a volatile odorant.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000254 "treatment: ambient delivery of volatile odorant"@en)
+SubClassOf(obo:EMPTY_0000254 obo:EMPTY_0000189)
 
 
 )
