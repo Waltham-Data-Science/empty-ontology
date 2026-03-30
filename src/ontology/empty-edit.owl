@@ -271,6 +271,13 @@ Declaration(Class(obo:EMPTY_0000243))
 Declaration(Class(obo:EMPTY_0000244))
 Declaration(Class(obo:EMPTY_0000245))
 Declaration(Class(obo:EMPTY_0000246))
+Declaration(Class(obo:EMPTY_0000247))
+Declaration(Class(obo:EMPTY_0000248))
+Declaration(Class(obo:EMPTY_0000249))
+Declaration(Class(obo:EMPTY_0000250))
+Declaration(Class(obo:EMPTY_0000251))
+Declaration(Class(obo:EMPTY_0000252))
+Declaration(Class(obo:EMPTY_0000253))
 Declaration(Class(obo:NCIT_C14240))
 Declaration(Class(obo:NCIT_C172272))
 Declaration(Class(obo:NCIT_C179817))
@@ -959,6 +966,7 @@ SubClassOf(obo:EMPTY_0000096 obo:EMPTY_0000087)
 # Class: obo:EMPTY_0000097 (C. elegans assay parameter)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000097 "A specific parameter related to the experimental setup or conditions of an assay involving the nematode Caenorhabditis elegans.")
+AnnotationAssertion(dcterms:description obo:EMPTY_0000097 "A specific parameter related to fluorescence imaging acquisition, assay,")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000097 "C. elegans assay parameter"@en)
 SubClassOf(obo:EMPTY_0000097 obo:EMPTY_0000080)
 
@@ -1913,6 +1921,47 @@ SubClassOf(obo:EMPTY_0000245 obo:EMPTY_0000239)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000246 "A C. elegans strain with the genotype PT3602; Pnlp-43_hCaspase nZ (array IndEx 9003) and Pklp-6_hCaspase Cz (array IndEx 9004). [Source: https://doi.org/TBD]")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000246 "BAB9005"@en)
 SubClassOf(obo:EMPTY_0000246 obo:EMPTY_0000239)
+
+# Class: obo:EMPTY_0000247 (fluorescence imaging measurement)
+
+AnnotationAssertion(dcterms:description obo:EMPTY_0000247 "fluorescence imaging measurement")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000247 "fluorescence imaging measurement"@en)
+SubClassOf(obo:EMPTY_0000247 obo:EMPTY_0000001)
+
+# Class: obo:EMPTY_0000248 (mean fluorescence intensity)
+
+AnnotationAssertion(dcterms:description obo:EMPTY_0000248 "Mean fluorescence intensity. Usually in Arbitrary Units (AU)")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000248 "mean fluorescence intensity"@en)
+SubClassOf(obo:EMPTY_0000248 obo:EMPTY_0000247)
+
+# Class: obo:EMPTY_0000249 (fluorescent punctal count)
+
+AnnotationAssertion(rdfs:label obo:EMPTY_0000249 "fluorescent punctal count"@en)
+SubClassOf(obo:EMPTY_0000249 obo:EMPTY_0000247)
+
+# Class: obo:EMPTY_0000250 (fluorescence imaging parameter)
+
+AnnotationAssertion(dcterms:description obo:EMPTY_0000250 "A specific parameter related to fluorescence imaging acquisition or assay.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000250 "fluorescence imaging parameter"@en)
+SubClassOf(obo:EMPTY_0000250 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000251 (fluorescence target ontology identifier)
+
+AnnotationAssertion(dcterms:description obo:EMPTY_0000251 "fluorescence target ontology identifier")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000251 "fluorescence target ontology identifier"@en)
+SubClassOf(obo:EMPTY_0000251 obo:EMPTY_0000250)
+
+# Class: obo:EMPTY_0000252 (fluorescence target name)
+
+AnnotationAssertion(dcterms:description obo:EMPTY_0000252 "fluorescence target name")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000252 "fluorescence target name"@en)
+SubClassOf(obo:EMPTY_0000252 obo:EMPTY_0000250)
+
+# Class: obo:EMPTY_0000253 (C. elegans cell type)
+
+AnnotationAssertion(dcterms:description obo:EMPTY_0000253 "C. elegans cell type")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000253 "C. elegans cell type"@en)
+SubClassOf(obo:EMPTY_0000253 obo:EMPTY_0000076)
 
 
 )
