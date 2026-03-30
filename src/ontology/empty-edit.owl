@@ -279,6 +279,7 @@ Declaration(Class(obo:EMPTY_0000251))
 Declaration(Class(obo:EMPTY_0000252))
 Declaration(Class(obo:EMPTY_0000253))
 Declaration(Class(obo:EMPTY_0000254))
+Declaration(Class(obo:EMPTY_0000255))
 Declaration(Class(obo:NCIT_C14240))
 Declaration(Class(obo:NCIT_C172272))
 Declaration(Class(obo:NCIT_C179817))
@@ -1969,6 +1970,12 @@ SubClassOf(obo:EMPTY_0000253 obo:EMPTY_0000076)
 AnnotationAssertion(dcterms:description obo:EMPTY_0000254 "Ambient delivery of a volatile odorant.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000254 "treatment: ambient delivery of volatile odorant"@en)
 SubClassOf(obo:EMPTY_0000254 obo:EMPTY_0000189)
+
+# Class: obo:EMPTY_0000255 (treatment: heat-killed OP50)
+
+AnnotationAssertion(dcterms:description obo:EMPTY_0000255 "organisms treated with heat-killed OP50 E. coli")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000255 "treatment: heat-killed OP50"@en)
+SubClassOf(obo:EMPTY_0000255 obo:EMPTY_0000189)
 
 
 )
