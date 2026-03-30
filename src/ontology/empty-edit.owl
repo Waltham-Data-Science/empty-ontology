@@ -255,6 +255,15 @@ Declaration(Class(obo:EMPTY_0000227))
 Declaration(Class(obo:EMPTY_0000228))
 Declaration(Class(obo:EMPTY_0000229))
 Declaration(Class(obo:EMPTY_0000230))
+Declaration(Class(obo:EMPTY_0000231))
+Declaration(Class(obo:EMPTY_0000232))
+Declaration(Class(obo:EMPTY_0000233))
+Declaration(Class(obo:EMPTY_0000234))
+Declaration(Class(obo:EMPTY_0000235))
+Declaration(Class(obo:EMPTY_0000236))
+Declaration(Class(obo:EMPTY_0000237))
+Declaration(Class(obo:EMPTY_0000238))
+Declaration(Class(obo:EMPTY_0000239))
 Declaration(Class(obo:NCIT_C14240))
 Declaration(Class(obo:NCIT_C172272))
 Declaration(Class(obo:NCIT_C179817))
@@ -1800,6 +1809,61 @@ SubClassOf(obo:EMPTY_0000229 obo:NCIT_C172272)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000230 "A digital file for which the format, encoding, or origin cannot be definitively identified by the system or investigator, necessitating further manual review or specialized software for interpretation.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000230 "unknown electronic file type"@en)
 SubClassOf(obo:EMPTY_0000230 obo:NCIT_C172272)
+
+# Class: obo:EMPTY_0000231 (C. elegans chemotaxis assay parameter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000231 "A parameter that specifies the technical settings, environmental conditions, or experimental design of a chemotaxis assay involving Caenorhabditis elegans.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000231 "C. elegans chemotaxis assay parameter"@en)
+SubClassOf(obo:EMPTY_0000231 obo:EMPTY_0000101)
+
+# Class: obo:EMPTY_0000232 (C. elegans chemotaxis assay parameter: chemoattractant name)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000232 "The common or chemical name of the substance used as a chemoattractant (e.g., isoamyl alcohol, diacetyl) to elicit a directed movement response in C. elegans.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000232 "C. elegans chemotaxis assay parameter: chemoattractant name"@en)
+SubClassOf(obo:EMPTY_0000232 obo:EMPTY_0000231)
+
+# Class: obo:EMPTY_0000233 (C. elegans chemotaxis assay parameter: chemoattractant ontology identifier)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000233 "A unique identifier from an external chemical or biological ontology (e.g., ChEBI) that precisely identifies the chemoattractant used in the assay.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000233 "C. elegans chemotaxis assay parameter: chemoattractant ontology identifier"@en)
+SubClassOf(obo:EMPTY_0000233 obo:EMPTY_0000231)
+
+# Class: obo:EMPTY_0000234 (C. elegans chemotaxis assay parameter: assay duration)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000234 "The total time elapsed from the point at which C. elegans are placed on the assay plate until the movement is arrested or the final positions are recorded. Unit of measure: minutes or seconds.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000234 "C. elegans chemotaxis assay parameter: assay duration"@en)
+SubClassOf(obo:EMPTY_0000234 obo:EMPTY_0000231)
+
+# Class: obo:EMPTY_0000235 (C. elegans chemotaxis assay measurement)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000235 "A quantitative or qualitative value derived from a C. elegans chemotaxis assay, typically describing the efficiency or directionality of the animals' movement toward or away from a chemical source.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000235 "C. elegans chemotaxis assay measurement"@en)
+SubClassOf(obo:EMPTY_0000235 obo:EMPTY_0000100)
+
+# Class: obo:EMPTY_0000236 (C. elegans chemotaxis assay measurement: McCutcheon index)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000236 "A measure of chemotactic efficiency defined as the ratio of the straight-line displacement toward the attractant to the total path length traveled by the organism. Values range from -1 to 1.")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000236 "chemotactic ratio"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000236 "C. elegans chemotaxis assay measurement: McCutcheon index"@en)
+SubClassOf(obo:EMPTY_0000236 obo:EMPTY_0000235)
+
+# Class: obo:EMPTY_0000237 (C. elegans chemotaxis assay measurement: mean velocity)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000237 "The average speed of a C. elegans individual or population during the duration of the chemotaxis assay. Unit of measure: micrometers per second (µm/s).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000237 "C. elegans chemotaxis assay measurement: mean velocity"@en)
+SubClassOf(obo:EMPTY_0000237 obo:EMPTY_0000235)
+
+# Class: obo:EMPTY_0000238 (investigator-defined strain)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000238 "A specific genetic variant or line of an organism designated by the investigator, often containing unique mutations, transgenes, or genomic edits not yet categorized in a public repository.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000238 "investigator-defined strain"@en)
+SubClassOf(obo:EMPTY_0000238 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000239 (C. elegans strain)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000239 "A specific strain of Caenorhabditis elegans, identified by its genotype or a standard nomenclature (e.g., N2, CB4856), used in experimental procedures.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000239 "C. elegans strain"@en)
+SubClassOf(obo:EMPTY_0000239 obo:EMPTY_0000238)
 
 
 )
