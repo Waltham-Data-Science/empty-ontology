@@ -281,6 +281,7 @@ Declaration(Class(obo:EMPTY_0000253))
 Declaration(Class(obo:EMPTY_0000254))
 Declaration(Class(obo:EMPTY_0000255))
 Declaration(Class(obo:EMPTY_0000256))
+Declaration(Class(obo:EMPTY_0000257))
 Declaration(Class(obo:NCBITaxon:637912))
 Declaration(Class(obo:NCIT_C14240))
 Declaration(Class(obo:NCIT_C172272))
@@ -1984,6 +1985,12 @@ SubClassOf(obo:EMPTY_0000255 obo:EMPTY_0000189)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000256 "Method used to transfer C. elegans whereby a titanium pick is used to scoop animals off of an agar plate.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000256 "C. elegans transfer method: titanium pick"@en)
 SubClassOf(obo:EMPTY_0000256 obo:EMPTY_0000189)
+
+# Class: obo:EMPTY_0000257 (C. elegans chemotaxis assay: video recording)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000257 "A video recording capturing the behavior of C. elegans during a chemotaxis assay.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000257 "C. elegans chemotaxis assay: video recording"@en)
+SubClassOf(obo:EMPTY_0000257 obo:EMPTY_0000129)
 
 
 )
