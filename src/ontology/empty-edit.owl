@@ -282,8 +282,12 @@ Declaration(Class(obo:EMPTY_0000254))
 Declaration(Class(obo:EMPTY_0000255))
 Declaration(Class(obo:EMPTY_0000256))
 Declaration(Class(obo:EMPTY_0000257))
+Declaration(Class(obo:EMPTY_0000258))
+Declaration(Class(obo:EMPTY_0000259))
+Declaration(Class(obo:format_1929))
 Declaration(Class(obo:NCBITaxon:637912))
 Declaration(Class(obo:NCIT_C14240))
+Declaration(Class(obo:NCIT_C16856))
 Declaration(Class(obo:NCIT_C172272))
 Declaration(Class(obo:NCIT_C179817))
 Declaration(Class(obo:NCIT_C201530))
@@ -971,7 +975,6 @@ SubClassOf(obo:EMPTY_0000096 obo:EMPTY_0000087)
 # Class: obo:EMPTY_0000097 (C. elegans assay parameter)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000097 "A specific parameter related to the experimental setup or conditions of an assay involving the nematode Caenorhabditis elegans.")
-AnnotationAssertion(dcterms:description obo:EMPTY_0000097 "A specific parameter related to fluorescence imaging acquisition, assay,")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000097 "C. elegans assay parameter"@en)
 SubClassOf(obo:EMPTY_0000097 obo:EMPTY_0000080)
 
@@ -1992,5 +1995,16 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000257 "A video recording capturi
 AnnotationAssertion(rdfs:label obo:EMPTY_0000257 "C. elegans chemotaxis assay: video recording"@en)
 SubClassOf(obo:EMPTY_0000257 obo:EMPTY_0000129)
 
+# Class: obo:EMPTY_0000258 (fluorescence imaging acquisition)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000258 "An image or video acquired using fluorescence microscopy.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000258 "fluorescence imaging acquisition"@en)
+SubClassOf(obo:EMPTY_0000258 obo:NCIT_C16856)
+
+# Class: obo:EMPTY_0000259 (SnapGene file format)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000259 "A .dna file format designed for storing annotated DNA sequences, including linear/circular topology, features, primers, and enzyme sites.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000259 "SnapGene file format"@en)
+SubClassOf(obo:EMPTY_0000259 obo:format_1929)
 
 )
