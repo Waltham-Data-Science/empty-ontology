@@ -1,10 +1,10 @@
 format-version: 1.2
-data-version: empty/releases/2026-02-23/empty-simple.owl
+data-version: empty/releases/2026-04-04/empty-simple.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 remark: EMPTY by NDI is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 ontology: empty/empty-simple
-property_value: owl:versionInfo "2026-02-23" xsd:string
+property_value: owl:versionInfo "2026-04-04" xsd:string
 property_value: owl:versionInfo "Release 2025-07-10" xsd:string
 property_value: terms:description "An ontology of experimental measurements in the sciences, the purposes for which experimental measurements were made, and experimental treatments, with a focus on life sciences." xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
@@ -42,298 +42,298 @@ is_a: EMPTY:0000002 ! behavioral measurement
 [Term]
 id: EMPTY:0000006
 name: elevated plus maze: open arm (north) - entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (North)'. The 'Open Arm (North)' is one of the two open arms, distinguished by its assigned 'north' orientation or designation in the experimental setup. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (North)'. The 'Open Arm (North)' is one of the two open arms, distinguished by its assigned 'north' orientation or designation in the experimental setup. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000007
 name: elevated plus maze: open arm (south) - entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (South)'. The 'Open Arm (South)' is one of the two open arms, distinguished by its assigned 'south' orientation or designation in the experimental setup. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (South)'. The 'Open Arm (South)' is one of the two open arms, distinguished by its assigned 'south' orientation or designation in the experimental setup. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000008
 name: elevated plus maze: open arm total entries
-def: "In the Elevated Plus Maze task, this represents the total number of times the animal's body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). It is a common measure of exploration and anxiety. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this represents the total number of times the animal's body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). It is a common measure of exploration and anxiety. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000009
 name: elevated plus maze: open arm (north) - head entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (North)' zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as 'north'. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (North)' zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as 'north'. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000010
 name: elevated plus maze: open arm (south) - head entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (South)' zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as 'south'. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (South)' zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as 'south'. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000011
 name: elevated plus maze: open arm total head entries
-def: "In the Elevated Plus Maze task, this is the total number of times the animal's head (specifically tracked by the software) enters any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'), considered an indicator of risk-assessment behavior. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this is the total number of times the animal's head (specifically tracked by the software) enters any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'), considered an indicator of risk-assessment behavior. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000012
 name: elevated plus maze: open arm (north) - time
-def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (North)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (North)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000013
 name: elevated plus maze: open arm (south) - time
-def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (South)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000014
 name: elevated plus maze: open arm total time
-def: "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Less time is generally indicative of higher anxiety. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Less time is generally indicative of higher anxiety. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000015
 name: elevated plus maze: open arm total - percent time during test duration
-def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %" []
+def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit: %" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000016
 name: elevated plus maze: open arm (north) - latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (North)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (North)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000017
 name: elevated plus maze: open arm (south) - latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (South)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (South)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000018
 name: elevated plus maze: open arm total latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'). Longer latencies often suggest higher anxiety. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'). Longer latencies often suggest higher anxiety. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000019
 name: elevated plus maze: open arm (north) - time moving towards
-def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (North)' zone, as detected by the tracking software. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (North)' zone, as detected by the tracking software. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000020
 name: elevated plus maze: open arm (south) - time moving towards
-def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (South)' zone, as detected by the tracking software. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (South)' zone, as detected by the tracking software. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000021
 name: elevated plus maze: open arm total time moving towards
-def: "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), reflecting approach motivation. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), reflecting approach motivation. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000022
 name: elevated plus maze: open arm (north) - time freezing
-def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined 'Open Arm (North)' zone. Freezing is a common fear response. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined 'Open Arm (North)' zone. Freezing is a common fear response. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000023
 name: elevated plus maze: open arm (south) - time freezing
-def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Open Arm (South)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000024
 name: elevated plus maze: open arm total time freezing
-def: "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), indicating fear or anxiety. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), indicating fear or anxiety. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000025
 name: elevated plus maze: closed arm (west) - entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (West)' zone, representing the enclosed arm designated as 'west'. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (West)' zone, representing the enclosed arm designated as 'west'. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000026
 name: elevated plus maze: closed arm (east) - entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (East)' zone, representing the enclosed arm designated as 'east'. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (East)' zone, representing the enclosed arm designated as 'east'. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000027
 name: elevated plus maze: closed arm total entries
-def: "In the Elevated Plus Maze task, this is the total number of times the animal's body fully enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). It is often used as an indicator of general locomotor activity. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this is the total number of times the animal's body fully enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). It is often used as an indicator of general locomotor activity. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000028
 name: elevated plus maze: closed arm (west) - head entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (West)' zone. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (West)' zone. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000029
 name: elevated plus maze: closed arm (east) - head entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (East)' zone. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (East)' zone. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000030
 name: elevated plus maze: closed arm total head entries
-def: "In the Elevated Plus Maze task, this is the total number of times the animal's head enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this is the total number of times the animal's head enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000031
 name: elevated plus maze: closed arm (west) - time
-def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000032
 name: elevated plus maze: closed arm (east) - time
-def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000033
 name: elevated plus maze: closed arm total time
-def: "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000034
 name: elevated plus maze: closed arm total - percent time during test duration
-def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: %" []
+def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit: %" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000035
 name: elevated plus maze: closed arm (west) - latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000036
 name: elevated plus maze: closed arm (east) - latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (East)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000037
 name: elevated plus maze: closed arm total latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000038
 name: elevated plus maze: closed arm (west) - time moving towards
-def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (West)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000039
 name: elevated plus maze: closed arm (east) - time moving towards
-def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000040
 name: elevated plus maze: closed arm total time moving towards
-def: "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000041
 name: elevated plus maze: closed arm (west) - time freezing
-def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000042
 name: elevated plus maze: closed arm (east) - time freezing
-def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000043
 name: elevated plus maze: closed arm total time freezing
-def: "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000044
 name: elevated plus maze: center - entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Center' zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Center' zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000045
 name: elevated plus maze: center - head entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Center' zone of the maze. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Center' zone of the maze. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000046
 name: elevated plus maze: center - time
-def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Center' zone. Time in the center can indicate decision-making or risk assessment. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Center' zone. Time in the center can indicate decision-making or risk assessment. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000047
 name: elevated plus maze: center - percent time during test duration
-def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %" []
+def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit: %" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000048
 name: elevated plus maze: center - latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Center' zone. If the animal starts in the center, this value may be zero or not applicable. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Center' zone. If the animal starts in the center, this value may be zero or not applicable. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000049
 name: elevated plus maze: center - time moving towards
-def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Center' zone of the maze (e.g., from an arm). Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Center' zone of the maze (e.g., from an arm). Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000050
 name: elevated plus maze: center - time freezing
-def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Center' zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Center' zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
@@ -352,7 +352,7 @@ is_a: EMPTY:0000084 ! categorical identifier
 [Term]
 id: EMPTY:0000053
 name: fear-potentiated startle: baseline acoustic startle response amplitude
-def: "In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score." []
+def: "In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit: arbitrary units or standardized score." []
 is_a: EMPTY:0000004 ! acoustic startle response measurement
 is_a: EMPTY:0000162 ! amplitude
 
@@ -384,7 +384,7 @@ is_a: EMPTY:0000093 ! fear-potentiated startle parameter
 [Term]
 id: EMPTY:0000058
 name: fear-potentiated startle: apparatus chamber identifier
-def: "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit of measure: count or identifier string" []
+def: "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit: count or identifier string" []
 is_a: EMPTY:0000093 ! fear-potentiated startle parameter
 
 [Term]
@@ -396,40 +396,40 @@ is_a: EMPTY:0000084 ! categorical identifier
 [Term]
 id: EMPTY:0000060
 name: acoustic startle response: number of samples
-def: "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit of measure: count" []
+def: "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit: count" []
 is_a: EMPTY:0000093 ! fear-potentiated startle parameter
 
 [Term]
 id: EMPTY:0000061
 name: acoustic startle response: sampling rate
-def: "The rate at which the analog startle response signal was digitized during data acquisition. Unit of measure: Hertz (Hz)" []
+def: "The rate at which the analog startle response signal was digitized during data acquisition. Unit: Hertz (Hz)" []
 is_a: EMPTY:0000093 ! fear-potentiated startle parameter
 
 [Term]
 id: EMPTY:0000062
 name: acoustic startle response: startle window onset amplitude
-def: "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit of measure: millivolts (mV) or arbitrary units based on transducer calibration." []
+def: "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit: millivolts (mV) or arbitrary units based on transducer calibration." []
 is_a: EMPTY:0000004 ! acoustic startle response measurement
 is_a: EMPTY:0000162 ! amplitude
 
 [Term]
 id: EMPTY:0000063
 name: acoustic startle response: maximum amplitude
-def: "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit of measure: millivolts (mV) or arbitrary units." []
+def: "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit: millivolts (mV) or arbitrary units." []
 is_a: EMPTY:0000004 ! acoustic startle response measurement
 is_a: EMPTY:0000162 ! amplitude
 
 [Term]
 id: EMPTY:0000064
 name: acoustic startle response: time to maximum amplitude
-def: "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit of measure: milliseconds (ms)" []
+def: "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit: milliseconds (ms)" []
 is_a: EMPTY:0000004 ! acoustic startle response measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000065
 name: acoustic startle response: average amplitude
-def: "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit of measure: millivolts (mV) or arbitrary units." []
+def: "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit: millivolts (mV) or arbitrary units." []
 is_a: EMPTY:0000004 ! acoustic startle response measurement
 is_a: EMPTY:0000162 ! amplitude
 
@@ -449,7 +449,7 @@ is_a: EMPTY:0000093 ! fear-potentiated startle parameter
 [Term]
 id: EMPTY:0000068
 name: elevated plus maze: test duration
-def: "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 is_a: EMPTY:0000092 ! elevated plus maze parameter
@@ -1120,13 +1120,13 @@ is_a: EMPTY:0000164 ! contextual fear conditioning parameter
 [Term]
 id: EMPTY:0000175
 name: contextual fear conditioning: time freezing
-def: "The number of seconds the individual spent freezing during a given period of time. Unit of measure: seconds" []
+def: "The number of seconds the individual spent freezing during a given period of time. Unit: seconds" []
 is_a: EMPTY:0000163 ! contextual fear conditioning measurement
 
 [Term]
 id: EMPTY:0000176
 name: contextual fear conditioning: block duration
-def: "In the contextual fear conditioning paradigm, this is the time of the block duration in seconds. Unit of measure: seconds" []
+def: "In the contextual fear conditioning paradigm, this is the time of the block duration in seconds. Unit: seconds" []
 is_a: EMPTY:0000163 ! contextual fear conditioning measurement
 is_a: EMPTY:0000164 ! contextual fear conditioning parameter
 
@@ -1449,4 +1449,170 @@ def: "A non-invasive procedure that uses ultrasound waves to generate real-time 
 id: EMPTY:0000230
 name: unknown electronic file type
 def: "A digital file for which the format, encoding, or origin cannot be definitively identified by the system or investigator, necessitating further manual review or specialized software for interpretation." []
+
+[Term]
+id: EMPTY:0000231
+name: C. elegans chemotaxis assay parameter
+def: "A parameter that specifies the technical settings, environmental conditions, or experimental design of a chemotaxis assay involving Caenorhabditis elegans." []
+is_a: EMPTY:0000101 ! C. elegans behavioral assay parameter
+
+[Term]
+id: EMPTY:0000232
+name: C. elegans chemotaxis assay parameter: chemoattractant mixture table
+def: "A table containing the quantities and identities of all chemicals used as a chemoattractant (e.g., isoamyl alcohol, diacetyl) to elicit a directed movement response in C. elegans." []
+is_a: EMPTY:0000231 ! C. elegans chemotaxis assay parameter
+
+[Term]
+id: EMPTY:0000233
+name: C. elegans chemotaxis assay parameter: chemoattractant mixture volume
+def: "The volume of the chemoattractant mixture pipetted onto the agar plate in a chemotaxis assay. Unit: microliters (μL)." []
+is_a: EMPTY:0000231 ! C. elegans chemotaxis assay parameter
+
+[Term]
+id: EMPTY:0000234
+name: C. elegans chemotaxis assay parameter: assay duration
+def: "The total time elapsed from the point at which C. elegans are placed on the assay plate until the movement is arrested or the final positions are recorded. Unit: minutes." []
+is_a: EMPTY:0000231 ! C. elegans chemotaxis assay parameter
+
+[Term]
+id: EMPTY:0000235
+name: C. elegans chemotaxis assay measurement
+def: "A quantitative or qualitative value derived from a C. elegans chemotaxis assay, typically describing the efficiency or directionality of the animals' movement toward or away from a chemical source." []
+is_a: EMPTY:0000100 ! C. elegans behavioral assay measurement
+
+[Term]
+id: EMPTY:0000236
+name: C. elegans chemotaxis assay measurement: McCutcheon index
+def: "A behavioral measurement of chemotactic efficiency defined as the ratio of the straight-line displacement toward the attractant to the total path length traveled by the organism. Values range from -1 to 1." []
+synonym: "chemotactic ratio" EXACT []
+is_a: EMPTY:0000235 ! C. elegans chemotaxis assay measurement
+
+[Term]
+id: EMPTY:0000237
+name: C. elegans chemotaxis assay measurement: mean velocity
+def: "The average speed of a C. elegans individual or population during the duration of the chemotaxis assay. Unit: micrometers per second (µm/s)." []
+is_a: EMPTY:0000235 ! C. elegans chemotaxis assay measurement
+
+[Term]
+id: EMPTY:0000238
+name: investigator-defined strain
+def: "A specific genetic variant or line of an organism designated by the investigator, often containing unique mutations, transgenes, or genomic edits not yet categorized in a public repository." []
+is_a: EMPTY:0000076 ! descriptor
+
+[Term]
+id: EMPTY:0000239
+name: C. elegans strain
+def: "A specific strain of Caenorhabditis elegans, identified by its genotype or a standard nomenclature (e.g., N2, CB4856), used in experimental procedures." []
+is_a: EMPTY:0000238 ! investigator-defined strain
+
+[Term]
+id: EMPTY:0000240
+name: BAB9001
+def: "A C. elegans strain with the genotype daf-22 (m130). This strain was originally obtained from the Caenorhabditis Genetics Center (CGC) as strain DR476 and subsequently outcrossed three times. [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000241
+name: BAB9002
+def: "A C. elegans klp-6 rescue strain with the genotype klp-6 (my8); Pklp-6::GFP::KLP-6 (array, IndEx 9002). [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000242
+name: TM5848
+def: "A C. elegans strain with the genotype cil-7 (tm5848) I, exhibiting a him phenotype. This strain was obtained from the National BioResource Project (NBRP), Japan. [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000243
+name: PT3602
+def: "A C. elegans strain with the genotype cil-7 (my61[cil-7::mNG])I; him-5(e1490) V. This strain was provided as a gift from the Maureen Barr lab. [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000244
+name: BAB9003
+def: "A C. elegans strain with the genotype PT3602; Pnlp-43_hCaspase nZ (array IndEx 9003). [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000245
+name: BAB9004
+def: "A C. elegans strain with the genotype PT3602; Pklp-6_hCaspase Cz (array IndEx 9004). [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000246
+name: BAB9005
+def: "A C. elegans strain with the genotype PT3602; Pnlp-43_hCaspase nZ (array IndEx 9003) and Pklp-6_hCaspase Cz (array IndEx 9004). [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000247
+name: fluorescence imaging measurement
+def: "fluorescence imaging measurement" []
+is_a: EMPTY:0000001 ! measurement
+
+[Term]
+id: EMPTY:0000248
+name: mean fluorescence intensity
+def: "Mean fluorescence intensity. Unit: arbitrary units (AU)" []
+is_a: EMPTY:0000247 ! fluorescence imaging measurement
+
+[Term]
+id: EMPTY:0000249
+name: fluorescent punctal count
+def: "A quantitative measurement of the number of distinct fluorescent spots or puncta detected within a defined region of interest in a fluorescence image. Unit: count" []
+is_a: EMPTY:0000247 ! fluorescence imaging measurement
+
+[Term]
+id: EMPTY:0000250
+name: fluorescence imaging parameter
+def: "A specific parameter related to fluorescence imaging acquisition or assay." []
+is_a: EMPTY:0000080 ! parameter
+
+[Term]
+id: EMPTY:0000251
+name: fluorescence target ontology identifier
+def: "fluorescence target ontology identifier" []
+is_a: EMPTY:0000250 ! fluorescence imaging parameter
+
+[Term]
+id: EMPTY:0000252
+name: fluorescence target name
+def: "fluorescence target name" []
+is_a: EMPTY:0000250 ! fluorescence imaging parameter
+
+[Term]
+id: EMPTY:0000253
+name: SnapGene file format
+def: "A .dna file format designed for storing annotated DNA sequences, including linear/circular topology, features, primers, and enzyme sites." []
+
+[Term]
+id: EMPTY:0000254
+name: Escherichia coli OP50: heat-killed
+def: "A preparation of Escherichia coli strain OP50 that has been rendered non-viable through the application of heat, typically used as a non-proliferating food source in C. elegans assays." []
+
+[Term]
+id: EMPTY:0000255
+name: C. elegans transfer method: M9 buffer wash
+def: "Method used to transfer C. elegans whereby an M9 buffer is used to wash C. elegans off of an agar plate. Animals can then be transferred using a piper." []
+is_a: EMPTY:0000189 ! treatment
+
+[Term]
+id: EMPTY:0000256
+name: C. elegans transfer method: titanium pick
+def: "Method used to transfer C. elegans whereby a titanium pick is used to scoop animals off of an agar plate." []
+is_a: EMPTY:0000189 ! treatment
+
+[Term]
+id: EMPTY:0000257
+name: C. elegans chemotaxis assay: video recording
+def: "A video recording capturing the behavior of C. elegans during a chemotaxis assay." []
+is_a: EMPTY:0000129 ! C. elegans behavioral assay: video recording
+
+[Term]
+id: EMPTY:0000258
+name: fluorescence imaging data
+def: "An image or video acquired using fluorescence microscopy." []
 
