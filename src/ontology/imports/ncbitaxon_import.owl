@@ -7,11 +7,13 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/empty/imports/ncbitaxon_import.owl>
-<http://purl.obolibrary.org/obo/empty/releases/2026-02-23/imports/ncbitaxon_import.owl>
+<http://purl.obolibrary.org/obo/empty/releases/2026-04-04/imports/ncbitaxon_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncbitaxon/2025-12-03/ncbitaxon.owl>)
-Annotation(owl:versionInfo "2026-02-23")
+Annotation(owl:versionInfo "2026-04-04")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1224>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1236>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_131209>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_131221>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_131567>))
@@ -38,6 +40,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33630>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33682>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3372>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3378>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3379134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3398>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_34346>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_35493>))
@@ -54,12 +57,17 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4895>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4896>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4930>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4932>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_543>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_554915>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_561>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_562>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_5782>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_58023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_58024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_637912>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_716545>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_78536>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91347>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
@@ -87,6 +95,16 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_1> (root)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_1> "root")
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_1224> (Pseudomonadota)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_1224> "Pseudomonadota")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1224> <http://purl.obolibrary.org/obo/NCBITaxon_3379134>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_1236> (Gammaproteobacteria)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_1236> "Gammaproteobacteria")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1236> <http://purl.obolibrary.org/obo/NCBITaxon_1224>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_131209> (Zygnematophyceae)
 
@@ -218,6 +236,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_3372> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_3378> "Gnetales")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_3378> <http://purl.obolibrary.org/obo/NCBITaxon_1445966>)
 
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_3379134> (Pseudomonadati)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_3379134> "Pseudomonadati")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_3379134> <http://purl.obolibrary.org/obo/NCBITaxon_2>)
+
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_3398> (Magnoliopsida)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_3398> "Magnoliopsida")
@@ -298,10 +321,25 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_4930> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_4932> "Saccharomyces cerevisiae")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_4932> <http://purl.obolibrary.org/obo/NCBITaxon_4930>)
 
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_543> (Enterobacteriaceae)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_543> "Enterobacteriaceae")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_543> <http://purl.obolibrary.org/obo/NCBITaxon_91347>)
+
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_554915> (Amoebozoa)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_554915> "Amoebozoa")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_554915> <http://purl.obolibrary.org/obo/NCBITaxon_2759>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_561> (Escherichia)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_561> "Escherichia")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_561> <http://purl.obolibrary.org/obo/NCBITaxon_543>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_562> (Escherichia coli)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_562> "Escherichia coli")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_562> <http://purl.obolibrary.org/obo/NCBITaxon_561>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_5782> (Dictyostelium)
 
@@ -318,6 +356,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_58023> <http://purl.obolibr
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_58024> "Spermatophyta")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_58024> <http://purl.obolibrary.org/obo/NCBITaxon_78536>)
 
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_637912> (Escherichia coli OP50)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_637912> "Escherichia coli OP50")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_637912> <http://purl.obolibrary.org/obo/NCBITaxon_562>)
+
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_716545> (saccharomyceta)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_716545> "saccharomyceta")
@@ -327,6 +370,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_716545> <http://purl.obolib
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_78536> "Euphyllophyta")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_78536> <http://purl.obolibrary.org/obo/NCBITaxon_58023>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_91347> (Enterobacterales)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_91347> "Enterobacterales")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_91347> <http://purl.obolibrary.org/obo/NCBITaxon_1236>)
 
 
 )
