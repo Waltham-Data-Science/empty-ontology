@@ -16,12 +16,12 @@
         "val" : "EMPTY by NDI is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-02-23"
+        "val" : "2026-04-04"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
         "val" : "Release 2025-07-10"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/empty/releases/2026-02-23/empty-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/empty/releases/2026-04-04/empty-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/EMPTY_0000001",
@@ -74,7 +74,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (North)'. The 'Open Arm (North)' is one of the two open arms, distinguished by its assigned 'north' orientation or designation in the experimental setup. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (North)'. The 'Open Arm (North)' is one of the two open arms, distinguished by its assigned 'north' orientation or designation in the experimental setup. Unit: count"
         }
       }
     }, {
@@ -83,7 +83,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (South)'. The 'Open Arm (South)' is one of the two open arms, distinguished by its assigned 'south' orientation or designation in the experimental setup. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (South)'. The 'Open Arm (South)' is one of the two open arms, distinguished by its assigned 'south' orientation or designation in the experimental setup. Unit: count"
         }
       }
     }, {
@@ -92,7 +92,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this represents the total number of times the animal's body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). It is a common measure of exploration and anxiety. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this represents the total number of times the animal's body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). It is a common measure of exploration and anxiety. Unit: count"
         }
       }
     }, {
@@ -101,7 +101,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (North)' zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as 'north'. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (North)' zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as 'north'. Unit: count"
         }
       }
     }, {
@@ -110,7 +110,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (South)' zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as 'south'. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (South)' zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as 'south'. Unit: count"
         }
       }
     }, {
@@ -119,7 +119,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's head (specifically tracked by the software) enters any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'), considered an indicator of risk-assessment behavior. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's head (specifically tracked by the software) enters any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'), considered an indicator of risk-assessment behavior. Unit: count"
         }
       }
     }, {
@@ -128,7 +128,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (North)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (North)' zone. Unit: seconds"
         }
       }
     }, {
@@ -137,7 +137,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (South)' zone. Unit: seconds"
         }
       }
     }, {
@@ -146,7 +146,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Less time is generally indicative of higher anxiety. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Less time is generally indicative of higher anxiety. Unit: seconds"
         }
       }
     }, {
@@ -155,7 +155,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %"
+          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit: %"
         }
       }
     }, {
@@ -164,7 +164,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (North)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (North)' zone. Unit: seconds"
         }
       }
     }, {
@@ -173,7 +173,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (South)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (South)' zone. Unit: seconds"
         }
       }
     }, {
@@ -182,7 +182,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'). Longer latencies often suggest higher anxiety. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'). Longer latencies often suggest higher anxiety. Unit: seconds"
         }
       }
     }, {
@@ -191,7 +191,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (North)' zone, as detected by the tracking software. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (North)' zone, as detected by the tracking software. Unit: seconds"
         }
       }
     }, {
@@ -200,7 +200,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (South)' zone, as detected by the tracking software. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (South)' zone, as detected by the tracking software. Unit: seconds"
         }
       }
     }, {
@@ -209,7 +209,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), reflecting approach motivation. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), reflecting approach motivation. Unit: seconds"
         }
       }
     }, {
@@ -218,7 +218,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined 'Open Arm (North)' zone. Freezing is a common fear response. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined 'Open Arm (North)' zone. Freezing is a common fear response. Unit: seconds"
         }
       }
     }, {
@@ -227,7 +227,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Open Arm (South)' zone. Unit: seconds"
         }
       }
     }, {
@@ -236,7 +236,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), indicating fear or anxiety. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), indicating fear or anxiety. Unit: seconds"
         }
       }
     }, {
@@ -245,7 +245,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (West)' zone, representing the enclosed arm designated as 'west'. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (West)' zone, representing the enclosed arm designated as 'west'. Unit: count"
         }
       }
     }, {
@@ -254,7 +254,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (East)' zone, representing the enclosed arm designated as 'east'. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (East)' zone, representing the enclosed arm designated as 'east'. Unit: count"
         }
       }
     }, {
@@ -263,7 +263,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's body fully enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). It is often used as an indicator of general locomotor activity. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's body fully enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). It is often used as an indicator of general locomotor activity. Unit: count"
         }
       }
     }, {
@@ -272,7 +272,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (West)' zone. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (West)' zone. Unit: count"
         }
       }
     }, {
@@ -281,7 +281,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (East)' zone. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (East)' zone. Unit: count"
         }
       }
     }, {
@@ -290,7 +290,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's head enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's head enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit: count"
         }
       }
     }, {
@@ -299,7 +299,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit: seconds"
         }
       }
     }, {
@@ -308,7 +308,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit: seconds"
         }
       }
     }, {
@@ -317,7 +317,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit: seconds"
         }
       }
     }, {
@@ -326,7 +326,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: %"
+          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit: %"
         }
       }
     }, {
@@ -335,7 +335,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit: seconds"
         }
       }
     }, {
@@ -344,7 +344,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (East)' zone. Unit: seconds"
         }
       }
     }, {
@@ -353,7 +353,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds"
         }
       }
     }, {
@@ -362,7 +362,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (West)' zone. Unit: seconds"
         }
       }
     }, {
@@ -371,7 +371,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit: seconds"
         }
       }
     }, {
@@ -380,7 +380,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds"
         }
       }
     }, {
@@ -389,7 +389,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit: seconds"
         }
       }
     }, {
@@ -398,7 +398,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit: seconds"
         }
       }
     }, {
@@ -407,7 +407,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds"
         }
       }
     }, {
@@ -416,7 +416,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Center' zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Center' zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit: count"
         }
       }
     }, {
@@ -425,7 +425,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Center' zone of the maze. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Center' zone of the maze. Unit: count"
         }
       }
     }, {
@@ -434,7 +434,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Center' zone. Time in the center can indicate decision-making or risk assessment. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Center' zone. Time in the center can indicate decision-making or risk assessment. Unit: seconds"
         }
       }
     }, {
@@ -443,7 +443,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %"
+          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit: %"
         }
       }
     }, {
@@ -452,7 +452,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Center' zone. If the animal starts in the center, this value may be zero or not applicable. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Center' zone. If the animal starts in the center, this value may be zero or not applicable. Unit: seconds"
         }
       }
     }, {
@@ -461,7 +461,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Center' zone of the maze (e.g., from an arm). Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Center' zone of the maze (e.g., from an arm). Unit: seconds"
         }
       }
     }, {
@@ -470,7 +470,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Center' zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Center' zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit: seconds"
         }
       }
     }, {
@@ -497,7 +497,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score."
+          "val" : "In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit: arbitrary units or standardized score."
         }
       }
     }, {
@@ -542,7 +542,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit of measure: count or identifier string"
+          "val" : "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit: count or identifier string"
         }
       }
     }, {
@@ -560,7 +560,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit of measure: count"
+          "val" : "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit: count"
         }
       }
     }, {
@@ -569,7 +569,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The rate at which the analog startle response signal was digitized during data acquisition. Unit of measure: Hertz (Hz)"
+          "val" : "The rate at which the analog startle response signal was digitized during data acquisition. Unit: Hertz (Hz)"
         }
       }
     }, {
@@ -578,7 +578,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit of measure: millivolts (mV) or arbitrary units based on transducer calibration."
+          "val" : "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit: millivolts (mV) or arbitrary units based on transducer calibration."
         }
       }
     }, {
@@ -587,7 +587,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit of measure: millivolts (mV) or arbitrary units."
+          "val" : "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit: millivolts (mV) or arbitrary units."
         }
       }
     }, {
@@ -596,7 +596,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit of measure: milliseconds (ms)"
+          "val" : "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit: milliseconds (ms)"
         }
       }
     }, {
@@ -605,7 +605,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit of measure: millivolts (mV) or arbitrary units."
+          "val" : "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit: millivolts (mV) or arbitrary units."
         }
       }
     }, {
@@ -632,7 +632,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit: seconds"
         }
       }
     }, {
@@ -1609,7 +1609,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The number of seconds the individual spent freezing during a given period of time. Unit of measure: seconds"
+          "val" : "The number of seconds the individual spent freezing during a given period of time. Unit: seconds"
         }
       }
     }, {
@@ -1618,7 +1618,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the contextual fear conditioning paradigm, this is the time of the block duration in seconds. Unit of measure: seconds"
+          "val" : "In the contextual fear conditioning paradigm, this is the time of the block duration in seconds. Unit: seconds"
         }
       }
     }, {
@@ -2097,13 +2097,269 @@
         }
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000231",
+      "lbl" : "C. elegans chemotaxis assay parameter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A parameter that specifies the technical settings, environmental conditions, or experimental design of a chemotaxis assay involving Caenorhabditis elegans."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000232",
+      "lbl" : "C. elegans chemotaxis assay parameter: chemoattractant mixture table",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A table containing the quantities and identities of all chemicals used as a chemoattractant (e.g., isoamyl alcohol, diacetyl) to elicit a directed movement response in C. elegans."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000233",
+      "lbl" : "C. elegans chemotaxis assay parameter: chemoattractant mixture volume",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The volume of the chemoattractant mixture pipetted onto the agar plate in a chemotaxis assay. Unit: microliters (μL)."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000234",
+      "lbl" : "C. elegans chemotaxis assay parameter: assay duration",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The total time elapsed from the point at which C. elegans are placed on the assay plate until the movement is arrested or the final positions are recorded. Unit: minutes."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000235",
+      "lbl" : "C. elegans chemotaxis assay measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A quantitative or qualitative value derived from a C. elegans chemotaxis assay, typically describing the efficiency or directionality of the animals' movement toward or away from a chemical source."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000236",
+      "lbl" : "C. elegans chemotaxis assay measurement: McCutcheon index",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A behavioral measurement of chemotactic efficiency defined as the ratio of the straight-line displacement toward the attractant to the total path length traveled by the organism. Values range from -1 to 1."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "chemotactic ratio"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000237",
+      "lbl" : "C. elegans chemotaxis assay measurement: mean velocity",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The average speed of a C. elegans individual or population during the duration of the chemotaxis assay. Unit: micrometers per second (µm/s)."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000238",
+      "lbl" : "investigator-defined strain",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A specific genetic variant or line of an organism designated by the investigator, often containing unique mutations, transgenes, or genomic edits not yet categorized in a public repository."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000239",
+      "lbl" : "C. elegans strain",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A specific strain of Caenorhabditis elegans, identified by its genotype or a standard nomenclature (e.g., N2, CB4856), used in experimental procedures."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000240",
+      "lbl" : "BAB9001",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans strain with the genotype daf-22 (m130). This strain was originally obtained from the Caenorhabditis Genetics Center (CGC) as strain DR476 and subsequently outcrossed three times. [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000241",
+      "lbl" : "BAB9002",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans klp-6 rescue strain with the genotype klp-6 (my8); Pklp-6::GFP::KLP-6 (array, IndEx 9002). [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000242",
+      "lbl" : "TM5848",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans strain with the genotype cil-7 (tm5848) I, exhibiting a him phenotype. This strain was obtained from the National BioResource Project (NBRP), Japan. [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000243",
+      "lbl" : "PT3602",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans strain with the genotype cil-7 (my61[cil-7::mNG])I; him-5(e1490) V. This strain was provided as a gift from the Maureen Barr lab. [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000244",
+      "lbl" : "BAB9003",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans strain with the genotype PT3602; Pnlp-43_hCaspase nZ (array IndEx 9003). [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000245",
+      "lbl" : "BAB9004",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans strain with the genotype PT3602; Pklp-6_hCaspase Cz (array IndEx 9004). [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000246",
+      "lbl" : "BAB9005",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans strain with the genotype PT3602; Pnlp-43_hCaspase nZ (array IndEx 9003) and Pklp-6_hCaspase Cz (array IndEx 9004). [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000247",
+      "lbl" : "fluorescence imaging measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "fluorescence imaging measurement"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000248",
+      "lbl" : "mean fluorescence intensity",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mean fluorescence intensity. Unit: arbitrary units (AU)"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000249",
+      "lbl" : "fluorescent punctal count",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A quantitative measurement of the number of distinct fluorescent spots or puncta detected within a defined region of interest in a fluorescence image. Unit: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000250",
+      "lbl" : "fluorescence imaging parameter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A specific parameter related to fluorescence imaging acquisition or assay."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000251",
+      "lbl" : "fluorescence target ontology identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "fluorescence target ontology identifier"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000252",
+      "lbl" : "fluorescence target name",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "fluorescence target name"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000253",
+      "lbl" : "SnapGene file format",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A .dna file format designed for storing annotated DNA sequences, including linear/circular topology, features, primers, and enzyme sites."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000254",
+      "lbl" : "Escherichia coli OP50: heat-killed",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A preparation of Escherichia coli strain OP50 that has been rendered non-viable through the application of heat, typically used as a non-proliferating food source in C. elegans assays."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000255",
+      "lbl" : "C. elegans transfer method: M9 buffer wash",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Method used to transfer C. elegans whereby an M9 buffer is used to wash C. elegans off of an agar plate. Animals can then be transferred using a piper."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000256",
+      "lbl" : "C. elegans transfer method: titanium pick",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Method used to transfer C. elegans whereby a titanium pick is used to scoop animals off of an agar plate."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000257",
+      "lbl" : "C. elegans chemotaxis assay: video recording",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A video recording capturing the behavior of C. elegans during a chemotaxis assay."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000258",
+      "lbl" : "fluorescence imaging data",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An image or video acquired using fluorescence microscopy."
+        }
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
       "lbl" : "textual definition",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION",
       "meta" : {
         "definition" : {
-          "val" : "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."
+          "val" : "The official definition."
         }
       }
     }, {
@@ -3298,6 +3554,106 @@
       "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000225",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000083"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000231",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000101"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000232",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000231"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000233",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000231"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000234",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000231"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000235",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000100"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000236",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000235"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000237",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000235"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000238",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000076"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000239",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000238"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000240",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000241",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000242",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000243",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000244",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000245",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000246",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000247",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000248",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000249",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000250",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000080"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000251",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000250"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000252",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000250"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000255",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000189"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000256",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000189"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000257",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000129"
     } ]
   } ]
 }

@@ -16,12 +16,12 @@
         "val" : "EMPTY by NDI is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-02-23"
+        "val" : "2026-04-04"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
         "val" : "Release 2025-07-10"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/empty/releases/2026-02-23/empty.json"
+      "version" : "http://purl.obolibrary.org/obo/empty/releases/2026-04-04/empty.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000001",
@@ -129,7 +129,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Elementary particle not affected by the strong force having a spin 1/2, a negative elementary charge and a rest mass of 0.000548579903(13) u, or 0.51099906(15) MeV."
+          "val" : "Elementary particle not affected by the strong force having a spin ½, a negative elementary charge and a rest mass of 0.000548579903(13) u, or 0.51099906(15) MeV."
         }
       }
     }, {
@@ -138,7 +138,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any bacterial metabolite produced during a metabolic reaction in Mycoplasma genitalium."
+          "val" : "Any bacterial metabolite produced during a metabolic reaction in <em>Mycoplasma genitalium</em>."
         }
       }
     }, {
@@ -165,7 +165,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any steroid that has beta-configuration at position 5."
+          "val" : "Any steroid that has β-configuration at position 5."
         }
       }
     }, {
@@ -174,7 +174,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A Bronsted acid derived from one or more inorganic compounds. Inorganic acids (also known as mineral acids) form hydrons and conjugate base ions when dissolved in water."
+          "val" : "A Brønsted acid derived from one or more inorganic compounds. Inorganic acids (also known as mineral acids) form hydrons and conjugate base ions when dissolved in water."
         }
       }
     }, {
@@ -183,7 +183,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any member of a group of hydroxy steroids occuring in bile, where they are present as the sodium salts of their amides with glycine or taurine. In mammals bile acids almost invariably have 5beta-configuration, while in lower vertebrates, some bile acids, known as allo-bile acids, have 5alpha-configuration."
+          "val" : "Any member of a group of hydroxy steroids occuring in bile, where they are present as the sodium salts of their amides with glycine or taurine. In mammals bile acids almost invariably have 5β-configuration, while in lower vertebrates, some bile acids, known as <i>allo</i>-bile acids, have 5α-configuration."
         }
       }
     }, {
@@ -192,7 +192,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any main group molecular entity that is gaseous at standard temperature and pressure (STP; 0degreeC and 100 kPa)."
+          "val" : "Any main group molecular entity that is gaseous at standard temperature and pressure (STP; 0°C and 100 kPa)."
         }
       }
     }, {
@@ -214,7 +214,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An antigenic epitope recognized by an anti-bilirubin monoclonal antibody designated 24G7. A substructure of bilirubin IXalpha, it is the region containing the oxo group at C-1, the methyl group at C-2, C-(4, 5, 6, 9), and N-21 and -22."
+          "val" : "An antigenic epitope recognized by an anti-bilirubin monoclonal antibody designated 24G7. A substructure of bilirubin IXα, it is the region containing the oxo group at C-1, the methyl group at C-2, C-(4, 5, 6, 9), and N-21 and -22."
         }
       }
     }, {
@@ -223,7 +223,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An alpha-amino-acid anion that is the conjugate base of glutamic acid, having anionic carboxy groups and a cationic amino group"
+          "val" : "An α-amino-acid anion that is the conjugate base of glutamic acid, having anionic carboxy groups and a cationic amino group"
         }
       }
     }, {
@@ -254,6 +254,15 @@
         }
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_15378",
+      "lbl" : "hydron",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The general name for the hydrogen nucleus, to be used without regard to the hydrogen nuclear mass (either for hydrogen in its natural abundance or where it is not desired to distinguish between the isotopes)."
+        }
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_15379",
       "lbl" : "dioxygen",
       "type" : "CLASS"
@@ -263,7 +272,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Aldehydic parent sugars (polyhydroxy aldehydes H[CH(OH)]nC(=O)H, n >= 2) and their intramolecular hemiacetals."
+          "val" : "Aldehydic parent sugars (polyhydroxy aldehydes H[CH(OH)]<small><sub><em>n</em></sub></small>C(=O)H, <em>n</em> ≥ 2) and their intramolecular hemiacetals."
         }
       }
     }, {
@@ -272,7 +281,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any alpha-amino acid having L-configuration at the alpha-carbon."
+          "val" : "Any α-amino acid having <small>L</small>-configuration at the α-carbon."
         }
       }
     }, {
@@ -290,7 +299,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An optically active form of glutamic acid having D-configuration."
+          "val" : "An optically active form of glutamic acid having <small>D</small>-configuration."
         }
       }
     }, {
@@ -308,7 +317,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An optically active form of glutamic acid having L-configuration."
+          "val" : "An optically active form of glutamic acid having <small>L</small>-configuration."
         }
       }
     }, {
@@ -368,7 +377,12 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_166902",
       "lbl" : "noradrenaline(1+)",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An organic cation that is the conjugate acid of noradrenaline, obtained by protonation of the primary amino group; major species at pH 7.3."
+        }
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_16733",
       "lbl" : "D-alpha-amino acid",
@@ -397,7 +411,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A gamma-amino acid that is butanoic acid with the amino substituent located at C-4."
+          "val" : "A γ-amino acid that is butanoic acid with the amino substituent located at C-4."
         }
       }
     }, {
@@ -415,7 +429,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A compound in which a carbonyl group is bonded to two carbon atoms: R2C=O (neither R may be H)."
+          "val" : "A compound in which a carbonyl group is bonded to two carbon atoms: R<small><sub>2</sub></small>C=O (neither R may be H)."
         }
       }
     }, {
@@ -460,7 +474,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any D-aldose having a chain of six carbon atoms in the molecule."
+          "val" : "Any <small>D</small>-aldose having a chain of six carbon atoms in the molecule."
         }
       }
     }, {
@@ -469,7 +483,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A glucose with D-configuration."
+          "val" : "A glucose with <small>D</small>-configuration."
         }
       }
     }, {
@@ -541,7 +555,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An alpha-amino acid that is glutaric acid bearing a single amino substituent at position 2."
+          "val" : "An α-amino acid that is glutaric acid bearing a single amino substituent at position 2."
         }
       }
     }, {
@@ -559,7 +573,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The R-enantiomer of noradrenaline."
+          "val" : "The <i>R</i>-enantiomer of noradrenaline."
         }
       }
     }, {
@@ -616,7 +630,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A molecular entity having an available pair of electrons capable of forming a covalent bond with a hydron (Bronsted base) or with the vacant orbital of some other molecular entity (Lewis base)."
+          "val" : "A molecular entity having an available pair of electrons capable of forming a covalent bond with a hydron (Brønsted base) or with the vacant orbital of some other molecular entity (Lewis base)."
         }
       }
     }, {
@@ -629,7 +643,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any compound that produces a peak used as reference frequency in the delta chemical shift scale."
+          "val" : "Any compound that produces a peak used as reference frequency in the δ chemical shift scale."
         }
       }
     }, {
@@ -673,6 +687,15 @@
         }
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_234420",
+      "lbl" : "(S)-noradrenaline(1+)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An organic cation that is the conjugate acid of (<i>S</i>)-noradrenaline, obtained by protonation of the primary amino group; major species at pH 7.3."
+        }
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_23449",
       "lbl" : "cyclic peptide",
       "type" : "CLASS"
@@ -704,7 +727,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An L-alpha-amino acid which is L-glutamic acid or any of the essential amino acids biosynthesised from it (glutamine, proline and arginine). A closed class."
+          "val" : "An <small>L</small>-α-amino acid which is <small>L</small>-glutamic acid or any of the essential amino acids biosynthesised from it (glutamine, proline and arginine). A closed class."
         }
       }
     }, {
@@ -713,7 +736,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An EC 6.3.* (C-N bond-forming ligase) inhibitor that interferes with the action of glutamate--ammonia ligase (EC 6.3.1.2)."
+          "val" : "An EC 6.3.* (<em>C</em>‒<em>N</em> bond-forming ligase) inhibitor that interferes with the action of glutamate—ammonia ligase (EC 6.3.1.2)."
         }
       }
     }, {
@@ -789,7 +812,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Hydroxides are chemical compounds containing a hydroxy group or salts containing hydroxide (OH(-))."
+          "val" : "Hydroxides are chemical compounds containing a hydroxy group or salts containing hydroxide (OH<small><sup>−</small></sup>)."
         }
       }
     }, {
@@ -798,7 +821,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any member of the class of 5beta-cholanic acids carrying at least one hydroxy group at unspecified position."
+          "val" : "Any member of the class of 5β-cholanic acids carrying at least one hydroxy group at unspecified position."
         }
       }
     }, {
@@ -903,7 +926,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A group of neurotransmitters and neuromodulators that contain one amino group that is connected to an aromatic ring by ethylene group  (-CH2-CH2-). Monoamines are derived from the aromatic amino acids phenylalanine, tyrosine, histidine and tryptophan."
+          "val" : "A group of neurotransmitters and neuromodulators that contain one amino group that is connected to an aromatic ring by ethylene group  (‒CH<small><sub>2</sub></small>‒CH<small><sub>2</sub></small>‒). Monoamines are derived from the aromatic amino acids phenylalanine, tyrosine, histidine and tryptophan."
         }
       }
     }, {
@@ -1017,7 +1040,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An aliphatic monocarboxylic acid with a chain length of less than C6. If any non-hydrocarbon substituent is present, the compound is not normally regarded as a short-chain fatty acid."
+          "val" : "An aliphatic monocarboxylic acid with a chain length of less than C<small><sub>6</sub></small>. If any non-hydrocarbon substituent is present, the compound is not normally regarded as a short-chain fatty acid."
         }
       }
     }, {
@@ -1140,7 +1163,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A polydisperse, highly branched glucan composed of chains of D-glucopyranose residues in alpha(1->4) glycosidic linkage, joined together by alpha(1->6) glycosidic linkages. A small number of alpha(1->3) glycosidic linkages and some cumulative alpha(1->6) links also may occur. The branches in glycogen typically contain 8 to 12 glucose residues."
+          "val" : "A polydisperse, highly branched glucan composed of chains of <small>D</small>-glucopyranose residues in α(1→4) glycosidic linkage, joined together by α(1→6) glycosidic linkages. A small number of α(1→3) glycosidic linkages and some cumulative α(1→6) links also may occur. The branches in glycogen typically contain 8 to 12 glucose residues."
         }
       }
     }, {
@@ -1233,7 +1256,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An alpha-amino-acid anion that is the conjugate base of L-glutamic acid, having anionic carboxy groups and a cationic amino group"
+          "val" : "An α-amino-acid anion that is the conjugate base of <small>L</small>-glutamic acid, having anionic carboxy groups and a cationic amino group"
         }
       }
     }, {
@@ -1242,7 +1265,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An alpha-amino-acid anion that is the conjugate base of D-glutamic acid, having anionic carboxy groups and a cationic amino group"
+          "val" : "An α-amino-acid anion that is the conjugate base of <small>D</small>-glutamic acid, having anionic carboxy groups and a cationic amino group"
         }
       }
     }, {
@@ -1251,7 +1274,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A dicarboxylic acid dianion that is the conjugate base of glutamate(1-)."
+          "val" : "A dicarboxylic acid dianion that is the conjugate base of glutamate(1−)."
         }
       }
     }, {
@@ -1260,7 +1283,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An L-alpha-amino acid anion that is the dianion obtained by the deprotonation of the both the carboxy groups of L-glutamic acid."
+          "val" : "An <small>L</small>-α-amino acid anion that is the dianion obtained by the deprotonation of the both the carboxy groups of <small>L</small>-glutamic acid."
         }
       }
     }, {
@@ -1291,7 +1314,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An gamma-amino acid anion resulting from the deprotonation of the carboxy group of gamma-aminobutyric acid."
+          "val" : "An γ-amino acid anion resulting from the deprotonation of the carboxy group of γ-aminobutyric acid."
         }
       }
     }, {
@@ -1309,7 +1332,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any member of a group of hydroxy-5beta-cholanic acids occuring in bile, where they are present as the sodium salts of their amides with glycine or taurine. In mammals bile acids almost invariably have 5beta-configuration."
+          "val" : "Any member of a group of hydroxy-5β-cholanic acids occuring in bile, where they are present as the sodium salts of their amides with glycine or taurine. In mammals bile acids almost invariably have 5β-configuration."
         }
       }
     }, {
@@ -1411,6 +1434,10 @@
         }
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33251",
+      "lbl" : "monoatomic hydrogen",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_33252",
       "lbl" : "atomic nucleus",
       "type" : "CLASS",
@@ -1446,6 +1473,10 @@
           "val" : "A molecular entity all atoms of which have the same atomic number."
         }
       }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33260",
+      "lbl" : "elemental hydrogen",
+      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_33262",
       "lbl" : "elemental oxygen",
@@ -1549,7 +1580,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An ester of a carboxylic acid, R(1)C(=O)OR(2), where R(1) = H or organyl and R(2) = organyl."
+          "val" : "An ester of a carboxylic acid, R<small><sup>1</small></sup>C(=O)OR<small><sup>2</small></sup>, where R<small><sup>1</small></sup> = H or organyl and R<small><sup>2</small></sup> = organyl."
         }
       }
     }, {
@@ -1600,7 +1631,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An amino-acid anion obtained by deprotonation of any alpha-amino acid."
+          "val" : "An amino-acid anion obtained by deprotonation of any α-amino acid."
         }
       }
     }, {
@@ -1622,7 +1653,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any compound containing an o-diphenol component."
+          "val" : "Any compound containing an <em>o</em>-diphenol component."
         }
       }
     }, {
@@ -1653,7 +1684,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The S-enantiomer of noradrenaline."
+          "val" : "The <i>S</i>-enantiomer of noradrenaline."
         }
       }
     }, {
@@ -1662,7 +1693,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A carbon oxoacid acid carrying at least one -C(=O)OH group and having the structure RC(=O)OH, where R is any any monovalent functional group. Carboxylic acids are the most common type of organic acid."
+          "val" : "A carbon oxoacid acid carrying at least one ‒C(=O)OH group and having the structure RC(=O)OH, where R is any any monovalent functional group. Carboxylic acids are the most common type of organic acid."
         }
       }
     }, {
@@ -1710,7 +1741,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A cyclically conjugated molecular entity with a stability (due to delocalization) significantly greater than that of a hypothetical localized structure (e.g. Kekule structure) is said to possess aromatic character."
+          "val" : "A cyclically conjugated molecular entity with a stability (due to delocalization) significantly greater than that of a hypothetical localized structure (e.g. Kekulé structure) is said to possess aromatic character."
         }
       }
     }, {
@@ -1820,7 +1851,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An amino acid in which the amino group is located on the carbon atom at the position alpha to the carboxy group."
+          "val" : "An amino acid in which the amino group is located on the carbon atom at the position α to the carboxy group."
         }
       }
     }, {
@@ -1829,7 +1860,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A non-proteinogenic amino-acid in which the amino group is located on the carbon atom at the position gamma to the carboxy group."
+          "val" : "A non-proteinogenic amino-acid in which the amino group is located on the carbon atom at the position γ to the carboxy group."
         }
       }
     }, {
@@ -1856,7 +1887,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An amino-acid residue derived from an alpha-amino acid."
+          "val" : "An amino-acid residue derived from an α-amino acid."
         }
       }
     }, {
@@ -1903,7 +1934,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A heterocyclic compound formally derived from an arene by replacement of one or more methine (-C=) and/or vinylene (-CH=CH-) groups by trivalent or divalent heteroatoms, respectively, in such a way as to maintain the continuous pi-electron system characteristic of aromatic systems and a number of out-of-plane pi-electrons corresponding to the Hueckel rule (4n+2)."
+          "val" : "A heterocyclic compound formally derived from an arene by replacement of one or more methine (‒C=) and/or vinylene (‒CH=CH‒) groups by trivalent or divalent heteroatoms, respectively, in such a way as to maintain the continuous π-electron system characteristic of aromatic systems and a number of out-of-plane π-electrons corresponding to the Hückel rule (4<em>n</em>+2)."
         }
       }
     }, {
@@ -2019,7 +2050,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A derivative of ammonium, NH4(+), in which all four of the hydrogens bonded to nitrogen have been replaced with univalent (usually organyl) groups."
+          "val" : "A derivative of ammonium, NH<small><sub>4</sub></small><small><sup>+</small></sup>, in which all four of the hydrogens bonded to nitrogen have been replaced with univalent (usually organyl) groups."
         }
       }
     }, {
@@ -2028,7 +2059,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A derivative of ammonium, NH4(+), in which one (or more) of the hydrogens bonded to the nitrogen have been replaced with univalent organyl groups. The substituting carbon of the organyl group must not itself be directly attached to a heteroatom (thereby excluding protonated amides, hemiaminals, etc)."
+          "val" : "A derivative of ammonium, NH<small><sub>4</sub></small><small><sup>+</small></sup>, in which one (or more) of the hydrogens bonded to the nitrogen have been replaced with univalent organyl groups. The substituting carbon of the organyl group must not itself be directly attached to a heteroatom (thereby excluding protonated amides, hemiaminals, etc)."
         }
       }
     }, {
@@ -2077,7 +2108,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Parent monosaccharides are polyhydroxy aldehydes H[CH(OH)]nC(=O)H or polyhydroxy ketones H-[CHOH]n-C(=O)[CHOH]m-H with three or more carbon atoms. The generic term 'monosaccharide' (as opposed to oligosaccharide or polysaccharide) denotes a single unit, without glycosidic connection to other such units. It includes aldoses, dialdoses, aldoketoses, ketoses and diketoses, as well as deoxy sugars, provided that the parent compound has a (potential) carbonyl group."
+          "val" : "Parent monosaccharides are polyhydroxy aldehydes H[CH(OH)]<small><sub><em>n</em></sub></small>C(=O)H or polyhydroxy ketones H‒[CHOH]<small><sub><em>n</em></sub></small>‒C(=O)[CHOH]<small><sub><em>m</em></sub></small>‒H with three or more carbon atoms. The generic term 'monosaccharide' (as opposed to oligosaccharide or polysaccharide) denotes a single unit, without glycosidic connection to other such units. It includes aldoses, dialdoses, aldoketoses, ketoses and diketoses, as well as deoxy sugars, provided that the parent compound has a (potential) carbonyl group."
         }
       }
     }, {
@@ -2138,7 +2169,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An agent that selectively binds to and activates alpha-adrenergic receptors."
+          "val" : "An agent that selectively binds to and activates α-adrenergic receptors."
         }
       }
     }, {
@@ -2147,7 +2178,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A negative ion consisting solely of carbon and oxygen  atoms, and therefore having the general formula CxOy(n-) for some integers x, y and n."
+          "val" : "A negative ion consisting solely of carbon and oxygen  atoms, and therefore having the general formula C<small><sub><em>x</em></sub></small>O<small><sub><em>y</em></sub></small><small><sup><em>n</em>−</small></sup> for some integers <em>x</em>, <em>y</em> and <em>n</em>."
         }
       }
     }, {
@@ -2251,7 +2282,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Members of the class of cholanic acids based on a 5beta-cholane skeleton."
+          "val" : "Members of the class of cholanic acids based on a 5β-cholane skeleton."
         }
       }
     }, {
@@ -2273,7 +2304,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Lepton is a fermion that does not experience the strong force (strong interaction). The term is derived from the Greek lambdaepsilonpitauomicronsigma (small, thin)."
+          "val" : "Lepton is a fermion that does not experience the strong force (strong interaction). The term is derived from the Greek λεπτοσ (small, thin)."
         }
       }
     }, {
@@ -2282,7 +2313,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Baryon is a fermion that does experience the strong force (strong interaction). The term is derived from the Greek betaalpharhoupsilonsigma (heavy)."
+          "val" : "Baryon is a fermion that does experience the strong force (strong interaction). The term is derived from the Greek βαρυσ (heavy)."
         }
       }
     }, {
@@ -2476,7 +2507,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An acid is a molecular entity capable of donating a hydron (Bronsted acid) or capable of forming a covalent bond with an electron pair (Lewis acid)."
+          "val" : "An acid is a molecular entity capable of donating a hydron (Brønsted acid) or capable of forming a covalent bond with an electron pair (Lewis acid)."
         }
       }
     }, {
@@ -2494,7 +2525,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An amide of a carboxylic acid, having the structure RC(=O)NR2. The term is used as a suffix in systematic name formation to denote the -C(=O)NH2 group including its carbon atom."
+          "val" : "An amide of a carboxylic acid, having the structure RC(=O)NR<small><sub>2</sub></small>. The term is used as a suffix in systematic name formation to denote the ‒C(=O)NH<small><sub>2</sub></small> group including its carbon atom."
         }
       }
     }, {
@@ -2617,7 +2648,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A molecular entity capable of donating a hydron to an acceptor (Bronsted base)."
+          "val" : "A molecular entity capable of donating a hydron to an acceptor (Brønsted base)."
         }
       }
     }, {
@@ -2626,7 +2657,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A molecular entity capable of accepting a hydron from a donor (Bronsted acid)."
+          "val" : "A molecular entity capable of accepting a hydron from a donor (Brønsted acid)."
         }
       }
     }, {
@@ -2657,7 +2688,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A glucopyranose having D-configuration."
+          "val" : "A glucopyranose having <small>D</small>-configuration."
         }
       }
     }, {
@@ -2666,7 +2697,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A hexose that has D-configuration at position 5."
+          "val" : "A hexose that has <small>D</small>-configuration at position 5."
         }
       }
     }, {
@@ -2740,7 +2771,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any drug that acts on an alpha-adrenergic receptor."
+          "val" : "Any drug that acts on an α-adrenergic receptor."
         }
       }
     }, {
@@ -2943,7 +2974,12 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_52211",
       "lbl" : "physiological role",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A biological role relating to the normal mechanisms and their interactions within a living system."
+        }
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_52217",
       "lbl" : "pharmaceutical",
@@ -3040,7 +3076,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any fatty acid anion obtained by removal of a proton from the carboxy group of a short-chain fatty acid (chain length of less than C6)."
+          "val" : "Any fatty acid anion obtained by removal of a proton from the carboxy group of a short-chain fatty acid (chain length of less than C<small><sub>6</sub></small>)."
         }
       }
     }, {
@@ -3049,7 +3085,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any fatty acid anion in which there is no C-C unsaturation."
+          "val" : "Any fatty acid anion in which there is no C‒C unsaturation."
         }
       }
     }, {
@@ -3067,7 +3103,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An organic anion of general formula RS(=O)2O(-) where R is an organyl group."
+          "val" : "An organic anion of general formula RS(=O)2O(−) where R is an organyl group."
         }
       }
     }, {
@@ -3112,7 +3148,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Conjugate base of an L-alpha-amino acid arising from deprotonation of the C-1 carboxy group."
+          "val" : "Conjugate base of an <small>L</small>-α-amino acid arising from deprotonation of the C-1 carboxy group."
         }
       }
     }, {
@@ -3121,7 +3157,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Zwitterionic form of an L-alpha-amino acid having an anionic carboxy group and a protonated amino group."
+          "val" : "Zwitterionic form of an <small>L</small>-α-amino acid having an anionic carboxy group and a protonated amino group."
         }
       }
     }, {
@@ -3130,7 +3166,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Zwitterionic form of a D-alpha-amino acid having an anionic carboxy group and a protonated amino group."
+          "val" : "Zwitterionic form of a <small>D</small>-α-amino acid having an anionic carboxy group and a protonated amino group."
         }
       }
     }, {
@@ -3139,7 +3175,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Zwitterionic form of gamma-aminobutyric acid having an anionic carboxy group and a protonated amino group."
+          "val" : "Zwitterionic form of γ-aminobutyric acid having an anionic carboxy group and a protonated amino group."
         }
       }
     }, {
@@ -3202,7 +3238,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any alpha-amino acid anion in which the parent amino acid has D-configuration."
+          "val" : "Any α-amino acid anion in which the parent amino acid has <small>D</small>-configuration."
         }
       }
     }, {
@@ -3337,7 +3373,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An organic molecular entity containing a single carbon atom (C1)."
+          "val" : "An organic molecular entity containing a single carbon atom (C<small><sub>1</sub></small>)."
         }
       }
     }, {
@@ -3454,7 +3490,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An amino-acid anion in which the amino group is situated gamma- to the carboxylate group."
+          "val" : "An amino-acid anion in which the amino group is situated γ- to the carboxylate group."
         }
       }
     }, {
@@ -3463,7 +3499,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An organic cation that is the conjugate acid of (R)-noradrenaline, obtained by protonation of the priamry amino group; major species at pH 7.3."
+          "val" : "An organic cation that is the conjugate acid of (<i>R</i>)-noradrenaline, obtained by protonation of the primary amino group; major species at pH 7.3."
         }
       }
     }, {
@@ -3508,7 +3544,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A ligase inhibitor that interferes with the action of a C-N bond-forming ligase (EC 6.3.*.*)."
+          "val" : "A ligase inhibitor that interferes with the action of a <em>C</em>‒<em>N</em> bond-forming ligase (EC 6.3.*.*)."
         }
       }
     }, {
@@ -3616,7 +3652,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An EC 6.3.* (C-N bond-forming ligase) inhibitor that interferes with the action of any acid-ammonia (or amine) ligase (EC 6.3.1.*)."
+          "val" : "An EC 6.3.* (<em>C</em>‒<em>N</em> bond-forming ligase) inhibitor that interferes with the action of any acid-ammonia (or amine) ligase (EC 6.3.1.*)."
         }
       }
     }, {
@@ -3724,7 +3760,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An amino acid-zwitterion obtained by transfer of a proton from the carboxy to the amino group of any alpha-amino acid; major species at pH 7.3."
+          "val" : "An amino acid-zwitterion obtained by transfer of a proton from the carboxy to the amino group of any α-amino acid; major species at pH 7.3."
         }
       }
     }, {
@@ -3796,7 +3832,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any of the 23 alpha-amino acids that are precursors to proteins, and are incorporated into proteins during translation. The group includes the 20 amino acids encoded by the nuclear genes of eukaryotes together with selenocysteine, pyrrolysine, and N-formylmethionine. Apart from glycine, which is non-chiral, all have L configuration."
+          "val" : "Any of the 23 α-amino acids that are precursors to proteins, and are incorporated into proteins during translation. The group includes the 20 amino acids encoded by the nuclear genes of eukaryotes together with selenocysteine, pyrrolysine, and <em>N</em>-formylmethionine. Apart from glycine, which is non-chiral, all have <small>L</small> configuration."
         }
       }
     }, {
@@ -3814,7 +3850,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any  alpha-amino acid which is not a member of the group of 23 proteinogenic amino acids."
+          "val" : "Any  α-amino acid which is not a member of the group of 23 proteinogenic amino acids."
         }
       }
     }, {
@@ -7724,7 +7760,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (North)'. The 'Open Arm (North)' is one of the two open arms, distinguished by its assigned 'north' orientation or designation in the experimental setup. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (North)'. The 'Open Arm (North)' is one of the two open arms, distinguished by its assigned 'north' orientation or designation in the experimental setup. Unit: count"
         }
       }
     }, {
@@ -7733,7 +7769,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (South)'. The 'Open Arm (South)' is one of the two open arms, distinguished by its assigned 'south' orientation or designation in the experimental setup. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (South)'. The 'Open Arm (South)' is one of the two open arms, distinguished by its assigned 'south' orientation or designation in the experimental setup. Unit: count"
         }
       }
     }, {
@@ -7742,7 +7778,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this represents the total number of times the animal's body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). It is a common measure of exploration and anxiety. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this represents the total number of times the animal's body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). It is a common measure of exploration and anxiety. Unit: count"
         }
       }
     }, {
@@ -7751,7 +7787,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (North)' zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as 'north'. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (North)' zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as 'north'. Unit: count"
         }
       }
     }, {
@@ -7760,7 +7796,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (South)' zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as 'south'. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (South)' zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as 'south'. Unit: count"
         }
       }
     }, {
@@ -7769,7 +7805,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's head (specifically tracked by the software) enters any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'), considered an indicator of risk-assessment behavior. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's head (specifically tracked by the software) enters any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'), considered an indicator of risk-assessment behavior. Unit: count"
         }
       }
     }, {
@@ -7778,7 +7814,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (North)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (North)' zone. Unit: seconds"
         }
       }
     }, {
@@ -7787,7 +7823,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (South)' zone. Unit: seconds"
         }
       }
     }, {
@@ -7796,7 +7832,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Less time is generally indicative of higher anxiety. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Less time is generally indicative of higher anxiety. Unit: seconds"
         }
       }
     }, {
@@ -7805,7 +7841,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %"
+          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit: %"
         }
       }
     }, {
@@ -7814,7 +7850,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (North)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (North)' zone. Unit: seconds"
         }
       }
     }, {
@@ -7823,7 +7859,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (South)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (South)' zone. Unit: seconds"
         }
       }
     }, {
@@ -7832,7 +7868,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'). Longer latencies often suggest higher anxiety. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'). Longer latencies often suggest higher anxiety. Unit: seconds"
         }
       }
     }, {
@@ -7841,7 +7877,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (North)' zone, as detected by the tracking software. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (North)' zone, as detected by the tracking software. Unit: seconds"
         }
       }
     }, {
@@ -7850,7 +7886,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (South)' zone, as detected by the tracking software. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (South)' zone, as detected by the tracking software. Unit: seconds"
         }
       }
     }, {
@@ -7859,7 +7895,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), reflecting approach motivation. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), reflecting approach motivation. Unit: seconds"
         }
       }
     }, {
@@ -7868,7 +7904,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined 'Open Arm (North)' zone. Freezing is a common fear response. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined 'Open Arm (North)' zone. Freezing is a common fear response. Unit: seconds"
         }
       }
     }, {
@@ -7877,7 +7913,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Open Arm (South)' zone. Unit: seconds"
         }
       }
     }, {
@@ -7886,7 +7922,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), indicating fear or anxiety. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), indicating fear or anxiety. Unit: seconds"
         }
       }
     }, {
@@ -7895,7 +7931,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (West)' zone, representing the enclosed arm designated as 'west'. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (West)' zone, representing the enclosed arm designated as 'west'. Unit: count"
         }
       }
     }, {
@@ -7904,7 +7940,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (East)' zone, representing the enclosed arm designated as 'east'. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (East)' zone, representing the enclosed arm designated as 'east'. Unit: count"
         }
       }
     }, {
@@ -7913,7 +7949,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's body fully enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). It is often used as an indicator of general locomotor activity. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's body fully enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). It is often used as an indicator of general locomotor activity. Unit: count"
         }
       }
     }, {
@@ -7922,7 +7958,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (West)' zone. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (West)' zone. Unit: count"
         }
       }
     }, {
@@ -7931,7 +7967,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (East)' zone. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (East)' zone. Unit: count"
         }
       }
     }, {
@@ -7940,7 +7976,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's head enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this is the total number of times the animal's head enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit: count"
         }
       }
     }, {
@@ -7949,7 +7985,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit: seconds"
         }
       }
     }, {
@@ -7958,7 +7994,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit: seconds"
         }
       }
     }, {
@@ -7967,7 +8003,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit: seconds"
         }
       }
     }, {
@@ -7976,7 +8012,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: %"
+          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit: %"
         }
       }
     }, {
@@ -7985,7 +8021,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit: seconds"
         }
       }
     }, {
@@ -7994,7 +8030,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (East)' zone. Unit: seconds"
         }
       }
     }, {
@@ -8003,7 +8039,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds"
         }
       }
     }, {
@@ -8012,7 +8048,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (West)' zone. Unit: seconds"
         }
       }
     }, {
@@ -8021,7 +8057,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit: seconds"
         }
       }
     }, {
@@ -8030,7 +8066,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds"
         }
       }
     }, {
@@ -8039,7 +8075,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit: seconds"
         }
       }
     }, {
@@ -8048,7 +8084,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit: seconds"
         }
       }
     }, {
@@ -8057,7 +8093,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds"
         }
       }
     }, {
@@ -8066,7 +8102,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Center' zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Center' zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit: count"
         }
       }
     }, {
@@ -8075,7 +8111,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Center' zone of the maze. Unit of measure: count"
+          "val" : "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Center' zone of the maze. Unit: count"
         }
       }
     }, {
@@ -8084,7 +8120,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Center' zone. Time in the center can indicate decision-making or risk assessment. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Center' zone. Time in the center can indicate decision-making or risk assessment. Unit: seconds"
         }
       }
     }, {
@@ -8093,7 +8129,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %"
+          "val" : "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit: %"
         }
       }
     }, {
@@ -8102,7 +8138,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Center' zone. If the animal starts in the center, this value may be zero or not applicable. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Center' zone. If the animal starts in the center, this value may be zero or not applicable. Unit: seconds"
         }
       }
     }, {
@@ -8111,7 +8147,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Center' zone of the maze (e.g., from an arm). Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Center' zone of the maze (e.g., from an arm). Unit: seconds"
         }
       }
     }, {
@@ -8120,7 +8156,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Center' zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Center' zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit: seconds"
         }
       }
     }, {
@@ -8147,7 +8183,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score."
+          "val" : "In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit: arbitrary units or standardized score."
         }
       }
     }, {
@@ -8192,7 +8228,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit of measure: count or identifier string"
+          "val" : "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit: count or identifier string"
         }
       }
     }, {
@@ -8210,7 +8246,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit of measure: count"
+          "val" : "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit: count"
         }
       }
     }, {
@@ -8219,7 +8255,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The rate at which the analog startle response signal was digitized during data acquisition. Unit of measure: Hertz (Hz)"
+          "val" : "The rate at which the analog startle response signal was digitized during data acquisition. Unit: Hertz (Hz)"
         }
       }
     }, {
@@ -8228,7 +8264,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit of measure: millivolts (mV) or arbitrary units based on transducer calibration."
+          "val" : "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit: millivolts (mV) or arbitrary units based on transducer calibration."
         }
       }
     }, {
@@ -8237,7 +8273,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit of measure: millivolts (mV) or arbitrary units."
+          "val" : "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit: millivolts (mV) or arbitrary units."
         }
       }
     }, {
@@ -8246,7 +8282,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit of measure: milliseconds (ms)"
+          "val" : "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit: milliseconds (ms)"
         }
       }
     }, {
@@ -8255,7 +8291,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit of measure: millivolts (mV) or arbitrary units."
+          "val" : "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit: millivolts (mV) or arbitrary units."
         }
       }
     }, {
@@ -8282,7 +8318,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit of measure: seconds"
+          "val" : "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit: seconds"
         }
       }
     }, {
@@ -9259,7 +9295,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The number of seconds the individual spent freezing during a given period of time. Unit of measure: seconds"
+          "val" : "The number of seconds the individual spent freezing during a given period of time. Unit: seconds"
         }
       }
     }, {
@@ -9268,7 +9304,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "In the contextual fear conditioning paradigm, this is the time of the block duration in seconds. Unit of measure: seconds"
+          "val" : "In the contextual fear conditioning paradigm, this is the time of the block duration in seconds. Unit: seconds"
         }
       }
     }, {
@@ -9744,6 +9780,262 @@
       "meta" : {
         "definition" : {
           "val" : "A digital file for which the format, encoding, or origin cannot be definitively identified by the system or investigator, necessitating further manual review or specialized software for interpretation."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000231",
+      "lbl" : "C. elegans chemotaxis assay parameter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A parameter that specifies the technical settings, environmental conditions, or experimental design of a chemotaxis assay involving Caenorhabditis elegans."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000232",
+      "lbl" : "C. elegans chemotaxis assay parameter: chemoattractant mixture table",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A table containing the quantities and identities of all chemicals used as a chemoattractant (e.g., isoamyl alcohol, diacetyl) to elicit a directed movement response in C. elegans."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000233",
+      "lbl" : "C. elegans chemotaxis assay parameter: chemoattractant mixture volume",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The volume of the chemoattractant mixture pipetted onto the agar plate in a chemotaxis assay. Unit: microliters (μL)."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000234",
+      "lbl" : "C. elegans chemotaxis assay parameter: assay duration",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The total time elapsed from the point at which C. elegans are placed on the assay plate until the movement is arrested or the final positions are recorded. Unit: minutes."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000235",
+      "lbl" : "C. elegans chemotaxis assay measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A quantitative or qualitative value derived from a C. elegans chemotaxis assay, typically describing the efficiency or directionality of the animals' movement toward or away from a chemical source."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000236",
+      "lbl" : "C. elegans chemotaxis assay measurement: McCutcheon index",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A behavioral measurement of chemotactic efficiency defined as the ratio of the straight-line displacement toward the attractant to the total path length traveled by the organism. Values range from -1 to 1."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "chemotactic ratio"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000237",
+      "lbl" : "C. elegans chemotaxis assay measurement: mean velocity",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The average speed of a C. elegans individual or population during the duration of the chemotaxis assay. Unit: micrometers per second (µm/s)."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000238",
+      "lbl" : "investigator-defined strain",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A specific genetic variant or line of an organism designated by the investigator, often containing unique mutations, transgenes, or genomic edits not yet categorized in a public repository."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000239",
+      "lbl" : "C. elegans strain",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A specific strain of Caenorhabditis elegans, identified by its genotype or a standard nomenclature (e.g., N2, CB4856), used in experimental procedures."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000240",
+      "lbl" : "BAB9001",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans strain with the genotype daf-22 (m130). This strain was originally obtained from the Caenorhabditis Genetics Center (CGC) as strain DR476 and subsequently outcrossed three times. [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000241",
+      "lbl" : "BAB9002",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans klp-6 rescue strain with the genotype klp-6 (my8); Pklp-6::GFP::KLP-6 (array, IndEx 9002). [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000242",
+      "lbl" : "TM5848",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans strain with the genotype cil-7 (tm5848) I, exhibiting a him phenotype. This strain was obtained from the National BioResource Project (NBRP), Japan. [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000243",
+      "lbl" : "PT3602",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans strain with the genotype cil-7 (my61[cil-7::mNG])I; him-5(e1490) V. This strain was provided as a gift from the Maureen Barr lab. [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000244",
+      "lbl" : "BAB9003",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans strain with the genotype PT3602; Pnlp-43_hCaspase nZ (array IndEx 9003). [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000245",
+      "lbl" : "BAB9004",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans strain with the genotype PT3602; Pklp-6_hCaspase Cz (array IndEx 9004). [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000246",
+      "lbl" : "BAB9005",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A C. elegans strain with the genotype PT3602; Pnlp-43_hCaspase nZ (array IndEx 9003) and Pklp-6_hCaspase Cz (array IndEx 9004). [Source: https://doi.org/TBD]"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000247",
+      "lbl" : "fluorescence imaging measurement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "fluorescence imaging measurement"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000248",
+      "lbl" : "mean fluorescence intensity",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Mean fluorescence intensity. Unit: arbitrary units (AU)"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000249",
+      "lbl" : "fluorescent punctal count",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A quantitative measurement of the number of distinct fluorescent spots or puncta detected within a defined region of interest in a fluorescence image. Unit: count"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000250",
+      "lbl" : "fluorescence imaging parameter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A specific parameter related to fluorescence imaging acquisition or assay."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000251",
+      "lbl" : "fluorescence target ontology identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "fluorescence target ontology identifier"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000252",
+      "lbl" : "fluorescence target name",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "fluorescence target name"
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000253",
+      "lbl" : "SnapGene file format",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A .dna file format designed for storing annotated DNA sequences, including linear/circular topology, features, primers, and enzyme sites."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000254",
+      "lbl" : "Escherichia coli OP50: heat-killed",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A preparation of Escherichia coli strain OP50 that has been rendered non-viable through the application of heat, typically used as a non-proliferating food source in C. elegans assays."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000255",
+      "lbl" : "C. elegans transfer method: M9 buffer wash",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Method used to transfer C. elegans whereby an M9 buffer is used to wash C. elegans off of an agar plate. Animals can then be transferred using a piper."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000256",
+      "lbl" : "C. elegans transfer method: titanium pick",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Method used to transfer C. elegans whereby a titanium pick is used to scoop animals off of an agar plate."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000257",
+      "lbl" : "C. elegans chemotaxis assay: video recording",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A video recording capturing the behavior of C. elegans during a chemotaxis assay."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/EMPTY_0000258",
+      "lbl" : "fluorescence imaging data",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An image or video acquired using fluorescence microscopy."
         }
       }
     }, {
@@ -15959,6 +16251,10 @@
       "lbl" : "zygote asymmetric cell division",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0010155",
+      "lbl" : "regulation of proton transport",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0010160",
       "lbl" : "formation of animal organ boundary",
       "type" : "CLASS",
@@ -16959,14 +17255,6 @@
       "lbl" : "response to stimulus involved in regulation of muscle adaptation",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0014878",
-      "lbl" : "response to electrical stimulus involved in regulation of muscle adaptation",
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0014879",
-      "lbl" : "detection of electrical stimulus involved in regulation of muscle adaptation",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0014887",
       "lbl" : "cardiac muscle adaptation",
       "type" : "CLASS"
@@ -17022,6 +17310,19 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "ion transporter activity"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0015078",
+      "lbl" : "proton transmembrane transporter activity",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "hydrogen ion transmembrane transporter activity"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "proton transporter activity"
         } ]
       }
     }, {
@@ -24603,7 +24904,11 @@
       "meta" : {
         "definition" : {
           "val" : "Any constituent part of a virion, a complete fully infectious extracellular virus particle."
-        }
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "virion part"
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0044458",
@@ -29825,10 +30130,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0050952",
-      "lbl" : "sensory perception of electrical stimulus",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0050953",
       "lbl" : "sensory perception of light stimulus",
       "type" : "CLASS"
@@ -29843,19 +30144,6 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "perception of mechanical stimulus"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0050956",
-      "lbl" : "electroception",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "electroception sense"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "electroceptive sense"
         } ]
       }
     }, {
@@ -29881,66 +30169,6 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "sensory transduction of light stimulus during sensory perception"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0050963",
-      "lbl" : "detection of electrical stimulus involved in sensory perception",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "sensory detection of electrical stimulus"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "sensory detection of electrical stimulus during sensory perception"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "sensory perception, sensory detection of electrical stimulus"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "sensory perception, sensory transduction of electrical stimulus"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "sensory transduction of electrical stimulus"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "sensory transduction of electrical stimulus during sensory perception"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0050964",
-      "lbl" : "detection of electrical stimulus involved in electroception",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "electroception, detection of electrical stimulus"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "electroception, sensory detection of electrical stimulus"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "electroception, sensory transduction"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "electroception, sensory transduction of electrical stimulus"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0050967",
-      "lbl" : "detection of electrical stimulus involved in sensory perception of pain",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "perception of pain, detection of electrical stimulus"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "perception of pain, sensory detection of electrical stimulus"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "perception of pain, sensory transduction of electrical stimulus"
         } ]
       }
     }, {
@@ -29984,10 +30212,6 @@
           "val" : "tactition"
         } ]
       }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0050981",
-      "lbl" : "detection of electrical stimulus",
-      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0050994",
       "lbl" : "regulation of lipid catabolic process",
@@ -31051,10 +31275,6 @@
           "val" : "upregulation of neurotransmitter transport"
         } ]
       }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/GO_0051602",
-      "lbl" : "response to electrical stimulus",
-      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0051606",
       "lbl" : "detection of stimulus",
@@ -35961,6 +36181,16 @@
       "lbl" : "plasma membrane bounded cell projection",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0120029",
+      "lbl" : "proton export across plasma membrane",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "hydrogen ion export across plasma membrane"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0120031",
       "lbl" : "plasma membrane bounded cell projection assembly",
       "type" : "CLASS"
@@ -37574,6 +37804,19 @@
       "id" : "http://purl.obolibrary.org/obo/GO_1902570",
       "lbl" : "protein localization to nucleolus",
       "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_1902600",
+      "lbl" : "proton transmembrane transport",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "hydrogen ion transmembrane transport"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hydrogen transmembrane transport"
+        } ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/GO_1902679",
       "lbl" : "negative regulation of RNA biosynthetic process",
@@ -40667,6 +40910,14 @@
       "lbl" : "Lophotrochozoa",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1224",
+      "lbl" : "Pseudomonadota",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1236",
+      "lbl" : "Gammaproteobacteria",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_124129",
       "lbl" : "Acipenserinae",
       "type" : "CLASS"
@@ -40841,9 +41092,6 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "eucaryotes"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "eukaryotes"
         } ]
       }
@@ -40958,6 +41206,9 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "animals"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "metazoans"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
@@ -41003,6 +41254,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_3378",
       "lbl" : "Gnetales",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_3379134",
+      "lbl" : "Pseudomonadati",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_3398",
@@ -41151,6 +41406,10 @@
       "lbl" : "Insecta",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_543",
+      "lbl" : "Enterobacteriaceae",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_554915",
       "lbl" : "Amoebozoa",
       "type" : "CLASS"
@@ -41161,6 +41420,14 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_55885",
       "lbl" : "Peloderinae",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_561",
+      "lbl" : "Escherichia",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_562",
+      "lbl" : "Escherichia coli",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_5782",
@@ -41221,6 +41488,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_6362",
       "lbl" : "Sabellida",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_637912",
+      "lbl" : "Escherichia coli OP50",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_6656",
@@ -41444,6 +41715,10 @@
       "lbl" : "Craniata <chordates>",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_91347",
+      "lbl" : "Enterobacterales",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9254",
       "lbl" : "Prototheria",
       "type" : "CLASS"
@@ -41528,8 +41803,20 @@
       "lbl" : "Other Organism Groupings",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "lbl" : "Clinical or Research Activity",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C16847",
       "lbl" : "Technique",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C16853",
+      "lbl" : "Microscopy",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C16856",
+      "lbl" : "Fluorescence Microscopy",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C17187",
@@ -41540,8 +41827,16 @@
       "lbl" : "Electronic File Content Type",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C17369",
+      "lbl" : "Imaging Procedure",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C179817",
       "lbl" : "Velocity",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C17995",
+      "lbl" : "Light Microscopy",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C18141",
@@ -41600,12 +41895,20 @@
       "lbl" : "Temperature",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "lbl" : "Clinical Intervention or Procedure",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C25284",
       "lbl" : "Type",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C25285",
       "lbl" : "Diameter",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "lbl" : "Laboratory Procedure",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C25335",
@@ -41698,6 +42001,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C73706",
       "lbl" : "Spatial Qualifier",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C74957",
+      "lbl" : "Mixed Category Laboratory Procedure",
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C85776",
@@ -44551,6 +44858,10 @@
       "lbl" : "processual entity",
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000001",
+      "lbl" : "gross anatomical part",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0000005",
       "lbl" : "chemosensory organ",
       "type" : "CLASS"
@@ -44765,6 +45076,9 @@
       "lbl" : "anatomical structure",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome."
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "biological structure"
@@ -55592,19 +55906,6 @@
       "lbl" : "pseudostratified ciliated columnar epithelium",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0010521",
-      "lbl" : "electroreceptor organ",
-      "type" : "CLASS",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "electric sense organ"
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "electroreception organ"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0010522",
       "lbl" : "replacement element",
       "type" : "CLASS"
@@ -58545,6 +58846,10 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_8850001",
+      "lbl" : "epithelium of anorectum",
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000001",
       "lbl" : "length unit",
       "type" : "CLASS"
@@ -58583,6 +58888,12 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/UO_0000280",
       "lbl" : "rate unit",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/format_1929",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon:637912",
       "type" : "CLASS"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#ObsoleteClass",
@@ -61133,6 +61444,89 @@
         }
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0018030",
+      "lbl" : "chemical relationship",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "lbl" : "is deprotonated form of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "A is a deprotonated form of B if and only if A is chemical entity that is a Brønsted–Lowry Base (i.e., can receive a proton) and by adding some nonzero number of protons transforms it into B.\n\nThis is a transitive relationship and follows this design pattern: https://oborel.github.io/obo-relations/direct-and-indirect-relations."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "lbl" : "is protonated form of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "A is a protonated form of B if and only if A is chemical entity that is a Brønsted–Lowry Acid (i.e., can give up a proton) and by removing some nonzero number of protons transforms it into B.\n\nThis is a transitive relationship and follows this design pattern: https://oborel.github.io/obo-relations/direct-and-indirect-relations."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0018036",
+      "lbl" : "is tautomer of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "Two chemicals are tautomers if they can be readily interconverted.\n\nThis commonly refers to prototropy in which a hydrogen's position is changed, such as between ketones and enols. This is also often observed in heterocyclic rings, e.g., ones containing nitrogens and/or have aryl functional groups containing heteroatoms."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "is desmotrope of"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0018037",
+      "lbl" : "is substitutent group from",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "Group A is a substituent group from Chemical B if A represents the functional part of A and includes information about where it is connected. A is not itself a chemical with a fully formed chemical graph, but is rather a partial graph with one or more connection points that can be used to attach to another chemical graph, typically as a functionalization."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "lbl" : "has functional parent",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "Chemical A has functional parent Chemical B if there is chemical transformation through which chemical B can be produced from chemical A. \n\nFor example, the relationship between a salt and a freebased compound is a \"has functional parent\" relationship."
+        }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0018039",
+      "lbl" : "is enantiomer of",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "Chemicals A and B are enantiomers if they share the same molecular graph except the change of the configuration of substituents around exactly one chiral center.\n\nA chemical with no chiral centers can not have an enantiomer. A chemical with multiple chiral centers can have multiple enantiomers, but its enantiomers are not themselves enantiomers (they are diastereomers)."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "is optical isomer of"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0018040",
+      "lbl" : "has parent hydride",
+      "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
+      "meta" : {
+        "definition" : {
+          "val" : "Chemical A has parent hydride Chemical B if there exists a molecular graphical transformation where functional groups on A are replaced with hydrogens in order to yield B."
+        }
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0019000",
       "lbl" : "regulates characteristic",
       "type" : "PROPERTY",
@@ -61230,10 +61624,6 @@
       "propertyType" : "OBJECT"
     }, {
       "id" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
-      "type" : "PROPERTY",
-      "propertyType" : "OBJECT"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/chebi#is_enantiomer_of",
       "type" : "PROPERTY",
       "propertyType" : "OBJECT"
     }, {
@@ -64469,7 +64859,7 @@
       "propertyType" : "ANNOTATION",
       "meta" : {
         "definition" : {
-          "val" : "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."
+          "val" : "The official definition."
         }
       }
     }, {
@@ -64594,6 +64984,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_63551"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_132153",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16336"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_132153",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16336"
     }, {
@@ -64626,6 +65020,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_37022"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_13941",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_28616"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_13941",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_28616"
     }, {
@@ -64634,7 +65032,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_26666"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_140601",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_78115"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_142163",
@@ -64654,12 +65052,12 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_78675"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_14321",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29987"
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_18237"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_14321",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_18237"
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29987"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15339",
       "pred" : "is_a",
@@ -64718,8 +65116,28 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_83056"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15366",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_30089"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15366",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_30089"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15378",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25414"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15378",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33251"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15378",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33252"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15378",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_60242"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15379",
       "pred" : "is_a",
@@ -64762,6 +65180,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77974"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15379",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29793"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15379",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29793"
     }, {
@@ -64774,11 +65196,11 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33704"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15705",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_59814"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15705",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_tautomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_59869"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15841",
@@ -64802,11 +65224,11 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_76971"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15966",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29986"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15966",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_enantiomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018039",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15986",
@@ -64854,11 +65276,11 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_76971"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16015",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29985"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16015",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_enantiomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018039",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_15966"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16134",
@@ -64898,6 +65320,14 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_78433"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16134",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_28938"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16134",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29337"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16134",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29337"
     }, {
@@ -64930,6 +65360,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16189",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_45696"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16189",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_45696"
     }, {
@@ -64944,6 +65378,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16336",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16336",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_132153"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16336",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
@@ -64978,6 +65416,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33708"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16670",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_60466"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16670",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_tautomer_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_60466"
     }, {
@@ -64990,7 +65432,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35274"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_166902",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33569"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16733",
@@ -64998,11 +65440,11 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_83925"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16733",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_60895"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16733",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_tautomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_59871"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_167559",
@@ -65038,6 +65480,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16765",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_57887"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16765",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_57887"
     }, {
@@ -65066,16 +65512,16 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16865",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_30772"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16865",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_30566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16865",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_tautomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_59888"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16865",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_30772"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16990",
       "pred" : "is_a",
@@ -65102,7 +65548,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16990",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_57977"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17087",
@@ -65154,12 +65600,12 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17544",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_41609"
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_28976"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17544",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_28976"
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_41609"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17608",
       "pred" : "is_a",
@@ -65198,7 +65644,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17968",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_30772"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_18059",
@@ -65242,7 +65688,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_78675"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_18237",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_14321"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_18282",
@@ -65274,11 +65720,11 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_75771"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_18357",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_72587"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_18357",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_enantiomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018039",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33571"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_20664",
@@ -65362,6 +65808,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_27207"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_23004",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018037",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_28616"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_23004",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_substituent_group_from",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_28616"
     }, {
@@ -65376,6 +65826,18 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_23367",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_234420",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_166902"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_234420",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33571"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_234420",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018039",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_72587"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_23449",
       "pred" : "is_a",
@@ -65459,7 +65921,11 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_24636",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36342"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_15378"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24636",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33253"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_24636",
       "pred" : "is_a",
@@ -65490,7 +65956,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36248"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_24663",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36238"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_24828",
@@ -65532,10 +65998,6 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_24866",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_22563"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24866",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36916"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_24867",
       "pred" : "is_a",
@@ -65594,6 +66056,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33575"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_25384",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35757"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25384",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35757"
     }, {
@@ -65650,6 +66116,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_26820"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_25704",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_58958"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25704",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_58958"
     }, {
@@ -65694,7 +66164,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33709"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_26167",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_tautomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_62031"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_26607",
@@ -65706,7 +66176,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35366"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_26666",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_58951"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_26708",
@@ -65790,6 +66260,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35223"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_26836",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_45696"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_26836",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_45696"
     }, {
@@ -65866,6 +66340,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_76971"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_28616",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_13941"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_28616",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_13941"
     }, {
@@ -65902,6 +66380,14 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_28790",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_350546"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_28790",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16765"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_28790",
       "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16765"
     }, {
@@ -65918,7 +66404,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35757"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_28868",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35366"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_28938",
@@ -65950,6 +66436,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_28938",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16134"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_28938",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16134"
     }, {
@@ -65974,7 +66464,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_75771"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_28976",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_17544"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29067",
@@ -65984,6 +66474,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29067",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35406"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29067",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33575"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29067",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
@@ -66022,6 +66516,14 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_79389"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29337",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16134"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29337",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29340"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29337",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29340"
     }, {
@@ -66038,12 +66540,20 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_79388"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29340",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29337"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29340",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29337"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29793",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33693"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29793",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_15379"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29793",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
@@ -66066,15 +66576,15 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29985",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29988"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29985",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29985",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_enantiomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29988"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29985",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018039",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29986"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29986",
@@ -66082,15 +66592,15 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_14321"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29986",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29989"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29986",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_15966"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29986",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_enantiomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29989"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29986",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018039",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29985"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29987",
@@ -66102,7 +66612,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_78675"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29987",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_14321"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29988",
@@ -66114,11 +66624,11 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_59814"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29988",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29985"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29988",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_enantiomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018039",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29989"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29989",
@@ -66126,11 +66636,11 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29987"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29989",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29986"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29989",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_enantiomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018039",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29988"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_30089",
@@ -66144,6 +66654,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_30089",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_30089",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_15366"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_30089",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
@@ -66162,12 +66676,12 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_30566",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_17968"
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16865"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_30566",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16865"
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_17968"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_30772",
       "pred" : "is_a",
@@ -66186,7 +66700,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_84087"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_30772",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_17968"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_3098",
@@ -66222,6 +66736,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_37577"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33241",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24833"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33241",
       "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24833"
     }, {
@@ -66250,6 +66768,14 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24433"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33247",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_64769"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33247",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_64775"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33247",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_64775"
     }, {
@@ -66267,11 +66793,15 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33250",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_10545"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33250",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33252"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33251",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33238"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33251",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33260"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33252",
       "pred" : "is_a",
@@ -66296,6 +66826,18 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33259",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_23367"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33260",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24835"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33260",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33259"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33260",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33608"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33262",
       "pred" : "is_a",
@@ -66434,6 +66976,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_37022"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33558",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33558",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33704"
     }, {
@@ -66466,7 +67012,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_76967"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33569",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_166902"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33570",
@@ -66478,7 +67024,11 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33569"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33571",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_enantiomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_234420"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33571",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018039",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_18357"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33575",
@@ -66496,6 +67046,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33575",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_46883"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33575",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29067"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33575",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
@@ -66524,10 +67078,6 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33608",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33674"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33608",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_49637"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33635",
       "pred" : "is_a",
@@ -66568,10 +67118,6 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33674",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33579"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33674",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33559"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33675",
       "pred" : "is_a",
@@ -66650,12 +67196,28 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33702"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33703",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33709"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33703",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33709"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33704",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33709"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33704",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33719"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33704",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33558"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33704",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_78608"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33704",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
@@ -66674,12 +67236,24 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_83820"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33707",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_71666"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33708",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33708",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_58942"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33708",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_64898"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33708",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018037",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33709"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33708",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
@@ -66702,6 +67276,14 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50047"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33709",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33703"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33709",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_37022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33709",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_37022"
     }, {
@@ -66714,12 +67296,20 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33708"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33710",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018037",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33710",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_substituent_group_from",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33704"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33719",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33703"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33719",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33704"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33719",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
@@ -66734,12 +67324,20 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33575"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33720",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33721"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33720",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33721"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33721",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33721",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33720"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33721",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
@@ -66826,6 +67424,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_350546",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_28790"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_350546",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_28790"
     }, {
@@ -66870,6 +67472,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_51143"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35274",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018040",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_28938"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35274",
       "pred" : "http://purl.obolibrary.org/obo/chebi#has_parent_hydride",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_28938"
     }, {
@@ -66910,7 +67516,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_25384"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35366",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_28868"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35381",
@@ -67006,7 +67612,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33575"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35692",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35693"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35693",
@@ -67014,7 +67620,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29067"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35693",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35692"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35701",
@@ -67046,6 +67652,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29067"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35757",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25384"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35757",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_25384"
     }, {
@@ -67070,7 +67680,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35341"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36078",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#has_parent_hydride",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018040",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35519"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36080",
@@ -67122,7 +67732,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36278"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36248",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#has_parent_hydride",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018040",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_20664"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36277",
@@ -67278,6 +67888,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35352"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_37022",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33709"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_37022",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33709"
     }, {
@@ -67338,12 +67952,20 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33424"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_37826",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_26836"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_37826",
       "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_26836"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_37838",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_22221"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_37838",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018037",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33575"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_37838",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_substituent_group_from",
@@ -67450,7 +68072,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_59202"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_39418",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_58954"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_41609",
@@ -67458,7 +68080,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35604"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_41609",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_17544"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_4167",
@@ -67498,6 +68120,14 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33482"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_45696",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_26836"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_45696",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16189"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_45696",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16189"
     }, {
@@ -67526,6 +68156,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33308"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_47622",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_15366"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_47622",
       "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_15366"
     }, {
@@ -67538,7 +68172,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_64709"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_47891",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50160"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_48154",
@@ -67594,6 +68228,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_39142"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018040",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16134"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_50047",
       "pred" : "http://purl.obolibrary.org/obo/chebi#has_parent_hydride",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16134"
     }, {
@@ -67602,7 +68240,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29067"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50160",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_47891"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50297",
@@ -67664,6 +68302,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50994",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50047"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_50994",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_65296"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50994",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
@@ -67766,6 +68408,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_57887",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16765"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_57887",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16765"
     }, {
@@ -67782,12 +68428,16 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_57977",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16990"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_58942",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_64769"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_58942",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33708"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_58942",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
@@ -67798,7 +68448,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_28868"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_58951",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_26666"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_58953",
@@ -67810,7 +68460,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_58953"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_58954",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_39418"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_58958",
@@ -67820,6 +68470,14 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_58958",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33482"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_58958",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25704"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_58958",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16189"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_58958",
       "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
@@ -67834,7 +68492,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35366"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59202",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_59203"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59203",
@@ -67842,7 +68500,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_28868"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59203",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_59202"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59252",
@@ -67862,7 +68520,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33558"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59814",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_15705"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59869",
@@ -67870,7 +68528,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_78608"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59869",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_tautomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_15705"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59871",
@@ -67878,7 +68536,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35238"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59871",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_tautomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16733"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59888",
@@ -67886,7 +68544,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35238"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59888",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_tautomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16865"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59999",
@@ -67922,6 +68580,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_27369"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_60466",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16670"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_60466",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_tautomer_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16670"
     }, {
@@ -67930,7 +68592,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33558"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_60895",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16733"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_61115",
@@ -67944,6 +68606,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_61120",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_51143"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_61120",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_18282"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_61120",
       "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
@@ -67962,7 +68628,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35238"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_62031",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_tautomer_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_26167"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_62488",
@@ -67978,12 +68644,24 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_78616"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_63299",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16646"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_63299",
       "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16646"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_63436",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_63299"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_63436",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_63551"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_63436",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33720"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_63436",
       "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
@@ -68000,6 +68678,14 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_63551",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_63551",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_63436"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_63551",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33721"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_63551",
       "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
@@ -68054,6 +68740,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_64766"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_64769",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_64769",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33247"
     }, {
@@ -68062,12 +68752,20 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_64767"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_64775",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_64775",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33247"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_64898",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_64775"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_64898",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33708"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_64898",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
@@ -68088,6 +68786,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_65212",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_63299"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_65212",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_18154"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_65212",
       "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
@@ -68114,6 +68816,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35274"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_65296",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50994"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_65296",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50994"
     }, {
@@ -68126,7 +68832,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_37022"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_71666",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33707"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_72587",
@@ -68138,8 +68844,12 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_72587",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_18357"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_72587",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018039",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_234420"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_72695",
       "pred" : "is_a",
@@ -68258,7 +68968,7 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_58953"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_78115",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_140601"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_78295",
@@ -68272,6 +68982,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_78608",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35238"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_78608",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33704"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_78608",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_tautomer_of",
@@ -69120,6 +69834,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CL_0000138",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000667"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000138",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0007001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_0000138",
       "pred" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -76265,6 +76983,118 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C172272"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000231",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000101"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000232",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000231"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000233",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000231"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000234",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000231"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000235",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000100"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000236",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000235"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000237",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000235"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000238",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000076"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000239",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000238"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000240",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000241",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000242",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000243",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000244",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000245",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000246",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000247",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000248",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000249",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000250",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000080"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000251",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000250"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000252",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000250"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000253",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/format_1929"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000254",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_637912"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000255",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000189"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000256",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000189"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000257",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/EMPTY_0000129"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/EMPTY_0000258",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C16856"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0000011",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0007033"
@@ -82857,6 +83687,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0008150",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0003674"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0008152",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0009987"
@@ -83832,6 +84666,14 @@
       "sub" : "http://purl.obolibrary.org/obo/GO_0010070",
       "pred" : "http://purl.obolibrary.org/obo/RO_0004009",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000365"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0010155",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_1904062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0010155",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002211",
+      "obj" : "http://purl.obolibrary.org/obo/GO_1902600"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0010160",
       "pred" : "is_a",
@@ -85953,22 +86795,6 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/GO_0043502"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0014878",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0014874"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0014878",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0051602"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0014879",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0014878"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0014879",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0050981"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0014887",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0014888"
@@ -86088,6 +86914,18 @@
       "sub" : "http://purl.obolibrary.org/obo/GO_0015075",
       "pred" : "http://purl.obolibrary.org/obo/RO_0004009",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24867"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0015078",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0008324"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0015078",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/GO_1902600"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0015078",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0004009",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_15378"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0015081",
       "pred" : "is_a",
@@ -100717,10 +101555,6 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002213",
       "obj" : "http://purl.obolibrary.org/obo/GO_0050931"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0050952",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0007600"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0050953",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0007600"
@@ -100728,10 +101562,6 @@
       "sub" : "http://purl.obolibrary.org/obo/GO_0050954",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0007600"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0050956",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0050952"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0050962",
       "pred" : "is_a",
@@ -100745,34 +101575,6 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/GO_0050953"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0050963",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0050906"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0050963",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0050981"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0050963",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0050952"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0050964",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0050963"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0050964",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0050956"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0050967",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0050963"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0050967",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0062149"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0050968",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0050907"
@@ -100784,14 +101586,6 @@
       "sub" : "http://purl.obolibrary.org/obo/GO_0050975",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0050954"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0050981",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0009582"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0050981",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0051602"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0050994",
       "pred" : "is_a",
@@ -101696,10 +102490,6 @@
       "sub" : "http://purl.obolibrary.org/obo/GO_0051590",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002213",
       "obj" : "http://purl.obolibrary.org/obo/GO_0006836"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0051602",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0009628"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0051606",
       "pred" : "is_a",
@@ -110757,6 +111547,14 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/GO_0098590"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0120029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0140115"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0120029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_1902600"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0120031",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0030031"
@@ -114088,6 +114886,18 @@
       "sub" : "http://purl.obolibrary.org/obo/GO_1902570",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002339",
       "obj" : "http://purl.obolibrary.org/obo/GO_0005730"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_1902600",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098655"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_1902600",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0098662"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_1902600",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0004009",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_15378"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_1902679",
       "pred" : "is_a",
@@ -121505,6 +122315,14 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2697495"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1224",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_3379134"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1236",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1224"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_124129",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7900"
@@ -121524,6 +122342,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1312402",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33213"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_131567",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COB_0000022"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_131567",
       "pred" : "is_a",
@@ -121675,10 +122497,6 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2759",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COB_0000022"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2759",
-      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_131567"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_30319",
@@ -121816,6 +122634,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_3378",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1445966"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_3379134",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_3398",
       "pred" : "is_a",
@@ -121957,6 +122779,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_6960"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_543",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_91347"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_554915",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
@@ -121968,6 +122794,14 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_55885",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_6243"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_561",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_543"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_562",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_561"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5782",
       "pred" : "is_a",
@@ -122028,6 +122862,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_6362",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_105391"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_637912",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_562"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_6656",
       "pred" : "is_a",
@@ -122241,6 +123079,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_7711"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_91347",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1236"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9254",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
@@ -122309,9 +123151,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C14250"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C16203",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C43431"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C16847",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C43431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C16853",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C17369"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C16853",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C74957"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C16856",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C17995"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C17187",
       "pred" : "is_a",
@@ -122321,6 +123179,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C25284"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C17369",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C25218"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C179817",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C25447"
@@ -122328,6 +123190,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C179817",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C70766"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C17995",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C16853"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C18141",
       "pred" : "is_a",
@@ -122381,6 +123247,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C25447"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C25218",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C16203"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C25284",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C20189"
@@ -122388,6 +123258,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C25285",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C70766"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C25294",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C25218"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C25335",
       "pred" : "is_a",
@@ -122480,6 +123354,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C73706",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C41009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C74957",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C25294"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C85776",
       "pred" : "is_a",
@@ -124485,9 +125363,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000000",
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000001",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000465"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000005",
       "pred" : "is_a",
@@ -125243,11 +126121,19 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000104",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000104",
+      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000104",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002230",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000071"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000105",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000105",
       "pred" : "is_a",
@@ -125600,10 +126486,6 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000168",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004921"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000168",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001155"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000168",
       "pred" : "http://purl.obolibrary.org/obo/uberon/core#subdivision_of",
@@ -126147,7 +127029,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000463",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000465"
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000463",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -126220,6 +127102,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000475",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000468"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000476",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000476",
       "pred" : "is_a",
@@ -139266,10 +140152,6 @@
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0013522"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0004921",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001555"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0004921",
       "pred" : "http://purl.obolibrary.org/obo/uberon/core#subdivision_of",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001555"
     }, {
@@ -140151,7 +141033,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0005423",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000465"
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0005423",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002215",
@@ -141262,20 +142144,12 @@
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002090"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0006076",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0006071"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0006076",
       "pred" : "http://purl.obolibrary.org/obo/uberon/core#subdivision_of",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0006071"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0006077",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000075"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0006077",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001130"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0006077",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -144338,10 +145212,6 @@
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0006077"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0009568",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002100"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0009568",
       "pred" : "http://purl.obolibrary.org/obo/uberon/core#subdivision_of",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002100"
     }, {
@@ -146141,14 +147011,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0010498"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0010521",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000020"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0010521",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002215",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0050964"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0010522",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004765"
@@ -147916,10 +148778,6 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0013522",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000064"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0013522",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000025"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0013522",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
@@ -150495,7 +151353,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0036215",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000465"
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0036215",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002007",
@@ -151388,6 +152246,14 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_8600140",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001052"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_8850001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001278"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_8850001",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_8410050"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
       "pred" : "is_a",
@@ -154113,6 +154979,34 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002104"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0018030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0018030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0018036",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0018030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0018037",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0018030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0018030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0018039",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0018030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0018040",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0018030"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0019000",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002410"
@@ -154188,6 +155082,10 @@
       "sub" : "http://purl.obolibrary.org/obo/uberon/core#proximally_connected_to",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/uberon/core#transitively_proximally_connected_to"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/uberon/core#subdivision_of",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000050"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "pred" : "inverseOf",
@@ -154400,6 +155298,10 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0003000",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0003001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0018034"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/uberon/core#distally_connected_to",
       "pred" : "inverseOf",
@@ -162426,6 +163328,13 @@
         "fillerId" : "http://purl.obolibrary.org/obo/CL_0000365"
       } ]
     }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0010155",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0065007" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002211",
+        "fillerId" : "http://purl.obolibrary.org/obo/GO_1902600"
+      } ]
+    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/GO_0010160",
       "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0048859" ],
       "restrictions" : [ {
@@ -163671,20 +164580,6 @@
         "fillerId" : "http://purl.obolibrary.org/obo/GO_0043502"
       } ]
     }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0014878",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0051602" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/GO_0043502"
-      } ]
-    }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0014879",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0050981" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/GO_0043502"
-      } ]
-    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/GO_0014887",
       "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0043500" ],
       "restrictions" : [ {
@@ -163767,6 +164662,16 @@
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0004009",
         "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_24867"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0015078",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0005215" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002342",
+        "fillerId" : "http://purl.obolibrary.org/obo/GO_0016020"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0004009",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_15378"
       } ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/GO_0015081",
@@ -171992,27 +172897,6 @@
         "fillerId" : "http://purl.obolibrary.org/obo/GO_0007600"
       } ]
     }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0050963",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0050981" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/GO_0007600"
-      } ]
-    }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0050964",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0050981" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/GO_0050956"
-      } ]
-    }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0050967",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0050981" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/GO_0019233"
-      } ]
-    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/GO_0050968",
       "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0009593" ],
       "restrictions" : [ {
@@ -178466,6 +179350,22 @@
         "fillerId" : "http://purl.obolibrary.org/obo/GO_0098590"
       } ]
     }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_0120029",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0006810" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002338",
+        "fillerId" : "http://purl.obolibrary.org/obo/GO_0005829"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002339",
+        "fillerId" : "http://purl.obolibrary.org/obo/GO_0005576"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002342",
+        "fillerId" : "http://purl.obolibrary.org/obo/GO_0005886"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0004009",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_15378"
+      } ]
+    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/GO_0120031",
       "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0022607" ],
       "restrictions" : [ {
@@ -180599,6 +181499,13 @@
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0002339",
         "fillerId" : "http://purl.obolibrary.org/obo/GO_0005730"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/GO_1902600",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/GO_0055085" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0004009",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_15378"
       } ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/GO_1902679",
@@ -193814,13 +194721,6 @@
         "fillerId" : "http://purl.obolibrary.org/obo/CL_0000067"
       } ]
     }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/UBERON_0010521",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0000062" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002215",
-        "fillerId" : "http://purl.obolibrary.org/obo/GO_0050964"
-      } ]
-    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/UBERON_0010527",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002558" ],
       "restrictions" : [ {
@@ -196781,6 +197681,13 @@
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0001052"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/UBERON_8850001",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0000483" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_8410050"
       } ]
     } ],
     "domainRangeAxioms" : [ {

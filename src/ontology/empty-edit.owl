@@ -255,7 +255,38 @@ Declaration(Class(obo:EMPTY_0000227))
 Declaration(Class(obo:EMPTY_0000228))
 Declaration(Class(obo:EMPTY_0000229))
 Declaration(Class(obo:EMPTY_0000230))
+Declaration(Class(obo:EMPTY_0000231))
+Declaration(Class(obo:EMPTY_0000232))
+Declaration(Class(obo:EMPTY_0000233))
+Declaration(Class(obo:EMPTY_0000234))
+Declaration(Class(obo:EMPTY_0000235))
+Declaration(Class(obo:EMPTY_0000236))
+Declaration(Class(obo:EMPTY_0000237))
+Declaration(Class(obo:EMPTY_0000238))
+Declaration(Class(obo:EMPTY_0000239))
+Declaration(Class(obo:EMPTY_0000240))
+Declaration(Class(obo:EMPTY_0000241))
+Declaration(Class(obo:EMPTY_0000242))
+Declaration(Class(obo:EMPTY_0000243))
+Declaration(Class(obo:EMPTY_0000244))
+Declaration(Class(obo:EMPTY_0000245))
+Declaration(Class(obo:EMPTY_0000246))
+Declaration(Class(obo:EMPTY_0000247))
+Declaration(Class(obo:EMPTY_0000248))
+Declaration(Class(obo:EMPTY_0000249))
+Declaration(Class(obo:EMPTY_0000250))
+Declaration(Class(obo:EMPTY_0000251))
+Declaration(Class(obo:EMPTY_0000252))
+Declaration(Class(obo:EMPTY_0000253))
+Declaration(Class(obo:EMPTY_0000254))
+Declaration(Class(obo:EMPTY_0000255))
+Declaration(Class(obo:EMPTY_0000256))
+Declaration(Class(obo:EMPTY_0000257))
+Declaration(Class(obo:EMPTY_0000258))
+Declaration(Class(obo:format_1929))
+Declaration(Class(obo:NCBITaxon:637912))
 Declaration(Class(obo:NCIT_C14240))
+Declaration(Class(obo:NCIT_C16856))
 Declaration(Class(obo:NCIT_C172272))
 Declaration(Class(obo:NCIT_C179817))
 Declaration(Class(obo:NCIT_C201530))
@@ -343,298 +374,298 @@ SubClassOf(obo:EMPTY_0000005 obo:EMPTY_0000002)
 
 # Class: obo:EMPTY_0000006 (elevated plus maze: open arm (north) - entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000006 "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (North)'. The 'Open Arm (North)' is one of the two open arms, distinguished by its assigned 'north' orientation or designation in the experimental setup. Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000006 "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (North)'. The 'Open Arm (North)' is one of the two open arms, distinguished by its assigned 'north' orientation or designation in the experimental setup. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000006 "elevated plus maze: open arm (north) - entries"@en)
 SubClassOf(obo:EMPTY_0000006 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000007 (elevated plus maze: open arm (south) - entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000007 "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (South)'. The 'Open Arm (South)' is one of the two open arms, distinguished by its assigned 'south' orientation or designation in the experimental setup. Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000007 "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (South)'. The 'Open Arm (South)' is one of the two open arms, distinguished by its assigned 'south' orientation or designation in the experimental setup. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000007 "elevated plus maze: open arm (south) - entries"@en)
 SubClassOf(obo:EMPTY_0000007 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000008 (elevated plus maze: open arm total entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000008 "In the Elevated Plus Maze task, this represents the total number of times the animal's body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). It is a common measure of exploration and anxiety. Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000008 "In the Elevated Plus Maze task, this represents the total number of times the animal's body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). It is a common measure of exploration and anxiety. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000008 "elevated plus maze: open arm total entries"@en)
 SubClassOf(obo:EMPTY_0000008 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000009 (elevated plus maze: open arm (north) - head entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000009 "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (North)' zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as 'north'. Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000009 "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (North)' zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as 'north'. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000009 "elevated plus maze: open arm (north) - head entries"@en)
 SubClassOf(obo:EMPTY_0000009 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000010 (elevated plus maze: open arm (south) - head entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000010 "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (South)' zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as 'south'. Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000010 "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (South)' zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as 'south'. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000010 "elevated plus maze: open arm (south) - head entries"@en)
 SubClassOf(obo:EMPTY_0000010 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000011 (elevated plus maze: open arm total head entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000011 "In the Elevated Plus Maze task, this is the total number of times the animal's head (specifically tracked by the software) enters any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'), considered an indicator of risk-assessment behavior. Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000011 "In the Elevated Plus Maze task, this is the total number of times the animal's head (specifically tracked by the software) enters any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'), considered an indicator of risk-assessment behavior. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000011 "elevated plus maze: open arm total head entries"@en)
 SubClassOf(obo:EMPTY_0000011 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000012 (elevated plus maze: open arm (north) - time)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000012 "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (North)' zone. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000012 "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (North)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000012 "elevated plus maze: open arm (north) - time"@en)
 SubClassOf(obo:EMPTY_0000012 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000012 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000013 (elevated plus maze: open arm (south) - time)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000013 "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000013 "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (South)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000013 "elevated plus maze: open arm (south) - time"@en)
 SubClassOf(obo:EMPTY_0000013 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000013 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000014 (elevated plus maze: open arm total time)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000014 "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Less time is generally indicative of higher anxiety. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000014 "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Less time is generally indicative of higher anxiety. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000014 "elevated plus maze: open arm total time"@en)
 SubClassOf(obo:EMPTY_0000014 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000014 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000015 (elevated plus maze: open arm total - percent time during test duration)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000015 "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000015 "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit: %")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000015 "elevated plus maze: open arm total - percent time during test duration"@en)
 SubClassOf(obo:EMPTY_0000015 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000016 (elevated plus maze: open arm (north) - latency to first entry)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000016 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (North)' zone. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000016 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (North)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000016 "elevated plus maze: open arm (north) - latency to first entry"@en)
 SubClassOf(obo:EMPTY_0000016 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000016 obo:EMPTY_0000091)
 
 # Class: obo:EMPTY_0000017 (elevated plus maze: open arm (south) - latency to first entry)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000017 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (South)' zone. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000017 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (South)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000017 "elevated plus maze: open arm (south) - latency to first entry"@en)
 SubClassOf(obo:EMPTY_0000017 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000017 obo:EMPTY_0000091)
 
 # Class: obo:EMPTY_0000018 (elevated plus maze: open arm total latency to first entry)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000018 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'). Longer latencies often suggest higher anxiety. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000018 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'). Longer latencies often suggest higher anxiety. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000018 "elevated plus maze: open arm total latency to first entry"@en)
 SubClassOf(obo:EMPTY_0000018 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000018 obo:EMPTY_0000091)
 
 # Class: obo:EMPTY_0000019 (elevated plus maze: open arm (north) - time moving towards)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000019 "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (North)' zone, as detected by the tracking software. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000019 "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (North)' zone, as detected by the tracking software. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000019 "elevated plus maze: open arm (north) - time moving towards"@en)
 SubClassOf(obo:EMPTY_0000019 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000019 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000020 (elevated plus maze: open arm (south) - time moving towards)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000020 "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (South)' zone, as detected by the tracking software. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000020 "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (South)' zone, as detected by the tracking software. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000020 "elevated plus maze: open arm (south) - time moving towards"@en)
 SubClassOf(obo:EMPTY_0000020 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000020 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000021 (elevated plus maze: open arm total time moving towards)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000021 "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), reflecting approach motivation. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000021 "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), reflecting approach motivation. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000021 "elevated plus maze: open arm total time moving towards"@en)
 SubClassOf(obo:EMPTY_0000021 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000021 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000022 (elevated plus maze: open arm (north) - time freezing)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000022 "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined 'Open Arm (North)' zone. Freezing is a common fear response. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000022 "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined 'Open Arm (North)' zone. Freezing is a common fear response. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000022 "elevated plus maze: open arm (north) - time freezing"@en)
 SubClassOf(obo:EMPTY_0000022 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000022 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000023 (elevated plus maze: open arm (south) - time freezing)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000023 "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000023 "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Open Arm (South)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000023 "elevated plus maze: open arm (south) - time freezing"@en)
 SubClassOf(obo:EMPTY_0000023 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000023 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000024 (elevated plus maze: open arm total time freezing)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000024 "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), indicating fear or anxiety. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000024 "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), indicating fear or anxiety. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000024 "elevated plus maze: open arm total time freezing"@en)
 SubClassOf(obo:EMPTY_0000024 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000024 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000025 (elevated plus maze: closed arm (west) - entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000025 "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (West)' zone, representing the enclosed arm designated as 'west'. Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000025 "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (West)' zone, representing the enclosed arm designated as 'west'. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000025 "elevated plus maze: closed arm (west) - entries"@en)
 SubClassOf(obo:EMPTY_0000025 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000026 (elevated plus maze: closed arm (east) - entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000026 "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (East)' zone, representing the enclosed arm designated as 'east'. Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000026 "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (East)' zone, representing the enclosed arm designated as 'east'. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000026 "elevated plus maze: closed arm (east) - entries"@en)
 SubClassOf(obo:EMPTY_0000026 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000027 (elevated plus maze: closed arm total entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000027 "In the Elevated Plus Maze task, this is the total number of times the animal's body fully enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). It is often used as an indicator of general locomotor activity. Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000027 "In the Elevated Plus Maze task, this is the total number of times the animal's body fully enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). It is often used as an indicator of general locomotor activity. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000027 "elevated plus maze: closed arm total entries"@en)
 SubClassOf(obo:EMPTY_0000027 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000028 (elevated plus maze: closed arm (west) - head entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000028 "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (West)' zone. Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000028 "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (West)' zone. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000028 "elevated plus maze: closed arm (west) - head entries"@en)
 SubClassOf(obo:EMPTY_0000028 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000029 (elevated plus maze: closed arm (east) - head entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000029 "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (East)' zone. Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000029 "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (East)' zone. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000029 "elevated plus maze: closed arm (east) - head entries"@en)
 SubClassOf(obo:EMPTY_0000029 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000030 (elevated plus maze: closed arm total head entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000030 "In the Elevated Plus Maze task, this is the total number of times the animal's head enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000030 "In the Elevated Plus Maze task, this is the total number of times the animal's head enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000030 "elevated plus maze: closed arm total head entries"@en)
 SubClassOf(obo:EMPTY_0000030 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000031 (elevated plus maze: closed arm (west) - time)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000031 "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000031 "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000031 "elevated plus maze: closed arm (west) - time"@en)
 SubClassOf(obo:EMPTY_0000031 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000031 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000032 (elevated plus maze: closed arm (east) - time)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000032 "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000032 "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000032 "elevated plus maze: closed arm (east) - time"@en)
 SubClassOf(obo:EMPTY_0000032 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000032 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000033 (elevated plus maze: closed arm total time)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000033 "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000033 "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000033 "elevated plus maze: closed arm total time"@en)
 SubClassOf(obo:EMPTY_0000033 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000033 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000034 (elevated plus maze: closed arm total - percent time during test duration)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000034 "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: %")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000034 "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit: %")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000034 "elevated plus maze: closed arm total - percent time during test duration"@en)
 SubClassOf(obo:EMPTY_0000034 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000035 (elevated plus maze: closed arm (west) - latency to first entry)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000035 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000035 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000035 "elevated plus maze: closed arm (west) - latency to first entry"@en)
 SubClassOf(obo:EMPTY_0000035 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000035 obo:EMPTY_0000091)
 
 # Class: obo:EMPTY_0000036 (elevated plus maze: closed arm (east) - latency to first entry)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000036 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000036 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (East)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000036 "elevated plus maze: closed arm (east) - latency to first entry"@en)
 SubClassOf(obo:EMPTY_0000036 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000036 obo:EMPTY_0000091)
 
 # Class: obo:EMPTY_0000037 (elevated plus maze: closed arm total latency to first entry)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000037 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000037 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000037 "elevated plus maze: closed arm total latency to first entry"@en)
 SubClassOf(obo:EMPTY_0000037 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000037 obo:EMPTY_0000091)
 
 # Class: obo:EMPTY_0000038 (elevated plus maze: closed arm (west) - time moving towards)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000038 "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000038 "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (West)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000038 "elevated plus maze: closed arm (west) - time moving towards"@en)
 SubClassOf(obo:EMPTY_0000038 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000038 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000039 (elevated plus maze: closed arm (east) - time moving towards)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000039 "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000039 "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000039 "elevated plus maze: closed arm (east) - time moving towards"@en)
 SubClassOf(obo:EMPTY_0000039 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000039 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000040 (elevated plus maze: closed arm total time moving towards)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000040 "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000040 "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000040 "elevated plus maze: closed arm total time moving towards"@en)
 SubClassOf(obo:EMPTY_0000040 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000040 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000041 (elevated plus maze: closed arm (west) - time freezing)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000041 "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000041 "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000041 "elevated plus maze: closed arm (west) - time freezing"@en)
 SubClassOf(obo:EMPTY_0000041 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000041 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000042 (elevated plus maze: closed arm (east) - time freezing)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000042 "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000042 "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000042 "elevated plus maze: closed arm (east) - time freezing"@en)
 SubClassOf(obo:EMPTY_0000042 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000042 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000043 (elevated plus maze: closed arm total time freezing)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000043 "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000043 "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000043 "elevated plus maze: closed arm total time freezing"@en)
 SubClassOf(obo:EMPTY_0000043 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000043 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000044 (elevated plus maze: center - entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000044 "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Center' zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000044 "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Center' zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000044 "elevated plus maze: center - entries"@en)
 SubClassOf(obo:EMPTY_0000044 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000045 (elevated plus maze: center - head entries)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000045 "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Center' zone of the maze. Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000045 "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Center' zone of the maze. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000045 "elevated plus maze: center - head entries"@en)
 SubClassOf(obo:EMPTY_0000045 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000046 (elevated plus maze: center - time)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000046 "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Center' zone. Time in the center can indicate decision-making or risk assessment. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000046 "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Center' zone. Time in the center can indicate decision-making or risk assessment. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000046 "elevated plus maze: center - time"@en)
 SubClassOf(obo:EMPTY_0000046 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000046 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000047 (elevated plus maze: center - percent time during test duration)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000047 "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000047 "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit: %")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000047 "elevated plus maze: center - percent time during test duration"@en)
 SubClassOf(obo:EMPTY_0000047 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000048 (elevated plus maze: center - latency to first entry)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000048 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Center' zone. If the animal starts in the center, this value may be zero or not applicable. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000048 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Center' zone. If the animal starts in the center, this value may be zero or not applicable. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000048 "elevated plus maze: center - latency to first entry"@en)
 SubClassOf(obo:EMPTY_0000048 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000048 obo:EMPTY_0000091)
 
 # Class: obo:EMPTY_0000049 (elevated plus maze: center - time moving towards)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000049 "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Center' zone of the maze (e.g., from an arm). Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000049 "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Center' zone of the maze (e.g., from an arm). Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000049 "elevated plus maze: center - time moving towards"@en)
 SubClassOf(obo:EMPTY_0000049 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000049 obo:EMPTY_0000090)
 
 # Class: obo:EMPTY_0000050 (elevated plus maze: center - time freezing)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000050 "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Center' zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000050 "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Center' zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000050 "elevated plus maze: center - time freezing"@en)
 SubClassOf(obo:EMPTY_0000050 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000050 obo:EMPTY_0000090)
@@ -653,7 +684,7 @@ SubClassOf(obo:EMPTY_0000052 obo:EMPTY_0000084)
 
 # Class: obo:EMPTY_0000053 (fear-potentiated startle: baseline acoustic startle response amplitude)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000053 "In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score.")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000053 "In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit: arbitrary units or standardized score.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000053 "fear-potentiated startle: baseline acoustic startle response amplitude"@en)
 SubClassOf(obo:EMPTY_0000053 obo:EMPTY_0000004)
 SubClassOf(obo:EMPTY_0000053 obo:EMPTY_0000162)
@@ -685,7 +716,7 @@ SubClassOf(obo:EMPTY_0000057 obo:EMPTY_0000093)
 
 # Class: obo:EMPTY_0000058 (fear-potentiated startle: apparatus chamber identifier)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000058 "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit of measure: count or identifier string")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000058 "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit: count or identifier string")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000058 "fear-potentiated startle: apparatus chamber identifier"@en)
 SubClassOf(obo:EMPTY_0000058 obo:EMPTY_0000093)
 
@@ -697,40 +728,40 @@ SubClassOf(obo:EMPTY_0000059 obo:EMPTY_0000084)
 
 # Class: obo:EMPTY_0000060 (acoustic startle response: number of samples)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000060 "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit of measure: count")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000060 "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000060 "acoustic startle response: number of samples"@en)
 SubClassOf(obo:EMPTY_0000060 obo:EMPTY_0000093)
 
 # Class: obo:EMPTY_0000061 (acoustic startle response: sampling rate)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000061 "The rate at which the analog startle response signal was digitized during data acquisition. Unit of measure: Hertz (Hz)")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000061 "The rate at which the analog startle response signal was digitized during data acquisition. Unit: Hertz (Hz)")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000061 "acoustic startle response: sampling rate"@en)
 SubClassOf(obo:EMPTY_0000061 obo:EMPTY_0000093)
 
 # Class: obo:EMPTY_0000062 (acoustic startle response: startle window onset amplitude)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000062 "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit of measure: millivolts (mV) or arbitrary units based on transducer calibration.")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000062 "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit: millivolts (mV) or arbitrary units based on transducer calibration.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000062 "acoustic startle response: startle window onset amplitude"@en)
 SubClassOf(obo:EMPTY_0000062 obo:EMPTY_0000004)
 SubClassOf(obo:EMPTY_0000062 obo:EMPTY_0000162)
 
 # Class: obo:EMPTY_0000063 (acoustic startle response: maximum amplitude)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000063 "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit of measure: millivolts (mV) or arbitrary units.")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000063 "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit: millivolts (mV) or arbitrary units.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000063 "acoustic startle response: maximum amplitude"@en)
 SubClassOf(obo:EMPTY_0000063 obo:EMPTY_0000004)
 SubClassOf(obo:EMPTY_0000063 obo:EMPTY_0000162)
 
 # Class: obo:EMPTY_0000064 (acoustic startle response: time to maximum amplitude)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000064 "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit of measure: milliseconds (ms)")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000064 "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit: milliseconds (ms)")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000064 "acoustic startle response: time to maximum amplitude"@en)
 SubClassOf(obo:EMPTY_0000064 obo:EMPTY_0000004)
 SubClassOf(obo:EMPTY_0000064 obo:EMPTY_0000091)
 
 # Class: obo:EMPTY_0000065 (acoustic startle response: average amplitude)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000065 "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit of measure: millivolts (mV) or arbitrary units.")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000065 "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit: millivolts (mV) or arbitrary units.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000065 "acoustic startle response: average amplitude"@en)
 SubClassOf(obo:EMPTY_0000065 obo:EMPTY_0000004)
 SubClassOf(obo:EMPTY_0000065 obo:EMPTY_0000162)
@@ -750,7 +781,7 @@ SubClassOf(obo:EMPTY_0000067 obo:EMPTY_0000093)
 
 # Class: obo:EMPTY_0000068 (elevated plus maze: test duration)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000068 "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000068 "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000068 "elevated plus maze: test duration"@en)
 SubClassOf(obo:EMPTY_0000068 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000068 obo:EMPTY_0000090)
@@ -1455,13 +1486,13 @@ SubClassOf(obo:EMPTY_0000174 obo:EMPTY_0000164)
 
 # Class: obo:EMPTY_0000175 (contextual fear conditioning: time freezing)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000175 "The number of seconds the individual spent freezing during a given period of time. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000175 "The number of seconds the individual spent freezing during a given period of time. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000175 "contextual fear conditioning: time freezing"@en)
 SubClassOf(obo:EMPTY_0000175 obo:EMPTY_0000163)
 
 # Class: obo:EMPTY_0000176 (contextual fear conditioning: block duration)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000176 "In the contextual fear conditioning paradigm, this is the time of the block duration in seconds. Unit of measure: seconds")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000176 "In the contextual fear conditioning paradigm, this is the time of the block duration in seconds. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000176 "contextual fear conditioning: block duration"@en)
 SubClassOf(obo:EMPTY_0000176 obo:EMPTY_0000163)
 SubClassOf(obo:EMPTY_0000176 obo:EMPTY_0000164)
@@ -1801,5 +1832,173 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000230 "A digital file for which 
 AnnotationAssertion(rdfs:label obo:EMPTY_0000230 "unknown electronic file type"@en)
 SubClassOf(obo:EMPTY_0000230 obo:NCIT_C172272)
 
+# Class: obo:EMPTY_0000231 (C. elegans chemotaxis assay parameter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000231 "A parameter that specifies the technical settings, environmental conditions, or experimental design of a chemotaxis assay involving Caenorhabditis elegans.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000231 "C. elegans chemotaxis assay parameter"@en)
+SubClassOf(obo:EMPTY_0000231 obo:EMPTY_0000101)
+
+# Class: obo:EMPTY_0000232 (C. elegans chemotaxis assay parameter: chemoattractant mixture table)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000232 "A table containing the quantities and identities of all chemicals used as a chemoattractant (e.g., isoamyl alcohol, diacetyl) to elicit a directed movement response in C. elegans.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000232 "C. elegans chemotaxis assay parameter: chemoattractant mixture table"@en)
+SubClassOf(obo:EMPTY_0000232 obo:EMPTY_0000231)
+
+# Class: obo:EMPTY_0000233 (C. elegans chemotaxis assay parameter: chemoattractant mixture volume)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000233 "The volume of the chemoattractant mixture pipetted onto the agar plate in a chemotaxis assay. Unit: microliters (μL).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000233 "C. elegans chemotaxis assay parameter: chemoattractant mixture volume"@en)
+SubClassOf(obo:EMPTY_0000233 obo:EMPTY_0000231)
+
+# Class: obo:EMPTY_0000234 (C. elegans chemotaxis assay parameter: assay duration)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000234 "The total time elapsed from the point at which C. elegans are placed on the assay plate until the movement is arrested or the final positions are recorded. Unit: minutes.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000234 "C. elegans chemotaxis assay parameter: assay duration"@en)
+SubClassOf(obo:EMPTY_0000234 obo:EMPTY_0000231)
+
+# Class: obo:EMPTY_0000235 (C. elegans chemotaxis assay measurement)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000235 "A quantitative or qualitative value derived from a C. elegans chemotaxis assay, typically describing the efficiency or directionality of the animals' movement toward or away from a chemical source.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000235 "C. elegans chemotaxis assay measurement"@en)
+SubClassOf(obo:EMPTY_0000235 obo:EMPTY_0000100)
+
+# Class: obo:EMPTY_0000236 (C. elegans chemotaxis assay measurement: McCutcheon index)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000236 "A behavioral measurement of chemotactic efficiency defined as the ratio of the straight-line displacement toward the attractant to the total path length traveled by the organism. Values range from -1 to 1.")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000236 "chemotactic ratio"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000236 "C. elegans chemotaxis assay measurement: McCutcheon index"@en)
+SubClassOf(obo:EMPTY_0000236 obo:EMPTY_0000235)
+
+# Class: obo:EMPTY_0000237 (C. elegans chemotaxis assay measurement: mean velocity)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000237 "The average speed of a C. elegans individual or population during the duration of the chemotaxis assay. Unit: micrometers per second (µm/s).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000237 "C. elegans chemotaxis assay measurement: mean velocity"@en)
+SubClassOf(obo:EMPTY_0000237 obo:EMPTY_0000235)
+
+# Class: obo:EMPTY_0000238 (investigator-defined strain)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000238 "A specific genetic variant or line of an organism designated by the investigator, often containing unique mutations, transgenes, or genomic edits not yet categorized in a public repository.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000238 "investigator-defined strain"@en)
+SubClassOf(obo:EMPTY_0000238 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000239 (C. elegans strain)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000239 "A specific strain of Caenorhabditis elegans, identified by its genotype or a standard nomenclature (e.g., N2, CB4856), used in experimental procedures.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000239 "C. elegans strain"@en)
+SubClassOf(obo:EMPTY_0000239 obo:EMPTY_0000238)
+
+# Class: obo:EMPTY_0000240 (BAB9001)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000240 "A C. elegans strain with the genotype daf-22 (m130). This strain was originally obtained from the Caenorhabditis Genetics Center (CGC) as strain DR476 and subsequently outcrossed three times. [Source: https://doi.org/TBD]")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000240 "BAB9001"@en)
+SubClassOf(obo:EMPTY_0000240 obo:EMPTY_0000239)
+
+# Class: obo:EMPTY_0000241 (BAB9002)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000241 "A C. elegans klp-6 rescue strain with the genotype klp-6 (my8); Pklp-6::GFP::KLP-6 (array, IndEx 9002). [Source: https://doi.org/TBD]")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000241 "BAB9002"@en)
+SubClassOf(obo:EMPTY_0000241 obo:EMPTY_0000239)
+
+# Class: obo:EMPTY_0000242 (TM5848)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000242 "A C. elegans strain with the genotype cil-7 (tm5848) I, exhibiting a him phenotype. This strain was obtained from the National BioResource Project (NBRP), Japan. [Source: https://doi.org/TBD]")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000242 "TM5848"@en)
+SubClassOf(obo:EMPTY_0000242 obo:EMPTY_0000239)
+
+# Class: obo:EMPTY_0000243 (PT3602)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000243 "A C. elegans strain with the genotype cil-7 (my61[cil-7::mNG])I; him-5(e1490) V. This strain was provided as a gift from the Maureen Barr lab. [Source: https://doi.org/TBD]")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000243 "PT3602"@en)
+SubClassOf(obo:EMPTY_0000243 obo:EMPTY_0000239)
+
+# Class: obo:EMPTY_0000244 (BAB9003)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000244 "A C. elegans strain with the genotype PT3602; Pnlp-43_hCaspase nZ (array IndEx 9003). [Source: https://doi.org/TBD]")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000244 "BAB9003"@en)
+SubClassOf(obo:EMPTY_0000244 obo:EMPTY_0000239)
+
+# Class: obo:EMPTY_0000245 (BAB9004)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000245 "A C. elegans strain with the genotype PT3602; Pklp-6_hCaspase Cz (array IndEx 9004). [Source: https://doi.org/TBD]")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000245 "BAB9004"@en)
+SubClassOf(obo:EMPTY_0000245 obo:EMPTY_0000239)
+
+# Class: obo:EMPTY_0000246 (BAB9005)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000246 "A C. elegans strain with the genotype PT3602; Pnlp-43_hCaspase nZ (array IndEx 9003) and Pklp-6_hCaspase Cz (array IndEx 9004). [Source: https://doi.org/TBD]")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000246 "BAB9005"@en)
+SubClassOf(obo:EMPTY_0000246 obo:EMPTY_0000239)
+
+# Class: obo:EMPTY_0000247 (fluorescence imaging measurement)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000247 "fluorescence imaging measurement")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000247 "fluorescence imaging measurement"@en)
+SubClassOf(obo:EMPTY_0000247 obo:EMPTY_0000001)
+
+# Class: obo:EMPTY_0000248 (mean fluorescence intensity)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000248 "Mean fluorescence intensity. Unit: arbitrary units (AU)")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000248 "mean fluorescence intensity"@en)
+SubClassOf(obo:EMPTY_0000248 obo:EMPTY_0000247)
+
+# Class: obo:EMPTY_0000249 (fluorescent punctal count)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000249 "A quantitative measurement of the number of distinct fluorescent spots or puncta detected within a defined region of interest in a fluorescence image. Unit: count")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000249 "fluorescent punctal count"@en)
+SubClassOf(obo:EMPTY_0000249 obo:EMPTY_0000247)
+
+# Class: obo:EMPTY_0000250 (fluorescence imaging parameter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000250 "A specific parameter related to fluorescence imaging acquisition or assay.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000250 "fluorescence imaging parameter"@en)
+SubClassOf(obo:EMPTY_0000250 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000251 (fluorescence target ontology identifier)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000251 "fluorescence target ontology identifier")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000251 "fluorescence target ontology identifier"@en)
+SubClassOf(obo:EMPTY_0000251 obo:EMPTY_0000250)
+
+# Class: obo:EMPTY_0000252 (fluorescence target name)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000252 "fluorescence target name")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000252 "fluorescence target name"@en)
+SubClassOf(obo:EMPTY_0000252 obo:EMPTY_0000250)
+
+# Class: obo:EMPTY_0000253 (SnapGene file format)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000253 "A .dna file format designed for storing annotated DNA sequences, including linear/circular topology, features, primers, and enzyme sites.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000253 "SnapGene file format"@en)
+SubClassOf(obo:EMPTY_0000253 obo:format_1929)
+
+# Class: obo:EMPTY_0000254 (Escherichia coli OP50: heat-killed)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000254 "A preparation of Escherichia coli strain OP50 that has been rendered non-viable through the application of heat, typically used as a non-proliferating food source in C. elegans assays.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000254 "Escherichia coli OP50: heat-killed"@en)
+SubClassOf(obo:EMPTY_0000254 obo:NCBITaxon_637912)
+
+# Class: obo:EMPTY_0000255 (C. elegans transfer method: M9 buffer wash)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000255 "Method used to transfer C. elegans whereby an M9 buffer is used to wash C. elegans off of an agar plate. Animals can then be transferred using a piper.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000255 "C. elegans transfer method: M9 buffer wash"@en)
+SubClassOf(obo:EMPTY_0000255 obo:EMPTY_0000189)
+
+# Class: obo:EMPTY_0000256 (C. elegans transfer method: titanium pick)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000256 "Method used to transfer C. elegans whereby a titanium pick is used to scoop animals off of an agar plate.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000256 "C. elegans transfer method: titanium pick"@en)
+SubClassOf(obo:EMPTY_0000256 obo:EMPTY_0000189)
+
+# Class: obo:EMPTY_0000257 (C. elegans chemotaxis assay: video recording)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000257 "A video recording capturing the behavior of C. elegans during a chemotaxis assay.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000257 "C. elegans chemotaxis assay: video recording"@en)
+SubClassOf(obo:EMPTY_0000257 obo:EMPTY_0000129)
+
+# Class: obo:EMPTY_0000258 (fluorescence imaging data)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000258 "An image or video acquired using fluorescence microscopy.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000258 "fluorescence imaging data"@en)
+SubClassOf(obo:EMPTY_0000258 obo:NCIT_C16856)
 
 )

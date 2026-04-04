@@ -11,14 +11,14 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/empty/empty-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2026-02-23/empty-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/empty/releases/2026-04-04/empty-base.owl"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <dcterms:description>An ontology of experimental measurements in the sciences, the purposes for which experimental measurements were made, and experimental treatments, with a focus on life sciences.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Experimental Measurements Purposes and Treatments ontologY</dcterms:title>
         <rdfs:comment>EMPTY by NDI is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
         <owl:versionInfo>Release 2025-07-10</owl:versionInfo>
-        <owl:versionInfo>2026-02-23</owl:versionInfo>
+        <owl:versionInfo>2026-04-04</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -140,7 +140,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as &apos;Open Arm (North)&apos;. The &apos;Open Arm (North)&apos; is one of the two open arms, distinguished by its assigned &apos;north&apos; orientation or designation in the experimental setup. Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as &apos;Open Arm (North)&apos;. The &apos;Open Arm (North)&apos; is one of the two open arms, distinguished by its assigned &apos;north&apos; orientation or designation in the experimental setup. Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm (north) - entries</rdfs:label>
     </owl:Class>
     
@@ -150,7 +150,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as &apos;Open Arm (South)&apos;. The &apos;Open Arm (South)&apos; is one of the two open arms, distinguished by its assigned &apos;south&apos; orientation or designation in the experimental setup. Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as &apos;Open Arm (South)&apos;. The &apos;Open Arm (South)&apos; is one of the two open arms, distinguished by its assigned &apos;south&apos; orientation or designation in the experimental setup. Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm (south) - entries</rdfs:label>
     </owl:Class>
     
@@ -160,7 +160,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this represents the total number of times the animal&apos;s body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., &apos;Open Arm (North)&apos; and &apos;Open Arm (South)&apos;). It is a common measure of exploration and anxiety. Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this represents the total number of times the animal&apos;s body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., &apos;Open Arm (North)&apos; and &apos;Open Arm (South)&apos;). It is a common measure of exploration and anxiety. Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm total entries</rdfs:label>
     </owl:Class>
     
@@ -170,7 +170,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head (specifically tracked by the software) enters the user-defined &apos;Open Arm (North)&apos; zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as &apos;north&apos;. Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head (specifically tracked by the software) enters the user-defined &apos;Open Arm (North)&apos; zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as &apos;north&apos;. Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm (north) - head entries</rdfs:label>
     </owl:Class>
     
@@ -180,7 +180,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head (specifically tracked by the software) enters the user-defined &apos;Open Arm (South)&apos; zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as &apos;south&apos;. Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head (specifically tracked by the software) enters the user-defined &apos;Open Arm (South)&apos; zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as &apos;south&apos;. Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm (south) - head entries</rdfs:label>
     </owl:Class>
     
@@ -190,7 +190,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the total number of times the animal&apos;s head (specifically tracked by the software) enters any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; and &apos;Open Arm (South)&apos;), considered an indicator of risk-assessment behavior. Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the total number of times the animal&apos;s head (specifically tracked by the software) enters any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; and &apos;Open Arm (South)&apos;), considered an indicator of risk-assessment behavior. Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm total head entries</rdfs:label>
     </owl:Class>
     
@@ -201,7 +201,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Open Arm (North)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Open Arm (North)&apos; zone. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm (north) - time</rdfs:label>
     </owl:Class>
     
@@ -212,7 +212,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Open Arm (South)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Open Arm (South)&apos; zone. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm (south) - time</rdfs:label>
     </owl:Class>
     
@@ -223,7 +223,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative total duration the animal&apos;s body spends within any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; and &apos;Open Arm (South)&apos;). Less time is generally indicative of higher anxiety. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative total duration the animal&apos;s body spends within any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; and &apos;Open Arm (South)&apos;). Less time is generally indicative of higher anxiety. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm total time</rdfs:label>
     </owl:Class>
     
@@ -233,7 +233,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; and &apos;Open Arm (South)&apos;). Unit of measure: %</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; and &apos;Open Arm (South)&apos;). Unit: %</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm total - percent time during test duration</rdfs:label>
     </owl:Class>
     
@@ -244,7 +244,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000091"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Open Arm (North)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Open Arm (North)&apos; zone. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm (north) - latency to first entry</rdfs:label>
     </owl:Class>
     
@@ -255,7 +255,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000091"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Open Arm (South)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Open Arm (South)&apos; zone. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm (south) - latency to first entry</rdfs:label>
     </owl:Class>
     
@@ -266,7 +266,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000091"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; or &apos;Open Arm (South)&apos;). Longer latencies often suggest higher anxiety. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; or &apos;Open Arm (South)&apos;). Longer latencies often suggest higher anxiety. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm total latency to first entry</rdfs:label>
     </owl:Class>
     
@@ -277,7 +277,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Open Arm (North)&apos; zone, as detected by the tracking software. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Open Arm (North)&apos; zone, as detected by the tracking software. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm (north) - time moving towards</rdfs:label>
     </owl:Class>
     
@@ -288,7 +288,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Open Arm (South)&apos; zone, as detected by the tracking software. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Open Arm (South)&apos; zone, as detected by the tracking software. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm (south) - time moving towards</rdfs:label>
     </owl:Class>
     
@@ -299,7 +299,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; or &apos;Open Arm (South)&apos;), reflecting approach motivation. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; or &apos;Open Arm (South)&apos;), reflecting approach motivation. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm total time moving towards</rdfs:label>
     </owl:Class>
     
@@ -310,7 +310,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined &apos;Open Arm (North)&apos; zone. Freezing is a common fear response. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined &apos;Open Arm (North)&apos; zone. Freezing is a common fear response. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm (north) - time freezing</rdfs:label>
     </owl:Class>
     
@@ -321,7 +321,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined &apos;Open Arm (South)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined &apos;Open Arm (South)&apos; zone. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm (south) - time freezing</rdfs:label>
     </owl:Class>
     
@@ -332,7 +332,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; or &apos;Open Arm (South)&apos;), indicating fear or anxiety. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., &apos;Open Arm (North)&apos; or &apos;Open Arm (South)&apos;), indicating fear or anxiety. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: open arm total time freezing</rdfs:label>
     </owl:Class>
     
@@ -342,7 +342,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body fully enters the user-defined &apos;Closed Arm (West)&apos; zone, representing the enclosed arm designated as &apos;west&apos;. Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body fully enters the user-defined &apos;Closed Arm (West)&apos; zone, representing the enclosed arm designated as &apos;west&apos;. Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm (west) - entries</rdfs:label>
     </owl:Class>
     
@@ -352,7 +352,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body fully enters the user-defined &apos;Closed Arm (East)&apos; zone, representing the enclosed arm designated as &apos;east&apos;. Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body fully enters the user-defined &apos;Closed Arm (East)&apos; zone, representing the enclosed arm designated as &apos;east&apos;. Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm (east) - entries</rdfs:label>
     </owl:Class>
     
@@ -362,7 +362,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the total number of times the animal&apos;s body fully enters any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; and &apos;Closed Arm (East)&apos;). It is often used as an indicator of general locomotor activity. Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the total number of times the animal&apos;s body fully enters any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; and &apos;Closed Arm (East)&apos;). It is often used as an indicator of general locomotor activity. Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm total entries</rdfs:label>
     </owl:Class>
     
@@ -372,7 +372,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head enters the user-defined &apos;Closed Arm (West)&apos; zone. Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head enters the user-defined &apos;Closed Arm (West)&apos; zone. Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm (west) - head entries</rdfs:label>
     </owl:Class>
     
@@ -382,7 +382,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head enters the user-defined &apos;Closed Arm (East)&apos; zone. Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head enters the user-defined &apos;Closed Arm (East)&apos; zone. Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm (east) - head entries</rdfs:label>
     </owl:Class>
     
@@ -392,7 +392,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the total number of times the animal&apos;s head enters any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; and &apos;Closed Arm (East)&apos;). Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the total number of times the animal&apos;s head enters any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; and &apos;Closed Arm (East)&apos;). Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm total head entries</rdfs:label>
     </owl:Class>
     
@@ -403,7 +403,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Closed Arm (West)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Closed Arm (West)&apos; zone. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm (west) - time</rdfs:label>
     </owl:Class>
     
@@ -414,7 +414,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Closed Arm (East)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Closed Arm (East)&apos; zone. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm (east) - time</rdfs:label>
     </owl:Class>
     
@@ -425,7 +425,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative total duration the animal&apos;s body spends within any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; and &apos;Closed Arm (East)&apos;). Animals typically spend more time in these &apos;safer&apos; areas. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative total duration the animal&apos;s body spends within any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; and &apos;Closed Arm (East)&apos;). Animals typically spend more time in these &apos;safer&apos; areas. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm total time</rdfs:label>
     </owl:Class>
     
@@ -435,7 +435,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; and &apos;Closed Arm (East)&apos;). Unit of measure: %</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; and &apos;Closed Arm (East)&apos;). Unit: %</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm total - percent time during test duration</rdfs:label>
     </owl:Class>
     
@@ -446,7 +446,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000091"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Closed Arm (West)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Closed Arm (West)&apos; zone. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm (west) - latency to first entry</rdfs:label>
     </owl:Class>
     
@@ -457,7 +457,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000091"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Closed Arm (East)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Closed Arm (East)&apos; zone. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm (east) - latency to first entry</rdfs:label>
     </owl:Class>
     
@@ -468,7 +468,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000091"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; or &apos;Closed Arm (East)&apos;). Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; or &apos;Closed Arm (East)&apos;). Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm total latency to first entry</rdfs:label>
     </owl:Class>
     
@@ -479,7 +479,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Closed Arm (West)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Closed Arm (West)&apos; zone. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm (west) - time moving towards</rdfs:label>
     </owl:Class>
     
@@ -490,7 +490,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Closed Arm (East)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Closed Arm (East)&apos; zone. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm (east) - time moving towards</rdfs:label>
     </owl:Class>
     
@@ -501,7 +501,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; or &apos;Closed Arm (East)&apos;). Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; or &apos;Closed Arm (East)&apos;). Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm total time moving towards</rdfs:label>
     </owl:Class>
     
@@ -512,7 +512,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined &apos;Closed Arm (West)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined &apos;Closed Arm (West)&apos; zone. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm (west) - time freezing</rdfs:label>
     </owl:Class>
     
@@ -523,7 +523,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined &apos;Closed Arm (East)&apos; zone. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined &apos;Closed Arm (East)&apos; zone. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm (east) - time freezing</rdfs:label>
     </owl:Class>
     
@@ -534,7 +534,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; or &apos;Closed Arm (East)&apos;). Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., &apos;Closed Arm (West)&apos; or &apos;Closed Arm (East)&apos;). Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: closed arm total time freezing</rdfs:label>
     </owl:Class>
     
@@ -544,7 +544,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body fully enters the user-defined &apos;Center&apos; zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s body fully enters the user-defined &apos;Center&apos; zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: center - entries</rdfs:label>
     </owl:Class>
     
@@ -554,7 +554,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head enters the user-defined &apos;Center&apos; zone of the maze. Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this counts the number of times the animal&apos;s head enters the user-defined &apos;Center&apos; zone of the maze. Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: center - head entries</rdfs:label>
     </owl:Class>
     
@@ -565,7 +565,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Center&apos; zone. Time in the center can indicate decision-making or risk assessment. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal&apos;s body spends within the user-defined &apos;Center&apos; zone. Time in the center can indicate decision-making or risk assessment. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: center - time</rdfs:label>
     </owl:Class>
     
@@ -575,7 +575,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined &apos;Center&apos; zone of the maze. Unit of measure: %</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined &apos;Center&apos; zone of the maze. Unit: %</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: center - percent time during test duration</rdfs:label>
     </owl:Class>
     
@@ -586,7 +586,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000091"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Center&apos; zone. If the animal starts in the center, this value may be zero or not applicable. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined &apos;Center&apos; zone. If the animal starts in the center, this value may be zero or not applicable. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: center - latency to first entry</rdfs:label>
     </owl:Class>
     
@@ -597,7 +597,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Center&apos; zone of the maze (e.g., from an arm). Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined &apos;Center&apos; zone of the maze (e.g., from an arm). Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: center - time moving towards</rdfs:label>
     </owl:Class>
     
@@ -608,7 +608,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined &apos;Center&apos; zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined &apos;Center&apos; zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: center - time freezing</rdfs:label>
     </owl:Class>
     
@@ -639,7 +639,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000162"/>
-        <obo:IAO_0000115>In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score.</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit: arbitrary units or standardized score.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">fear-potentiated startle: baseline acoustic startle response amplitude</rdfs:label>
     </owl:Class>
     
@@ -690,7 +690,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000093"/>
-        <obo:IAO_0000115>Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit of measure: count or identifier string</obo:IAO_0000115>
+        <obo:IAO_0000115>Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit: count or identifier string</obo:IAO_0000115>
         <rdfs:label xml:lang="en">fear-potentiated startle: apparatus chamber identifier</rdfs:label>
     </owl:Class>
     
@@ -710,7 +710,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000093"/>
-        <obo:IAO_0000115>The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit of measure: count</obo:IAO_0000115>
+        <obo:IAO_0000115>The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit: count</obo:IAO_0000115>
         <rdfs:label xml:lang="en">acoustic startle response: number of samples</rdfs:label>
     </owl:Class>
     
@@ -720,7 +720,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000093"/>
-        <obo:IAO_0000115>The rate at which the analog startle response signal was digitized during data acquisition. Unit of measure: Hertz (Hz)</obo:IAO_0000115>
+        <obo:IAO_0000115>The rate at which the analog startle response signal was digitized during data acquisition. Unit: Hertz (Hz)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">acoustic startle response: sampling rate</rdfs:label>
     </owl:Class>
     
@@ -731,7 +731,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000162"/>
-        <obo:IAO_0000115>The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit of measure: millivolts (mV) or arbitrary units based on transducer calibration.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit: millivolts (mV) or arbitrary units based on transducer calibration.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">acoustic startle response: startle window onset amplitude</rdfs:label>
     </owl:Class>
     
@@ -742,7 +742,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000162"/>
-        <obo:IAO_0000115>The peak amplitude of the acoustic startle response (e.g., &apos;jump amplitude&apos;) detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit of measure: millivolts (mV) or arbitrary units.</obo:IAO_0000115>
+        <obo:IAO_0000115>The peak amplitude of the acoustic startle response (e.g., &apos;jump amplitude&apos;) detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit: millivolts (mV) or arbitrary units.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">acoustic startle response: maximum amplitude</rdfs:label>
     </owl:Class>
     
@@ -753,7 +753,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000091"/>
-        <obo:IAO_0000115>The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit of measure: milliseconds (ms)</obo:IAO_0000115>
+        <obo:IAO_0000115>The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit: milliseconds (ms)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">acoustic startle response: time to maximum amplitude</rdfs:label>
     </owl:Class>
     
@@ -764,7 +764,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000162"/>
-        <obo:IAO_0000115>The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit of measure: millivolts (mV) or arbitrary units.</obo:IAO_0000115>
+        <obo:IAO_0000115>The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit: millivolts (mV) or arbitrary units.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">acoustic startle response: average amplitude</rdfs:label>
     </owl:Class>
     
@@ -797,7 +797,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000090"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000092"/>
-        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the time of the total test duration in seconds&apos;). Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the Elevated Plus Maze task, this is the time of the total test duration in seconds&apos;). Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">elevated plus maze: test duration</rdfs:label>
     </owl:Class>
     
@@ -1927,7 +1927,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000175">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000163"/>
-        <obo:IAO_0000115>The number of seconds the individual spent freezing during a given period of time. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>The number of seconds the individual spent freezing during a given period of time. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">contextual fear conditioning: time freezing</rdfs:label>
     </owl:Class>
     
@@ -1938,7 +1938,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000163"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000164"/>
-        <obo:IAO_0000115>In the contextual fear conditioning paradigm, this is the time of the block duration in seconds. Unit of measure: seconds</obo:IAO_0000115>
+        <obo:IAO_0000115>In the contextual fear conditioning paradigm, this is the time of the block duration in seconds. Unit: seconds</obo:IAO_0000115>
         <rdfs:label xml:lang="en">contextual fear conditioning: block duration</rdfs:label>
     </owl:Class>
     
@@ -2496,6 +2496,293 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000101"/>
+        <obo:IAO_0000115>A parameter that specifies the technical settings, environmental conditions, or experimental design of a chemotaxis assay involving Caenorhabditis elegans.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans chemotaxis assay parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000231"/>
+        <obo:IAO_0000115>A table containing the quantities and identities of all chemicals used as a chemoattractant (e.g., isoamyl alcohol, diacetyl) to elicit a directed movement response in C. elegans.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans chemotaxis assay parameter: chemoattractant mixture table</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000231"/>
+        <obo:IAO_0000115>The volume of the chemoattractant mixture pipetted onto the agar plate in a chemotaxis assay. Unit: microliters (μL).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans chemotaxis assay parameter: chemoattractant mixture volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000231"/>
+        <obo:IAO_0000115>The total time elapsed from the point at which C. elegans are placed on the assay plate until the movement is arrested or the final positions are recorded. Unit: minutes.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans chemotaxis assay parameter: assay duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000100"/>
+        <obo:IAO_0000115>A quantitative or qualitative value derived from a C. elegans chemotaxis assay, typically describing the efficiency or directionality of the animals&apos; movement toward or away from a chemical source.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans chemotaxis assay measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000235"/>
+        <obo:IAO_0000115>A behavioral measurement of chemotactic efficiency defined as the ratio of the straight-line displacement toward the attractant to the total path length traveled by the organism. Values range from -1 to 1.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">chemotactic ratio</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">C. elegans chemotaxis assay measurement: McCutcheon index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000235"/>
+        <obo:IAO_0000115>The average speed of a C. elegans individual or population during the duration of the chemotaxis assay. Unit: micrometers per second (µm/s).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans chemotaxis assay measurement: mean velocity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000076"/>
+        <obo:IAO_0000115>A specific genetic variant or line of an organism designated by the investigator, often containing unique mutations, transgenes, or genomic edits not yet categorized in a public repository.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">investigator-defined strain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000238"/>
+        <obo:IAO_0000115>A specific strain of Caenorhabditis elegans, identified by its genotype or a standard nomenclature (e.g., N2, CB4856), used in experimental procedures.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans strain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000239"/>
+        <obo:IAO_0000115>A C. elegans strain with the genotype daf-22 (m130). This strain was originally obtained from the Caenorhabditis Genetics Center (CGC) as strain DR476 and subsequently outcrossed three times. [Source: https://doi.org/TBD]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">BAB9001</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000239"/>
+        <obo:IAO_0000115>A C. elegans klp-6 rescue strain with the genotype klp-6 (my8); Pklp-6::GFP::KLP-6 (array, IndEx 9002). [Source: https://doi.org/TBD]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">BAB9002</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000239"/>
+        <obo:IAO_0000115>A C. elegans strain with the genotype cil-7 (tm5848) I, exhibiting a him phenotype. This strain was obtained from the National BioResource Project (NBRP), Japan. [Source: https://doi.org/TBD]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">TM5848</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000239"/>
+        <obo:IAO_0000115>A C. elegans strain with the genotype cil-7 (my61[cil-7::mNG])I; him-5(e1490) V. This strain was provided as a gift from the Maureen Barr lab. [Source: https://doi.org/TBD]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">PT3602</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000239"/>
+        <obo:IAO_0000115>A C. elegans strain with the genotype PT3602; Pnlp-43_hCaspase nZ (array IndEx 9003). [Source: https://doi.org/TBD]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">BAB9003</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000239"/>
+        <obo:IAO_0000115>A C. elegans strain with the genotype PT3602; Pklp-6_hCaspase Cz (array IndEx 9004). [Source: https://doi.org/TBD]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">BAB9004</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000239"/>
+        <obo:IAO_0000115>A C. elegans strain with the genotype PT3602; Pnlp-43_hCaspase nZ (array IndEx 9003) and Pklp-6_hCaspase Cz (array IndEx 9004). [Source: https://doi.org/TBD]</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">BAB9005</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000001"/>
+        <obo:IAO_0000115>fluorescence imaging measurement</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fluorescence imaging measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000247"/>
+        <obo:IAO_0000115>Mean fluorescence intensity. Unit: arbitrary units (AU)</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mean fluorescence intensity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000247"/>
+        <obo:IAO_0000115>A quantitative measurement of the number of distinct fluorescent spots or puncta detected within a defined region of interest in a fluorescence image. Unit: count</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fluorescent punctal count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000080"/>
+        <obo:IAO_0000115>A specific parameter related to fluorescence imaging acquisition or assay.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fluorescence imaging parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000250"/>
+        <obo:IAO_0000115>fluorescence target ontology identifier</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fluorescence target ontology identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000250"/>
+        <obo:IAO_0000115>fluorescence target name</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fluorescence target name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/format_1929"/>
+        <obo:IAO_0000115>A .dna file format designed for storing annotated DNA sequences, including linear/circular topology, features, primers, and enzyme sites.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">SnapGene file format</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_637912"/>
+        <obo:IAO_0000115>A preparation of Escherichia coli strain OP50 that has been rendered non-viable through the application of heat, typically used as a non-proliferating food source in C. elegans assays.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Escherichia coli OP50: heat-killed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000189"/>
+        <obo:IAO_0000115>Method used to transfer C. elegans whereby an M9 buffer is used to wash C. elegans off of an agar plate. Animals can then be transferred using a piper.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans transfer method: M9 buffer wash</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000189"/>
+        <obo:IAO_0000115>Method used to transfer C. elegans whereby a titanium pick is used to scoop animals off of an agar plate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans transfer method: titanium pick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMPTY_0000129"/>
+        <obo:IAO_0000115>A video recording capturing the behavior of C. elegans during a chemotaxis assay.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">C. elegans chemotaxis assay: video recording</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMPTY_0000258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMPTY_0000258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16856"/>
+        <obo:IAO_0000115>An image or video acquired using fluorescence microscopy.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fluorescence imaging data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_637912 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_637912"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C14184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14184"/>
@@ -2505,6 +2792,12 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C14240 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14240"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16856 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16856"/>
     
 
 
@@ -2679,6 +2972,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0003883 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003883"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/format_1929 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/format_1929"/>
 </rdf:RDF>
 
 

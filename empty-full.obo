@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: empty/releases/2026-02-23/empty-full.owl
+data-version: empty/releases/2026-04-04/empty-full.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -10,7 +10,7 @@ ontology: empty/empty-full
 property_value: dcterms:description "An ontology of experimental measurements in the sciences, the purposes for which experimental measurements were made, and experimental treatments, with a focus on life sciences." xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Experimental Measurements Purposes and Treatments ontologY" xsd:string
-property_value: owl:versionInfo "2026-02-23" xsd:string
+property_value: owl:versionInfo "2026-04-04" xsd:string
 property_value: owl:versionInfo "Release 2025-07-10" xsd:string
 
 [Term]
@@ -115,7 +115,7 @@ is_a: CHEBI:36338 ! lepton
 [Term]
 id: CHEBI:131604
 name: Mycoplasma genitalium metabolite
-def: "Any bacterial metabolite produced during a metabolic reaction in Mycoplasma genitalium." []
+def: "Any bacterial metabolite produced during a metabolic reaction in <em>Mycoplasma genitalium</em>." []
 is_a: CHEBI:76969 ! bacterial metabolite
 
 [Term]
@@ -131,11 +131,12 @@ def: "A carbohydrate acid derivative anion obtained by deprotonation of the carb
 is_a: CHEBI:61469 ! polyanionic polymer
 is_a: CHEBI:63551 ! carbohydrate acid derivative anion
 relationship: is_conjugate_base_of CHEBI:16336 ! hyaluronic acid
+relationship: RO:0018033 CHEBI:16336 ! is deprotonated form of hyaluronic acid
 
 [Term]
 id: CHEBI:136889
 name: 5beta steroid
-def: "Any steroid that has beta-configuration at position 5." []
+def: "Any steroid that has β-configuration at position 5." []
 is_a: CHEBI:35341 ! steroid
 
 [Term]
@@ -147,7 +148,7 @@ is_a: CHEBI:39141 ! Bronsted acid
 [Term]
 id: CHEBI:138366
 name: bile acids
-def: "Any member of a group of hydroxy steroids occuring in bile, where they are present as the sodium salts of their amides with glycine or taurine. In mammals bile acids almost invariably have 5beta-configuration, while in lower vertebrates, some bile acids, known as allo-bile acids, have 5alpha-configuration." []
+def: "Any member of a group of hydroxy steroids occuring in bile, where they are present as the sodium salts of their amides with glycine or taurine. In mammals bile acids almost invariably have 5β-configuration, while in lower vertebrates, some bile acids, known as <i>allo</i>-bile acids, have 5α-configuration." []
 is_a: CHEBI:25384 ! monocarboxylic acid
 is_a: CHEBI:35350 ! hydroxy steroid
 is_a: CHEBI:36078 ! cholanoid
@@ -163,29 +164,30 @@ id: CHEBI:13941
 name: carbamate
 is_a: CHEBI:37022 ! amino-acid anion
 relationship: is_conjugate_base_of CHEBI:28616 ! carbamic acid
+relationship: RO:0018033 CHEBI:28616 ! is deprotonated form of carbamic acid
 
 [Term]
 id: CHEBI:140601
 name: fatty acid 4:0
 def: "Any saturated fatty acid containing 4 carbons." []
 is_a: CHEBI:26666 ! short-chain fatty acid
-relationship: is_conjugate_acid_of CHEBI:78115 ! fatty acid anion 4:0
+relationship: RO:0018034 CHEBI:78115 ! is protonated form of fatty acid anion 4:0
 
 [Term]
 id: CHEBI:142163
 name: 24G7 epitope
-def: "An antigenic epitope recognized by an anti-bilirubin monoclonal antibody designated 24G7. A substructure of bilirubin IXalpha, it is the region containing the oxo group at C-1, the methyl group at C-2, C-(4, 5, 6, 9), and N-21 and -22." []
+def: "An antigenic epitope recognized by an anti-bilirubin monoclonal antibody designated 24G7. A substructure of bilirubin IXα, it is the region containing the oxo group at C-1, the methyl group at C-2, C-(4, 5, 6, 9), and N-21 and -22." []
 is_a: CHEBI:24433 ! group
 relationship: RO:0000087 CHEBI:53000 ! has role epitope
 
 [Term]
 id: CHEBI:14321
 name: glutamate(1-)
-def: "An alpha-amino-acid anion that is the conjugate base of glutamic acid, having anionic carboxy groups and a cationic amino group" []
+def: "An α-amino-acid anion that is the conjugate base of glutamic acid, having anionic carboxy groups and a cationic amino group" []
 is_a: CHEBI:33558 ! alpha-amino-acid anion
-relationship: is_conjugate_acid_of CHEBI:29987 ! glutamate(2-)
-relationship: is_conjugate_base_of CHEBI:18237 ! glutamic acid
 relationship: RO:0000087 CHEBI:78675 ! has role fundamental metabolite
+relationship: RO:0018033 CHEBI:18237 ! is deprotonated form of glutamic acid
+relationship: RO:0018034 CHEBI:29987 ! is protonated form of glutamate(2-)
 
 [Term]
 id: CHEBI:15339
@@ -216,6 +218,16 @@ relationship: RO:0000087 CHEBI:48356 ! has role protic solvent
 relationship: RO:0000087 CHEBI:64049 ! has role food acidity regulator
 relationship: RO:0000087 CHEBI:65256 ! has role antimicrobial food preservative
 relationship: RO:0000087 CHEBI:83056 ! has role Daphnia magna metabolite
+relationship: RO:0018034 CHEBI:30089 ! is protonated form of acetate
+
+[Term]
+id: CHEBI:15378
+name: hydron
+def: "The general name for the hydrogen nucleus, to be used without regard to the hydrogen nuclear mass (either for hydrogen in its natural abundance or where it is not desired to distinguish between the isotopes)." []
+is_a: CHEBI:25414 ! monoatomic monocation
+is_a: CHEBI:33251 ! monoatomic hydrogen
+is_a: CHEBI:33252 ! atomic nucleus
+is_a: CHEBI:60242 ! monovalent inorganic cation
 
 [Term]
 id: CHEBI:15379
@@ -231,20 +243,21 @@ relationship: RO:0000087 CHEBI:63248 ! has role oxidising agent
 relationship: RO:0000087 CHEBI:75772 ! has role Saccharomyces cerevisiae metabolite
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
 relationship: RO:0000087 CHEBI:77974 ! has role food packaging gas
+relationship: RO:0018033 CHEBI:29793 ! is deprotonated form of hydridodioxygen(1+)
 
 [Term]
 id: CHEBI:15693
 name: aldose
-def: "Aldehydic parent sugars (polyhydroxy aldehydes H[CH(OH)]nC(=O)H, n >= 2) and their intramolecular hemiacetals." []
+def: "Aldehydic parent sugars (polyhydroxy aldehydes H[CH(OH)]<small><sub><em>n</em></sub></small>C(=O)H, <em>n</em> ≥ 2) and their intramolecular hemiacetals." []
 is_a: CHEBI:35381 ! monosaccharide
 
 [Term]
 id: CHEBI:15705
 name: L-alpha-amino acid
-def: "Any alpha-amino acid having L-configuration at the alpha-carbon." []
+def: "Any α-amino acid having <small>L</small>-configuration at the α-carbon." []
 is_a: CHEBI:33704 ! alpha-amino acid
-relationship: is_conjugate_acid_of CHEBI:59814 ! L-alpha-amino acid anion
-relationship: is_tautomer_of CHEBI:59869 ! L-alpha-amino acid zwitterion
+relationship: RO:0018034 CHEBI:59814 ! is protonated form of L-alpha-amino acid anion
+relationship: RO:0018036 CHEBI:59869 ! is tautomer of L-alpha-amino acid zwitterion
 
 [Term]
 id: CHEBI:15841
@@ -255,13 +268,13 @@ is_a: CHEBI:16670 ! peptide
 [Term]
 id: CHEBI:15966
 name: D-glutamic acid
-def: "An optically active form of glutamic acid having D-configuration." []
+def: "An optically active form of glutamic acid having <small>D</small>-configuration." []
 is_a: CHEBI:16733 ! D-alpha-amino acid
 is_a: CHEBI:18237 ! glutamic acid
-relationship: is_conjugate_acid_of CHEBI:29986 ! D-glutamate(1-)
-relationship: is_enantiomer_of CHEBI:16015 ! L-glutamic acid
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
 relationship: RO:0000087 CHEBI:76971 ! has role Escherichia coli metabolite
+relationship: RO:0018034 CHEBI:29986 ! is protonated form of D-glutamate(1-)
+relationship: RO:0018039 CHEBI:16015 ! is enantiomer of L-glutamic acid
 
 [Term]
 id: CHEBI:15986
@@ -274,17 +287,17 @@ relationship: BFO:0000051 CHEBI:50319 ! has part nucleotide residue
 [Term]
 id: CHEBI:16015
 name: L-glutamic acid
-def: "An optically active form of glutamic acid having L-configuration." []
+def: "An optically active form of glutamic acid having <small>L</small>-configuration." []
 is_a: CHEBI:18237 ! glutamic acid
 is_a: CHEBI:24318 ! glutamine family amino acid
-relationship: is_conjugate_acid_of CHEBI:29985 ! L-glutamate(1-)
-relationship: is_enantiomer_of CHEBI:15966 ! D-glutamic acid
 relationship: RO:0000087 CHEBI:173085 ! has role ferroptosis inducer
 relationship: RO:0000087 CHEBI:25512 ! has role neurotransmitter
 relationship: RO:0000087 CHEBI:27027 ! has role micronutrient
 relationship: RO:0000087 CHEBI:50733 ! has role nutraceutical
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
 relationship: RO:0000087 CHEBI:76971 ! has role Escherichia coli metabolite
+relationship: RO:0018034 CHEBI:29985 ! is protonated form of L-glutamate(1-)
+relationship: RO:0018039 CHEBI:15966 ! is enantiomer of D-glutamic acid
 
 [Term]
 id: CHEBI:16134
@@ -301,6 +314,8 @@ relationship: RO:0000087 CHEBI:59740 ! has role nucleophilic reagent
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
 relationship: RO:0000087 CHEBI:77941 ! has role EC 3.5.1.4 (amidase) inhibitor
 relationship: RO:0000087 CHEBI:78433 ! has role refrigerant
+relationship: RO:0018033 CHEBI:28938 ! is deprotonated form of ammonium
+relationship: RO:0018034 CHEBI:29337 ! is protonated form of azanide
 
 [Term]
 id: CHEBI:16189
@@ -313,15 +328,17 @@ relationship: is_conjugate_base_of CHEBI:45696 ! hydrogensulfate
 relationship: RO:0000087 CHEBI:23357 ! has role cofactor
 relationship: RO:0000087 CHEBI:75772 ! has role Saccharomyces cerevisiae metabolite
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018033 CHEBI:45696 ! is deprotonated form of hydrogensulfate
 
 [Term]
 id: CHEBI:16336
 name: hyaluronic acid
-def: "A mucopolysaccharide composed of N-acetylglucosamine and glucuronic acid subunits. It is found in the connective tissues of vertebrates. A principal constituent of the extracellular matrix (ECM), it mediates the growth and metastasis of tumour cells." []
+def: "A mucopolysaccharide composed of <em>N</em>-acetylglucosamine and glucuronic acid subunits. It is found in the connective tissues of vertebrates. A principal constituent of the extracellular matrix (ECM), it mediates the growth and metastasis of tumour cells." []
 is_a: CHEBI:37395 ! mucopolysaccharide
 is_a: CHEBI:72813 ! exopolysaccharide
 relationship: is_conjugate_acid_of CHEBI:132153 ! hyaluronate
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018034 CHEBI:132153 ! is protonated form of hyaluronate
 
 [Term]
 id: CHEBI:16541
@@ -333,7 +350,7 @@ relationship: BFO:0000051 CHEBI:33700 ! has part proteinogenic amino-acid residu
 [Term]
 id: CHEBI:16646
 name: carbohydrate
-def: "Any member of the class of organooxygen compounds that is a polyhydroxy-aldehyde or -ketone or a lactol resulting from their intramolecular condensation (monosaccharides); substances derived from these by reduction of the carbonyl group (alditols), by oxidation of one or more hydroxy groups to afford the corresponding aldehydes, ketones, or carboxylic acids, or by replacement of one or more hydroxy group(s) by a hydrogen atom; and polymeric products arising by intermolecular acetal formation between two or more such molecules (disaccharides, polysaccharides and oligosaccharides). Carbohydrates contain only carbon, hydrogen and oxygen atoms; prior to any oxidation or reduction, most have the empirical formula Cm(H2O)n. Compounds obtained from carbohydrates by substitution, etc., are known as carbohydrate derivatives and may contain other elements. Cyclitols are generally not regarded as carbohydrates." []
+def: "Any member of the class of organooxygen compounds that is a polyhydroxy-aldehyde or -ketone or a lactol resulting from their intramolecular condensation (monosaccharides); substances derived from these by reduction of the carbonyl group (alditols), by oxidation of one or more hydroxy groups to afford the corresponding aldehydes, ketones, or carboxylic acids, or by replacement of one or more hydroxy group(s) by a hydrogen atom; and polymeric products arising by intermolecular acetal formation between two or more such molecules (disaccharides, polysaccharides and oligosaccharides). Carbohydrates contain only carbon, hydrogen and oxygen atoms; prior to any oxidation or reduction, most have the empirical formula C<small><sub><em>m</em></sub></small>(H<small><sub>2</sub></small>O)<small><sub><em>n</em></sub></small>. Compounds obtained from carbohydrates by substitution, etc., are known as carbohydrate derivatives and may contain other elements. Cyclitols are generally not regarded as carbohydrates." []
 is_a: CHEBI:78616 ! carbohydrates and carbohydrate derivatives
 
 [Term]
@@ -345,25 +362,27 @@ is_a: CHEBI:37622 ! carboxamide
 is_a: CHEBI:50047 ! organic amino compound
 relationship: BFO:0000051 CHEBI:33708 ! has part amino-acid residue
 relationship: is_tautomer_of CHEBI:60466 ! peptide zwitterion
+relationship: RO:0018036 CHEBI:60466 ! is tautomer of peptide zwitterion
 
 [Term]
 id: CHEBI:166902
 name: noradrenaline(1+)
+def: "An organic cation that is the conjugate acid of noradrenaline, obtained by protonation of the primary amino group; major species at pH 7.3." []
 is_a: CHEBI:25697 ! organic cation
 is_a: CHEBI:35274 ! ammonium ion derivative
-relationship: is_conjugate_acid_of CHEBI:33569 ! noradrenaline
+relationship: RO:0018034 CHEBI:33569 ! is protonated form of noradrenaline
 
 [Term]
 id: CHEBI:16733
 name: D-alpha-amino acid
 is_a: CHEBI:83925 ! non-proteinogenic alpha-amino acid
-relationship: is_conjugate_acid_of CHEBI:60895 ! D-alpha-amino acid anion
-relationship: is_tautomer_of CHEBI:59871 ! D-alpha-amino acid zwitterion
+relationship: RO:0018034 CHEBI:60895 ! is protonated form of D-alpha-amino acid anion
+relationship: RO:0018036 CHEBI:59871 ! is tautomer of D-alpha-amino acid zwitterion
 
 [Term]
 id: CHEBI:167559
 name: glycan
-def: "Any oligosaccharide, polysaccharide or their derivatives consisting of monosaccharides or monosaccharide derivatives linked by glycosidic bonds. See also http://www.ontobee.org/ontology/GNO?iri=http://purl.obolibrary.org/obo/GNO_00000001." []
+def: "Any oligosaccharide, polysaccharide or their derivatives consisting of monosaccharides or monosaccharide derivatives linked by glycosidic bonds. See also <a href=\"http://www.ontobee.org/ontology/GNO?iri=http://purl.obolibrary.org/obo/GNO_00000001\" target=\"_blank\">http://www.ontobee.org/ontology/GNO?iri=http://purl.obolibrary.org/obo/GNO_00000001</a>." []
 is_a: CHEBI:78616 ! carbohydrates and carbohydrate derivatives
 
 [Term]
@@ -378,20 +397,21 @@ relationship: is_conjugate_base_of CHEBI:57887 ! tryptaminium
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
 relationship: RO:0000087 CHEBI:76924 ! has role plant metabolite
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018033 CHEBI:57887 ! is deprotonated form of tryptaminium
 
 [Term]
 id: CHEBI:16865
 name: gamma-aminobutyric acid
-def: "A gamma-amino acid that is butanoic acid with the amino substituent located at C-4." []
+def: "A γ-amino acid that is butanoic acid with the amino substituent located at C-4." []
 is_a: CHEBI:25384 ! monocarboxylic acid
 is_a: CHEBI:33707 ! gamma-amino acid
-relationship: has_functional_parent CHEBI:30772 ! butyric acid
-relationship: is_conjugate_acid_of CHEBI:30566 ! gamma-aminobutyrate
-relationship: is_tautomer_of CHEBI:59888 ! gamma-aminobutyric acid zwitterion
 relationship: RO:0000087 CHEBI:25512 ! has role neurotransmitter
 relationship: RO:0000087 CHEBI:62488 ! has role signalling molecule
 relationship: RO:0000087 CHEBI:75772 ! has role Saccharomyces cerevisiae metabolite
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018034 CHEBI:30566 ! is protonated form of gamma-aminobutyrate
+relationship: RO:0018036 CHEBI:59888 ! is tautomer of gamma-aminobutyric acid zwitterion
+relationship: RO:0018038 CHEBI:30772 ! has functional parent butyric acid
 
 [Term]
 id: CHEBI:16990
@@ -400,15 +420,15 @@ def: "A member of the class of  biladienes that is a linear tetrapyrrole with th
 is_a: CHEBI:35692 ! dicarboxylic acid
 is_a: CHEBI:36735 ! biladienes
 relationship: BFO:0000051 CHEBI:142163 ! has part 24G7 epitope
-relationship: is_conjugate_acid_of CHEBI:57977 ! bilirubin(2-)
 relationship: RO:0000087 CHEBI:22586 ! has role antioxidant
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018034 CHEBI:57977 ! is protonated form of bilirubin(2-)
 
 [Term]
 id: CHEBI:17087
 name: ketone
-def: "A compound in which a carbonyl group is bonded to two carbon atoms: R2C=O (neither R may be H)." []
+def: "A compound in which a carbonyl group is bonded to two carbon atoms: R<small><sub>2</sub></small>C=O (neither R may be H)." []
 is_a: CHEBI:36586 ! carbonyl compound
 
 [Term]
@@ -436,25 +456,25 @@ id: CHEBI:17544
 name: hydrogencarbonate
 def: "The carbon oxoanion resulting from the removal of a proton from carbonic acid." []
 is_a: CHEBI:35604 ! carbon oxoanion
-relationship: is_conjugate_acid_of CHEBI:41609 ! carbonate
-relationship: is_conjugate_base_of CHEBI:28976 ! carbonic acid
 relationship: RO:0000087 CHEBI:23357 ! has role cofactor
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
 relationship: RO:0000087 CHEBI:75772 ! has role Saccharomyces cerevisiae metabolite
 relationship: RO:0000087 CHEBI:76971 ! has role Escherichia coli metabolite
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018033 CHEBI:28976 ! is deprotonated form of carbonic acid
+relationship: RO:0018034 CHEBI:41609 ! is protonated form of carbonate
 
 [Term]
 id: CHEBI:17608
 name: D-aldohexose
-def: "Any D-aldose having a chain of six carbon atoms in the molecule." []
+def: "Any <small>D</small>-aldose having a chain of six carbon atoms in the molecule." []
 is_a: CHEBI:33917 ! aldohexose
 is_a: CHEBI:4194 ! D-hexose
 
 [Term]
 id: CHEBI:17634
 name: D-glucose
-def: "A glucose with D-configuration." []
+def: "A glucose with <small>D</small>-configuration." []
 is_a: CHEBI:17234 ! glucose
 is_a: CHEBI:17608 ! D-aldohexose
 
@@ -475,9 +495,9 @@ id: CHEBI:17968
 name: butyrate
 def: "A short-chain fatty acid anion that is the conjugate base of butyric acid, obtained by deprotonation of the carboxy group." []
 is_a: CHEBI:78115 ! fatty acid anion 4:0
-relationship: is_conjugate_base_of CHEBI:30772 ! butyric acid
 relationship: RO:0000087 CHEBI:61115 ! has role EC 3.5.1.98 (histone deacetylase) inhibitor
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018033 CHEBI:30772 ! is deprotonated form of butyric acid
 
 [Term]
 id: CHEBI:18059
@@ -508,12 +528,12 @@ is_a: CHEBI:33694 ! biomacromolecule
 [Term]
 id: CHEBI:18237
 name: glutamic acid
-def: "An alpha-amino acid that is glutaric acid bearing a single amino substituent at position 2." []
+def: "An α-amino acid that is glutaric acid bearing a single amino substituent at position 2." []
 is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:33704 ! alpha-amino acid
 relationship: BFO:0000051 CHEBI:50329 ! has part 2-carboxyethyl group
-relationship: is_conjugate_acid_of CHEBI:14321 ! glutamate(1-)
 relationship: RO:0000087 CHEBI:78675 ! has role fundamental metabolite
+relationship: RO:0018034 CHEBI:14321 ! is protonated form of glutamate(1-)
 
 [Term]
 id: CHEBI:18282
@@ -524,15 +544,15 @@ is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
 [Term]
 id: CHEBI:18357
 name: (R)-noradrenaline
-def: "The R-enantiomer of noradrenaline." []
+def: "The <i>R</i>-enantiomer of noradrenaline." []
 is_a: CHEBI:33569 ! noradrenaline
-relationship: is_conjugate_base_of CHEBI:72587 ! (R)-noradrenaline(1+)
-relationship: is_enantiomer_of CHEBI:33571 ! (S)-noradrenaline
 relationship: RO:0000087 CHEBI:25512 ! has role neurotransmitter
 relationship: RO:0000087 CHEBI:35524 ! has role sympathomimetic agent
 relationship: RO:0000087 CHEBI:35569 ! has role alpha-adrenergic agonist
 relationship: RO:0000087 CHEBI:50514 ! has role vasoconstrictor agent
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
+relationship: RO:0018033 CHEBI:72587 ! is deprotonated form of (R)-noradrenaline(1+)
+relationship: RO:0018039 CHEBI:33571 ! is enantiomer of (S)-noradrenaline
 
 [Term]
 id: CHEBI:20664
@@ -542,7 +562,7 @@ is_a: CHEBI:35519 ! cholane
 [Term]
 id: CHEBI:22221
 name: acyl group
-def: "An organic group formed by removing one or more hydroxy groups from an oxoacid that has the general structure RkE(=O)l(OH)m (l =/= 0). Although the term is almost always applied to organic compounds, with carboxylic acid as the oxoacid, acyl groups can in principle be derived from other types of acids such as sulfonic acids or phosphonic acids." []
+def: "An organic group formed by removing one or more hydroxy groups from an oxoacid that has the general structure R<small><sub><em>k</em></sub></small>E(=O)<small><sub><em>l</em></sub></small>(OH)<small><sub><em>m</em></sub></small> (<em>l</em> ≠ 0). Although the term is almost always applied to organic compounds, with carboxylic acid as the oxoacid, acyl groups can in principle be derived from other types of acids such as sulfonic acids or phosphonic acids." []
 is_a: CHEBI:33247 ! organic group
 
 [Term]
@@ -610,6 +630,7 @@ name: carbamoyl group
 def: "The univalent carboacyl group formed by loss of -OH from the carboxy group of carbamic acid." []
 is_a: CHEBI:27207 ! univalent carboacyl group
 relationship: is_substituent_group_from CHEBI:28616 ! carbamic acid
+relationship: RO:0018037 CHEBI:28616 ! is substitutent group from carbamic acid
 
 [Term]
 id: CHEBI:23019
@@ -627,6 +648,14 @@ id: CHEBI:23367
 name: molecular entity
 def: "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity." []
 is_a: CHEBI:24431 ! chemical entity
+
+[Term]
+id: CHEBI:234420
+name: (S)-noradrenaline(1+)
+def: "An organic cation that is the conjugate acid of (<i>S</i>)-noradrenaline, obtained by protonation of the primary amino group; major species at pH 7.3." []
+is_a: CHEBI:166902 ! noradrenaline(1+)
+relationship: RO:0018034 CHEBI:33571 ! is protonated form of (S)-noradrenaline
+relationship: RO:0018039 CHEBI:72587 ! is enantiomer of (R)-noradrenaline(1+)
 
 [Term]
 id: CHEBI:23449
@@ -655,14 +684,14 @@ is_a: CHEBI:52206 ! biochemical role
 [Term]
 id: CHEBI:24318
 name: glutamine family amino acid
-def: "An L-alpha-amino acid which is L-glutamic acid or any of the essential amino acids biosynthesised from it (glutamine, proline and arginine). A closed class." []
+def: "An <small>L</small>-α-amino acid which is <small>L</small>-glutamic acid or any of the essential amino acids biosynthesised from it (glutamine, proline and arginine). A closed class." []
 is_a: CHEBI:15705 ! L-alpha-amino acid
 is_a: CHEBI:83813 ! proteinogenic amino acid
 
 [Term]
 id: CHEBI:24319
 name: EC 6.3.1.2 (glutamate--ammonia ligase) inhibitor
-def: "An EC 6.3.* (C-N bond-forming ligase) inhibitor that interferes with the action of glutamate--ammonia ligase (EC 6.3.1.2)." []
+def: "An EC 6.3.* (<em>C</em>‒<em>N</em> bond-forming ligase) inhibitor that interferes with the action of glutamate—ammonia ligase (EC 6.3.1.2)." []
 is_a: CHEBI:76823 ! EC 6.3.1.* (acid-ammonia/amine ligase) inhibitor
 
 [Term]
@@ -714,7 +743,8 @@ is_a: CHEBI:48705 ! agonist
 id: CHEBI:24636
 name: proton
 def: "Nuclear particle of charge number +1, spin 1/2 and rest mass of 1.007276470(12) u." []
-is_a: CHEBI:36342 ! subatomic particle
+is_a: CHEBI:15378 ! hydron
+is_a: CHEBI:33253 ! nucleon
 is_a: COB:0000013 ! molecule
 
 [Term]
@@ -729,10 +759,10 @@ relationship: BFO:0000051 CHEBI:43176 ! has part hydroxy group
 [Term]
 id: CHEBI:24663
 name: hydroxy-5beta-cholanic acid
-def: "Any member of the class of 5beta-cholanic acids carrying at least one hydroxy group at unspecified position." []
+def: "Any member of the class of 5β-cholanic acids carrying at least one hydroxy group at unspecified position." []
 is_a: CHEBI:33822 ! organic hydroxy compound
 is_a: CHEBI:36248 ! 5beta-cholanic acids
-relationship: has_functional_parent CHEBI:36238 ! 5beta-cholanic acid
+relationship: RO:0018038 CHEBI:36238 ! has functional parent 5beta-cholanic acid
 
 [Term]
 id: CHEBI:24828
@@ -771,7 +801,6 @@ name: salt
 def: "A salt is an assembly of cations and anions." []
 is_a: CHEBI:37577 ! heteroatomic molecular entity
 relationship: BFO:0000051 CHEBI:22563 ! has part anion
-relationship: BFO:0000051 CHEBI:36916 ! has part cation
 
 [Term]
 id: CHEBI:24867
@@ -833,6 +862,7 @@ name: monocarboxylic acid
 def: "An oxoacid containing a single carboxy group." []
 is_a: CHEBI:33575 ! carboxylic acid
 relationship: is_conjugate_acid_of CHEBI:35757 ! monocarboxylic acid anion
+relationship: RO:0018034 CHEBI:35757 ! is protonated form of monocarboxylic acid anion
 
 [Term]
 id: CHEBI:25414
@@ -883,6 +913,7 @@ name: organic sulfate
 def: "Compounds of the general formula SO3HOR where R is an organyl group" []
 is_a: CHEBI:26820 ! sulfates
 relationship: is_conjugate_acid_of CHEBI:58958 ! organosulfate oxoanion
+relationship: RO:0018034 CHEBI:58958 ! is protonated form of organosulfate oxoanion
 
 [Term]
 id: CHEBI:25741
@@ -916,7 +947,7 @@ id: CHEBI:26167
 name: polar amino acid
 def: "Any amino acid whose side chain is capable of forming one or more hydrogen bonds." []
 is_a: CHEBI:33709 ! amino acid
-relationship: is_tautomer_of CHEBI:62031 ! polar amino acid zwitterion
+relationship: RO:0018036 CHEBI:62031 ! is tautomer of polar amino acid zwitterion
 
 [Term]
 id: CHEBI:26607
@@ -927,9 +958,9 @@ is_a: CHEBI:35366 ! fatty acid
 [Term]
 id: CHEBI:26666
 name: short-chain fatty acid
-def: "An aliphatic monocarboxylic acid with a chain length of less than C6. If any non-hydrocarbon substituent is present, the compound is not normally regarded as a short-chain fatty acid." []
+def: "An aliphatic monocarboxylic acid with a chain length of less than C<small><sub>6</sub></small>. If any non-hydrocarbon substituent is present, the compound is not normally regarded as a short-chain fatty acid." []
 is_a: CHEBI:35366 ! fatty acid
-relationship: is_conjugate_acid_of CHEBI:58951 ! short-chain fatty acid anion
+relationship: RO:0018034 CHEBI:58951 ! is protonated form of short-chain fatty acid anion
 
 [Term]
 id: CHEBI:26708
@@ -992,6 +1023,7 @@ def: "A sulfur oxoacid that consists of two oxo and two hydroxy groups joined co
 is_a: CHEBI:33402 ! sulfur oxoacid
 relationship: is_conjugate_acid_of CHEBI:45696 ! hydrogensulfate
 relationship: RO:0000087 CHEBI:35223 ! has role catalyst
+relationship: RO:0018034 CHEBI:45696 ! is protonated form of hydrogensulfate
 
 [Term]
 id: CHEBI:26932
@@ -1040,7 +1072,7 @@ relationship: RO:0000087 CHEBI:33937 ! has role macronutrient
 [Term]
 id: CHEBI:28087
 name: glycogen
-def: "A polydisperse, highly branched glucan composed of chains of D-glucopyranose residues in alpha(1->4) glycosidic linkage, joined together by alpha(1->6) glycosidic linkages. A small number of alpha(1->3) glycosidic linkages and some cumulative alpha(1->6) links also may occur. The branches in glycogen typically contain 8 to 12 glucose residues." []
+def: "A polydisperse, highly branched glucan composed of chains of <small>D</small>-glucopyranose residues in α(1→4) glycosidic linkage, joined together by α(1→6) glycosidic linkages. A small number of α(1→3) glycosidic linkages and some cumulative α(1→6) links also may occur. The branches in glycogen typically contain 8 to 12 glucose residues." []
 is_a: CHEBI:24384 ! glycogens
 relationship: RO:0000087 CHEBI:75772 ! has role Saccharomyces cerevisiae metabolite
 relationship: RO:0000087 CHEBI:76971 ! has role Escherichia coli metabolite
@@ -1054,6 +1086,7 @@ is_a: CHEBI:35605 ! carbon oxoacid
 is_a: CHEBI:64708 ! one-carbon compound
 relationship: is_conjugate_acid_of CHEBI:13941 ! carbamate
 relationship: RO:0000087 CHEBI:76971 ! has role Escherichia coli metabolite
+relationship: RO:0018034 CHEBI:13941 ! is protonated form of carbamate
 
 [Term]
 id: CHEBI:28790
@@ -1069,6 +1102,8 @@ relationship: is_conjugate_base_of CHEBI:350546 ! serotonin(1+)
 relationship: RO:0000087 CHEBI:25512 ! has role neurotransmitter
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018033 CHEBI:350546 ! is deprotonated form of serotonin(1+)
+relationship: RO:0018038 CHEBI:16765 ! has functional parent tryptamine
 
 [Term]
 id: CHEBI:28868
@@ -1076,7 +1111,7 @@ name: fatty acid anion
 def: "The conjugate base of a fatty acid, arising from deprotonation of the carboxylic acid group of the corresponding fatty acid." []
 is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35757 ! monocarboxylic acid anion
-relationship: is_conjugate_base_of CHEBI:35366 ! fatty acid
+relationship: RO:0018033 CHEBI:35366 ! is deprotonated form of fatty acid
 
 [Term]
 id: CHEBI:28938
@@ -1090,6 +1125,7 @@ relationship: RO:0000087 CHEBI:23357 ! has role cofactor
 relationship: RO:0000087 CHEBI:75772 ! has role Saccharomyces cerevisiae metabolite
 relationship: RO:0000087 CHEBI:76971 ! has role Escherichia coli metabolite
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018034 CHEBI:16134 ! is protonated form of ammonia
 
 [Term]
 id: CHEBI:28965
@@ -1103,8 +1139,8 @@ id: CHEBI:28976
 name: carbonic acid
 is_a: CHEBI:35605 ! carbon oxoacid
 is_a: CHEBI:36961 ! chalcocarbonic acid
-relationship: is_conjugate_acid_of CHEBI:17544 ! hydrogencarbonate
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
+relationship: RO:0018034 CHEBI:17544 ! is protonated form of hydrogencarbonate
 
 [Term]
 id: CHEBI:29067
@@ -1113,6 +1149,7 @@ def: "The conjugate base formed when the carboxy group of a carboxylic acid is d
 is_a: CHEBI:25696 ! organic anion
 is_a: CHEBI:35406 ! oxoanion
 relationship: is_conjugate_base_of CHEBI:33575 ! carboxylic acid
+relationship: RO:0018033 CHEBI:33575 ! is deprotonated form of carboxylic acid
 
 [Term]
 id: CHEBI:29101
@@ -1132,6 +1169,8 @@ is_a: CHEBI:35106 ! nitrogen hydride
 is_a: CHEBI:79389 ! monovalent inorganic anion
 relationship: is_conjugate_acid_of CHEBI:29340 ! hydridonitrate(2-)
 relationship: is_conjugate_base_of CHEBI:16134 ! ammonia
+relationship: RO:0018033 CHEBI:16134 ! is deprotonated form of ammonia
+relationship: RO:0018034 CHEBI:29340 ! is protonated form of hydridonitrate(2-)
 
 [Term]
 id: CHEBI:29340
@@ -1140,57 +1179,59 @@ def: "A divalent inorganic anion resulting from the removal of two protons from 
 is_a: CHEBI:35106 ! nitrogen hydride
 is_a: CHEBI:79388 ! divalent inorganic anion
 relationship: is_conjugate_base_of CHEBI:29337 ! azanide
+relationship: RO:0018033 CHEBI:29337 ! is deprotonated form of azanide
 
 [Term]
 id: CHEBI:29793
 name: hydridodioxygen(1+)
 is_a: CHEBI:33693 ! oxygen hydride
 relationship: is_conjugate_acid_of CHEBI:15379 ! dioxygen
+relationship: RO:0018034 CHEBI:15379 ! is protonated form of dioxygen
 
 [Term]
 id: CHEBI:29985
 name: L-glutamate(1-)
-def: "An alpha-amino-acid anion that is the conjugate base of L-glutamic acid, having anionic carboxy groups and a cationic amino group" []
+def: "An α-amino-acid anion that is the conjugate base of <small>L</small>-glutamic acid, having anionic carboxy groups and a cationic amino group" []
 is_a: CHEBI:14321 ! glutamate(1-)
-relationship: is_conjugate_acid_of CHEBI:29988 ! L-glutamate(2-)
-relationship: is_conjugate_base_of CHEBI:16015 ! L-glutamic acid
-relationship: is_enantiomer_of CHEBI:29986 ! D-glutamate(1-)
 relationship: RO:0000087 CHEBI:24319 ! has role EC 6.3.1.2 (glutamate--ammonia ligase) inhibitor
 relationship: RO:0000087 CHEBI:75772 ! has role Saccharomyces cerevisiae metabolite
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018033 CHEBI:16015 ! is deprotonated form of L-glutamic acid
+relationship: RO:0018034 CHEBI:29988 ! is protonated form of L-glutamate(2-)
+relationship: RO:0018039 CHEBI:29986 ! is enantiomer of D-glutamate(1-)
 
 [Term]
 id: CHEBI:29986
 name: D-glutamate(1-)
-def: "An alpha-amino-acid anion that is the conjugate base of D-glutamic acid, having anionic carboxy groups and a cationic amino group" []
+def: "An α-amino-acid anion that is the conjugate base of <small>D</small>-glutamic acid, having anionic carboxy groups and a cationic amino group" []
 is_a: CHEBI:14321 ! glutamate(1-)
-relationship: is_conjugate_acid_of CHEBI:29989 ! D-glutamate(2-)
-relationship: is_conjugate_base_of CHEBI:15966 ! D-glutamic acid
-relationship: is_enantiomer_of CHEBI:29985 ! L-glutamate(1-)
+relationship: RO:0018033 CHEBI:15966 ! is deprotonated form of D-glutamic acid
+relationship: RO:0018034 CHEBI:29989 ! is protonated form of D-glutamate(2-)
+relationship: RO:0018039 CHEBI:29985 ! is enantiomer of L-glutamate(1-)
 
 [Term]
 id: CHEBI:29987
 name: glutamate(2-)
-def: "A dicarboxylic acid dianion that is the conjugate base of glutamate(1-)." []
+def: "A dicarboxylic acid dianion that is the conjugate base of glutamate(1−)." []
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
-relationship: is_conjugate_base_of CHEBI:14321 ! glutamate(1-)
 relationship: RO:0000087 CHEBI:78675 ! has role fundamental metabolite
+relationship: RO:0018033 CHEBI:14321 ! is deprotonated form of glutamate(1-)
 
 [Term]
 id: CHEBI:29988
 name: L-glutamate(2-)
-def: "An L-alpha-amino acid anion that is the dianion obtained by the deprotonation of the both the carboxy groups of L-glutamic acid." []
+def: "An <small>L</small>-α-amino acid anion that is the dianion obtained by the deprotonation of the both the carboxy groups of <small>L</small>-glutamic acid." []
 is_a: CHEBI:29987 ! glutamate(2-)
 is_a: CHEBI:59814 ! L-alpha-amino acid anion
-relationship: is_conjugate_base_of CHEBI:29985 ! L-glutamate(1-)
-relationship: is_enantiomer_of CHEBI:29989 ! D-glutamate(2-)
+relationship: RO:0018033 CHEBI:29985 ! is deprotonated form of L-glutamate(1-)
+relationship: RO:0018039 CHEBI:29989 ! is enantiomer of D-glutamate(2-)
 
 [Term]
 id: CHEBI:29989
 name: D-glutamate(2-)
 is_a: CHEBI:29987 ! glutamate(2-)
-relationship: is_conjugate_base_of CHEBI:29986 ! D-glutamate(1-)
-relationship: is_enantiomer_of CHEBI:29988 ! L-glutamate(2-)
+relationship: RO:0018033 CHEBI:29986 ! is deprotonated form of D-glutamate(1-)
+relationship: RO:0018039 CHEBI:29988 ! is enantiomer of L-glutamate(2-)
 
 [Term]
 id: CHEBI:30089
@@ -1200,21 +1241,22 @@ is_a: CHEBI:35757 ! monocarboxylic acid anion
 relationship: is_conjugate_base_of CHEBI:15366 ! acetic acid
 relationship: RO:0000087 CHEBI:75772 ! has role Saccharomyces cerevisiae metabolite
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018033 CHEBI:15366 ! is deprotonated form of acetic acid
 
 [Term]
 id: CHEBI:30212
 name: photon
-def: "Particle of zero charge, zero rest mass, spin quantum number 1, energy hnu and momentum hnu/c (h is the Planck constant, nu the frequency of radiation and c the speed of light), carrier of electromagnetic force." []
+def: "Particle of zero charge, zero rest mass, spin quantum number 1, energy <em>h</em><em>ν</em> and momentum <em>h</em><em>ν</em>/<em>c</em> (<em>h</em> is the Planck constant, <em>ν</em> the frequency of radiation and <em>c</em> the speed of light), carrier of electromagnetic force." []
 is_a: CHEBI:36341 ! boson
 
 [Term]
 id: CHEBI:30566
 name: gamma-aminobutyrate
-def: "An gamma-amino acid anion resulting from the deprotonation of the carboxy group of gamma-aminobutyric acid." []
+def: "An γ-amino acid anion resulting from the deprotonation of the carboxy group of γ-aminobutyric acid." []
 is_a: CHEBI:71666 ! gamma-amino acid anion
-relationship: has_functional_parent CHEBI:17968 ! butyrate
-relationship: is_conjugate_base_of CHEBI:16865 ! gamma-aminobutyric acid
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018033 CHEBI:16865 ! is deprotonated form of gamma-aminobutyric acid
+relationship: RO:0018038 CHEBI:17968 ! has functional parent butyrate
 
 [Term]
 id: CHEBI:30772
@@ -1222,14 +1264,14 @@ name: butyric acid
 def: "A straight-chain saturated fatty acid that is butane in which one of the terminal methyl groups has been oxidised to a carboxy group." []
 is_a: CHEBI:140601 ! fatty acid 4:0
 is_a: CHEBI:39418 ! straight-chain saturated fatty acid
-relationship: is_conjugate_acid_of CHEBI:17968 ! butyrate
 relationship: RO:0000087 CHEBI:131604 ! has role Mycoplasma genitalium metabolite
 relationship: RO:0000087 CHEBI:84087 ! has role human urinary metabolite
+relationship: RO:0018034 CHEBI:17968 ! is protonated form of butyrate
 
 [Term]
 id: CHEBI:3098
 name: bile acid
-def: "Any member of a group of hydroxy-5beta-cholanic acids occuring in bile, where they are present as the sodium salts of their amides with glycine or taurine. In mammals bile acids almost invariably have 5beta-configuration." []
+def: "Any member of a group of hydroxy-5β-cholanic acids occuring in bile, where they are present as the sodium salts of their amides with glycine or taurine. In mammals bile acids almost invariably have 5β-configuration." []
 is_a: CHEBI:138366 ! bile acids
 is_a: CHEBI:24663 ! hydroxy-5beta-cholanic acid
 
@@ -1242,7 +1284,7 @@ is_a: CHEBI:50047 ! organic amino compound
 [Term]
 id: CHEBI:32988
 name: amide
-def: "An amide is a derivative of an oxoacid RkE(=O)l(OH)m (l =/= 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group." []
+def: "An amide is a derivative of an oxoacid R<small><sub><em>k</em></sub></small>E(=O)<small><sub><em>l</em></sub></small>(OH)<small><sub><em>m</em></sub></small> (<em>l</em> ≠ 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group." []
 is_a: CHEBI:51143 ! nitrogen molecular entity
 
 [Term]
@@ -1268,6 +1310,7 @@ id: CHEBI:33241
 name: oxoacid derivative
 is_a: CHEBI:37577 ! heteroatomic molecular entity
 relationship: has_functional_parent CHEBI:24833 ! oxoacid
+relationship: RO:0018038 CHEBI:24833 ! has functional parent oxoacid
 
 [Term]
 id: CHEBI:33242
@@ -1295,6 +1338,8 @@ def: "Any substituent group or skeleton containing carbon." []
 is_a: CHEBI:24433 ! group
 relationship: is_conjugate_acid_of CHEBI:64775 ! organic anionic group
 relationship: is_conjugate_base_of CHEBI:64769 ! organic cationic group
+relationship: RO:0018033 CHEBI:64769 ! is deprotonated form of organic cationic group
+relationship: RO:0018034 CHEBI:64775 ! is protonated form of organic anionic group
 
 [Term]
 id: CHEBI:33249
@@ -1307,8 +1352,13 @@ id: CHEBI:33250
 name: atom
 def: "A chemical entity constituting the smallest component of an element having the chemical properties of the element." []
 is_a: CHEBI:24431 ! chemical entity
-relationship: BFO:0000051 CHEBI:10545 ! has part electron
 relationship: BFO:0000051 CHEBI:33252 ! has part atomic nucleus
+
+[Term]
+id: CHEBI:33251
+name: monoatomic hydrogen
+is_a: CHEBI:33238 ! monoatomic entity
+is_a: CHEBI:33260 ! elemental hydrogen
 
 [Term]
 id: CHEBI:33252
@@ -1327,7 +1377,7 @@ is_a: CHEBI:36347 ! nuclear particle
 [Term]
 id: CHEBI:33256
 name: primary amide
-def: "A derivative of an oxoacid RkE(=O)l(OH)m (l =/= 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group." []
+def: "A derivative of an oxoacid R<small><sub><em>k</em></sub></small>E(=O)<small><sub><em>l</em></sub></small>(OH)<small><sub><em>m</em></sub></small> (<em>l</em> ≠ 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group." []
 is_a: CHEBI:32988 ! amide
 
 [Term]
@@ -1335,6 +1385,13 @@ id: CHEBI:33259
 name: elemental molecular entity
 def: "A molecular entity all atoms of which have the same atomic number." []
 is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:33260
+name: elemental hydrogen
+is_a: CHEBI:24835 ! inorganic molecular entity
+is_a: CHEBI:33259 ! elemental molecular entity
+is_a: CHEBI:33608 ! hydrogen molecular entity
 
 [Term]
 id: CHEBI:33262
@@ -1475,6 +1532,7 @@ name: alpha-amino-acid anion
 def: "An amino-acid anion obtained by deprotonation of any alpha-amino acid." []
 is_a: CHEBI:37022 ! amino-acid anion
 relationship: is_conjugate_base_of CHEBI:33704 ! alpha-amino acid
+relationship: RO:0018033 CHEBI:33704 ! is deprotonated form of alpha-amino acid
 
 [Term]
 id: CHEBI:33559
@@ -1490,7 +1548,7 @@ is_a: CHEBI:33318 ! main group element atom
 [Term]
 id: CHEBI:33566
 name: catechols
-def: "Any compound containing an o-diphenol component." []
+def: "Any compound containing an <em>o</em>-diphenol component." []
 is_a: CHEBI:33570 ! benzenediols
 
 [Term]
@@ -1505,8 +1563,8 @@ id: CHEBI:33569
 name: noradrenaline
 def: "A catecholamine in which C-1 of the aminoethyl side-chain is hydroxy-substituted." []
 is_a: CHEBI:33567 ! catecholamine
-relationship: is_conjugate_base_of CHEBI:166902 ! noradrenaline(1+)
 relationship: RO:0000087 CHEBI:76967 ! has role human xenobiotic metabolite
+relationship: RO:0018033 CHEBI:166902 ! is deprotonated form of noradrenaline(1+)
 
 [Term]
 id: CHEBI:33570
@@ -1516,9 +1574,10 @@ is_a: CHEBI:33853 ! phenols
 [Term]
 id: CHEBI:33571
 name: (S)-noradrenaline
-def: "The S-enantiomer of noradrenaline." []
+def: "The <i>S</i>-enantiomer of noradrenaline." []
 is_a: CHEBI:33569 ! noradrenaline
-relationship: is_enantiomer_of CHEBI:18357 ! (R)-noradrenaline
+relationship: RO:0018033 CHEBI:234420 ! is deprotonated form of (S)-noradrenaline(1+)
+relationship: RO:0018039 CHEBI:18357 ! is enantiomer of (R)-noradrenaline
 
 [Term]
 id: CHEBI:33575
@@ -1529,6 +1588,7 @@ is_a: CHEBI:36586 ! carbonyl compound
 is_a: CHEBI:64709 ! organic acid
 relationship: BFO:0000051 CHEBI:46883 ! has part carboxy group
 relationship: is_conjugate_acid_of CHEBI:29067 ! carboxylic acid anion
+relationship: RO:0018034 CHEBI:29067 ! is protonated form of carboxylic acid anion
 
 [Term]
 id: CHEBI:33579
@@ -1553,7 +1613,6 @@ is_a: CHEBI:25367 ! molecule
 id: CHEBI:33608
 name: hydrogen molecular entity
 is_a: CHEBI:33674 ! s-block molecular entity
-relationship: BFO:0000051 CHEBI:49637 ! has part hydrogen atom
 
 [Term]
 id: CHEBI:33635
@@ -1597,7 +1656,6 @@ id: CHEBI:33674
 name: s-block molecular entity
 def: "An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element." []
 is_a: CHEBI:33579 ! main group molecular entity
-relationship: BFO:0000051 CHEBI:33559 ! has part s-block element atom
 
 [Term]
 id: CHEBI:33675
@@ -1633,7 +1691,7 @@ is_a: CHEBI:33694 ! biomacromolecule
 [Term]
 id: CHEBI:33696
 name: nucleic acid
-def: "A macromolecule made up of nucleotide units and hydrolysable into certain pyrimidine or purine bases (usually adenine, cytosine, guanine, thymine, uracil), D-ribose or 2-deoxy-D-ribose and phosphoric acid." []
+def: "A macromolecule made up of nucleotide units and hydrolysable into certain pyrimidine or purine bases (usually adenine, cytosine, guanine, thymine, uracil), <small>D</small>-ribose or 2-deoxy-<small>D</small>-ribose and phosphoric acid." []
 is_a: CHEBI:15986 ! polynucleotide
 relationship: BFO:0000051 CHEBI:33791 ! has part canonical nucleoside residue
 relationship: BFO:0000051 CHEBI:50297 ! has part canonical nucleotide residue
@@ -1664,6 +1722,7 @@ name: amino-acid cation
 is_a: CHEBI:25697 ! organic cation
 is_a: CHEBI:33702 ! polyatomic cation
 relationship: is_conjugate_acid_of CHEBI:33709 ! amino acid
+relationship: RO:0018034 CHEBI:33709 ! is protonated form of amino acid
 
 [Term]
 id: CHEBI:33704
@@ -1673,13 +1732,16 @@ is_a: CHEBI:33709 ! amino acid
 relationship: is_conjugate_acid_of CHEBI:33558 ! alpha-amino-acid anion
 relationship: is_conjugate_base_of CHEBI:33719 ! alpha-amino-acid cation
 relationship: is_tautomer_of CHEBI:78608 ! alpha-amino-acid zwitterion
+relationship: RO:0018033 CHEBI:33719 ! is deprotonated form of alpha-amino-acid cation
+relationship: RO:0018034 CHEBI:33558 ! is protonated form of alpha-amino-acid anion
+relationship: RO:0018036 CHEBI:78608 ! is tautomer of alpha-amino-acid zwitterion
 
 [Term]
 id: CHEBI:33707
 name: gamma-amino acid
-def: "A non-proteinogenic amino-acid in which the amino group is located on the carbon atom at the position gamma to the carboxy group." []
+def: "A non-proteinogenic amino-acid in which the amino group is located on the carbon atom at the position γ to the carboxy group." []
 is_a: CHEBI:83820 ! non-proteinogenic amino acid
-relationship: is_conjugate_acid_of CHEBI:71666 ! gamma-amino acid anion
+relationship: RO:0018034 CHEBI:71666 ! is protonated form of gamma-amino acid anion
 
 [Term]
 id: CHEBI:33708
@@ -1689,6 +1751,9 @@ is_a: CHEBI:33247 ! organic group
 relationship: is_conjugate_acid_of CHEBI:64898 ! anionic amino-acid residue
 relationship: is_conjugate_base_of CHEBI:58942 ! cationic amino-acid residue
 relationship: is_substituent_group_from CHEBI:33709 ! amino acid
+relationship: RO:0018033 CHEBI:58942 ! is deprotonated form of cationic amino-acid residue
+relationship: RO:0018034 CHEBI:64898 ! is protonated form of anionic amino-acid residue
+relationship: RO:0018037 CHEBI:33709 ! is substitutent group from amino acid
 
 [Term]
 id: CHEBI:33709
@@ -1698,6 +1763,8 @@ is_a: CHEBI:33575 ! carboxylic acid
 is_a: CHEBI:50047 ! organic amino compound
 relationship: is_conjugate_acid_of CHEBI:37022 ! amino-acid anion
 relationship: is_conjugate_base_of CHEBI:33703 ! amino-acid cation
+relationship: RO:0018033 CHEBI:33703 ! is deprotonated form of amino-acid cation
+relationship: RO:0018034 CHEBI:37022 ! is protonated form of amino-acid anion
 
 [Term]
 id: CHEBI:33710
@@ -1705,12 +1772,14 @@ name: alpha-amino-acid residue
 def: "An amino-acid residue derived from an alpha-amino acid." []
 is_a: CHEBI:33708 ! amino-acid residue
 relationship: is_substituent_group_from CHEBI:33704 ! alpha-amino acid
+relationship: RO:0018037 CHEBI:33704 ! is substitutent group from alpha-amino acid
 
 [Term]
 id: CHEBI:33719
 name: alpha-amino-acid cation
 is_a: CHEBI:33703 ! amino-acid cation
 relationship: is_conjugate_acid_of CHEBI:33704 ! alpha-amino acid
+relationship: RO:0018034 CHEBI:33704 ! is protonated form of alpha-amino acid
 
 [Term]
 id: CHEBI:33720
@@ -1718,12 +1787,14 @@ name: carbohydrate acid
 is_a: CHEBI:16646 ! carbohydrate
 is_a: CHEBI:33575 ! carboxylic acid
 relationship: is_conjugate_acid_of CHEBI:33721 ! carbohydrate acid anion
+relationship: RO:0018034 CHEBI:33721 ! is protonated form of carbohydrate acid anion
 
 [Term]
 id: CHEBI:33721
 name: carbohydrate acid anion
 is_a: CHEBI:29067 ! carboxylic acid anion
 relationship: is_conjugate_base_of CHEBI:33720 ! carbohydrate acid
+relationship: RO:0018033 CHEBI:33720 ! is deprotonated form of carbohydrate acid
 
 [Term]
 id: CHEBI:33791
@@ -1804,6 +1875,7 @@ def: "An ammonium ion that is the conjugate acid of serotonin; major species at 
 is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: is_conjugate_acid_of CHEBI:28790 ! serotonin
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018034 CHEBI:28790 ! is protonated form of serotonin
 
 [Term]
 id: CHEBI:35106
@@ -1814,7 +1886,7 @@ is_a: CHEBI:51143 ! nitrogen molecular entity
 [Term]
 id: CHEBI:35107
 name: azane
-def: "Saturated acyclic nitrogen hydrides having the general formula NnHn+2." []
+def: "Saturated acyclic nitrogen hydrides having the general formula N<small><sub><em>n</em></sub></small>H<small><sub><em>n</em>+2</sub></small>." []
 is_a: CHEBI:35106 ! nitrogen hydride
 
 [Term]
@@ -1849,6 +1921,7 @@ def: "A derivative of ammonium, NH4(+), in which one (or more) of the hydrogens 
 is_a: CHEBI:33702 ! polyatomic cation
 is_a: CHEBI:51143 ! nitrogen molecular entity
 relationship: has_parent_hydride CHEBI:28938 ! ammonium
+relationship: RO:0018040 CHEBI:28938 ! has parent hydride ammonium
 
 [Term]
 id: CHEBI:35287
@@ -1859,7 +1932,7 @@ is_a: CHEBI:35267 ! quaternary ammonium ion
 [Term]
 id: CHEBI:35341
 name: steroid
-def: "Any of naturally occurring compounds and synthetic analogues, based on the cyclopenta[a]phenanthrene carbon skeleton, partially or completely hydrogenated; there are usually methyl groups at C-10 and C-13, and often an alkyl group at C-17. By extension, one or more bond scissions, ring expansions and/or ring contractions of the skeleton may have occurred. Natural steroids are derived biogenetically from squalene which is a triterpene." []
+def: "Any of naturally occurring compounds and synthetic analogues, based on the cyclopenta[<em>a</em>]phenanthrene carbon skeleton, partially or completely hydrogenated; there are usually methyl groups at C-10 and C-13, and often an alkyl group at C-17. By extension, one or more bond scissions, ring expansions and/or ring contractions of the skeleton may have occurred. Natural steroids are derived biogenetically from squalene which is a triterpene." []
 is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:51958 ! organic polycyclic compound
 
@@ -1882,12 +1955,12 @@ name: fatty acid
 def: "Any aliphatic monocarboxylic acid derived from or contained in esterified form in an animal or vegetable fat, oil or wax. Natural fatty acids commonly have a chain of 4 to 28 carbons (usually unbranched and even-numbered), which may be saturated or unsaturated. By extension, the term is sometimes used to embrace all acyclic aliphatic carboxylic acids." []
 is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:25384 ! monocarboxylic acid
-relationship: is_conjugate_acid_of CHEBI:28868 ! fatty acid anion
+relationship: RO:0018034 CHEBI:28868 ! is protonated form of fatty acid anion
 
 [Term]
 id: CHEBI:35381
 name: monosaccharide
-def: "Parent monosaccharides are polyhydroxy aldehydes H[CH(OH)]nC(=O)H or polyhydroxy ketones H-[CHOH]n-C(=O)[CHOH]m-H with three or more carbon atoms. The generic term 'monosaccharide' (as opposed to oligosaccharide or polysaccharide) denotes a single unit, without glycosidic connection to other such units. It includes aldoses, dialdoses, aldoketoses, ketoses and diketoses, as well as deoxy sugars, provided that the parent compound has a (potential) carbonyl group." []
+def: "Parent monosaccharides are polyhydroxy aldehydes H[CH(OH)]<small><sub><em>n</em></sub></small>C(=O)H or polyhydroxy ketones H‒[CHOH]<small><sub><em>n</em></sub></small>‒C(=O)[CHOH]<small><sub><em>m</em></sub></small>‒H with three or more carbon atoms. The generic term 'monosaccharide' (as opposed to oligosaccharide or polysaccharide) denotes a single unit, without glycosidic connection to other such units. It includes aldoses, dialdoses, aldoketoses, ketoses and diketoses, as well as deoxy sugars, provided that the parent compound has a (potential) carbonyl group." []
 is_a: CHEBI:16646 ! carbohydrate
 
 [Term]
@@ -1941,14 +2014,14 @@ is_a: CHEBI:23888 ! drug
 [Term]
 id: CHEBI:35569
 name: alpha-adrenergic agonist
-def: "An agent that selectively binds to and activates alpha-adrenergic receptors." []
+def: "An agent that selectively binds to and activates α-adrenergic receptors." []
 is_a: CHEBI:37886 ! adrenergic agonist
 is_a: CHEBI:48539 ! alpha-adrenergic drug
 
 [Term]
 id: CHEBI:35604
 name: carbon oxoanion
-def: "A negative ion consisting solely of carbon and oxygen  atoms, and therefore having the general formula CxOy(n-) for some integers x, y and n." []
+def: "A negative ion consisting solely of carbon and oxygen  atoms, and therefore having the general formula C<small><sub><em>x</em></sub></small>O<small><sub><em>y</em></sub></small><small><sup><em>n</em>−</small></sup> for some integers <em>x</em>, <em>y</em> and <em>n</em>." []
 is_a: CHEBI:25696 ! organic anion
 is_a: CHEBI:35406 ! oxoanion
 is_a: CHEBI:36963 ! organooxygen compound
@@ -1971,18 +2044,18 @@ name: dicarboxylic acid
 def: "Any carboxylic acid containing two carboxy groups." []
 is_a: CHEBI:131927 ! dicarboxylic acids and O-substituted derivatives
 is_a: CHEBI:33575 ! carboxylic acid
-relationship: is_conjugate_acid_of CHEBI:35693 ! dicarboxylic acid anion
+relationship: RO:0018034 CHEBI:35693 ! is protonated form of dicarboxylic acid anion
 
 [Term]
 id: CHEBI:35693
 name: dicarboxylic acid anion
 is_a: CHEBI:29067 ! carboxylic acid anion
-relationship: is_conjugate_base_of CHEBI:35692 ! dicarboxylic acid
+relationship: RO:0018033 CHEBI:35692 ! is deprotonated form of dicarboxylic acid
 
 [Term]
 id: CHEBI:35701
 name: ester
-def: "A compound formally derived from an oxoacid RkE(=O)l(OH)m (l > 0) and an alcohol, phenol, heteroarenol, or enol by linking with formal loss of water from an acidic hydroxy group of the former and a hydroxy group of the latter." []
+def: "A compound formally derived from an oxoacid R<small><sub><em>k</em></sub></small>E(=O)<small><sub><em>l</em></sub></small>(OH)<small><sub><em>m</em></sub></small> (<em>l</em> > 0) and an alcohol, phenol, heteroarenol, or enol by linking with formal loss of water from an acidic hydroxy group of the former and a hydroxy group of the latter." []
 is_a: CHEBI:36963 ! organooxygen compound
 
 [Term]
@@ -2004,6 +2077,7 @@ name: monocarboxylic acid anion
 def: "A carboxylic acid anion formed when the carboxy group of a monocarboxylic acid is deprotonated." []
 is_a: CHEBI:29067 ! carboxylic acid anion
 relationship: is_conjugate_base_of CHEBI:25384 ! monocarboxylic acid
+relationship: RO:0018033 CHEBI:25384 ! is deprotonated form of monocarboxylic acid
 
 [Term]
 id: CHEBI:35881
@@ -2022,7 +2096,7 @@ is_a: CHEBI:52210 ! pharmacological role
 id: CHEBI:36078
 name: cholanoid
 is_a: CHEBI:35341 ! steroid
-relationship: has_parent_hydride CHEBI:35519 ! cholane
+relationship: RO:0018040 CHEBI:35519 ! has parent hydride cholane
 
 [Term]
 id: CHEBI:36080
@@ -2056,10 +2130,10 @@ is_a: CHEBI:36248 ! 5beta-cholanic acids
 [Term]
 id: CHEBI:36248
 name: 5beta-cholanic acids
-def: "Members of the class of cholanic acids based on a 5beta-cholane skeleton." []
+def: "Members of the class of cholanic acids based on a 5β-cholane skeleton." []
 is_a: CHEBI:136889 ! 5beta steroid
 is_a: CHEBI:36278 ! cholanic acids
-relationship: has_parent_hydride CHEBI:20664 ! 5beta-cholane
+relationship: RO:0018040 CHEBI:20664 ! has parent hydride 5beta-cholane
 
 [Term]
 id: CHEBI:36277
@@ -2209,6 +2283,7 @@ name: amino-acid anion
 is_a: CHEBI:29067 ! carboxylic acid anion
 is_a: CHEBI:35352 ! organonitrogen compound
 relationship: is_conjugate_base_of CHEBI:33709 ! amino acid
+relationship: RO:0018033 CHEBI:33709 ! is deprotonated form of amino acid
 
 [Term]
 id: CHEBI:37163
@@ -2274,6 +2349,7 @@ id: CHEBI:37826
 name: sulfuric acid derivative
 is_a: CHEBI:33424 ! sulfur oxoacid derivative
 relationship: has_functional_parent CHEBI:26836 ! sulfuric acid
+relationship: RO:0018038 CHEBI:26836 ! has functional parent sulfuric acid
 
 [Term]
 id: CHEBI:37838
@@ -2281,6 +2357,7 @@ name: carboacyl group
 def: "A carboacyl group is a group formed by loss of at least one OH from the carboxy group of a carboxylic acid." []
 is_a: CHEBI:22221 ! acyl group
 relationship: is_substituent_group_from CHEBI:33575 ! carboxylic acid
+relationship: RO:0018037 CHEBI:33575 ! is substitutent group from carboxylic acid
 
 [Term]
 id: CHEBI:37886
@@ -2387,18 +2464,18 @@ name: straight-chain saturated fatty acid
 def: "Any saturated fatty acid lacking a side-chain." []
 is_a: CHEBI:26607 ! saturated fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
-relationship: is_conjugate_acid_of CHEBI:58954 ! straight-chain saturated fatty acid anion
+relationship: RO:0018034 CHEBI:58954 ! is protonated form of straight-chain saturated fatty acid anion
 
 [Term]
 id: CHEBI:41609
 name: carbonate
 is_a: CHEBI:35604 ! carbon oxoanion
-relationship: is_conjugate_base_of CHEBI:17544 ! hydrogencarbonate
+relationship: RO:0018033 CHEBI:17544 ! is deprotonated form of hydrogencarbonate
 
 [Term]
 id: CHEBI:4167
 name: D-glucopyranose
-def: "A glucopyranose having D-configuration." []
+def: "A glucopyranose having <small>D</small>-configuration." []
 is_a: CHEBI:17634 ! D-glucose
 is_a: CHEBI:37661 ! glucopyranose
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
@@ -2409,7 +2486,7 @@ relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
 [Term]
 id: CHEBI:4194
 name: D-hexose
-def: "A hexose that has D-configuration at position 5." []
+def: "A hexose that has <small>D</small>-configuration at position 5." []
 is_a: CHEBI:18133 ! hexose
 
 [Term]
@@ -2423,6 +2500,8 @@ name: hydrogensulfate
 is_a: CHEBI:33482 ! sulfur oxoanion
 relationship: is_conjugate_acid_of CHEBI:16189 ! sulfate
 relationship: is_conjugate_base_of CHEBI:26836 ! sulfuric acid
+relationship: RO:0018033 CHEBI:26836 ! is deprotonated form of sulfuric acid
+relationship: RO:0018034 CHEBI:16189 ! is protonated form of sulfate
 
 [Term]
 id: CHEBI:46629
@@ -2447,6 +2526,7 @@ name: acetate ester
 def: "Any carboxylic ester where the carboxylic acid component is acetic acid." []
 is_a: CHEBI:33308 ! carboxylic ester
 relationship: has_functional_parent CHEBI:15366 ! acetic acid
+relationship: RO:0018038 CHEBI:15366 ! has functional parent acetic acid
 
 [Term]
 id: CHEBI:47891
@@ -2454,7 +2534,7 @@ name: steroid acid
 def: "Any steroid substituted by at least one carboxy group." []
 is_a: CHEBI:35341 ! steroid
 is_a: CHEBI:64709 ! organic acid
-relationship: is_conjugate_acid_of CHEBI:50160 ! steroid acid anion
+relationship: RO:0018034 CHEBI:50160 ! is protonated form of steroid acid anion
 
 [Term]
 id: CHEBI:48154
@@ -2478,7 +2558,7 @@ is_a: CHEBI:48354 ! polar solvent
 [Term]
 id: CHEBI:48539
 name: alpha-adrenergic drug
-def: "Any drug that acts on an alpha-adrenergic receptor." []
+def: "Any drug that acts on an α-adrenergic receptor." []
 is_a: CHEBI:37962 ! adrenergic agent
 
 [Term]
@@ -2502,13 +2582,14 @@ def: "A compound formally derived from ammonia by replacing one, two or three hy
 is_a: CHEBI:35352 ! organonitrogen compound
 relationship: has_parent_hydride CHEBI:16134 ! ammonia
 relationship: RO:0000087 CHEBI:39142 ! has role Bronsted base
+relationship: RO:0018040 CHEBI:16134 ! has parent hydride ammonia
 
 [Term]
 id: CHEBI:50160
 name: steroid acid anion
 def: "Any anion formed by loss of a proton from a steroid acid." []
 is_a: CHEBI:29067 ! carboxylic acid anion
-relationship: is_conjugate_base_of CHEBI:47891 ! steroid acid
+relationship: RO:0018033 CHEBI:47891 ! is deprotonated form of steroid acid
 
 [Term]
 id: CHEBI:50297
@@ -2589,6 +2670,7 @@ name: primary amino compound
 def: "A compound formally derived from ammonia by replacing one hydrogen atom by an organyl group." []
 is_a: CHEBI:50047 ! organic amino compound
 relationship: is_conjugate_base_of CHEBI:65296 ! primary ammonium ion
+relationship: RO:0018033 CHEBI:65296 ! is deprotonated form of primary ammonium ion
 
 [Term]
 id: CHEBI:51086
@@ -2651,6 +2733,7 @@ is_a: CHEBI:24432 ! biological role
 [Term]
 id: CHEBI:52211
 name: physiological role
+def: "A biological role relating to the normal mechanisms and their interactions within a living system." []
 is_a: CHEBI:24432 ! biological role
 
 [Term]
@@ -2704,6 +2787,7 @@ relationship: is_conjugate_acid_of CHEBI:16765 ! tryptamine
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
 relationship: RO:0000087 CHEBI:76924 ! has role plant metabolite
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018034 CHEBI:16765 ! is protonated form of tryptamine
 
 [Term]
 id: CHEBI:57977
@@ -2711,8 +2795,8 @@ name: bilirubin(2-)
 def: "A dicarboxylic acid dianion obtained by deprotonation of the two carboxy groups of bilirubin; major species at pH 7.3." []
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 is_a: CHEBI:59252 ! linear tetrapyrrole anion
-relationship: is_conjugate_base_of CHEBI:16990 ! bilirubin IXalpha
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018033 CHEBI:16990 ! is deprotonated form of bilirubin IXalpha
 
 [Term]
 id: CHEBI:58942
@@ -2720,18 +2804,19 @@ name: cationic amino-acid residue
 def: "An amino-acid residue protonated on nitrogen." []
 is_a: CHEBI:64769 ! organic cationic group
 relationship: is_conjugate_acid_of CHEBI:33708 ! amino-acid residue
+relationship: RO:0018034 CHEBI:33708 ! is protonated form of amino-acid residue
 
 [Term]
 id: CHEBI:58951
 name: short-chain fatty acid anion
-def: "Any fatty acid anion obtained by removal of a proton from the carboxy group of a short-chain fatty acid (chain length of less than C6)." []
+def: "Any fatty acid anion obtained by removal of a proton from the carboxy group of a short-chain fatty acid (chain length of less than C<small><sub>6</sub></small>)." []
 is_a: CHEBI:28868 ! fatty acid anion
-relationship: is_conjugate_base_of CHEBI:26666 ! short-chain fatty acid
+relationship: RO:0018033 CHEBI:26666 ! is deprotonated form of short-chain fatty acid
 
 [Term]
 id: CHEBI:58953
 name: saturated fatty acid anion
-def: "Any fatty acid anion in which there is no C-C unsaturation." []
+def: "Any fatty acid anion in which there is no C‒C unsaturation." []
 is_a: CHEBI:28868 ! fatty acid anion
 
 [Term]
@@ -2739,7 +2824,7 @@ id: CHEBI:58954
 name: straight-chain saturated fatty acid anion
 def: "Any saturated fatty acid anion lacking a carbon side-chain." []
 is_a: CHEBI:58953 ! saturated fatty acid anion
-relationship: is_conjugate_base_of CHEBI:39418 ! straight-chain saturated fatty acid
+relationship: RO:0018033 CHEBI:39418 ! is deprotonated form of straight-chain saturated fatty acid
 
 [Term]
 id: CHEBI:58958
@@ -2749,20 +2834,22 @@ is_a: CHEBI:25696 ! organic anion
 is_a: CHEBI:33482 ! sulfur oxoanion
 relationship: has_functional_parent CHEBI:16189 ! sulfate
 relationship: is_conjugate_base_of CHEBI:25704 ! organic sulfate
+relationship: RO:0018033 CHEBI:25704 ! is deprotonated form of organic sulfate
+relationship: RO:0018038 CHEBI:16189 ! has functional parent sulfate
 
 [Term]
 id: CHEBI:59202
 name: straight-chain fatty acid
 def: "Any fatty acid whose skeletal carbon atoms form an unbranched open chain." []
 is_a: CHEBI:35366 ! fatty acid
-relationship: is_conjugate_acid_of CHEBI:59203 ! straight-chain fatty acid anion
+relationship: RO:0018034 CHEBI:59203 ! is protonated form of straight-chain fatty acid anion
 
 [Term]
 id: CHEBI:59203
 name: straight-chain fatty acid anion
 def: "A fatty acid anion formed by deprotonation of the carboxylic acid functional group of a straight-chain fatty acid." []
 is_a: CHEBI:28868 ! fatty acid anion
-relationship: is_conjugate_base_of CHEBI:59202 ! straight-chain fatty acid
+relationship: RO:0018033 CHEBI:59202 ! is deprotonated form of straight-chain fatty acid
 
 [Term]
 id: CHEBI:59252
@@ -2780,30 +2867,30 @@ is_a: CHEBI:39144 ! Lewis base
 [Term]
 id: CHEBI:59814
 name: L-alpha-amino acid anion
-def: "Conjugate base of an L-alpha-amino acid arising from deprotonation of the C-1 carboxy group." []
+def: "Conjugate base of an <small>L</small>-α-amino acid arising from deprotonation of the C-1 carboxy group." []
 is_a: CHEBI:33558 ! alpha-amino-acid anion
-relationship: is_conjugate_base_of CHEBI:15705 ! L-alpha-amino acid
+relationship: RO:0018033 CHEBI:15705 ! is deprotonated form of L-alpha-amino acid
 
 [Term]
 id: CHEBI:59869
 name: L-alpha-amino acid zwitterion
-def: "Zwitterionic form of an L-alpha-amino acid having an anionic carboxy group and a protonated amino group." []
+def: "Zwitterionic form of an <small>L</small>-α-amino acid having an anionic carboxy group and a protonated amino group." []
 is_a: CHEBI:78608 ! alpha-amino-acid zwitterion
-relationship: is_tautomer_of CHEBI:15705 ! L-alpha-amino acid
+relationship: RO:0018036 CHEBI:15705 ! is tautomer of L-alpha-amino acid
 
 [Term]
 id: CHEBI:59871
 name: D-alpha-amino acid zwitterion
-def: "Zwitterionic form of a D-alpha-amino acid having an anionic carboxy group and a protonated amino group." []
+def: "Zwitterionic form of a <small>D</small>-α-amino acid having an anionic carboxy group and a protonated amino group." []
 is_a: CHEBI:35238 ! amino-acid zwitterion
-relationship: is_tautomer_of CHEBI:16733 ! D-alpha-amino acid
+relationship: RO:0018036 CHEBI:16733 ! is tautomer of D-alpha-amino acid
 
 [Term]
 id: CHEBI:59888
 name: gamma-aminobutyric acid zwitterion
-def: "Zwitterionic form of gamma-aminobutyric acid having an anionic carboxy group and a protonated amino group." []
+def: "Zwitterionic form of γ-aminobutyric acid having an anionic carboxy group and a protonated amino group." []
 is_a: CHEBI:35238 ! amino-acid zwitterion
-relationship: is_tautomer_of CHEBI:16865 ! gamma-aminobutyric acid
+relationship: RO:0018036 CHEBI:16865 ! is tautomer of gamma-aminobutyric acid
 
 [Term]
 id: CHEBI:59999
@@ -2843,13 +2930,14 @@ name: peptide zwitterion
 def: "Zwitterionic form of any peptide where, in general, the amino terminus is positively charged and the carboxy terminus is negatively charged." []
 is_a: CHEBI:27369 ! zwitterion
 relationship: is_tautomer_of CHEBI:16670 ! peptide
+relationship: RO:0018036 CHEBI:16670 ! is tautomer of peptide
 
 [Term]
 id: CHEBI:60895
 name: D-alpha-amino acid anion
-def: "Any alpha-amino acid anion in which the parent amino acid has D-configuration." []
+def: "Any α-amino acid anion in which the parent amino acid has <small>D</small>-configuration." []
 is_a: CHEBI:33558 ! alpha-amino-acid anion
-relationship: is_conjugate_base_of CHEBI:16733 ! D-alpha-amino acid
+relationship: RO:0018033 CHEBI:16733 ! is deprotonated form of D-alpha-amino acid
 
 [Term]
 id: CHEBI:61115
@@ -2864,6 +2952,7 @@ def: "Any compound that has a nucleobase as a part." []
 is_a: CHEBI:33833 ! heteroarene
 is_a: CHEBI:51143 ! nitrogen molecular entity
 relationship: has_functional_parent CHEBI:18282 ! nucleobase
+relationship: RO:0018038 CHEBI:18282 ! has functional parent nucleobase
 
 [Term]
 id: CHEBI:61469
@@ -2877,7 +2966,7 @@ id: CHEBI:62031
 name: polar amino acid zwitterion
 def: "Zwitterionic form of a polar amino acid having an anionic carboxy group and a protonated amino group." []
 is_a: CHEBI:35238 ! amino-acid zwitterion
-relationship: is_tautomer_of CHEBI:26167 ! polar amino acid
+relationship: RO:0018036 CHEBI:26167 ! is tautomer of polar amino acid
 
 [Term]
 id: CHEBI:62488
@@ -2897,6 +2986,7 @@ name: carbohydrate derivative
 def: "Any organooxygen compound derived from a carbohydrate by replacement of one or more hydroxy group(s) by an amino group, a thiol group or similar heteroatomic groups. The term also includes derivatives of these compounds." []
 is_a: CHEBI:78616 ! carbohydrates and carbohydrate derivatives
 relationship: has_functional_parent CHEBI:16646 ! carbohydrate
+relationship: RO:0018038 CHEBI:16646 ! has functional parent carbohydrate
 
 [Term]
 id: CHEBI:63436
@@ -2905,6 +2995,8 @@ def: "A carbohydrate derivative that is formally obtained from a carbohydrate ac
 is_a: CHEBI:63299 ! carbohydrate derivative
 relationship: has_functional_parent CHEBI:33720 ! carbohydrate acid
 relationship: is_conjugate_acid_of CHEBI:63551 ! carbohydrate acid derivative anion
+relationship: RO:0018034 CHEBI:63551 ! is protonated form of carbohydrate acid derivative anion
+relationship: RO:0018038 CHEBI:33720 ! has functional parent carbohydrate acid
 
 [Term]
 id: CHEBI:63534
@@ -2919,6 +3011,8 @@ def: "A carboxylic acid anion resulting from the deprotonation of the carboxy gr
 is_a: CHEBI:29067 ! carboxylic acid anion
 relationship: has_functional_parent CHEBI:33721 ! carbohydrate acid anion
 relationship: is_conjugate_base_of CHEBI:63436 ! carbohydrate acid derivative
+relationship: RO:0018033 CHEBI:63436 ! is deprotonated form of carbohydrate acid derivative
+relationship: RO:0018038 CHEBI:33721 ! has functional parent carbohydrate acid anion
 
 [Term]
 id: CHEBI:64047
@@ -2976,6 +3070,7 @@ name: organic cationic group
 def: "A cationic group that contains carbon." []
 is_a: CHEBI:64766 ! cationic group
 relationship: is_conjugate_acid_of CHEBI:33247 ! organic group
+relationship: RO:0018034 CHEBI:33247 ! is protonated form of organic group
 
 [Term]
 id: CHEBI:64775
@@ -2983,6 +3078,7 @@ name: organic anionic group
 def: "An anionic group that contains carbon." []
 is_a: CHEBI:64767 ! anionic group
 relationship: is_conjugate_base_of CHEBI:33247 ! organic group
+relationship: RO:0018033 CHEBI:33247 ! is deprotonated form of organic group
 
 [Term]
 id: CHEBI:64898
@@ -2990,6 +3086,7 @@ name: anionic amino-acid residue
 def: "An amino-acid residue carrying an overall negative charge." []
 is_a: CHEBI:64775 ! organic anionic group
 relationship: is_conjugate_base_of CHEBI:33708 ! amino-acid residue
+relationship: RO:0018033 CHEBI:33708 ! is deprotonated form of amino-acid residue
 
 [Term]
 id: CHEBI:64909
@@ -3005,6 +3102,7 @@ is_a: CHEBI:167559 ! glycan
 is_a: CHEBI:33694 ! biomacromolecule
 is_a: CHEBI:63299 ! carbohydrate derivative
 relationship: has_functional_parent CHEBI:18154 ! polysaccharide
+relationship: RO:0018038 CHEBI:18154 ! has functional parent polysaccharide
 
 [Term]
 id: CHEBI:65255
@@ -3026,6 +3124,7 @@ def: "An ammonium ion derivative resulting from the protonation of the nitrogen 
 is_a: CHEBI:25697 ! organic cation
 is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: is_conjugate_acid_of CHEBI:50994 ! primary amino compound
+relationship: RO:0018034 CHEBI:50994 ! is protonated form of primary amino compound
 
 [Term]
 id: CHEBI:67079
@@ -3036,17 +3135,18 @@ is_a: CHEBI:33232 ! application
 [Term]
 id: CHEBI:71666
 name: gamma-amino acid anion
-def: "An amino-acid anion in which the amino group is situated gamma- to the carboxylate group." []
+def: "An amino-acid anion in which the amino group is situated γ- to the carboxylate group." []
 is_a: CHEBI:37022 ! amino-acid anion
-relationship: is_conjugate_base_of CHEBI:33707 ! gamma-amino acid
+relationship: RO:0018033 CHEBI:33707 ! is deprotonated form of gamma-amino acid
 
 [Term]
 id: CHEBI:72587
 name: (R)-noradrenaline(1+)
-def: "An organic cation that is the conjugate acid of (R)-noradrenaline, obtained by protonation of the priamry amino group; major species at pH 7.3." []
+def: "An organic cation that is the conjugate acid of (<i>R</i>)-noradrenaline, obtained by protonation of the primary amino group; major species at pH 7.3." []
 is_a: CHEBI:166902 ! noradrenaline(1+)
-relationship: is_conjugate_acid_of CHEBI:18357 ! (R)-noradrenaline
 relationship: RO:0000087 CHEBI:77746 ! has role human metabolite
+relationship: RO:0018034 CHEBI:18357 ! is protonated form of (R)-noradrenaline
+relationship: RO:0018039 CHEBI:234420 ! is enantiomer of (S)-noradrenaline(1+)
 
 [Term]
 id: CHEBI:72695
@@ -3076,7 +3176,7 @@ is_a: CHEBI:52845 ! cyclic organic group
 [Term]
 id: CHEBI:75600
 name: EC 6.3.* (C-N bond-forming ligase) inhibitor
-def: "A ligase inhibitor that interferes with the action of a C-N bond-forming ligase (EC 6.3.*.*)." []
+def: "A ligase inhibitor that interferes with the action of a <em>C</em>‒<em>N</em> bond-forming ligase (EC 6.3.*.*)." []
 is_a: CHEBI:75603 ! EC 6.* (ligase) inhibitor
 
 [Term]
@@ -3106,13 +3206,13 @@ is_a: CHEBI:75767 ! animal metabolite
 [Term]
 id: CHEBI:75771
 name: mouse metabolite
-def: "Any mammalian metabolite produced during a metabolic reaction in a mouse (Mus musculus)." []
+def: "Any mammalian metabolite produced during a metabolic reaction in a mouse (<em>Mus musculus</em>)." []
 is_a: CHEBI:75768 ! mammalian metabolite
 
 [Term]
 id: CHEBI:75772
 name: Saccharomyces cerevisiae metabolite
-def: "Any  fungal metabolite produced during a metabolic reaction in Baker's yeast (Saccharomyces cerevisiae)." []
+def: "Any  fungal metabolite produced during a metabolic reaction in Baker's yeast (<em>Saccharomyces cerevisiae </em>)." []
 is_a: CHEBI:76946 ! fungal metabolite
 
 [Term]
@@ -3148,7 +3248,7 @@ is_a: CHEBI:76764 ! EC 3.5.* (hydrolases acting on non-peptide C-N bonds) inhibi
 [Term]
 id: CHEBI:76823
 name: EC 6.3.1.* (acid-ammonia/amine ligase) inhibitor
-def: "An EC 6.3.* (C-N bond-forming ligase) inhibitor that interferes with the action of any acid-ammonia (or amine) ligase (EC 6.3.1.*)." []
+def: "An EC 6.3.* (<em>C</em>‒<em>N</em> bond-forming ligase) inhibitor that interferes with the action of any acid-ammonia (or amine) ligase (EC 6.3.1.*)." []
 is_a: CHEBI:75600 ! EC 6.3.* (C-N bond-forming ligase) inhibitor
 
 [Term]
@@ -3179,13 +3279,13 @@ is_a: CHEBI:75787 ! prokaryotic metabolite
 [Term]
 id: CHEBI:76971
 name: Escherichia coli metabolite
-def: "Any bacterial metabolite produced during a metabolic reaction in Escherichia coli." []
+def: "Any bacterial metabolite produced during a metabolic reaction in <em>Escherichia coli</em>." []
 is_a: CHEBI:76969 ! bacterial metabolite
 
 [Term]
 id: CHEBI:77746
 name: human metabolite
-def: "Any mammalian metabolite  produced during a metabolic reaction in humans (Homo sapiens)." []
+def: "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>)." []
 is_a: CHEBI:75768 ! mammalian metabolite
 
 [Term]
@@ -3206,7 +3306,7 @@ name: fatty acid anion 4:0
 def: "Any saturated fatty acid anion containing 4 carbons. Formed by deprotonation of the carboxylic acid moiety. Major species at pH 7.3." []
 is_a: CHEBI:58951 ! short-chain fatty acid anion
 is_a: CHEBI:58953 ! saturated fatty acid anion
-relationship: is_conjugate_base_of CHEBI:140601 ! fatty acid 4:0
+relationship: RO:0018033 CHEBI:140601 ! is deprotonated form of fatty acid 4:0
 
 [Term]
 id: CHEBI:78295
@@ -3226,11 +3326,12 @@ name: alpha-amino-acid zwitterion
 def: "An amino acid-zwitterion obtained by transfer of a proton from the carboxy to the amino group of any alpha-amino acid; major species at pH 7.3." []
 is_a: CHEBI:35238 ! amino-acid zwitterion
 relationship: is_tautomer_of CHEBI:33704 ! alpha-amino acid
+relationship: RO:0018036 CHEBI:33704 ! is tautomer of alpha-amino acid
 
 [Term]
 id: CHEBI:78616
 name: carbohydrates and carbohydrate derivatives
-def: "Any organooxygen compound that is a polyhydroxy-aldehyde or -ketone, or a compound derived from one. Carbohydrates contain only carbon, hydrogen and oxygen and usually have an empirical formula Cm(H2O)n; carbohydrate derivatives may contain other elements by substitution or condensation." []
+def: "Any organooxygen compound that is a polyhydroxy-aldehyde or -ketone, or a compound derived from one. Carbohydrates contain only carbon, hydrogen and oxygen and usually have an empirical formula C<small><sub><em>m</em></sub></small>(H<small><sub>2</sub></small>O)<small><sub><em>n</em></sub></small>; carbohydrate derivatives may contain other elements by substitution or condensation." []
 is_a: CHEBI:36963 ! organooxygen compound
 
 [Term]
@@ -3260,19 +3361,19 @@ is_a: CHEBI:75767 ! animal metabolite
 [Term]
 id: CHEBI:83056
 name: Daphnia magna metabolite
-def: "A Daphnia metabolite produced by the species Daphnia magna." []
+def: "A <em>Daphnia</em> metabolite produced by the species <em>Daphnia magna</em>." []
 is_a: CHEBI:83057 ! Daphnia metabolite
 
 [Term]
 id: CHEBI:83057
 name: Daphnia metabolite
-def: "A crustacean metabolite produced by the genus of small planktonic arthropods, Daphnia" []
+def: "A crustacean metabolite produced by the genus of small planktonic arthropods, <em>Daphnia</em>" []
 is_a: CHEBI:83039 ! crustacean metabolite
 
 [Term]
 id: CHEBI:83813
 name: proteinogenic amino acid
-def: "Any of the 23 alpha-amino acids that are precursors to proteins, and are incorporated into proteins during translation. The group includes the 20 amino acids encoded by the nuclear genes of eukaryotes together with selenocysteine, pyrrolysine, and N-formylmethionine. Apart from glycine, which is non-chiral, all have L configuration." []
+def: "Any of the 23 α-amino acids that are precursors to proteins, and are incorporated into proteins during translation. The group includes the 20 amino acids encoded by the nuclear genes of eukaryotes together with selenocysteine, pyrrolysine, and <em>N</em>-formylmethionine. Apart from glycine, which is non-chiral, all have <small>L</small> configuration." []
 is_a: CHEBI:33709 ! amino acid
 
 [Term]
@@ -3284,7 +3385,7 @@ is_a: CHEBI:33709 ! amino acid
 [Term]
 id: CHEBI:83925
 name: non-proteinogenic alpha-amino acid
-def: "Any  alpha-amino acid which is not a member of the group of 23 proteinogenic amino acids." []
+def: "Any  α-amino acid which is not a member of the group of 23 proteinogenic amino acids." []
 is_a: CHEBI:33704 ! alpha-amino acid
 is_a: CHEBI:83820 ! non-proteinogenic amino acid
 
@@ -3309,9 +3410,10 @@ is_a: UBERON:0000061 ! anatomical structure
 disjoint_from: GO:0031012 ! extracellular matrix
 disjoint_from: GO:0032991 ! protein-containing complex
 disjoint_from: GO:0043226 ! organelle
+disjoint_from: GO:0044423 ! virion component
 relationship: BFO:0000051 GO:0005634 {gci_filler="PATO:0001407", gci_relation="RO:0000053"} ! has part nucleus
 relationship: BFO:0000051 GO:0005634 {gci_filler="PATO:0001908", gci_relation="RO:0000053"} ! has part nucleus
-relationship: RO:0002162 NCBITaxon:131567 ! in taxon cellular organisms
+relationship: RO:0002162 NCBITaxon:131567 ! in taxon cellular organism
 
 [Term]
 id: CL:0000005
@@ -3973,6 +4075,7 @@ name: chondrocyte
 synonym: "cartilage cell" EXACT []
 is_a: CL:0000153 ! glycosaminoglycan secreting cell
 is_a: CL:0000667 ! collagen secreting cell
+is_a: CL:0007001 ! skeletogenic cell
 relationship: RO:0001025 UBERON:0002418 ! located in cartilage tissue
 relationship: RO:0002202 CL:0000058 ! develops from chondroblast
 
@@ -8864,298 +8967,298 @@ is_a: EMPTY:0000002 ! behavioral measurement
 [Term]
 id: EMPTY:0000006
 name: elevated plus maze: open arm (north) - entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (North)'. The 'Open Arm (North)' is one of the two open arms, distinguished by its assigned 'north' orientation or designation in the experimental setup. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (North)'. The 'Open Arm (North)' is one of the two open arms, distinguished by its assigned 'north' orientation or designation in the experimental setup. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000007
 name: elevated plus maze: open arm (south) - entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (South)'. The 'Open Arm (South)' is one of the two open arms, distinguished by its assigned 'south' orientation or designation in the experimental setup. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's body (typically defined by its center point or a significant portion) fully enters the user-defined zone designated as 'Open Arm (South)'. The 'Open Arm (South)' is one of the two open arms, distinguished by its assigned 'south' orientation or designation in the experimental setup. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000008
 name: elevated plus maze: open arm total entries
-def: "In the Elevated Plus Maze task, this represents the total number of times the animal's body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). It is a common measure of exploration and anxiety. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this represents the total number of times the animal's body (typically defined by its center point or a significant portion) fully enters the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). It is a common measure of exploration and anxiety. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000009
 name: elevated plus maze: open arm (north) - head entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (North)' zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as 'north'. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (North)' zone, irrespective of full body entry. This can indicate risk assessment or tentative exploration of the arm designated as 'north'. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000010
 name: elevated plus maze: open arm (south) - head entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (South)' zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as 'south'. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's head (specifically tracked by the software) enters the user-defined 'Open Arm (South)' zone, irrespective of full body entry, often reflecting cautious exploration of the open arm designated as 'south'. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000011
 name: elevated plus maze: open arm total head entries
-def: "In the Elevated Plus Maze task, this is the total number of times the animal's head (specifically tracked by the software) enters any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'), considered an indicator of risk-assessment behavior. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this is the total number of times the animal's head (specifically tracked by the software) enters any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'), considered an indicator of risk-assessment behavior. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000012
 name: elevated plus maze: open arm (north) - time
-def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (North)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (North)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000013
 name: elevated plus maze: open arm (south) - time
-def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Open Arm (South)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000014
 name: elevated plus maze: open arm total time
-def: "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Less time is generally indicative of higher anxiety. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Less time is generally indicative of higher anxiety. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000015
 name: elevated plus maze: open arm total - percent time during test duration
-def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit of measure: %" []
+def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated open arm zones (e.g., 'Open Arm (North)' and 'Open Arm (South)'). Unit: %" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000016
 name: elevated plus maze: open arm (north) - latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (North)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (North)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000017
 name: elevated plus maze: open arm (south) - latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (South)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Open Arm (South)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000018
 name: elevated plus maze: open arm total latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'). Longer latencies often suggest higher anxiety. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'). Longer latencies often suggest higher anxiety. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000019
 name: elevated plus maze: open arm (north) - time moving towards
-def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (North)' zone, as detected by the tracking software. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (North)' zone, as detected by the tracking software. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000020
 name: elevated plus maze: open arm (south) - time moving towards
-def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (South)' zone, as detected by the tracking software. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Open Arm (South)' zone, as detected by the tracking software. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000021
 name: elevated plus maze: open arm total time moving towards
-def: "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), reflecting approach motivation. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), reflecting approach motivation. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000022
 name: elevated plus maze: open arm (north) - time freezing
-def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined 'Open Arm (North)' zone. Freezing is a common fear response. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior (a state of immobility except for respiratory movements) while within the user-defined 'Open Arm (North)' zone. Freezing is a common fear response. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000023
 name: elevated plus maze: open arm (south) - time freezing
-def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Open Arm (South)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Open Arm (South)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000024
 name: elevated plus maze: open arm total time freezing
-def: "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), indicating fear or anxiety. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated open arm zones (e.g., 'Open Arm (North)' or 'Open Arm (South)'), indicating fear or anxiety. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000025
 name: elevated plus maze: closed arm (west) - entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (West)' zone, representing the enclosed arm designated as 'west'. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (West)' zone, representing the enclosed arm designated as 'west'. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000026
 name: elevated plus maze: closed arm (east) - entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (East)' zone, representing the enclosed arm designated as 'east'. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (East)' zone, representing the enclosed arm designated as 'east'. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000027
 name: elevated plus maze: closed arm total entries
-def: "In the Elevated Plus Maze task, this is the total number of times the animal's body fully enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). It is often used as an indicator of general locomotor activity. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this is the total number of times the animal's body fully enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). It is often used as an indicator of general locomotor activity. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000028
 name: elevated plus maze: closed arm (west) - head entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (West)' zone. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (West)' zone. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000029
 name: elevated plus maze: closed arm (east) - head entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (East)' zone. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (East)' zone. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000030
 name: elevated plus maze: closed arm total head entries
-def: "In the Elevated Plus Maze task, this is the total number of times the animal's head enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this is the total number of times the animal's head enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000031
 name: elevated plus maze: closed arm (west) - time
-def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000032
 name: elevated plus maze: closed arm (east) - time
-def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000033
 name: elevated plus maze: closed arm total time
-def: "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000034
 name: elevated plus maze: closed arm total - percent time during test duration
-def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit of measure: %" []
+def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit: %" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000035
 name: elevated plus maze: closed arm (west) - latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000036
 name: elevated plus maze: closed arm (east) - latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (East)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000037
 name: elevated plus maze: closed arm total latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000038
 name: elevated plus maze: closed arm (west) - time moving towards
-def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (West)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000039
 name: elevated plus maze: closed arm (east) - time moving towards
-def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000040
 name: elevated plus maze: closed arm total time moving towards
-def: "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000041
 name: elevated plus maze: closed arm (west) - time freezing
-def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000042
 name: elevated plus maze: closed arm (east) - time freezing
-def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000043
 name: elevated plus maze: closed arm total time freezing
-def: "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000044
 name: elevated plus maze: center - entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Center' zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Center' zone of the maze, typically from one of the arms. The center zone is the area where all four arms meet. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000045
 name: elevated plus maze: center - head entries
-def: "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Center' zone of the maze. Unit of measure: count" []
+def: "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Center' zone of the maze. Unit: count" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000046
 name: elevated plus maze: center - time
-def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Center' zone. Time in the center can indicate decision-making or risk assessment. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Center' zone. Time in the center can indicate decision-making or risk assessment. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000047
 name: elevated plus maze: center - percent time during test duration
-def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit of measure: %" []
+def: "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in the user-defined 'Center' zone of the maze. Unit: %" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 
 [Term]
 id: EMPTY:0000048
 name: elevated plus maze: center - latency to first entry
-def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Center' zone. If the animal starts in the center, this value may be zero or not applicable. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Center' zone. If the animal starts in the center, this value may be zero or not applicable. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000049
 name: elevated plus maze: center - time moving towards
-def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Center' zone of the maze (e.g., from an arm). Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Center' zone of the maze (e.g., from an arm). Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
 [Term]
 id: EMPTY:0000050
 name: elevated plus maze: center - time freezing
-def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Center' zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Center' zone of the maze. Freezing in this relatively exposed area can indicate high anxiety. Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 
@@ -9174,7 +9277,7 @@ is_a: EMPTY:0000084 ! categorical identifier
 [Term]
 id: EMPTY:0000053
 name: fear-potentiated startle: baseline acoustic startle response amplitude
-def: "In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit of measure: arbitrary units or standardized score." []
+def: "In the Fear-potentiated startle paradigm, this is the amplitude of the acoustic startle response (ASR) measured in response to a startle-eliciting stimulus (e.g., 95-dB white noise burst) prior to any fear conditioning procedures, typically assessed during habituation or pre-conditioning phase. This measurement serves as a reference point for later comparisons with post-conditioning startle responses. Unit: arbitrary units or standardized score." []
 is_a: EMPTY:0000004 ! acoustic startle response measurement
 is_a: EMPTY:0000162 ! amplitude
 
@@ -9206,7 +9309,7 @@ is_a: EMPTY:0000093 ! fear-potentiated startle parameter
 [Term]
 id: EMPTY:0000058
 name: fear-potentiated startle: apparatus chamber identifier
-def: "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit of measure: count or identifier string" []
+def: "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit: count or identifier string" []
 is_a: EMPTY:0000093 ! fear-potentiated startle parameter
 
 [Term]
@@ -9218,40 +9321,40 @@ is_a: EMPTY:0000084 ! categorical identifier
 [Term]
 id: EMPTY:0000060
 name: acoustic startle response: number of samples
-def: "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit of measure: count" []
+def: "The total number of data points (samples) recorded and analyzed for a single acoustic startle response, typically within a defined time window following stimulus onset (e.g., a 200-ms window as mentioned in the manuscript). Unit: count" []
 is_a: EMPTY:0000093 ! fear-potentiated startle parameter
 
 [Term]
 id: EMPTY:0000061
 name: acoustic startle response: sampling rate
-def: "The rate at which the analog startle response signal was digitized during data acquisition. Unit of measure: Hertz (Hz)" []
+def: "The rate at which the analog startle response signal was digitized during data acquisition. Unit: Hertz (Hz)" []
 is_a: EMPTY:0000093 ! fear-potentiated startle parameter
 
 [Term]
 id: EMPTY:0000062
 name: acoustic startle response: startle window onset amplitude
-def: "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit of measure: millivolts (mV) or arbitrary units based on transducer calibration." []
+def: "The amplitude of the digitized acoustic startle response signal at the very beginning (onset) of the defined analysis window (e.g., a 200-ms window) used to quantify the reflex. Unit: millivolts (mV) or arbitrary units based on transducer calibration." []
 is_a: EMPTY:0000004 ! acoustic startle response measurement
 is_a: EMPTY:0000162 ! amplitude
 
 [Term]
 id: EMPTY:0000063
 name: acoustic startle response: maximum amplitude
-def: "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit of measure: millivolts (mV) or arbitrary units." []
+def: "The peak amplitude of the acoustic startle response (e.g., 'jump amplitude') detected within the defined analysis window (e.g., 200-ms window) for a given trial. Unit: millivolts (mV) or arbitrary units." []
 is_a: EMPTY:0000004 ! acoustic startle response measurement
 is_a: EMPTY:0000162 ! amplitude
 
 [Term]
 id: EMPTY:0000064
 name: acoustic startle response: time to maximum amplitude
-def: "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit of measure: milliseconds (ms)" []
+def: "The latency from the onset of the startle-eliciting stimulus (or the beginning of the analysis window) to the occurrence of the maximum (peak) amplitude of the acoustic startle response. Unit: milliseconds (ms)" []
 is_a: EMPTY:0000004 ! acoustic startle response measurement
 is_a: EMPTY:0000091 ! timepoint
 
 [Term]
 id: EMPTY:0000065
 name: acoustic startle response: average amplitude
-def: "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit of measure: millivolts (mV) or arbitrary units." []
+def: "The average amplitude of the digitized acoustic startle response signal calculated across the entire duration of the defined analysis window (e.g., 200-ms window). Unit: millivolts (mV) or arbitrary units." []
 is_a: EMPTY:0000004 ! acoustic startle response measurement
 is_a: EMPTY:0000162 ! amplitude
 
@@ -9271,7 +9374,7 @@ is_a: EMPTY:0000093 ! fear-potentiated startle parameter
 [Term]
 id: EMPTY:0000068
 name: elevated plus maze: test duration
-def: "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit of measure: seconds" []
+def: "In the Elevated Plus Maze task, this is the time of the total test duration in seconds'). Unit: seconds" []
 is_a: EMPTY:0000003 ! elevated plus maze measurement
 is_a: EMPTY:0000090 ! duration
 is_a: EMPTY:0000092 ! elevated plus maze parameter
@@ -9975,13 +10078,13 @@ is_a: EMPTY:0000164 ! contextual fear conditioning parameter
 [Term]
 id: EMPTY:0000175
 name: contextual fear conditioning: time freezing
-def: "The number of seconds the individual spent freezing during a given period of time. Unit of measure: seconds" []
+def: "The number of seconds the individual spent freezing during a given period of time. Unit: seconds" []
 is_a: EMPTY:0000163 ! contextual fear conditioning measurement
 
 [Term]
 id: EMPTY:0000176
 name: contextual fear conditioning: block duration
-def: "In the contextual fear conditioning paradigm, this is the time of the block duration in seconds. Unit of measure: seconds" []
+def: "In the contextual fear conditioning paradigm, this is the time of the block duration in seconds. Unit: seconds" []
 is_a: EMPTY:0000163 ! contextual fear conditioning measurement
 is_a: EMPTY:0000164 ! contextual fear conditioning parameter
 
@@ -10320,6 +10423,175 @@ id: EMPTY:0000230
 name: unknown electronic file type
 def: "A digital file for which the format, encoding, or origin cannot be definitively identified by the system or investigator, necessitating further manual review or specialized software for interpretation." []
 is_a: NCIT:C172272 ! Electronic File Content Type
+
+[Term]
+id: EMPTY:0000231
+name: C. elegans chemotaxis assay parameter
+def: "A parameter that specifies the technical settings, environmental conditions, or experimental design of a chemotaxis assay involving Caenorhabditis elegans." []
+is_a: EMPTY:0000101 ! C. elegans behavioral assay parameter
+
+[Term]
+id: EMPTY:0000232
+name: C. elegans chemotaxis assay parameter: chemoattractant mixture table
+def: "A table containing the quantities and identities of all chemicals used as a chemoattractant (e.g., isoamyl alcohol, diacetyl) to elicit a directed movement response in C. elegans." []
+is_a: EMPTY:0000231 ! C. elegans chemotaxis assay parameter
+
+[Term]
+id: EMPTY:0000233
+name: C. elegans chemotaxis assay parameter: chemoattractant mixture volume
+def: "The volume of the chemoattractant mixture pipetted onto the agar plate in a chemotaxis assay. Unit: microliters (μL)." []
+is_a: EMPTY:0000231 ! C. elegans chemotaxis assay parameter
+
+[Term]
+id: EMPTY:0000234
+name: C. elegans chemotaxis assay parameter: assay duration
+def: "The total time elapsed from the point at which C. elegans are placed on the assay plate until the movement is arrested or the final positions are recorded. Unit: minutes." []
+is_a: EMPTY:0000231 ! C. elegans chemotaxis assay parameter
+
+[Term]
+id: EMPTY:0000235
+name: C. elegans chemotaxis assay measurement
+def: "A quantitative or qualitative value derived from a C. elegans chemotaxis assay, typically describing the efficiency or directionality of the animals' movement toward or away from a chemical source." []
+is_a: EMPTY:0000100 ! C. elegans behavioral assay measurement
+
+[Term]
+id: EMPTY:0000236
+name: C. elegans chemotaxis assay measurement: McCutcheon index
+def: "A behavioral measurement of chemotactic efficiency defined as the ratio of the straight-line displacement toward the attractant to the total path length traveled by the organism. Values range from -1 to 1." []
+synonym: "chemotactic ratio" EXACT []
+is_a: EMPTY:0000235 ! C. elegans chemotaxis assay measurement
+
+[Term]
+id: EMPTY:0000237
+name: C. elegans chemotaxis assay measurement: mean velocity
+def: "The average speed of a C. elegans individual or population during the duration of the chemotaxis assay. Unit: micrometers per second (µm/s)." []
+is_a: EMPTY:0000235 ! C. elegans chemotaxis assay measurement
+
+[Term]
+id: EMPTY:0000238
+name: investigator-defined strain
+def: "A specific genetic variant or line of an organism designated by the investigator, often containing unique mutations, transgenes, or genomic edits not yet categorized in a public repository." []
+is_a: EMPTY:0000076 ! descriptor
+
+[Term]
+id: EMPTY:0000239
+name: C. elegans strain
+def: "A specific strain of Caenorhabditis elegans, identified by its genotype or a standard nomenclature (e.g., N2, CB4856), used in experimental procedures." []
+is_a: EMPTY:0000238 ! investigator-defined strain
+
+[Term]
+id: EMPTY:0000240
+name: BAB9001
+def: "A C. elegans strain with the genotype daf-22 (m130). This strain was originally obtained from the Caenorhabditis Genetics Center (CGC) as strain DR476 and subsequently outcrossed three times. [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000241
+name: BAB9002
+def: "A C. elegans klp-6 rescue strain with the genotype klp-6 (my8); Pklp-6::GFP::KLP-6 (array, IndEx 9002). [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000242
+name: TM5848
+def: "A C. elegans strain with the genotype cil-7 (tm5848) I, exhibiting a him phenotype. This strain was obtained from the National BioResource Project (NBRP), Japan. [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000243
+name: PT3602
+def: "A C. elegans strain with the genotype cil-7 (my61[cil-7::mNG])I; him-5(e1490) V. This strain was provided as a gift from the Maureen Barr lab. [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000244
+name: BAB9003
+def: "A C. elegans strain with the genotype PT3602; Pnlp-43_hCaspase nZ (array IndEx 9003). [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000245
+name: BAB9004
+def: "A C. elegans strain with the genotype PT3602; Pklp-6_hCaspase Cz (array IndEx 9004). [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000246
+name: BAB9005
+def: "A C. elegans strain with the genotype PT3602; Pnlp-43_hCaspase nZ (array IndEx 9003) and Pklp-6_hCaspase Cz (array IndEx 9004). [Source: https://doi.org/TBD]" []
+is_a: EMPTY:0000239 ! C. elegans strain
+
+[Term]
+id: EMPTY:0000247
+name: fluorescence imaging measurement
+def: "fluorescence imaging measurement" []
+is_a: EMPTY:0000001 ! measurement
+
+[Term]
+id: EMPTY:0000248
+name: mean fluorescence intensity
+def: "Mean fluorescence intensity. Unit: arbitrary units (AU)" []
+is_a: EMPTY:0000247 ! fluorescence imaging measurement
+
+[Term]
+id: EMPTY:0000249
+name: fluorescent punctal count
+def: "A quantitative measurement of the number of distinct fluorescent spots or puncta detected within a defined region of interest in a fluorescence image. Unit: count" []
+is_a: EMPTY:0000247 ! fluorescence imaging measurement
+
+[Term]
+id: EMPTY:0000250
+name: fluorescence imaging parameter
+def: "A specific parameter related to fluorescence imaging acquisition or assay." []
+is_a: EMPTY:0000080 ! parameter
+
+[Term]
+id: EMPTY:0000251
+name: fluorescence target ontology identifier
+def: "fluorescence target ontology identifier" []
+is_a: EMPTY:0000250 ! fluorescence imaging parameter
+
+[Term]
+id: EMPTY:0000252
+name: fluorescence target name
+def: "fluorescence target name" []
+is_a: EMPTY:0000250 ! fluorescence imaging parameter
+
+[Term]
+id: EMPTY:0000253
+name: SnapGene file format
+def: "A .dna file format designed for storing annotated DNA sequences, including linear/circular topology, features, primers, and enzyme sites." []
+is_a: format:1929
+
+[Term]
+id: EMPTY:0000254
+name: Escherichia coli OP50: heat-killed
+def: "A preparation of Escherichia coli strain OP50 that has been rendered non-viable through the application of heat, typically used as a non-proliferating food source in C. elegans assays." []
+is_a: NCBITaxon:637912 ! Escherichia coli OP50
+
+[Term]
+id: EMPTY:0000255
+name: C. elegans transfer method: M9 buffer wash
+def: "Method used to transfer C. elegans whereby an M9 buffer is used to wash C. elegans off of an agar plate. Animals can then be transferred using a piper." []
+is_a: EMPTY:0000189 ! treatment
+
+[Term]
+id: EMPTY:0000256
+name: C. elegans transfer method: titanium pick
+def: "Method used to transfer C. elegans whereby a titanium pick is used to scoop animals off of an agar plate." []
+is_a: EMPTY:0000189 ! treatment
+
+[Term]
+id: EMPTY:0000257
+name: C. elegans chemotaxis assay: video recording
+def: "A video recording capturing the behavior of C. elegans during a chemotaxis assay." []
+is_a: EMPTY:0000129 ! C. elegans behavioral assay: video recording
+
+[Term]
+id: EMPTY:0000258
+name: fluorescence imaging data
+def: "An image or video acquired using fluorescence microscopy." []
+is_a: NCIT:C16856 ! Fluorescence Microscopy
 
 [Term]
 id: GO:0000011
@@ -16125,6 +16397,7 @@ name: biological_process
 synonym: "biological process" EXACT []
 synonym: "physiological process" EXACT []
 is_a: BFO:0000015 ! process
+relationship: BFO:0000051 GO:0003674 ! has part molecular_function
 
 [Term]
 id: GO:0008152
@@ -17084,6 +17357,14 @@ is_a: GO:0008356 ! asymmetric cell division
 intersection_of: GO:0008356 ! asymmetric cell division
 intersection_of: RO:0004009 CL:0000365 ! has primary input animal zygote
 relationship: RO:0004009 CL:0000365 ! has primary input animal zygote
+
+[Term]
+id: GO:0010155
+name: regulation of proton transport
+is_a: GO:1904062 ! regulation of monoatomic cation transmembrane transport
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: RO:0002211 GO:1902600 ! regulates (processual) proton transmembrane transport
+relationship: RO:0002211 GO:1902600 ! regulates (processual) proton transmembrane transport
 
 [Term]
 id: GO:0010160
@@ -18777,22 +19058,6 @@ intersection_of: BFO:0000050 GO:0043502 ! part of regulation of muscle adaptatio
 relationship: BFO:0000050 GO:0043502 ! part of regulation of muscle adaptation
 
 [Term]
-id: GO:0014878
-name: response to electrical stimulus involved in regulation of muscle adaptation
-is_a: GO:0014874 ! response to stimulus involved in regulation of muscle adaptation
-is_a: GO:0051602 ! response to electrical stimulus
-intersection_of: GO:0051602 ! response to electrical stimulus
-intersection_of: BFO:0000050 GO:0043502 ! part of regulation of muscle adaptation
-
-[Term]
-id: GO:0014879
-name: detection of electrical stimulus involved in regulation of muscle adaptation
-is_a: GO:0014878 ! response to electrical stimulus involved in regulation of muscle adaptation
-is_a: GO:0050981 ! detection of electrical stimulus
-intersection_of: GO:0050981 ! detection of electrical stimulus
-intersection_of: BFO:0000050 GO:0043502 ! part of regulation of muscle adaptation
-
-[Term]
 id: GO:0014887
 name: cardiac muscle adaptation
 is_a: GO:0014888 ! striated muscle adaptation
@@ -18898,6 +19163,18 @@ intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: RO:0004009 CHEBI:24867 ! has primary input monoatomic ion
 relationship: BFO:0000050 GO:0034220 ! part of monoatomic ion transmembrane transport
 relationship: RO:0004009 CHEBI:24867 ! has primary input monoatomic ion
+
+[Term]
+id: GO:0015078
+name: proton transmembrane transporter activity
+synonym: "hydrogen ion transmembrane transporter activity" EXACT []
+synonym: "proton transporter activity" EXACT []
+is_a: GO:0008324 ! monoatomic cation transmembrane transporter activity
+intersection_of: GO:0005215 ! transporter activity
+intersection_of: RO:0002342 GO:0016020 ! results in transport across membrane
+intersection_of: RO:0004009 CHEBI:15378 ! has primary input hydron
+relationship: BFO:0000050 GO:1902600 ! part of proton transmembrane transport
+relationship: RO:0004009 CHEBI:15378 ! has primary input hydron
 
 [Term]
 id: GO:0015081
@@ -19836,7 +20113,7 @@ intersection_of: GO:0042592 ! homeostatic process
 intersection_of: BFO:0000066 CL:0000000 ! occurs in cell
 disjoint_from: GO:0048872 ! homeostasis of number of cells
 relationship: BFO:0000066 CL:0000000 ! occurs in cell
-relationship: RO:0002162 NCBITaxon:131567 ! in taxon cellular organisms
+relationship: RO:0002162 NCBITaxon:131567 ! in taxon cellular organism
 
 [Term]
 id: GO:0019748
@@ -22229,6 +22506,7 @@ synonym: "proteinaceous extracellular matrix" EXACT []
 is_a: GO:0030312 ! external encapsulating structure
 disjoint_from: GO:0032991 ! protein-containing complex
 disjoint_from: GO:0043226 ! organelle
+disjoint_from: GO:0044423 ! virion component
 
 [Term]
 id: GO:0031016
@@ -23425,7 +23703,7 @@ is_a: GO:0045185 ! maintenance of protein location
 is_a: GO:0051651 ! maintenance of location in cell
 intersection_of: GO:0045185 ! maintenance of protein location
 intersection_of: BFO:0000066 CL:0000000 ! occurs in cell
-relationship: RO:0002162 NCBITaxon:131567 ! in taxon cellular organisms
+relationship: RO:0002162 NCBITaxon:131567 ! in taxon cellular organism
 
 [Term]
 id: GO:0032528
@@ -23858,6 +24136,7 @@ synonym: "macromolecule complex" EXACT []
 synonym: "protein containing complex" EXACT []
 is_a: COB:0000080 ! complex of molecules
 is_a: GO:0005575 ! cellular_component
+disjoint_from: GO:0044423 ! virion component
 disjoint_from: GO:0110165 ! cellular anatomical entity
 relationship: BFO:0000051 PR:000000001 ! has part protein
 property_value: IAO:0000118 "protein complex" xsd:string
@@ -25365,7 +25644,7 @@ relationship: RO:0012008 GO:0000139 ! results in fusion of Golgi membrane
 id: GO:0040007
 name: growth
 is_a: GO:0008150 ! biological_process
-relationship: RO:0002162 NCBITaxon:131567 ! in taxon cellular organisms
+relationship: RO:0002162 NCBITaxon:131567 ! in taxon cellular organism
 
 [Term]
 id: GO:0040008
@@ -26540,6 +26819,7 @@ relationship: BFO:0000050 CL:0000125 ! part of glial cell
 id: GO:0043226
 name: organelle
 is_a: GO:0110165 ! cellular anatomical entity
+disjoint_from: GO:0044423 ! virion component
 
 [Term]
 id: GO:0043227
@@ -26814,7 +27094,7 @@ relationship: RO:0002211 GO:0016052 ! regulates (processual) carbohydrate catabo
 id: GO:0043473
 name: pigmentation
 is_a: GO:0008150 ! biological_process
-relationship: RO:0002162 NCBITaxon:131567 ! in taxon cellular organisms
+relationship: RO:0002162 NCBITaxon:131567 ! in taxon cellular organism
 
 [Term]
 id: GO:0043500
@@ -27310,7 +27590,9 @@ is_a: GO:0008150 ! biological_process
 id: GO:0044423
 name: virion component
 def: "Any constituent part of a virion, a complete fully infectious extracellular virus particle." []
+synonym: "virion part" EXACT []
 is_a: GO:0005575 ! cellular_component
+disjoint_from: GO:0110165 ! cellular anatomical entity
 
 [Term]
 id: GO:0044458
@@ -32066,11 +32348,6 @@ intersection_of: RO:0002213 GO:0050931 ! positively regulates pigment cell diffe
 relationship: RO:0002213 GO:0050931 ! positively regulates pigment cell differentiation
 
 [Term]
-id: GO:0050952
-name: sensory perception of electrical stimulus
-is_a: GO:0007600 ! sensory perception
-
-[Term]
 id: GO:0050953
 name: sensory perception of light stimulus
 is_a: GO:0007600 ! sensory perception
@@ -32081,13 +32358,6 @@ name: sensory perception of mechanical stimulus
 synonym: "mechanosensory perception" EXACT []
 synonym: "perception of mechanical stimulus" EXACT []
 is_a: GO:0007600 ! sensory perception
-
-[Term]
-id: GO:0050956
-name: electroception
-synonym: "electroception sense" EXACT []
-synonym: "electroceptive sense" EXACT []
-is_a: GO:0050952 ! sensory perception of electrical stimulus
 
 [Term]
 id: GO:0050962
@@ -32103,44 +32373,6 @@ is_a: GO:0050906 ! detection of stimulus involved in sensory perception
 intersection_of: GO:0009583 ! detection of light stimulus
 intersection_of: BFO:0000050 GO:0007600 ! part of sensory perception
 relationship: BFO:0000050 GO:0050953 ! part of sensory perception of light stimulus
-
-[Term]
-id: GO:0050963
-name: detection of electrical stimulus involved in sensory perception
-synonym: "sensory detection of electrical stimulus" EXACT []
-synonym: "sensory detection of electrical stimulus during sensory perception" EXACT []
-synonym: "sensory perception, sensory detection of electrical stimulus" EXACT []
-synonym: "sensory perception, sensory transduction of electrical stimulus" EXACT []
-synonym: "sensory transduction of electrical stimulus" EXACT []
-synonym: "sensory transduction of electrical stimulus during sensory perception" EXACT []
-is_a: GO:0050906 ! detection of stimulus involved in sensory perception
-is_a: GO:0050981 ! detection of electrical stimulus
-intersection_of: GO:0050981 ! detection of electrical stimulus
-intersection_of: BFO:0000050 GO:0007600 ! part of sensory perception
-relationship: BFO:0000050 GO:0050952 ! part of sensory perception of electrical stimulus
-
-[Term]
-id: GO:0050964
-name: detection of electrical stimulus involved in electroception
-synonym: "electroception, detection of electrical stimulus" EXACT []
-synonym: "electroception, sensory detection of electrical stimulus" EXACT []
-synonym: "electroception, sensory transduction" EXACT []
-synonym: "electroception, sensory transduction of electrical stimulus" EXACT []
-is_a: GO:0050963 ! detection of electrical stimulus involved in sensory perception
-intersection_of: GO:0050981 ! detection of electrical stimulus
-intersection_of: BFO:0000050 GO:0050956 ! part of electroception
-relationship: BFO:0000050 GO:0050956 ! part of electroception
-
-[Term]
-id: GO:0050967
-name: detection of electrical stimulus involved in sensory perception of pain
-synonym: "perception of pain, detection of electrical stimulus" EXACT []
-synonym: "perception of pain, sensory detection of electrical stimulus" EXACT []
-synonym: "perception of pain, sensory transduction of electrical stimulus" EXACT []
-is_a: GO:0050963 ! detection of electrical stimulus involved in sensory perception
-is_a: GO:0062149 ! detection of stimulus involved in sensory perception of pain
-intersection_of: GO:0050981 ! detection of electrical stimulus
-intersection_of: BFO:0000050 GO:0019233 ! part of sensory perception of pain
 
 [Term]
 id: GO:0050968
@@ -32163,12 +32395,6 @@ synonym: "tactile sense" EXACT []
 synonym: "taction" EXACT []
 synonym: "tactition" EXACT []
 is_a: GO:0050954 ! sensory perception of mechanical stimulus
-
-[Term]
-id: GO:0050981
-name: detection of electrical stimulus
-is_a: GO:0009582 ! detection of abiotic stimulus
-is_a: GO:0051602 ! response to electrical stimulus
 
 [Term]
 id: GO:0050994
@@ -33070,11 +33296,6 @@ intersection_of: RO:0002213 GO:0006836 ! positively regulates neurotransmitter t
 relationship: RO:0002213 GO:0006836 ! positively regulates neurotransmitter transport
 
 [Term]
-id: GO:0051602
-name: response to electrical stimulus
-is_a: GO:0009628 ! response to abiotic stimulus
-
-[Term]
 id: GO:0051606
 name: detection of stimulus
 synonym: "stimulus detection" EXACT []
@@ -33234,7 +33455,7 @@ intersection_of: GO:0051234 ! establishment of localization
 intersection_of: BFO:0000066 CL:0000000 ! occurs in cell
 relationship: BFO:0000050 GO:0051641 ! part of cellular localization
 relationship: BFO:0000066 CL:0000000 ! occurs in cell
-relationship: RO:0002162 NCBITaxon:131567 ! in taxon cellular organisms
+relationship: RO:0002162 NCBITaxon:131567 ! in taxon cellular organism
 
 [Term]
 id: GO:0051650
@@ -40754,6 +40975,7 @@ synonym: "cellular anatomical entity" EXACT []
 is_a: CARO:0000000 ! anatomical entity
 is_a: GO:0005575 ! cellular_component
 is_a: UBERON:0000061 ! anatomical structure
+disjoint_from: UBERON:0000001 ! gross anatomical part
 relationship: BFO:0000051 COB:0000013 ! has part molecule
 
 [Term]
@@ -40789,6 +41011,18 @@ is_a: GO:0042995 ! cell projection
 intersection_of: GO:0042995 ! cell projection
 intersection_of: BFO:0000051 GO:0098590 ! has part plasma membrane region
 relationship: BFO:0000051 GO:0098590 ! has part plasma membrane region
+
+[Term]
+id: GO:0120029
+name: proton export across plasma membrane
+synonym: "hydrogen ion export across plasma membrane" EXACT []
+is_a: GO:0140115 ! export across plasma membrane
+is_a: GO:1902600 ! proton transmembrane transport
+intersection_of: GO:0006810 ! transport
+intersection_of: RO:0002338 GO:0005829 ! has target start location cytosol
+intersection_of: RO:0002339 GO:0005576 ! has target end location extracellular region
+intersection_of: RO:0002342 GO:0005886 ! results in transport across plasma membrane
+intersection_of: RO:0004009 CHEBI:15378 ! has primary input hydron
 
 [Term]
 id: GO:0120031
@@ -43531,6 +43765,17 @@ is_a: GO:0034504 ! protein localization to nucleus
 intersection_of: GO:0008104 ! intracellular protein localization
 intersection_of: RO:0002339 GO:0005730 ! has target end location nucleolus
 relationship: RO:0002339 GO:0005730 ! has target end location nucleolus
+
+[Term]
+id: GO:1902600
+name: proton transmembrane transport
+synonym: "hydrogen ion transmembrane transport" EXACT []
+synonym: "hydrogen transmembrane transport" EXACT []
+is_a: GO:0098655 ! monoatomic cation transmembrane transport
+is_a: GO:0098662 ! inorganic cation transmembrane transport
+intersection_of: GO:0055085 ! transmembrane transport
+intersection_of: RO:0004009 CHEBI:15378 ! has primary input hydron
+relationship: RO:0004009 CHEBI:15378 ! has primary input hydron
 
 [Term]
 id: GO:1902679
@@ -49094,7 +49339,7 @@ is_a: IAO:0000104 ! plan specification
 
 [Term]
 id: IAO:0000027
-name: data item
+name: data entity
 def: "An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements." []
 is_a: IAO:0000030 ! information content entity
 
@@ -49143,7 +49388,7 @@ is_a: IAO:0000033 ! directive information entity
 id: IAO:0000100
 name: data set
 def: "A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets." []
-is_a: IAO:0000027 ! data item
+is_a: IAO:0000027 ! data entity
 
 [Term]
 id: IAO:0000101
@@ -49155,7 +49400,7 @@ is_a: IAO:0000308 ! figure
 id: IAO:0000102
 name: data about an ontology part
 def: "Data about an ontology part is a data item about a part of an ontology, for example a term" []
-is_a: IAO:0000027 ! data item
+is_a: IAO:0000027 ! data entity
 
 [Term]
 id: IAO:0000104
@@ -49387,6 +49632,16 @@ name: Lophotrochozoa
 is_a: NCBITaxon:2697495 ! Spiralia
 
 [Term]
+id: NCBITaxon:1224
+name: Pseudomonadota
+is_a: NCBITaxon:3379134 ! Pseudomonadati
+
+[Term]
+id: NCBITaxon:1236
+name: Gammaproteobacteria
+is_a: NCBITaxon:1224 ! Pseudomonadota
+
+[Term]
 id: NCBITaxon:124129
 name: Acipenserinae
 is_a: NCBITaxon:7900 ! Acipenseridae
@@ -49415,7 +49670,8 @@ disjoint_from: NCBITaxon:33511 ! Deuterostomia
 
 [Term]
 id: NCBITaxon:131567
-name: cellular organisms
+name: cellular organism
+is_a: COB:0000022 ! organism
 is_a: NCBITaxon:1 ! root
 
 [Term]
@@ -49528,7 +49784,7 @@ is_a: NCBITaxon:6656 ! Arthropoda
 [Term]
 id: NCBITaxon:2
 name: Bacteria
-is_a: NCBITaxon:131567 ! cellular organisms
+is_a: NCBITaxon:131567 ! cellular organism
 
 [Term]
 id: NCBITaxon:2058185
@@ -49548,7 +49804,7 @@ is_a: NCBITaxon:9604 ! Hominidae
 [Term]
 id: NCBITaxon:2157
 name: Archaea
-is_a: NCBITaxon:131567 ! cellular organisms
+is_a: NCBITaxon:131567 ! cellular organism
 
 [Term]
 id: NCBITaxon:2301116
@@ -49603,9 +49859,7 @@ is_a: NCBITaxon:2743709 ! Danionidae
 [Term]
 id: NCBITaxon:2759
 name: Eukaryota
-is_a: COB:0000022 ! organism
-is_a: NCBITaxon:131567 ! cellular organisms
-property_value: IAO:0000118 "eucaryotes" xsd:string
+is_a: NCBITaxon:131567 ! cellular organism
 property_value: IAO:0000118 "eukaryotes" xsd:string
 
 [Term]
@@ -49736,6 +49990,7 @@ id: NCBITaxon:33208
 name: Metazoa
 is_a: NCBITaxon:33154 ! Opisthokonta
 disjoint_from: NCBITaxon:4751 ! Fungi
+property_value: IAO:0000118 "animals" xsd:string
 property_value: IAO:0000118 "metazoans" xsd:string
 property_value: IAO:0000118 "multicellular animals" xsd:string
 
@@ -49790,6 +50045,11 @@ is_a: NCBITaxon:1963758 ! Myomorpha
 id: NCBITaxon:3378
 name: Gnetales
 is_a: NCBITaxon:1445966 ! Gnetidae
+
+[Term]
+id: NCBITaxon:3379134
+name: Pseudomonadati
+is_a: NCBITaxon:2 ! Bacteria
 
 [Term]
 id: NCBITaxon:3398
@@ -49969,6 +50229,11 @@ name: Insecta
 is_a: NCBITaxon:6960 ! Hexapoda
 
 [Term]
+id: NCBITaxon:543
+name: Enterobacteriaceae
+is_a: NCBITaxon:91347 ! Enterobacterales
+
+[Term]
 id: NCBITaxon:554915
 name: Amoebozoa
 is_a: NCBITaxon:2759 ! Eukaryota
@@ -49982,6 +50247,16 @@ is_a: NCBITaxon:2301119 ! Rhabditomorpha
 id: NCBITaxon:55885
 name: Peloderinae
 is_a: NCBITaxon:6243 ! Rhabditidae
+
+[Term]
+id: NCBITaxon:561
+name: Escherichia
+is_a: NCBITaxon:543 ! Enterobacteriaceae
+
+[Term]
+id: NCBITaxon:562
+name: Escherichia coli
+is_a: NCBITaxon:561 ! Escherichia
 
 [Term]
 id: NCBITaxon:5782
@@ -50060,6 +50335,11 @@ is_a: NCBITaxon:6340 ! Annelida
 id: NCBITaxon:6362
 name: Sabellida
 is_a: NCBITaxon:105391 ! Canalipalpata
+
+[Term]
+id: NCBITaxon:637912
+name: Escherichia coli OP50
+is_a: NCBITaxon:562 ! Escherichia coli
 
 [Term]
 id: NCBITaxon:6656
@@ -50332,6 +50612,11 @@ name: Craniata <chordates>
 is_a: NCBITaxon:7711 ! Chordata
 
 [Term]
+id: NCBITaxon:91347
+name: Enterobacterales
+is_a: NCBITaxon:1236 ! Gammaproteobacteria
+
+[Term]
 id: NCBITaxon:9254
 name: Prototheria
 is_a: NCBITaxon:40674 ! Mammalia
@@ -50430,9 +50715,25 @@ name: Other Organism Groupings
 is_a: NCIT:C14250 ! Organism
 
 [Term]
+id: NCIT:C16203
+name: Clinical or Research Activity
+is_a: NCIT:C43431 ! Activity
+
+[Term]
 id: NCIT:C16847
 name: Technique
 is_a: NCIT:C43431 ! Activity
+
+[Term]
+id: NCIT:C16853
+name: Microscopy
+is_a: NCIT:C17369 ! Imaging Procedure
+is_a: NCIT:C74957 ! Mixed Category Laboratory Procedure
+
+[Term]
+id: NCIT:C16856
+name: Fluorescence Microscopy
+is_a: NCIT:C17995 ! Light Microscopy
 
 [Term]
 id: NCIT:C17187
@@ -50445,10 +50746,20 @@ name: Electronic File Content Type
 is_a: NCIT:C25284 ! Type
 
 [Term]
+id: NCIT:C17369
+name: Imaging Procedure
+is_a: NCIT:C25218 ! Clinical Intervention or Procedure
+
+[Term]
 id: NCIT:C179817
 name: Velocity
 is_a: NCIT:C25447 ! Characteristic
 is_a: NCIT:C70766 ! Quantitative Concept
+
+[Term]
+id: NCIT:C17995
+name: Light Microscopy
+is_a: NCIT:C16853 ! Microscopy
 
 [Term]
 id: NCIT:C18141
@@ -50523,6 +50834,11 @@ name: Temperature
 is_a: NCIT:C25447 ! Characteristic
 
 [Term]
+id: NCIT:C25218
+name: Clinical Intervention or Procedure
+is_a: NCIT:C16203 ! Clinical or Research Activity
+
+[Term]
 id: NCIT:C25284
 name: Type
 is_a: NCIT:C20189 ! Property or Attribute
@@ -50531,6 +50847,11 @@ is_a: NCIT:C20189 ! Property or Attribute
 id: NCIT:C25285
 name: Diameter
 is_a: NCIT:C70766 ! Quantitative Concept
+
+[Term]
+id: NCIT:C25294
+name: Laboratory Procedure
+is_a: NCIT:C25218 ! Clinical Intervention or Procedure
 
 [Term]
 id: NCIT:C25335
@@ -50646,6 +50967,11 @@ is_a: NCIT:C20189 ! Property or Attribute
 id: NCIT:C73706
 name: Spatial Qualifier
 is_a: NCIT:C41009 ! Qualifier
+
+[Term]
+id: NCIT:C74957
+name: Mixed Category Laboratory Procedure
+is_a: NCIT:C25294 ! Laboratory Procedure
 
 [Term]
 id: NCIT:C85776
@@ -51087,9 +51413,9 @@ id: OBI:0200000
 name: data transformation
 def: "A completely executed planned process that produces output data from input data." []
 is_a: COB:0000035 ! completely executed planned process
-relationship: OBI:0000293 IAO:0000027 {all_only="true"} ! has specified input data item
-relationship: OBI:0000293 IAO:0000027 ! has specified input data item
-relationship: OBI:0000299 IAO:0000027 ! has specified output data item
+relationship: OBI:0000293 IAO:0000027 {all_only="true"} ! has specified input data entity
+relationship: OBI:0000293 IAO:0000027 ! has specified input data entity
+relationship: OBI:0000299 IAO:0000027 ! has specified output data entity
 relationship: OBI:0000417 OBI:0200166 ! achieves_planned_objective data transformation objective
 property_value: IAO:0000118 "data analysis" xsd:string
 property_value: IAO:0000118 "data processing" xsd:string
@@ -51138,8 +51464,8 @@ id: OBI:0200111
 name: data visualization
 def: "A planned process with the objective to graphically represent some data by inputing the data and outputting images, diagrams or animations." []
 is_a: COB:0000035 ! completely executed planned process
-relationship: OBI:0000293 IAO:0000027 {all_only="true"} ! has specified input data item
-relationship: OBI:0000293 IAO:0000027 ! has specified input data item
+relationship: OBI:0000293 IAO:0000027 {all_only="true"} ! has specified input data entity
+relationship: OBI:0000293 IAO:0000027 ! has specified input data entity
 property_value: IAO:0000118 "data encoding as image" xsd:string
 property_value: IAO:0000118 "visualization" xsd:string
 
@@ -53061,8 +53387,13 @@ is_a: BFO:0000040 ! material entity
 [Term]
 id: UBERON:0000000
 name: processual entity
-is_a: BFO:0000003 ! occurrent
 disjoint_from: UBERON:0001062 ! anatomical entity
+
+[Term]
+id: UBERON:0000001
+name: gross anatomical part
+is_a: UBERON:0000465 ! material anatomical entity
+disjoint_from: UBERON:0000468 ! multicellular organism
 
 [Term]
 id: UBERON:0000005
@@ -53320,6 +53651,7 @@ relationship: RO:0002220 UBERON:0002553 ! adjacent to anatomical cavity
 [Term]
 id: UBERON:0000061
 name: anatomical structure
+def: "Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome." []
 synonym: "biological structure" EXACT []
 is_a: UBERON:0000465 ! material anatomical entity
 relationship: RO:0002496 UBERON:0000106 {gci_filler="NCBITaxon:33208", gci_relation="RO:0002162"} ! existence starts during or after zygote stage
@@ -53533,6 +53865,7 @@ synonym: "entire life cycle" EXACT []
 synonym: "entire lifespan" EXACT []
 synonym: "life" EXACT []
 synonym: "lifespan" EXACT []
+is_a: BFO:0000015 ! process
 is_a: UBERON:0000000 ! processual entity
 relationship: RO:0002224 UBERON:0000106 {gci_filler="NCBITaxon:33208", gci_relation="RO:0002162"} ! starts with zygote stage
 relationship: RO:0002230 UBERON:0000071 ! ends with death stage
@@ -53540,6 +53873,7 @@ relationship: RO:0002230 UBERON:0000071 ! ends with death stage
 [Term]
 id: UBERON:0000105
 name: life cycle stage
+is_a: BFO:0000015 ! process
 is_a: UBERON:0000000 ! processual entity
 relationship: BFO:0000050 UBERON:0000104 ! part of life cycle
 
@@ -53757,7 +54091,6 @@ name: proximal-distal subdivision of colon
 is_a: UBERON:0004921 ! subdivision of digestive tract
 intersection_of: UBERON:0013522 ! subdivision of tube
 intersection_of: subdivision_of UBERON:0001155 ! colon
-relationship: BFO:0000050 UBERON:0001155 ! part of colon
 relationship: subdivision_of UBERON:0001155 ! colon
 
 [Term]
@@ -54155,7 +54488,8 @@ relationship: RO:0020101 UBERON:0001675 ! vessel supplies blood to trigeminal ga
 [Term]
 id: UBERON:0000463
 name: organism substance
-is_a: UBERON:0000465 ! material anatomical entity
+is_a: UBERON:0000001 ! gross anatomical part
+disjoint_from: UBERON:0000468 ! multicellular organism
 relationship: BFO:0000050 UBERON:0000468 ! part of multicellular organism
 relationship: RO:0000086 PATO:0002198 ! has quality quality of a substance
 
@@ -54229,6 +54563,7 @@ relationship: RO:0002131 UBERON:0002416 {gci_filler="NCBITaxon:6072", gci_relati
 [Term]
 id: UBERON:0000476
 name: acellular anatomical structure
+is_a: UBERON:0000001 ! gross anatomical part
 is_a: UBERON:0000061 ! anatomical structure
 
 [Term]
@@ -63602,7 +63937,6 @@ name: subdivision of digestive tract
 is_a: UBERON:0013522 ! subdivision of tube
 intersection_of: UBERON:0013522 ! subdivision of tube
 intersection_of: subdivision_of UBERON:0001555 ! digestive tract
-relationship: BFO:0000050 UBERON:0001555 ! part of digestive tract
 relationship: subdivision_of UBERON:0001555 ! digestive tract
 
 [Term]
@@ -64375,7 +64709,7 @@ relationship: RO:0002202 UBERON:0003372 ! develops from pectoral appendage bud e
 [Term]
 id: UBERON:0005423
 name: developing anatomical structure
-is_a: UBERON:0000465 ! material anatomical entity
+is_a: UBERON:0000001 ! gross anatomical part
 relationship: RO:0002215 GO:0032502 ! capable of developmental process
 
 [Term]
@@ -65187,7 +65521,6 @@ is_a: UBERON:0006077 ! subdivision of vertebral column
 intersection_of: UBERON:0006077 ! subdivision of vertebral column
 intersection_of: subdivision_of UBERON:0006071 ! caudal region
 relationship: BFO:0000050 UBERON:0002090 ! part of postcranial axial skeleton
-relationship: BFO:0000050 UBERON:0006071 ! part of caudal region
 relationship: subdivision_of UBERON:0006071 ! caudal region
 
 [Term]
@@ -65198,7 +65531,6 @@ synonym: "vertebral series" EXACT []
 is_a: UBERON:0000075 ! subdivision of skeletal system
 intersection_of: UBERON:0000075 ! subdivision of skeletal system
 intersection_of: subdivision_of UBERON:0001130 ! vertebral column
-relationship: BFO:0000050 UBERON:0001130 ! part of vertebral column
 relationship: BFO:0000050 UBERON:0001137 ! part of dorsum
 relationship: subdivision_of UBERON:0001130 ! vertebral column
 
@@ -67532,7 +67864,6 @@ is_a: UBERON:0006077 ! subdivision of vertebral column
 intersection_of: UBERON:0006077 ! subdivision of vertebral column
 intersection_of: BFO:0000050 UBERON:0002100 ! part of trunk
 intersection_of: subdivision_of UBERON:0002100 ! trunk
-relationship: BFO:0000050 UBERON:0002100 ! part of trunk
 relationship: subdivision_of UBERON:0002100 ! trunk
 
 [Term]
@@ -68861,16 +69192,6 @@ is_a: UBERON:0007592 ! ciliated columnar epithelium
 is_a: UBERON:0010498 ! pseudostratified columnar epithelium
 intersection_of: UBERON:0010498 ! pseudostratified columnar epithelium
 intersection_of: BFO:0000051 CL:0000067 ! has part ciliated epithelial cell
-
-[Term]
-id: UBERON:0010521
-name: electroreceptor organ
-synonym: "electric sense organ" EXACT []
-synonym: "electroreception organ" EXACT []
-is_a: UBERON:0000020 ! sense organ
-intersection_of: UBERON:0000062 ! organ
-intersection_of: RO:0002215 GO:0050964 ! capable of detection of electrical stimulus involved in electroception
-relationship: RO:0002215 GO:0050964 ! capable of detection of electrical stimulus involved in electroception
 
 [Term]
 id: UBERON:0010522
@@ -70299,7 +70620,6 @@ relationship: RO:0002221 UBERON:0000468 ! surrounds multicellular organism
 id: UBERON:0013522
 name: subdivision of tube
 is_a: UBERON:0000064 ! organ part
-relationship: BFO:0000050 UBERON:0000025 ! part of tube
 relationship: BFO:0000051 UBERON:0000060 ! has part anatomical wall
 relationship: BFO:0000051 UBERON:0000464 ! has part anatomical space
 relationship: subdivision_of UBERON:0000025 ! tube
@@ -72479,7 +72799,7 @@ relationship: RO:0002176 UBERON:0001159 ! connects sigmoid colon
 [Term]
 id: UBERON:0036215
 name: anatomical surface region
-is_a: UBERON:0000465 ! material anatomical entity
+is_a: UBERON:0000001 ! gross anatomical part
 relationship: RO:0002007 UBERON:0000061 ! bounding layer of anatomical structure
 
 [Term]
@@ -73294,6 +73614,14 @@ intersection_of: BFO:0000050 UBERON:0001052 ! part of rectum
 relationship: BFO:0000050 UBERON:0001052 ! part of rectum
 
 [Term]
+id: UBERON:8850001
+name: epithelium of anorectum
+is_a: UBERON:0001278 ! epithelium of large intestine
+intersection_of: UBERON:0000483 ! epithelium
+intersection_of: BFO:0000050 UBERON:8410050 ! part of anorectum
+relationship: BFO:0000050 UBERON:8410050 ! part of anorectum
+
+[Term]
 id: UO:0000001
 name: length unit
 is_a: IAO:0000003 ! measurement unit label
@@ -74088,7 +74416,7 @@ inverse_of: RO:0002336 ! positively regulated by
 [Typedef]
 id: RO:0002215
 name: capable of
-def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. " []
+def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process." []
 property_value: IAO:0000118 "has function realized in" xsd:string
 domain: BFO:0000004 ! independent continuant
 range: BFO:0000015 ! process
@@ -75283,6 +75611,59 @@ def: "X device utilizes material Y means X and Y are material entities, and X is
 holds_over_chain: RO:0002215 RO:0002233
 
 [Typedef]
+id: RO:0018030
+name: chemical relationship
+
+[Typedef]
+id: RO:0018033
+name: is deprotonated form of
+def: "A is a deprotonated form of B if and only if A is chemical entity that is a Brønsted–Lowry Base (i.e., can receive a proton) and by adding some nonzero number of protons transforms it into B.\n\nThis is a transitive relationship and follows this design pattern: https://oborel.github.io/obo-relations/direct-and-indirect-relations." []
+is_transitive: true
+is_a: RO:0018030 ! chemical relationship
+inverse_of: RO:0018034 ! is protonated form of
+
+[Typedef]
+id: RO:0018034
+name: is protonated form of
+def: "A is a protonated form of B if and only if A is chemical entity that is a Brønsted–Lowry Acid (i.e., can give up a proton) and by removing some nonzero number of protons transforms it into B.\n\nThis is a transitive relationship and follows this design pattern: https://oborel.github.io/obo-relations/direct-and-indirect-relations." []
+is_transitive: true
+is_a: RO:0018030 ! chemical relationship
+
+[Typedef]
+id: RO:0018036
+name: is tautomer of
+def: "Two chemicals are tautomers if they can be readily interconverted.\n\nThis commonly refers to prototropy in which a hydrogen's position is changed, such as between ketones and enols. This is also often observed in heterocyclic rings, e.g., ones containing nitrogens and/or have aryl functional groups containing heteroatoms." []
+synonym: "is desmotrope of" EXACT []
+is_symmetric: true
+is_a: RO:0018030 ! chemical relationship
+
+[Typedef]
+id: RO:0018037
+name: is substitutent group from
+def: "Group A is a substituent group from Chemical B if A represents the functional part of A and includes information about where it is connected. A is not itself a chemical with a fully formed chemical graph, but is rather a partial graph with one or more connection points that can be used to attach to another chemical graph, typically as a functionalization." []
+is_a: RO:0018030 ! chemical relationship
+
+[Typedef]
+id: RO:0018038
+name: has functional parent
+def: "Chemical A has functional parent Chemical B if there is chemical transformation through which chemical B can be produced from chemical A. \n\nFor example, the relationship between a salt and a freebased compound is a \"has functional parent\" relationship." []
+is_a: RO:0018030 ! chemical relationship
+
+[Typedef]
+id: RO:0018039
+name: is enantiomer of
+def: "Chemicals A and B are enantiomers if they share the same molecular graph except the change of the configuration of substituents around exactly one chiral center.\n\nA chemical with no chiral centers can not have an enantiomer. A chemical with multiple chiral centers can have multiple enantiomers, but its enantiomers are not themselves enantiomers (they are diastereomers)." []
+synonym: "is optical isomer of" EXACT []
+is_symmetric: true
+is_a: RO:0018030 ! chemical relationship
+
+[Typedef]
+id: RO:0018040
+name: has parent hydride
+def: "Chemical A has parent hydride Chemical B if there exists a molecular graphical transformation where functional groups on A are replaced with hydrogens in order to yield B." []
+is_a: RO:0018030 ! chemical relationship
+
+[Typedef]
 id: RO:0019000
 name: regulates characteristic
 def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
@@ -75420,6 +75801,7 @@ def: "c site_of p if c is the bearer of a disposition that is realized by a proc
 [Typedef]
 id: subdivision_of
 name: subdivision of
+is_a: BFO:0000050 ! part of
 
 [Typedef]
 id: transitively_anteriorly_connected_to
