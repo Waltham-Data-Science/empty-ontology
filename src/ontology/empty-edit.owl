@@ -339,6 +339,7 @@ Declaration(Class(obo:EMPTY_0000311))
 Declaration(Class(obo:EMPTY_0000312))
 Declaration(Class(obo:EMPTY_0000313))
 Declaration(Class(obo:EMPTY_0000314))
+Declaration(Class(obo:EMPTY_0000315))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -1012,16 +1013,18 @@ SubClassOf(obo:EMPTY_0000093 obo:EMPTY_0000080)
 # Class: obo:EMPTY_0000094 (ambient temperature)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000094 "The ambient room temperature recorded during an experiment. Unit: degrees Celsius.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000094 "ambient temperature"@en)
-SubClassOf(obo:EMPTY_0000094 obo:EMPTY_0000001)
-SubClassOf(obo:EMPTY_0000094 obo:NCIT_C90380)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000094 "obsolete ambient temperature"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000094 "Obsolete: replaced in the NDI V2 Haley import. Use ambient temperature (NCIT:C90380). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000094 "NCIT:C90380")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000094 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000095 (ambient humidity)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000095 "The ambient room humidity recorded during an experiment. Unit: percentage (%).")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000095 "ambient humidity"@en)
-SubClassOf(obo:EMPTY_0000095 obo:EMPTY_0000001)
-SubClassOf(obo:EMPTY_0000095 obo:NCIT_C88206)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000095 "obsolete ambient humidity"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000095 "Obsolete: replaced in the NDI V2 Haley import. Use relative humidity (OM:RelativeHumidity). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000095 "OM:RelativeHumidity")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000095 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000096 (subject document identifier)
 
@@ -1399,14 +1402,20 @@ AnnotationAssertion(owl:deprecated obo:EMPTY_0000147 "true"^^xsd:boolean)
 # Class: obo:EMPTY_0000148 (C. elegans behavioral assay: relative density of encountered bacteria)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000148 "A normalized, quantitative measure of the bacterial density of a specific bacterial food patch that a C. elegans worm encounters during an assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000148 "C. elegans behavioral assay: relative density of encountered bacteria"@en)
-SubClassOf(obo:EMPTY_0000148 obo:EMPTY_0000101)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000148 "obsolete C. elegans behavioral assay: relative density of encountered bacteria"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000148 "Obsolete: replaced in the NDI V2 Haley import. Relative density is not stored: it is computed from the patch's estimated border amplitude, stated as fluorescence intensity (NCIT:C184706) on the patch with the method prediction from a fitted model (EMPTY:0000304). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000148 "NCIT:C184706")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000148 "EMPTY:0000304")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000148 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000149 (C. elegans behavioral assay: relative density of cultivation bacteria)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000149 "A normalized, quantitative measure of the bacterial density on the agar plates where C. elegans were cultivated prior to the behavioral assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000149 "C. elegans behavioral assay: relative density of cultivation bacteria"@en)
-SubClassOf(obo:EMPTY_0000149 obo:EMPTY_0000101)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000149 "obsolete C. elegans behavioral assay: relative density of cultivation bacteria"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000149 "Obsolete: replaced in the NDI V2 Haley import. Relative density is not stored: it is computed from the cultivation plate patch's estimated border amplitude, stated as fluorescence intensity (NCIT:C184706) with the method prediction from a fitted model (EMPTY:0000304). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000149 "NCIT:C184706")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000149 "EMPTY:0000304")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000149 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000150 (bacterial fluorescence assay measurement)
 
@@ -2474,5 +2483,13 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000314 "Whether a subject, or the
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000314 "The reason for an exclusion goes in the statement's notes. Replaces the v1 'data exclusion flag' (EMPTY:0000069) for the NDI V2 Haley import.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000314 "inclusion in analysis"@en)
 SubClassOf(obo:EMPTY_0000314 obo:EMPTY_0000085)
+
+# Class: obo:EMPTY_0000315 (directory of files)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000315 "A data format that is a folder of files rather than a single file, with no layout of its contents specified by this term; the program that wrote it, or the record that holds it, says how to read it.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000315 "The format of a spike sorter's output folder (Kilosort, Kiasort, JRCLUST) in NDI V_eta. EDAM has no format for a folder or for any sorter's output (OLS search: kilosort, phy format, directory, folder).")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000315 "folder"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000315 "directory of files"@en)
+SubClassOf(obo:EMPTY_0000315 obo:format_1915)
 
 )
