@@ -307,6 +307,20 @@ Declaration(Class(obo:EMPTY_0000279))
 Declaration(Class(obo:EMPTY_0000280))
 Declaration(Class(obo:EMPTY_0000281))
 Declaration(Class(obo:EMPTY_0000282))
+Declaration(Class(obo:EMPTY_0000283))
+Declaration(Class(obo:EMPTY_0000284))
+Declaration(Class(obo:EMPTY_0000285))
+Declaration(Class(obo:EMPTY_0000286))
+Declaration(Class(obo:EMPTY_0000287))
+Declaration(Class(obo:EMPTY_0000288))
+Declaration(Class(obo:EMPTY_0000289))
+Declaration(Class(obo:EMPTY_0000290))
+Declaration(Class(obo:EMPTY_0000291))
+Declaration(Class(obo:EMPTY_0000292))
+Declaration(Class(obo:EMPTY_0000293))
+Declaration(Class(obo:EMPTY_0000294))
+Declaration(Class(obo:EMPTY_0000295))
+Declaration(Class(obo:EMPTY_0000296))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -1203,8 +1217,10 @@ SubClassOf(obo:EMPTY_0000126 obo:NCIT_C63921)
 # Class: obo:EMPTY_0000127 (bacterial patch circularity)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000127 "A quantitative measure assessing how closely the shape of an individual detected bacterial patch conforms to a perfect circle. 1 is a perfect circle. [Source: https://www.mathworks.com/help/images/ref/regionprops.html]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000127 "bacterial patch circularity"@en)
-SubClassOf(obo:EMPTY_0000127 obo:EMPTY_0000161)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000127 "obsolete bacterial patch circularity"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000127 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use circularity (EMPTY:0000288) on a statement about the patch: the patch is the statement's subject, so it is not part of the variable. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000127 "EMPTY:0000288")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000127 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000128 (subject identifier)
 
@@ -1341,16 +1357,20 @@ AnnotationAssertion(owl:deprecated obo:EMPTY_0000145 "true"^^xsd:boolean)
 # Class: obo:EMPTY_0000146 (C. elegans behavioral assay: posterior probability of exploitation)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000146 "The posterior probability, derived from a Gaussian Mixture Model (GMM) Classification, that a given patch encounter represents an 'exploitation' event (i.e., the worm has accepted the patch and is consuming bacteria). This value ranges from 0 to 1. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000146 "C. elegans behavioral assay: posterior probability of exploitation"@en)
-SubClassOf(obo:EMPTY_0000146 obo:EMPTY_0000100)
-SubClassOf(obo:EMPTY_0000146 obo:NCIT_C54154)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000146 "obsolete C. elegans behavioral assay: posterior probability of exploitation"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000146 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use posterior probability (STATO:0000703) keyed by behavioral state (EMPTY:0000289) = exploitation (EMPTY:0000290). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000146 "STATO:0000703")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000146 "EMPTY:0000290")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000146 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000147 (C. elegans behavioral assay: posterior probability of sensing)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000147 "The posterior probability, derived from a semi-supervised Quadratic Discriminant Analysis (QDA), that a given patch encounter was 'sensed' by the C. elegans worm (i.e., the animal detected the presence of bacteria, typically indicated by a slowdown). This value ranges from 0 to 1. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000147 "C. elegans behavioral assay: posterior probability of sensing"@en)
-SubClassOf(obo:EMPTY_0000147 obo:EMPTY_0000100)
-SubClassOf(obo:EMPTY_0000147 obo:NCIT_C54154)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000147 "obsolete C. elegans behavioral assay: posterior probability of sensing"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000147 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use posterior probability (STATO:0000703) keyed by behavioral state (EMPTY:0000289) = sensing (EMPTY:0000291). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000147 "STATO:0000703")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000147 "EMPTY:0000291")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000147 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000148 (C. elegans behavioral assay: relative density of encountered bacteria)
 
@@ -1399,41 +1419,57 @@ SubClassOf(obo:EMPTY_0000154 obo:EMPTY_0000080)
 # Class: obo:EMPTY_0000155 (bacterial patch border peak fluorescence intensity)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000155 "The maximum pixel intensity detected along the radial profile of a fluorescent bacterial patch, typically found at the patch edge where bacteria are actively proliferating. [Source: https://doi.org/10.7554/eLife.103191.3]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000155 "bacterial patch border peak fluorescence intensity"@en)
-SubClassOf(obo:EMPTY_0000155 obo:EMPTY_0000150)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000155 "obsolete bacterial patch border peak fluorescence intensity"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000155 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use fluorescence intensity (NCIT:C184706) with the method maximum (STATO:0000151). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000155 "NCIT:C184706")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000155 "STATO:0000151")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000155 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000156 (bacterial patch border edge fluorescence intensity)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000156 "The pixel intensity measured at the detected border of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000156 "bacterial patch border edge fluorescence intensity"@en)
-SubClassOf(obo:EMPTY_0000156 obo:EMPTY_0000150)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000156 "obsolete bacterial patch border edge fluorescence intensity"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000156 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use fluorescence intensity (NCIT:C184706) with the condition location = bacterial patch edge (EMPTY:0000283). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000156 "NCIT:C184706")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000156 "EMPTY:0000283")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000156 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000157 (bacterial patch border fluorescence amplitude)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000157 "A measure of bacterial density defined as the difference between the peak pixel intensity and the border pixel intensity of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000157 "bacterial patch border fluorescence amplitude"@en)
-SubClassOf(obo:EMPTY_0000157 obo:EMPTY_0000150)
-SubClassOf(obo:EMPTY_0000157 obo:EMPTY_0000162)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000157 "obsolete bacterial patch border fluorescence amplitude"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000157 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use fluorescence intensity (NCIT:C184706) with the method maximum (STATO:0000151) and the condition baseline (NCIT:C25213) = bacterial patch edge (EMPTY:0000283). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000157 "NCIT:C184706")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000157 "STATO:0000151")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000157 "EMPTY:0000283")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000157 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000158 (bacterial patch mean fluorescence amplitude)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000158 "The average pixel intensity computed across every pixel of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000158 "bacterial patch mean fluorescence amplitude"@en)
-SubClassOf(obo:EMPTY_0000158 obo:EMPTY_0000150)
-SubClassOf(obo:EMPTY_0000158 obo:EMPTY_0000162)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000158 "obsolete bacterial patch mean fluorescence amplitude"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000158 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use fluorescence intensity (NCIT:C184706) with the method mean (STATO:0000573) over the patch. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000158 "NCIT:C184706")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000158 "STATO:0000573")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000158 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000159 (bacterial patch center fluorescence amplitude)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000159 "The average pixel intensity of the middle 50% of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000159 "bacterial patch center fluorescence amplitude"@en)
-SubClassOf(obo:EMPTY_0000159 obo:EMPTY_0000150)
-SubClassOf(obo:EMPTY_0000159 obo:EMPTY_0000162)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000159 "obsolete bacterial patch center fluorescence amplitude"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000159 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use fluorescence intensity (NCIT:C184706) with the method mean (STATO:0000573) and the condition region = bacterial patch center (EMPTY:0000284). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000159 "NCIT:C184706")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000159 "STATO:0000573")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000159 "EMPTY:0000284")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000159 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000160 (bacterial patch border-to-center fluorescence ratio)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000160 "The ratio of the patch border amplitude to the patch center amplitude, used as a measure of bacterial distribution within the patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000160 "bacterial patch border-to-center fluorescence ratio"@en)
-SubClassOf(obo:EMPTY_0000160 obo:EMPTY_0000150)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000160 "obsolete bacterial patch border-to-center fluorescence ratio"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000160 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). A ratio of two stored values is computed from them, not stated: use the border amplitude and center amplitude statements (fluorescence intensity, NCIT:C184706). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000160 "NCIT:C184706")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000160 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000161 (bacterial measurement)
 
@@ -2164,7 +2200,7 @@ SubClassOf(obo:EMPTY_0000275 obo:EMPTY_0000100)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000276 "The edge of whichever bacterial patch is closest to a point, used as the reference point from which a distance is measured.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000276 "The value of 'reference point' (NCIT:C45793) for distanceLawnEdge in analyzeWormLabTracks and analyzeEncounters (Haley et al. 2024).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000276 "nearest bacterial patch edge"@en)
-SubClassOf(obo:EMPTY_0000276 obo:NCIT_C45793)
+SubClassOf(obo:EMPTY_0000276 obo:EMPTY_0000283)
 
 # Class: obo:EMPTY_0000277 (patch encounter period)
 
@@ -2202,5 +2238,99 @@ SubClassOf(obo:EMPTY_0000281 obo:EMPTY_0000091)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000282 "The end of the stretch of a time series a value was computed from, as a signed time from a reference time point (NCIT:C82576) given with it: negative before the reference, positive after.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000282 "analysis window end"@en)
 SubClassOf(obo:EMPTY_0000282 obo:EMPTY_0000091)
+
+# Class: obo:EMPTY_0000283 (bacterial patch edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000283 "The boundary of a bacterial patch on an agar plate: where its bacteria end.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000283 "bacterial patch edge"@en)
+SubClassOf(obo:EMPTY_0000283 obo:NCIT_C45793)
+
+# Class: obo:EMPTY_0000284 (bacterial patch center)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000284 "The middle region of a bacterial patch, away from its edge.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000284 "In analyzeLawnProfiles (Haley et al. 2024), the patch's area left when its edge mask is shrunk by half (centerAmplitude).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000284 "bacterial patch center"@en)
+SubClassOf(obo:EMPTY_0000284 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000285 (bacterial patch fluorescence peak)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000285 "The point of highest fluorescence intensity in a fluorescent bacterial patch's intensity profile from its edge inward.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000285 "xPeak / yPeak in analyzeLawnProfiles (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000285 "bacterial patch fluorescence peak"@en)
+SubClassOf(obo:EMPTY_0000285 obo:NCIT_C45793)
+
+# Class: obo:EMPTY_0000286 (distance end point)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000286 "The point to which a distance is measured, paired with the reference point (NCIT:C45793) it is measured from.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000286 "distance end point"@en)
+SubClassOf(obo:EMPTY_0000286 obo:NCIT_C45793)
+
+# Class: obo:EMPTY_0000287 (normalization to background illumination)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000287 "A data transformation that corrects an image for uneven illumination by dividing it by an image of the light source alone (an empty plate) and scaling by that image's maximum.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000287 "As analyzeLawnProfiles and getFluorescenceBackground (Haley et al. 2024): the background image has outliers replaced against a moving median and is smoothed before the division; the window sizes are parameters of each use.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000287 "normalization to background illumination"@en)
+SubClassOf(obo:EMPTY_0000287 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000288 (circularity)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000288 "How close a two-dimensional shape is to a circle: 4 pi times its area divided by the square of its perimeter, 1 for a circle and smaller for any other shape.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000288 "The MATLAB regionprops 'Circularity' measure, as used for bacterial patches by Haley et al. 2024.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000288 "circularity"@en)
+SubClassOf(obo:EMPTY_0000288 obo:PATO_0000052)
+
+# Class: obo:EMPTY_0000289 (behavioral state)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000289 "A state of an animal's behavior, such as exploiting a food source or sensing it, of which a classifier may give the probability.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000289 "behavioral state"@en)
+SubClassOf(obo:EMPTY_0000289 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000290 (exploitation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000290 "The behavioral state of staying on and feeding from a food source, as against exploring away from it.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000290 "The exploit cluster of the two-cluster Gaussian mixture model over log(time on patch) and log(speed on patch) in labelEncounters (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000290 "exploitation"@en)
+SubClassOf(obo:EMPTY_0000290 obo:EMPTY_0000289)
+
+# Class: obo:EMPTY_0000291 (sensing)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000291 "The behavioral state of detecting a food source on reaching it, shown by slowing down on contact.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000291 "Classified by semi-supervised quadratic discriminant analysis of minimum speed, deceleration and maximum change in speed on entry, in labelEncounters (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000291 "sensing"@en)
+SubClassOf(obo:EMPTY_0000291 obo:EMPTY_0000289)
+
+# Class: obo:EMPTY_0000292 (encounter type)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000292 "The kind of patch encounter an animal made, assigned from the probabilities of its behavioral states.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000292 "encounter type"@en)
+SubClassOf(obo:EMPTY_0000292 obo:EMPTY_0000115)
+
+# Class: obo:EMPTY_0000293 (exploit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000293 "An encounter type: the animal exploited the patch (probability of exploitation at least 0.5).")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000293 "labelEncounters (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000293 "exploit"@en)
+SubClassOf(obo:EMPTY_0000293 obo:EMPTY_0000292)
+
+# Class: obo:EMPTY_0000294 (sample)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000294 "An encounter type: the animal sensed the patch but did not exploit it (probability of sensing at least 0.5, of exploitation below 0.5).")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000294 "labelEncounters (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000294 "sample"@en)
+SubClassOf(obo:EMPTY_0000294 obo:EMPTY_0000292)
+
+# Class: obo:EMPTY_0000295 (search on patch)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000295 "An encounter type: the animal crossed onto the patch without sensing or exploiting it (probabilities of sensing and of exploitation both below 0.5).")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000295 "labelEncounters (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000295 "search on patch"@en)
+SubClassOf(obo:EMPTY_0000295 obo:EMPTY_0000292)
+
+# Class: obo:EMPTY_0000296 (search off patch)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000296 "An encounter type: the animal came near the patch without its midpoint crossing the edge, and neither sensed nor exploited it (probability of sensing below 0.05, of exploitation below 0.5).")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000296 "labelEncounters (Haley et al. 2024); the midpoint test is distanceOnMax < 0.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000296 "search off patch"@en)
+SubClassOf(obo:EMPTY_0000296 obo:EMPTY_0000292)
 
 )
