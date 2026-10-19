@@ -321,6 +321,7 @@ Declaration(Class(obo:EMPTY_0000293))
 Declaration(Class(obo:EMPTY_0000294))
 Declaration(Class(obo:EMPTY_0000295))
 Declaration(Class(obo:EMPTY_0000296))
+Declaration(Class(obo:EMPTY_0000297))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -1252,9 +1253,10 @@ SubClassOf(obo:EMPTY_0000131 obo:NCIT_C201530)
 # Class: obo:EMPTY_0000132 (bacterial patch closest identifier map)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000132 "An image or map where each pixel's value is the identifier of the bacterial patch closest to that pixel's location.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000132 "bacterial patch closest identifier map"@en)
-SubClassOf(obo:EMPTY_0000132 obo:EMPTY_0000098)
-SubClassOf(obo:EMPTY_0000132 obo:NCIT_C48179)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000132 "obsolete bacterial patch closest identifier map"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000132 "Obsolete: a variable names the property, not the form its values are stored in (T16 of the NDI V_eta tenets). Use nearest bacterial patch (EMPTY:0000297); that the values form a map is said by the statement's keys. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000132 "EMPTY:0000297")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000132 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000133 (bacterial patch fluorescence image (normalized))
 
@@ -2332,5 +2334,12 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000296 "An encounter type: the an
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000296 "labelEncounters (Haley et al. 2024); the midpoint test is distanceOnMax < 0.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000296 "search off patch"@en)
 SubClassOf(obo:EMPTY_0000296 obo:EMPTY_0000292)
+
+# Class: obo:EMPTY_0000297 (nearest bacterial patch)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000297 "The bacterial patch closest to a point: to a pixel of a plate image, or to an animal at one moment of its track.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000297 "closestLawnID in analyzeWormLabTracks and the closest-patch maps of analyzeGFP (Haley et al. 2024). Whether the value is per pixel or per video frame is said by the statement's keys, not by this term.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000297 "nearest bacterial patch"@en)
+SubClassOf(obo:EMPTY_0000297 obo:EMPTY_0000123)
 
 )
