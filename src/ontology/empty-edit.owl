@@ -2051,7 +2051,7 @@ SubClassOf(obo:EMPTY_0000260 obo:NCIT_C25709)
 
 # Class: obo:EMPTY_0000261 (arbitrary unit per millisecond)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000261 "A unit of rate equal to one arbitrary unit (an instrument-relative quantity, such as fluorescence intensity in camera counts) per millisecond, used for a signal in arbitrary units normalised by exposure time.")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000261 "A unit of rate equal to one arbitrary unit (an instrument-relative quantity, such as fluorescence intensity in camera counts) per millisecond, used for a signal in arbitrary units normalized by exposure time.")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000261 "AU/ms"@en)
 AnnotationAssertion(rdfs:label obo:EMPTY_0000261 "arbitrary unit per millisecond"@en)
 SubClassOf(obo:EMPTY_0000261 obo:NCIT_C25709)
