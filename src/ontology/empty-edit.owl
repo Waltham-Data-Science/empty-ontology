@@ -338,6 +338,7 @@ Declaration(Class(obo:EMPTY_0000310))
 Declaration(Class(obo:EMPTY_0000311))
 Declaration(Class(obo:EMPTY_0000312))
 Declaration(Class(obo:EMPTY_0000313))
+Declaration(Class(obo:EMPTY_0000314))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2466,5 +2467,12 @@ AnnotationAssertion(rdfs:comment obo:EMPTY_0000313 "ChEBI has the anhydrous salt
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000313 "K2HPO4 trihydrate"@en)
 AnnotationAssertion(rdfs:label obo:EMPTY_0000313 "dipotassium hydrogen phosphate trihydrate"@en)
 SubClassOf(obo:EMPTY_0000313 obo:CHEBI_131527)
+
+# Class: obo:EMPTY_0000314 (inclusion in analysis)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000314 "Whether a subject, or the data recorded from it, was included in a study's analysis. A yes/no property: stated as false where a subject was excluded, and not stated for the subjects that were included.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000314 "The reason for an exclusion goes in the statement's notes. Replaces the v1 'data exclusion flag' (EMPTY:0000069) for the NDI V2 Haley import.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000314 "inclusion in analysis"@en)
+SubClassOf(obo:EMPTY_0000314 obo:EMPTY_0000085)
 
 )
