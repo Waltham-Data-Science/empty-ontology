@@ -333,6 +333,10 @@ Declaration(Class(obo:EMPTY_0000305))
 Declaration(Class(obo:EMPTY_0000306))
 Declaration(Class(obo:EMPTY_0000307))
 Declaration(Class(obo:EMPTY_0000308))
+Declaration(Class(obo:EMPTY_0000309))
+Declaration(Class(obo:EMPTY_0000310))
+Declaration(Class(obo:EMPTY_0000311))
+Declaration(Class(obo:EMPTY_0000312))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2428,5 +2432,30 @@ SubClassOf(obo:EMPTY_0000307 obo:EMPTY_0000080)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000308 "A setting of a data transformation that groups values by a variable: the width of each group along that variable.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000308 "bin width"@en)
 SubClassOf(obo:EMPTY_0000308 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000309 (video frame)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000309 "The position of a frame in a video, counted from the first frame as 0: a coordinate along a video's frames.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000309 "Used as the key of per-frame tracks; the source's 1-based frame numbers are kept as the key's source origin.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000309 "video frame"@en)
+SubClassOf(obo:EMPTY_0000309 obo:NCIT_C44465)
+
+# Class: obo:EMPTY_0000310 (image upper-left corner)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000310 "The upper-left corner of an image as it is stored and displayed: the origin of pixel coordinates that count columns to the right and rows downward.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000310 "image upper-left corner"@en)
+SubClassOf(obo:EMPTY_0000310 obo:NCIT_C45793)
+
+# Class: obo:EMPTY_0000311 (image right)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000311 "The direction along an image's rows from its left edge toward its right edge, in which the column number increases.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000311 "image right"@en)
+SubClassOf(obo:EMPTY_0000311 obo:NCIT_C42677)
+
+# Class: obo:EMPTY_0000312 (image down)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000312 "The direction along an image's columns from its top edge toward its bottom edge, in which the row number increases.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000312 "image down"@en)
+SubClassOf(obo:EMPTY_0000312 obo:NCIT_C42677)
 
 )
