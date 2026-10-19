@@ -298,6 +298,15 @@ Declaration(Class(obo:EMPTY_0000270))
 Declaration(Class(obo:EMPTY_0000271))
 Declaration(Class(obo:EMPTY_0000272))
 Declaration(Class(obo:EMPTY_0000273))
+Declaration(Class(obo:EMPTY_0000274))
+Declaration(Class(obo:EMPTY_0000275))
+Declaration(Class(obo:EMPTY_0000276))
+Declaration(Class(obo:EMPTY_0000277))
+Declaration(Class(obo:EMPTY_0000278))
+Declaration(Class(obo:EMPTY_0000279))
+Declaration(Class(obo:EMPTY_0000280))
+Declaration(Class(obo:EMPTY_0000281))
+Declaration(Class(obo:EMPTY_0000282))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2132,5 +2141,65 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000273 "A data transformation tha
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000273 "As used for velocityAfterEnter by analyzeEncounters (Haley et al. 2024): a 10 s window after the start of a patch encounter, bounded below by the minimum speed during the encounter.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000273 "minimum speed after an event"@en)
 SubClassOf(obo:EMPTY_0000273 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000274 (time to slow down)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000274 "The time an animal takes to slow down on reaching something: the duration from its peak speed in the approach to an event to its minimum speed after the event.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000274 "As timeSlowDown in analyzeEncounters (Haley et al. 2024): from the time of the peak found by 'peak speed before an event' (EMPTY:0000272) to the time of the minimum found by 'minimum speed after an event' (EMPTY:0000273), around the start of a patch encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000274 "time to slow down"@en)
+SubClassOf(obo:EMPTY_0000274 obo:EMPTY_0000090)
+SubClassOf(obo:EMPTY_0000274 obo:EMPTY_0000100)
+
+# Class: obo:EMPTY_0000275 (bacterial patch in contact)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000275 "The bacterial patch an animal is in contact with during an encounter.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000275 "As lawnID in analyzeEncounters (Haley et al. 2024): one patch per encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000275 "bacterial patch in contact"@en)
+SubClassOf(obo:EMPTY_0000275 obo:EMPTY_0000123)
+SubClassOf(obo:EMPTY_0000275 obo:EMPTY_0000100)
+
+# Class: obo:EMPTY_0000276 (nearest bacterial patch edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000276 "The edge of whichever bacterial patch is closest to a point, used as the reference point from which a distance is measured. A distance from it is signed: positive inside the patch, negative outside it.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000276 "The value of 'reference point' (NCIT:C45793) for distanceLawnEdge in analyzeWormLabTracks and analyzeEncounters (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000276 "nearest bacterial patch edge"@en)
+SubClassOf(obo:EMPTY_0000276 obo:NCIT_C45793)
+
+# Class: obo:EMPTY_0000277 (patch encounter period)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000277 "Which part of an animal's track a value describes, relative to its encounters with patches: before its first encounter, during an encounter, or after an encounter and until the next.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000277 "patch encounter period"@en)
+SubClassOf(obo:EMPTY_0000277 obo:NCIT_C25616)
+SubClassOf(obo:EMPTY_0000277 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000278 (before the first patch encounter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000278 "The part of an animal's track from its start to the start of its first patch encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000278 "before the first patch encounter"@en)
+SubClassOf(obo:EMPTY_0000278 obo:EMPTY_0000277)
+
+# Class: obo:EMPTY_0000279 (during the patch encounter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000279 "The part of an animal's track from the start to the end of a patch encounter, including any frames in which it is partly off the patch.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000279 "during the patch encounter"@en)
+SubClassOf(obo:EMPTY_0000279 obo:EMPTY_0000277)
+
+# Class: obo:EMPTY_0000280 (after the patch encounter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000280 "The part of an animal's track from the end of a patch encounter to the start of its next one.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000280 "after the patch encounter"@en)
+SubClassOf(obo:EMPTY_0000280 obo:EMPTY_0000277)
+
+# Class: obo:EMPTY_0000281 (analysis window start)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000281 "The start of the stretch of a time series a value was computed from, as a signed time from a reference time point (NCIT:C82576) given with it: negative before the reference, positive after.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000281 "analysis window start"@en)
+SubClassOf(obo:EMPTY_0000281 obo:EMPTY_0000091)
+
+# Class: obo:EMPTY_0000282 (analysis window end)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000282 "The end of the stretch of a time series a value was computed from, as a signed time from a reference time point (NCIT:C82576) given with it: negative before the reference, positive after.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000282 "analysis window end"@en)
+SubClassOf(obo:EMPTY_0000282 obo:EMPTY_0000091)
 
 )
