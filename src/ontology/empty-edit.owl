@@ -322,6 +322,17 @@ Declaration(Class(obo:EMPTY_0000294))
 Declaration(Class(obo:EMPTY_0000295))
 Declaration(Class(obo:EMPTY_0000296))
 Declaration(Class(obo:EMPTY_0000297))
+Declaration(Class(obo:EMPTY_0000298))
+Declaration(Class(obo:EMPTY_0000299))
+Declaration(Class(obo:EMPTY_0000300))
+Declaration(Class(obo:EMPTY_0000301))
+Declaration(Class(obo:EMPTY_0000302))
+Declaration(Class(obo:EMPTY_0000303))
+Declaration(Class(obo:EMPTY_0000304))
+Declaration(Class(obo:EMPTY_0000305))
+Declaration(Class(obo:EMPTY_0000306))
+Declaration(Class(obo:EMPTY_0000307))
+Declaration(Class(obo:EMPTY_0000308))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -1176,9 +1187,11 @@ SubClassOf(obo:EMPTY_0000120 obo:NCIT_C25335)
 # Class: obo:EMPTY_0000121 (bacterial patch spacing (target))
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000121 "The intended center-to-center distance between adjacent bacterial food patches when arranged in a grid on an agar plate. Unit: millimeters (mm).")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000121 "bacterial patch spacing (target)"@en)
-SubClassOf(obo:EMPTY_0000121 obo:EMPTY_0000098)
-SubClassOf(obo:EMPTY_0000121 obo:NCIT_C25167)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000121 "obsolete bacterial patch spacing (target)"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000121 "Obsolete: a variable names the property; the subject and whether the value is a target are said by the statement (T16, T17 of the NDI V_eta tenets). Use spacing (NCIT:C45786) on the plate, with the condition value basis (EMPTY:0000298) = target (EMPTY:0000299). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000121 "NCIT:C45786")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000121 "EMPTY:0000299")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000121 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000122 (C. elegans behavioral assay: plate or arena diameter)
 
@@ -1211,9 +1224,12 @@ SubClassOf(obo:EMPTY_0000125 obo:NCIT_C44478)
 # Class: obo:EMPTY_0000126 (bacterial patch radius)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000126 "The radius of an individual detected bacterial patch on an agar plate, assuming patches are circular or near-circular. Unit: pixels.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000126 "bacterial patch radius"@en)
-SubClassOf(obo:EMPTY_0000126 obo:EMPTY_0000161)
-SubClassOf(obo:EMPTY_0000126 obo:NCIT_C63921)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000126 "obsolete bacterial patch radius"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000126 "Obsolete: a variable names the property; the subject and whether the value is a target are said by the statement (T16, T17 of the NDI V_eta tenets). Use radius (PATO:0002390) on the patch for a measured radius; a target size is diameter (PATO:0001334) with the condition value basis (EMPTY:0000298) = target (EMPTY:0000299). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000126 "PATO:0002390")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000126 "PATO:0001334")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000126 "EMPTY:0000299")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000126 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000127 (bacterial patch circularity)
 
@@ -2341,5 +2357,76 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000297 "The bacterial patch close
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000297 "closestLawnID in analyzeWormLabTracks and the closest-patch maps of analyzeGFP (Haley et al. 2024). Whether the value is per pixel or per video frame is said by the statement's keys, not by this term.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000297 "nearest bacterial patch"@en)
 SubClassOf(obo:EMPTY_0000297 obo:EMPTY_0000123)
+
+# Class: obo:EMPTY_0000298 (value basis)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000298 "What a stated value rests on: whether it is a target set in advance, or (as other values may be) a measurement or an estimate. Stated as a condition only where a value is not a measurement.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000298 "value basis"@en)
+SubClassOf(obo:EMPTY_0000298 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000299 (target)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000299 "A value set in advance as what something is meant to be, rather than one measured from it: a template's patch diameter, or the planned spacing between patches.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000299 "target"@en)
+SubClassOf(obo:EMPTY_0000299 obo:EMPTY_0000298)
+
+# Class: obo:EMPTY_0000300 (brightfield imaging)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000300 "An imaging assay in which a specimen is lit from behind and recorded against a bright background, with a camera and lens rather than a microscope, as in the video recording of animals on a backlit plate.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000300 "The behavior rigs of Haley et al. 2024: a camera and lens over a backlight.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000300 "brightfield imaging"@en)
+SubClassOf(obo:EMPTY_0000300 obo:OBI_0000185)
+
+# Class: obo:EMPTY_0000301 (video tracking)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000301 "A data transformation that follows an animal, or points on its body, through the frames of a video, giving its position in each frame.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000301 "WormLab tracking in Haley et al. 2024; the software is stated on the statement, not in this term.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000301 "video tracking"@en)
+SubClassOf(obo:EMPTY_0000301 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000302 (distance transform)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000302 "A data transformation that gives, for each point of an image, its distance to the nearest edge of a region in a binary mask, signed by whether the point is inside or outside the region.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000302 "The distance of an animal to the nearest bacterial patch edge in analyzeWormLabTracks (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000302 "distance transform"@en)
+SubClassOf(obo:EMPTY_0000302 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000303 (patch encounter detection)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000303 "A data transformation that finds the times an animal came into contact with a food patch, from its position relative to the patch edge over time.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000303 "analyzeEncounters (Haley et al. 2024): body-part entries into and exits from a patch, merged into encounters by distance thresholds.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000303 "patch encounter detection"@en)
+SubClassOf(obo:EMPTY_0000303 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000304 (prediction from a fitted model)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000304 "A data transformation that computes a value by evaluating a fitted model at given values of its independent variables.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000304 "The estimated border amplitude of a patch from the E. coli growth fits, in labelEncounters (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000304 "prediction from a fitted model"@en)
+SubClassOf(obo:EMPTY_0000304 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000305 (interpolation method)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000305 "A setting of a data transformation: how values missing between known points are filled in.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000305 "interpolation method"@en)
+SubClassOf(obo:EMPTY_0000305 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000306 (linear interpolation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000306 "A data transformation that fills a value between two known points on the straight line joining them.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000306 "linear interpolation"@en)
+SubClassOf(obo:EMPTY_0000306 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000307 (maximum gap filled)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000307 "A setting of a data transformation that fills gaps in a series: the longest gap it fills; longer gaps are left missing.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000307 "maximum gap filled"@en)
+SubClassOf(obo:EMPTY_0000307 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000308 (bin width)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000308 "A setting of a data transformation that groups values by a variable: the width of each group along that variable.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000308 "bin width"@en)
+SubClassOf(obo:EMPTY_0000308 obo:EMPTY_0000080)
 
 )
