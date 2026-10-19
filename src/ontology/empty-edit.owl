@@ -2161,7 +2161,7 @@ SubClassOf(obo:EMPTY_0000275 obo:EMPTY_0000100)
 
 # Class: obo:EMPTY_0000276 (nearest bacterial patch edge)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000276 "The edge of whichever bacterial patch is closest to a point, used as the reference point from which a distance is measured. A distance from it is signed: positive inside the patch, negative outside it.")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000276 "The edge of whichever bacterial patch is closest to a point, used as the reference point from which a distance is measured.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000276 "The value of 'reference point' (NCIT:C45793) for distanceLawnEdge in analyzeWormLabTracks and analyzeEncounters (Haley et al. 2024).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000276 "nearest bacterial patch edge"@en)
 SubClassOf(obo:EMPTY_0000276 obo:NCIT_C45793)
