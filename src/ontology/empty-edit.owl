@@ -286,6 +286,16 @@ Declaration(Class(obo:EMPTY_0000258))
 Declaration(Class(obo:EMPTY_0000259))
 Declaration(Class(obo:EMPTY_0000260))
 Declaration(Class(obo:EMPTY_0000261))
+Declaration(Class(obo:EMPTY_0000262))
+Declaration(Class(obo:EMPTY_0000263))
+Declaration(Class(obo:EMPTY_0000264))
+Declaration(Class(obo:EMPTY_0000265))
+Declaration(Class(obo:EMPTY_0000266))
+Declaration(Class(obo:EMPTY_0000267))
+Declaration(Class(obo:EMPTY_0000268))
+Declaration(Class(obo:EMPTY_0000269))
+Declaration(Class(obo:EMPTY_0000270))
+Declaration(Class(obo:EMPTY_0000271))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2025,5 +2035,78 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000261 "A unit of rate equal to o
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000261 "AU/ms"@en)
 AnnotationAssertion(rdfs:label obo:EMPTY_0000261 "arbitrary unit per millisecond"@en)
 SubClassOf(obo:EMPTY_0000261 obo:NCIT_C25709)
+
+# Class: obo:EMPTY_0000262 (nematode growth medium)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000262 "A solid culture medium for growing and maintaining C. elegans: agar, sodium chloride and peptone in water, supplemented after autoclaving with cholesterol, calcium chloride, magnesium sulfate and potassium phosphate buffer at pH 6.0, and seeded with E. coli as food. [Source: https://doi.org/10.1895/wormbook.1.101.1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000262 "NGM"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000262 "NGM agar"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000262 "nematode growth medium"@en)
+SubClassOf(obo:EMPTY_0000262 obo:OBI_0000079)
+
+# Class: obo:EMPTY_0000263 (nematode growth medium without peptone)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000263 "Nematode growth medium prepared without peptone, so that seeded bacteria grow little beyond where they were placed (e.g. to keep bacterial patches of a known density). [Source: https://doi.org/10.7554/eLife.103191]")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000263 "NGM without peptone"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000263 "peptone-free NGM"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000263 "nematode growth medium without peptone"@en)
+SubClassOf(obo:EMPTY_0000263 obo:EMPTY_0000262)
+
+# Class: obo:EMPTY_0000264 (LB with carbenicillin)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000264 "LB medium supplemented with the antibiotic carbenicillin, so that only bacteria carrying an ampicillin-resistance plasmid (for example a GFP expression plasmid) grow in it.")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000264 "LB + carbenicillin"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000264 "LB with carbenicillin"@en)
+SubClassOf(obo:EMPTY_0000264 obo:MCO_0000030)
+
+# Class: obo:EMPTY_0000265 (S basal)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000265 "A buffered saline for C. elegans: sodium chloride, potassium phosphate dibasic and potassium phosphate monobasic in water, with cholesterol; the base of S medium and used to wash and suspend worms. [Source: https://doi.org/10.1895/wormbook.1.101.1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000265 "S Basal"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000265 "S basal buffer"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000265 "S basal"@en)
+SubClassOf(obo:EMPTY_0000265 obo:NCIT_C70830)
+
+# Class: obo:EMPTY_0000266 (S medium)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000266 "A liquid medium for growing C. elegans: S basal supplemented with potassium citrate at pH 6.0, trace metals solution, calcium chloride and magnesium sulfate. [Source: https://doi.org/10.1895/wormbook.1.101.1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000266 "S Complete"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000266 "S complete medium"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000266 "S-Complete"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000266 "S medium"@en)
+SubClassOf(obo:EMPTY_0000266 obo:OBI_0000079)
+
+# Class: obo:EMPTY_0000267 (magnesium sulfate solution)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000267 "An aqueous solution of magnesium sulfate, kept as a stock for adding magnesium to culture media. Its concentration is a property of each preparation, not of this class.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000267 "magnesium sulfate solution"@en)
+SubClassOf(obo:EMPTY_0000267 obo:NCIT_C70830)
+
+# Class: obo:EMPTY_0000268 (calcium chloride solution)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000268 "An aqueous solution of calcium chloride, kept as a stock for adding calcium to culture media. Its concentration is a property of each preparation, not of this class.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000268 "calcium chloride solution"@en)
+SubClassOf(obo:EMPTY_0000268 obo:NCIT_C70830)
+
+# Class: obo:EMPTY_0000269 (potassium phosphate monobasic solution)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000269 "An aqueous solution of potassium phosphate monobasic (potassium dihydrogen phosphate), kept as a stock, for example to make potassium phosphate buffer. Its concentration is a property of each preparation, not of this class.")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000269 "KH2PO4 solution"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000269 "potassium phosphate monobasic solution"@en)
+SubClassOf(obo:EMPTY_0000269 obo:NCIT_C70830)
+
+# Class: obo:EMPTY_0000270 (potassium phosphate dibasic solution)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000270 "An aqueous solution of potassium phosphate dibasic (dipotassium hydrogen phosphate), kept as a stock, for example to make potassium phosphate buffer. Its concentration is a property of each preparation, not of this class.")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000270 "K2HPO4 solution"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000270 "potassium phosphate dibasic solution"@en)
+SubClassOf(obo:EMPTY_0000270 obo:NCIT_C70830)
+
+# Class: obo:EMPTY_0000271 (cholesterol solution)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000271 "A solution of cholesterol in ethanol, kept as a stock for adding cholesterol to nematode culture media. Its concentration is a property of each preparation, not of this class.")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000271 "cholesterol in ethanol"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000271 "cholesterol solution"@en)
+SubClassOf(obo:EMPTY_0000271 obo:NCIT_C70830)
 
 )
