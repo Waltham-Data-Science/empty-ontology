@@ -296,6 +296,8 @@ Declaration(Class(obo:EMPTY_0000268))
 Declaration(Class(obo:EMPTY_0000269))
 Declaration(Class(obo:EMPTY_0000270))
 Declaration(Class(obo:EMPTY_0000271))
+Declaration(Class(obo:EMPTY_0000272))
+Declaration(Class(obo:EMPTY_0000273))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2116,5 +2118,19 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000271 "A solution of cholesterol
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000271 "cholesterol in ethanol"@en)
 AnnotationAssertion(rdfs:label obo:EMPTY_0000271 "cholesterol solution"@en)
 SubClassOf(obo:EMPTY_0000271 obo:NCIT_C70830)
+
+# Class: obo:EMPTY_0000272 (peak speed before an event)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000272 "A data transformation that finds an animal's peak speed in the approach to an event: within a window before the event, it takes the last time point at which the animal was still accelerating, then the highest speed within a short neighbourhood of that time point. The window and the neighbourhood are parameters of each use.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000272 "As used for velocityBeforeEnter by analyzeEncounters (Haley et al. 2024): a 10 s window before the start of a patch encounter and a 1 s neighbourhood. Not the maximum over the window.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000272 "peak speed before an event"@en)
+SubClassOf(obo:EMPTY_0000272 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000273 (minimum speed after an event)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000273 "A data transformation that finds an animal's lowest speed after an event: the minimum speed within a window after the event, but no lower than the minimum speed over the whole of the event, so that slowing after the event has ended is not counted. The window is a parameter of each use.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000273 "As used for velocityAfterEnter by analyzeEncounters (Haley et al. 2024): a 10 s window after the start of a patch encounter, bounded below by the minimum speed during the encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000273 "minimum speed after an event"@en)
+SubClassOf(obo:EMPTY_0000273 obo:OBI_0200000)
 
 )
