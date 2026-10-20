@@ -349,6 +349,12 @@ Declaration(Class(obo:EMPTY_0000321))
 Declaration(Class(obo:EMPTY_0000322))
 Declaration(Class(obo:EMPTY_0000323))
 Declaration(Class(obo:EMPTY_0000324))
+Declaration(Class(obo:EMPTY_0000325))
+Declaration(Class(obo:EMPTY_0000326))
+Declaration(Class(obo:EMPTY_0000327))
+Declaration(Class(obo:EMPTY_0000328))
+Declaration(Class(obo:EMPTY_0000329))
+Declaration(Class(obo:EMPTY_0000330))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -1211,11 +1217,13 @@ AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000121 "NCIT:C45786")
 AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000121 "EMPTY:0000299")
 AnnotationAssertion(owl:deprecated obo:EMPTY_0000121 "true"^^xsd:boolean)
 
-# Class: obo:EMPTY_0000122 (C. elegans behavioral assay: plate or arena diameter)
+# Class: obo:EMPTY_0000122 (arena diameter)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000122 "The diameter of the experimental plate or arena used to corral animals in a C. elegans behavioral assay. A typical 9 cm agar plate will by 90 mm. Unit: millimeters (mm).")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000122 "C. elegans behavioral assay: plate or arena diameter"@en)
-SubClassOf(obo:EMPTY_0000122 obo:EMPTY_0000101)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000122 "The diameter of the arena: the bounded region in which an experiment's subjects are confined and observed.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000122 "Generalised 2026-10-20 (tenet T19): the label and definition no longer name C. elegans or a plate, which the statement's subject and session already say; the unit is stored on the value. Formerly 'C. elegans behavioral assay: plate or arena diameter'.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000122 "arena diameter"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000122 "C. elegans behavioral assay: plate or arena diameter"@en)
+SubClassOf(obo:EMPTY_0000122 obo:EMPTY_0000080)
 SubClassOf(obo:EMPTY_0000122 obo:NCIT_C25285)
 
 # Class: obo:EMPTY_0000123 (bacterial patch identifier)
@@ -1270,19 +1278,21 @@ AnnotationAssertion(rdfs:label obo:EMPTY_0000129 "C. elegans behavioral assay: v
 SubClassOf(obo:EMPTY_0000129 obo:EMPTY_0000100)
 SubClassOf(obo:EMPTY_0000129 obo:NCIT_C91063)
 
-# Class: obo:EMPTY_0000130 (C. elegans behavioral assay: arena mask)
+# Class: obo:EMPTY_0000130 (obsolete C. elegans behavioral assay: arena mask)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000130 "A binary image (logical matrix) where pixels within the experimental arena for C. elegans are marked (true) and pixels outside are unmarked (false). This mask defines the region of interest for worm tracking and behavioral analysis.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000130 "C. elegans behavioral assay: arena mask"@en)
-SubClassOf(obo:EMPTY_0000130 obo:EMPTY_0000101)
-SubClassOf(obo:EMPTY_0000130 obo:NCIT_C201530)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000130 "obsolete C. elegans behavioral assay: arena mask"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000130 "Obsolete 2026-10-20 (tenet T19): a mask is NCIT:C201530 Binary Mask with the condition Imaging Region of Interest (NCIT:C85402) = arena (EMPTY:0000326). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000130 "NCIT:C201530")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000130 "true"^^xsd:boolean)
 
-# Class: obo:EMPTY_0000131 (bacterial patch mask)
+# Class: obo:EMPTY_0000131 (obsolete bacterial patch mask)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000131 "A binary image mask (logical matrix) representing the union of all individually detected bacterial patch areas on an assay plate. This mask defines all food-containing regions.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000131 "bacterial patch mask"@en)
-SubClassOf(obo:EMPTY_0000131 obo:EMPTY_0000098)
-SubClassOf(obo:EMPTY_0000131 obo:NCIT_C201530)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000131 "obsolete bacterial patch mask"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000131 "Obsolete 2026-10-20 (tenet T19): a mask is NCIT:C201530 Binary Mask with the condition Imaging Region of Interest (NCIT:C85402) = bacterial patch (EMPTY:0000325). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000131 "NCIT:C201530")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000131 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000132 (bacterial patch closest identifier map)
 
@@ -1306,33 +1316,37 @@ AnnotationAssertion(rdfs:label obo:EMPTY_0000134 "bacterial patch document ident
 SubClassOf(obo:EMPTY_0000134 obo:EMPTY_0000087)
 SubClassOf(obo:EMPTY_0000134 obo:EMPTY_0000098)
 
-# Class: obo:EMPTY_0000135 (C. elegans body part)
+# Class: obo:EMPTY_0000135 (obsolete C. elegans body part)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000135 "A distinct anatomical region of the C. elegans worm, such as the head, midpoint, or tail, which can be tracked to quantify behavior.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000135 "C. elegans body part"@en)
-SubClassOf(obo:EMPTY_0000135 obo:EMPTY_0000076)
-SubClassOf(obo:EMPTY_0000135 obo:NCIT_C32221)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000135 "obsolete C. elegans body part"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000135 "Obsolete 2026-10-20 (tenet T19): the general term NCIT:C32221 Body Part means the same; the species is the subject's. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000135 "NCIT:C32221")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000135 "true"^^xsd:boolean)
 
-# Class: obo:EMPTY_0000136 (C. elegans head)
+# Class: obo:EMPTY_0000136 (obsolete C. elegans head)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000136 "The anterior-most part of the C. elegans body.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000136 "C. elegans head"@en)
-SubClassOf(obo:EMPTY_0000136 obo:EMPTY_0000135)
-SubClassOf(obo:EMPTY_0000136 obo:UBERON_0000033)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000136 "obsolete C. elegans head"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000136 "Obsolete 2026-10-20 (tenet T19): the general term UBERON:0000033 head means the same; the species is the subject's. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000136 "UBERON:0000033")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000136 "true"^^xsd:boolean)
 
-# Class: obo:EMPTY_0000137 (C. elegans midpoint)
+# Class: obo:EMPTY_0000137 (body midpoint)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000137 "The center point of the C. elegans body.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000137 "C. elegans midpoint"@en)
-SubClassOf(obo:EMPTY_0000137 obo:EMPTY_0000135)
-SubClassOf(obo:EMPTY_0000137 obo:UBERON_0002100)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000137 "The point halfway along an animal's body midline.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000137 "Generalised 2026-10-20 (tenet T19): the species is the subject's. A point, not WBbt midbody (a region). Formerly 'C. elegans midpoint'.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000137 "body midpoint"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000137 "C. elegans midpoint"@en)
+SubClassOf(obo:EMPTY_0000137 obo:NCIT_C32221)
 
-# Class: obo:EMPTY_0000138 (C. elegans tail)
+# Class: obo:EMPTY_0000138 (obsolete C. elegans tail)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000138 "The posterior-most part of the C. elegans body.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000138 "C. elegans tail"@en)
-SubClassOf(obo:EMPTY_0000138 obo:EMPTY_0000135)
-SubClassOf(obo:EMPTY_0000138 obo:UBERON_0002415)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000138 "obsolete C. elegans tail"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000138 "Obsolete 2026-10-20 (tenet T19): the general term UBERON:0002415 tail means the same; the species is the subject's. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000138 "UBERON:0002415")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000138 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000139 (C. elegans behavioral assay: encounter identifier)
 
@@ -1340,12 +1354,13 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000139 "A unique numerical identi
 AnnotationAssertion(rdfs:label obo:EMPTY_0000139 "C. elegans behavioral assay: encounter identifier"@en)
 SubClassOf(obo:EMPTY_0000139 obo:EMPTY_0000083)
 
-# Class: obo:EMPTY_0000140 (C. elegans behavioral assay: encounter onset time)
+# Class: obo:EMPTY_0000140 (encounter onset time)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000140 "The time, in seconds, corresponding to the frame at which the C. elegans worm enters a bacterial food patch. This is the precise start time of an encounter.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000140 "C. elegans behavioral assay: encounter onset time"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000140 "The time at which a subject's encounter begins.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000140 "Generalised 2026-10-20 (tenet T19): what the encounter is with is said by the encounter's own statements, not this term. Formerly 'C. elegans behavioral assay: encounter onset time'.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000140 "encounter onset time"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000140 "C. elegans behavioral assay: encounter onset time"@en)
 SubClassOf(obo:EMPTY_0000140 obo:EMPTY_0000091)
-SubClassOf(obo:EMPTY_0000140 obo:EMPTY_0000100)
 
 # Class: obo:EMPTY_0000141 (C. elegans behavioral assay: encounter offset time)
 
@@ -2226,13 +2241,12 @@ AnnotationAssertion(rdfs:label obo:EMPTY_0000274 "time to slow down"@en)
 SubClassOf(obo:EMPTY_0000274 obo:EMPTY_0000090)
 SubClassOf(obo:EMPTY_0000274 obo:EMPTY_0000100)
 
-# Class: obo:EMPTY_0000275 (bacterial patch in contact)
+# Class: obo:EMPTY_0000275 (entity in contact)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000275 "The bacterial patch an animal is in contact with during an encounter.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000275 "As lawnID in analyzeEncounters (Haley et al. 2024): one patch per encounter.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000275 "bacterial patch in contact"@en)
-SubClassOf(obo:EMPTY_0000275 obo:EMPTY_0000123)
-SubClassOf(obo:EMPTY_0000275 obo:EMPTY_0000100)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000275 "The entity a subject is in contact with during each of its encounters.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000275 "As lawnID in analyzeEncounters (Haley et al. 2024): one patch per encounter. Generalised 2026-10-20 (tenet T19) from 'bacterial patch in contact': the entities themselves say what they are.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000275 "entity in contact"@en)
+SubClassOf(obo:EMPTY_0000275 obo:EMPTY_0000076)
 
 # Class: obo:EMPTY_0000276 (nearest bacterial patch edge)
 
@@ -2241,29 +2255,29 @@ AnnotationAssertion(rdfs:comment obo:EMPTY_0000276 "The value of 'reference poin
 AnnotationAssertion(rdfs:label obo:EMPTY_0000276 "nearest bacterial patch edge"@en)
 SubClassOf(obo:EMPTY_0000276 obo:EMPTY_0000283)
 
-# Class: obo:EMPTY_0000277 (patch encounter period)
+# Class: obo:EMPTY_0000277 (encounter period)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000277 "Which part of an animal's track a value describes, relative to its encounters with patches: before its first encounter, during an encounter, or after an encounter and until the next.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000277 "patch encounter period"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000277 "The period of a subject's record a value is computed over, relative to its encounters: before its first encounter, during an encounter, or after an encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000277 "encounter period"@en)
 SubClassOf(obo:EMPTY_0000277 obo:NCIT_C25616)
 SubClassOf(obo:EMPTY_0000277 obo:EMPTY_0000076)
 
-# Class: obo:EMPTY_0000278 (before the first patch encounter)
+# Class: obo:EMPTY_0000278 (before the first encounter)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000278 "The part of an animal's track from its start to the start of its first patch encounter.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000278 "before the first patch encounter"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000278 "The period from the start of a subject's record to the start of its first encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000278 "before the first encounter"@en)
 SubClassOf(obo:EMPTY_0000278 obo:EMPTY_0000277)
 
-# Class: obo:EMPTY_0000279 (during the patch encounter)
+# Class: obo:EMPTY_0000279 (during the encounter)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000279 "The part of an animal's track from the start to the end of a patch encounter, including any frames in which it is partly off the patch.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000279 "during the patch encounter"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000279 "The period from the start to the end of an encounter, including any frames in which the subject is partly out of contact.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000279 "during the encounter"@en)
 SubClassOf(obo:EMPTY_0000279 obo:EMPTY_0000277)
 
-# Class: obo:EMPTY_0000280 (after the patch encounter)
+# Class: obo:EMPTY_0000280 (after the encounter)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000280 "The part of an animal's track from the end of a patch encounter to the start of its next one.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000280 "after the patch encounter"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000280 "The period from the end of an encounter to the start of the subject's next one, or to the end of its record.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000280 "after the encounter"@en)
 SubClassOf(obo:EMPTY_0000280 obo:EMPTY_0000277)
 
 # Class: obo:EMPTY_0000281 (analysis window start)
@@ -2412,11 +2426,11 @@ AnnotationAssertion(rdfs:comment obo:EMPTY_0000302 "The distance of an animal to
 AnnotationAssertion(rdfs:label obo:EMPTY_0000302 "distance transform"@en)
 SubClassOf(obo:EMPTY_0000302 obo:OBI_0200000)
 
-# Class: obo:EMPTY_0000303 (patch encounter detection)
+# Class: obo:EMPTY_0000303 (encounter detection)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000303 "A data transformation that finds the times an animal came into contact with a food patch, from its position relative to the patch edge over time.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000303 "analyzeEncounters (Haley et al. 2024): body-part entries into and exits from a patch, merged into encounters by distance thresholds.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000303 "patch encounter detection"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000303 "A data transformation that finds the periods in which a subject is in contact with another entity, from its position relative to that entity over time.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000303 "analyzeEncounters (Haley et al. 2024): body-part entries into and exits from a patch, merged into encounters by distance thresholds. What was encountered is the method parameter encountered entity (EMPTY:0000328). Generalised 2026-10-20 (tenet T19) from 'patch encounter detection'.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000303 "encounter detection"@en)
 SubClassOf(obo:EMPTY_0000303 obo:OBI_0200000)
 
 # Class: obo:EMPTY_0000304 (prediction from a fitted model)
@@ -2515,13 +2529,13 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000317 "QDA"@en)
 AnnotationAssertion(rdfs:label obo:EMPTY_0000317 "quadratic discriminant analysis"@en)
 SubClassOf(obo:EMPTY_0000317 obo:OBI_0200106)
 
-# Class: obo:EMPTY_0000318 (reference mark mask)
+# Class: obo:EMPTY_0000318 (obsolete reference mark mask)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000318 "A binary image (logical matrix) in which the pixels of a reference mark drawn or placed on an assay plate are marked (true) and all other pixels are unmarked (false).")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000318 "The refMask of the Haley et al. (2025) C. elegans foraging dataset, a sibling of the arena mask (EMPTY:0000130) and the bacterial patch mask (EMPTY:0000131).")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000318 "reference mark mask"@en)
-SubClassOf(obo:EMPTY_0000318 obo:EMPTY_0000101)
-SubClassOf(obo:EMPTY_0000318 obo:NCIT_C201530)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000318 "obsolete reference mark mask"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000318 "Obsolete 2026-10-20 before release (tenet T19): a mask is NCIT:C201530 Binary Mask with the condition Imaging Region of Interest (NCIT:C85402) = reference mark (EMPTY:0000327).")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000318 "NCIT:C201530")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000318 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000319 (acclimation plate)
 
@@ -2563,5 +2577,44 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000324 "A parameter of a calculat
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000324 "Used where a value is later log-transformed, so that zero has a finite logarithm (Haley et al. 2025: a patch of LB alone is given relative density 0.01).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000324 "lower limit of reported value"@en)
 SubClassOf(obo:EMPTY_0000324 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000325 (bacterial patch)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000325 "A discrete area of bacteria grown on a solid medium from a pipetted suspension.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000325 "An entity's kind, asserted on each patch, and the value of conditions such as Imaging Region of Interest and encountered entity (Haley et al. 2025: the OP50 and OP50-GFP patches; a spot of LB alone is a patch with no bacteria).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000325 "bacterial patch"@en)
+SubClassOf(obo:EMPTY_0000325 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000326 (arena)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000326 "The bounded region in which an experiment's subjects are confined and observed.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000326 "arena"@en)
+SubClassOf(obo:EMPTY_0000326 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000327 (reference mark)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000327 "A mark drawn or placed on a plate or arena to register its images to a common frame.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000327 "reference mark"@en)
+SubClassOf(obo:EMPTY_0000327 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000328 (encountered entity)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000328 "A parameter of an encounter detection method: the kind of entity whose encounters it finds.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000328 "encountered entity"@en)
+SubClassOf(obo:EMPTY_0000328 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000329 (potassium phosphate buffer)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000329 "A buffer solution of potassium dihydrogen phosphate and dipotassium hydrogen phosphate.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000329 "No ontology term found (2026-10-20): NCIT Phosphate Buffer and PBS are broader or contain sodium chloride. The composition is recorded as the formulation's ingredients.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000329 "potassium phosphate buffer"@en)
+SubClassOf(obo:EMPTY_0000329 obo:NCIT_C70815)
+
+# Class: obo:EMPTY_0000330 (potassium citrate solution)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000330 "A solution of citric acid and tripotassium citrate, buffered to a stated pH.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000330 "No ontology term found (2026-10-20): NCIT Buffer is broader. The composition is recorded as the formulation's ingredients.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000330 "potassium citrate solution"@en)
+SubClassOf(obo:EMPTY_0000330 obo:NCIT_C70815)
 
 )
