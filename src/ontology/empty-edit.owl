@@ -1115,12 +1115,12 @@ AnnotationAssertion(rdfs:label obo:EMPTY_0000104 "bacterial strain document iden
 SubClassOf(obo:EMPTY_0000104 obo:EMPTY_0000087)
 SubClassOf(obo:EMPTY_0000104 obo:EMPTY_0000098)
 
-# Class: obo:EMPTY_0000105 (bacterial OD600 (target) at seeding)
+# Class: obo:EMPTY_0000105 (target seeding OD600)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000105 "The intended or nominal optical density at 600 nm (OD 600) to which the bacterial solution was diluted for creating bacterial patches on agar plates. Unit: dimensionless.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000105 "bacterial OD600 (target) at seeding"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000105 "The OD600 a bacterial suspension was prepared to have when it was seeded: the planned value, as distinct from a measured one.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000105 "target seeding OD600"@en)
 SubClassOf(obo:EMPTY_0000105 obo:EMPTY_0000098)
-SubClassOf(obo:EMPTY_0000105 obo:NCIT_C85776)
+SubClassOf(obo:EMPTY_0000105 obo:MCO_0000059)
 
 # Class: obo:EMPTY_0000106 (bacterial plate seeding timestamp)
 
