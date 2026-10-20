@@ -355,6 +355,23 @@ Declaration(Class(obo:EMPTY_0000327))
 Declaration(Class(obo:EMPTY_0000328))
 Declaration(Class(obo:EMPTY_0000329))
 Declaration(Class(obo:EMPTY_0000330))
+Declaration(Class(obo:EMPTY_0000331))
+Declaration(Class(obo:EMPTY_0000332))
+Declaration(Class(obo:EMPTY_0000333))
+Declaration(Class(obo:EMPTY_0000334))
+Declaration(Class(obo:EMPTY_0000335))
+Declaration(Class(obo:EMPTY_0000336))
+Declaration(Class(obo:EMPTY_0000337))
+Declaration(Class(obo:EMPTY_0000338))
+Declaration(Class(obo:EMPTY_0000339))
+Declaration(Class(obo:EMPTY_0000340))
+Declaration(Class(obo:EMPTY_0000341))
+Declaration(Class(obo:EMPTY_0000342))
+Declaration(Class(obo:EMPTY_0000343))
+Declaration(Class(obo:EMPTY_0000344))
+Declaration(Class(obo:EMPTY_0000345))
+Declaration(Class(obo:EMPTY_0000346))
+Declaration(Class(obo:EMPTY_0000347))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2616,5 +2633,112 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000330 "A solution of citric acid
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000330 "No ontology term found (2026-10-20): NCIT Buffer is broader. The composition is recorded as the formulation's ingredients.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000330 "potassium citrate solution"@en)
 SubClassOf(obo:EMPTY_0000330 obo:NCIT_C70815)
+
+# Class: obo:EMPTY_0000331 (seeding)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000331 "Adding a bacterial suspension onto a solid culture medium so that it grows into a patch.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000331 "NCIT Inoculation (C68774) is broader: it also covers introducing sera and vaccines.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000331 "seeding"@en)
+SubClassOf(obo:EMPTY_0000331 obo:OBI_0000274)
+
+# Class: obo:EMPTY_0000332 (pouring)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000332 "Making an agar plate by pouring molten medium into a dish and letting it set.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000332 "pouring"@en)
+SubClassOf(obo:EMPTY_0000332 obo:COB_0000110)
+
+# Class: obo:EMPTY_0000333 (incubation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000333 "Holding a material in an incubator at a set temperature, typically so that organisms in it grow.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000333 "NCIT Incubated (C15685) is an undefined qualifier, not a procedure.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000333 "incubation"@en)
+SubClassOf(obo:EMPTY_0000333 obo:OBI_0000838)
+
+# Class: obo:EMPTY_0000334 (refrigeration)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000334 "Holding a material in a refrigerator or cold room, above freezing and below ambient temperature.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000334 "NCIT Refrigerate (C202341) is the act of cooling an item, not holding it cold.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000334 "refrigeration"@en)
+SubClassOf(obo:EMPTY_0000334 obo:OBI_0302893)
+
+# Class: obo:EMPTY_0000335 (ambient exposure)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000335 "Holding a material at the room's ambient temperature and humidity.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000335 "ambient exposure"@en)
+SubClassOf(obo:EMPTY_0000335 obo:OBI_0000838)
+
+# Class: obo:EMPTY_0000336 (agar plug transfer)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000336 "Moving organisms from one culture plate to another on a piece of agar cut from the first.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000336 "agar plug transfer"@en)
+SubClassOf(obo:EMPTY_0000336 obo:COB_0000035)
+
+# Class: obo:EMPTY_0000337 (worm picking)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000337 "Moving animals one at a time from one plate to another with a wire pick.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000337 "worm picking"@en)
+SubClassOf(obo:EMPTY_0000337 obo:COB_0000035)
+
+# Class: obo:EMPTY_0000338 (eyelash picking)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000338 "Moving animals from one place to another with an eyelash attached to a handle.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000338 "eyelash picking"@en)
+SubClassOf(obo:EMPTY_0000338 obo:COB_0000035)
+
+# Class: obo:EMPTY_0000339 (cleaning step)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000339 "A parameter of a transfer: how the organisms were freed of adhering material, such as bacteria, before being placed on the next plate.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000339 "cleaning step"@en)
+SubClassOf(obo:EMPTY_0000339 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000340 (droplet)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000340 "A parameter of a transfer: the drop of liquid the organisms were released into.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000340 "droplet"@en)
+SubClassOf(obo:EMPTY_0000340 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000341 (exploit: minimum probability of exploitation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000341 "The smallest posterior probability of exploitation at which an encounter is classed exploit.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000341 "exploit: minimum probability of exploitation"@en)
+SubClassOf(obo:EMPTY_0000341 obo:STATO_0000633)
+
+# Class: obo:EMPTY_0000342 (sample: minimum probability of sensing)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000342 "The smallest posterior probability of sensing at which an encounter is classed sample.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000342 "sample: minimum probability of sensing"@en)
+SubClassOf(obo:EMPTY_0000342 obo:STATO_0000633)
+
+# Class: obo:EMPTY_0000343 (search off patch: probability of sensing below)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000343 "The posterior probability of sensing below which an encounter is classed search off patch, together with the distance rule.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000343 "search off patch: probability of sensing below"@en)
+SubClassOf(obo:EMPTY_0000343 obo:STATO_0000633)
+
+# Class: obo:EMPTY_0000344 (search off patch: maximum distance into the patch)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000344 "The greatest distance into the patch an encounter can reach and still be classed search off patch.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000344 "search off patch: maximum distance into the patch"@en)
+SubClassOf(obo:EMPTY_0000344 obo:STATO_0000633)
+
+# Class: obo:EMPTY_0000345 (publication date)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000345 "The date on which a publication was published.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000345 "NCIT Study Publication Date (C142711) is limited to clinical studies.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000345 "publication date"@en)
+SubClassOf(obo:EMPTY_0000345 obo:NCIT_C25164)
+
+# Class: obo:EMPTY_0000346 (release date)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000346 "The date on which a dataset was released for use.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000346 "release date"@en)
+SubClassOf(obo:EMPTY_0000346 obo:NCIT_C25164)
+
+# Class: obo:EMPTY_0000347 (genetic strain type)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000347 "Whether a strain is wild type, mutant or transgenic.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000347 "Its values are NCIT Wild Type (C62195), NCIT Mutant (C25360) and OBI transgenic organism (OBI:1000048).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000347 "genetic strain type"@en)
+SubClassOf(obo:EMPTY_0000347 obo:OBI_0001404)
 
 )
