@@ -1412,18 +1412,16 @@ AnnotationAssertion(owl:deprecated obo:EMPTY_0000147 "true"^^xsd:boolean)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000148 "A normalized, quantitative measure of the bacterial density of a specific bacterial food patch that a C. elegans worm encounters during an assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000148 "obsolete C. elegans behavioral assay: relative density of encountered bacteria"@en)
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000148 "Obsolete: replaced in the NDI V2 Haley import. Relative density is not stored: it is computed from the patch's estimated border amplitude, stated as fluorescence intensity (NCIT:C184706) on the patch with the method prediction from a fitted model (EMPTY:0000304). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
-AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000148 "NCIT:C184706")
-AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000148 "EMPTY:0000304")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000148 "Obsolete: replaced in the NDI V2 Haley import by relative bacterial density (EMPTY:0000322), stated on an assay-plate patch at each encounter; this term named one use of the quantity rather than the quantity. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000148 "EMPTY:0000322")
 AnnotationAssertion(owl:deprecated obo:EMPTY_0000148 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000149 (C. elegans behavioral assay: relative density of cultivation bacteria)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000149 "A normalized, quantitative measure of the bacterial density on the agar plates where C. elegans were cultivated prior to the behavioral assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000149 "obsolete C. elegans behavioral assay: relative density of cultivation bacteria"@en)
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000149 "Obsolete: replaced in the NDI V2 Haley import. Relative density is not stored: it is computed from the cultivation plate patch's estimated border amplitude, stated as fluorescence intensity (NCIT:C184706) with the method prediction from a fitted model (EMPTY:0000304). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
-AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000149 "NCIT:C184706")
-AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000149 "EMPTY:0000304")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000149 "Obsolete: replaced in the NDI V2 Haley import by relative bacterial density (EMPTY:0000322), stated on the cultivation (acclimation) plate's patch when the worms were picked; this term named one use of the quantity rather than the quantity. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000149 "EMPTY:0000322")
 AnnotationAssertion(owl:deprecated obo:EMPTY_0000149 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000150 (bacterial fluorescence assay measurement)
