@@ -1214,14 +1214,14 @@ SubClassOf(obo:EMPTY_0000118 obo:EMPTY_0000098)
 
 # Class: obo:EMPTY_0000119 (bacteria growth duration after seeding)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000119 "The total duration for which bacterial patch(s) on agar plates were allowed to grow at room temperature starting at the time seeded and ending at the beginning of the assay. Unit: hours.")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000119 "The time from when a bacterial patch was seeded on an agar plate to the start of the assay, during which the bacteria grew.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000119 "bacteria growth duration after seeding"@en)
 SubClassOf(obo:EMPTY_0000119 obo:EMPTY_0000090)
 SubClassOf(obo:EMPTY_0000119 obo:EMPTY_0000161)
 
 # Class: obo:EMPTY_0000120 (bacterial patch volume)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000120 "The volume of bacterial solution pipetted to create an individual patch on an agar plate. Note: Volumes under 1 µL are approximate due to the difficulty of pipetting liquids at this scale. Unit: microliters (µL).")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000120 "The volume of bacterial solution pipetted to create an individual patch on an agar plate.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000120 "bacterial patch volume"@en)
 SubClassOf(obo:EMPTY_0000120 obo:EMPTY_0000098)
 SubClassOf(obo:EMPTY_0000120 obo:NCIT_C25335)
