@@ -373,6 +373,11 @@ Declaration(Class(obo:EMPTY_0000345))
 Declaration(Class(obo:EMPTY_0000346))
 Declaration(Class(obo:EMPTY_0000347))
 Declaration(Class(obo:EMPTY_0000348))
+Declaration(Class(obo:EMPTY_0000349))
+Declaration(Class(obo:EMPTY_0000350))
+Declaration(Class(obo:EMPTY_0000351))
+Declaration(Class(obo:EMPTY_0000352))
+Declaration(Class(obo:EMPTY_0000353))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2376,32 +2381,38 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000292 "The kind of patch encount
 AnnotationAssertion(rdfs:label obo:EMPTY_0000292 "encounter type"@en)
 SubClassOf(obo:EMPTY_0000292 obo:EMPTY_0000115)
 
-# Class: obo:EMPTY_0000293 (exploit)
+# Class: obo:EMPTY_0000293 (patch exploitation encounter)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000293 "An encounter type: the animal exploited the patch (probability of exploitation at least 0.5).")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000293 "labelEncounters (Haley et al. 2024).")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000293 "exploit"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000293 "A patch encounter in which the animal stays on the food and feeds from it.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000293 "In labelEncounters (Haley et al. 2024), assigned by a threshold on the posterior probability of exploitation; the threshold is a parameter of the classification. Relabelled 2026-10-20 from 'exploit' (tenet T19: a behavioural category, not the lab's rule).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000293 "patch exploitation encounter"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000293 "exploit"@en)
 SubClassOf(obo:EMPTY_0000293 obo:EMPTY_0000292)
 
-# Class: obo:EMPTY_0000294 (sample)
+# Class: obo:EMPTY_0000294 (patch sampling encounter)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000294 "An encounter type: the animal sensed the patch but did not exploit it (probability of sensing at least 0.5, of exploitation below 0.5).")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000294 "labelEncounters (Haley et al. 2024).")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000294 "sample"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000294 "A patch encounter in which the animal senses the food but does not stay to feed.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000294 "In labelEncounters (Haley et al. 2024), assigned by thresholds on the posterior probabilities of sensing and exploitation; the thresholds are parameters of the classification. Relabelled 2026-10-20 from 'sample' (tenet T19).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000294 "patch sampling encounter"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000294 "sample"@en)
 SubClassOf(obo:EMPTY_0000294 obo:EMPTY_0000292)
 
-# Class: obo:EMPTY_0000295 (search on patch)
+# Class: obo:EMPTY_0000295 (on-patch search encounter)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000295 "An encounter type: the animal crossed onto the patch without sensing or exploiting it (probabilities of sensing and of exploitation both below 0.5).")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000295 "labelEncounters (Haley et al. 2024).")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000295 "search on patch"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000295 "A patch encounter in which the animal crosses onto the patch but neither senses the food nor stays to feed.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000295 "In labelEncounters (Haley et al. 2024), assigned by thresholds on the posterior probabilities of sensing and exploitation; the thresholds are parameters of the classification. Relabelled 2026-10-20 from 'search on patch' (tenet T19).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000295 "on-patch search encounter"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000295 "search on patch"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000295 "searchOn"@en)
 SubClassOf(obo:EMPTY_0000295 obo:EMPTY_0000292)
 
-# Class: obo:EMPTY_0000296 (search off patch)
+# Class: obo:EMPTY_0000296 (off-patch search encounter)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000296 "An encounter type: the animal came near the patch without its midpoint crossing the edge, and neither sensed nor exploited it (probability of sensing below 0.05, of exploitation below 0.5).")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000296 "labelEncounters (Haley et al. 2024); the midpoint test is distanceOnMax < 0.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000296 "search off patch"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000296 "A patch encounter in which the animal comes near the patch without crossing onto it, and neither senses the food nor stays to feed.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000296 "In labelEncounters (Haley et al. 2024), assigned by thresholds on the posterior probabilities of sensing and exploitation and on how far the animal's midpoint reached into the patch (distanceOnMax < 0); the thresholds are parameters of the classification. Relabelled 2026-10-20 from 'search off patch' (tenet T19).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000296 "off-patch search encounter"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000296 "search off patch"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000296 "searchOff"@en)
 SubClassOf(obo:EMPTY_0000296 obo:EMPTY_0000292)
 
 # Class: obo:EMPTY_0000297 (nearest bacterial patch)
@@ -2698,28 +2709,32 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000340 "A parameter of a transfer
 AnnotationAssertion(rdfs:label obo:EMPTY_0000340 "droplet"@en)
 SubClassOf(obo:EMPTY_0000340 obo:EMPTY_0000080)
 
-# Class: obo:EMPTY_0000341 (exploit: minimum probability of exploitation)
+# Class: obo:EMPTY_0000341 (patch exploitation encounter: minimum probability of exploitation)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000341 "The smallest posterior probability of exploitation at which an encounter is classed exploit.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000341 "exploit: minimum probability of exploitation"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000341 "The smallest posterior probability of exploitation at which an encounter is classed a patch exploitation encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000341 "patch exploitation encounter: minimum probability of exploitation"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000341 "exploit: minimum probability of exploitation"@en)
 SubClassOf(obo:EMPTY_0000341 obo:STATO_0000633)
 
-# Class: obo:EMPTY_0000342 (sample: minimum probability of sensing)
+# Class: obo:EMPTY_0000342 (patch sampling encounter: minimum probability of sensing)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000342 "The smallest posterior probability of sensing at which an encounter is classed sample.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000342 "sample: minimum probability of sensing"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000342 "The smallest posterior probability of sensing at which an encounter is classed a patch sampling encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000342 "patch sampling encounter: minimum probability of sensing"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000342 "sample: minimum probability of sensing"@en)
 SubClassOf(obo:EMPTY_0000342 obo:STATO_0000633)
 
-# Class: obo:EMPTY_0000343 (search off patch: probability of sensing below)
+# Class: obo:EMPTY_0000343 (off-patch search encounter: probability of sensing below)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000343 "The posterior probability of sensing below which an encounter is classed search off patch, together with the distance rule.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000343 "search off patch: probability of sensing below"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000343 "The posterior probability of sensing below which an encounter is classed an off-patch search encounter, together with the distance rule.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000343 "off-patch search encounter: probability of sensing below"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000343 "search off patch: probability of sensing below"@en)
 SubClassOf(obo:EMPTY_0000343 obo:STATO_0000633)
 
-# Class: obo:EMPTY_0000344 (search off patch: maximum distance into the patch)
+# Class: obo:EMPTY_0000344 (off-patch search encounter: maximum distance into the patch)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000344 "The greatest distance into the patch an encounter can reach and still be classed search off patch.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000344 "search off patch: maximum distance into the patch"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000344 "The greatest distance into the patch an encounter can reach and still be classed an off-patch search encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000344 "off-patch search encounter: maximum distance into the patch"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000344 "search off patch: maximum distance into the patch"@en)
 SubClassOf(obo:EMPTY_0000344 obo:STATO_0000633)
 
 # Class: obo:EMPTY_0000345 (publication date)
@@ -2738,7 +2753,7 @@ SubClassOf(obo:EMPTY_0000346 obo:NCIT_C25164)
 # Class: obo:EMPTY_0000347 (genetic strain type)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000347 "Whether a strain is wild type, mutant or transgenic.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000347 "Its values are NCIT Wild Type (C62195), NCIT Mutant (C25360) and OBI transgenic organism (OBI:1000048).")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000347 "Its values are BAO wild type (BAO:0000089), NCIT Mutant (C25360) and OBI transgenic organism (OBI:1000048). BAO has no mutant or transgenic strain term (OLS, 2026-10-20).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000347 "genetic strain type"@en)
 SubClassOf(obo:EMPTY_0000347 obo:OBI_0001404)
 
@@ -2748,5 +2763,45 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000348 "Imaging a specimen lit fr
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000348 "No ontology term found (OLS, 2026-10-20): NCIT Quantitative Oblique Back-Illumination Microscopy (C188767) is a microscopy method for thick specimens. In the Haley et al. (2025) C. elegans foraging dataset, the patch contrast videos: a camera over a backlit plate with a card passed between the light and the plate, so the bacterial patches show.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000348 "oblique illumination imaging"@en)
 SubClassOf(obo:EMPTY_0000348 obo:OBI_0000185)
+
+# Class: obo:EMPTY_0000349 (peak amplitude)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000349 "The height of a profile's peak above its value at a reference point.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000349 "In the Haley et al. (2025) C. elegans foraging dataset, borderAmplitude of analyzeLawnProfiles: a fluorescence profile's peak above its value at the bacterial patch's outer edge. The reference point is a parameter of each use.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000349 "peak amplitude"@en)
+SubClassOf(obo:EMPTY_0000349 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000350 (signed distance from the nearest bacterial patch edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000350 "The distance from a subject's point to the nearest edge of a bacterial patch, positive inside the patch and negative outside it.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000350 "As distanceLawnEdge in analyzeWormLabTracks (Haley et al. 2024): the signed distance transform of the patch mask, read at the tracked point.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000350 "signed distance from the nearest bacterial patch edge"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000350 "distance from the patch edge"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000350 "distanceLawnEdge"@en)
+SubClassOf(obo:EMPTY_0000350 obo:PATO_0000040)
+
+# Class: obo:EMPTY_0000351 (target bacteria growth duration after seeding)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000351 "The planned time from when a bacterial patch was seeded to the start of the assay: the growth group an assay was prepared for, as distinct from the measured time.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000351 "In Haley et al. (2025), getExperimentInfo derives the group by rounding the measured growth to 12 h (growthCondition: 0, 12 or 48 h).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000351 "target bacteria growth duration after seeding"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000351 "growth condition"@en)
+SubClassOf(obo:EMPTY_0000351 obo:EMPTY_0000119)
+
+# Class: obo:EMPTY_0000352 (anterior end point)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000352 "The most anterior point of a subject's body along its midline (the leading point of a tracked body spline).")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000352 "A point, beside body midpoint (EMPTY:0000137); UBERON head (UBERON:0000033) is a region. In the Haley et al. (2025) dataset, the head point of the WormLab track.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000352 "anterior end point"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000352 "head"@en)
+SubClassOf(obo:EMPTY_0000352 obo:NCIT_C32221)
+
+# Class: obo:EMPTY_0000353 (posterior end point)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000353 "The most posterior point of a subject's body along its midline (the trailing point of a tracked body spline).")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000353 "A point, beside body midpoint (EMPTY:0000137); UBERON tail (UBERON:0002415) is a region. In the Haley et al. (2025) dataset, the tail point of the WormLab track.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000353 "posterior end point"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000353 "tail"@en)
+SubClassOf(obo:EMPTY_0000353 obo:NCIT_C32221)
 
 )
