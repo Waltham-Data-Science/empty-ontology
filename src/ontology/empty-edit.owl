@@ -372,6 +372,7 @@ Declaration(Class(obo:EMPTY_0000344))
 Declaration(Class(obo:EMPTY_0000345))
 Declaration(Class(obo:EMPTY_0000346))
 Declaration(Class(obo:EMPTY_0000347))
+Declaration(Class(obo:EMPTY_0000348))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2740,5 +2741,12 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000347 "Whether a strain is wild 
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000347 "Its values are NCIT Wild Type (C62195), NCIT Mutant (C25360) and OBI transgenic organism (OBI:1000048).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000347 "genetic strain type"@en)
 SubClassOf(obo:EMPTY_0000347 obo:OBI_0001404)
+
+# Class: obo:EMPTY_0000348 (oblique illumination imaging)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000348 "Imaging a specimen lit from one side at a low angle, so that its edges and surface relief show as differences in brightness.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000348 "No ontology term found (OLS, 2026-10-20): NCIT Quantitative Oblique Back-Illumination Microscopy (C188767) is a microscopy method for thick specimens. In the Haley et al. (2025) C. elegans foraging dataset, the patch contrast videos: a camera over a backlit plate with a card passed between the light and the plate, so the bacterial patches show.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000348 "oblique illumination imaging"@en)
+SubClassOf(obo:EMPTY_0000348 obo:OBI_0000185)
 
 )
