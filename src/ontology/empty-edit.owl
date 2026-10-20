@@ -346,6 +346,9 @@ Declaration(Class(obo:EMPTY_0000318))
 Declaration(Class(obo:EMPTY_0000319))
 Declaration(Class(obo:EMPTY_0000320))
 Declaration(Class(obo:EMPTY_0000321))
+Declaration(Class(obo:EMPTY_0000322))
+Declaration(Class(obo:EMPTY_0000323))
+Declaration(Class(obo:EMPTY_0000324))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2542,5 +2545,25 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000321 "A Petri dish of agar, pre
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000321 "A location a C. elegans cohort is moved to in the Haley et al. (2025) dataset.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000321 "assay plate"@en)
 SubClassOf(obo:EMPTY_0000321 obo:NCIT_C96141)
+
+# Class: obo:EMPTY_0000322 (relative bacterial density)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000322 "The density of the bacteria in a bacterial patch, in OD600 equivalents: the patch's fluorescence border amplitude divided by the mean border amplitude of reference patches seeded at a known OD600, times that OD600.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000322 "The relative density of the Haley et al. (2025) C. elegans foraging dataset (modelExploit, fig3_single): 10 x a patch's border amplitude / the mean over the foragingConcentration OD600 10, 0.5 uL patches, floored at 0.01 for a patch of LB alone; the model uses its log10. Replaces the obsolete EMPTY:0000148 and EMPTY:0000149, which named the two uses (encountered and cultivation bacteria) rather than the quantity.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000322 "relative bacterial density"@en)
+SubClassOf(obo:EMPTY_0000322 obo:NCIT_C120538)
+
+# Class: obo:EMPTY_0000323 (normalization reference value)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000323 "A parameter of a normalization: the value of a reference condition that each value is divided by.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000323 "normalization reference value"@en)
+SubClassOf(obo:EMPTY_0000323 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000324 (lower limit of reported value)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000324 "A parameter of a calculation: the smallest value it reports; a smaller result, including zero, is reported as this value.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000324 "Used where a value is later log-transformed, so that zero has a finite logarithm (Haley et al. 2025: a patch of LB alone is given relative density 0.01).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000324 "lower limit of reported value"@en)
+SubClassOf(obo:EMPTY_0000324 obo:EMPTY_0000080)
 
 )
