@@ -340,6 +340,12 @@ Declaration(Class(obo:EMPTY_0000312))
 Declaration(Class(obo:EMPTY_0000313))
 Declaration(Class(obo:EMPTY_0000314))
 Declaration(Class(obo:EMPTY_0000315))
+Declaration(Class(obo:EMPTY_0000316))
+Declaration(Class(obo:EMPTY_0000317))
+Declaration(Class(obo:EMPTY_0000318))
+Declaration(Class(obo:EMPTY_0000319))
+Declaration(Class(obo:EMPTY_0000320))
+Declaration(Class(obo:EMPTY_0000321))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2490,5 +2496,51 @@ AnnotationAssertion(rdfs:comment obo:EMPTY_0000315 "The format of a spike sorter
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000315 "folder"@en)
 AnnotationAssertion(rdfs:label obo:EMPTY_0000315 "directory of files"@en)
 SubClassOf(obo:EMPTY_0000315 obo:format_1915)
+
+# Class: obo:EMPTY_0000316 (Gaussian mixture model clustering)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000316 "A class discovery data transformation that fits a mixture of Gaussian distributions to the data and assigns each data point the posterior probability of belonging to each component.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000316 "The method of the posterior probability of exploitation in the Haley et al. (2025) C. elegans foraging dataset: a two-component model of log encounter duration and log average on-patch speed (labelEncounters, fitgmdist). OBI has k-means and hierarchical clustering but no Gaussian mixture model (OLS search, 2026-10-20).")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000316 "GMM clustering"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000316 "Gaussian mixture model clustering"@en)
+SubClassOf(obo:EMPTY_0000316 obo:OBI_0200171)
+SubClassOf(obo:EMPTY_0000316 obo:OBI_0200175)
+
+# Class: obo:EMPTY_0000317 (quadratic discriminant analysis)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000317 "A discriminant analysis that models each class as a Gaussian distribution with its own covariance, so that the boundary between classes is a quadratic surface.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000317 "The method of the posterior probability of sensing in the Haley et al. (2025) C. elegans foraging dataset (labelEncounters, fitcdiscr with DiscrimType quadratic, semi-supervised). OBI has discriminant analysis (OBI:0200106) but not its quadratic form (OLS search, 2026-10-20).")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000317 "QDA"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000317 "quadratic discriminant analysis"@en)
+SubClassOf(obo:EMPTY_0000317 obo:OBI_0200106)
+
+# Class: obo:EMPTY_0000318 (reference mark mask)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000318 "A binary image (logical matrix) in which the pixels of a reference mark drawn or placed on an assay plate are marked (true) and all other pixels are unmarked (false).")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000318 "The refMask of the Haley et al. (2025) C. elegans foraging dataset, a sibling of the arena mask (EMPTY:0000130) and the bacterial patch mask (EMPTY:0000131).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000318 "reference mark mask"@en)
+SubClassOf(obo:EMPTY_0000318 obo:EMPTY_0000101)
+SubClassOf(obo:EMPTY_0000318 obo:NCIT_C201530)
+
+# Class: obo:EMPTY_0000319 (acclimation plate)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000319 "A Petri dish of seeded agar on which animals are kept for a set time before an assay so that they adapt to its conditions.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000319 "A location a C. elegans cohort is moved to in the Haley et al. (2025) dataset.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000319 "acclimation plate"@en)
+SubClassOf(obo:EMPTY_0000319 obo:NCIT_C96141)
+
+# Class: obo:EMPTY_0000320 (food deprivation plate)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000320 "A Petri dish of agar with no bacterial food, on which animals are kept for a set time to deprive them of food before an assay.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000320 "A location a C. elegans cohort is moved to in the Haley et al. (2025) dataset.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000320 "food deprivation plate"@en)
+SubClassOf(obo:EMPTY_0000320 obo:NCIT_C96141)
+
+# Class: obo:EMPTY_0000321 (assay plate)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000321 "A Petri dish of agar, prepared with the arena and bacterial patches of an assay, on which animals are recorded during that assay.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000321 "A location a C. elegans cohort is moved to in the Haley et al. (2025) dataset.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000321 "assay plate"@en)
+SubClassOf(obo:EMPTY_0000321 obo:NCIT_C96141)
 
 )
