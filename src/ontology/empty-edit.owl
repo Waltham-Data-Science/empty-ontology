@@ -1427,7 +1427,7 @@ AnnotationAssertion(owl:deprecated obo:EMPTY_0000147 "true"^^xsd:boolean)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000148 "A normalized, quantitative measure of the bacterial density of a specific bacterial food patch that a C. elegans worm encounters during an assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000148 "obsolete C. elegans behavioral assay: relative density of encountered bacteria"@en)
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000148 "Obsolete: replaced in the NDI V2 Haley import by relative bacterial density (EMPTY:0000322), stated on an assay-plate patch at each encounter; this term named one use of the quantity rather than the quantity. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000148 "Obsolete: replaced in the NDI V2 Haley import by relative cell density (EMPTY:0000322), stated on an assay-plate patch at each encounter; this term named one use of the quantity rather than the quantity. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
 AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000148 "EMPTY:0000322")
 AnnotationAssertion(owl:deprecated obo:EMPTY_0000148 "true"^^xsd:boolean)
 
@@ -1435,7 +1435,7 @@ AnnotationAssertion(owl:deprecated obo:EMPTY_0000148 "true"^^xsd:boolean)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000149 "A normalized, quantitative measure of the bacterial density on the agar plates where C. elegans were cultivated prior to the behavioral assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000149 "obsolete C. elegans behavioral assay: relative density of cultivation bacteria"@en)
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000149 "Obsolete: replaced in the NDI V2 Haley import by relative bacterial density (EMPTY:0000322), stated on the cultivation (acclimation) plate's patch when the worms were picked; this term named one use of the quantity rather than the quantity. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000149 "Obsolete: replaced in the NDI V2 Haley import by relative cell density (EMPTY:0000322), stated on the cultivation (acclimation) plate's patch when the worms were picked; this term named one use of the quantity rather than the quantity. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
 AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000149 "EMPTY:0000322")
 AnnotationAssertion(owl:deprecated obo:EMPTY_0000149 "true"^^xsd:boolean)
 
@@ -2558,11 +2558,11 @@ AnnotationAssertion(rdfs:comment obo:EMPTY_0000321 "A location a C. elegans coho
 AnnotationAssertion(rdfs:label obo:EMPTY_0000321 "assay plate"@en)
 SubClassOf(obo:EMPTY_0000321 obo:NCIT_C96141)
 
-# Class: obo:EMPTY_0000322 (relative bacterial density)
+# Class: obo:EMPTY_0000322 (relative cell density)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000322 "The density of the bacteria in a bacterial patch, in OD600 equivalents: the patch's fluorescence border amplitude divided by the mean border amplitude of reference patches seeded at a known OD600, times that OD600.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000322 "The relative density of the Haley et al. (2025) C. elegans foraging dataset (modelExploit, fig3_single): 10 x a patch's border amplitude / the mean over the foragingConcentration OD600 10, 0.5 uL patches, floored at 0.01 for a patch of LB alone; the model uses its log10. Replaces the obsolete EMPTY:0000148 and EMPTY:0000149, which named the two uses (encountered and cultivation bacteria) rather than the quantity.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000322 "relative bacterial density"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000322 "The density of cells in a sample relative to reference samples of known density: the sample's measured signal divided by the mean signal of the reference samples, times their density. Stated in the reference samples' units, such as OD600 equivalents.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000322 "In the Haley et al. (2025) C. elegans foraging dataset, the relative density of a bacterial patch in OD600 equivalents (modelExploit, fig3_single): 10 x a patch's fluorescence border amplitude / the mean over the foragingConcentration OD600 10, 0.5 uL patches, floored at 0.01 for a patch of LB alone; the model uses its log10. Replaces the obsolete EMPTY:0000148 and EMPTY:0000149, which named the two uses (encountered and cultivation bacteria) rather than the quantity.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000322 "relative cell density"@en)
 SubClassOf(obo:EMPTY_0000322 obo:NCIT_C120538)
 
 # Class: obo:EMPTY_0000323 (normalization reference value)
