@@ -383,6 +383,13 @@ Declaration(Class(obo:EMPTY_0000355))
 Declaration(Class(obo:EMPTY_0000356))
 Declaration(Class(obo:EMPTY_0000357))
 Declaration(Class(obo:EMPTY_0000358))
+Declaration(Class(obo:EMPTY_0000359))
+Declaration(Class(obo:EMPTY_0000360))
+Declaration(Class(obo:EMPTY_0000361))
+Declaration(Class(obo:EMPTY_0000362))
+Declaration(Class(obo:EMPTY_0000363))
+Declaration(Class(obo:EMPTY_0000364))
+Declaration(Class(obo:EMPTY_0000365))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2819,9 +2826,10 @@ SubClassOf(obo:EMPTY_0000354 obo:NCIT_C25284)
 # Class: obo:EMPTY_0000355 (ethics assessment)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000355 "Whether the work recorded in a dataset required an ethics review and, if so, the outcome of that review.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000355 "No ontology term found (OLS, 2026-10-21): IAO ethical approval textual entity (IAO:0000621) is a document and OBI ethical standard compliance rule (OBI:0500025) is a rule; neither names the property.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000355 "ethics assessment"@en)
-SubClassOf(obo:EMPTY_0000355 obo:NCIT_C25284)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000355 "Obsolete: replaced by ethics jurisdiction (EMPTY:0000359), Jess Haley 2026-10-21, following openMINDS v6 and later, which drop the ethicsAssessment terminology for ethicsJurisdiction. Minted the same day and never written by an import. Before: No ontology term found (OLS, 2026-10-21): IAO ethical approval textual entity (IAO:0000621) is a document and OBI ethical standard compliance rule (OBI:0500025) is a rule; neither names the property.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000355 "obsolete ethics assessment"@en)
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000355 "EMPTY:0000359")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000355 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000356 (experimental approach)
 
@@ -2843,5 +2851,54 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000358 "Stimulation of neurons th
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000358 "No ontology term found (OLS4, 2026-10-21; NCIT, OBI, EFO, MMO, then all ontologies; queries optogenetic stimulation, optogenetic tetanus, tetanic stimulation, tetanus, high frequency stimulation, photostimulation, optogenetics): NCIT Stimulation (C61406) is the general class, too broad to name the method; MeSH Optogenetics (D062308) and OMIT Optogenetics (0028070) name the technique family, not a stimulation protocol; ECO optogenetic evidence (0006032) is an evidence type; SNOMED Tetanic burst stimulation (264602007) and Tetanic stimulation monitoring (397979003) are clinical electrical neuromuscular procedures; NCIT Tetanus (C85185) and MONDO tetanus (0005526) are the disease; NBO photostimulation induced seizure (0000737) is a behaviour. Under NCIT Stimulation. The method of the tetanic light stimulation (TLS) in the Dabrowska slice recordings, applied at the target location EMPTY:0000074.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000358 "optogenetic tetanus stimulation"@en)
 SubClassOf(obo:EMPTY_0000358 obo:NCIT_C61406)
+
+# Class: obo:EMPTY_0000359 (ethics jurisdiction)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000359 "The jurisdiction, a sovereign state or a supranational body, under which the ethics assessment of the work recorded in a dataset was conducted.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000359 "No ontology term found (OLS4, 2026-10-21; queries ethics jurisdiction, jurisdiction): NCIT Jurisdiction (C79890), DCTERMS Jurisdiction and ICO jurisdiction (0000231) name a territory or an authority, not the property of a dataset. Follows openMINDS (v6 and later) ethicsJurisdiction, whose values are the openMINDS sovereignState and supranationalBody terminologies. The binding variable for a dataset; replaces ethics assessment (EMPTY:0000355). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000359 "ethics jurisdiction"@en)
+SubClassOf(obo:EMPTY_0000359 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000360 (chemogenetics)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000360 "Any experimental approach focused on using genetically encoded chemically sensitive proteins in combination with a specific agonist delivered systemically in order to manipulate the behavior of populations of cells.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000360 "An openMINDS (latest) experimentalApproach that carries no ontology identifier; label and definition are openMINDS's. Near matches (OLS4, 2026-10-21, exact label search): MeSH Chemogenetics (D000098972) names the technique, and mesh is not a prefix NDI registers. A value of experimental approach (EMPTY:0000356). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000360 "chemogenetics"@en)
+SubClassOf(obo:EMPTY_0000360 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000361 (genetics)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000361 "Any experimental approach that measures or manipulates some aspect of the genetic material of an organism.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000361 "An openMINDS (latest) experimentalApproach that carries no ontology identifier; label and definition are openMINDS's. Near matches (OLS4, 2026-10-21, exact label search): NCIT Genetics (C16624) and EDAM Genetics (topic_3053) name the branch of biology, not an experimental approach. A value of experimental approach (EMPTY:0000356). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000361 "genetics"@en)
+SubClassOf(obo:EMPTY_0000361 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000362 (informatics)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000362 "Any experimental approach focused on collection, classification, storage, retrieval, analysis, visualization, and dissemination of recorded knowledge in computational systems.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000362 "An openMINDS (latest) experimentalApproach that carries no ontology identifier; label and definition are openMINDS's. Near matches (OLS4, 2026-10-21, exact label search): NCIT Informatics (C18145) names an occupational discipline and EDAM Informatics (topic_0605) a field of study, not an experimental approach. A value of experimental approach (EMPTY:0000356). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000362 "informatics"@en)
+SubClassOf(obo:EMPTY_0000362 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000363 (optogenetics)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000363 "Any experimental approach focused on using genetically encoded light-sensitive proteins in combination with targeted delivery of light in order to manipulate the behavior of populations of cells.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000363 "An openMINDS (latest) experimentalApproach that carries no ontology identifier; label and definition are openMINDS's. Near matches (OLS4, 2026-10-21, exact label search): MeSH Optogenetics (D062308) and OMIT Optogenetics (0028070) name the technique family; ECO optogenetic evidence (0006032) is an evidence type. A value of experimental approach (EMPTY:0000356). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000363 "optogenetics"@en)
+SubClassOf(obo:EMPTY_0000363 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000364 (pathology)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000364 "Any experimental approach that aims to identify or classify the causes and effects of diseases, disorders, injuries, or other abnormal biology.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000364 "An openMINDS (latest) experimentalApproach that carries no ontology identifier; label and definition are openMINDS's. Near matches (OLS4, 2026-10-21, exact label search): NCIT Pathology (C18189) and EDAM Pathology (topic_0634) name the medical specialty or topic, not an experimental approach. A value of experimental approach (EMPTY:0000356). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000364 "pathology"@en)
+SubClassOf(obo:EMPTY_0000364 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000365 (number of organisms per arena)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000365 "The number of organisms placed together in one arena for an assay.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000365 "No ontology term found (OLS4, 2026-10-21; queries number of organisms per arena, animals per arena, number of animals, number of organisms, organism count, group size, population size, animals per cage): NCIT Number of Animals Affected (C88075) and Total Number of Study Animals Purchased (C130198) count animals in a study; MIXS animal_group_size (0001129) counts food animals kept together; MIXS and PRIDE organism count count cells in a sample; GECKO population size (0000008) is a sample size. A factor of the Haley single-patch assays (4 worms per arena for the large patch, 1 for the small). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000365 "number of organisms per arena"@en)
+SubClassOf(obo:EMPTY_0000365 obo:EMPTY_0000080)
 
 )
