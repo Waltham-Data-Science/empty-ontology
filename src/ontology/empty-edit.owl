@@ -382,6 +382,7 @@ Declaration(Class(obo:EMPTY_0000354))
 Declaration(Class(obo:EMPTY_0000355))
 Declaration(Class(obo:EMPTY_0000356))
 Declaration(Class(obo:EMPTY_0000357))
+Declaration(Class(obo:EMPTY_0000358))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2835,5 +2836,12 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000357 "The kind of culture that 
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000357 "No ontology term found (OLS, 2026-10-21; NCIT, OBI, EFO, MICRO, BAO): NCIT Adherent Culture (C20216), Suspension Culture (C20217) and Flask or Bottle Culture (C112954) are kinds of culture, not the variable; NCIT CDISC SDTM Culture Medium Type Terminology (C127264) names a codelist of media; SNOMED Culture typing procedure (104236001) is a procedure; NCIT Sample Type (C210102) names a sample. A sibling of material type (EMPTY:0000354) and NCIT Sample Type under NCIT Type. The binding variable for a culture subject, such as a bacterial patch on agar.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000357 "culture type"@en)
 SubClassOf(obo:EMPTY_0000357 obo:NCIT_C25284)
+
+# Class: obo:EMPTY_0000358 (optogenetic tetanus stimulation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000358 "Stimulation of neurons that express a light-gated ion channel with a train of light pulses at high frequency (a tetanus), delivered to a target location to drive sustained activity there.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000358 "No ontology term found (OLS4, 2026-10-21; NCIT, OBI, EFO, MMO, then all ontologies; queries optogenetic stimulation, optogenetic tetanus, tetanic stimulation, tetanus, high frequency stimulation, photostimulation, optogenetics): NCIT Stimulation (C61406) is the general class, too broad to name the method; MeSH Optogenetics (D062308) and OMIT Optogenetics (0028070) name the technique family, not a stimulation protocol; ECO optogenetic evidence (0006032) is an evidence type; SNOMED Tetanic burst stimulation (264602007) and Tetanic stimulation monitoring (397979003) are clinical electrical neuromuscular procedures; NCIT Tetanus (C85185) and MONDO tetanus (0005526) are the disease; NBO photostimulation induced seizure (0000737) is a behaviour. Under NCIT Stimulation. The method of the tetanic light stimulation (TLS) in the Dabrowska slice recordings, applied at the target location EMPTY:0000074.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000358 "optogenetic tetanus stimulation"@en)
+SubClassOf(obo:EMPTY_0000358 obo:NCIT_C61406)
 
 )
