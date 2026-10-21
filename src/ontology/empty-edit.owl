@@ -378,6 +378,9 @@ Declaration(Class(obo:EMPTY_0000350))
 Declaration(Class(obo:EMPTY_0000351))
 Declaration(Class(obo:EMPTY_0000352))
 Declaration(Class(obo:EMPTY_0000353))
+Declaration(Class(obo:EMPTY_0000354))
+Declaration(Class(obo:EMPTY_0000355))
+Declaration(Class(obo:EMPTY_0000356))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2803,5 +2806,26 @@ AnnotationAssertion(rdfs:comment obo:EMPTY_0000353 "A point, beside body midpoin
 AnnotationAssertion(rdfs:label obo:EMPTY_0000353 "posterior end point"@en)
 AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000353 "tail"@en)
 SubClassOf(obo:EMPTY_0000353 obo:NCIT_C32221)
+
+# Class: obo:EMPTY_0000354 (material type)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000354 "The kind of non-living object or substance that a subject is.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000354 "No ontology term found (OLS, 2026-10-21): no Material Type or Substance Type term in NCIT, OBI, EFO, EDAM, IAO, STATO, PATO or BAO; NCIT Sample Type (C210102) names a sample. A sibling of NCIT Sample Type and Equipment Type (C178920) under NCIT Type. The binding variable for a material subject, such as an agar plate.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000354 "material type"@en)
+SubClassOf(obo:EMPTY_0000354 obo:NCIT_C25284)
+
+# Class: obo:EMPTY_0000355 (ethics assessment)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000355 "Whether the work recorded in a dataset required an ethics review and, if so, the outcome of that review.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000355 "No ontology term found (OLS, 2026-10-21): IAO ethical approval textual entity (IAO:0000621) is a document and OBI ethical standard compliance rule (OBI:0500025) is a rule; neither names the property.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000355 "ethics assessment"@en)
+SubClassOf(obo:EMPTY_0000355 obo:NCIT_C25284)
+
+# Class: obo:EMPTY_0000356 (experimental approach)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000356 "The general kind of scientific approach used to produce the data, such as electrophysiology, imaging or behavior.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000356 "No ontology term found (OLS, 2026-10-21): NCIT Research Technique (C20368) names a laboratory technique, which is narrower (behavior is not a lab technique), and NCIT Methodology (C86572) names a discipline's system of methods.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000356 "experimental approach"@en)
+SubClassOf(obo:EMPTY_0000356 obo:NCIT_C25284)
 
 )
