@@ -381,6 +381,7 @@ Declaration(Class(obo:EMPTY_0000353))
 Declaration(Class(obo:EMPTY_0000354))
 Declaration(Class(obo:EMPTY_0000355))
 Declaration(Class(obo:EMPTY_0000356))
+Declaration(Class(obo:EMPTY_0000357))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
@@ -2827,5 +2828,12 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000356 "The general kind of scien
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000356 "No ontology term found (OLS, 2026-10-21): NCIT Research Technique (C20368) names a laboratory technique, which is narrower (behavior is not a lab technique), and NCIT Methodology (C86572) names a discipline's system of methods.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000356 "experimental approach"@en)
 SubClassOf(obo:EMPTY_0000356 obo:NCIT_C25284)
+
+# Class: obo:EMPTY_0000357 (culture type)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000357 "The kind of culture that a subject is.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000357 "No ontology term found (OLS, 2026-10-21; NCIT, OBI, EFO, MICRO, BAO): NCIT Adherent Culture (C20216), Suspension Culture (C20217) and Flask or Bottle Culture (C112954) are kinds of culture, not the variable; NCIT CDISC SDTM Culture Medium Type Terminology (C127264) names a codelist of media; SNOMED Culture typing procedure (104236001) is a procedure; NCIT Sample Type (C210102) names a sample. A sibling of material type (EMPTY:0000354) and NCIT Sample Type under NCIT Type. The binding variable for a culture subject, such as a bacterial patch on agar.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000357 "culture type"@en)
+SubClassOf(obo:EMPTY_0000357 obo:NCIT_C25284)
 
 )
