@@ -283,10 +283,119 @@ Declaration(Class(obo:EMPTY_0000255))
 Declaration(Class(obo:EMPTY_0000256))
 Declaration(Class(obo:EMPTY_0000257))
 Declaration(Class(obo:EMPTY_0000258))
+Declaration(Class(obo:EMPTY_0000259))
+Declaration(Class(obo:EMPTY_0000260))
+Declaration(Class(obo:EMPTY_0000261))
+Declaration(Class(obo:EMPTY_0000262))
+Declaration(Class(obo:EMPTY_0000263))
+Declaration(Class(obo:EMPTY_0000264))
+Declaration(Class(obo:EMPTY_0000265))
+Declaration(Class(obo:EMPTY_0000266))
+Declaration(Class(obo:EMPTY_0000267))
+Declaration(Class(obo:EMPTY_0000268))
+Declaration(Class(obo:EMPTY_0000269))
+Declaration(Class(obo:EMPTY_0000270))
+Declaration(Class(obo:EMPTY_0000271))
+Declaration(Class(obo:EMPTY_0000272))
+Declaration(Class(obo:EMPTY_0000273))
+Declaration(Class(obo:EMPTY_0000274))
+Declaration(Class(obo:EMPTY_0000275))
+Declaration(Class(obo:EMPTY_0000276))
+Declaration(Class(obo:EMPTY_0000277))
+Declaration(Class(obo:EMPTY_0000278))
+Declaration(Class(obo:EMPTY_0000279))
+Declaration(Class(obo:EMPTY_0000280))
+Declaration(Class(obo:EMPTY_0000281))
+Declaration(Class(obo:EMPTY_0000282))
+Declaration(Class(obo:EMPTY_0000283))
+Declaration(Class(obo:EMPTY_0000284))
+Declaration(Class(obo:EMPTY_0000285))
+Declaration(Class(obo:EMPTY_0000286))
+Declaration(Class(obo:EMPTY_0000287))
+Declaration(Class(obo:EMPTY_0000288))
+Declaration(Class(obo:EMPTY_0000289))
+Declaration(Class(obo:EMPTY_0000290))
+Declaration(Class(obo:EMPTY_0000291))
+Declaration(Class(obo:EMPTY_0000292))
+Declaration(Class(obo:EMPTY_0000293))
+Declaration(Class(obo:EMPTY_0000294))
+Declaration(Class(obo:EMPTY_0000295))
+Declaration(Class(obo:EMPTY_0000296))
+Declaration(Class(obo:EMPTY_0000297))
+Declaration(Class(obo:EMPTY_0000298))
+Declaration(Class(obo:EMPTY_0000299))
+Declaration(Class(obo:EMPTY_0000300))
+Declaration(Class(obo:EMPTY_0000301))
+Declaration(Class(obo:EMPTY_0000302))
+Declaration(Class(obo:EMPTY_0000303))
+Declaration(Class(obo:EMPTY_0000304))
+Declaration(Class(obo:EMPTY_0000305))
+Declaration(Class(obo:EMPTY_0000306))
+Declaration(Class(obo:EMPTY_0000307))
+Declaration(Class(obo:EMPTY_0000308))
+Declaration(Class(obo:EMPTY_0000309))
+Declaration(Class(obo:EMPTY_0000310))
+Declaration(Class(obo:EMPTY_0000311))
+Declaration(Class(obo:EMPTY_0000312))
+Declaration(Class(obo:EMPTY_0000313))
+Declaration(Class(obo:EMPTY_0000314))
+Declaration(Class(obo:EMPTY_0000315))
+Declaration(Class(obo:EMPTY_0000316))
+Declaration(Class(obo:EMPTY_0000317))
+Declaration(Class(obo:EMPTY_0000318))
+Declaration(Class(obo:EMPTY_0000319))
+Declaration(Class(obo:EMPTY_0000320))
+Declaration(Class(obo:EMPTY_0000321))
+Declaration(Class(obo:EMPTY_0000322))
+Declaration(Class(obo:EMPTY_0000323))
+Declaration(Class(obo:EMPTY_0000324))
+Declaration(Class(obo:EMPTY_0000325))
+Declaration(Class(obo:EMPTY_0000326))
+Declaration(Class(obo:EMPTY_0000327))
+Declaration(Class(obo:EMPTY_0000328))
+Declaration(Class(obo:EMPTY_0000329))
+Declaration(Class(obo:EMPTY_0000330))
+Declaration(Class(obo:EMPTY_0000331))
+Declaration(Class(obo:EMPTY_0000332))
+Declaration(Class(obo:EMPTY_0000333))
+Declaration(Class(obo:EMPTY_0000334))
+Declaration(Class(obo:EMPTY_0000335))
+Declaration(Class(obo:EMPTY_0000336))
+Declaration(Class(obo:EMPTY_0000337))
+Declaration(Class(obo:EMPTY_0000338))
+Declaration(Class(obo:EMPTY_0000339))
+Declaration(Class(obo:EMPTY_0000340))
+Declaration(Class(obo:EMPTY_0000341))
+Declaration(Class(obo:EMPTY_0000342))
+Declaration(Class(obo:EMPTY_0000343))
+Declaration(Class(obo:EMPTY_0000344))
+Declaration(Class(obo:EMPTY_0000345))
+Declaration(Class(obo:EMPTY_0000346))
+Declaration(Class(obo:EMPTY_0000347))
+Declaration(Class(obo:EMPTY_0000348))
+Declaration(Class(obo:EMPTY_0000349))
+Declaration(Class(obo:EMPTY_0000350))
+Declaration(Class(obo:EMPTY_0000351))
+Declaration(Class(obo:EMPTY_0000352))
+Declaration(Class(obo:EMPTY_0000353))
+Declaration(Class(obo:EMPTY_0000354))
+Declaration(Class(obo:EMPTY_0000355))
+Declaration(Class(obo:EMPTY_0000356))
+Declaration(Class(obo:EMPTY_0000357))
+Declaration(Class(obo:EMPTY_0000358))
+Declaration(Class(obo:EMPTY_0000359))
+Declaration(Class(obo:EMPTY_0000360))
+Declaration(Class(obo:EMPTY_0000361))
+Declaration(Class(obo:EMPTY_0000362))
+Declaration(Class(obo:EMPTY_0000363))
+Declaration(Class(obo:EMPTY_0000364))
+Declaration(Class(obo:EMPTY_0000365))
 Declaration(Class(obo:format_1929))
+Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
 Declaration(Class(obo:NCIT_C14240))
 Declaration(Class(obo:NCIT_C16856))
+Declaration(Class(obo:NCIT_C25709))
 Declaration(Class(obo:NCIT_C172272))
 Declaration(Class(obo:NCIT_C179817))
 Declaration(Class(obo:NCIT_C201530))
@@ -954,16 +1063,18 @@ SubClassOf(obo:EMPTY_0000093 obo:EMPTY_0000080)
 # Class: obo:EMPTY_0000094 (ambient temperature)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000094 "The ambient room temperature recorded during an experiment. Unit: degrees Celsius.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000094 "ambient temperature"@en)
-SubClassOf(obo:EMPTY_0000094 obo:EMPTY_0000001)
-SubClassOf(obo:EMPTY_0000094 obo:NCIT_C90380)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000094 "obsolete ambient temperature"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000094 "Obsolete: replaced in the NDI V2 Haley import. Use ambient temperature (NCIT:C90380). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000094 "NCIT:C90380")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000094 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000095 (ambient humidity)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000095 "The ambient room humidity recorded during an experiment. Unit: percentage (%).")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000095 "ambient humidity"@en)
-SubClassOf(obo:EMPTY_0000095 obo:EMPTY_0000001)
-SubClassOf(obo:EMPTY_0000095 obo:NCIT_C88206)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000095 "obsolete ambient humidity"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000095 "Obsolete: replaced in the NDI V2 Haley import. Use relative humidity (OM:RelativeHumidity). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000095 "OM:RelativeHumidity")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000095 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000096 (subject document identifier)
 
@@ -1021,12 +1132,12 @@ AnnotationAssertion(rdfs:label obo:EMPTY_0000104 "bacterial strain document iden
 SubClassOf(obo:EMPTY_0000104 obo:EMPTY_0000087)
 SubClassOf(obo:EMPTY_0000104 obo:EMPTY_0000098)
 
-# Class: obo:EMPTY_0000105 (bacterial OD600 (target) at seeding)
+# Class: obo:EMPTY_0000105 (target seeding OD600)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000105 "The intended or nominal optical density at 600 nm (OD 600) to which the bacterial solution was diluted for creating bacterial patches on agar plates. Unit: dimensionless.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000105 "bacterial OD600 (target) at seeding"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000105 "The OD600 a bacterial suspension was prepared to have when it was seeded: the planned value, as distinct from a measured one.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000105 "target seeding OD600"@en)
 SubClassOf(obo:EMPTY_0000105 obo:EMPTY_0000098)
-SubClassOf(obo:EMPTY_0000105 obo:NCIT_C85776)
+SubClassOf(obo:EMPTY_0000105 obo:MCO_0000059)
 
 # Class: obo:EMPTY_0000106 (bacterial plate seeding timestamp)
 
@@ -1120,14 +1231,14 @@ SubClassOf(obo:EMPTY_0000118 obo:EMPTY_0000098)
 
 # Class: obo:EMPTY_0000119 (bacteria growth duration after seeding)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000119 "The total duration for which bacterial patch(s) on agar plates were allowed to grow at room temperature starting at the time seeded and ending at the beginning of the assay. Unit: hours.")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000119 "The time from when a bacterial patch was seeded on an agar plate to the start of the assay, during which the bacteria grew.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000119 "bacteria growth duration after seeding"@en)
 SubClassOf(obo:EMPTY_0000119 obo:EMPTY_0000090)
 SubClassOf(obo:EMPTY_0000119 obo:EMPTY_0000161)
 
 # Class: obo:EMPTY_0000120 (bacterial patch volume)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000120 "The volume of bacterial solution pipetted to create an individual patch on an agar plate. Note: Volumes under 1 µL are approximate due to the difficulty of pipetting liquids at this scale. Unit: microliters (µL).")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000120 "The volume of bacterial solution pipetted to create an individual patch on an agar plate.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000120 "bacterial patch volume"@en)
 SubClassOf(obo:EMPTY_0000120 obo:EMPTY_0000098)
 SubClassOf(obo:EMPTY_0000120 obo:NCIT_C25335)
@@ -1135,15 +1246,19 @@ SubClassOf(obo:EMPTY_0000120 obo:NCIT_C25335)
 # Class: obo:EMPTY_0000121 (bacterial patch spacing (target))
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000121 "The intended center-to-center distance between adjacent bacterial food patches when arranged in a grid on an agar plate. Unit: millimeters (mm).")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000121 "bacterial patch spacing (target)"@en)
-SubClassOf(obo:EMPTY_0000121 obo:EMPTY_0000098)
-SubClassOf(obo:EMPTY_0000121 obo:NCIT_C25167)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000121 "obsolete bacterial patch spacing (target)"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000121 "Obsolete: a variable names the property; the subject and whether the value is a target are said by the statement (T16, T17 of the NDI V_eta tenets). Use spacing (NCIT:C45786) on the plate, with the condition value basis (EMPTY:0000298) = target (EMPTY:0000299). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000121 "NCIT:C45786")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000121 "EMPTY:0000299")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000121 "true"^^xsd:boolean)
 
-# Class: obo:EMPTY_0000122 (C. elegans behavioral assay: plate or arena diameter)
+# Class: obo:EMPTY_0000122 (arena diameter)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000122 "The diameter of the experimental plate or arena used to corral animals in a C. elegans behavioral assay. A typical 9 cm agar plate will by 90 mm. Unit: millimeters (mm).")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000122 "C. elegans behavioral assay: plate or arena diameter"@en)
-SubClassOf(obo:EMPTY_0000122 obo:EMPTY_0000101)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000122 "The diameter of the arena: the bounded region in which an experiment's subjects are confined and observed.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000122 "Generalised 2026-10-20 (tenet T19): the label and definition no longer name C. elegans or a plate, which the statement's subject and session already say; the unit is stored on the value. Formerly 'C. elegans behavioral assay: plate or arena diameter'.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000122 "arena diameter"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000122 "C. elegans behavioral assay: plate or arena diameter"@en)
+SubClassOf(obo:EMPTY_0000122 obo:EMPTY_0000080)
 SubClassOf(obo:EMPTY_0000122 obo:NCIT_C25285)
 
 # Class: obo:EMPTY_0000123 (bacterial patch identifier)
@@ -1170,15 +1285,20 @@ SubClassOf(obo:EMPTY_0000125 obo:NCIT_C44478)
 # Class: obo:EMPTY_0000126 (bacterial patch radius)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000126 "The radius of an individual detected bacterial patch on an agar plate, assuming patches are circular or near-circular. Unit: pixels.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000126 "bacterial patch radius"@en)
-SubClassOf(obo:EMPTY_0000126 obo:EMPTY_0000161)
-SubClassOf(obo:EMPTY_0000126 obo:NCIT_C63921)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000126 "obsolete bacterial patch radius"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000126 "Obsolete: a variable names the property; the subject and whether the value is a target are said by the statement (T16, T17 of the NDI V_eta tenets). Use radius (PATO:0002390) on the patch for a measured radius; a target size is diameter (PATO:0001334) with the condition value basis (EMPTY:0000298) = target (EMPTY:0000299). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000126 "PATO:0002390")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000126 "PATO:0001334")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000126 "EMPTY:0000299")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000126 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000127 (bacterial patch circularity)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000127 "A quantitative measure assessing how closely the shape of an individual detected bacterial patch conforms to a perfect circle. 1 is a perfect circle. [Source: https://www.mathworks.com/help/images/ref/regionprops.html]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000127 "bacterial patch circularity"@en)
-SubClassOf(obo:EMPTY_0000127 obo:EMPTY_0000161)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000127 "obsolete bacterial patch circularity"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000127 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use circularity (EMPTY:0000288) on a statement about the patch: the patch is the statement's subject, so it is not part of the variable. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000127 "EMPTY:0000288")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000127 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000128 (subject identifier)
 
@@ -1193,26 +1313,29 @@ AnnotationAssertion(rdfs:label obo:EMPTY_0000129 "C. elegans behavioral assay: v
 SubClassOf(obo:EMPTY_0000129 obo:EMPTY_0000100)
 SubClassOf(obo:EMPTY_0000129 obo:NCIT_C91063)
 
-# Class: obo:EMPTY_0000130 (C. elegans behavioral assay: arena mask)
+# Class: obo:EMPTY_0000130 (obsolete C. elegans behavioral assay: arena mask)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000130 "A binary image (logical matrix) where pixels within the experimental arena for C. elegans are marked (true) and pixels outside are unmarked (false). This mask defines the region of interest for worm tracking and behavioral analysis.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000130 "C. elegans behavioral assay: arena mask"@en)
-SubClassOf(obo:EMPTY_0000130 obo:EMPTY_0000101)
-SubClassOf(obo:EMPTY_0000130 obo:NCIT_C201530)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000130 "obsolete C. elegans behavioral assay: arena mask"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000130 "Obsolete 2026-10-20 (tenet T19): a mask is NCIT:C201530 Binary Mask with the condition Imaging Region of Interest (NCIT:C85402) = arena (EMPTY:0000326). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000130 "NCIT:C201530")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000130 "true"^^xsd:boolean)
 
-# Class: obo:EMPTY_0000131 (bacterial patch mask)
+# Class: obo:EMPTY_0000131 (obsolete bacterial patch mask)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000131 "A binary image mask (logical matrix) representing the union of all individually detected bacterial patch areas on an assay plate. This mask defines all food-containing regions.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000131 "bacterial patch mask"@en)
-SubClassOf(obo:EMPTY_0000131 obo:EMPTY_0000098)
-SubClassOf(obo:EMPTY_0000131 obo:NCIT_C201530)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000131 "obsolete bacterial patch mask"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000131 "Obsolete 2026-10-20 (tenet T19): a mask is NCIT:C201530 Binary Mask with the condition Imaging Region of Interest (NCIT:C85402) = bacterial patch (EMPTY:0000325). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000131 "NCIT:C201530")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000131 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000132 (bacterial patch closest identifier map)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000132 "An image or map where each pixel's value is the identifier of the bacterial patch closest to that pixel's location.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000132 "bacterial patch closest identifier map"@en)
-SubClassOf(obo:EMPTY_0000132 obo:EMPTY_0000098)
-SubClassOf(obo:EMPTY_0000132 obo:NCIT_C48179)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000132 "obsolete bacterial patch closest identifier map"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000132 "Obsolete: a variable names the property, not the form its values are stored in (T16 of the NDI V_eta tenets). Use nearest bacterial patch (EMPTY:0000297); that the values form a map is said by the statement's keys. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000132 "EMPTY:0000297")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000132 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000133 (bacterial patch fluorescence image (normalized))
 
@@ -1228,33 +1351,37 @@ AnnotationAssertion(rdfs:label obo:EMPTY_0000134 "bacterial patch document ident
 SubClassOf(obo:EMPTY_0000134 obo:EMPTY_0000087)
 SubClassOf(obo:EMPTY_0000134 obo:EMPTY_0000098)
 
-# Class: obo:EMPTY_0000135 (C. elegans body part)
+# Class: obo:EMPTY_0000135 (obsolete C. elegans body part)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000135 "A distinct anatomical region of the C. elegans worm, such as the head, midpoint, or tail, which can be tracked to quantify behavior.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000135 "C. elegans body part"@en)
-SubClassOf(obo:EMPTY_0000135 obo:EMPTY_0000076)
-SubClassOf(obo:EMPTY_0000135 obo:NCIT_C32221)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000135 "obsolete C. elegans body part"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000135 "Obsolete 2026-10-20 (tenet T19): the general term NCIT:C32221 Body Part means the same; the species is the subject's. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000135 "NCIT:C32221")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000135 "true"^^xsd:boolean)
 
-# Class: obo:EMPTY_0000136 (C. elegans head)
+# Class: obo:EMPTY_0000136 (obsolete C. elegans head)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000136 "The anterior-most part of the C. elegans body.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000136 "C. elegans head"@en)
-SubClassOf(obo:EMPTY_0000136 obo:EMPTY_0000135)
-SubClassOf(obo:EMPTY_0000136 obo:UBERON_0000033)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000136 "obsolete C. elegans head"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000136 "Obsolete 2026-10-20 (tenet T19): the general term UBERON:0000033 head means the same; the species is the subject's. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000136 "UBERON:0000033")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000136 "true"^^xsd:boolean)
 
-# Class: obo:EMPTY_0000137 (C. elegans midpoint)
+# Class: obo:EMPTY_0000137 (body midpoint)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000137 "The center point of the C. elegans body.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000137 "C. elegans midpoint"@en)
-SubClassOf(obo:EMPTY_0000137 obo:EMPTY_0000135)
-SubClassOf(obo:EMPTY_0000137 obo:UBERON_0002100)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000137 "The point halfway along an animal's body midline.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000137 "Generalised 2026-10-20 (tenet T19): the species is the subject's. A point, not WBbt midbody (a region). Formerly 'C. elegans midpoint'.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000137 "body midpoint"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000137 "C. elegans midpoint"@en)
+SubClassOf(obo:EMPTY_0000137 obo:NCIT_C32221)
 
-# Class: obo:EMPTY_0000138 (C. elegans tail)
+# Class: obo:EMPTY_0000138 (obsolete C. elegans tail)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000138 "The posterior-most part of the C. elegans body.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000138 "C. elegans tail"@en)
-SubClassOf(obo:EMPTY_0000138 obo:EMPTY_0000135)
-SubClassOf(obo:EMPTY_0000138 obo:UBERON_0002415)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000138 "obsolete C. elegans tail"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000138 "Obsolete 2026-10-20 (tenet T19): the general term UBERON:0002415 tail means the same; the species is the subject's. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000138 "UBERON:0002415")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000138 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000139 (C. elegans behavioral assay: encounter identifier)
 
@@ -1262,12 +1389,13 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000139 "A unique numerical identi
 AnnotationAssertion(rdfs:label obo:EMPTY_0000139 "C. elegans behavioral assay: encounter identifier"@en)
 SubClassOf(obo:EMPTY_0000139 obo:EMPTY_0000083)
 
-# Class: obo:EMPTY_0000140 (C. elegans behavioral assay: encounter onset time)
+# Class: obo:EMPTY_0000140 (encounter onset time)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000140 "The time, in seconds, corresponding to the frame at which the C. elegans worm enters a bacterial food patch. This is the precise start time of an encounter.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000140 "C. elegans behavioral assay: encounter onset time"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000140 "The time at which a subject's encounter begins.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000140 "Generalised 2026-10-20 (tenet T19): what the encounter is with is said by the encounter's own statements, not this term. Formerly 'C. elegans behavioral assay: encounter onset time'.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000140 "encounter onset time"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000140 "C. elegans behavioral assay: encounter onset time"@en)
 SubClassOf(obo:EMPTY_0000140 obo:EMPTY_0000091)
-SubClassOf(obo:EMPTY_0000140 obo:EMPTY_0000100)
 
 # Class: obo:EMPTY_0000141 (C. elegans behavioral assay: encounter offset time)
 
@@ -1279,55 +1407,72 @@ SubClassOf(obo:EMPTY_0000141 obo:EMPTY_0000100)
 # Class: obo:EMPTY_0000142 (C. elegans behavioral assay: deceleration upon encounter)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000142 "The rate of change in the C. elegans worm's velocity, measured as the slope of the velocity curve during a defined time window surrounding its encounter with a bacterial patch. A negative value indicates a slowdown upon encounter. Unit: µm/s².")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000142 "C. elegans behavioral assay: deceleration upon encounter"@en)
-SubClassOf(obo:EMPTY_0000142 obo:EMPTY_0000100)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000142 "Obsolete: a summary statistic over a window of a general quantity is stated as that quantity with the statistic as the statement's method and the window as a condition, not as a term of its own. Use acceleration (PATO:0001028) with the method ordinary least squares estimation (STATO:0000370), the slope of speed against time, and the conditions analysis window start -1.5 s (EMPTY:0000281) and end +6.5 s (EMPTY:0000282) from the encounter onset (NCIT:C82576 reference time point = EMPTY:0000140). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000142 "PATO:0001028")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000142 "STATO:0000370")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000142 "obsolete C. elegans behavioral assay: deceleration upon encounter"@en)
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000142 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000143 (C. elegans behavioral assay: minimum velocity during encounter)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000143 "The minimum instantaneous velocity recorded for the C. elegans worm while it is located on a bacterial food patch during an encounter. Unit: µm/s.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000143 "C. elegans behavioral assay: minimum velocity during encounter"@en)
-SubClassOf(obo:EMPTY_0000143 obo:EMPTY_0000100)
-SubClassOf(obo:EMPTY_0000143 obo:NCIT_C179817)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000143 "Obsolete: a summary statistic over a window of a general quantity is stated as that quantity with the statistic as the statement's method and the window as a condition, not as a term of its own. Use speed (PATO:0000008) with the method minimum (STATO:0000150) and the condition patch encounter period (EMPTY:0000277) = during the patch encounter (EMPTY:0000279). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000143 "PATO:0000008")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000143 "STATO:0000150")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000143 "obsolete C. elegans behavioral assay: minimum velocity during encounter"@en)
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000143 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000144 (C. elegans behavioral assay: peak velocity before encounter onset)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000144 "The peak instantaneous velocity of the C. elegans worm observed within 10 seconds before its entry into a bacterial food patch. Unit: µm/s.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000144 "C. elegans behavioral assay: peak velocity before encounter onset"@en)
-SubClassOf(obo:EMPTY_0000144 obo:EMPTY_0000100)
-SubClassOf(obo:EMPTY_0000144 obo:NCIT_C179817)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000144 "Obsolete: a summary statistic over a window of a general quantity is stated as that quantity with the statistic as the statement's method and the window as a condition, not as a term of its own. Use speed (PATO:0000008) with the method peak speed before an event (EMPTY:0000272) and the conditions analysis window start -10 s (EMPTY:0000281) and end 0 s (EMPTY:0000282) from the encounter onset. The value is not the maximum over the window. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000144 "PATO:0000008")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000144 "EMPTY:0000272")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000144 "obsolete C. elegans behavioral assay: peak velocity before encounter onset"@en)
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000144 "true"^^xsd:boolean)
 
-# Class: obo:EMPTY_0000145 (C. elegans behavioral assay: minimum velocity after encounter offset)
+# Class: obo:EMPTY_0000145 (C. elegans behavioral assay: minimum velocity after encounter onset)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000145 "The minimum instantaneous velocity of the C. elegans worm observed within 10 seconds after its entry into a bacterial food patch. Unit: µm/s.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000145 "C. elegans behavioral assay: minimum velocity after encounter offset"@en)
-SubClassOf(obo:EMPTY_0000145 obo:EMPTY_0000100)
-SubClassOf(obo:EMPTY_0000145 obo:NCIT_C179817)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000145 "Obsolete: a summary statistic over a window of a general quantity is stated as that quantity with the statistic as the statement's method and the window as a condition, not as a term of its own. Use speed (PATO:0000008) with the method minimum speed after an event (EMPTY:0000273) and the conditions analysis window start 0 s (EMPTY:0000281) and end +10 s (EMPTY:0000282) from the encounter onset. The value is bounded below by the minimum during the encounter, so it is not the plain minimum over the window. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000145 "PATO:0000008")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000145 "EMPTY:0000273")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000145 "obsolete C. elegans behavioral assay: minimum velocity after encounter onset"@en)
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000145 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000146 (C. elegans behavioral assay: posterior probability of exploitation)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000146 "The posterior probability, derived from a Gaussian Mixture Model (GMM) Classification, that a given patch encounter represents an 'exploitation' event (i.e., the worm has accepted the patch and is consuming bacteria). This value ranges from 0 to 1. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000146 "C. elegans behavioral assay: posterior probability of exploitation"@en)
-SubClassOf(obo:EMPTY_0000146 obo:EMPTY_0000100)
-SubClassOf(obo:EMPTY_0000146 obo:NCIT_C54154)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000146 "obsolete C. elegans behavioral assay: posterior probability of exploitation"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000146 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use posterior probability (STATO:0000703) keyed by behavioral state (EMPTY:0000289) = exploitation (EMPTY:0000290). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000146 "STATO:0000703")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000146 "EMPTY:0000290")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000146 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000147 (C. elegans behavioral assay: posterior probability of sensing)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000147 "The posterior probability, derived from a semi-supervised Quadratic Discriminant Analysis (QDA), that a given patch encounter was 'sensed' by the C. elegans worm (i.e., the animal detected the presence of bacteria, typically indicated by a slowdown). This value ranges from 0 to 1. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000147 "C. elegans behavioral assay: posterior probability of sensing"@en)
-SubClassOf(obo:EMPTY_0000147 obo:EMPTY_0000100)
-SubClassOf(obo:EMPTY_0000147 obo:NCIT_C54154)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000147 "obsolete C. elegans behavioral assay: posterior probability of sensing"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000147 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use posterior probability (STATO:0000703) keyed by behavioral state (EMPTY:0000289) = sensing (EMPTY:0000291). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000147 "STATO:0000703")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000147 "EMPTY:0000291")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000147 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000148 (C. elegans behavioral assay: relative density of encountered bacteria)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000148 "A normalized, quantitative measure of the bacterial density of a specific bacterial food patch that a C. elegans worm encounters during an assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000148 "C. elegans behavioral assay: relative density of encountered bacteria"@en)
-SubClassOf(obo:EMPTY_0000148 obo:EMPTY_0000101)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000148 "obsolete C. elegans behavioral assay: relative density of encountered bacteria"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000148 "Obsolete: replaced in the NDI V2 Haley import by relative cell density (EMPTY:0000322), stated on an assay-plate patch at each encounter; this term named one use of the quantity rather than the quantity. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000148 "EMPTY:0000322")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000148 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000149 (C. elegans behavioral assay: relative density of cultivation bacteria)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000149 "A normalized, quantitative measure of the bacterial density on the agar plates where C. elegans were cultivated prior to the behavioral assay. [Source: https://doi.org/10.7554/eLife.103191.2.sa4]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000149 "C. elegans behavioral assay: relative density of cultivation bacteria"@en)
-SubClassOf(obo:EMPTY_0000149 obo:EMPTY_0000101)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000149 "obsolete C. elegans behavioral assay: relative density of cultivation bacteria"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000149 "Obsolete: replaced in the NDI V2 Haley import by relative cell density (EMPTY:0000322), stated on the cultivation (acclimation) plate's patch when the worms were picked; this term named one use of the quantity rather than the quantity. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000149 "EMPTY:0000322")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000149 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000150 (bacterial fluorescence assay measurement)
 
@@ -1364,41 +1509,57 @@ SubClassOf(obo:EMPTY_0000154 obo:EMPTY_0000080)
 # Class: obo:EMPTY_0000155 (bacterial patch border peak fluorescence intensity)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000155 "The maximum pixel intensity detected along the radial profile of a fluorescent bacterial patch, typically found at the patch edge where bacteria are actively proliferating. [Source: https://doi.org/10.7554/eLife.103191.3]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000155 "bacterial patch border peak fluorescence intensity"@en)
-SubClassOf(obo:EMPTY_0000155 obo:EMPTY_0000150)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000155 "obsolete bacterial patch border peak fluorescence intensity"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000155 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use fluorescence intensity (NCIT:C184706) with the method maximum (STATO:0000151). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000155 "NCIT:C184706")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000155 "STATO:0000151")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000155 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000156 (bacterial patch border edge fluorescence intensity)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000156 "The pixel intensity measured at the detected border of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000156 "bacterial patch border edge fluorescence intensity"@en)
-SubClassOf(obo:EMPTY_0000156 obo:EMPTY_0000150)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000156 "obsolete bacterial patch border edge fluorescence intensity"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000156 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use fluorescence intensity (NCIT:C184706) with the condition location = bacterial patch edge (EMPTY:0000283). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000156 "NCIT:C184706")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000156 "EMPTY:0000283")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000156 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000157 (bacterial patch border fluorescence amplitude)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000157 "A measure of bacterial density defined as the difference between the peak pixel intensity and the border pixel intensity of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000157 "bacterial patch border fluorescence amplitude"@en)
-SubClassOf(obo:EMPTY_0000157 obo:EMPTY_0000150)
-SubClassOf(obo:EMPTY_0000157 obo:EMPTY_0000162)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000157 "obsolete bacterial patch border fluorescence amplitude"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000157 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use fluorescence intensity (NCIT:C184706) with the method maximum (STATO:0000151) and the condition baseline (NCIT:C25213) = bacterial patch edge (EMPTY:0000283). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000157 "NCIT:C184706")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000157 "STATO:0000151")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000157 "EMPTY:0000283")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000157 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000158 (bacterial patch mean fluorescence amplitude)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000158 "The average pixel intensity computed across every pixel of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000158 "bacterial patch mean fluorescence amplitude"@en)
-SubClassOf(obo:EMPTY_0000158 obo:EMPTY_0000150)
-SubClassOf(obo:EMPTY_0000158 obo:EMPTY_0000162)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000158 "obsolete bacterial patch mean fluorescence amplitude"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000158 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use fluorescence intensity (NCIT:C184706) with the method mean (STATO:0000573) over the patch. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000158 "NCIT:C184706")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000158 "STATO:0000573")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000158 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000159 (bacterial patch center fluorescence amplitude)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000159 "The average pixel intensity of the middle 50% of a fluorescent bacterial patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000159 "bacterial patch center fluorescence amplitude"@en)
-SubClassOf(obo:EMPTY_0000159 obo:EMPTY_0000150)
-SubClassOf(obo:EMPTY_0000159 obo:EMPTY_0000162)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000159 "obsolete bacterial patch center fluorescence amplitude"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000159 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). Use fluorescence intensity (NCIT:C184706) with the method mean (STATO:0000573) and the condition region = bacterial patch center (EMPTY:0000284). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000159 "NCIT:C184706")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000159 "STATO:0000573")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000159 "EMPTY:0000284")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000159 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000160 (bacterial patch border-to-center fluorescence ratio)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000160 "The ratio of the patch border amplitude to the patch center amplitude, used as a measure of bacterial distribution within the patch. [Source: https://doi.org/10.7554/eLife.103191.3]")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000160 "bacterial patch border-to-center fluorescence ratio"@en)
-SubClassOf(obo:EMPTY_0000160 obo:EMPTY_0000150)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000160 "obsolete bacterial patch border-to-center fluorescence ratio"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000160 "Obsolete: a summary of a general quantity is stated as that quantity, with its statistic as the method and what it is about as conditions (T16 of the NDI V_eta tenets). A ratio of two stored values is computed from them, not stated: use the border amplitude and center amplitude statements (fluorescence intensity, NCIT:C184706). Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000160 "NCIT:C184706")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000160 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000161 (bacterial measurement)
 
@@ -1605,7 +1766,7 @@ SubClassOf(obo:EMPTY_0000192 obo:EMPTY_0000189)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000193 "The temperature (in degrees C) at which the subject was acclimated.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000193 "treatment: acclimation temperature"@en)
-SubClassOf(obo:EMPTY_0000193 obo:EMPTY_0000094)
+SubClassOf(obo:EMPTY_0000193 obo:NCIT_C90380)
 SubClassOf(obo:EMPTY_0000193 obo:EMPTY_0000189)
 
 # Class: obo:EMPTY_0000194 (treatment: non-survival experiment time)
@@ -2000,5 +2161,744 @@ SubClassOf(obo:EMPTY_0000257 obo:EMPTY_0000129)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000258 "An image or video acquired using fluorescence microscopy.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000258 "fluorescence imaging data"@en)
 SubClassOf(obo:EMPTY_0000258 obo:NCIT_C16856)
+
+# Class: obo:EMPTY_0000259 (OME-Zarr)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000259 "A Zarr store laid out and annotated according to the OME Next-Generation File Format (OME-NGFF) specification, holding one or more multiscale image pyramids with their axes, coordinate transformations and channel metadata.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000259 "OME-Zarr"@en)
+SubClassOf(obo:EMPTY_0000259 obo:format_3915)
+
+# Class: obo:EMPTY_0000260 (frame)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000260 "A unit of count equal to one frame of a video or other image sequence, used to give a position or extent along the sequence's frame index.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000260 "frame"@en)
+SubClassOf(obo:EMPTY_0000260 obo:NCIT_C25709)
+
+# Class: obo:EMPTY_0000261 (arbitrary unit per millisecond)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000261 "A unit of rate equal to one arbitrary unit (an instrument-relative quantity, such as fluorescence intensity in camera counts) per millisecond, used for a signal in arbitrary units normalized by exposure time.")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000261 "AU/ms"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000261 "arbitrary unit per millisecond"@en)
+SubClassOf(obo:EMPTY_0000261 obo:NCIT_C25709)
+
+# Class: obo:EMPTY_0000262 (nematode growth medium)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000262 "A solid culture medium for growing and maintaining C. elegans: agar, sodium chloride and peptone in water, supplemented after autoclaving with cholesterol, calcium chloride, magnesium sulfate and potassium phosphate buffer at pH 6.0, and seeded with E. coli as food. [Source: https://doi.org/10.1895/wormbook.1.101.1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000262 "NGM"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000262 "NGM agar"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000262 "nematode growth medium"@en)
+SubClassOf(obo:EMPTY_0000262 obo:OBI_0000079)
+
+# Class: obo:EMPTY_0000263 (nematode growth medium without peptone)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000263 "Nematode growth medium prepared without peptone, so that seeded bacteria grow little beyond where they were placed (e.g. to keep bacterial patches of a known density). [Source: https://doi.org/10.7554/eLife.103191]")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000263 "NGM without peptone"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000263 "peptone-free NGM"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000263 "nematode growth medium without peptone"@en)
+SubClassOf(obo:EMPTY_0000263 obo:EMPTY_0000262)
+
+# Class: obo:EMPTY_0000264 (LB with carbenicillin)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000264 "LB medium supplemented with the antibiotic carbenicillin, so that only bacteria carrying an ampicillin-resistance plasmid (for example a GFP expression plasmid) grow in it.")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000264 "LB + carbenicillin"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000264 "LB with carbenicillin"@en)
+SubClassOf(obo:EMPTY_0000264 obo:MCO_0000030)
+
+# Class: obo:EMPTY_0000265 (S basal)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000265 "A buffered saline for C. elegans: sodium chloride, potassium phosphate dibasic and potassium phosphate monobasic in water, with cholesterol; the base of S medium and used to wash and suspend worms. [Source: https://doi.org/10.1895/wormbook.1.101.1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000265 "S Basal"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000265 "S basal buffer"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000265 "S basal"@en)
+SubClassOf(obo:EMPTY_0000265 obo:NCIT_C70830)
+
+# Class: obo:EMPTY_0000266 (S medium)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000266 "A liquid medium for growing C. elegans: S basal supplemented with potassium citrate at pH 6.0, trace metals solution, calcium chloride and magnesium sulfate. [Source: https://doi.org/10.1895/wormbook.1.101.1]")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000266 "S Complete"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000266 "S complete medium"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000266 "S-Complete"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000266 "S medium"@en)
+SubClassOf(obo:EMPTY_0000266 obo:OBI_0000079)
+
+# Class: obo:EMPTY_0000267 (magnesium sulfate solution)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000267 "An aqueous solution of magnesium sulfate, kept as a stock for adding magnesium to culture media. Its concentration is a property of each preparation, not of this class.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000267 "magnesium sulfate solution"@en)
+SubClassOf(obo:EMPTY_0000267 obo:NCIT_C70830)
+
+# Class: obo:EMPTY_0000268 (calcium chloride solution)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000268 "An aqueous solution of calcium chloride, kept as a stock for adding calcium to culture media. Its concentration is a property of each preparation, not of this class.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000268 "calcium chloride solution"@en)
+SubClassOf(obo:EMPTY_0000268 obo:NCIT_C70830)
+
+# Class: obo:EMPTY_0000269 (potassium phosphate monobasic solution)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000269 "An aqueous solution of potassium phosphate monobasic (potassium dihydrogen phosphate), kept as a stock, for example to make potassium phosphate buffer. Its concentration is a property of each preparation, not of this class.")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000269 "KH2PO4 solution"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000269 "potassium phosphate monobasic solution"@en)
+SubClassOf(obo:EMPTY_0000269 obo:NCIT_C70830)
+
+# Class: obo:EMPTY_0000270 (potassium phosphate dibasic solution)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000270 "An aqueous solution of potassium phosphate dibasic (dipotassium hydrogen phosphate), kept as a stock, for example to make potassium phosphate buffer. Its concentration is a property of each preparation, not of this class.")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000270 "K2HPO4 solution"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000270 "potassium phosphate dibasic solution"@en)
+SubClassOf(obo:EMPTY_0000270 obo:NCIT_C70830)
+
+# Class: obo:EMPTY_0000271 (cholesterol solution)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000271 "A solution of cholesterol in ethanol, kept as a stock for adding cholesterol to nematode culture media. Its concentration is a property of each preparation, not of this class.")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000271 "cholesterol in ethanol"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000271 "cholesterol solution"@en)
+SubClassOf(obo:EMPTY_0000271 obo:NCIT_C70830)
+
+# Class: obo:EMPTY_0000272 (peak speed before an event)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000272 "A data transformation that finds an animal's peak speed in the approach to an event: within a window before the event, it takes the last time point at which the animal was still accelerating, then the highest speed within a short neighbourhood of that time point. The window and the neighbourhood are parameters of each use.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000272 "As used for velocityBeforeEnter by analyzeEncounters (Haley et al. 2024): a 10 s window before the start of a patch encounter and a 1 s neighbourhood. Not the maximum over the window.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000272 "peak speed before an event"@en)
+SubClassOf(obo:EMPTY_0000272 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000273 (minimum speed after an event)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000273 "A data transformation that finds an animal's lowest speed after an event: the minimum speed within a window after the event, but no lower than the minimum speed over the whole of the event, so that slowing after the event has ended is not counted. The window is a parameter of each use.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000273 "As used for velocityAfterEnter by analyzeEncounters (Haley et al. 2024): a 10 s window after the start of a patch encounter, bounded below by the minimum speed during the encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000273 "minimum speed after an event"@en)
+SubClassOf(obo:EMPTY_0000273 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000274 (time to slow down)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000274 "The time an animal takes to slow down on reaching something: the duration from its peak speed in the approach to an event to its minimum speed after the event.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000274 "As timeSlowDown in analyzeEncounters (Haley et al. 2024): from the time of the peak found by 'peak speed before an event' (EMPTY:0000272) to the time of the minimum found by 'minimum speed after an event' (EMPTY:0000273), around the start of a patch encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000274 "time to slow down"@en)
+SubClassOf(obo:EMPTY_0000274 obo:EMPTY_0000090)
+SubClassOf(obo:EMPTY_0000274 obo:EMPTY_0000100)
+
+# Class: obo:EMPTY_0000275 (entity in contact)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000275 "The entity a subject is in contact with during each of its encounters.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000275 "As lawnID in analyzeEncounters (Haley et al. 2024): one patch per encounter. Generalised 2026-10-20 (tenet T19) from 'bacterial patch in contact': the entities themselves say what they are.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000275 "entity in contact"@en)
+SubClassOf(obo:EMPTY_0000275 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000276 (nearest bacterial patch edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000276 "The edge of whichever bacterial patch is closest to a point, used as the reference point from which a distance is measured.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000276 "The value of 'reference point' (NCIT:C45793) for distanceLawnEdge in analyzeWormLabTracks and analyzeEncounters (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000276 "nearest bacterial patch edge"@en)
+SubClassOf(obo:EMPTY_0000276 obo:EMPTY_0000283)
+
+# Class: obo:EMPTY_0000277 (encounter period)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000277 "The period of a subject's record a value is computed over, relative to its encounters: before its first encounter, during an encounter, or after an encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000277 "encounter period"@en)
+SubClassOf(obo:EMPTY_0000277 obo:NCIT_C25616)
+SubClassOf(obo:EMPTY_0000277 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000278 (before the first encounter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000278 "The period from the start of a subject's record to the start of its first encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000278 "before the first encounter"@en)
+SubClassOf(obo:EMPTY_0000278 obo:EMPTY_0000277)
+
+# Class: obo:EMPTY_0000279 (during the encounter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000279 "The period from the start to the end of an encounter, including any frames in which the subject is partly out of contact.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000279 "during the encounter"@en)
+SubClassOf(obo:EMPTY_0000279 obo:EMPTY_0000277)
+
+# Class: obo:EMPTY_0000280 (after the encounter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000280 "The period from the end of an encounter to the start of the subject's next one, or to the end of its record.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000280 "after the encounter"@en)
+SubClassOf(obo:EMPTY_0000280 obo:EMPTY_0000277)
+
+# Class: obo:EMPTY_0000281 (analysis window start)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000281 "The start of the stretch of a time series a value was computed from, as a signed time from a reference time point (NCIT:C82576) given with it: negative before the reference, positive after.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000281 "analysis window start"@en)
+SubClassOf(obo:EMPTY_0000281 obo:EMPTY_0000091)
+
+# Class: obo:EMPTY_0000282 (analysis window end)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000282 "The end of the stretch of a time series a value was computed from, as a signed time from a reference time point (NCIT:C82576) given with it: negative before the reference, positive after.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000282 "analysis window end"@en)
+SubClassOf(obo:EMPTY_0000282 obo:EMPTY_0000091)
+
+# Class: obo:EMPTY_0000283 (bacterial patch edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000283 "The boundary of a bacterial patch on an agar plate: where its bacteria end.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000283 "bacterial patch edge"@en)
+SubClassOf(obo:EMPTY_0000283 obo:NCIT_C45793)
+
+# Class: obo:EMPTY_0000284 (bacterial patch center)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000284 "The middle region of a bacterial patch, away from its edge.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000284 "In analyzeLawnProfiles (Haley et al. 2024), the patch's area left when its edge mask is shrunk by half (centerAmplitude).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000284 "bacterial patch center"@en)
+SubClassOf(obo:EMPTY_0000284 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000285 (bacterial patch fluorescence peak)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000285 "The point of highest fluorescence intensity in a fluorescent bacterial patch's intensity profile from its edge inward.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000285 "xPeak / yPeak in analyzeLawnProfiles (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000285 "bacterial patch fluorescence peak"@en)
+SubClassOf(obo:EMPTY_0000285 obo:NCIT_C45793)
+
+# Class: obo:EMPTY_0000286 (distance end point)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000286 "The point to which a distance is measured, paired with the reference point (NCIT:C45793) it is measured from.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000286 "distance end point"@en)
+SubClassOf(obo:EMPTY_0000286 obo:NCIT_C45793)
+
+# Class: obo:EMPTY_0000287 (normalization to background illumination)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000287 "A data transformation that corrects an image for uneven illumination by dividing it by an image of the light source alone (an empty plate) and scaling by that image's maximum.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000287 "As analyzeLawnProfiles and getFluorescenceBackground (Haley et al. 2024): the background image has outliers replaced against a moving median and is smoothed before the division; the window sizes are parameters of each use.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000287 "normalization to background illumination"@en)
+SubClassOf(obo:EMPTY_0000287 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000288 (circularity)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000288 "How close a two-dimensional shape is to a circle: 4 pi times its area divided by the square of its perimeter, 1 for a circle and smaller for any other shape.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000288 "The MATLAB regionprops 'Circularity' measure, as used for bacterial patches by Haley et al. 2024.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000288 "circularity"@en)
+SubClassOf(obo:EMPTY_0000288 obo:PATO_0000052)
+
+# Class: obo:EMPTY_0000289 (behavioral state)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000289 "A state of an animal's behavior, such as exploiting a food source or sensing it, of which a classifier may give the probability.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000289 "behavioral state"@en)
+SubClassOf(obo:EMPTY_0000289 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000290 (exploitation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000290 "The behavioral state of staying on and feeding from a food source, as against exploring away from it.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000290 "The exploit cluster of the two-cluster Gaussian mixture model over log(time on patch) and log(speed on patch) in labelEncounters (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000290 "exploitation"@en)
+SubClassOf(obo:EMPTY_0000290 obo:EMPTY_0000289)
+
+# Class: obo:EMPTY_0000291 (sensing)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000291 "The behavioral state of detecting a food source on reaching it, shown by slowing down on contact.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000291 "Classified by semi-supervised quadratic discriminant analysis of minimum speed, deceleration and maximum change in speed on entry, in labelEncounters (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000291 "sensing"@en)
+SubClassOf(obo:EMPTY_0000291 obo:EMPTY_0000289)
+
+# Class: obo:EMPTY_0000292 (encounter type)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000292 "The kind of patch encounter an animal made, assigned from the probabilities of its behavioral states.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000292 "encounter type"@en)
+SubClassOf(obo:EMPTY_0000292 obo:EMPTY_0000115)
+
+# Class: obo:EMPTY_0000293 (patch exploitation encounter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000293 "A patch encounter in which the animal stays on the food and feeds from it.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000293 "In labelEncounters (Haley et al. 2024), assigned by a threshold on the posterior probability of exploitation; the threshold is a parameter of the classification. Relabelled 2026-10-20 from 'exploit' (tenet T19: a behavioural category, not the lab's rule).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000293 "patch exploitation encounter"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000293 "exploit"@en)
+SubClassOf(obo:EMPTY_0000293 obo:EMPTY_0000292)
+
+# Class: obo:EMPTY_0000294 (patch sampling encounter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000294 "A patch encounter in which the animal senses the food but does not stay to feed.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000294 "In labelEncounters (Haley et al. 2024), assigned by thresholds on the posterior probabilities of sensing and exploitation; the thresholds are parameters of the classification. Relabelled 2026-10-20 from 'sample' (tenet T19).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000294 "patch sampling encounter"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000294 "sample"@en)
+SubClassOf(obo:EMPTY_0000294 obo:EMPTY_0000292)
+
+# Class: obo:EMPTY_0000295 (on-patch search encounter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000295 "A patch encounter in which the animal crosses onto the patch but neither senses the food nor stays to feed.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000295 "In labelEncounters (Haley et al. 2024), assigned by thresholds on the posterior probabilities of sensing and exploitation; the thresholds are parameters of the classification. Relabelled 2026-10-20 from 'search on patch' (tenet T19).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000295 "on-patch search encounter"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000295 "search on patch"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000295 "searchOn"@en)
+SubClassOf(obo:EMPTY_0000295 obo:EMPTY_0000292)
+
+# Class: obo:EMPTY_0000296 (off-patch search encounter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000296 "A patch encounter in which the animal comes near the patch without crossing onto it, and neither senses the food nor stays to feed.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000296 "In labelEncounters (Haley et al. 2024), assigned by thresholds on the posterior probabilities of sensing and exploitation and on how far the animal's midpoint reached into the patch (distanceOnMax < 0); the thresholds are parameters of the classification. Relabelled 2026-10-20 from 'search off patch' (tenet T19).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000296 "off-patch search encounter"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000296 "search off patch"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000296 "searchOff"@en)
+SubClassOf(obo:EMPTY_0000296 obo:EMPTY_0000292)
+
+# Class: obo:EMPTY_0000297 (nearest bacterial patch)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000297 "The bacterial patch closest to a point: to a pixel of a plate image, or to an animal at one moment of its track.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000297 "closestLawnID in analyzeWormLabTracks and the closest-patch maps of analyzeGFP (Haley et al. 2024). Whether the value is per pixel or per video frame is said by the statement's keys, not by this term.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000297 "nearest bacterial patch"@en)
+SubClassOf(obo:EMPTY_0000297 obo:EMPTY_0000123)
+
+# Class: obo:EMPTY_0000298 (value basis)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000298 "What a stated value rests on: whether it is a target set in advance, or (as other values may be) a measurement or an estimate. Stated as a condition only where a value is not a measurement.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000298 "value basis"@en)
+SubClassOf(obo:EMPTY_0000298 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000299 (target)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000299 "A value set in advance as what something is meant to be, rather than one measured from it: a template's patch diameter, or the planned spacing between patches.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000299 "target"@en)
+SubClassOf(obo:EMPTY_0000299 obo:EMPTY_0000298)
+
+# Class: obo:EMPTY_0000300 (brightfield imaging)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000300 "An imaging assay in which a specimen is lit from behind and recorded against a bright background, with a camera and lens rather than a microscope, as in the video recording of animals on a backlit plate.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000300 "The behavior rigs of Haley et al. 2024: a camera and lens over a backlight.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000300 "brightfield imaging"@en)
+SubClassOf(obo:EMPTY_0000300 obo:OBI_0000185)
+
+# Class: obo:EMPTY_0000301 (video tracking)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000301 "A data transformation that follows an animal, or points on its body, through the frames of a video, giving its position in each frame.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000301 "WormLab tracking in Haley et al. 2024; the software is stated on the statement, not in this term.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000301 "video tracking"@en)
+SubClassOf(obo:EMPTY_0000301 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000302 (distance transform)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000302 "A data transformation that gives, for each point of an image, its distance to the nearest edge of a region in a binary mask, signed by whether the point is inside or outside the region.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000302 "The distance of an animal to the nearest bacterial patch edge in analyzeWormLabTracks (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000302 "distance transform"@en)
+SubClassOf(obo:EMPTY_0000302 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000303 (encounter detection)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000303 "A data transformation that finds the periods in which a subject is in contact with another entity, from its position relative to that entity over time.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000303 "analyzeEncounters (Haley et al. 2024): body-part entries into and exits from a patch, merged into encounters by distance thresholds. What was encountered is the method parameter encountered entity (EMPTY:0000328). Generalised 2026-10-20 (tenet T19) from 'patch encounter detection'.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000303 "encounter detection"@en)
+SubClassOf(obo:EMPTY_0000303 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000304 (prediction from a fitted model)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000304 "A data transformation that computes a value by evaluating a fitted model at given values of its independent variables.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000304 "The estimated border amplitude of a patch from the E. coli growth fits, in labelEncounters (Haley et al. 2024).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000304 "prediction from a fitted model"@en)
+SubClassOf(obo:EMPTY_0000304 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000305 (interpolation method)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000305 "A setting of a data transformation: how values missing between known points are filled in.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000305 "interpolation method"@en)
+SubClassOf(obo:EMPTY_0000305 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000306 (linear interpolation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000306 "A data transformation that fills a value between two known points on the straight line joining them.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000306 "linear interpolation"@en)
+SubClassOf(obo:EMPTY_0000306 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000307 (maximum gap filled)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000307 "A setting of a data transformation that fills gaps in a series: the longest gap it fills; longer gaps are left missing.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000307 "maximum gap filled"@en)
+SubClassOf(obo:EMPTY_0000307 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000308 (bin width)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000308 "A setting of a data transformation that groups values by a variable: the width of each group along that variable.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000308 "bin width"@en)
+SubClassOf(obo:EMPTY_0000308 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000309 (video frame)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000309 "The position of a frame in a video, counted from the first frame as 0: a coordinate along a video's frames.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000309 "Used as the key of per-frame tracks; the source's 1-based frame numbers are kept as the key's source origin.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000309 "video frame"@en)
+SubClassOf(obo:EMPTY_0000309 obo:NCIT_C44465)
+
+# Class: obo:EMPTY_0000310 (image upper-left corner)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000310 "The upper-left corner of an image as it is stored and displayed: the origin of pixel coordinates that count columns to the right and rows downward.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000310 "image upper-left corner"@en)
+SubClassOf(obo:EMPTY_0000310 obo:NCIT_C45793)
+
+# Class: obo:EMPTY_0000311 (image right)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000311 "The direction along an image's rows from its left edge toward its right edge, in which the column number increases.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000311 "image right"@en)
+SubClassOf(obo:EMPTY_0000311 obo:NCIT_C42677)
+
+# Class: obo:EMPTY_0000312 (image down)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000312 "The direction along an image's columns from its top edge toward its bottom edge, in which the row number increases.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000312 "image down"@en)
+SubClassOf(obo:EMPTY_0000312 obo:NCIT_C42677)
+
+# Class: obo:EMPTY_0000313 (dipotassium hydrogen phosphate trihydrate)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000313 "The trihydrate of dipotassium hydrogen phosphate, K2HPO4.3H2O (molar mass 228.22 g/mol), the form weighed out for some buffers: a given mass of it holds less phosphate than the same mass of the anhydrous salt.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000313 "ChEBI has the anhydrous salt (CHEBI:131527) but no trihydrate (OLS search, 2026-10-19). Sigma P5504 in the Haley et al. 2024 recipes.")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000313 "K2HPO4 trihydrate"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000313 "dipotassium hydrogen phosphate trihydrate"@en)
+SubClassOf(obo:EMPTY_0000313 obo:CHEBI_131527)
+
+# Class: obo:EMPTY_0000314 (inclusion in analysis)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000314 "Whether a subject, or the data recorded from it, was included in a study's analysis. A yes/no property: stated as false where a subject was excluded, and not stated for the subjects that were included.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000314 "The reason for an exclusion goes in the statement's notes. Replaces the v1 'data exclusion flag' (EMPTY:0000069) for the NDI V2 Haley import.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000314 "inclusion in analysis"@en)
+SubClassOf(obo:EMPTY_0000314 obo:EMPTY_0000085)
+
+# Class: obo:EMPTY_0000315 (directory of files)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000315 "A data format that is a folder of files rather than a single file, with no layout of its contents specified by this term; the program that wrote it, or the record that holds it, says how to read it.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000315 "The format of a spike sorter's output folder (Kilosort, Kiasort, JRCLUST) in NDI V_eta. EDAM has no format for a folder or for any sorter's output (OLS search: kilosort, phy format, directory, folder).")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000315 "folder"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000315 "directory of files"@en)
+SubClassOf(obo:EMPTY_0000315 obo:format_1915)
+
+# Class: obo:EMPTY_0000316 (Gaussian mixture model clustering)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000316 "A class discovery data transformation that fits a mixture of Gaussian distributions to the data and assigns each data point the posterior probability of belonging to each component.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000316 "The method of the posterior probability of exploitation in the Haley et al. (2025) C. elegans foraging dataset: a two-component model of log encounter duration and log average on-patch speed (labelEncounters, fitgmdist). OBI has k-means and hierarchical clustering but no Gaussian mixture model (OLS search, 2026-10-20).")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000316 "GMM clustering"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000316 "Gaussian mixture model clustering"@en)
+SubClassOf(obo:EMPTY_0000316 obo:OBI_0200171)
+SubClassOf(obo:EMPTY_0000316 obo:OBI_0200175)
+
+# Class: obo:EMPTY_0000317 (quadratic discriminant analysis)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000317 "A discriminant analysis that models each class as a Gaussian distribution with its own covariance, so that the boundary between classes is a quadratic surface.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000317 "The method of the posterior probability of sensing in the Haley et al. (2025) C. elegans foraging dataset (labelEncounters, fitcdiscr with DiscrimType quadratic, semi-supervised). OBI has discriminant analysis (OBI:0200106) but not its quadratic form (OLS search, 2026-10-20).")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000317 "QDA"@en)
+AnnotationAssertion(rdfs:label obo:EMPTY_0000317 "quadratic discriminant analysis"@en)
+SubClassOf(obo:EMPTY_0000317 obo:OBI_0200106)
+
+# Class: obo:EMPTY_0000318 (obsolete reference mark mask)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000318 "A binary image (logical matrix) in which the pixels of a reference mark drawn or placed on an assay plate are marked (true) and all other pixels are unmarked (false).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000318 "obsolete reference mark mask"@en)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000318 "Obsolete 2026-10-20 before release (tenet T19): a mask is NCIT:C201530 Binary Mask with the condition Imaging Region of Interest (NCIT:C85402) = reference mark (EMPTY:0000327).")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000318 "NCIT:C201530")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000318 "true"^^xsd:boolean)
+
+# Class: obo:EMPTY_0000319 (acclimation plate)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000319 "A Petri dish of seeded agar on which animals are kept for a set time before an assay so that they adapt to its conditions.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000319 "A location a C. elegans cohort is moved to in the Haley et al. (2025) dataset.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000319 "acclimation plate"@en)
+SubClassOf(obo:EMPTY_0000319 obo:NCIT_C96141)
+
+# Class: obo:EMPTY_0000320 (food deprivation plate)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000320 "A Petri dish of agar with no bacterial food, on which animals are kept for a set time to deprive them of food before an assay.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000320 "A location a C. elegans cohort is moved to in the Haley et al. (2025) dataset.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000320 "food deprivation plate"@en)
+SubClassOf(obo:EMPTY_0000320 obo:NCIT_C96141)
+
+# Class: obo:EMPTY_0000321 (assay plate)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000321 "A Petri dish of agar, prepared with the arena and bacterial patches of an assay, on which animals are recorded during that assay.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000321 "A location a C. elegans cohort is moved to in the Haley et al. (2025) dataset.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000321 "assay plate"@en)
+SubClassOf(obo:EMPTY_0000321 obo:NCIT_C96141)
+
+# Class: obo:EMPTY_0000322 (relative cell density)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000322 "The density of cells in a sample relative to reference samples of known density: the sample's measured signal divided by the mean signal of the reference samples, times their density. Stated in the reference samples' units, such as OD600 equivalents.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000322 "In the Haley et al. (2025) C. elegans foraging dataset, the relative density of a bacterial patch in OD600 equivalents (modelExploit, fig3_single): 10 x a patch's fluorescence border amplitude / the mean over the foragingConcentration OD600 10, 0.5 uL patches, floored at 0.01 for a patch of LB alone; the model uses its log10. Replaces the obsolete EMPTY:0000148 and EMPTY:0000149, which named the two uses (encountered and cultivation bacteria) rather than the quantity.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000322 "relative cell density"@en)
+SubClassOf(obo:EMPTY_0000322 obo:NCIT_C120538)
+
+# Class: obo:EMPTY_0000323 (normalization reference value)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000323 "A parameter of a normalization: the value of a reference condition that each value is divided by.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000323 "normalization reference value"@en)
+SubClassOf(obo:EMPTY_0000323 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000324 (lower limit of reported value)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000324 "A parameter of a calculation: the smallest value it reports; a smaller result, including zero, is reported as this value.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000324 "Used where a value is later log-transformed, so that zero has a finite logarithm (Haley et al. 2025: a patch of LB alone is given relative density 0.01).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000324 "lower limit of reported value"@en)
+SubClassOf(obo:EMPTY_0000324 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000325 (bacterial patch)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000325 "A discrete area of bacteria grown on a solid medium from a pipetted suspension.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000325 "An entity's kind, asserted on each patch, and the value of conditions such as Imaging Region of Interest and encountered entity (Haley et al. 2025: the OP50 and OP50-GFP patches; a spot of LB alone is a patch with no bacteria).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000325 "bacterial patch"@en)
+SubClassOf(obo:EMPTY_0000325 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000326 (arena)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000326 "The bounded region in which an experiment's subjects are confined and observed.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000326 "arena"@en)
+SubClassOf(obo:EMPTY_0000326 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000327 (reference mark)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000327 "A mark drawn or placed on a plate or arena to register its images to a common frame.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000327 "reference mark"@en)
+SubClassOf(obo:EMPTY_0000327 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000328 (encountered entity)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000328 "A parameter of an encounter detection method: the kind of entity whose encounters it finds.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000328 "encountered entity"@en)
+SubClassOf(obo:EMPTY_0000328 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000329 (potassium phosphate buffer)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000329 "A buffer solution of potassium dihydrogen phosphate and dipotassium hydrogen phosphate.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000329 "No ontology term found (2026-10-20): NCIT Phosphate Buffer and PBS are broader or contain sodium chloride. The composition is recorded as the formulation's ingredients.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000329 "potassium phosphate buffer"@en)
+SubClassOf(obo:EMPTY_0000329 obo:NCIT_C70815)
+
+# Class: obo:EMPTY_0000330 (potassium citrate solution)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000330 "A solution of citric acid and tripotassium citrate, buffered to a stated pH.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000330 "No ontology term found (2026-10-20): NCIT Buffer is broader. The composition is recorded as the formulation's ingredients.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000330 "potassium citrate solution"@en)
+SubClassOf(obo:EMPTY_0000330 obo:NCIT_C70815)
+
+# Class: obo:EMPTY_0000331 (seeding)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000331 "Adding a bacterial suspension onto a solid culture medium so that it grows into a patch.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000331 "NCIT Inoculation (C68774) is broader: it also covers introducing sera and vaccines.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000331 "seeding"@en)
+SubClassOf(obo:EMPTY_0000331 obo:OBI_0000274)
+
+# Class: obo:EMPTY_0000332 (pouring)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000332 "Making an agar plate by pouring molten medium into a dish and letting it set.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000332 "pouring"@en)
+SubClassOf(obo:EMPTY_0000332 obo:COB_0000110)
+
+# Class: obo:EMPTY_0000333 (incubation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000333 "Holding a material in an incubator at a set temperature, typically so that organisms in it grow.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000333 "NCIT Incubated (C15685) is an undefined qualifier, not a procedure.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000333 "incubation"@en)
+SubClassOf(obo:EMPTY_0000333 obo:OBI_0000838)
+
+# Class: obo:EMPTY_0000334 (refrigeration)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000334 "Holding a material in a refrigerator or cold room, above freezing and below ambient temperature.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000334 "NCIT Refrigerate (C202341) is the act of cooling an item, not holding it cold.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000334 "refrigeration"@en)
+SubClassOf(obo:EMPTY_0000334 obo:OBI_0302893)
+
+# Class: obo:EMPTY_0000335 (ambient exposure)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000335 "Holding a material at the room's ambient temperature and humidity.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000335 "ambient exposure"@en)
+SubClassOf(obo:EMPTY_0000335 obo:OBI_0000838)
+
+# Class: obo:EMPTY_0000336 (agar plug transfer)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000336 "Moving organisms from one culture plate to another on a piece of agar cut from the first.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000336 "agar plug transfer"@en)
+SubClassOf(obo:EMPTY_0000336 obo:COB_0000035)
+
+# Class: obo:EMPTY_0000337 (worm picking)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000337 "Moving animals one at a time from one plate to another with a wire pick.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000337 "worm picking"@en)
+SubClassOf(obo:EMPTY_0000337 obo:COB_0000035)
+
+# Class: obo:EMPTY_0000338 (eyelash picking)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000338 "Moving animals from one place to another with an eyelash attached to a handle.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000338 "eyelash picking"@en)
+SubClassOf(obo:EMPTY_0000338 obo:COB_0000035)
+
+# Class: obo:EMPTY_0000339 (cleaning step)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000339 "A parameter of a transfer: how the organisms were freed of adhering material, such as bacteria, before being placed on the next plate.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000339 "cleaning step"@en)
+SubClassOf(obo:EMPTY_0000339 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000340 (droplet)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000340 "A parameter of a transfer: the drop of liquid the organisms were released into.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000340 "droplet"@en)
+SubClassOf(obo:EMPTY_0000340 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000341 (patch exploitation encounter: minimum probability of exploitation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000341 "The smallest posterior probability of exploitation at which an encounter is classed a patch exploitation encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000341 "patch exploitation encounter: minimum probability of exploitation"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000341 "exploit: minimum probability of exploitation"@en)
+SubClassOf(obo:EMPTY_0000341 obo:STATO_0000633)
+
+# Class: obo:EMPTY_0000342 (patch sampling encounter: minimum probability of sensing)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000342 "The smallest posterior probability of sensing at which an encounter is classed a patch sampling encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000342 "patch sampling encounter: minimum probability of sensing"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000342 "sample: minimum probability of sensing"@en)
+SubClassOf(obo:EMPTY_0000342 obo:STATO_0000633)
+
+# Class: obo:EMPTY_0000343 (off-patch search encounter: probability of sensing below)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000343 "The posterior probability of sensing below which an encounter is classed an off-patch search encounter, together with the distance rule.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000343 "off-patch search encounter: probability of sensing below"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000343 "search off patch: probability of sensing below"@en)
+SubClassOf(obo:EMPTY_0000343 obo:STATO_0000633)
+
+# Class: obo:EMPTY_0000344 (off-patch search encounter: maximum distance into the patch)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000344 "The greatest distance into the patch an encounter can reach and still be classed an off-patch search encounter.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000344 "off-patch search encounter: maximum distance into the patch"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000344 "search off patch: maximum distance into the patch"@en)
+SubClassOf(obo:EMPTY_0000344 obo:STATO_0000633)
+
+# Class: obo:EMPTY_0000345 (publication date)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000345 "The date on which a publication was published.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000345 "NCIT Study Publication Date (C142711) is limited to clinical studies.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000345 "publication date"@en)
+SubClassOf(obo:EMPTY_0000345 obo:NCIT_C25164)
+
+# Class: obo:EMPTY_0000346 (release date)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000346 "The date on which a dataset was released for use.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000346 "release date"@en)
+SubClassOf(obo:EMPTY_0000346 obo:NCIT_C25164)
+
+# Class: obo:EMPTY_0000347 (genetic strain type)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000347 "Whether a strain is wild type, mutant or transgenic.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000347 "Its values are BAO wild type (BAO:0000089), NCIT Mutant (C25360) and OBI transgenic organism (OBI:1000048). BAO has no mutant or transgenic strain term (OLS, 2026-10-20).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000347 "genetic strain type"@en)
+SubClassOf(obo:EMPTY_0000347 obo:OBI_0001404)
+
+# Class: obo:EMPTY_0000348 (oblique illumination imaging)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000348 "Imaging a specimen lit from one side at a low angle, so that its edges and surface relief show as differences in brightness.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000348 "No ontology term found (OLS, 2026-10-20): NCIT Quantitative Oblique Back-Illumination Microscopy (C188767) is a microscopy method for thick specimens. In the Haley et al. (2025) C. elegans foraging dataset, the patch contrast videos: a camera over a backlit plate with a card passed between the light and the plate, so the bacterial patches show.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000348 "oblique illumination imaging"@en)
+SubClassOf(obo:EMPTY_0000348 obo:OBI_0000185)
+
+# Class: obo:EMPTY_0000349 (peak amplitude)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000349 "The height of a profile's peak above its value at a reference point.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000349 "In the Haley et al. (2025) C. elegans foraging dataset, borderAmplitude of analyzeLawnProfiles: a fluorescence profile's peak above its value at the bacterial patch's outer edge. The reference point is a parameter of each use.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000349 "peak amplitude"@en)
+SubClassOf(obo:EMPTY_0000349 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000350 (signed distance from the nearest bacterial patch edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000350 "The distance from a subject's point to the nearest edge of a bacterial patch, positive inside the patch and negative outside it.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000350 "As distanceLawnEdge in analyzeWormLabTracks (Haley et al. 2024): the signed distance transform of the patch mask, read at the tracked point.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000350 "signed distance from the nearest bacterial patch edge"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000350 "distance from the patch edge"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000350 "distanceLawnEdge"@en)
+SubClassOf(obo:EMPTY_0000350 obo:PATO_0000040)
+
+# Class: obo:EMPTY_0000351 (target bacteria growth duration after seeding)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000351 "The planned time from when a bacterial patch was seeded to the start of the assay: the growth group an assay was prepared for, as distinct from the measured time.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000351 "In Haley et al. (2025), getExperimentInfo derives the group by rounding the measured growth to 12 h (growthCondition: 0, 12 or 48 h).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000351 "target bacteria growth duration after seeding"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000351 "growth condition"@en)
+SubClassOf(obo:EMPTY_0000351 obo:EMPTY_0000119)
+
+# Class: obo:EMPTY_0000352 (anterior end point)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000352 "The most anterior point of a subject's body along its midline (the leading point of a tracked body spline).")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000352 "A point, beside body midpoint (EMPTY:0000137); UBERON head (UBERON:0000033) is a region. In the Haley et al. (2025) dataset, the head point of the WormLab track.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000352 "anterior end point"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000352 "head"@en)
+SubClassOf(obo:EMPTY_0000352 obo:NCIT_C32221)
+
+# Class: obo:EMPTY_0000353 (posterior end point)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000353 "The most posterior point of a subject's body along its midline (the trailing point of a tracked body spline).")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000353 "A point, beside body midpoint (EMPTY:0000137); UBERON tail (UBERON:0002415) is a region. In the Haley et al. (2025) dataset, the tail point of the WormLab track.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000353 "posterior end point"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000353 "tail"@en)
+SubClassOf(obo:EMPTY_0000353 obo:NCIT_C32221)
+
+# Class: obo:EMPTY_0000354 (material type)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000354 "The kind of non-living object or substance that a subject is.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000354 "No ontology term found (OLS, 2026-10-21): no Material Type or Substance Type term in NCIT, OBI, EFO, EDAM, IAO, STATO, PATO or BAO; NCIT Sample Type (C210102) names a sample. A sibling of NCIT Sample Type and Equipment Type (C178920) under NCIT Type. The binding variable for a material subject, such as an agar plate.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000354 "material type"@en)
+SubClassOf(obo:EMPTY_0000354 obo:NCIT_C25284)
+
+# Class: obo:EMPTY_0000355 (ethics assessment)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000355 "Whether the work recorded in a dataset required an ethics review and, if so, the outcome of that review.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000355 "Obsolete: replaced by ethics jurisdiction (EMPTY:0000359), Jess Haley 2026-10-21, following openMINDS v6 and later, which drop the ethicsAssessment terminology for ethicsJurisdiction. Minted the same day and never written by an import. Before: No ontology term found (OLS, 2026-10-21): IAO ethical approval textual entity (IAO:0000621) is a document and OBI ethical standard compliance rule (OBI:0500025) is a rule; neither names the property.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000355 "obsolete ethics assessment"@en)
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000355 "EMPTY:0000359")
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000355 "true"^^xsd:boolean)
+
+# Class: obo:EMPTY_0000356 (experimental approach)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000356 "The general kind of scientific approach used to produce the data, such as electrophysiology, imaging or behavior.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000356 "No ontology term found (OLS, 2026-10-21): NCIT Research Technique (C20368) names a laboratory technique, which is narrower (behavior is not a lab technique), and NCIT Methodology (C86572) names a discipline's system of methods.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000356 "experimental approach"@en)
+SubClassOf(obo:EMPTY_0000356 obo:NCIT_C25284)
+
+# Class: obo:EMPTY_0000357 (culture type)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000357 "The kind of culture that a subject is.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000357 "No ontology term found (OLS, 2026-10-21; NCIT, OBI, EFO, MICRO, BAO): NCIT Adherent Culture (C20216), Suspension Culture (C20217) and Flask or Bottle Culture (C112954) are kinds of culture, not the variable; NCIT CDISC SDTM Culture Medium Type Terminology (C127264) names a codelist of media; SNOMED Culture typing procedure (104236001) is a procedure; NCIT Sample Type (C210102) names a sample. A sibling of material type (EMPTY:0000354) and NCIT Sample Type under NCIT Type. The binding variable for a culture subject, such as a bacterial patch on agar.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000357 "culture type"@en)
+SubClassOf(obo:EMPTY_0000357 obo:NCIT_C25284)
+
+# Class: obo:EMPTY_0000358 (optogenetic tetanus stimulation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000358 "Stimulation of neurons that express a light-gated ion channel with a train of light pulses at high frequency (a tetanus), delivered to a target location to drive sustained activity there.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000358 "No ontology term found (OLS4, 2026-10-21; NCIT, OBI, EFO, MMO, then all ontologies; queries optogenetic stimulation, optogenetic tetanus, tetanic stimulation, tetanus, high frequency stimulation, photostimulation, optogenetics): NCIT Stimulation (C61406) is the general class, too broad to name the method; MeSH Optogenetics (D062308) and OMIT Optogenetics (0028070) name the technique family, not a stimulation protocol; ECO optogenetic evidence (0006032) is an evidence type; SNOMED Tetanic burst stimulation (264602007) and Tetanic stimulation monitoring (397979003) are clinical electrical neuromuscular procedures; NCIT Tetanus (C85185) and MONDO tetanus (0005526) are the disease; NBO photostimulation induced seizure (0000737) is a behaviour. Under NCIT Stimulation. The method of the tetanic light stimulation (TLS) in the Dabrowska slice recordings, applied at the target location EMPTY:0000074.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000358 "optogenetic tetanus stimulation"@en)
+SubClassOf(obo:EMPTY_0000358 obo:NCIT_C61406)
+
+# Class: obo:EMPTY_0000359 (ethics jurisdiction)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000359 "The jurisdiction, a sovereign state or a supranational body, under which the ethics assessment of the work recorded in a dataset was conducted.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000359 "No ontology term found (OLS4, 2026-10-21; queries ethics jurisdiction, jurisdiction): NCIT Jurisdiction (C79890), DCTERMS Jurisdiction and ICO jurisdiction (0000231) name a territory or an authority, not the property of a dataset. Follows openMINDS (v6 and later) ethicsJurisdiction, whose values are the openMINDS sovereignState and supranationalBody terminologies. The binding variable for a dataset; replaces ethics assessment (EMPTY:0000355). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000359 "ethics jurisdiction"@en)
+SubClassOf(obo:EMPTY_0000359 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000360 (chemogenetics)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000360 "Any experimental approach focused on using genetically encoded chemically sensitive proteins in combination with a specific agonist delivered systemically in order to manipulate the behavior of populations of cells.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000360 "An openMINDS (latest) experimentalApproach that carries no ontology identifier; label and definition are openMINDS's. Near matches (OLS4, 2026-10-21, exact label search): MeSH Chemogenetics (D000098972) names the technique, and mesh is not a prefix NDI registers. A value of experimental approach (EMPTY:0000356). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000360 "chemogenetics"@en)
+SubClassOf(obo:EMPTY_0000360 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000361 (genetics)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000361 "Any experimental approach that measures or manipulates some aspect of the genetic material of an organism.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000361 "An openMINDS (latest) experimentalApproach that carries no ontology identifier; label and definition are openMINDS's. Near matches (OLS4, 2026-10-21, exact label search): NCIT Genetics (C16624) and EDAM Genetics (topic_3053) name the branch of biology, not an experimental approach. A value of experimental approach (EMPTY:0000356). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000361 "genetics"@en)
+SubClassOf(obo:EMPTY_0000361 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000362 (informatics)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000362 "Any experimental approach focused on collection, classification, storage, retrieval, analysis, visualization, and dissemination of recorded knowledge in computational systems.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000362 "An openMINDS (latest) experimentalApproach that carries no ontology identifier; label and definition are openMINDS's. Near matches (OLS4, 2026-10-21, exact label search): NCIT Informatics (C18145) names an occupational discipline and EDAM Informatics (topic_0605) a field of study, not an experimental approach. A value of experimental approach (EMPTY:0000356). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000362 "informatics"@en)
+SubClassOf(obo:EMPTY_0000362 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000363 (optogenetics)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000363 "Any experimental approach focused on using genetically encoded light-sensitive proteins in combination with targeted delivery of light in order to manipulate the behavior of populations of cells.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000363 "An openMINDS (latest) experimentalApproach that carries no ontology identifier; label and definition are openMINDS's. Near matches (OLS4, 2026-10-21, exact label search): MeSH Optogenetics (D062308) and OMIT Optogenetics (0028070) name the technique family; ECO optogenetic evidence (0006032) is an evidence type. A value of experimental approach (EMPTY:0000356). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000363 "optogenetics"@en)
+SubClassOf(obo:EMPTY_0000363 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000364 (pathology)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000364 "Any experimental approach that aims to identify or classify the causes and effects of diseases, disorders, injuries, or other abnormal biology.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000364 "An openMINDS (latest) experimentalApproach that carries no ontology identifier; label and definition are openMINDS's. Near matches (OLS4, 2026-10-21, exact label search): NCIT Pathology (C18189) and EDAM Pathology (topic_0634) name the medical specialty or topic, not an experimental approach. A value of experimental approach (EMPTY:0000356). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000364 "pathology"@en)
+SubClassOf(obo:EMPTY_0000364 obo:EMPTY_0000076)
+
+# Class: obo:EMPTY_0000365 (number of organisms per arena)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000365 "The number of organisms placed together in one arena for an assay.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000365 "No ontology term found (OLS4, 2026-10-21; queries number of organisms per arena, animals per arena, number of animals, number of organisms, organism count, group size, population size, animals per cage): NCIT Number of Animals Affected (C88075) and Total Number of Study Animals Purchased (C130198) count animals in a study; MIXS animal_group_size (0001129) counts food animals kept together; MIXS and PRIDE organism count count cells in a sample; GECKO population size (0000008) is a sample size. A factor of the Haley single-patch assays (4 worms per arena for the large patch, 1 for the small). Jess Haley, 2026-10-21.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000365 "number of organisms per arena"@en)
+SubClassOf(obo:EMPTY_0000365 obo:EMPTY_0000080)
 
 )
