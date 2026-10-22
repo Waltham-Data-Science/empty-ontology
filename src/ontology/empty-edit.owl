@@ -415,6 +415,7 @@ Declaration(Class(obo:EMPTY_0000393))
 Declaration(Class(obo:EMPTY_0000394))
 Declaration(Class(obo:EMPTY_0000395))
 Declaration(Class(obo:EMPTY_0000396))
+Declaration(Class(obo:EMPTY_0000397))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_2333))
 Declaration(Class(obo:format_3915))
@@ -3244,5 +3245,13 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000396 "The minimum reduction of 
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000396 "No ontology term found (OLS4, 2026-10-22; queries stopband attenuation, attenuation). Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000396 "stopband attenuation"@en)
 SubClassOf(obo:EMPTY_0000396 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000397 (dF/F)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000397 "The change in fluorescence relative to a baseline fluorescence, (F - F0)/F0.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000397 "The quantity a calcium-imaging or other fluorescence response is measured in; its unit is om:one. No ontology term found (OLS4, 2026-10-22; queries dF/F, delta F/F, fluorescence change, relative fluorescence: UO relative fluorescence unit (0000314) and NCIT Relative Fluorescence Intensity Unit (C77535) are units, not this quantity; Wikidata, 2026-10-22, exact labels dF/F, delta F/F, relative fluorescence change, fractional fluorescence change: none). Under PATO ratio (PATO:0001470). Source: did-schema V_eta_data_body_model_plan.md [dF/F as variable] and [response variable nodes]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000397 "dF/F"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000397 "ΔF/F"@en)
+SubClassOf(obo:EMPTY_0000397 obo:PATO_0001470)
 
 )
