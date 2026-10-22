@@ -405,6 +405,16 @@ Declaration(Class(obo:EMPTY_0000377))
 Declaration(Class(obo:EMPTY_0000383))
 Declaration(Class(obo:EMPTY_0000384))
 Declaration(Class(obo:EMPTY_0000385))
+Declaration(Class(obo:EMPTY_0000387))
+Declaration(Class(obo:EMPTY_0000388))
+Declaration(Class(obo:EMPTY_0000389))
+Declaration(Class(obo:EMPTY_0000390))
+Declaration(Class(obo:EMPTY_0000391))
+Declaration(Class(obo:EMPTY_0000392))
+Declaration(Class(obo:EMPTY_0000393))
+Declaration(Class(obo:EMPTY_0000394))
+Declaration(Class(obo:EMPTY_0000395))
+Declaration(Class(obo:EMPTY_0000396))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_2333))
 Declaration(Class(obo:format_3915))
@@ -3161,5 +3171,78 @@ AnnotationAssertion(rdfs:comment obo:EMPTY_0000385 "Replaces EMPTY:0000120 (bact
 AnnotationAssertion(rdfs:label obo:EMPTY_0000385 "seeding volume"@en)
 SubClassOf(obo:EMPTY_0000385 obo:EMPTY_0000080)
 SubClassOf(obo:EMPTY_0000385 obo:NCIT_C25335)
+
+# Class: obo:EMPTY_0000387 (Chebyshev type I filter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000387 "A filter design with equal ripple in the passband and a monotonic stopband, giving a steeper transition than a Butterworth design of the same order.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000387 "No ontology term found (OLS4, 2026-10-22; queries Chebyshev filter, Chebyshev type I filter, digital filter, signal filtering): no OBO ontology has signal-filter designs; OBI band-pass, long-pass and short-pass filters are optical filters. Wikidata Chebyshev filter (Q718621) names both types together, so it is a cross-reference, not this term's node. Written by DID-matlab jFrequencyFilter, the migrator of v1 filter documents. Under data transformation (OBI:0200000): a filter applied to a signal is a method [filters are methods]. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000387 "Chebyshev type I filter"@en)
+SubClassOf(obo:EMPTY_0000387 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000388 (Chebyshev type II filter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000388 "A filter design with a monotonic passband and equal ripple in the stopband.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000388 "No ontology term found (OLS4, 2026-10-22; queries as for EMPTY:0000387, plus inverse Chebyshev filter). Wikidata Chebyshev filter (Q718621) names both types together. Written by DID-matlab jFrequencyFilter. Under data transformation (OBI:0200000). Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000388 "Chebyshev type II filter"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000388 "inverse Chebyshev filter"@en)
+SubClassOf(obo:EMPTY_0000388 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000389 (filter band)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000389 "Which range of frequencies a filter passes and which it attenuates.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000389 "The variable whose values are high-pass, low-pass, band-pass and band-stop filter (Wikidata Q262754, Q918242, Q2718101, Q386022). No ontology term found (OLS4, 2026-10-22; queries filter band, filter type, filter response type): NCIT Reconstruction Filter Type (C106564) is about image reconstruction. Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000389 "filter band"@en)
+SubClassOf(obo:EMPTY_0000389 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000390 (passband low edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000390 "The lowest frequency a filter is designed to pass.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000390 "Paired with passband high edge (EMPTY:0000391). No ontology term found (OLS4, 2026-10-22; queries passband edge, passband, cutoff frequency): NCIT Filter Cutoff Frequency (C94895) names an upper cutoff only. Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [passband edges paired]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000390 "passband low edge"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000390 "low cutoff frequency"@en)
+SubClassOf(obo:EMPTY_0000390 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000391 (passband high edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000391 "The highest frequency a filter is designed to pass.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000391 "Paired with passband low edge (EMPTY:0000390). NCIT Filter Cutoff Frequency (C94895), the upper limit for the frequency content that essentially passes through a filter, is close but names the cutoff, often the -3 dB point, not the design edge, and has no lower counterpart; it is a cross-reference, not this term's node. Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [passband edges paired]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000391 "passband high edge"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000391 "high cutoff frequency"@en)
+SubClassOf(obo:EMPTY_0000391 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000392 (stopband low edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000392 "The lowest frequency of the range a filter is designed to attenuate.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000392 "No ontology term found (OLS4, 2026-10-22; queries stopband, stopband edge): Wikidata stopband (Q1971063) names the band, not an edge. Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000392 "stopband low edge"@en)
+SubClassOf(obo:EMPTY_0000392 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000393 (stopband high edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000393 "The highest frequency of the range a filter is designed to attenuate.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000393 "No ontology term found (OLS4, 2026-10-22; queries as for EMPTY:0000392). Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000393 "stopband high edge"@en)
+SubClassOf(obo:EMPTY_0000393 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000394 (filter order)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000394 "The order of a filter's transfer function, which sets how steeply the filter changes from passing to attenuating.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000394 "No ontology term found (OLS4, 2026-10-22; queries filter order, order of filter). Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000394 "filter order"@en)
+SubClassOf(obo:EMPTY_0000394 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000395 (passband ripple)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000395 "The peak-to-peak variation of a filter's gain within its passband.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000395 "No ontology term found (OLS4, 2026-10-22; queries passband ripple, ripple): Wikidata ripple (Q1776117) is power-supply ripple. Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000395 "passband ripple"@en)
+SubClassOf(obo:EMPTY_0000395 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000396 (stopband attenuation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000396 "The minimum reduction of a filter's gain in its stopband relative to its passband.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000396 "No ontology term found (OLS4, 2026-10-22; queries stopband attenuation, attenuation). Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000396 "stopband attenuation"@en)
+SubClassOf(obo:EMPTY_0000396 obo:EMPTY_0000080)
 
 )
