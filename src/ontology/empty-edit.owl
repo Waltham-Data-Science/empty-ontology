@@ -1397,10 +1397,10 @@ SubClassOf(obo:EMPTY_0000139 obo:EMPTY_0000083)
 # Class: obo:EMPTY_0000140 (encounter onset time)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000140 "The time at which a subject's encounter begins.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000140 "Generalised 2026-10-20 (tenet T19): what the encounter is with is said by the encounter's own statements, not this term. Formerly 'C. elegans behavioral assay: encounter onset time'.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000140 "encounter onset time"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000140 "C. elegans behavioral assay: encounter onset time"@en)
-SubClassOf(obo:EMPTY_0000140 obo:EMPTY_0000091)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000140 "Obsolete: replaced by onset time (EMPTY:0000368); the encounter is the position the onset time is a covariate along, not part of the term (Jess Haley, 2026-10-22; did-schema V_eta_data_body_model_plan.md [onset and offset terms]). Use onset time (EMPTY:0000368). Generalised 2026-10-20 (tenet T19); formerly 'C. elegans behavioral assay: encounter onset time'. Kept for the v1 Haley et al. (2025) dataset, which may cite it.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000140 "EMPTY:0000368")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000140 "obsolete encounter onset time"@en)
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000140 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000141 (C. elegans behavioral assay: encounter offset time)
 
@@ -2923,14 +2923,14 @@ SubClassOf(obo:EMPTY_0000367 obo:format_2333)
 # Class: obo:EMPTY_0000368 (onset time)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000368 "The time at which the thing a position stands for (a stimulus, an event) comes into effect or becomes present, as distinct from the start of any preparation or period around it.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000368 "Source: did-schema V_eta_data_body_model_plan.md AMENDMENT 6 [onset time]; NDI +app/+stimulus/decoder.m records onset/offset (the stimulus itself) apart from stimopen/stimclose (the period around it). No existing term means this (OLS4, 2026-10-22: 'onset time' 8 hits, all clinical; 'stimulus onset' 0; NCIT Onset C25279 is a temporal qualifier; SIO start time 000669 / NCIT Start Time C78441 mean the start of a process, which for a presentation is stimopen). Proposed, not decided: Jess Haley decided the name; the term awaits her confirmation.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000368 "Source: did-schema V_eta_data_body_model_plan.md AMENDMENT 6 [onset time]; NDI +app/+stimulus/decoder.m records onset/offset (the stimulus itself) apart from stimopen/stimclose (the period around it). No existing term means this (OLS4, 2026-10-22: 'onset time' 8 hits, all clinical; 'stimulus onset' 0; NCIT Onset C25279 is a temporal qualifier; SIO start time 000669 / NCIT Start Time C78441 mean the start of a process, which for a presentation is stimopen). Decided by Jess Haley, 2026-10-22 (did-schema V_eta_data_body_model_plan.md [onset and offset terms]); it replaces EMPTY:0000140 encounter onset time.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000368 "onset time"@en)
 SubClassOf(obo:EMPTY_0000368 obo:EMPTY_0000091)
 
 # Class: obo:EMPTY_0000369 (offset time)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000369 "The time at which the thing a position stands for (a stimulus, an event) ceases to be in effect or present, as distinct from the end of any period around it.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000369 "Source: did-schema V_eta_data_body_model_plan.md AMENDMENT 6 [onset time] (its pair); NDI +app/+stimulus/decoder.m records onset/offset (the stimulus itself) apart from stimopen/stimclose (the period around it). No existing term means this (OLS4, 2026-10-22: 'onset time' 8 hits, all clinical; 'stimulus onset' 0; NCIT Onset C25279 is a temporal qualifier; SIO start time 000669 / NCIT Start Time C78441 mean the start of a process, which for a presentation is stimopen). Proposed, not decided: Jess Haley decided the name; the term awaits her confirmation.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000369 "Source: did-schema V_eta_data_body_model_plan.md AMENDMENT 6 [onset time] (its pair); NDI +app/+stimulus/decoder.m records onset/offset (the stimulus itself) apart from stimopen/stimclose (the period around it). No existing term means this (OLS4, 2026-10-22: 'onset time' 8 hits, all clinical; 'stimulus onset' 0; NCIT Onset C25279 is a temporal qualifier; SIO start time 000669 / NCIT Start Time C78441 mean the start of a process, which for a presentation is stimopen). Decided by Jess Haley, 2026-10-22 (did-schema V_eta_data_body_model_plan.md [onset and offset terms]); it replaces EMPTY:0000140 encounter onset time.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000369 "offset time"@en)
 SubClassOf(obo:EMPTY_0000369 obo:EMPTY_0000091)
 
