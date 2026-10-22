@@ -394,6 +394,17 @@ Declaration(Class(obo:EMPTY_0000366))
 Declaration(Class(obo:EMPTY_0000367))
 Declaration(Class(obo:EMPTY_0000368))
 Declaration(Class(obo:EMPTY_0000369))
+Declaration(Class(obo:EMPTY_0000370))
+Declaration(Class(obo:EMPTY_0000371))
+Declaration(Class(obo:EMPTY_0000372))
+Declaration(Class(obo:EMPTY_0000373))
+Declaration(Class(obo:EMPTY_0000374))
+Declaration(Class(obo:EMPTY_0000375))
+Declaration(Class(obo:EMPTY_0000376))
+Declaration(Class(obo:EMPTY_0000377))
+Declaration(Class(obo:EMPTY_0000383))
+Declaration(Class(obo:EMPTY_0000384))
+Declaration(Class(obo:EMPTY_0000385))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_2333))
 Declaration(Class(obo:format_3915))
@@ -410,7 +421,9 @@ Declaration(Class(obo:NCIT_C25335))
 Declaration(Class(obo:NCIT_C25364))
 Declaration(Class(obo:NCIT_C25365))
 Declaration(Class(obo:NCIT_C32221))
+Declaration(Class(obo:NCIT_C25616))
 Declaration(Class(obo:NCIT_C43578))
+Declaration(Class(obo:NCIT_C44170))
 Declaration(Class(obo:NCIT_C44477))
 Declaration(Class(obo:NCIT_C44478))
 Declaration(Class(obo:NCIT_C48179))
@@ -432,6 +445,12 @@ Declaration(Class(obo:UBERON_0002100))
 Declaration(Class(obo:UBERON_0002415))
 Declaration(Class(obo:UBERON_0003881))
 Declaration(Class(obo:UBERON_0003883))
+Declaration(ObjectProperty(obo:EMPTY_0000378))
+Declaration(ObjectProperty(obo:EMPTY_0000379))
+Declaration(ObjectProperty(obo:EMPTY_0000380))
+Declaration(ObjectProperty(obo:EMPTY_0000381))
+Declaration(ObjectProperty(obo:EMPTY_0000382))
+Declaration(ObjectProperty(obo:EMPTY_0000386))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -450,6 +469,49 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 # Annotation Property: dcterms:title (title)
 
 AnnotationAssertion(rdfs:label dcterms:title "title")
+
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: obo:EMPTY_0000378 (follows protocol)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000378 "A relation between a body of work and a written procedure it was carried out by.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000378 "The node of the did-schema relation follows_protocol. Source: Jess Haley, 2026-10-22, did-schema tenet audit [G6 vocabulary nodes].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000378 "follows protocol"@en)
+
+# Object Property: obo:EMPTY_0000379 (distributed as)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000379 "A relation between a genetic line and a product under which it is supplied.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000379 "The node of the did-schema relation distributed_as. Source: Jess Haley, 2026-10-22, did-schema tenet audit [G6 vocabulary nodes].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000379 "distributed as"@en)
+
+# Object Property: obo:EMPTY_0000380 (paired with)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000380 "A relation between two entities that belong together as a pair.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000380 "The node of the did-schema relation paired_with. Symmetric. Source: Jess Haley, 2026-10-22, did-schema tenet audit [G6 vocabulary nodes].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000380 "paired with"@en)
+SymmetricObjectProperty(obo:EMPTY_0000380)
+
+# Object Property: obo:EMPTY_0000381 (gene alias mapping)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000381 "A relation between a list of gene names and the list that gives each gene under another of its names.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000381 "The node of the did-schema gene alias mapping relation; its endpoints are gene lists (term value documents), not genes. Source: Jess Haley, 2026-10-22, did-schema tenet audit [G6 vocabulary nodes].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000381 "gene alias mapping"@en)
+
+# Object Property: obo:EMPTY_0000382 (instance of)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000382 "A relation between a particular thing and the product or genetic line of which it is one individual.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000382 "The node of the did-schema relation instance_of (a device to its product, an organism to its strain). Not rdf:type: the object is a product or genetic line document, not an OWL class. Source: Jess Haley, 2026-10-22, did-schema tenet audit [G6 vocabulary nodes].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000382 "instance of"@en)
+
+# Object Property: obo:EMPTY_0000386 (orthologous gene mapping)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000386 "A relation between a list of genes and a list giving each gene's ortholog in another species.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000386 "The node of the did-schema orthologous gene mapping relation. RO:HOM0000017 (in orthology relationship with) relates genes, not gene lists, so it does not fit. Source: Jess Haley, 2026-10-22, did-schema tenet audit [G6 vocabulary nodes].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000386 "orthologous gene mapping"@en)
 
 
 
@@ -1244,9 +1306,10 @@ SubClassOf(obo:EMPTY_0000119 obo:EMPTY_0000161)
 # Class: obo:EMPTY_0000120 (bacterial patch volume)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000120 "The volume of bacterial solution pipetted to create an individual patch on an agar plate.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000120 "bacterial patch volume"@en)
-SubClassOf(obo:EMPTY_0000120 obo:EMPTY_0000098)
-SubClassOf(obo:EMPTY_0000120 obo:NCIT_C25335)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000120 "Obsolete: replaced by seeding volume (EMPTY:0000385); the bacteria and the patch are said by the document, not the term (Jess Haley, 2026-10-22, did-schema tenet audit [O3 Haley terms general]). Use seeding volume (EMPTY:0000385).")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000120 "EMPTY:0000385")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000120 "obsolete bacterial patch volume"@en)
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000120 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000121 (bacterial patch spacing (target))
 
@@ -1260,11 +1323,10 @@ AnnotationAssertion(owl:deprecated obo:EMPTY_0000121 "true"^^xsd:boolean)
 # Class: obo:EMPTY_0000122 (arena diameter)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000122 "The diameter of the arena: the bounded region in which an experiment's subjects are confined and observed.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000122 "Generalised 2026-10-20 (tenet T19): the label and definition no longer name C. elegans or a plate, which the statement's subject and session already say; the unit is stored on the value. Formerly 'C. elegans behavioral assay: plate or arena diameter'.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000122 "arena diameter"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000122 "C. elegans behavioral assay: plate or arena diameter"@en)
-SubClassOf(obo:EMPTY_0000122 obo:EMPTY_0000080)
-SubClassOf(obo:EMPTY_0000122 obo:NCIT_C25285)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000122 "Obsolete: replaced by diameter (PATO:0001334); the arena-mask method parameter is a diameter; the arena is said by the document, not the term (Jess Haley, 2026-10-22, did-schema tenet audit [O3 Haley terms general]). Use diameter (PATO:0001334). Before: Generalised 2026-10-20 (tenet T19): the label and definition no longer name C. elegans or a plate, which the statement's subject and session already say; the unit is stored on the value. Formerly 'C. elegans behavioral assay: plate or arena diameter'.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000122 "PATO:0001334")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000122 "obsolete arena diameter"@en)
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000122 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000123 (bacterial patch identifier)
 
@@ -2791,11 +2853,10 @@ SubClassOf(obo:EMPTY_0000349 obo:OBI_0200000)
 # Class: obo:EMPTY_0000350 (signed distance from the nearest bacterial patch edge)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000350 "The distance from a subject's point to the nearest edge of a bacterial patch, positive inside the patch and negative outside it.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000350 "As distanceLawnEdge in analyzeWormLabTracks (Haley et al. 2024): the signed distance transform of the patch mask, read at the tracked point.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000350 "signed distance from the nearest bacterial patch edge"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000350 "distance from the patch edge"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000350 "distanceLawnEdge"@en)
-SubClassOf(obo:EMPTY_0000350 obo:PATO_0000040)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000350 "Obsolete: replaced by signed distance to region boundary (EMPTY:0000384); the patch is the region, named by a condition that points at the region's mask, not part of the term (Jess Haley, 2026-10-22, did-schema tenet audit [O3 Haley terms general]). Use signed distance to region boundary (EMPTY:0000384). Before: As distanceLawnEdge in analyzeWormLabTracks (Haley et al. 2024): the signed distance transform of the patch mask, read at the tracked point.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000350 "EMPTY:0000384")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000350 "obsolete signed distance from the nearest bacterial patch edge"@en)
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000350 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000351 (target bacteria growth duration after seeding)
 
@@ -2933,5 +2994,91 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000369 "The time at which the thi
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000369 "Source: did-schema V_eta_data_body_model_plan.md AMENDMENT 6 [onset time] (its pair); NDI +app/+stimulus/decoder.m records onset/offset (the stimulus itself) apart from stimopen/stimclose (the period around it). No existing term means this (OLS4, 2026-10-22: 'onset time' 8 hits, all clinical; 'stimulus onset' 0; NCIT Onset C25279 is a temporal qualifier; SIO start time 000669 / NCIT Start Time C78441 mean the start of a process, which for a presentation is stimopen). Decided by Jess Haley, 2026-10-22 (did-schema V_eta_data_body_model_plan.md [onset and offset terms]); it replaces EMPTY:0000140 encounter onset time.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000369 "offset time"@en)
 SubClassOf(obo:EMPTY_0000369 obo:EMPTY_0000091)
+
+# Class: obo:EMPTY_0000370 (analog input channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000370 "A channel through which an acquisition system samples a continuously valued signal.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000370 "A hardware channel type of acquisition_channels.channels.type; the exact synonym 'ai' is the NDI v1 channel prefix (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000370 "analog input channel"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000370 "ai"@en)
+SubClassOf(obo:EMPTY_0000370 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000371 (analog output channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000371 "A channel through which an acquisition system emits a continuously valued signal.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000371 "A hardware channel type of acquisition_channels.channels.type; the exact synonym 'ao' is the NDI v1 channel prefix (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000371 "analog output channel"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000371 "ao"@en)
+SubClassOf(obo:EMPTY_0000371 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000372 (digital input channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000372 "A channel through which an acquisition system samples a two-state signal.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000372 "A hardware channel type of acquisition_channels.channels.type; the exact synonym 'di' is the NDI v1 channel prefix (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000372 "digital input channel"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000372 "di"@en)
+SubClassOf(obo:EMPTY_0000372 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000373 (digital output channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000373 "A channel through which an acquisition system emits a two-state signal.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000373 "A hardware channel type of acquisition_channels.channels.type; the exact synonym 'do' is the NDI v1 channel prefix (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000373 "digital output channel"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000373 "do"@en)
+SubClassOf(obo:EMPTY_0000373 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000374 (time channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000374 "A channel whose values are the times at which the other channels were sampled.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000374 "A hardware channel type of acquisition_channels.channels.type; the exact synonym 't' is the NDI v1 channel prefix (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000374 "time channel"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000374 "t"@en)
+SubClassOf(obo:EMPTY_0000374 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000375 (auxiliary input channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000375 "A channel through which an acquisition system samples a signal that supports, rather than is, the primary measurement.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000375 "A hardware channel type of acquisition_channels.channels.type; the exact synonym 'ax' is the NDI v1 channel prefix (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000375 "auxiliary input channel"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000375 "ax"@en)
+SubClassOf(obo:EMPTY_0000375 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000376 (event channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000376 "A channel whose values are the times at which events occurred.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000376 "A hardware channel type of acquisition_channels.channels.type; the exact synonym 'e' is the NDI v1 channel prefix (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000376 "event channel"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000376 "e"@en)
+SubClassOf(obo:EMPTY_0000376 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000377 (marker channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000377 "A channel whose values are codes, each at the time it was recorded.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000377 "A hardware channel type of acquisition_channels.channels.type; the exact synonym 'mk' is the NDI v1 channel prefix (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000377 "marker channel"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000377 "mk"@en)
+SubClassOf(obo:EMPTY_0000377 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000383 (recording epoch)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000383 "One continuous stretch of recording by one acquisition system.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000383 "The node of the did-schema entity type epoch. No ontology term found (OLS4, 2026-10-22; queries recording epoch, epoch, recording period, time period): NCIT Clinical Trial Epoch (C71738) and Baseline Epoch (C125938) are trial phases; OM epoch is a unit. Under NCIT Period (C25616, an interval of time), as the entity type session is NCIT Session (C67447). Source: Jess Haley, 2026-10-22, did-schema tenet audit [L3].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000383 "recording epoch"@en)
+SubClassOf(obo:EMPTY_0000383 obo:NCIT_C25616)
+
+# Class: obo:EMPTY_0000384 (signed distance to region boundary)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000384 "The distance from a point to the nearest boundary of a region, positive inside the region and negative outside it.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000384 "Replaces EMPTY:0000350 (signed distance from the nearest bacterial patch edge): the region is named by a condition that points at the region's mask. As distanceLawnEdge in analyzeWormLabTracks (Haley et al. 2024), the signed distance transform of a mask read at a point. Under PATO distance, as EMPTY:0000350 was. Source: Jess Haley, 2026-10-22, did-schema tenet audit [O3 Haley terms general].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000384 "signed distance to region boundary"@en)
+SubClassOf(obo:EMPTY_0000384 obo:PATO_0000040)
+
+# Class: obo:EMPTY_0000385 (seeding volume)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000385 "The volume of a solution or suspension placed to seed a culture.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000385 "Replaces EMPTY:0000120 (bacterial patch volume): what was seeded and where is said by the document. Under parameter and NCIT Volume (C25335), as EMPTY:0000120 was under bacterial parameter and NCIT Volume. Source: Jess Haley, 2026-10-22, did-schema tenet audit [O3 Haley terms general].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000385 "seeding volume"@en)
+SubClassOf(obo:EMPTY_0000385 obo:EMPTY_0000080)
+SubClassOf(obo:EMPTY_0000385 obo:NCIT_C25335)
 
 )
