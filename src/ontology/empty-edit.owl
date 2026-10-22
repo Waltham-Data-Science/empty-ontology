@@ -1467,9 +1467,10 @@ AnnotationAssertion(owl:deprecated obo:EMPTY_0000140 "true"^^xsd:boolean)
 # Class: obo:EMPTY_0000141 (C. elegans behavioral assay: encounter offset time)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000141 "The time, in seconds, corresponding to the frame at which the C. elegans worm exits a bacterial food patch. This is the precise end time of an encounter.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000141 "C. elegans behavioral assay: encounter offset time"@en)
-SubClassOf(obo:EMPTY_0000141 obo:EMPTY_0000091)
-SubClassOf(obo:EMPTY_0000141 obo:EMPTY_0000100)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000141 "Obsolete: replaced by offset time (EMPTY:0000369); the encounter is the position the offset time is a covariate along, not part of the term (Jess Haley, 2026-10-22; as EMPTY:0000140 was replaced by onset time). Use offset time (EMPTY:0000369).")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000141 "EMPTY:0000369")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000141 "obsolete C. elegans behavioral assay: encounter offset time"@en)
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000141 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000142 (C. elegans behavioral assay: deceleration upon encounter)
 
@@ -2233,6 +2234,7 @@ SubClassOf(obo:EMPTY_0000258 obo:NCIT_C16856)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000259 "A Zarr store laid out and annotated according to the OME Next-Generation File Format (OME-NGFF) specification, holding one or more multiscale image pyramids with their axes, coordinate transformations and channel metadata.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000259 "OME-Zarr"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000259 "OME-NGFF"@en)
 SubClassOf(obo:EMPTY_0000259 obo:format_3915)
 
 # Class: obo:EMPTY_0000260 (frame)
@@ -2916,6 +2918,8 @@ SubClassOf(obo:EMPTY_0000357 obo:NCIT_C25284)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000358 "Stimulation of neurons that express a light-gated ion channel with a train of light pulses at high frequency (a tetanus), delivered to a target location to drive sustained activity there.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000358 "No ontology term found (OLS4, 2026-10-21; NCIT, OBI, EFO, MMO, then all ontologies; queries optogenetic stimulation, optogenetic tetanus, tetanic stimulation, tetanus, high frequency stimulation, photostimulation, optogenetics): NCIT Stimulation (C61406) is the general class, too broad to name the method; MeSH Optogenetics (D062308) and OMIT Optogenetics (0028070) name the technique family, not a stimulation protocol; ECO optogenetic evidence (0006032) is an evidence type; SNOMED Tetanic burst stimulation (264602007) and Tetanic stimulation monitoring (397979003) are clinical electrical neuromuscular procedures; NCIT Tetanus (C85185) and MONDO tetanus (0005526) are the disease; NBO photostimulation induced seizure (0000737) is a behaviour. Under NCIT Stimulation. The method of the tetanic light stimulation (TLS) in the Dabrowska slice recordings, applied at the target location EMPTY:0000074.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000358 "optogenetic tetanus stimulation"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000358 "TLS"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000358 "tetanic light stimulation"@en)
 SubClassOf(obo:EMPTY_0000358 obo:NCIT_C61406)
 
 # Class: obo:EMPTY_0000359 (ethics jurisdiction)
@@ -2986,6 +2990,7 @@ SubClassOf(obo:EMPTY_0000367 obo:format_2333)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000368 "The time at which the thing a position stands for (a stimulus, an event) comes into effect or becomes present, as distinct from the start of any preparation or period around it.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000368 "Source: did-schema V_eta_data_body_model_plan.md AMENDMENT 6 [onset time]; NDI +app/+stimulus/decoder.m records onset/offset (the stimulus itself) apart from stimopen/stimclose (the period around it). No existing term means this (OLS4, 2026-10-22: 'onset time' 8 hits, all clinical; 'stimulus onset' 0; NCIT Onset C25279 is a temporal qualifier; SIO start time 000669 / NCIT Start Time C78441 mean the start of a process, which for a presentation is stimopen). Decided by Jess Haley, 2026-10-22 (did-schema V_eta_data_body_model_plan.md [onset and offset terms]); it replaces EMPTY:0000140 encounter onset time.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000368 "onset time"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000368 "start time"@en)
 SubClassOf(obo:EMPTY_0000368 obo:EMPTY_0000091)
 
 # Class: obo:EMPTY_0000369 (offset time)
