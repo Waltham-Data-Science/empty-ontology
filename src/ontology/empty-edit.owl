@@ -390,7 +390,10 @@ Declaration(Class(obo:EMPTY_0000362))
 Declaration(Class(obo:EMPTY_0000363))
 Declaration(Class(obo:EMPTY_0000364))
 Declaration(Class(obo:EMPTY_0000365))
+Declaration(Class(obo:EMPTY_0000366))
+Declaration(Class(obo:EMPTY_0000367))
 Declaration(Class(obo:format_1929))
+Declaration(Class(obo:format_2333))
 Declaration(Class(obo:format_3915))
 Declaration(Class(obo:NCBITaxon:637912))
 Declaration(Class(obo:NCIT_C14240))
@@ -2900,5 +2903,19 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000365 "The number of organisms p
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000365 "No ontology term found (OLS4, 2026-10-21; queries number of organisms per arena, animals per arena, number of animals, number of organisms, organism count, group size, population size, animals per cage): NCIT Number of Animals Affected (C88075) and Total Number of Study Animals Purchased (C130198) count animals in a study; MIXS animal_group_size (0001129) counts food animals kept together; MIXS and PRIDE organism count count cells in a sample; GECKO population size (0000008) is a sample size. A factor of the Haley single-patch assays (4 worms per arena for the large patch, 1 for the small). Jess Haley, 2026-10-21.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000365 "number of organisms per arena"@en)
 SubClassOf(obo:EMPTY_0000365 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000366 (flashed bar)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000366 "A stationary bar of uniform luminance presented briefly against the background.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000366 "No ontology term found (OLS4, 2026-10-22; queries flashed bar, flashed bar stimulus, bar stimulus, bar of light, visual stimulus, visual stimulation): XCO visual stimulus (0000049) and NCIT Stimulus (C41210) are general classes that do not name the stimulus kind; NCIT Checkerboard Square Size (C117759) is a checkerboard property. This ontology has no visual stimulus class, so under NCIT Stimulation as the other stimulation method term (EMPTY:0000358) is. The kind of a NewStim periodicstim with imageType 0 drawn in a narrow oriented rectangle (VH-Lab/vhlab-NewStim-matlab @periodicstim/periodicstim.m); light versus dark is a parameter, not part of the term. Source: did-schema V_eta_method_plan.md [flashed bar]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000366 "flashed bar"@en)
+SubClassOf(obo:EMPTY_0000366 obo:NCIT_C61406)
+
+# Class: obo:EMPTY_0000367 (NDI binary format)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000367 "NDI's binary container (ndi_binary_version 1): a gzip-compressed tar of an .nbh header and an .nbf data file, as written by NDI-compress write_ndibinary (.nbf.tgz).")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000367 "No ontology term found (OLS4, 2026-10-22; queries NDI binary, nbf): EDAM Binary format (format_2333) is the general class, too broad to name the layout. Written by Waltham-Data-Science/NDI-compress +ndi/+compress/write_ndibinary.m; compress_metadata, compress_ephys, compress_digital, compress_time and compress_eventmarktext all write it. First used for the ingested stimulus metadata archive (v1 daqmetadatareader_epochdata_ingested data.bin). Under EDAM Binary format. Source: did-schema V_eta_data_body_model_plan.md [NDI binary format]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000367 "NDI binary format"@en)
+SubClassOf(obo:EMPTY_0000367 obo:format_2333)
 
 )
