@@ -3,3 +3,4 @@ theme:
   name: material
 nav:
   - Home: index.md
+  - Term conventions: conventions.md
