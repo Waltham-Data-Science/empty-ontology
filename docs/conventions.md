@@ -60,6 +60,11 @@ the per-lab `tableDoc_dictionary.json` in NDI-matlab (`src/ndi/+ndi/+setup/+conv
 
 - An alternative name with the same meaning is an exact synonym (`oboInOwl:hasExactSynonym`),
   with an `@en` language tag. For example, EMPTY:0000259 *OME-Zarr* has "OME-NGFF".
+- A name that overlaps the term but is not interchangeable with it is a related synonym
+  (`oboInOwl:hasRelatedSynonym`). For example, EMPTY:0000368 *onset time* has "start time".
+  "Start time" can also correctly name the start of the period around a stimulus (stimopen),
+  which the definition of onset time excludes. EMPTY:0000369 *offset time* has "end time"
+  for the same reason.
 - Synonym types come from the OBO Metadata Ontology (OMO), attached as an axiom annotation
   `oboInOwl:hasSynonymType`:
   - **abbreviation** (`OMO:0003000`) types every abbreviation or initialism. For example,
