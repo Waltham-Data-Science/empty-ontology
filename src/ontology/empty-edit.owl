@@ -548,6 +548,7 @@ SubClassOf(obo:EMPTY_0000002 obo:EMPTY_0000001)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000003 "A specific category of behavioral measurement obtained from the Elevated Plus Maze (EPM) apparatus, an assay widely used in neuroscience and pharmacology to study anxiety-like behavior and the effects of anxiolytic or anxiogenic compounds in laboratory animals, typically rodents. These measurements quantify various aspects of the animal's exploratory activity, spatial preference (e.g., for open vs. enclosed arms), and specific behaviors (e.g., entries, time spent in zones, freezing) within the maze, providing insights into its emotional state and response to perceived risk.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000003 "elevated plus maze measurement"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000003 "EPM measurement"@en)
 SubClassOf(obo:EMPTY_0000003 obo:EMPTY_0000002)
 
 # Class: obo:EMPTY_0000004 (acoustic startle response measurement)
@@ -555,6 +556,7 @@ SubClassOf(obo:EMPTY_0000003 obo:EMPTY_0000002)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000004 "A type of behavioral measurement that quantifies the reflexive motor response (startle reflex) of an organism to a sudden, intense stimulus, typically acoustic. These measurements are often used to study sensory processing, sensorimotor gating (e.g., prepulse inhibition), and emotional modulation of reflexes (e.g., fear-potentiated startle).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000004 "acoustic startle response measurement"@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000004 "acoustic startle reaction measurement"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000004 "ASR measurement"@en)
 SubClassOf(obo:EMPTY_0000004 obo:EMPTY_0000002)
 
 # Class: obo:EMPTY_0000005 (acoustic startle response derived measurement)
@@ -924,6 +926,7 @@ SubClassOf(obo:EMPTY_0000056 obo:EMPTY_0000001)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000057 "A descriptive string identifying the specific type or condition of a trial in a Fear-Potentiated Startle (FPS) experiment. Examples from the manuscript include 'pre-shock' (baseline startle), 'post-shock' (startle in conditioning context after shocks), 'noise-only' (startle to acoustic stimulus alone during recall tests), or 'light+noise' (startle to acoustic stimulus in presence of conditioned cue during recall tests). The raw data might contain labels like 'Startle 95 dB Trial'.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000057 "fear-potentiated startle: trial type identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000057 "fear-potentiated startle: trial type ID"@en)
 SubClassOf(obo:EMPTY_0000057 obo:EMPTY_0000084)
 SubClassOf(obo:EMPTY_0000057 obo:EMPTY_0000093)
 
@@ -931,6 +934,7 @@ SubClassOf(obo:EMPTY_0000057 obo:EMPTY_0000093)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000058 "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit: count or identifier string")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000058 "fear-potentiated startle: apparatus chamber identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000058 "fear-potentiated startle: apparatus chamber ID"@en)
 SubClassOf(obo:EMPTY_0000058 obo:EMPTY_0000093)
 
 # Class: obo:EMPTY_0000059 (experimental group code)
@@ -1099,12 +1103,14 @@ SubClassOf(obo:EMPTY_0000082 obo:NCIT_C54100)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000083 "An identifier assigned sequentially from a numbered list, typically as an integer (e.g., 1, 2, 3), to distinguish between individual items.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000083 "enumerated identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000083 "enumerated ID"@en)
 SubClassOf(obo:EMPTY_0000083 obo:EMPTY_0000081)
 
 # Class: obo:EMPTY_0000084 (categorical identifier)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000084 "An identifier that assigns an item to a specific, predefined category or Class, often represented by a string or label.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000084 "categorical identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000084 "categorical ID"@en)
 SubClassOf(obo:EMPTY_0000084 obo:EMPTY_0000081)
 
 # Class: obo:EMPTY_0000085 (flag)
@@ -1714,6 +1720,7 @@ SubClassOf(obo:EMPTY_0000165 obo:EMPTY_0000084)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000166 "The term ontology identifer for a specific anatomical region in the brain from another ontology. For example where activity is measured, expression is visualized, or an injection is placed. The value should be a string defined by the term ontology identifier associated with the brain region (e.g., ONTOLOGYNAME:00000001).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000166 "brain region ontology identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000166 "brain region ontology ID"@en)
 SubClassOf(obo:EMPTY_0000166 obo:EMPTY_0000086)
 
 # Class: obo:EMPTY_0000167 (cell count)
@@ -2257,6 +2264,7 @@ SubClassOf(obo:EMPTY_0000250 obo:EMPTY_0000080)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000251 "fluorescence target ontology identifier")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000251 "fluorescence target ontology identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000251 "fluorescence target ontology ID"@en)
 SubClassOf(obo:EMPTY_0000251 obo:EMPTY_0000250)
 
 # Class: obo:EMPTY_0000252 (fluorescence target name)
