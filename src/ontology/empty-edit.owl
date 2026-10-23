@@ -394,6 +394,29 @@ Declaration(Class(obo:EMPTY_0000366))
 Declaration(Class(obo:EMPTY_0000367))
 Declaration(Class(obo:EMPTY_0000368))
 Declaration(Class(obo:EMPTY_0000369))
+Declaration(Class(obo:EMPTY_0000370))
+Declaration(Class(obo:EMPTY_0000371))
+Declaration(Class(obo:EMPTY_0000372))
+Declaration(Class(obo:EMPTY_0000373))
+Declaration(Class(obo:EMPTY_0000374))
+Declaration(Class(obo:EMPTY_0000375))
+Declaration(Class(obo:EMPTY_0000376))
+Declaration(Class(obo:EMPTY_0000377))
+Declaration(Class(obo:EMPTY_0000383))
+Declaration(Class(obo:EMPTY_0000384))
+Declaration(Class(obo:EMPTY_0000385))
+Declaration(Class(obo:EMPTY_0000387))
+Declaration(Class(obo:EMPTY_0000388))
+Declaration(Class(obo:EMPTY_0000389))
+Declaration(Class(obo:EMPTY_0000390))
+Declaration(Class(obo:EMPTY_0000391))
+Declaration(Class(obo:EMPTY_0000392))
+Declaration(Class(obo:EMPTY_0000393))
+Declaration(Class(obo:EMPTY_0000394))
+Declaration(Class(obo:EMPTY_0000395))
+Declaration(Class(obo:EMPTY_0000396))
+Declaration(Class(obo:EMPTY_0000397))
+Declaration(Class(obo:EMPTY_0000398))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_2333))
 Declaration(Class(obo:format_3915))
@@ -410,7 +433,9 @@ Declaration(Class(obo:NCIT_C25335))
 Declaration(Class(obo:NCIT_C25364))
 Declaration(Class(obo:NCIT_C25365))
 Declaration(Class(obo:NCIT_C32221))
+Declaration(Class(obo:NCIT_C25616))
 Declaration(Class(obo:NCIT_C43578))
+Declaration(Class(obo:NCIT_C44170))
 Declaration(Class(obo:NCIT_C44477))
 Declaration(Class(obo:NCIT_C44478))
 Declaration(Class(obo:NCIT_C48179))
@@ -432,6 +457,14 @@ Declaration(Class(obo:UBERON_0002100))
 Declaration(Class(obo:UBERON_0002415))
 Declaration(Class(obo:UBERON_0003881))
 Declaration(Class(obo:UBERON_0003883))
+Declaration(ObjectProperty(obo:EMPTY_0000378))
+Declaration(ObjectProperty(obo:EMPTY_0000379))
+Declaration(ObjectProperty(obo:EMPTY_0000380))
+Declaration(ObjectProperty(obo:EMPTY_0000381))
+Declaration(ObjectProperty(obo:EMPTY_0000382))
+Declaration(ObjectProperty(obo:EMPTY_0000386))
+Declaration(AnnotationProperty(obo:OMO_0003000))
+Declaration(AnnotationProperty(obo:OMO_0003008))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -450,6 +483,61 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 # Annotation Property: dcterms:title (title)
 
 AnnotationAssertion(rdfs:label dcterms:title "title")
+
+# Annotation Property: obo:OMO_0003000 (abbreviation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:OMO_0003000 "A synonym type for describing abbreviations or initialisms")
+AnnotationAssertion(rdfs:label obo:OMO_0003000 "abbreviation")
+SubAnnotationPropertyOf(obo:OMO_0003000 oboInOwl:SynonymTypeProperty)
+
+# Annotation Property: obo:OMO_0003008 (previous name)
+
+AnnotationAssertion(obo:IAO_0000115 obo:OMO_0003008 "A synonym type for names that have been used as primary labels in the past.")
+AnnotationAssertion(rdfs:label obo:OMO_0003008 "previous name")
+SubAnnotationPropertyOf(obo:OMO_0003008 oboInOwl:SynonymTypeProperty)
+
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: obo:EMPTY_0000378 (follows protocol)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000378 "A relation between a body of work and a written procedure it was carried out by.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000378 "The node of the did-schema relation follows_protocol. No ontology relation found (OLS4, 2026-10-22, property search 'follows protocol'): HSO follows surveillance protocol (0000258) is limited to surveillance. Source: Jess Haley, 2026-10-22, did-schema tenet audit [G6 vocabulary nodes].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000378 "follows protocol"@en)
+
+# Object Property: obo:EMPTY_0000379 (distributed as)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000379 "A relation between a genetic line and a product under which it is supplied.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000379 "The node of the did-schema relation distributed_as. No ontology relation found (OLS4, 2026-10-22, property search 'distributed as'): schema.org distribution names a dataset's download, not the product a genetic line is supplied under; OBI has_supplier (0000647) is the product-to-supplier step, used for sold_by. Source: Jess Haley, 2026-10-22, did-schema tenet audit [G6 vocabulary nodes].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000379 "distributed as"@en)
+
+# Object Property: obo:EMPTY_0000380 (paired with)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000380 "A relation between two entities that belong together as a pair.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000380 "The node of the did-schema relation paired_with. Symmetric. No ontology relation found (OLS4, 2026-10-22, property search 'paired with'): RO is matched small molecular pair with (0018035) is limited to small molecules; NCIT Value_Set_Is_Paired_With is an NCIT annotation property. Source: Jess Haley, 2026-10-22, did-schema tenet audit [G6 vocabulary nodes].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000380 "paired with"@en)
+SymmetricObjectProperty(obo:EMPTY_0000380)
+
+# Object Property: obo:EMPTY_0000381 (gene alias mapping)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000381 "A relation between a list of gene names and the list that gives each gene under another of its names.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000381 "The node of the did-schema gene alias mapping relation; its endpoints are gene lists (term value documents), not genes. No ontology relation found (OLS4, 2026-10-22; query gene alias mapping: 0 hits): NCIT Gene Alias (C41095) is a name, not a relation between lists. Source: Jess Haley, 2026-10-22, did-schema tenet audit [G6 vocabulary nodes].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000381 "gene alias mapping"@en)
+
+# Object Property: obo:EMPTY_0000382 (instance of)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000382 "A relation between a particular thing and the product or genetic line of which it is one individual.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000382 "The node of the did-schema relation instance_of (a device to its product, an organism to its strain). Not rdf:type: the object is a product or genetic line document, not an OWL class. No ontology relation found (OLS4, 2026-10-22, property search 'instance of'): the MIRO and GAZ instance_of properties relate an individual to an ontology class. Source: Jess Haley, 2026-10-22, did-schema tenet audit [G6 vocabulary nodes].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000382 "instance of"@en)
+
+# Object Property: obo:EMPTY_0000386 (orthologous gene mapping)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000386 "A relation between a list of genes and a list giving each gene's ortholog in another species.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000386 "The node of the did-schema orthologous gene mapping relation. RO:HOM0000017 (in orthology relationship with) relates genes, not gene lists, so it does not fit. No ontology relation found (OLS4, 2026-10-22; query ortholog mapping: 0 hits): NCIT Orthologous Gene (C28708) is a gene class. Source: Jess Haley, 2026-10-22, did-schema tenet audit [G6 vocabulary nodes].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000386 "orthologous gene mapping"@en)
 
 
 
@@ -472,18 +560,22 @@ SubClassOf(obo:EMPTY_0000002 obo:EMPTY_0000001)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000003 "A specific category of behavioral measurement obtained from the Elevated Plus Maze (EPM) apparatus, an assay widely used in neuroscience and pharmacology to study anxiety-like behavior and the effects of anxiolytic or anxiogenic compounds in laboratory animals, typically rodents. These measurements quantify various aspects of the animal's exploratory activity, spatial preference (e.g., for open vs. enclosed arms), and specific behaviors (e.g., entries, time spent in zones, freezing) within the maze, providing insights into its emotional state and response to perceived risk.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000003 "elevated plus maze measurement"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000003 "EPM measurement"@en)
 SubClassOf(obo:EMPTY_0000003 obo:EMPTY_0000002)
 
 # Class: obo:EMPTY_0000004 (acoustic startle response measurement)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000004 "A type of behavioral measurement that quantifies the reflexive motor response (startle reflex) of an organism to a sudden, intense stimulus, typically acoustic. These measurements are often used to study sensory processing, sensorimotor gating (e.g., prepulse inhibition), and emotional modulation of reflexes (e.g., fear-potentiated startle).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000004 "acoustic startle response measurement"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000004 "acoustic startle reaction measurement"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000004 "ASR measurement"@en)
 SubClassOf(obo:EMPTY_0000004 obo:EMPTY_0000002)
 
 # Class: obo:EMPTY_0000005 (acoustic startle response derived measurement)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000005 "A type of behavioral measurement that is not a direct reading of a startle reflex, but is instead a value calculated, inferred, or derived from one or more primary Acoustic Startle Response (ASR) data points. Examples include percentage changes in ASR, ratios, or rates of change over time.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000005 "acoustic startle response derived measurement"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000005 "calculated acoustic startle response measurement"@en)
 SubClassOf(obo:EMPTY_0000005 obo:EMPTY_0000002)
 
 # Class: obo:EMPTY_0000006 (elevated plus maze: open arm (north) - entries)
@@ -616,42 +708,49 @@ SubClassOf(obo:EMPTY_0000024 obo:EMPTY_0000090)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000025 "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (West)' zone, representing the enclosed arm designated as 'west'. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000025 "elevated plus maze: closed arm (west) - entries"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000025 "elevated plus maze: enclosed arm (west) - entries"@en)
 SubClassOf(obo:EMPTY_0000025 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000026 (elevated plus maze: closed arm (east) - entries)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000026 "In the Elevated Plus Maze task, this counts the number of times the animal's body fully enters the user-defined 'Closed Arm (East)' zone, representing the enclosed arm designated as 'east'. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000026 "elevated plus maze: closed arm (east) - entries"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000026 "elevated plus maze: enclosed arm (east) - entries"@en)
 SubClassOf(obo:EMPTY_0000026 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000027 (elevated plus maze: closed arm total entries)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000027 "In the Elevated Plus Maze task, this is the total number of times the animal's body fully enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). It is often used as an indicator of general locomotor activity. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000027 "elevated plus maze: closed arm total entries"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000027 "elevated plus maze: enclosed arm total entries"@en)
 SubClassOf(obo:EMPTY_0000027 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000028 (elevated plus maze: closed arm (west) - head entries)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000028 "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (West)' zone. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000028 "elevated plus maze: closed arm (west) - head entries"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000028 "elevated plus maze: enclosed arm (west) - head entries"@en)
 SubClassOf(obo:EMPTY_0000028 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000029 (elevated plus maze: closed arm (east) - head entries)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000029 "In the Elevated Plus Maze task, this counts the number of times the animal's head enters the user-defined 'Closed Arm (East)' zone. Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000029 "elevated plus maze: closed arm (east) - head entries"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000029 "elevated plus maze: enclosed arm (east) - head entries"@en)
 SubClassOf(obo:EMPTY_0000029 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000030 (elevated plus maze: closed arm total head entries)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000030 "In the Elevated Plus Maze task, this is the total number of times the animal's head enters any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit: count")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000030 "elevated plus maze: closed arm total head entries"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000030 "elevated plus maze: enclosed arm total head entries"@en)
 SubClassOf(obo:EMPTY_0000030 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000031 (elevated plus maze: closed arm (west) - time)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000031 "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (West)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000031 "elevated plus maze: closed arm (west) - time"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000031 "elevated plus maze: enclosed arm (west) - time"@en)
 SubClassOf(obo:EMPTY_0000031 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000031 obo:EMPTY_0000090)
 
@@ -659,6 +758,7 @@ SubClassOf(obo:EMPTY_0000031 obo:EMPTY_0000090)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000032 "In the Elevated Plus Maze task, this measures the total duration the animal's body spends within the user-defined 'Closed Arm (East)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000032 "elevated plus maze: closed arm (east) - time"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000032 "elevated plus maze: enclosed arm (east) - time"@en)
 SubClassOf(obo:EMPTY_0000032 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000032 obo:EMPTY_0000090)
 
@@ -666,6 +766,7 @@ SubClassOf(obo:EMPTY_0000032 obo:EMPTY_0000090)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000033 "In the Elevated Plus Maze task, this is the cumulative total duration the animal's body spends within any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Animals typically spend more time in these 'safer' areas. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000033 "elevated plus maze: closed arm total time"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000033 "elevated plus maze: enclosed arm total time"@en)
 SubClassOf(obo:EMPTY_0000033 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000033 obo:EMPTY_0000090)
 
@@ -673,12 +774,14 @@ SubClassOf(obo:EMPTY_0000033 obo:EMPTY_0000090)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000034 "In the Elevated Plus Maze task, this represents the percentage of the total test duration that the animal spends in any of the designated closed arm zones (e.g., 'Closed Arm (West)' and 'Closed Arm (East)'). Unit: %")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000034 "elevated plus maze: closed arm total - percent time during test duration"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000034 "elevated plus maze: enclosed arm total - percent time during test duration"@en)
 SubClassOf(obo:EMPTY_0000034 obo:EMPTY_0000003)
 
 # Class: obo:EMPTY_0000035 (elevated plus maze: closed arm (west) - latency to first entry)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000035 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (West)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000035 "elevated plus maze: closed arm (west) - latency to first entry"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000035 "elevated plus maze: enclosed arm (west) - latency to first entry"@en)
 SubClassOf(obo:EMPTY_0000035 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000035 obo:EMPTY_0000091)
 
@@ -686,6 +789,7 @@ SubClassOf(obo:EMPTY_0000035 obo:EMPTY_0000091)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000036 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into the user-defined 'Closed Arm (East)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000036 "elevated plus maze: closed arm (east) - latency to first entry"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000036 "elevated plus maze: enclosed arm (east) - latency to first entry"@en)
 SubClassOf(obo:EMPTY_0000036 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000036 obo:EMPTY_0000091)
 
@@ -693,6 +797,7 @@ SubClassOf(obo:EMPTY_0000036 obo:EMPTY_0000091)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000037 "In the Elevated Plus Maze task, this measures the time elapsed from the start of the test until the animal makes its first full body entry into any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000037 "elevated plus maze: closed arm total latency to first entry"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000037 "elevated plus maze: enclosed arm total latency to first entry"@en)
 SubClassOf(obo:EMPTY_0000037 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000037 obo:EMPTY_0000091)
 
@@ -700,6 +805,7 @@ SubClassOf(obo:EMPTY_0000037 obo:EMPTY_0000091)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000038 "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (West)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000038 "elevated plus maze: closed arm (west) - time moving towards"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000038 "elevated plus maze: enclosed arm (west) - time moving towards"@en)
 SubClassOf(obo:EMPTY_0000038 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000038 obo:EMPTY_0000090)
 
@@ -707,6 +813,7 @@ SubClassOf(obo:EMPTY_0000038 obo:EMPTY_0000090)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000039 "In the Elevated Plus Maze task, this measures the total duration the animal spends actively moving towards the user-defined 'Closed Arm (East)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000039 "elevated plus maze: closed arm (east) - time moving towards"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000039 "elevated plus maze: enclosed arm (east) - time moving towards"@en)
 SubClassOf(obo:EMPTY_0000039 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000039 obo:EMPTY_0000090)
 
@@ -714,6 +821,7 @@ SubClassOf(obo:EMPTY_0000039 obo:EMPTY_0000090)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000040 "In the Elevated Plus Maze task, this is the cumulative duration the animal spends actively moving towards any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000040 "elevated plus maze: closed arm total time moving towards"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000040 "elevated plus maze: enclosed arm total time moving towards"@en)
 SubClassOf(obo:EMPTY_0000040 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000040 obo:EMPTY_0000090)
 
@@ -721,6 +829,7 @@ SubClassOf(obo:EMPTY_0000040 obo:EMPTY_0000090)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000041 "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (West)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000041 "elevated plus maze: closed arm (west) - time freezing"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000041 "elevated plus maze: enclosed arm (west) - time freezing"@en)
 SubClassOf(obo:EMPTY_0000041 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000041 obo:EMPTY_0000090)
 
@@ -728,6 +837,7 @@ SubClassOf(obo:EMPTY_0000041 obo:EMPTY_0000090)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000042 "In the Elevated Plus Maze task, this measures the total duration the animal exhibits freezing behavior while within the user-defined 'Closed Arm (East)' zone. Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000042 "elevated plus maze: closed arm (east) - time freezing"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000042 "elevated plus maze: enclosed arm (east) - time freezing"@en)
 SubClassOf(obo:EMPTY_0000042 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000042 obo:EMPTY_0000090)
 
@@ -735,6 +845,7 @@ SubClassOf(obo:EMPTY_0000042 obo:EMPTY_0000090)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000043 "In the Elevated Plus Maze task, this is the cumulative duration the animal exhibits freezing behavior while within any of the designated closed arm zones (e.g., 'Closed Arm (West)' or 'Closed Arm (East)'). Unit: seconds")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000043 "elevated plus maze: closed arm total time freezing"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000043 "elevated plus maze: enclosed arm total time freezing"@en)
 SubClassOf(obo:EMPTY_0000043 obo:EMPTY_0000003)
 SubClassOf(obo:EMPTY_0000043 obo:EMPTY_0000090)
 
@@ -788,12 +899,14 @@ SubClassOf(obo:EMPTY_0000050 obo:EMPTY_0000090)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000051 "For an Elevated Plus Maze experiment, this is a unique code or descriptive name assigned to identify a specific experimental session, trial, or a particular set of recorded data. It helps in organizing and referencing data from distinct observations.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000051 "elevated plus maze: test identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000051 "elevated plus maze: test ID"@en)
 SubClassOf(obo:EMPTY_0000051 obo:EMPTY_0000092)
 
 # Class: obo:EMPTY_0000052 (subject local identifier)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000052 "For an experiment, this is a unique code or label assigned to an individual animal subject. This allows for tracking and associating behavioral data with specific animals, along with their characteristics like strain, sex, or age.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000052 "subject local identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000052 "subject local ID"@en)
 SubClassOf(obo:EMPTY_0000052 obo:EMPTY_0000084)
 
 # Class: obo:EMPTY_0000053 (fear-potentiated startle: baseline acoustic startle response amplitude)
@@ -825,6 +938,7 @@ SubClassOf(obo:EMPTY_0000056 obo:EMPTY_0000001)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000057 "A descriptive string identifying the specific type or condition of a trial in a Fear-Potentiated Startle (FPS) experiment. Examples from the manuscript include 'pre-shock' (baseline startle), 'post-shock' (startle in conditioning context after shocks), 'noise-only' (startle to acoustic stimulus alone during recall tests), or 'light+noise' (startle to acoustic stimulus in presence of conditioned cue during recall tests). The raw data might contain labels like 'Startle 95 dB Trial'.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000057 "fear-potentiated startle: trial type identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000057 "fear-potentiated startle: trial type ID"@en)
 SubClassOf(obo:EMPTY_0000057 obo:EMPTY_0000084)
 SubClassOf(obo:EMPTY_0000057 obo:EMPTY_0000093)
 
@@ -832,6 +946,7 @@ SubClassOf(obo:EMPTY_0000057 obo:EMPTY_0000093)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000058 "Identifier for the specific Plexiglas enclosure or sound-attenuating chamber within the Fear-Potentiated Startle (FPS) apparatus (e.g., San Diego Instruments SR-Lab) in which a subject was tested for a given trial. Unit: count or identifier string")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000058 "fear-potentiated startle: apparatus chamber identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000058 "fear-potentiated startle: apparatus chamber ID"@en)
 SubClassOf(obo:EMPTY_0000058 obo:EMPTY_0000093)
 
 # Class: obo:EMPTY_0000059 (experimental group code)
@@ -910,38 +1025,36 @@ SubClassOf(obo:EMPTY_0000069 obo:EMPTY_0000085)
 # Class: obo:EMPTY_0000070 (type II BNST neuron)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000070 "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that produces post-inhibitory spikes in response to preceding negative current steps, which is related to the action of the low-threshold Ca2+ current. These neurons also display strong voltage sags under hyperpolarizing current pulses, indicating a high level of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]")
-AnnotationAssertion(obo:IAO_0000118 obo:EMPTY_0000070 "BNSTNeuronTypeII")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000070 "type II BNST neuron"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000070 "type II neuron of the bed nucleus of the stria terminalis"@en)
 SubClassOf(obo:EMPTY_0000070 obo:EMPTY_0000071)
 SubClassOf(obo:EMPTY_0000070 obo:UBERON_0001880)
 
 # Class: obo:EMPTY_0000071 (investigator-defined cell type)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000071 "A cell type proposed by an investigator on the basis of electrophysiological or anatomical criteria.")
-AnnotationAssertion(obo:IAO_0000118 obo:EMPTY_0000071 "investigatorDefinedCellType")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000071 "investigator-defined cell type"@en)
 SubClassOf(obo:EMPTY_0000071 obo:EMPTY_0000076)
 
 # Class: obo:EMPTY_0000072 (type I BNST neuron)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000072 "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) that fires regularly, displays moderate spike frequency adaptation, and exhibits a voltage sag indicating the presence of the hyperpolarization-activated cation current (Ih). [Source: https://doi.org/10.1016/j.celrep.2025.115768]")
-AnnotationAssertion(obo:IAO_0000118 obo:EMPTY_0000072 "BNSTNeuronTypeI")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000072 "type I BNST neuron"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000072 "type I neuron of the bed nucleus of the stria terminalis"@en)
 SubClassOf(obo:EMPTY_0000072 obo:EMPTY_0000071)
 SubClassOf(obo:EMPTY_0000072 obo:UBERON_0001880)
 
 # Class: obo:EMPTY_0000073 (type III BNST neuron)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000073 "A type of neuron located in the dorsolateral bed nucleus of the stria terminalis (BNSTDL) characterized by a high rheobase, absence of voltage sag under negative current steps, prominent inward rectification due to the activation of the inward rectifying K+ current (IKIR) at membrane potentials more negative than approximately -50 mV, and firing onset after a characteristic slow voltage ramp mediated by the K+ delayed current (ID). [Source: https://doi.org/10.1016/j.celrep.2025.115768]")
-AnnotationAssertion(obo:IAO_0000118 obo:EMPTY_0000073 "BNSTNeuronTypeIII")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000073 "type III BNST neuron"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000073 "type III neuron of the bed nucleus of the stria terminalis"@en)
 SubClassOf(obo:EMPTY_0000073 obo:EMPTY_0000071)
 SubClassOf(obo:EMPTY_0000073 obo:UBERON_0001880)
 
 # Class: obo:EMPTY_0000074 (optogenetic tetanus stimulation target location)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000074 "The specific anatomical region where tetanic light stimulation (TLS) is applied in optogenetic experiments to evoke neuronal activity. The value should be defined by the ONTOLOGY_NAME:ONTOLOGY_NODE (e.g. 'UBERON:0000123').")
-AnnotationAssertion(obo:IAO_0000118 obo:EMPTY_0000074 "optogeneticTetanusStimulationTargetLocation")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000074 "optogenetic tetanus stimulation target location"@en)
 SubClassOf(obo:EMPTY_0000074 obo:EMPTY_0000086)
 SubClassOf(obo:EMPTY_0000074 obo:UBERON_0000061)
@@ -984,14 +1097,17 @@ SubClassOf(obo:EMPTY_0000080 obo:EMPTY_0000076)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000081 "One or more characters used to identify, name, or characterize the nature, properties, or contents of a thing.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000081 "identifier"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000081 "ID"@en)
 SubClassOf(obo:EMPTY_0000081 obo:EMPTY_0000076)
 SubClassOf(obo:EMPTY_0000081 obo:NCIT_C25364)
 
 # Class: obo:EMPTY_0000082 (universally unique identifier)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000082 "A standardized number used to uniquely identify information in computer systems, ensuring that no two identifiers are the same across different systems or contexts.")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000082 "UUID"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000082 "UUID"@en)
 AnnotationAssertion(rdfs:label obo:EMPTY_0000082 "universally unique identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000082 "globally unique identifier"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000082 "GUID"@en)
 SubClassOf(obo:EMPTY_0000082 obo:EMPTY_0000081)
 SubClassOf(obo:EMPTY_0000082 obo:NCIT_C54100)
 
@@ -999,12 +1115,14 @@ SubClassOf(obo:EMPTY_0000082 obo:NCIT_C54100)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000083 "An identifier assigned sequentially from a numbered list, typically as an integer (e.g., 1, 2, 3), to distinguish between individual items.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000083 "enumerated identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000083 "enumerated ID"@en)
 SubClassOf(obo:EMPTY_0000083 obo:EMPTY_0000081)
 
 # Class: obo:EMPTY_0000084 (categorical identifier)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000084 "An identifier that assigns an item to a specific, predefined category or Class, often represented by a string or label.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000084 "categorical identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000084 "categorical ID"@en)
 SubClassOf(obo:EMPTY_0000084 obo:EMPTY_0000081)
 
 # Class: obo:EMPTY_0000085 (flag)
@@ -1025,6 +1143,7 @@ SubClassOf(obo:EMPTY_0000086 obo:UBERON_0000061)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000087 "A unique identifier assigned to a document within the Neuroscience Data Interface (NDI) framework, used to link experimental data to its corresponding metadata and parameters.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000087 "NDI document identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000087 "NDI document ID"@en)
 SubClassOf(obo:EMPTY_0000087 obo:EMPTY_0000082)
 SubClassOf(obo:EMPTY_0000087 obo:NCIT_C93399)
 
@@ -1038,6 +1157,7 @@ SubClassOf(obo:EMPTY_0000088 obo:EMPTY_0000001)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000089 "A sequence of characters or encoded information identifying when a certain event occurred, usually giving the date and time of day, sometimes to a small fraction of a second.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000089 "timestamp"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000089 "time stamp"@en)
 SubClassOf(obo:EMPTY_0000089 obo:EMPTY_0000088)
 SubClassOf(obo:EMPTY_0000089 obo:NCIT_C54086)
 
@@ -1051,6 +1171,8 @@ SubClassOf(obo:EMPTY_0000090 obo:EMPTY_0000088)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000091 "A measurement representing a single, specific moment in time at which an event occurs or an observation is made. Typically reported in seconds.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000091 "timepoint"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000091 "time point"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000091 "point in time"@en)
 SubClassOf(obo:EMPTY_0000091 obo:EMPTY_0000088)
 
 # Class: obo:EMPTY_0000092 (elevated plus maze parameter)
@@ -1085,6 +1207,7 @@ AnnotationAssertion(owl:deprecated obo:EMPTY_0000095 "true"^^xsd:boolean)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000096 "A unique alphanumeric identifier assigned to an NDI subject document.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000096 "subject document identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000096 "subject document ID"@en)
 SubClassOf(obo:EMPTY_0000096 obo:EMPTY_0000087)
 
 # Class: obo:EMPTY_0000097 (C. elegans assay parameter)
@@ -1128,12 +1251,14 @@ SubClassOf(obo:EMPTY_0000102 obo:EMPTY_0000097)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000103 "A unique numerical identifier for a distinct experimental session.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000103 "experiment session identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000103 "experiment session ID"@en)
 SubClassOf(obo:EMPTY_0000103 obo:EMPTY_0000083)
 
 # Class: obo:EMPTY_0000104 (bacterial strain document identifier)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000104 "Unique alphanumeric identifier that links to an OpenMINDs document describing the strain of bacteria used in an experiment.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000104 "bacterial strain document identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000104 "bacterial strain document ID"@en)
 SubClassOf(obo:EMPTY_0000104 obo:EMPTY_0000087)
 SubClassOf(obo:EMPTY_0000104 obo:EMPTY_0000098)
 
@@ -1141,6 +1266,7 @@ SubClassOf(obo:EMPTY_0000104 obo:EMPTY_0000098)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000105 "The OD600 a bacterial suspension was prepared to have when it was seeded: the planned value, as distinct from a measured one.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000105 "target seeding OD600"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003008) oboInOwl:hasExactSynonym obo:EMPTY_0000105 "bacterial OD600 (target) at seeding"@en)
 SubClassOf(obo:EMPTY_0000105 obo:EMPTY_0000098)
 SubClassOf(obo:EMPTY_0000105 obo:MCO_0000059)
 
@@ -1189,6 +1315,7 @@ SubClassOf(obo:EMPTY_0000111 obo:EMPTY_0000161)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000112 "A unique numerical identifier assigned to the physical plate (e.g., NGM agar plate) on which bacterial patch(s) were seeded.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000112 "bacterial plate identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000112 "bacterial plate ID"@en)
 SubClassOf(obo:EMPTY_0000112 obo:EMPTY_0000083)
 SubClassOf(obo:EMPTY_0000112 obo:EMPTY_0000098)
 
@@ -1196,6 +1323,7 @@ SubClassOf(obo:EMPTY_0000112 obo:EMPTY_0000098)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000113 "A unique alphanumeric identifier assigned to an NDI ontologyTableRow document that contains the set of parameters and conditions for a specific agar plate containing bacterial patch(s).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000113 "bacterial plate document identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000113 "bacterial plate document ID"@en)
 SubClassOf(obo:EMPTY_0000113 obo:EMPTY_0000087)
 SubClassOf(obo:EMPTY_0000113 obo:EMPTY_0000098)
 
@@ -1244,9 +1372,10 @@ SubClassOf(obo:EMPTY_0000119 obo:EMPTY_0000161)
 # Class: obo:EMPTY_0000120 (bacterial patch volume)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000120 "The volume of bacterial solution pipetted to create an individual patch on an agar plate.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000120 "bacterial patch volume"@en)
-SubClassOf(obo:EMPTY_0000120 obo:EMPTY_0000098)
-SubClassOf(obo:EMPTY_0000120 obo:NCIT_C25335)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000120 "Obsolete: replaced by seeding volume (EMPTY:0000385); the bacteria and the patch are said by the document, not the term (Jess Haley, 2026-10-22, did-schema tenet audit [O3 Haley terms general]). Use seeding volume (EMPTY:0000385).")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000120 "EMPTY:0000385")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000120 "obsolete bacterial patch volume"@en)
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000120 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000121 (bacterial patch spacing (target))
 
@@ -1260,16 +1389,16 @@ AnnotationAssertion(owl:deprecated obo:EMPTY_0000121 "true"^^xsd:boolean)
 # Class: obo:EMPTY_0000122 (arena diameter)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000122 "The diameter of the arena: the bounded region in which an experiment's subjects are confined and observed.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000122 "Generalised 2026-10-20 (tenet T19): the label and definition no longer name C. elegans or a plate, which the statement's subject and session already say; the unit is stored on the value. Formerly 'C. elegans behavioral assay: plate or arena diameter'.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000122 "arena diameter"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000122 "C. elegans behavioral assay: plate or arena diameter"@en)
-SubClassOf(obo:EMPTY_0000122 obo:EMPTY_0000080)
-SubClassOf(obo:EMPTY_0000122 obo:NCIT_C25285)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000122 "Obsolete: replaced by diameter (PATO:0001334); the arena-mask method parameter is a diameter; the arena is said by the document, not the term (Jess Haley, 2026-10-22, did-schema tenet audit [O3 Haley terms general]). Use diameter (PATO:0001334). Before: Generalised 2026-10-20 (tenet T19): the label and definition no longer name C. elegans or a plate, which the statement's subject and session already say; the unit is stored on the value. Formerly 'C. elegans behavioral assay: plate or arena diameter'.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000122 "PATO:0001334")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000122 "obsolete arena diameter"@en)
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000122 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000123 (bacterial patch identifier)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000123 "A unique numerical identifier assigned to a patch of bacteria growing on an agar assay plate.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000123 "bacterial patch identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000123 "bacterial patch ID"@en)
 SubClassOf(obo:EMPTY_0000123 obo:EMPTY_0000083)
 SubClassOf(obo:EMPTY_0000123 obo:EMPTY_0000098)
 
@@ -1309,6 +1438,7 @@ AnnotationAssertion(owl:deprecated obo:EMPTY_0000127 "true"^^xsd:boolean)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000128 "A unique numerical identifier assigned to a subject in an experiment.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000128 "subject identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000128 "subject ID"@en)
 SubClassOf(obo:EMPTY_0000128 obo:EMPTY_0000083)
 
 # Class: obo:EMPTY_0000129 (C. elegans behavioral assay: video recording)
@@ -1353,6 +1483,7 @@ SubClassOf(obo:EMPTY_0000133 obo:NCIT_C48179)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000134 "A unique alphanumeric identifier assigned to an NDI ontologyTableRow document that details the specific parameters of a bacterial food patch such as its location, size, and density.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000134 "bacterial patch document identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000134 "bacterial patch document ID"@en)
 SubClassOf(obo:EMPTY_0000134 obo:EMPTY_0000087)
 SubClassOf(obo:EMPTY_0000134 obo:EMPTY_0000098)
 
@@ -1377,7 +1508,7 @@ AnnotationAssertion(owl:deprecated obo:EMPTY_0000136 "true"^^xsd:boolean)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000137 "The point halfway along an animal's body midline.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000137 "Generalised 2026-10-20 (tenet T19): the species is the subject's. A point, not WBbt midbody (a region). Formerly 'C. elegans midpoint'.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000137 "body midpoint"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000137 "C. elegans midpoint"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003008) oboInOwl:hasRelatedSynonym obo:EMPTY_0000137 "C. elegans midpoint"@en)
 SubClassOf(obo:EMPTY_0000137 obo:NCIT_C32221)
 
 # Class: obo:EMPTY_0000138 (obsolete C. elegans tail)
@@ -1392,6 +1523,7 @@ AnnotationAssertion(owl:deprecated obo:EMPTY_0000138 "true"^^xsd:boolean)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000139 "A unique numerical identifier assigned to a specific encounter event for a given animal. This distinguishes individual encounters for detailed analysis.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000139 "C. elegans behavioral assay: encounter identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000139 "C. elegans behavioral assay: encounter ID"@en)
 SubClassOf(obo:EMPTY_0000139 obo:EMPTY_0000083)
 
 # Class: obo:EMPTY_0000140 (encounter onset time)
@@ -1405,9 +1537,10 @@ AnnotationAssertion(owl:deprecated obo:EMPTY_0000140 "true"^^xsd:boolean)
 # Class: obo:EMPTY_0000141 (C. elegans behavioral assay: encounter offset time)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000141 "The time, in seconds, corresponding to the frame at which the C. elegans worm exits a bacterial food patch. This is the precise end time of an encounter.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000141 "C. elegans behavioral assay: encounter offset time"@en)
-SubClassOf(obo:EMPTY_0000141 obo:EMPTY_0000091)
-SubClassOf(obo:EMPTY_0000141 obo:EMPTY_0000100)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000141 "Obsolete: replaced by offset time (EMPTY:0000369); the encounter is the position the offset time is a covariate along, not part of the term (Jess Haley, 2026-10-22; as EMPTY:0000140 was replaced by onset time). Use offset time (EMPTY:0000369).")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000141 "EMPTY:0000369")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000141 "obsolete C. elegans behavioral assay: encounter offset time"@en)
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000141 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000142 (C. elegans behavioral assay: deceleration upon encounter)
 
@@ -1503,6 +1636,7 @@ SubClassOf(obo:EMPTY_0000152 obo:EMPTY_0000161)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000153 "A unique numerical identifier for a microscopy image.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000153 "microscopy image identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000153 "microscopy image ID"@en)
 SubClassOf(obo:EMPTY_0000153 obo:EMPTY_0000083)
 
 # Class: obo:EMPTY_0000154 (microscopy image exposure time)
@@ -1598,6 +1732,7 @@ SubClassOf(obo:EMPTY_0000165 obo:EMPTY_0000084)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000166 "The term ontology identifer for a specific anatomical region in the brain from another ontology. For example where activity is measured, expression is visualized, or an injection is placed. The value should be a string defined by the term ontology identifier associated with the brain region (e.g., ONTOLOGYNAME:00000001).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000166 "brain region ontology identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000166 "brain region ontology ID"@en)
 SubClassOf(obo:EMPTY_0000166 obo:EMPTY_0000086)
 
 # Class: obo:EMPTY_0000167 (cell count)
@@ -1634,6 +1769,7 @@ SubClassOf(obo:EMPTY_0000171 obo:EMPTY_0000167)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000172 "Subject box identifier indicating the holding location during an experiment.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000172 "subject box identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000172 "subject box ID"@en)
 SubClassOf(obo:EMPTY_0000172 obo:EMPTY_0000084)
 
 # Class: obo:EMPTY_0000173 (contextual fear conditioning: block type)
@@ -1698,41 +1834,49 @@ SubClassOf(obo:EMPTY_0000181 obo:NCIT_C14240)
 
 # Class: obo:EMPTY_0000182 (dorsal dentate gyrus of hippocampal formation)
 
-AnnotationAssertion(obo:IAO_0000118 obo:EMPTY_0000182 "dDG")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000182 "dorsal dentate gyrus of hippocampal formation"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000182 "dDG"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000182 "dorsal dentate gyrus"@en)
 SubClassOf(obo:EMPTY_0000182 obo:EMPTY_0000071)
 SubClassOf(obo:EMPTY_0000182 obo:UBERON_0001885)
 
 # Class: obo:EMPTY_0000183 (ventral dentate gyrus of hippocampal formation)
 
-AnnotationAssertion(obo:IAO_0000118 obo:EMPTY_0000183 "vDG")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000183 "ventral dentate gyrus of hippocampal formation"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000183 "vDG"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000183 "ventral dentate gyrus"@en)
 SubClassOf(obo:EMPTY_0000183 obo:EMPTY_0000071)
 SubClassOf(obo:EMPTY_0000183 obo:UBERON_0001885)
 
 # Class: obo:EMPTY_0000184 (dorsal CA3)
 
-AnnotationAssertion(obo:IAO_0000118 obo:EMPTY_0000184 "dCA3")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000184 "dorsal CA3"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000184 "dCA3"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000184 "dorsal CA3 field of hippocampus"@en)
 SubClassOf(obo:EMPTY_0000184 obo:EMPTY_0000071)
 SubClassOf(obo:EMPTY_0000184 obo:UBERON_0003883)
 
 # Class: obo:EMPTY_0000185 (ventral CA3)
 
-AnnotationAssertion(obo:IAO_0000118 obo:EMPTY_0000185 "vCA3")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000185 "ventral CA3"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000185 "vCA3"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000185 "ventral CA3 field of hippocampus"@en)
 SubClassOf(obo:EMPTY_0000185 obo:EMPTY_0000071)
 SubClassOf(obo:EMPTY_0000185 obo:UBERON_0003883)
 
 # Class: obo:EMPTY_0000186 (dorsal CA1)
 
 AnnotationAssertion(rdfs:label obo:EMPTY_0000186 "dorsal CA1"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000186 "dorsal CA1 field of hippocampus"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000186 "dCA1"@en)
 SubClassOf(obo:EMPTY_0000186 obo:EMPTY_0000071)
 SubClassOf(obo:EMPTY_0000186 obo:UBERON_0003881)
 
 # Class: obo:EMPTY_0000187 (ventral CA1)
 
 AnnotationAssertion(rdfs:label obo:EMPTY_0000187 "ventral CA1"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000187 "ventral CA1 field of hippocampus"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000187 "vCA1"@en)
 SubClassOf(obo:EMPTY_0000187 obo:EMPTY_0000071)
 SubClassOf(obo:EMPTY_0000187 obo:UBERON_0003881)
 
@@ -1740,6 +1884,7 @@ SubClassOf(obo:EMPTY_0000187 obo:UBERON_0003881)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000188 "Subject cage identifier indicating the housing location prior to an experiment.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000188 "subject cage identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000188 "subject cage ID"@en)
 SubClassOf(obo:EMPTY_0000188 obo:EMPTY_0000084)
 
 # Class: obo:EMPTY_0000189 (treatment)
@@ -1820,6 +1965,8 @@ SubClassOf(obo:EMPTY_0000200 obo:EMPTY_0000189)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000201 "Specifies the date of birth in YYYY-MM-DD format")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000201 "date of birth"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000201 "birth date"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000201 "DOB"@en)
 SubClassOf(obo:EMPTY_0000201 obo:EMPTY_0000089)
 
 # Class: obo:EMPTY_0000202 (treatment: food restriction onset time)
@@ -1960,12 +2107,14 @@ SubClassOf(obo:EMPTY_0000223 obo:EMPTY_0000214)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000224 "A categorical identifier consisting of a string of alphanumeric characters assigned by an investigator to uniquely label a subject. Unlike numerical codes, these often include descriptive prefixes related to the study or cohort.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000224 "subject text identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000224 "subject text ID"@en)
 SubClassOf(obo:EMPTY_0000224 obo:EMPTY_0000084)
 
 # Class: obo:EMPTY_0000225 (subject enumerated identifier)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000225 "An enumerated identifier assigned to an experimental subject based on a sequential numbering system, used to distinguish individuals within a specific group or trial.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000225 "subject enumerated identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000225 "subject enumerated ID"@en)
 SubClassOf(obo:EMPTY_0000225 obo:EMPTY_0000083)
 
 # Class: obo:EMPTY_0000226 (experiment metadata file)
@@ -1978,6 +2127,8 @@ SubClassOf(obo:EMPTY_0000226 obo:NCIT_C172272)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000227 "A method of molecular analysis, typically in mass spectrometry, where all ions within a specified m/z range are fragmented and analyzed together. This approach provides a comprehensive and reproducible digital record of the sample without the stochastic sampling bias found in data-dependent acquisition.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000227 "data-independent acquisition (DIA)"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000227 "data-independent acquisition"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000227 "DIA"@en)
 SubClassOf(obo:EMPTY_0000227 obo:NCIT_C172272)
 
 # Class: obo:EMPTY_0000228 (slide scanner image acquisition)
@@ -1990,6 +2141,7 @@ SubClassOf(obo:EMPTY_0000228 obo:NCIT_C172272)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000229 "A non-invasive procedure that uses ultrasound waves to generate real-time images of the heart's structure and function. In an experimental context, it is used to measure parameters such as chamber dimensions, wall thickness, and blood flow velocity.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000229 "echocardiogram acquisition"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000229 "echocardiography"@en)
 SubClassOf(obo:EMPTY_0000229 obo:NCIT_C172272)
 
 # Class: obo:EMPTY_0000230 (unknown electronic file type)
@@ -2105,6 +2257,7 @@ SubClassOf(obo:EMPTY_0000247 obo:EMPTY_0000001)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000248 "Mean fluorescence intensity. Unit: arbitrary units (AU)")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000248 "mean fluorescence intensity"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000248 "MFI"@en)
 SubClassOf(obo:EMPTY_0000248 obo:EMPTY_0000247)
 
 # Class: obo:EMPTY_0000249 (fluorescent punctal count)
@@ -2123,6 +2276,7 @@ SubClassOf(obo:EMPTY_0000250 obo:EMPTY_0000080)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000251 "fluorescence target ontology identifier")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000251 "fluorescence target ontology identifier"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000251 "fluorescence target ontology ID"@en)
 SubClassOf(obo:EMPTY_0000251 obo:EMPTY_0000250)
 
 # Class: obo:EMPTY_0000252 (fluorescence target name)
@@ -2165,12 +2319,15 @@ SubClassOf(obo:EMPTY_0000257 obo:EMPTY_0000129)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000258 "An image or video acquired using fluorescence microscopy.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000258 "fluorescence imaging data"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000258 "fluorescence micrograph"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000258 "fluorescence microscopy image"@en)
 SubClassOf(obo:EMPTY_0000258 obo:NCIT_C16856)
 
 # Class: obo:EMPTY_0000259 (OME-Zarr)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000259 "A Zarr store laid out and annotated according to the OME Next-Generation File Format (OME-NGFF) specification, holding one or more multiscale image pyramids with their axes, coordinate transformations and channel metadata.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000259 "OME-Zarr"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000259 "OME-NGFF"@en)
 SubClassOf(obo:EMPTY_0000259 obo:format_3915)
 
 # Class: obo:EMPTY_0000260 (frame)
@@ -2182,14 +2339,14 @@ SubClassOf(obo:EMPTY_0000260 obo:NCIT_C25709)
 # Class: obo:EMPTY_0000261 (arbitrary unit per millisecond)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000261 "A unit of rate equal to one arbitrary unit (an instrument-relative quantity, such as fluorescence intensity in camera counts) per millisecond, used for a signal in arbitrary units normalized by exposure time.")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000261 "AU/ms"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000261 "AU/ms"@en)
 AnnotationAssertion(rdfs:label obo:EMPTY_0000261 "arbitrary unit per millisecond"@en)
 SubClassOf(obo:EMPTY_0000261 obo:NCIT_C25709)
 
 # Class: obo:EMPTY_0000262 (nematode growth medium)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000262 "A solid culture medium for growing and maintaining C. elegans: agar, sodium chloride and peptone in water, supplemented after autoclaving with cholesterol, calcium chloride, magnesium sulfate and potassium phosphate buffer at pH 6.0, and seeded with E. coli as food. [Source: https://doi.org/10.1895/wormbook.1.101.1]")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000262 "NGM"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000262 "NGM"@en)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000262 "NGM agar"@en)
 AnnotationAssertion(rdfs:label obo:EMPTY_0000262 "nematode growth medium"@en)
 SubClassOf(obo:EMPTY_0000262 obo:OBI_0000079)
@@ -2230,12 +2387,14 @@ SubClassOf(obo:EMPTY_0000266 obo:OBI_0000079)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000267 "An aqueous solution of magnesium sulfate, kept as a stock for adding magnesium to culture media. Its concentration is a property of each preparation, not of this class.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000267 "magnesium sulfate solution"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000267 "MgSO4 solution"@en)
 SubClassOf(obo:EMPTY_0000267 obo:NCIT_C70830)
 
 # Class: obo:EMPTY_0000268 (calcium chloride solution)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000268 "An aqueous solution of calcium chloride, kept as a stock for adding calcium to culture media. Its concentration is a property of each preparation, not of this class.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000268 "calcium chloride solution"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000268 "CaCl2 solution"@en)
 SubClassOf(obo:EMPTY_0000268 obo:NCIT_C70830)
 
 # Class: obo:EMPTY_0000269 (potassium phosphate monobasic solution)
@@ -2243,6 +2402,7 @@ SubClassOf(obo:EMPTY_0000268 obo:NCIT_C70830)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000269 "An aqueous solution of potassium phosphate monobasic (potassium dihydrogen phosphate), kept as a stock, for example to make potassium phosphate buffer. Its concentration is a property of each preparation, not of this class.")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000269 "KH2PO4 solution"@en)
 AnnotationAssertion(rdfs:label obo:EMPTY_0000269 "potassium phosphate monobasic solution"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000269 "potassium dihydrogen phosphate solution"@en)
 SubClassOf(obo:EMPTY_0000269 obo:NCIT_C70830)
 
 # Class: obo:EMPTY_0000270 (potassium phosphate dibasic solution)
@@ -2250,6 +2410,7 @@ SubClassOf(obo:EMPTY_0000269 obo:NCIT_C70830)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000270 "An aqueous solution of potassium phosphate dibasic (dipotassium hydrogen phosphate), kept as a stock, for example to make potassium phosphate buffer. Its concentration is a property of each preparation, not of this class.")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000270 "K2HPO4 solution"@en)
 AnnotationAssertion(rdfs:label obo:EMPTY_0000270 "potassium phosphate dibasic solution"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000270 "dipotassium hydrogen phosphate solution"@en)
 SubClassOf(obo:EMPTY_0000270 obo:NCIT_C70830)
 
 # Class: obo:EMPTY_0000271 (cholesterol solution)
@@ -2363,6 +2524,8 @@ SubClassOf(obo:EMPTY_0000286 obo:NCIT_C45793)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000287 "A data transformation that corrects an image for uneven illumination by dividing it by an image of the light source alone (an empty plate) and scaling by that image's maximum.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000287 "As analyzeLawnProfiles and getFluorescenceBackground (Haley et al. 2024): the background image has outliers replaced against a moving median and is smoothed before the division; the window sizes are parameters of each use.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000287 "normalization to background illumination"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000287 "flat-field correction"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000287 "shading correction"@en)
 SubClassOf(obo:EMPTY_0000287 obo:OBI_0200000)
 
 # Class: obo:EMPTY_0000288 (circularity)
@@ -2403,7 +2566,6 @@ SubClassOf(obo:EMPTY_0000292 obo:EMPTY_0000115)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000293 "A patch encounter in which the animal stays on the food and feeds from it.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000293 "In labelEncounters (Haley et al. 2024), assigned by a threshold on the posterior probability of exploitation; the threshold is a parameter of the classification. Relabelled 2026-10-20 from 'exploit' (tenet T19: a behavioural category, not the lab's rule).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000293 "patch exploitation encounter"@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000293 "exploit"@en)
 SubClassOf(obo:EMPTY_0000293 obo:EMPTY_0000292)
 
 # Class: obo:EMPTY_0000294 (patch sampling encounter)
@@ -2411,7 +2573,6 @@ SubClassOf(obo:EMPTY_0000293 obo:EMPTY_0000292)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000294 "A patch encounter in which the animal senses the food but does not stay to feed.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000294 "In labelEncounters (Haley et al. 2024), assigned by thresholds on the posterior probabilities of sensing and exploitation; the thresholds are parameters of the classification. Relabelled 2026-10-20 from 'sample' (tenet T19).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000294 "patch sampling encounter"@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000294 "sample"@en)
 SubClassOf(obo:EMPTY_0000294 obo:EMPTY_0000292)
 
 # Class: obo:EMPTY_0000295 (on-patch search encounter)
@@ -2419,8 +2580,6 @@ SubClassOf(obo:EMPTY_0000294 obo:EMPTY_0000292)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000295 "A patch encounter in which the animal crosses onto the patch but neither senses the food nor stays to feed.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000295 "In labelEncounters (Haley et al. 2024), assigned by thresholds on the posterior probabilities of sensing and exploitation; the thresholds are parameters of the classification. Relabelled 2026-10-20 from 'search on patch' (tenet T19).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000295 "on-patch search encounter"@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000295 "search on patch"@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000295 "searchOn"@en)
 SubClassOf(obo:EMPTY_0000295 obo:EMPTY_0000292)
 
 # Class: obo:EMPTY_0000296 (off-patch search encounter)
@@ -2428,8 +2587,6 @@ SubClassOf(obo:EMPTY_0000295 obo:EMPTY_0000292)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000296 "A patch encounter in which the animal comes near the patch without crossing onto it, and neither senses the food nor stays to feed.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000296 "In labelEncounters (Haley et al. 2024), assigned by thresholds on the posterior probabilities of sensing and exploitation and on how far the animal's midpoint reached into the patch (distanceOnMax < 0); the thresholds are parameters of the classification. Relabelled 2026-10-20 from 'search off patch' (tenet T19).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000296 "off-patch search encounter"@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000296 "search off patch"@en)
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000296 "searchOff"@en)
 SubClassOf(obo:EMPTY_0000296 obo:EMPTY_0000292)
 
 # Class: obo:EMPTY_0000297 (nearest bacterial patch)
@@ -2456,6 +2613,8 @@ SubClassOf(obo:EMPTY_0000299 obo:EMPTY_0000298)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000300 "An imaging assay in which a specimen is lit from behind and recorded against a bright background, with a camera and lens rather than a microscope, as in the video recording of animals on a backlit plate.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000300 "The behavior rigs of Haley et al. 2024: a camera and lens over a backlight.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000300 "brightfield imaging"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000300 "bright-field imaging"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000300 "brightfield microscopy"@en)
 SubClassOf(obo:EMPTY_0000300 obo:OBI_0000185)
 
 # Class: obo:EMPTY_0000301 (video tracking)
@@ -2562,7 +2721,7 @@ SubClassOf(obo:EMPTY_0000315 obo:format_1915)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000316 "A class discovery data transformation that fits a mixture of Gaussian distributions to the data and assigns each data point the posterior probability of belonging to each component.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000316 "The method of the posterior probability of exploitation in the Haley et al. (2025) C. elegans foraging dataset: a two-component model of log encounter duration and log average on-patch speed (labelEncounters, fitgmdist). OBI has k-means and hierarchical clustering but no Gaussian mixture model (OLS search, 2026-10-20).")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000316 "GMM clustering"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000316 "GMM clustering"@en)
 AnnotationAssertion(rdfs:label obo:EMPTY_0000316 "Gaussian mixture model clustering"@en)
 SubClassOf(obo:EMPTY_0000316 obo:OBI_0200171)
 SubClassOf(obo:EMPTY_0000316 obo:OBI_0200175)
@@ -2571,7 +2730,7 @@ SubClassOf(obo:EMPTY_0000316 obo:OBI_0200175)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000317 "A discriminant analysis that models each class as a Gaussian distribution with its own covariance, so that the boundary between classes is a quadratic surface.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000317 "The method of the posterior probability of sensing in the Haley et al. (2025) C. elegans foraging dataset (labelEncounters, fitcdiscr with DiscrimType quadratic, semi-supervised). OBI has discriminant analysis (OBI:0200106) but not its quadratic form (OLS search, 2026-10-20).")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000317 "QDA"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000317 "QDA"@en)
 AnnotationAssertion(rdfs:label obo:EMPTY_0000317 "quadratic discriminant analysis"@en)
 SubClassOf(obo:EMPTY_0000317 obo:OBI_0200106)
 
@@ -2629,6 +2788,7 @@ SubClassOf(obo:EMPTY_0000324 obo:EMPTY_0000080)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000325 "A discrete area of bacteria grown on a solid medium from a pipetted suspension.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000325 "An entity's kind, asserted on each patch, and the value of conditions such as Imaging Region of Interest and encountered entity (Haley et al. 2025: the OP50 and OP50-GFP patches; a spot of LB alone is a patch with no bacteria).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000325 "bacterial patch"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000325 "bacterial lawn"@en)
 SubClassOf(obo:EMPTY_0000325 obo:EMPTY_0000076)
 
 # Class: obo:EMPTY_0000326 (arena)
@@ -2641,6 +2801,7 @@ SubClassOf(obo:EMPTY_0000326 obo:EMPTY_0000076)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000327 "A mark drawn or placed on a plate or arena to register its images to a common frame.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000327 "reference mark"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000327 "fiducial marker"@en)
 SubClassOf(obo:EMPTY_0000327 obo:EMPTY_0000076)
 
 # Class: obo:EMPTY_0000328 (encountered entity)
@@ -2730,28 +2891,24 @@ SubClassOf(obo:EMPTY_0000340 obo:EMPTY_0000080)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000341 "The smallest posterior probability of exploitation at which an encounter is classed a patch exploitation encounter.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000341 "patch exploitation encounter: minimum probability of exploitation"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000341 "exploit: minimum probability of exploitation"@en)
 SubClassOf(obo:EMPTY_0000341 obo:STATO_0000633)
 
 # Class: obo:EMPTY_0000342 (patch sampling encounter: minimum probability of sensing)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000342 "The smallest posterior probability of sensing at which an encounter is classed a patch sampling encounter.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000342 "patch sampling encounter: minimum probability of sensing"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000342 "sample: minimum probability of sensing"@en)
 SubClassOf(obo:EMPTY_0000342 obo:STATO_0000633)
 
 # Class: obo:EMPTY_0000343 (off-patch search encounter: probability of sensing below)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000343 "The posterior probability of sensing below which an encounter is classed an off-patch search encounter, together with the distance rule.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000343 "off-patch search encounter: probability of sensing below"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000343 "search off patch: probability of sensing below"@en)
 SubClassOf(obo:EMPTY_0000343 obo:STATO_0000633)
 
 # Class: obo:EMPTY_0000344 (off-patch search encounter: maximum distance into the patch)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000344 "The greatest distance into the patch an encounter can reach and still be classed an off-patch search encounter.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000344 "off-patch search encounter: maximum distance into the patch"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000344 "search off patch: maximum distance into the patch"@en)
 SubClassOf(obo:EMPTY_0000344 obo:STATO_0000633)
 
 # Class: obo:EMPTY_0000345 (publication date)
@@ -2791,18 +2948,16 @@ SubClassOf(obo:EMPTY_0000349 obo:OBI_0200000)
 # Class: obo:EMPTY_0000350 (signed distance from the nearest bacterial patch edge)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000350 "The distance from a subject's point to the nearest edge of a bacterial patch, positive inside the patch and negative outside it.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000350 "As distanceLawnEdge in analyzeWormLabTracks (Haley et al. 2024): the signed distance transform of the patch mask, read at the tracked point.")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000350 "signed distance from the nearest bacterial patch edge"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000350 "distance from the patch edge"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000350 "distanceLawnEdge"@en)
-SubClassOf(obo:EMPTY_0000350 obo:PATO_0000040)
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000350 "Obsolete: replaced by signed distance to region boundary (EMPTY:0000384); the patch is the region, named by a condition that points at the region's mask, not part of the term (Jess Haley, 2026-10-22, did-schema tenet audit [O3 Haley terms general]). Use signed distance to region boundary (EMPTY:0000384). Before: As distanceLawnEdge in analyzeWormLabTracks (Haley et al. 2024): the signed distance transform of the patch mask, read at the tracked point.")
+AnnotationAssertion(oboInOwl:consider obo:EMPTY_0000350 "EMPTY:0000384")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000350 "obsolete signed distance from the nearest bacterial patch edge"@en)
+AnnotationAssertion(owl:deprecated obo:EMPTY_0000350 "true"^^xsd:boolean)
 
 # Class: obo:EMPTY_0000351 (target bacteria growth duration after seeding)
 
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000351 "The planned time from when a bacterial patch was seeded to the start of the assay: the growth group an assay was prepared for, as distinct from the measured time.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000351 "In Haley et al. (2025), getExperimentInfo derives the group by rounding the measured growth to 12 h (growthCondition: 0, 12 or 48 h).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000351 "target bacteria growth duration after seeding"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000351 "growth condition"@en)
 SubClassOf(obo:EMPTY_0000351 obo:EMPTY_0000119)
 
 # Class: obo:EMPTY_0000352 (anterior end point)
@@ -2810,7 +2965,6 @@ SubClassOf(obo:EMPTY_0000351 obo:EMPTY_0000119)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000352 "The most anterior point of a subject's body along its midline (the leading point of a tracked body spline).")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000352 "A point, beside body midpoint (EMPTY:0000137); UBERON head (UBERON:0000033) is a region. In the Haley et al. (2025) dataset, the head point of the WormLab track.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000352 "anterior end point"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000352 "head"@en)
 SubClassOf(obo:EMPTY_0000352 obo:NCIT_C32221)
 
 # Class: obo:EMPTY_0000353 (posterior end point)
@@ -2818,7 +2972,6 @@ SubClassOf(obo:EMPTY_0000352 obo:NCIT_C32221)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000353 "The most posterior point of a subject's body along its midline (the trailing point of a tracked body spline).")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000353 "A point, beside body midpoint (EMPTY:0000137); UBERON tail (UBERON:0002415) is a region. In the Haley et al. (2025) dataset, the tail point of the WormLab track.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000353 "posterior end point"@en)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000353 "tail"@en)
 SubClassOf(obo:EMPTY_0000353 obo:NCIT_C32221)
 
 # Class: obo:EMPTY_0000354 (material type)
@@ -2855,6 +3008,8 @@ SubClassOf(obo:EMPTY_0000357 obo:NCIT_C25284)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000358 "Stimulation of neurons that express a light-gated ion channel with a train of light pulses at high frequency (a tetanus), delivered to a target location to drive sustained activity there.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000358 "No ontology term found (OLS4, 2026-10-21; NCIT, OBI, EFO, MMO, then all ontologies; queries optogenetic stimulation, optogenetic tetanus, tetanic stimulation, tetanus, high frequency stimulation, photostimulation, optogenetics): NCIT Stimulation (C61406) is the general class, too broad to name the method; MeSH Optogenetics (D062308) and OMIT Optogenetics (0028070) name the technique family, not a stimulation protocol; ECO optogenetic evidence (0006032) is an evidence type; SNOMED Tetanic burst stimulation (264602007) and Tetanic stimulation monitoring (397979003) are clinical electrical neuromuscular procedures; NCIT Tetanus (C85185) and MONDO tetanus (0005526) are the disease; NBO photostimulation induced seizure (0000737) is a behaviour. Under NCIT Stimulation. The method of the tetanic light stimulation (TLS) in the Dabrowska slice recordings, applied at the target location EMPTY:0000074.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000358 "optogenetic tetanus stimulation"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000358 "TLS"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000358 "tetanic light stimulation"@en)
 SubClassOf(obo:EMPTY_0000358 obo:NCIT_C61406)
 
 # Class: obo:EMPTY_0000359 (ethics jurisdiction)
@@ -2925,6 +3080,7 @@ SubClassOf(obo:EMPTY_0000367 obo:format_2333)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000368 "The time at which the thing a position stands for (a stimulus, an event) comes into effect or becomes present, as distinct from the start of any preparation or period around it.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000368 "Source: did-schema V_eta_data_body_model_plan.md AMENDMENT 6 [onset time]; NDI +app/+stimulus/decoder.m records onset/offset (the stimulus itself) apart from stimopen/stimclose (the period around it). No existing term means this (OLS4, 2026-10-22: 'onset time' 8 hits, all clinical; 'stimulus onset' 0; NCIT Onset C25279 is a temporal qualifier; SIO start time 000669 / NCIT Start Time C78441 mean the start of a process, which for a presentation is stimopen). Decided by Jess Haley, 2026-10-22 (did-schema V_eta_data_body_model_plan.md [onset and offset terms]); it replaces EMPTY:0000140 encounter onset time.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000368 "onset time"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000368 "start time"@en)
 SubClassOf(obo:EMPTY_0000368 obo:EMPTY_0000091)
 
 # Class: obo:EMPTY_0000369 (offset time)
@@ -2932,6 +3088,178 @@ SubClassOf(obo:EMPTY_0000368 obo:EMPTY_0000091)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000369 "The time at which the thing a position stands for (a stimulus, an event) ceases to be in effect or present, as distinct from the end of any period around it.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000369 "Source: did-schema V_eta_data_body_model_plan.md AMENDMENT 6 [onset time] (its pair); NDI +app/+stimulus/decoder.m records onset/offset (the stimulus itself) apart from stimopen/stimclose (the period around it). No existing term means this (OLS4, 2026-10-22: 'onset time' 8 hits, all clinical; 'stimulus onset' 0; NCIT Onset C25279 is a temporal qualifier; SIO start time 000669 / NCIT Start Time C78441 mean the start of a process, which for a presentation is stimopen). Decided by Jess Haley, 2026-10-22 (did-schema V_eta_data_body_model_plan.md [onset and offset terms]); it replaces EMPTY:0000140 encounter onset time.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000369 "offset time"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000369 "end time"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000369 "stop time"@en)
 SubClassOf(obo:EMPTY_0000369 obo:EMPTY_0000091)
+
+# Class: obo:EMPTY_0000370 (analog input channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000370 "A channel through which an acquisition system samples a continuously valued signal.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000370 "A hardware channel type of acquisition_channels.channels.type; the exact synonym 'ai' is the standard data-acquisition abbreviation, and also the NDI v1 channel prefix (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. No ontology term found (OLS4, 2026-10-22, label and synonym search; queries analog input, analog input channel, analog output, digital input, digital output, auxiliary input, time channel, event channel, marker channel, trigger channel, event marker: 0 hits each). Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000370 "analog input channel"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000370 "ai"@en)
+SubClassOf(obo:EMPTY_0000370 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000371 (analog output channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000371 "A channel through which an acquisition system emits a continuously valued signal.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000371 "A hardware channel type of acquisition_channels.channels.type; the exact synonym 'ao' is the standard data-acquisition abbreviation, and also the NDI v1 channel prefix (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. No ontology term found (OLS4, 2026-10-22, label and synonym search; queries analog input, analog input channel, analog output, digital input, digital output, auxiliary input, time channel, event channel, marker channel, trigger channel, event marker: 0 hits each). Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000371 "analog output channel"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000371 "ao"@en)
+SubClassOf(obo:EMPTY_0000371 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000372 (digital input channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000372 "A channel through which an acquisition system samples a two-state signal.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000372 "A hardware channel type of acquisition_channels.channels.type; the exact synonym 'di' is the standard data-acquisition abbreviation, and also the NDI v1 channel prefix (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. No ontology term found (OLS4, 2026-10-22, label and synonym search; queries analog input, analog input channel, analog output, digital input, digital output, auxiliary input, time channel, event channel, marker channel, trigger channel, event marker: 0 hits each). Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000372 "digital input channel"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000372 "di"@en)
+SubClassOf(obo:EMPTY_0000372 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000373 (digital output channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000373 "A channel through which an acquisition system emits a two-state signal.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000373 "A hardware channel type of acquisition_channels.channels.type; the exact synonym 'do' is the standard data-acquisition abbreviation, and also the NDI v1 channel prefix (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. No ontology term found (OLS4, 2026-10-22, label and synonym search; queries analog input, analog input channel, analog output, digital input, digital output, auxiliary input, time channel, event channel, marker channel, trigger channel, event marker: 0 hits each). Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000373 "digital output channel"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000373 "do"@en)
+SubClassOf(obo:EMPTY_0000373 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000374 (time channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000374 "A channel whose values are the times at which the other channels were sampled.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000374 "A hardware channel type of acquisition_channels.channels.type; the NDI v1 channel prefix is 't' (a code, not a synonym) (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. No ontology term found (OLS4, 2026-10-22, label and synonym search; queries analog input, analog input channel, analog output, digital input, digital output, auxiliary input, time channel, event channel, marker channel, trigger channel, event marker: 0 hits each). Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000374 "time channel"@en)
+SubClassOf(obo:EMPTY_0000374 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000375 (auxiliary input channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000375 "A channel through which an acquisition system samples a signal that supports, rather than is, the primary measurement.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000375 "A hardware channel type of acquisition_channels.channels.type; the NDI v1 channel prefix is 'ax' (a code, not a synonym) (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. No ontology term found (OLS4, 2026-10-22, label and synonym search; queries analog input, analog input channel, analog output, digital input, digital output, auxiliary input, time channel, event channel, marker channel, trigger channel, event marker: 0 hits each). Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000375 "auxiliary input channel"@en)
+SubClassOf(obo:EMPTY_0000375 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000376 (event channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000376 "A channel whose values are the times at which events occurred.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000376 "A hardware channel type of acquisition_channels.channels.type; the NDI v1 channel prefix is 'e' (a code, not a synonym) (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. No ontology term found (OLS4, 2026-10-22, label and synonym search; queries analog input, analog input channel, analog output, digital input, digital output, auxiliary input, time channel, event channel, marker channel, trigger channel, event marker: 0 hits each). Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000376 "event channel"@en)
+SubClassOf(obo:EMPTY_0000376 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000377 (marker channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000377 "A channel whose values are codes, each at the time it was recorded.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000377 "A hardware channel type of acquisition_channels.channels.type; the NDI v1 channel prefix is 'mk' (a code, not a synonym) (the migrator maps prefix to term, NDI maps term to prefix for its readers). Under NCIT Channel (C44170), the root of the channel-type binding, whose other two values are NCIT Metadata (C52095, v1 md) and NCIT Text (C25704, v1 tx). The 8 derived read modes (dep den dimp dimn aep aen aimp aimn) get no terms. No ontology term found (OLS4, 2026-10-22, label and synonym search; queries analog input, analog input channel, analog output, digital input, digital output, auxiliary input, time channel, event channel, marker channel, trigger channel, event marker: 0 hits each). Source: Jess Haley, 2026-10-22, did-schema tenet audit [B2 channel types].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000377 "marker channel"@en)
+SubClassOf(obo:EMPTY_0000377 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000383 (recording epoch)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000383 "One continuous stretch of recording by one acquisition system.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000383 "The node of the did-schema entity type epoch. No ontology term found (OLS4, 2026-10-22; queries recording epoch, epoch, recording period, time period): NCIT Clinical Trial Epoch (C71738) and Baseline Epoch (C125938) are trial phases; OM epoch is a unit. Under NCIT Period (C25616, an interval of time), as the entity type session is NCIT Session (C67447). Source: Jess Haley, 2026-10-22, did-schema tenet audit [L3].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000383 "recording epoch"@en)
+SubClassOf(obo:EMPTY_0000383 obo:NCIT_C25616)
+
+# Class: obo:EMPTY_0000384 (signed distance to region boundary)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000384 "The distance from a point to the nearest boundary of a region, positive inside the region and negative outside it.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000384 "Replaces EMPTY:0000350 (signed distance from the nearest bacterial patch edge): the region is named by a condition that points at the region's mask. As distanceLawnEdge in analyzeWormLabTracks (Haley et al. 2024), the signed distance transform of a mask read at a point. Under PATO distance, as EMPTY:0000350 was. No ontology term found (OLS4, 2026-10-22; query signed distance: 1 hit, MeSH Phylogeny, unrelated). Source: Jess Haley, 2026-10-22, did-schema tenet audit [O3 Haley terms general].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000384 "signed distance to region boundary"@en)
+SubClassOf(obo:EMPTY_0000384 obo:PATO_0000040)
+
+# Class: obo:EMPTY_0000385 (seeding volume)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000385 "The volume of a solution or suspension placed to seed a culture.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000385 "Replaces EMPTY:0000120 (bacterial patch volume): what was seeded and where is said by the document. Under parameter and NCIT Volume (C25335), as EMPTY:0000120 was under bacterial parameter and NCIT Volume. No ontology term found (OLS4, 2026-10-22; queries seeding volume, inoculum volume, inoculation volume): TO seed volume (0007000) is the volume of a plant seed; the other two have 0 hits. Source: Jess Haley, 2026-10-22, did-schema tenet audit [O3 Haley terms general].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000385 "seeding volume"@en)
+SubClassOf(obo:EMPTY_0000385 obo:EMPTY_0000080)
+SubClassOf(obo:EMPTY_0000385 obo:NCIT_C25335)
+
+# Class: obo:EMPTY_0000387 (Chebyshev type I filter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000387 "A filter design with equal ripple in the passband and a monotonic stopband, giving a steeper transition than a Butterworth design of the same order.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000387 "No ontology term found (OLS4, 2026-10-22; queries Chebyshev filter, Chebyshev type I filter, digital filter, signal filtering): no OBO ontology has signal-filter designs; OBI band-pass, long-pass and short-pass filters are optical filters. Wikidata Chebyshev filter (Q718621) names both types together, so it is a cross-reference, not this term's node. Written by DID-matlab jFrequencyFilter, the migrator of v1 filter documents. Under data transformation (OBI:0200000): a filter applied to a signal is a method [filters are methods]. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000387 "Chebyshev type I filter"@en)
+SubClassOf(obo:EMPTY_0000387 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000388 (Chebyshev type II filter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000388 "A filter design with a monotonic passband and equal ripple in the stopband.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000388 "No ontology term found (OLS4, 2026-10-22; queries as for EMPTY:0000387, plus inverse Chebyshev filter). Wikidata Chebyshev filter (Q718621) names both types together. Written by DID-matlab jFrequencyFilter. Under data transformation (OBI:0200000). Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000388 "Chebyshev type II filter"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000388 "inverse Chebyshev filter"@en)
+SubClassOf(obo:EMPTY_0000388 obo:OBI_0200000)
+
+# Class: obo:EMPTY_0000389 (filter band)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000389 "Which range of frequencies a filter passes and which it attenuates.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000389 "The variable whose values are high-pass, low-pass, band-pass and band-stop filter (Wikidata Q262754, Q918242, Q2718101, Q386022). No ontology term found (OLS4, 2026-10-22; queries filter band, filter type, filter response type): NCIT Reconstruction Filter Type (C106564) is about image reconstruction. Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000389 "filter band"@en)
+SubClassOf(obo:EMPTY_0000389 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000390 (passband low edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000390 "The lowest frequency a filter is designed to pass.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000390 "Paired with passband high edge (EMPTY:0000391). No ontology term found (OLS4, 2026-10-22; queries passband edge, passband, cutoff frequency): NCIT Filter Cutoff Frequency (C94895) names an upper cutoff only. Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [passband edges paired]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000390 "passband low edge"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000390 "low cutoff frequency"@en)
+SubClassOf(obo:EMPTY_0000390 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000391 (passband high edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000391 "The highest frequency a filter is designed to pass.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000391 "Paired with passband low edge (EMPTY:0000390). NCIT Filter Cutoff Frequency (C94895), the upper limit for the frequency content that essentially passes through a filter, is close but names the cutoff, often the -3 dB point, not the design edge, and has no lower counterpart; it is a cross-reference, not this term's node. Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [passband edges paired]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000391 "passband high edge"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000391 "high cutoff frequency"@en)
+SubClassOf(obo:EMPTY_0000391 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000392 (stopband low edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000392 "The lowest frequency of the range a filter is designed to attenuate.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000392 "No ontology term found (OLS4, 2026-10-22; queries stopband, stopband edge): Wikidata stopband (Q1971063) names the band, not an edge. Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000392 "stopband low edge"@en)
+SubClassOf(obo:EMPTY_0000392 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000393 (stopband high edge)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000393 "The highest frequency of the range a filter is designed to attenuate.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000393 "No ontology term found (OLS4, 2026-10-22; queries as for EMPTY:0000392). Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000393 "stopband high edge"@en)
+SubClassOf(obo:EMPTY_0000393 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000394 (filter order)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000394 "The order of a filter's transfer function, which sets how steeply the filter changes from passing to attenuating.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000394 "No ontology term found (OLS4, 2026-10-22; queries filter order, order of filter). Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000394 "filter order"@en)
+SubClassOf(obo:EMPTY_0000394 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000395 (passband ripple)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000395 "The peak-to-peak variation of a filter's gain within its passband.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000395 "No ontology term found (OLS4, 2026-10-22; queries passband ripple, ripple): Wikidata ripple (Q1776117) is power-supply ripple. Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000395 "passband ripple"@en)
+SubClassOf(obo:EMPTY_0000395 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000396 (stopband attenuation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000396 "The minimum reduction of a filter's gain in its stopband relative to its passband.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000396 "No ontology term found (OLS4, 2026-10-22; queries stopband attenuation, attenuation). Under parameter. Source: did-schema V_eta_frequency_filter_model_plan.md [filter terms from Wikidata]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000396 "stopband attenuation"@en)
+SubClassOf(obo:EMPTY_0000396 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000397 (dF/F)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000397 "The change in fluorescence relative to a baseline fluorescence, (F - F0)/F0.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000397 "The quantity a calcium-imaging or other fluorescence response is measured in; its unit is om:one. No ontology term found (OLS4, 2026-10-22; queries dF/F, delta F/F, fluorescence change, relative fluorescence: UO relative fluorescence unit (0000314) and NCIT Relative Fluorescence Intensity Unit (C77535) are units, not this quantity; Wikidata, 2026-10-22, exact labels dF/F, delta F/F, relative fluorescence change, fractional fluorescence change: none). Under PATO ratio (PATO:0001470). Source: did-schema V_eta_data_body_model_plan.md [dF/F as variable] and [response variable nodes]. Jess Haley, 2026-10-22.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000397 "dF/F"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000397 "ΔF/F"@en)
+SubClassOf(obo:EMPTY_0000397 obo:PATO_0001470)
+
+# Class: obo:EMPTY_0000398 (neural response)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000398 "The activity of a neuron or population of neurons measured in response to a stimulus.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000398 "The general variable of a tuning or other stimulus-response calculation whose source does not state the quantity measured (a firing rate is wikidata:Q71762818, dF/F is EMPTY:0000397). No ontology term found (OLS4, 2026-10-23; exact queries neural response: 0 hits; neuronal response, stimulus response, neural activity: only diseases, genes, assays, cell types and GO response processes, none the measured quantity). Under PATO quality (PATO:0000001). Source: did-schema V_eta_data_body_model_plan.md [unstated response variable]. Jess Haley, 2026-10-23.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000398 "neural response"@en)
+SubClassOf(obo:EMPTY_0000398 obo:PATO_0000001)
 
 )

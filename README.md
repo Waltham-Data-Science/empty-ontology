@@ -20,6 +20,8 @@ http://purl.obolibrary.org/obo/empty.owl
 
 Editors of this ontology should use the edit version, [src/ontology/empty-edit.owl](src/ontology/empty-edit.owl)
 
+New and changed terms follow the [term conventions](docs/conventions.md): labels, definitions, synonyms, comments, obsoletion, ids and object properties.
+
 ## Contact
 
 Please use this GitHub repository's [Issue tracker](https://github.com/waltham-data-science/empty-ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.

@@ -70,6 +70,8 @@ For how to write a good term request, please read the [best practices carefully]
 
 If you have never editted this ontology before, first follow a [general tutorial](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies)
 
+Every new or changed term must follow this ontology's [term conventions](docs/conventions.md). They cover when to mint a term, labels, definitions, synonyms, comments, obsoletion, ids and object properties.
+
 **Process**:
 
 1. Clone the repository (In case you are not an offical team member, create a fork first)
