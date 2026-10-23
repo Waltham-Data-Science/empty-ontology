@@ -416,6 +416,7 @@ Declaration(Class(obo:EMPTY_0000394))
 Declaration(Class(obo:EMPTY_0000395))
 Declaration(Class(obo:EMPTY_0000396))
 Declaration(Class(obo:EMPTY_0000397))
+Declaration(Class(obo:EMPTY_0000398))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_2333))
 Declaration(Class(obo:format_3915))
@@ -3253,5 +3254,12 @@ AnnotationAssertion(rdfs:comment obo:EMPTY_0000397 "The quantity a calcium-imagi
 AnnotationAssertion(rdfs:label obo:EMPTY_0000397 "dF/F"@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasExactSynonym obo:EMPTY_0000397 "ΔF/F"@en)
 SubClassOf(obo:EMPTY_0000397 obo:PATO_0001470)
+
+# Class: obo:EMPTY_0000398 (neural response)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000398 "The activity of a neuron or population of neurons measured in response to a stimulus.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000398 "The general variable of a tuning or other stimulus-response calculation whose source does not state the quantity measured (a firing rate is wikidata:Q71762818, dF/F is EMPTY:0000397). No ontology term found (OLS4, 2026-10-23; exact queries neural response: 0 hits; neuronal response, stimulus response, neural activity: only diseases, genes, assays, cell types and GO response processes, none the measured quantity). Under PATO quality (PATO:0000001). Source: did-schema V_eta_data_body_model_plan.md [unstated response variable]. Jess Haley, 2026-10-23.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000398 "neural response"@en)
+SubClassOf(obo:EMPTY_0000398 obo:PATO_0000001)
 
 )
