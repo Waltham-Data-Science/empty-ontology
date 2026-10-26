@@ -3161,7 +3161,7 @@ SubClassOf(obo:EMPTY_0000377 obo:NCIT_C44170)
 
 # Class: obo:EMPTY_0000383 (recording epoch)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000383 "One continuous stretch of recording by one acquisition system.")
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000383 "One continuous stretch of recording, whose files may be written by one or more acquisition systems.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000383 "The node of the did-schema entity type epoch. No ontology term found (OLS4, 2026-10-22; queries recording epoch, epoch, recording period, time period): NCIT Clinical Trial Epoch (C71738) and Baseline Epoch (C125938) are trial phases; OM epoch is a unit. Under NCIT Period (C25616, an interval of time), as the entity type session is NCIT Session (C67447). Source: Jess Haley, 2026-10-22, did-schema tenet audit [L3].")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000383 "recording epoch"@en)
 SubClassOf(obo:EMPTY_0000383 obo:NCIT_C25616)
