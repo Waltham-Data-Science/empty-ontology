@@ -283,6 +283,8 @@ Declaration(Class(obo:EMPTY_0000255))
 Declaration(Class(obo:EMPTY_0000256))
 Declaration(Class(obo:EMPTY_0000257))
 Declaration(Class(obo:EMPTY_0000258))
+Declaration(Class(obo:EMPTY_0000406))
+Declaration(Class(obo:EMPTY_0000407))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:NCBITaxon:637912))
 Declaration(Class(obo:NCIT_C14240))
@@ -2000,5 +2002,19 @@ SubClassOf(obo:EMPTY_0000257 obo:EMPTY_0000129)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000258 "An image or video acquired using fluorescence microscopy.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000258 "fluorescence imaging data"@en)
 SubClassOf(obo:EMPTY_0000258 obo:NCIT_C16856)
+
+# Class: obo:EMPTY_0000406 (purpose: assessing spatial phase tuning)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000406 "States that the purpose of the stimulus is to assess spatial phase tuning: the response to a grating, such as a counterphase grating, presented at several spatial phases, from which the response latency and the sustained or transient time course of the response can also be measured.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000406 "The purpose of the counterphase grating stimuli (preSpatialPhase and postSpatialPhase) in Stacy et al. (2023) J Neurosci 43(19):3495-3508, as imported by ndi.setup.conv.vhlab.doStacyImport (NDI-matlab, ApproachMappings.json). OLS4 not yet searched for an existing term (the search could not be run when the term was written); queries to run before merging: spatial phase, spatial phase tuning, counterphase grating. Under purpose (EMPTY:0000205), with the other visual stimulus purposes (EMPTY:0000206-0000210). Steve Van Hooser, 2026-10-26.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000406 "purpose: assessing spatial phase tuning"@en)
+SubClassOf(obo:EMPTY_0000406 obo:EMPTY_0000205)
+
+# Class: obo:EMPTY_0000407 (purpose: reverse correlation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000407 "States that the purpose of the stimulus is to estimate a response kernel by reverse correlation, that is, by correlating the response with a rapidly changing stimulus sequence such as sparse noise, white noise or a stochastic grid.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000407 "The purpose of the reverse correlation stimuli (preRC and postRC) in the Stacy et al. (2023) LGN experiments, as imported by ndi.setup.conv.vhlab.doStacyImport (NDI-matlab, ApproachMappings.json). Named for the method rather than for receptive field mapping, which can be done in many ways. OLS4 not yet searched for an existing term (the search could not be run when the term was written); queries to run before merging: reverse correlation, spike-triggered average, white noise stimulus. Under purpose (EMPTY:0000205), with the other visual stimulus purposes (EMPTY:0000206-0000210). Steve Van Hooser, 2026-10-26.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000407 "purpose: reverse correlation"@en)
+SubClassOf(obo:EMPTY_0000407 obo:EMPTY_0000205)
 
 )
