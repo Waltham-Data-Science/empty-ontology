@@ -417,6 +417,13 @@ Declaration(Class(obo:EMPTY_0000395))
 Declaration(Class(obo:EMPTY_0000396))
 Declaration(Class(obo:EMPTY_0000397))
 Declaration(Class(obo:EMPTY_0000398))
+Declaration(Class(obo:EMPTY_0000399))
+Declaration(Class(obo:EMPTY_0000400))
+Declaration(Class(obo:EMPTY_0000401))
+Declaration(Class(obo:EMPTY_0000402))
+Declaration(Class(obo:EMPTY_0000403))
+Declaration(Class(obo:EMPTY_0000404))
+Declaration(Class(obo:EMPTY_0000405))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_2333))
 Declaration(Class(obo:format_3915))
@@ -3261,5 +3268,54 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000398 "The activity of a neuron 
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000398 "The general variable of a tuning or other stimulus-response calculation whose source does not state the quantity measured (a firing rate is wikidata:Q71762818, dF/F is EMPTY:0000397). No ontology term found (OLS4, 2026-10-23; exact queries neural response: 0 hits; neuronal response, stimulus response, neural activity: only diseases, genes, assays, cell types and GO response processes, none the measured quantity). Under PATO quality (PATO:0000001). Source: did-schema V_eta_data_body_model_plan.md [unstated response variable]. Jess Haley, 2026-10-23.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000398 "neural response"@en)
 SubClassOf(obo:EMPTY_0000398 obo:PATO_0000001)
+
+# Class: obo:EMPTY_0000399 (database ingestion)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000399 "A process in which the records held in one database are copied into another database, which thereafter holds them itself.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000399 "The method of a session's membership in a dataset when the session's records were ingested (NDI v1 session_in_a_dataset is_linked = 0; ndi.dataset add_ingested_session). No ontology term found (OLS4, 2026-10-26; queries data ingestion, ingest, data import, data import process, database import, data copying, data transfer): T4FS data ingestion (0000290) also includes processing and reformatting data, and its prefix is not in the NDI term registry; MI imported (1058) is a curation status. Under NCIT Data Processing (C47925). Source: did-schema V_eta_go_forward_class_audit.md [census terms] T1 and [session membership records linked or ingested]. Jess Haley, 2026-10-26.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000399 "database ingestion"@en)
+SubClassOf(obo:EMPTY_0000399 obo:NCIT_C47925)
+
+# Class: obo:EMPTY_0000400 (database linking)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000400 "A process in which one database records a reference to another database stored elsewhere, whose records stay where they are and are read from there.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000400 "The method of a session's membership in a dataset when the session was linked (NDI v1 session_in_a_dataset is_linked = 1; ndi.dataset add_linked_session). No ontology term found (OLS4, 2026-10-26; queries linked data, data linking, database link, database federation, data virtualization, pointer, hyperlink, external data reference): T4FS data linkage (0000423) and NCIT Record Linkage Study (C15424) mean linking records of the same individual; NCIT Pointer (C48909) is an address, not a process. Under NCIT Data Processing (C47925). Source: did-schema V_eta_go_forward_class_audit.md [census terms] T1 and [session membership records linked or ingested]. Jess Haley, 2026-10-26.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000400 "database linking"@en)
+SubClassOf(obo:EMPTY_0000400 obo:NCIT_C47925)
+
+# Class: obo:EMPTY_0000401 (software class)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000401 "A class defined in a software library, named by its fully qualified name, whose constructor creates an object from a list of arguments.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000401 "The variable of a linked session's opener class (NDI v1 session_in_a_dataset session_creator, for example ndi.session.dir), a parameter of the database linking method. No ontology term found (OLS4, 2026-10-26; queries class name, constructor, object class, class in SWO): NCIT Object Class (C41106) is an ISO 11179 data-modelling notion and IAO named class expression (0000421) is an OWL expression; neither names a class in code. Under IAO information content entity (IAO:0000030). Source: did-schema V_eta_go_forward_class_audit.md [census terms] T1. Jess Haley, 2026-10-26.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000401 "software class"@en)
+SubClassOf(obo:EMPTY_0000401 obo:IAO_0000030)
+
+# Class: obo:EMPTY_0000402 (value range)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000402 "The lowest and highest values that the values of a data body may take, given as a pair [minimum maximum].")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000402 "Written as a condition on an image data body only when NDI v1 image or imageStack data_limits differs from the range of its data type. NCIT Range (C38013) leads with a single difference ('The difference between the lowest and highest numerical values'), not the pair. Other OLS4 results (2026-10-26; queries value range, data range, range of values, dynamic range, minimum and maximum value, intensity range, pixel value range): STATO range (0000035) is a scalar measure of variation; NCIT Dynamic Range (C94889) is a difference or ratio; NCIT Reference Range (C71474) is for clinical results. Under IAO data item (IAO:0000027). Source: did-schema V_eta_go_forward_class_audit.md [census terms] T3 and [image file details placed]. Jess Haley, 2026-10-26.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000402 "value range"@en)
+SubClassOf(obo:EMPTY_0000402 obo:IAO_0000027)
+
+# Class: obo:EMPTY_0000403 (device local time)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000403 "A time scale kept by a recording device that runs only within one recording epoch, so that times on it cannot be compared across epochs.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000403 "A clock of a relative time reference; the NDI v1 clock type code is 'dev_local_time' (a code, not a synonym), defined in NDI ndi.time.clocktype as 'A device keeps its own local time only within epochs'. No ontology term found (OLS4, 2026-10-26; queries clock time, device clock, local time, system clock, global time, time scale): NCIT Clock Device Time (C207913) does not separate local, device-global and experiment-global time. Under NCIT Clock Device Time (C207913). Source: did-schema V_eta_go_forward_class_audit.md [census terms] T4 and [clock terms get nodes]. Jess Haley, 2026-10-26.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000403 "device local time"@en)
+SubClassOf(obo:EMPTY_0000403 obo:NCIT_C207913)
+
+# Class: obo:EMPTY_0000404 (device global time)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000404 "A time scale kept by a recording device that runs continuously across its recording epochs, so that times on it can be compared across those epochs of that device.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000404 "A clock of a relative time reference; the NDI v1 clock type code is 'dev_global_time' (a code, not a synonym), defined in NDI ndi.time.clocktype as a device that 'keeps its own global time ... (that is, it knows its own clock across recording epochs)'. No ontology term found (OLS4, 2026-10-26; queries clock time, device clock, local time, system clock, global time, time scale): NCIT Clock Device Time (C207913) does not separate local, device-global and experiment-global time. Under NCIT Clock Device Time (C207913). Source: did-schema V_eta_go_forward_class_audit.md [census terms] T4 and [clock terms get nodes]. Jess Haley, 2026-10-26.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000404 "device global time"@en)
+SubClassOf(obo:EMPTY_0000404 obo:NCIT_C207913)
+
+# Class: obo:EMPTY_0000405 (experiment global time)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000405 "A time scale shared by all the devices of an experiment, to which their own clocks are aligned, so that times from different devices can be compared.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000405 "A clock of a relative time reference; the NDI v1 clock type code is 'exp_global_time' (a code, not a synonym), defined in NDI ndi.time.clocktype as 'Experiment global time (within 0.1ms)'. No ontology term found (OLS4, 2026-10-26; queries clock time, device clock, local time, system clock, global time, time scale): NCIT Clock Device Time (C207913) does not separate local, device-global and experiment-global time; the fourth clock, utc, is Wikidata Coordinated Universal Time (Q1536). Under NCIT Clock Device Time (C207913). Source: did-schema V_eta_go_forward_class_audit.md [census terms] T4 and [clock terms get nodes]. Jess Haley, 2026-10-26.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000405 "experiment global time"@en)
+SubClassOf(obo:EMPTY_0000405 obo:NCIT_C207913)
 
 )
