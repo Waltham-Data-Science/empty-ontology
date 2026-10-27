@@ -425,6 +425,8 @@ Declaration(Class(obo:EMPTY_0000403))
 Declaration(Class(obo:EMPTY_0000404))
 Declaration(Class(obo:EMPTY_0000405))
 Declaration(Class(obo:EMPTY_0000408))
+Declaration(Class(obo:EMPTY_0000409))
+Declaration(Class(obo:EMPTY_0000410))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_2333))
 Declaration(Class(obo:format_3915))
@@ -3325,5 +3327,19 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000408 "The number of electrodes 
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000408 "No general ontology term found (OLS4, 2026-10-27; queries number of electrodes, electrode count, electrode number, number of channels, channel count): NCIT Number of Electrocardiogram Electrodes (C154906), Number of Electroencephalogram Electrodes (C154713), Number of Electrooculogram Electrodes (C154907) and Number of Electromyogram Electrodes (C154908) each count the electrodes of one clinical recording kind; OBI count of multi-electrode plate electrodes detecting action potential assay (0003903) and its siblings are assays, not the count. Wikidata has no item for number of electrodes or electrode count. The count of electrodes on a multielectrode array (Wikidata Q1952355), for example the 4 of a tetrode; it replaces the NDI v1 probe type n-trode (a code, not a synonym). Under parameter. Source: did-schema V_eta_go_forward_class_audit.md [number of electrodes minted] and [n-trode is a multielectrode array]. Jess Haley, 2026-10-27.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000408 "number of electrodes"@en)
 SubClassOf(obo:EMPTY_0000408 obo:EMPTY_0000080)
+
+# Class: obo:EMPTY_0000409 (bath solution)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000409 "The solution in which a tissue preparation is immersed or perfused during an experiment.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000409 "The variable of the manipulation 'the subject sat in this solution' that every v1 bath record makes; its value is the whole formulation (e.g. artificial cerebrospinal fluid, Wikidata Q30314419, a value and not this variable). No ontology term with a definition found (OLS4, 2026-10-27; queries bath solution, superfusate, perfusion solution): REPRODUCE-ME Bath Solution has no definition; XCO physiological salt solution perfusate (0000147), Kreb's solution perfusate (0000116) and saline solution perfusate (0000117) name particular solutions, which are values. Wikidata has no item for bath solution or superfusate. Under NCIT Solution (C70830). Source: did-schema V_eta_go_forward_class_audit.md [bath solution minted] and [bath is two statements]. Jess Haley, 2026-10-27.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000409 "bath solution"@en)
+SubClassOf(obo:EMPTY_0000409 obo:NCIT_C70830)
+
+# Class: obo:EMPTY_0000410 (text channel)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000410 "A channel whose values are text entries, each at the time it was recorded.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000410 "A channel type of acquisition_channels.channels.type, beside event channel (EMPTY:0000376) and marker channel (EMPTY:0000377). No ontology term found (OLS4, 2026-10-27; query text channel: no channel term among the hits). NCIT Text (C25704) is today the channel type of the NDI v1 prefix 'tx' in the did-schema term registry ([channel types], 2026-10-22); whether this term replaces it there is not decided. Under NCIT Channel (C44170). Source: did-schema V_eta_go_forward_class_audit.md [event lines are event channels]. Jess Haley, 2026-10-27.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000410 "text channel"@en)
+SubClassOf(obo:EMPTY_0000410 obo:NCIT_C44170)
 
 )
