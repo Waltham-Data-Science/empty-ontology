@@ -424,6 +424,7 @@ Declaration(Class(obo:EMPTY_0000402))
 Declaration(Class(obo:EMPTY_0000403))
 Declaration(Class(obo:EMPTY_0000404))
 Declaration(Class(obo:EMPTY_0000405))
+Declaration(Class(obo:EMPTY_0000408))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_2333))
 Declaration(Class(obo:format_3915))
@@ -3317,5 +3318,12 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000405 "A time scale shared by al
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000405 "A clock of a relative time reference; the NDI v1 clock type code is 'exp_global_time' (a code, not a synonym), defined in NDI ndi.time.clocktype as 'Experiment global time (within 0.1ms)'. No ontology term found (OLS4, 2026-10-26; queries clock time, device clock, local time, system clock, global time, time scale): NCIT Clock Device Time (C207913) does not separate local, device-global and experiment-global time; the fourth clock, utc, is Wikidata Coordinated Universal Time (Q1536). Under NCIT Clock Device Time (C207913). Source: did-schema V_eta_go_forward_class_audit.md [census terms] T4 and [clock terms get nodes]. Jess Haley, 2026-10-26.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000405 "experiment global time"@en)
 SubClassOf(obo:EMPTY_0000405 obo:NCIT_C207913)
+
+# Class: obo:EMPTY_0000408 (number of electrodes)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000408 "The number of electrodes a device has.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000408 "No general ontology term found (OLS4, 2026-10-27; queries number of electrodes, electrode count, electrode number, number of channels, channel count): NCIT Number of Electrocardiogram Electrodes (C154906), Number of Electroencephalogram Electrodes (C154713), Number of Electrooculogram Electrodes (C154907) and Number of Electromyogram Electrodes (C154908) each count the electrodes of one clinical recording kind; OBI count of multi-electrode plate electrodes detecting action potential assay (0003903) and its siblings are assays, not the count. Wikidata has no item for number of electrodes or electrode count. The count of electrodes on a multielectrode array (Wikidata Q1952355), for example the 4 of a tetrode; it replaces the NDI v1 probe type n-trode (a code, not a synonym). Under parameter. Source: did-schema V_eta_go_forward_class_audit.md [number of electrodes minted] and [n-trode is a multielectrode array]. Jess Haley, 2026-10-27.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000408 "number of electrodes"@en)
+SubClassOf(obo:EMPTY_0000408 obo:EMPTY_0000080)
 
 )
