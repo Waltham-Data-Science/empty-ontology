@@ -427,6 +427,11 @@ Declaration(Class(obo:EMPTY_0000405))
 Declaration(Class(obo:EMPTY_0000408))
 Declaration(Class(obo:EMPTY_0000409))
 Declaration(Class(obo:EMPTY_0000410))
+Declaration(Class(obo:EMPTY_0000411))
+Declaration(Class(obo:EMPTY_0000412))
+Declaration(Class(obo:EMPTY_0000413))
+Declaration(Class(obo:EMPTY_0000414))
+Declaration(Class(obo:EMPTY_0000415))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_2333))
 Declaration(Class(obo:format_3915))
@@ -3341,5 +3346,50 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000410 "A channel whose values ar
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000410 "A channel type of acquisition_channels.channels.type, beside event channel (EMPTY:0000376) and marker channel (EMPTY:0000377). No ontology term found (OLS4, 2026-10-27; query text channel: no channel term among the hits). NCIT Text (C25704) is today the channel type of the NDI v1 prefix 'tx' in the did-schema term registry ([channel types], 2026-10-22); whether this term replaces it there is not decided. Under NCIT Channel (C44170). Source: did-schema V_eta_go_forward_class_audit.md [event lines are event channels]. Jess Haley, 2026-10-27.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000410 "text channel"@en)
 SubClassOf(obo:EMPTY_0000410 obo:NCIT_C44170)
+
+# Class: obo:EMPTY_0000411 (patch electrode)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000411 "A glass micropipette whose tip is sealed against a cell membrane to record or control the electrical activity of the cell or of a membrane patch.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000411 "A device kind of an NDI element (the v1 element type the DID-matlab element migrator maps to this term). No ontology term found (OLS4, 2026-10-28; exact label and synonym queries patch electrode, patch pipette: 0 hits). Under OBI micro electrode (0000816). Source: did-schema V_eta_go_forward_class_audit.md [device kinds minted] and [device kind labels and synonyms]. Jess Haley, 2026-10-28.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000411 "patch electrode"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000411 "patch pipette"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000411 "patch-clamp electrode"@en)
+SubClassOf(obo:EMPTY_0000411 obo:OBI_0000816)
+
+# Class: obo:EMPTY_0000412 (sharp electrode)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000412 "A fine-tipped glass micropipette electrode that penetrates the cell membrane to record intracellular electrical activity.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000412 "A device kind of an NDI element (the v1 element type the DID-matlab element migrator maps to this term). No ontology term found (OLS4, 2026-10-28; exact label and synonym queries sharp electrode, sharp microelectrode, intracellular electrode: 0 hits). Intracellular electrode is a related synonym, not exact, because a whole-cell patch electrode (EMPTY:0000411) also records intracellularly. Under OBI micro electrode (0000816). Source: did-schema V_eta_go_forward_class_audit.md [device kinds minted] and [device kind labels and synonyms]. Jess Haley, 2026-10-28.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000412 "sharp electrode"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000412 "sharp microelectrode"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000412 "intracellular electrode"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000412 "intracellular microelectrode"@en)
+SubClassOf(obo:EMPTY_0000412 obo:OBI_0000816)
+
+# Class: obo:EMPTY_0000413 (electrical stimulator)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000413 "A device that delivers electrical current or voltage pulses to tissue to evoke a response.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000413 "A device kind of an NDI element (the v1 element type the DID-matlab element migrator maps to this term). No ontology term found (OLS4, 2026-10-28; exact label and synonym queries electrical stimulator: 0 hits; stimulator: only MI 0840 and SBO 0000459 (molecular-interaction roles, not devices) and SNOMED). Under OBI device (0000968). Source: did-schema V_eta_go_forward_class_audit.md [device kinds minted] and [device kind labels and synonyms]. Jess Haley, 2026-10-28.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000413 "electrical stimulator"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000413 "stimulator"@en)
+SubClassOf(obo:EMPTY_0000413 obo:OBI_0000968)
+
+# Class: obo:EMPTY_0000414 (lick spout)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000414 "A drinking spout that delivers liquid to an animal and detects its licks.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000414 "A device kind of an NDI element (the v1 element type the DID-matlab element migrator maps to this term). No ontology term found (OLS4, 2026-10-28; exact label and synonym queries lick spout, lickometer, lick port: 0 hits). Under OBI device (0000968). Source: did-schema V_eta_go_forward_class_audit.md [device kinds minted] and [device kind labels and synonyms]. Jess Haley, 2026-10-28.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000414 "lick spout"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000414 "lickometer spout"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000414 "lick port"@en)
+SubClassOf(obo:EMPTY_0000414 obo:OBI_0000968)
+
+# Class: obo:EMPTY_0000415 (reward port)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000415 "A site in a behavioural apparatus at which an animal receives a food or liquid reward.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000415 "A device kind of an NDI element (the v1 element type the DID-matlab element migrator maps to this term). No ontology term found (OLS4, 2026-10-28; exact label and synonym queries reward port, reward dispenser: 0 hits). Under OBI device (0000968). Source: did-schema V_eta_go_forward_class_audit.md [device kinds minted] and [device kind labels and synonyms]. Jess Haley, 2026-10-28.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000415 "reward port"@en)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:EMPTY_0000415 "reward dispenser"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:EMPTY_0000415 "reward well"@en)
+SubClassOf(obo:EMPTY_0000415 obo:OBI_0000968)
 
 )
