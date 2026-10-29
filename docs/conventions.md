@@ -121,7 +121,7 @@ For example, EMPTY:0000140 *obsolete encounter onset time* has
 
 - Ids are `EMPTY:` followed by seven digits. They are allocated in sequence from the
   ONTOLOGY-CREATOR range in `src/ontology/empty-idranges.owl`.
-- Classes and object properties use the same counter. EMPTY:0000001 to EMPTY:0000410 are all
+- Classes and object properties use the same counter. EMPTY:0000001 to EMPTY:0000415 are all
   allocated with no gaps. EMPTY:0000406 and EMPTY:0000407 were allocated on the
   `development` branch (PR #28).
 - An id is never reused, not even when its term is made obsolete (rule 6).
