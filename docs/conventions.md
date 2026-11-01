@@ -125,7 +125,7 @@ made obsolete on 2026-11-01).
 
 - Ids are `EMPTY:` followed by seven digits. They are allocated in sequence from the
   ONTOLOGY-CREATOR range in `src/ontology/empty-idranges.owl`.
-- Classes and object properties use the same counter. EMPTY:0000001 to EMPTY:0000425 are all
+- Classes and object properties use the same counter. EMPTY:0000001 to EMPTY:0000430 are all
   allocated with no gaps. EMPTY:0000406 and EMPTY:0000407 were allocated on the
   `development` branch (PR #28).
 - An id is never reused, not even when its term is made obsolete (rule 6).
