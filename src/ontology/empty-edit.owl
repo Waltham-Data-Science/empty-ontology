@@ -442,6 +442,11 @@ Declaration(Class(obo:EMPTY_0000422))
 Declaration(Class(obo:EMPTY_0000423))
 Declaration(Class(obo:EMPTY_0000424))
 Declaration(Class(obo:EMPTY_0000425))
+Declaration(Class(obo:EMPTY_0000426))
+Declaration(Class(obo:EMPTY_0000427))
+Declaration(Class(obo:EMPTY_0000428))
+Declaration(Class(obo:EMPTY_0000429))
+Declaration(Class(obo:EMPTY_0000430))
 Declaration(Class(obo:format_1929))
 Declaration(Class(obo:format_2333))
 Declaration(Class(obo:format_3915))
@@ -3761,5 +3766,40 @@ AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000425 "A transfer method in whic
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000425 "General term for the more specific term EMPTY:0000256, now obsolete with consider this term (Jess Haley, 2026-10-30, did-schema did_v2_go_forward_class_audit.md [assay labels batch 6]; one new general term per label instead of a relabel, Jess Haley, 2026-11-01). No ontology term found (OLS4, 2026-11-01; queries pick transfer, worm pick, picking: no matching term; the valuesets COLONY_PICKER hit is a device). Wikidata, 2026-11-01: queries pick transfer, worm pick: no item. Definition drafted 2026-11-01 from the replaced term's definition, with the assay and units removed (conventions rule 3). Replaced label: 'C. elegans transfer method: titanium pick'.")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000425 "pick transfer"@en)
 SubClassOf(obo:EMPTY_0000425 obo:EMPTY_0000189)
+
+# Class: obo:EMPTY_0000426 (Blosc)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000426 "A meta-compressor that splits data into blocks, optionally rearranges each block with a shuffle filter, and compresses each block with a chosen inner compressor.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000426 "The codec of a data body's compression block whose v1 spelling is 'blosc-<inner compressor>' (a v1 lightsheetZarrLevel's 'blosc-zstd'). No ontology term found (OLS4, 2026-11-01: Blosc, Blosc compressor, c-blosc, blosc2, blosc meta-compressor: 0 hits). Wikidata, 2026-11-01: only Q107380959 'blosc', a Python library (the binding, not the compressor). Under IAO algorithm (0000064), as LZW (wikidata:Q2681) is an algorithm. Source: did-schema did_v2_go_forward_class_audit.md [compression terms registered] (Jess Haley, 2026-11-01: 'Yes' to registering the compression terms of [compression block and empty levels], and 'double check the compression terms and settings don't have existing ontology nodes'). Label, definition and parent are DRAFTS for Jess Haley's approval.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000426 "Blosc"@en)
+SubClassOf(obo:EMPTY_0000426 obo:IAO_0000064)
+
+# Class: obo:EMPTY_0000427 (compression level)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000427 "A setting of a compressor that trades speed for compressed size: a higher level compresses more and runs slower.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000427 "A parameter of a data body's compression block (numcodecs.Blosc key `clevel`). No ontology term found (OLS4 and Wikidata, 2026-11-01: compression level: no term; wikidata:Q3113333 'data compression ratio' is an outcome, not the setting). Under IAO data item (0000027). Source: did-schema did_v2_go_forward_class_audit.md [compression terms registered] (Jess Haley, 2026-11-01: 'Yes' to registering the compression terms of [compression block and empty levels], and 'double check the compression terms and settings don't have existing ontology nodes'). Label, definition and parent are DRAFTS for Jess Haley's approval.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000427 "compression level"@en)
+SubClassOf(obo:EMPTY_0000427 obo:IAO_0000027)
+
+# Class: obo:EMPTY_0000428 (compression block size)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000428 "The amount of uncompressed data that a block compressor compresses as one independent unit.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000428 "A parameter of a data body's compression block (numcodecs.Blosc key `blocksize`). No ontology term found (OLS4, 2026-11-01: none; Wikidata Q1053357 'block size' is the length of a cipher's bit string, and Q1146944 'block' is a data block, not its size). Under IAO data item (0000027). Source: did-schema did_v2_go_forward_class_audit.md [compression terms registered] (Jess Haley, 2026-11-01: 'Yes' to registering the compression terms of [compression block and empty levels], and 'double check the compression terms and settings don't have existing ontology nodes'). Label, definition and parent are DRAFTS for Jess Haley's approval.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000428 "compression block size"@en)
+SubClassOf(obo:EMPTY_0000428 obo:IAO_0000027)
+
+# Class: obo:EMPTY_0000429 (shuffle filter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000429 "A transformation applied before compression that regroups the bytes, or the bits, of fixed-size elements so that those of equal significance are stored together.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000429 "A parameter of a data body's compression block (numcodecs.Blosc key `shuffle`; values none, byte or bit). No ontology term found (OLS4, 2026-11-01: none, the AFO shuffle term is spectroscopy; Wikidata shuffle, shuffle filter, byte shuffle, bitshuffle: only permutation, Q161519, and card shuffling). Under IAO algorithm (0000064). Source: did-schema did_v2_go_forward_class_audit.md [compression terms registered] (Jess Haley, 2026-11-01: 'Yes' to registering the compression terms of [compression block and empty levels], and 'double check the compression terms and settings don't have existing ontology nodes'). Label, definition and parent are DRAFTS for Jess Haley's approval.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000429 "shuffle filter"@en)
+SubClassOf(obo:EMPTY_0000429 obo:IAO_0000064)
+
+# Class: obo:EMPTY_0000430 (inner compressor)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000430 "The compression algorithm that a meta-compressor applies to each block of data.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000430 "A parameter of a data body's compression block (numcodecs.Blosc key `cname`); its value is a codec term, e.g. wikidata:Q26737171 Zstandard. No ontology term found (OLS4 and Wikidata, 2026-11-01). Under IAO algorithm (0000064). Source: did-schema did_v2_go_forward_class_audit.md [compression terms registered] (Jess Haley, 2026-11-01: 'Yes' to registering the compression terms of [compression block and empty levels], and 'double check the compression terms and settings don't have existing ontology nodes'). Label, definition and parent are DRAFTS for Jess Haley's approval.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000430 "inner compressor"@en)
+SubClassOf(obo:EMPTY_0000430 obo:IAO_0000064)
 
 )
