@@ -34,8 +34,9 @@ queries flashed bar, flashed bar stimulus, …): XCO visual stimulus (0000049) a
   *OME-Zarr*).
 
 *Not yet followed everywhere:* many labels from before 2026-10-20 still carry their context,
-for example "elevated plus maze: open arm (north) - entries" and the
-"C. elegans chemotaxis assay parameter: …" terms.
+for example "treatment: acclimation temperature" and "C. elegans behavioral assay measurement".
+The elevated plus maze, startle, fear conditioning and C. elegans assay terms were generalised
+or made obsolete on 2026-11-01 (did-schema [assay labels batch 1] to [assay labels batch 6]).
 
 ## 3. Definitions
 
@@ -115,13 +116,16 @@ A term is never deleted, and its id is never reused. To make a term obsolete:
 - keep the definition, and drop the superclasses and synonyms.
 
 For example, EMPTY:0000140 *obsolete encounter onset time* has
-`oboInOwl:consider "EMPTY:0000368"`. All 32 obsolete terms follow this pattern.
+`oboInOwl:consider "EMPTY:0000368"`. All 121 obsolete terms follow this pattern. When no term
+replaces an obsolete term, it has no `consider`, and its comment starts "Obsolete: no replacing
+term;" and says where the meaning now lives (for example EMPTY:0000058 and the grouping classes
+made obsolete on 2026-11-01).
 
 ## 7. Identifiers
 
 - Ids are `EMPTY:` followed by seven digits. They are allocated in sequence from the
   ONTOLOGY-CREATOR range in `src/ontology/empty-idranges.owl`.
-- Classes and object properties use the same counter. EMPTY:0000001 to EMPTY:0000416 are all
+- Classes and object properties use the same counter. EMPTY:0000001 to EMPTY:0000425 are all
   allocated with no gaps. EMPTY:0000406 and EMPTY:0000407 were allocated on the
   `development` branch (PR #28).
 - An id is never reused, not even when its term is made obsolete (rule 6).
