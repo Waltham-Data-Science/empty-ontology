@@ -4,6 +4,11 @@
 # The QC workflow (qc.yml) runs with IMP=false, so it never rebuilds an
 # import module. Run this one after changing an imports/<ont>_terms.txt file
 # or the import_group in empty-odk.yaml.
+#
+# GitHub only dispatches a workflow it has registered, and it registers a
+# workflow that is not on the default branch only when an event triggers it.
+# The push trigger below exists for that: a push that changes this file
+# registers the workflow, and the job is skipped (it runs only on dispatch).
 
 name: Refresh imports
 
@@ -19,12 +24,16 @@ on:
         required: false
         type: boolean
         default: true
+  push:
+    paths:
+      - .github/workflows/refresh-imports.yml
 
 permissions:
   contents: write
 
 jobs:
   refresh_imports:
+    if: ${{ github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:v1.6
     timeout-minutes: 300
