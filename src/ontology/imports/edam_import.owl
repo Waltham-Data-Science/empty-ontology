@@ -1,0 +1,317 @@
+Prefix(:=<http://purl.obolibrary.org/obo/empty/imports/edam_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/empty/imports/edam_import.owl>
+<http://purl.obolibrary.org/obo/empty/releases/2026-11-09/imports/edam_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://edamontology.org/EDAM_1.25-20260626T1230Z>)
+Annotation(owl:versionInfo "2026-11-09")
+
+Declaration(Class(<http://edamontology.org/data_0006>))
+Declaration(Class(<http://edamontology.org/data_0849>))
+Declaration(Class(<http://edamontology.org/data_0863>))
+Declaration(Class(<http://edamontology.org/data_0928>))
+Declaration(Class(<http://edamontology.org/data_1916>))
+Declaration(Class(<http://edamontology.org/data_2044>))
+Declaration(Class(<http://edamontology.org/data_2082>))
+Declaration(Class(<http://edamontology.org/data_2535>))
+Declaration(Class(<http://edamontology.org/data_2603>))
+Declaration(Class(<http://edamontology.org/data_3112>))
+Declaration(Class(<http://edamontology.org/format_1915>))
+Declaration(Class(<http://edamontology.org/format_1919>))
+Declaration(Class(<http://edamontology.org/format_1921>))
+Declaration(Class(<http://edamontology.org/format_1929>))
+Declaration(Class(<http://edamontology.org/format_2058>))
+Declaration(Class(<http://edamontology.org/format_2200>))
+Declaration(Class(<http://edamontology.org/format_2330>))
+Declaration(Class(<http://edamontology.org/format_2333>))
+Declaration(Class(<http://edamontology.org/format_2350>))
+Declaration(Class(<http://edamontology.org/format_2546>))
+Declaration(Class(<http://edamontology.org/format_2554>))
+Declaration(Class(<http://edamontology.org/format_3033>))
+Declaration(Class(<http://edamontology.org/format_3915>))
+Declaration(Class(<http://edamontology.org/operation_0004>))
+Declaration(Class(<http://edamontology.org/topic_0003>))
+Declaration(Class(<http://edamontology.org/topic_0080>))
+Declaration(Class(<http://edamontology.org/topic_0203>))
+Declaration(Class(<http://edamontology.org/topic_3053>))
+Declaration(Class(<http://edamontology.org/topic_3070>))
+Declaration(Class(<http://edamontology.org/topic_3307>))
+Declaration(Class(<http://edamontology.org/topic_3321>))
+Declaration(Class(<http://edamontology.org/topic_4019>))
+Declaration(ObjectProperty(<http://edamontology.org/has_format>))
+Declaration(ObjectProperty(<http://edamontology.org/has_topic>))
+Declaration(ObjectProperty(<http://edamontology.org/is_format_of>))
+Declaration(ObjectProperty(<http://edamontology.org/is_topic_of>))
+Declaration(NamedIndividual(<http://edamontology.org>))
+Declaration(NamedIndividual(<http://edamontology.org/format_2197>))
+Declaration(NamedIndividual(<http://edamontology.org/format_3261>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#consider>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://edamontology.org/has_format> (has format)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/has_format> "has format")
+InverseObjectProperties(<http://edamontology.org/has_format> <http://edamontology.org/is_format_of>)
+ObjectPropertyDomain(<http://edamontology.org/has_format> <http://edamontology.org/data_0006>)
+ObjectPropertyRange(<http://edamontology.org/has_format> <http://edamontology.org/format_1915>)
+
+# Object Property: <http://edamontology.org/has_topic> (has topic)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/has_topic> "has topic")
+InverseObjectProperties(<http://edamontology.org/has_topic> <http://edamontology.org/is_topic_of>)
+ObjectPropertyDomain(<http://edamontology.org/has_topic> ObjectUnionOf(<http://edamontology.org/data_0006> <http://edamontology.org/operation_0004>))
+ObjectPropertyRange(<http://edamontology.org/has_topic> <http://edamontology.org/topic_0003>)
+
+# Object Property: <http://edamontology.org/is_format_of> (is format of)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/is_format_of> "is format of")
+ObjectPropertyDomain(<http://edamontology.org/is_format_of> <http://edamontology.org/format_1915>)
+ObjectPropertyRange(<http://edamontology.org/is_format_of> <http://edamontology.org/data_0006>)
+
+# Object Property: <http://edamontology.org/is_topic_of> (is topic of)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/is_topic_of> "is topic of")
+ObjectPropertyDomain(<http://edamontology.org/is_topic_of> <http://edamontology.org/topic_0003>)
+ObjectPropertyRange(<http://edamontology.org/is_topic_of> ObjectUnionOf(<http://edamontology.org/data_0006> <http://edamontology.org/operation_0004>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://edamontology.org/data_0006> (Data)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/data_0006> "Data")
+DisjointClasses(<http://edamontology.org/data_0006> <http://edamontology.org/format_1915>)
+DisjointClasses(<http://edamontology.org/data_0006> <http://edamontology.org/operation_0004>)
+DisjointClasses(<http://edamontology.org/data_0006> <http://edamontology.org/topic_0003>)
+
+# Class: <http://edamontology.org/data_0849> (Sequence record)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/data_0849> "Sequence record")
+SubClassOf(<http://edamontology.org/data_0849> <http://edamontology.org/data_2044>)
+
+# Class: <http://edamontology.org/data_0863> (Sequence alignment)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/data_0863> "Multiple sequence alignment")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/data_0863> "msa")
+AnnotationAssertion(rdfs:label <http://edamontology.org/data_0863> "Sequence alignment")
+SubClassOf(<http://edamontology.org/data_0863> <http://edamontology.org/data_1916>)
+SubClassOf(<http://edamontology.org/data_0863> ObjectSomeValuesFrom(<http://edamontology.org/has_topic> <http://edamontology.org/topic_0080>))
+
+# Class: <http://edamontology.org/data_0928> (Gene expression profile)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://edamontology.org/data_0928> "Gene expression pattern")
+AnnotationAssertion(rdfs:label <http://edamontology.org/data_0928> "Gene expression profile")
+SubClassOf(<http://edamontology.org/data_0928> <http://edamontology.org/data_2603>)
+
+# Class: <http://edamontology.org/data_1916> (Alignment)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/data_1916> "Alignment")
+SubClassOf(<http://edamontology.org/data_1916> <http://edamontology.org/data_0006>)
+
+# Class: <http://edamontology.org/data_2044> (Sequence)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/data_2044> "Sequences")
+AnnotationAssertion(rdfs:label <http://edamontology.org/data_2044> "Sequence")
+SubClassOf(<http://edamontology.org/data_2044> <http://edamontology.org/data_0006>)
+SubClassOf(<http://edamontology.org/data_2044> ObjectSomeValuesFrom(<http://edamontology.org/has_topic> <http://edamontology.org/topic_0080>))
+
+# Class: <http://edamontology.org/data_2082> (Matrix)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/data_2082> "Array")
+AnnotationAssertion(rdfs:label <http://edamontology.org/data_2082> "Matrix")
+SubClassOf(<http://edamontology.org/data_2082> <http://edamontology.org/data_0006>)
+
+# Class: <http://edamontology.org/data_2535> (Sequence tag profile)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/data_2535> "Sequencing-based expression profile")
+AnnotationAssertion(rdfs:label <http://edamontology.org/data_2535> "Sequence tag profile")
+SubClassOf(<http://edamontology.org/data_2535> <http://edamontology.org/data_0928>)
+
+# Class: <http://edamontology.org/data_2603> (Expression data)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://edamontology.org/data_2603> "Protein profile")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://edamontology.org/data_2603> "Protein quantification data")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://edamontology.org/data_2603> "Proteome profile")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://edamontology.org/data_2603> "Proteome quantification data")
+AnnotationAssertion(rdfs:label <http://edamontology.org/data_2603> "Expression data")
+SubClassOf(<http://edamontology.org/data_2603> <http://edamontology.org/data_0006>)
+SubClassOf(<http://edamontology.org/data_2603> ObjectSomeValuesFrom(<http://edamontology.org/has_topic> <http://edamontology.org/topic_0203>))
+
+# Class: <http://edamontology.org/data_3112> (Gene expression matrix)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/data_3112> "Gene expression data matrix")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/data_3112> "Normalised microarray data")
+AnnotationAssertion(rdfs:label <http://edamontology.org/data_3112> "Gene expression matrix")
+SubClassOf(<http://edamontology.org/data_3112> <http://edamontology.org/data_2082>)
+SubClassOf(<http://edamontology.org/data_3112> <http://edamontology.org/data_2603>)
+
+# Class: <http://edamontology.org/format_1915> (Format)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/format_1915> "Data format")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/format_1915> "Exchange format")
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_1915> "Format")
+DisjointClasses(<http://edamontology.org/format_1915> <http://edamontology.org/operation_0004>)
+DisjointClasses(<http://edamontology.org/format_1915> <http://edamontology.org/topic_0003>)
+
+# Class: <http://edamontology.org/format_1919> (Sequence record format)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_1919> "Sequence record format")
+SubClassOf(<http://edamontology.org/format_1919> <http://edamontology.org/format_2350>)
+SubClassOf(<http://edamontology.org/format_1919> ObjectSomeValuesFrom(<http://edamontology.org/is_format_of> <http://edamontology.org/data_0849>))
+
+# Class: <http://edamontology.org/format_1921> (Alignment format)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_1921> "Alignment format")
+SubClassOf(<http://edamontology.org/format_1921> <http://edamontology.org/format_2350>)
+SubClassOf(<http://edamontology.org/format_1921> ObjectSomeValuesFrom(<http://edamontology.org/is_format_of> <http://edamontology.org/data_0863>))
+
+# Class: <http://edamontology.org/format_1929> (FASTA)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/format_1929> "FASTA format")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/format_1929> "FASTA sequence format")
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_1929> "FASTA")
+SubClassOf(<http://edamontology.org/format_1929> <http://edamontology.org/format_2200>)
+SubClassOf(<http://edamontology.org/format_1929> <http://edamontology.org/format_2554>)
+
+# Class: <http://edamontology.org/format_2058> (Gene expression report format)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/format_2058> "Gene expression data format")
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_2058> "Gene expression report format")
+SubClassOf(<http://edamontology.org/format_2058> <http://edamontology.org/format_2350>)
+SubClassOf(<http://edamontology.org/format_2058> ObjectSomeValuesFrom(<http://edamontology.org/is_format_of> <http://edamontology.org/data_2603>))
+
+# Class: <http://edamontology.org/format_2200> (FASTA-like (text))
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_2200> "FASTA-like (text)")
+SubClassOf(<http://edamontology.org/format_2200> <http://edamontology.org/format_2330>)
+SubClassOf(<http://edamontology.org/format_2200> <http://edamontology.org/format_2546>)
+
+# Class: <http://edamontology.org/format_2330> (Textual format)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/format_2330> "Plain text format")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/format_2330> "txt")
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_2330> "Textual format")
+SubClassOf(<http://edamontology.org/format_2330> <http://edamontology.org/format_1915>)
+DisjointClasses(<http://edamontology.org/format_2330> <http://edamontology.org/format_2333>)
+
+# Class: <http://edamontology.org/format_2333> (Binary format)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_2333> "Binary format")
+SubClassOf(<http://edamontology.org/format_2333> <http://edamontology.org/format_1915>)
+
+# Class: <http://edamontology.org/format_2350> (Format (by type of data))
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/format_2350> "Format (typed)")
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_2350> "Format (by type of data)")
+SubClassOf(<http://edamontology.org/format_2350> <http://edamontology.org/format_1915>)
+
+# Class: <http://edamontology.org/format_2546> (FASTA-like)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_2546> "FASTA-like")
+SubClassOf(<http://edamontology.org/format_2546> <http://edamontology.org/format_1919>)
+
+# Class: <http://edamontology.org/format_2554> (Alignment format (text))
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_2554> "Alignment format (text)")
+SubClassOf(<http://edamontology.org/format_2554> <http://edamontology.org/format_1921>)
+
+# Class: <http://edamontology.org/format_3033> (Matrix format)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_3033> "Matrix format")
+SubClassOf(<http://edamontology.org/format_3033> <http://edamontology.org/format_2350>)
+SubClassOf(<http://edamontology.org/format_3033> ObjectSomeValuesFrom(<http://edamontology.org/is_format_of> <http://edamontology.org/data_2082>))
+
+# Class: <http://edamontology.org/format_3915> (Zarr)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_3915> "Zarr")
+SubClassOf(<http://edamontology.org/format_3915> <http://edamontology.org/format_2058>)
+SubClassOf(<http://edamontology.org/format_3915> <http://edamontology.org/format_2333>)
+SubClassOf(<http://edamontology.org/format_3915> <http://edamontology.org/format_3033>)
+SubClassOf(<http://edamontology.org/format_3915> ObjectSomeValuesFrom(<http://edamontology.org/is_format_of> <http://edamontology.org/data_2535>))
+SubClassOf(<http://edamontology.org/format_3915> ObjectSomeValuesFrom(<http://edamontology.org/is_format_of> <http://edamontology.org/data_3112>))
+
+# Class: <http://edamontology.org/operation_0004> (Operation)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://edamontology.org/operation_0004> "sumo:Function")
+AnnotationAssertion(rdfs:label <http://edamontology.org/operation_0004> "Operation")
+DisjointClasses(<http://edamontology.org/operation_0004> <http://edamontology.org/topic_0003>)
+
+# Class: <http://edamontology.org/topic_0003> (Topic)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://edamontology.org/topic_0003> "sumo:FieldOfStudy")
+AnnotationAssertion(rdfs:label <http://edamontology.org/topic_0003> "Topic")
+
+# Class: <http://edamontology.org/topic_0080> (Sequence analysis)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/topic_0080> "Sequence analysis")
+SubClassOf(<http://edamontology.org/topic_0080> <http://edamontology.org/topic_3307>)
+
+# Class: <http://edamontology.org/topic_0203> (Gene expression)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/topic_0203> "Expression")
+AnnotationAssertion(rdfs:label <http://edamontology.org/topic_0203> "Gene expression")
+SubClassOf(<http://edamontology.org/topic_0203> <http://edamontology.org/topic_3321>)
+
+# Class: <http://edamontology.org/topic_3053> (Genetics)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/topic_3053> "Genetics")
+SubClassOf(<http://edamontology.org/topic_3053> <http://edamontology.org/topic_3070>)
+
+# Class: <http://edamontology.org/topic_3070> (Biology)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/topic_3070> "Biological science")
+AnnotationAssertion(rdfs:label <http://edamontology.org/topic_3070> "Biology")
+SubClassOf(<http://edamontology.org/topic_3070> <http://edamontology.org/topic_4019>)
+
+# Class: <http://edamontology.org/topic_3307> (Computational biology)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/topic_3307> "Computational biology")
+SubClassOf(<http://edamontology.org/topic_3307> <http://edamontology.org/topic_4019>)
+
+# Class: <http://edamontology.org/topic_3321> (Molecular genetics)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/topic_3321> "Molecular genetics")
+SubClassOf(<http://edamontology.org/topic_3321> <http://edamontology.org/topic_3053>)
+SubClassOf(<http://edamontology.org/topic_3321> <http://edamontology.org/topic_3307>)
+
+# Class: <http://edamontology.org/topic_4019> (Biosciences)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://edamontology.org/topic_4019> "Life sciences")
+AnnotationAssertion(rdfs:label <http://edamontology.org/topic_4019> "Biosciences")
+SubClassOf(<http://edamontology.org/topic_4019> <http://edamontology.org/topic_0003>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://edamontology.org> (<http://edamontology.org>)
+
+ObjectPropertyAssertion(<http://edamontology.org/has_format> <http://edamontology.org> <http://edamontology.org/format_2197>)
+ObjectPropertyAssertion(<http://edamontology.org/has_format> <http://edamontology.org> <http://edamontology.org/format_3261>)
+
+# Individual: <http://edamontology.org/format_2197> (OWL format)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_2197> "OWL format")
+
+# Individual: <http://edamontology.org/format_3261> (RDF/XML)
+
+AnnotationAssertion(rdfs:label <http://edamontology.org/format_3261> "RDF/XML")
+
+
+)

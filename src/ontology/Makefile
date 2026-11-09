@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                aa7bedb00fcb5ed03b714e1125b12b31f789059ca6d913c0a6d24ac484154066
+CONFIG_HASH=                0f4a7dbc9642734d1474106f7f227f990600e0cfa79137c97ce2f044152d1cae
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  uberon ncit ncbitaxon ro pato omo obi iao cob stato mco chebi sio
+IMPORTS =  uberon ncit ncbitaxon ro pato omo obi iao cob stato mco chebi edam
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -573,11 +573,11 @@ mirror-chebi: | $(TMPDIR)
 endif
 
 
-## ONTOLOGY: sio
-.PHONY: mirror-sio
-.PRECIOUS: $(MIRRORDIR)/sio.owl
-mirror-sio: | $(TMPDIR)
-	$(ROBOT) convert -I http://semanticscience.org/ontology/sio.owl -o $(TMPDIR)/$@.owl
+## ONTOLOGY: edam
+.PHONY: mirror-edam
+.PRECIOUS: $(MIRRORDIR)/edam.owl
+mirror-edam: | $(TMPDIR)
+	$(ROBOT) convert -I https://edamontology.org/EDAM.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

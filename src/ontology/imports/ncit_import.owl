@@ -68,6 +68,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C32221>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C41009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C42645>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C42677>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C42698>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C42699>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C43431>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C43578>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C44170>))
@@ -440,6 +442,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C42645> <http://purl.obolibrary.
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C42677> "Direction")
 SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C42677> <http://purl.obolibrary.org/obo/NCIT_C73706>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C42698> (Terminology Entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C42698> "Terminology Entity")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C42698> <http://purl.obolibrary.org/obo/NCIT_C20181>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C42699> (Namespace)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C42699> "Namespace")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C42699> <http://purl.obolibrary.org/obo/NCIT_C42698>)
 
 # Class: <http://purl.obolibrary.org/obo/NCIT_C43431> (Activity)
 
