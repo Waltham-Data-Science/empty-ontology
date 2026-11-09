@@ -13,7 +13,7 @@
     <uri name="http://purl.obolibrary.org/obo/empty/imports/stato_import.owl" uri="imports/stato_import.owl" />
     <uri name="http://purl.obolibrary.org/obo/empty/imports/mco_import.owl" uri="imports/mco_import.owl" />
     <uri name="http://purl.obolibrary.org/obo/empty/imports/chebi_import.owl" uri="imports/chebi_import.owl" />
-    <uri name="http://purl.obolibrary.org/obo/empty/imports/sio_import.owl" uri="imports/sio_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/empty/imports/edam_import.owl" uri="imports/edam_import.owl" />
   </group>
   <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public">
 

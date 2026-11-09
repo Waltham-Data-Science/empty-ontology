@@ -28,10 +28,10 @@ import_group:
     - id: chebi
       is_large: true
       mirror_from: http://purl.obolibrary.org/obo/chebi/chebi_lite.owl
-    - id: sio
-      mirror_from: http://semanticscience.org/ontology/sio.owl
+    - id: edam
+      mirror_from: https://edamontology.org/EDAM.owl
       base_iris:
-        - http://semanticscience.org/resource/SIO_
+        - http://edamontology.org/
 id_ranges:
   - name: "Main Editor"
     start: 1
