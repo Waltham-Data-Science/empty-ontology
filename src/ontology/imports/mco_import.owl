@@ -1,0 +1,358 @@
+Prefix(:=<http://purl.obolibrary.org/obo/empty/imports/mco_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/empty/imports/mco_import.owl>
+<http://purl.obolibrary.org/obo/empty/releases/2026-11-09/imports/mco_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/mco/releases/2019-05-15/mco.owl>)
+Annotation(owl:versionInfo "2026-11-09")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MCO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MCO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MCO_0000059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MCO_0000077>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MCO_0000894>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MICRO_0000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MICRO_0000562>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1224>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1236>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_131567>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_543>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_561>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_562>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_83333>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91347>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C120538>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C14250>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000079>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMP_0007167>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001241>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001291>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001300>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001739>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/omit.owl/MCO_0000867>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ncbitaxon#blast_name>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ncbitaxon#common_name>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ncbitaxon#in_part>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ncbitaxon#misspelling>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ncbitaxon#synonym>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "textual definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/ncbitaxon#blast_name> (<http://purl.obolibrary.org/obo/ncbitaxon#blast_name>)
+
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/ncbitaxon#blast_name> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/ncbitaxon#common_name> (<http://purl.obolibrary.org/obo/ncbitaxon#common_name>)
+
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/ncbitaxon#common_name> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name> (<http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>)
+
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name> (<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>)
+
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/ncbitaxon#in_part> (<http://purl.obolibrary.org/obo/ncbitaxon#in_part>)
+
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/ncbitaxon#in_part> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/ncbitaxon#misspelling> (<http://purl.obolibrary.org/obo/ncbitaxon#misspelling>)
+
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/ncbitaxon#misspelling> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/ncbitaxon#synonym> (<http://purl.obolibrary.org/obo/ncbitaxon#synonym>)
+
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/ncbitaxon#synonym> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has exact synonym)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has exact synonym")
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> (has_related_synonym)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "has_related_synonym")
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/omit.owl/MCO_0000867> (is rich medium for)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/omit.owl/MCO_0000867> "a relation between a culture medium and an organism, in which the medium contains all the elements that the specific organism needs for growth and is non-selective, so it is used for the general cultivation and maintenance of the organism kept in laboratory culture collections")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/omit.owl/MCO_0000867> "is rich medium for"@en)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/omit.owl/MCO_0000867> <http://purl.obolibrary.org/obo/OBI_0000079>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/omit.owl/MCO_0000867> <http://purl.obolibrary.org/obo/NCIT_C14250>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000001> (entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000001> "entity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000002> "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000002> "continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/BFO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000004> (independent continuant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000004> "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000004> "independent continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000002>)
+DisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000020>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000019> (quality)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000019> "quality"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000019> <http://purl.obolibrary.org/obo/BFO_0000020>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000020> (specifically dependent continuant)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000020> "specifically dependent continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000030> (object)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000030> "object"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000030> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000040> "An independent continuant  that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000040> "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/MCO_0000015> (artificial medium)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MCO_0000015> "a culture medium made specifically for the grow, storage, isolation, identification or transportation of microorganisms.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MCO_0000015> "artificial medium"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/MCO_0000015> <http://purl.obolibrary.org/obo/OBI_0000079>)
+
+# Class: <http://purl.obolibrary.org/obo/MCO_0000030> (LB medium, Lennox)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MCO_0000030> "LB medium, Lennox"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/MCO_0000030> <http://purl.obolibrary.org/obo/MICRO_0000562>)
+
+# Class: <http://purl.obolibrary.org/obo/MCO_0000059> (OD600)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MCO_0000059> "an optical density that specifies the amount of light of 600 nm of wavelenght the bearer is able to transmit")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MCO_0000059> "OD600"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/MCO_0000059> <http://purl.obolibrary.org/obo/MCO_0000077>)
+
+# Class: <http://purl.obolibrary.org/obo/MCO_0000077> (optical density)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MCO_0000077> "A physical quality that inheres in a bearer by virtue of the amount of light that the bearer of the quality is able to transmit")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MCO_0000077> "optical density"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/MCO_0000077> <http://purl.obolibrary.org/obo/PATO_0001300>)
+
+# Class: <http://purl.obolibrary.org/obo/MCO_0000894> (biological entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MCO_0000894> "A biological entity is a heterogeneous substance that contains genomic material or is the product of a biological process.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MCO_0000894> "biological entity")
+SubClassOf(<http://purl.obolibrary.org/obo/MCO_0000894> <http://purl.obolibrary.org/obo/BFO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/MICRO_0000067> (microbiological culture medium)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MICRO_0000067> "microbiological culture medium")
+SubClassOf(<http://purl.obolibrary.org/obo/MICRO_0000067> <http://purl.obolibrary.org/obo/MCO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/MICRO_0000562> (LB medium)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MICRO_0000562> "LB medium")
+SubClassOf(<http://purl.obolibrary.org/obo/MICRO_0000562> <http://purl.obolibrary.org/obo/MICRO_0000067>)
+SubClassOf(<http://purl.obolibrary.org/obo/MICRO_0000562> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/omit.owl/MCO_0000867> <http://purl.obolibrary.org/obo/NCBITaxon_83333>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_1224> (Proteobacteria)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1224> "purple bacteria")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1224> "purple bacteria and relatives")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1224> "purple non-sulfur bacteria")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1224> "purple photosynthetic bacteria")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1224> "purple photosynthetic bacteria and relatives")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1224> "Alphaproteobacteraeota")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1224> "proteobacteria")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_1224> "Proteobacteria")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1224> <http://purl.obolibrary.org/obo/NCBITaxon_2>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_1236> (Gammaproteobacteria)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1236> "Proteobacteria gamma subdivision")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1236> "Purple bacteria, gamma subdivision")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1236> "g-proteobacteria")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1236> "gamma proteobacteria")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1236> "gamma subdivision")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_1236> "gamma subgroup")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_1236> "Gammaproteobacteria")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1236> <http://purl.obolibrary.org/obo/NCBITaxon_1224>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_131567> (cellular organisms)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_131567> "biota")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_131567> "cellular organisms")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_131567> <http://purl.obolibrary.org/obo/NCIT_C14250>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_2> (Bacteria <prokaryote>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2> "Bacteria")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2> "eubacteria")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2> "Monera")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2> "Procaryotae")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2> "Prokaryota")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2> "Prokaryotae")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2> "bacteria")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2> "not Bacteria Haeckel 1894")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2> "prokaryote")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_2> "prokaryotes")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_2> "Bacteria")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_2> "Bacteria <prokaryote>")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_2> <http://purl.obolibrary.org/obo/NCBITaxon_131567>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_543> (Enterobacteriaceae)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_543> "Enterobacteraceae")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_543> "gamma-3 proteobacteria")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_543> "Enterobacteriaceae")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_543> <http://purl.obolibrary.org/obo/NCBITaxon_91347>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_561> (Escherichia)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#misspelling>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_561> "Escherchia")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_561> "Escherichia")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_561> <http://purl.obolibrary.org/obo/NCBITaxon_543>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_562> (Escherichia coli)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_562> "E. coli")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_562> "Escherichia/Shigella coli")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_562> "Bacillus coli")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_562> "Bacterium coli")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_562> "Bacterium coli commune")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_562> "Enterococcus coli")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#misspelling>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_562> "Escherchia coli")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#misspelling>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_562> "Eschericia coli")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_562> "Escherichia coli")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_562> <http://purl.obolibrary.org/obo/NCBITaxon_561>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_83333> (Escherichia coli K-12)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_83333> "Escherichia coli K12")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_83333> "Escherichia coli K-12")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_83333> <http://purl.obolibrary.org/obo/NCBITaxon_562>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_91347> (Enterobacterales)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_91347> "Enterobacteriaceae and related endosymbionts")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_91347> "Enterobacteriaceae group")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_91347> "Enterobacteriales")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_91347> "enterobacteria")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_91347> "gamma-3 proteobacteria")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_91347> "Enterobacterales")
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_91347> <http://purl.obolibrary.org/obo/NCBITaxon_1236>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C120538> (cell density)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C120538> "cell density")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C120538> <http://purl.obolibrary.org/obo/OMP_0007167>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C14250> (Organism)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C14250> "Organism")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C14250> <http://purl.obolibrary.org/obo/MCO_0000894>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000047> (processed material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000047> "Is a material entity that is created or changed during material processing."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000047> "processed material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000047> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000079> (culture medium)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000079> "a processed material that provides the needed nourishment for microorganisms or cells grown in vitro.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000079> "culture medium"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000079> <http://purl.obolibrary.org/obo/OBI_0000047>)
+
+# Class: <http://purl.obolibrary.org/obo/OMP_0007167> (population growth phenotype)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMP_0007167> "population growth phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/OMP_0007167> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0001018> (physical quality)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PATO_0001018> "relational physical quality")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0001018> "physical quality")
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001018> <http://purl.obolibrary.org/obo/PATO_0001241>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0001241> (physical object quality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0001241> "A quality which inheres in a continuant.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PATO_0001241> "monadic quality of a continuant")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PATO_0001241> "multiply inhering quality of a physical entity")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PATO_0001241> "quality of a continuant")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PATO_0001241> "quality of a single physical entity")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PATO_0001241> "quality of an object")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/PATO_0001241> "quality of continuant")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0001241> "physical object quality")
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001241> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0001291> (electromagnetic (EM) radiation quality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0001291> "A physical quality that inheres in an bearer by virtue of how that bearer interacts with electromagnetic radiation.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0001291> "electromagnetic (EM) radiation quality")
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001291> <http://purl.obolibrary.org/obo/PATO_0001739>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0001300> (optical quality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0001300> "An EM radiation quality in which the EM radiation is within the fiat range of the spectrum visible deemed to be light.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0001300> "optical quality")
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001300> <http://purl.obolibrary.org/obo/PATO_0001291>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0001739> (radiation quality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0001739> "A quality that inheres in an bearer by virtue of how that bearer interacts with radiation.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0001739> "radiation quality")
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001739> <http://purl.obolibrary.org/obo/PATO_0001018>)
+
+
+)

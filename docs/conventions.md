@@ -140,3 +140,29 @@ added on 2026-10-22: EMPTY:0000378–0000382 and EMPTY:0000386.
 - Characteristics are declared as axioms. For example, EMPTY:0000380 *paired with* is
   `SymmetricObjectProperty`.
 - No domain or range has been declared so far.
+
+## 9. External parents are imported
+
+Every external parent is listed in its ontology's import term file. When a term's superclass
+comes from another ontology, that class is listed in `src/ontology/imports/<ont>_terms.txt`,
+and the ontology is in the `import_group` of `src/ontology/empty-odk.yaml`, so the ODK import
+module brings in its label and its place in that ontology. When an ontology has no import yet,
+add it to `empty-odk.yaml` and create its term file (did-schema issue #116; Jess Haley,
+2026-11-09).
+
+- A term file lists one term per line, as a CURIE (`NCIT:C61406`), or as a full IRI for an
+  ontology outside the OBO library (`http://edamontology.org/format_3915` in
+  `edam_terms.txt`). The parent in the edit file uses the same IRI, the ontology's own: EDAM's
+  is `http://edamontology.org/format_NNNN`, not `obo:format_NNNN`.
+- An ontology outside the OBO library is imported from its own URL with `mirror_from`, and its
+  `base_iris` names its IRI prefix (EDAM in `empty-odk.yaml`).
+- The import modules (`src/ontology/imports/<ont>_import.owl`) are made by the ODK, never by
+  hand. The QC workflow does not rebuild them. After changing a term file or the import group,
+  run the *Refresh imports* workflow (`.github/workflows/refresh-imports.yml`) on the branch,
+  with the ids of the changed imports. It runs `odk.py update` and `make refresh-<id>` in the
+  ODK container and commits the result to that branch.
+- An ontology whose import makes the reasoner infer something false is not imported; the term
+  takes a parent from another ontology. SIO was removed for this reason on 2026-11-09: its
+  reflexive sub-properties of *is related to* (domain *entity*) make every class an SIO
+  *entity*, so EMPTY:0000436 and EMPTY:0000437 moved from SIO namespace (SIO:000067) to NCIT
+  Namespace (NCIT:C42699) (Jess Haley, 2026-11-09, PR #43).
