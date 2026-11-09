@@ -1,0 +1,127 @@
+Prefix(:=<http://purl.obolibrary.org/obo/empty/imports/sio_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/empty/imports/sio_import.owl>
+<http://purl.obolibrary.org/obo/empty/releases/2026-11-09/imports/sio_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://semanticscience.org/ontology/sio/v1.62/sio-release.owl>)
+Annotation(owl:versionInfo "2026-11-09")
+
+Declaration(Class(<http://semanticscience.org/resource/SIO_000000>))
+Declaration(Class(<http://semanticscience.org/resource/SIO_000015>))
+Declaration(Class(<http://semanticscience.org/resource/SIO_000067>))
+Declaration(Class(<http://semanticscience.org/resource/SIO_000602>))
+Declaration(Class(<http://semanticscience.org/resource/SIO_000776>))
+Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000001>))
+Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000028>))
+Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000061>))
+Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000068>))
+Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000145>))
+Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000322>))
+Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000325>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://semanticscience.org/resource/SIO_000001> (is related to)
+
+AnnotationAssertion(<http://purl.org/dc/terms/description> <http://semanticscience.org/resource/SIO_000001> "A is related to B iff there is some relation between A and B."@en)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000001> "is related to"@en)
+SymmetricObjectProperty(<http://semanticscience.org/resource/SIO_000001>)
+ObjectPropertyDomain(<http://semanticscience.org/resource/SIO_000001> <http://semanticscience.org/resource/SIO_000000>)
+ObjectPropertyRange(<http://semanticscience.org/resource/SIO_000001> <http://semanticscience.org/resource/SIO_000000>)
+
+# Object Property: <http://semanticscience.org/resource/SIO_000028> (has part)
+
+AnnotationAssertion(<http://purl.org/dc/terms/description> <http://semanticscience.org/resource/SIO_000028> "has part is a transitive, reflexive and antisymmetric relation between a whole and itself or a whole and its part."@en)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000028> "has part"@en)
+SubObjectPropertyOf(<http://semanticscience.org/resource/SIO_000028> <http://semanticscience.org/resource/SIO_000145>)
+InverseObjectProperties(<http://semanticscience.org/resource/SIO_000028> <http://semanticscience.org/resource/SIO_000068>)
+TransitiveObjectProperty(<http://semanticscience.org/resource/SIO_000028>)
+ReflexiveObjectProperty(<http://semanticscience.org/resource/SIO_000028>)
+
+# Object Property: <http://semanticscience.org/resource/SIO_000061> (is located in)
+
+AnnotationAssertion(<http://purl.org/dc/terms/description> <http://semanticscience.org/resource/SIO_000061> "A is located in B iff the spatialtemporial region occupied by A is part of the spatialtemporal region occupied by B. [T][R]"@en)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000061> "is located in"@en)
+SubObjectPropertyOf(<http://semanticscience.org/resource/SIO_000061> <http://semanticscience.org/resource/SIO_000322>)
+InverseObjectProperties(<http://semanticscience.org/resource/SIO_000061> <http://semanticscience.org/resource/SIO_000145>)
+TransitiveObjectProperty(<http://semanticscience.org/resource/SIO_000061>)
+
+# Object Property: <http://semanticscience.org/resource/SIO_000068> (is part of)
+
+AnnotationAssertion(<http://purl.org/dc/terms/description> <http://semanticscience.org/resource/SIO_000068> "is part of is a transitive, reflexive and anti-symmetric mereological relation between a whole and itself or a part and its whole."@en)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000068> "is part of"@en)
+SubObjectPropertyOf(<http://semanticscience.org/resource/SIO_000068> <http://semanticscience.org/resource/SIO_000061>)
+TransitiveObjectProperty(<http://semanticscience.org/resource/SIO_000068>)
+ReflexiveObjectProperty(<http://semanticscience.org/resource/SIO_000068>)
+
+# Object Property: <http://semanticscience.org/resource/SIO_000145> (is location of)
+
+AnnotationAssertion(<http://purl.org/dc/terms/description> <http://semanticscience.org/resource/SIO_000145> "A is location of B iff the spatialtemporal region occupied by A has the spatialtemporal region occupied by B as a part. [T][R]"@en)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000145> "is location of"@en)
+SubObjectPropertyOf(<http://semanticscience.org/resource/SIO_000145> <http://semanticscience.org/resource/SIO_000322>)
+TransitiveObjectProperty(<http://semanticscience.org/resource/SIO_000145>)
+
+# Object Property: <http://semanticscience.org/resource/SIO_000322> (is spatiotemporally related to)
+
+AnnotationAssertion(<http://purl.org/dc/terms/description> <http://semanticscience.org/resource/SIO_000322> "A is spatiotemporally related to B iff A is in the spatial or temporal vicinity of B"@en)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000322> "is spatiotemporally related to"@en)
+SubObjectPropertyOf(<http://semanticscience.org/resource/SIO_000322> <http://semanticscience.org/resource/SIO_000001>)
+SymmetricObjectProperty(<http://semanticscience.org/resource/SIO_000322>)
+
+# Object Property: <http://semanticscience.org/resource/SIO_000325> (overlaps with)
+
+AnnotationAssertion(<http://purl.org/dc/terms/description> <http://semanticscience.org/resource/SIO_000325> "A overlaps with B iff there is some C that is part of both A and B. [S][R]"@en)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000325> "overlaps with"@en)
+SubObjectPropertyOf(<http://semanticscience.org/resource/SIO_000325> <http://semanticscience.org/resource/SIO_000322>)
+SymmetricObjectProperty(<http://semanticscience.org/resource/SIO_000325>)
+ReflexiveObjectProperty(<http://semanticscience.org/resource/SIO_000325>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://semanticscience.org/resource/SIO_000000> (entity)
+
+AnnotationAssertion(<http://purl.org/dc/terms/description> <http://semanticscience.org/resource/SIO_000000> "Every thing is an entity."@en)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000000> "entity"@en)
+
+# Class: <http://semanticscience.org/resource/SIO_000015> (information content entity)
+
+AnnotationAssertion(<http://purl.org/dc/terms/description> <http://semanticscience.org/resource/SIO_000015> "information content entity is an object that requires some background knowledge or procedure to correctly interpret."@en)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000015> "information content entity"@en)
+SubClassOf(<http://semanticscience.org/resource/SIO_000015> <http://semanticscience.org/resource/SIO_000776>)
+
+# Class: <http://semanticscience.org/resource/SIO_000067> (namespace)
+
+AnnotationAssertion(<http://purl.org/dc/terms/description> <http://semanticscience.org/resource/SIO_000067> "A namespace is an informational entity that defines a logical container for a set of symbols or identifiers."@en)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000067> "namespace"@en)
+SubClassOf(<http://semanticscience.org/resource/SIO_000067> <http://semanticscience.org/resource/SIO_000602>)
+
+# Class: <http://semanticscience.org/resource/SIO_000602> (computational entity)
+
+AnnotationAssertion(<http://purl.org/dc/terms/description> <http://semanticscience.org/resource/SIO_000602> "A computational entity is an information content entity operated on using some computational system."@en)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000602> "computational entity"@en)
+SubClassOf(<http://semanticscience.org/resource/SIO_000602> <http://semanticscience.org/resource/SIO_000015>)
+
+# Class: <http://semanticscience.org/resource/SIO_000776> (object)
+
+AnnotationAssertion(<http://purl.org/dc/terms/description> <http://semanticscience.org/resource/SIO_000776> "An object is an entity that is wholly identifiable at any instant of time during which it exists."@en)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000776> "object"@en)
+SubClassOf(<http://semanticscience.org/resource/SIO_000776> <http://semanticscience.org/resource/SIO_000000>)
+
+
+SubObjectPropertyOf(ObjectPropertyChain(<http://semanticscience.org/resource/SIO_000325> <http://semanticscience.org/resource/SIO_000068>) <http://semanticscience.org/resource/SIO_000325>)
+)
