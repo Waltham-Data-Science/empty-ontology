@@ -140,3 +140,29 @@ added on 2026-10-22: EMPTY:0000378–0000382 and EMPTY:0000386.
 - Characteristics are declared as axioms. For example, EMPTY:0000380 *paired with* is
   `SymmetricObjectProperty`.
 - No domain or range has been declared so far.
+
+## 9. External parents are imported
+
+Every external parent is listed in its ontology's import term file. When a term's superclass
+comes from another ontology, that class is listed in `src/ontology/imports/<ont>_terms.txt`,
+and the ontology is in the `import_group` of `src/ontology/empty-odk.yaml`, so the ODK import
+module brings in its label and its place in that ontology. When an ontology has no import yet,
+add it to `empty-odk.yaml` and create its term file (did-schema issue #116; Jess Haley,
+2026-11-09).
+
+- A term file lists one term per line, as a CURIE (`NCIT:C61406`), or as a full IRI for an
+  ontology outside the OBO library (`http://semanticscience.org/resource/SIO_000067` in
+  `sio_terms.txt`).
+- An ontology outside the OBO library is imported from its own URL with `mirror_from`, and its
+  `base_iris` names its IRI prefix (SIO in `empty-odk.yaml`).
+- The import modules (`src/ontology/imports/<ont>_import.owl`) are made by the ODK, never by
+  hand. The QC workflow does not rebuild them. After changing a term file or the import group,
+  run the *Refresh imports* workflow (`.github/workflows/refresh-imports.yml`) on the branch,
+  with the ids of the changed imports. It runs `odk.py update` and `make refresh-<id>` in the
+  ODK container and commits the result to that branch.
+
+*Not yet followed everywhere:* four EDAM parents (format_1915, format_1929, format_2333 and
+format_3915, under EMPTY:0000315, 0000253, 0000367 and 0000259) are written
+`obo:format_NNNN`, that is `http://purl.obolibrary.org/obo/format_NNNN`, which is not an EDAM
+IRI (EDAM's is `http://edamontology.org/format_NNNN`) and does not resolve. EDAM has no import
+until those IRIs are corrected.

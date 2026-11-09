@@ -1,0 +1,81 @@
+# Regenerate ODK import modules and commit them back to the branch the
+# workflow was dispatched on.
+#
+# The QC workflow (qc.yml) runs with IMP=false, so it never rebuilds an
+# import module. Run this one after changing an imports/<ont>_terms.txt file
+# or the import_group in empty-odk.yaml.
+
+name: Refresh imports
+
+on:
+  workflow_dispatch:
+    inputs:
+      imports:
+        description: "Space-separated import ids to refresh (e.g. 'ncit pato sio'); each runs 'make refresh-<id>'"
+        required: true
+        type: string
+      update_repo:
+        description: "Run 'odk.py update' first (needed after adding or removing an import in empty-odk.yaml)"
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  refresh_imports:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.6
+    timeout-minutes: 300
+    env:
+      ROBOT_JAVA_ARGS: -Xmx12G
+      JAVA_OPTS: -Xmx12G
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Trust the checkout
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+      - name: Update the ODK-managed files from empty-odk.yaml
+        if: ${{ inputs.update_repo }}
+        working-directory: src/ontology
+        run: |
+          odk.py update
+          # odk.py update also rewrites the workflow files from ODK's
+          # templates; this repository keeps its own (qc.yml runs on V2).
+          git checkout -- ../../.github
+          git status --short
+
+      - name: Refresh the import modules
+        working-directory: src/ontology
+        env:
+          IMPORTS: ${{ inputs.imports }}
+        run: |
+          set -e
+          for imp in $IMPORTS; do
+            echo "::group::make refresh-$imp"
+            make refresh-$imp
+            echo "::endgroup::"
+          done
+
+      - name: Commit the regenerated files
+        env:
+          BRANCH: ${{ github.ref_name }}
+          IMPORTS: ${{ inputs.imports }}
+        run: |
+          set -e
+          git status --short
+          git add src/ontology/Makefile src/ontology/catalog-v001.xml \
+                  src/ontology/empty-edit.owl src/ontology/imports
+          git diff --cached --stat
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email= \
+              commit -m "Refresh imports: $IMPORTS (ODK v1.6, run ${GITHUB_RUN_ID})"
+          git push origin "HEAD:$BRANCH"

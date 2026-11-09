@@ -21,6 +21,17 @@ import_group:
     - id: pato
     - id: omo
     - id: obi
+    - id: iao
+    - id: cob
+    - id: stato
+    - id: mco
+    - id: chebi
+      is_large: true
+      mirror_from: http://purl.obolibrary.org/obo/chebi/chebi_lite.owl
+    - id: sio
+      mirror_from: http://semanticscience.org/ontology/sio.owl
+      base_iris:
+        - http://semanticscience.org/resource/SIO_
 id_ranges:
   - name: "Main Editor"
     start: 1
