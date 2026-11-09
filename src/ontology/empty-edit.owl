@@ -467,6 +467,7 @@ Declaration(Class(obo:EMPTY_0000435))
 Declaration(Class(obo:EMPTY_0000436))
 Declaration(Class(obo:EMPTY_0000437))
 Declaration(Class(obo:EMPTY_0000438))
+Declaration(Class(obo:EMPTY_0000439))
 Declaration(Class(obo:MCO_0000030))
 Declaration(Class(obo:MCO_0000059))
 Declaration(Class(obo:NCBITaxon_637912))
@@ -3907,5 +3908,11 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000438 "The value variable of a migrated spatial transcriptomics count, for a v1 geneExpression whose count_type is UMI (did-schema did_v2_spatial_transcriptomics_plan.md [UMI count term], Jess Haley, 2026-11-07, \"4. Ok\"); a v1 count_type other than UMI stays carried as v1. No exact match found (OLS4, 2026-11-07; queries unique molecular identifier count, UMI count): the hits are EFO Smart-seq3 (EFO:0022488) and EFO spatial transcriptomics data processing protocol (EFO:0023013), an assay and a protocol. No parent: none was decided (written like EMPTY:0000435).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000438 "unique molecular identifier count"@en)
 
+
+# Class: obo:EMPTY_0000439 (capture spot)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000439 "A region of a spatial transcriptomics array whose capture probes share one spatial barcode.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000439 "What a migrated spatial transcriptomics cell's capture spot count counts: v1 spatialGeneExpressionCells cells.tsv `dnb_count` (a Stereo-seq DNA nanoball; a 10x Visium spot is the same kind of thing) (did-schema did_v2_spatial_transcriptomics_plan.md [cell table terms], Jess Haley, 2026-11-09, \"the batch looked good though\"). No exact match found (OLS4, 2026-11-09; queries capture spot, DNA nanoball, array spot, capture area, spot, barcoded spot, in EFO, OBI, NCIT, EDAM, SIO and GENEPIO; and a web search): the nearest are EFO's microarray reporter classes (e.g. EFO:0005079 spotted single stranded oligo reporter) and the Stereo-seq assay (EFO:0920125). No parent: none was decided (written like EMPTY:0000435).")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000439 "capture spot"@en)
 
 )
