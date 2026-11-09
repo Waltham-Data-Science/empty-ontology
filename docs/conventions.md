@@ -116,7 +116,7 @@ A term is never deleted, and its id is never reused. To make a term obsolete:
 - keep the definition, and drop the superclasses and synonyms.
 
 For example, EMPTY:0000140 *obsolete encounter onset time* has
-`oboInOwl:consider "EMPTY:0000368"`. All 121 obsolete terms follow this pattern. When no term
+`oboInOwl:consider "EMPTY:0000368"`. All 122 obsolete terms follow this pattern. When no term
 replaces an obsolete term, it has no `consider`, and its comment starts "Obsolete: no replacing
 term;" and says where the meaning now lives (for example EMPTY:0000058 and the grouping classes
 made obsolete on 2026-11-01).
