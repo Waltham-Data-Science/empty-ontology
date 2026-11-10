@@ -538,6 +538,7 @@ Declaration(ObjectProperty(obo:EMPTY_0000380))
 Declaration(ObjectProperty(obo:EMPTY_0000381))
 Declaration(ObjectProperty(obo:EMPTY_0000382))
 Declaration(ObjectProperty(obo:EMPTY_0000386))
+Declaration(ObjectProperty(obo:EMPTY_0000440))
 Declaration(AnnotationProperty(obo:OMO_0003000))
 Declaration(AnnotationProperty(obo:OMO_0003008))
 Declaration(AnnotationProperty(dcterms:description))
@@ -616,6 +617,12 @@ AnnotationAssertion(rdfs:label obo:EMPTY_0000382 "instance of"@en)
 AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000386 "A relation between a list of genes and a list giving each gene's ortholog in another species.")
 AnnotationAssertion(rdfs:comment obo:EMPTY_0000386 "The node of the did-schema orthologous gene mapping relation. RO:HOM0000017 (in orthology relationship with) relates genes, not gene lists, so it does not fit. No ontology relation found (OLS4, 2026-10-22; query ortholog mapping: 0 hits): NCIT Orthologous Gene (C28708) is a gene class. Source: Jess Haley, 2026-10-22, did-schema tenet audit [G6 vocabulary nodes]. Each gene pair that a mapping of this kind lists is an RO:HOM0000017 (in orthology relationship with) relationship between a gene of the first list and a gene of the second; the mapping records its pairs as a value, not as one relation per pair (Jess Haley, 2026-11-01, did-schema [no per-pair orthology variable]).")
 AnnotationAssertion(rdfs:label obo:EMPTY_0000386 "orthologous gene mapping"@en)
+
+# Object Property: obo:EMPTY_0000440 (temporally aligned with)
+
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000440 "A relation between two time references in which the times of the first are mapped onto the times of the second by a clock alignment.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000440 "The node of the did-schema relation clock_alignment (from the timeline mapped from, input_id, to the timeline mapped to, output_id; both relative time references). Not symmetric: the mapping has a direction. No ontology relation found (OLS4, 2026-11-10, property search; queries temporally aligned with: 0 hits, clock alignment: 0 hits, time alignment: 0 hits, aligned with, temporally related to, synchronized with): RO temporally related to (RO:0002222) and its Allen relations such as simultaneous with (RO:0002082) hold between occurrents, and a time reference is not one; RO aligned with (RO:0002001) is an undefined spatial relation marked for possible obsoletion; RO is sequentially aligned with (RO:0002521) relates sequences. No parent. Source: Jess Haley, 2026-11-10 [culture and alignment nodes], did-schema did_v2_go_forward_class_audit.md.")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000440 "temporally aligned with"@en)
 
 
 
