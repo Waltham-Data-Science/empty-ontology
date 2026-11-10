@@ -99,9 +99,9 @@ A term's `rdfs:comment` records where the term came from:
 For example, EMPTY:0000359 *ethics jurisdiction*: "No ontology term found (OLS4, 2026-10-21;
 queries ethics jurisdiction, jurisdiction): … Jess Haley, 2026-10-21."
 
-*Not yet followed everywhere:* every term since EMPTY:0000354 has a comment with a date and
-either an OLS search or a cited decision, but four of them (EMPTY:0000354, 0000356–0000358) do
-not name who decided. Many earlier terms have no comment.
+*Not yet followed everywhere:* every term since EMPTY:0000354 has a comment with a date, the
+person who decided it, and either an OLS search or a cited decision. Many earlier terms have no
+comment.
 
 ## 6. Obsoletion
 
