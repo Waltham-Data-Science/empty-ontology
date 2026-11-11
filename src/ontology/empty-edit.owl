@@ -3874,18 +3874,18 @@ AnnotationAssertion(rdfs:comment obo:EMPTY_0000432 "A v2 method parameter of a c
 AnnotationAssertion(rdfs:label obo:EMPTY_0000432 "minimum embedded file overlap"@en)
 SubClassOf(obo:EMPTY_0000432 obo:NCIT_C54669)
 
-# Class: obo:EMPTY_0000433 (from trigger channel)
+# Class: obo:EMPTY_0000433 (input trigger channel)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000433 "The channel, on the acquisition system whose clock is mapped from, whose trigger events a clock alignment rule matches.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000433 "A v2 method parameter of a clock_alignment_configuration: the five are the v1 syncrule parameters number_fullpath_matches, minEmbeddedFileOverlap, daqsystem_ch1, daqsystem_ch2 and errorOnFailure; this one is v1 `daqsystem_ch1`. The two trigger-channel names follow did-schema [trigger channels named by their link] (Jess Haley, 2026-10-30). No exact match found (OLS4, 2026-11-06). Under NCIT Channel (C44170). Approved by Jess Haley, 2026-11-06 (\"Approve all five\"); did-schema did_v2_go_forward_class_audit.md [sync rule terms].")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000433 "from trigger channel"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000433 "The channel, on the input acquisition system (the one whose clock is mapped), whose trigger events a clock alignment rule matches.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000433 "A v2 method parameter of a clock_alignment_configuration: the five are the v1 syncrule parameters number_fullpath_matches, minEmbeddedFileOverlap, daqsystem_ch1, daqsystem_ch2 and errorOnFailure; this one is v1 `daqsystem_ch1`. The two trigger-channel names follow did-schema [trigger channels named by their link] (Jess Haley, 2026-10-30). Relabelled from \"from trigger channel\" by did-schema [sync configuration edges are input and output] (Jess Haley, 2026-11-10). No exact match found (OLS4, 2026-11-06). Under NCIT Channel (C44170). Approved by Jess Haley, 2026-11-06 (\"Approve all five\"); did-schema did_v2_go_forward_class_audit.md [sync rule terms].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000433 "input trigger channel"@en)
 SubClassOf(obo:EMPTY_0000433 obo:NCIT_C44170)
 
-# Class: obo:EMPTY_0000434 (to trigger channel)
+# Class: obo:EMPTY_0000434 (output trigger channel)
 
-AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000434 "The channel, on the acquisition system whose clock is mapped to, whose trigger events a clock alignment rule matches.")
-AnnotationAssertion(rdfs:comment obo:EMPTY_0000434 "A v2 method parameter of a clock_alignment_configuration: the five are the v1 syncrule parameters number_fullpath_matches, minEmbeddedFileOverlap, daqsystem_ch1, daqsystem_ch2 and errorOnFailure; this one is v1 `daqsystem_ch2`. The two trigger-channel names follow did-schema [trigger channels named by their link] (Jess Haley, 2026-10-30). No exact match found (OLS4, 2026-11-06). Under NCIT Channel (C44170). Approved by Jess Haley, 2026-11-06 (\"Approve all five\"); did-schema did_v2_go_forward_class_audit.md [sync rule terms].")
-AnnotationAssertion(rdfs:label obo:EMPTY_0000434 "to trigger channel"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:EMPTY_0000434 "The channel, on the output acquisition system (the one whose clock is mapped onto), whose trigger events a clock alignment rule matches.")
+AnnotationAssertion(rdfs:comment obo:EMPTY_0000434 "A v2 method parameter of a clock_alignment_configuration: the five are the v1 syncrule parameters number_fullpath_matches, minEmbeddedFileOverlap, daqsystem_ch1, daqsystem_ch2 and errorOnFailure; this one is v1 `daqsystem_ch2`. The two trigger-channel names follow did-schema [trigger channels named by their link] (Jess Haley, 2026-10-30). Relabelled from \"to trigger channel\" by did-schema [sync configuration edges are input and output] (Jess Haley, 2026-11-10). No exact match found (OLS4, 2026-11-06). Under NCIT Channel (C44170). Approved by Jess Haley, 2026-11-06 (\"Approve all five\"); did-schema did_v2_go_forward_class_audit.md [sync rule terms].")
+AnnotationAssertion(rdfs:label obo:EMPTY_0000434 "output trigger channel"@en)
 SubClassOf(obo:EMPTY_0000434 obo:NCIT_C44170)
 
 # Class: obo:EMPTY_0000435 (error on failure)
